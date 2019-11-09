@@ -1,0 +1,12 @@
+<map id="TiXmlNode::SetValue" name="TiXmlNode::SetValue">
+<area shape="rect" id="node2" href="$class_ti_xml_base.html#a32ed202562b58de64c7d799ca3c9db98" title="Expands entities in a string. " alt="" coords="201,107,371,133"/>
+<area shape="rect" id="node7" href="$class_ti_xml_attribute.html#a7e065df640116a62ea4f4b7da5449cc8" title="Set the value from an integer. " alt="" coords="197,204,375,231"/>
+<area shape="rect" id="node9" href="$class_ti_xml_attribute.html#a0316da31373496c4368ad549bf711394" title="Set the value from a double. " alt="" coords="201,255,371,297"/>
+<area shape="rect" id="node11" href="$class_ti_xml_text.html#af659e77c6b87d684827f35a8f4895960" title="Constructor for text element. " alt="" coords="215,321,357,348"/>
+<area shape="rect" id="node3" href="$class_ti_xml_attribute.html#a54a5f8730c7b02b9a41b74e12e27fe86" title="Get the previous sibling attribute in the DOM. Returns null at beginning. " alt="" coords="453,5,611,32"/>
+<area shape="rect" id="node4" href="$class_ti_xml_text.html#ae74d56c5b3ddec6cc3103dd51821af92" title="All TinyXml classes can print themselves to a filestream or the string class (TiXmlString in non&#45;STL ..." alt="" coords="475,56,589,83"/>
+<area shape="rect" id="node5" href="$class_ti_xml_printer.html#a0857c5d32c59b9a257f9a49cb9411df5" title="Visit a text node. " alt="" coords="469,107,595,133"/>
+<area shape="rect" id="node6" href="$class_ti_xml_base.html#ad0120210e4680ef2088601753ce0ede4" title="Get a pointer to arbitrary user data. " alt="" coords="449,157,615,184"/>
+<area shape="rect" id="node8" href="$class_ti_xml_element.html#ace6f4be75e373726d4774073d666d1a7" title="Sets an attribute of name to a given value. " alt="" coords="443,208,621,235"/>
+<area shape="rect" id="node10" href="$class_ti_xml_element.html#a0d1dd975d75496778177e35abfe0ec0b" title="Sets an attribute of name to a given value. " alt="" coords="423,263,641,289"/>
+</map>

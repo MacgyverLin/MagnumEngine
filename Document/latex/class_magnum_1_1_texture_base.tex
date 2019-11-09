@@ -1,0 +1,346 @@
+\hypertarget{class_magnum_1_1_texture_base}{}\section{Magnum\+:\+:Texture\+Base 類別 參考文件}
+\label{class_magnum_1_1_texture_base}\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+
+
+\hyperlink{class_magnum_1_1_texture_base}{Texture\+Base}.  
+
+
+
+
+{\ttfamily \#include $<$Texture\+Base.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Texture\+Base的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_texture_base__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_texture_base_a4122f02aa0446f2f3e33d8593e0af3e7}{Texture\+Base} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_texture_base}{Texture\+Base} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_texture_base_a02e6c749103f29c0ae38a33d15932eac}{$\sim$\+Texture\+Base} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_texture_base}{Texture\+Base} Destructor. \end{DoxyCompactList}\item 
+virtual void $\ast$ \hyperlink{class_magnum_1_1_texture_base_a47ee419784cb12ca283f62deb2499b1e}{get\+Handle} () const  =0
+\begin{DoxyCompactList}\small\item\em Get the Handle of the Texture. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_texture_base_a51ea88554cb238b08ff6f79c5605a53b}{get\+Width} () const  =0
+\begin{DoxyCompactList}\small\item\em Get the Width of the Texture. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_texture_base_a1a75ad18ee40238b2d6fb2105c5ce786}{get\+Height} () const  =0
+\begin{DoxyCompactList}\small\item\em Get the Height of the Texture. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_texture_base_af21b138bcc2a202a45551edbc9581022}{get\+Level\+Count} () const  =0
+\begin{DoxyCompactList}\small\item\em Get the Mipmap Level Count of the Texture. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_texture_base_a7e4d11ffd40d1a83e8838b5fc60cc4c2}{is\+Renderable} () const  =0
+\begin{DoxyCompactList}\small\item\em Check if texture is renderable. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_texture_base_ac9975783371f732b546ce5b2680f23e3}{is\+Power\+Of\+Two} () const  =0
+\begin{DoxyCompactList}\small\item\em Check if texture is power of 2 in both width and height. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_texture_base_a8aa04ad5a3fa29add142a66d46845655}{set\+Min\+Filter\+Mode} (const \hyperlink{class_magnum_1_1_g_x_texture_min_filter_mode}{G\+X\+Texture\+Min\+Filter\+Mode} \&min\+Filter\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Minification Filter of the Texture. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_texture_base_a9ee607111c487e04b9eed86e3d17c214}{set\+Mag\+Filter\+Mode} (const \hyperlink{class_magnum_1_1_g_x_texture_mag_filter_mode}{G\+X\+Texture\+Mag\+Filter\+Mode} \&mag\+Filter\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Magification Filter of the Texture. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_g_x_texture_min_filter_mode}{G\+X\+Texture\+Min\+Filter\+Mode} \& \hyperlink{class_magnum_1_1_texture_base_a6f0c58f9dc21de5f403fa1690e30d897}{get\+Min\+Filter\+Mode} () const 
+\begin{DoxyCompactList}\small\item\em Get the Minification Filter of the Texture. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_g_x_texture_mag_filter_mode}{G\+X\+Texture\+Mag\+Filter\+Mode} \& \hyperlink{class_magnum_1_1_texture_base_a468a5b6087e37705a6483fdead526985}{get\+Mag\+Filter\+Mode} () const 
+\begin{DoxyCompactList}\small\item\em Get the Magification Filter of the Texture. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_texture_base_a40f574577388529dd629ec79bc88f647}{set\+WrapS} (const \hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode} \&wrap\+S\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Warp Mode of S direction of the Texture. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode} \& \hyperlink{class_magnum_1_1_texture_base_a1becd0fa36754b6880b7dcd25742dec8}{get\+WrapS} () const 
+\begin{DoxyCompactList}\small\item\em Get the Warp Mode of S direction of the Texture. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_texture_base_ac77a15bd968e31754b5d34fd7a7385e9}{set\+WrapT} (const \hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode} \&wrap\+T\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Warp Mode of T direction of the Texture. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode} \& \hyperlink{class_magnum_1_1_texture_base_a97d035f34c47bcd49b9948eecb4e1861}{get\+WrapT} () const 
+\begin{DoxyCompactList}\small\item\em Get the Warp Mode of T direction of the Texture. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_texture_base}{Texture\+Base}. 
+
+This is the base class for all Texture 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!Texture\+Base@{Texture\+Base}}
+\index{Texture\+Base@{Texture\+Base}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{Texture\+Base()}{TextureBase()}}]{\setlength{\rightskip}{0pt plus 5cm}Texture\+Base\+::\+Texture\+Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_texture_base_a4122f02aa0446f2f3e33d8593e0af3e7}{}\label{class_magnum_1_1_texture_base_a4122f02aa0446f2f3e33d8593e0af3e7}
+
+
+\hyperlink{class_magnum_1_1_texture_base}{Texture\+Base} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_texture_base}{Texture\+Base} \index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!````~Texture\+Base@{$\sim$\+Texture\+Base}}
+\index{````~Texture\+Base@{$\sim$\+Texture\+Base}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{$\sim$\+Texture\+Base()}{~TextureBase()}}]{\setlength{\rightskip}{0pt plus 5cm}Texture\+Base\+::$\sim$\+Texture\+Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_texture_base_a02e6c749103f29c0ae38a33d15932eac}{}\label{class_magnum_1_1_texture_base_a02e6c749103f29c0ae38a33d15932eac}
+
+
+\hyperlink{class_magnum_1_1_texture_base}{Texture\+Base} Destructor. 
+
+To Destruct the \hyperlink{class_magnum_1_1_texture_base}{Texture\+Base} for the owner. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!get\+Handle@{get\+Handle}}
+\index{get\+Handle@{get\+Handle}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{get\+Handle() const  =0}{getHandle() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void$\ast$ Magnum\+::\+Texture\+Base\+::get\+Handle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_texture_base_a47ee419784cb12ca283f62deb2499b1e}{}\label{class_magnum_1_1_texture_base_a47ee419784cb12ca283f62deb2499b1e}
+
+
+Get the Handle of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+void $\ast$, handle of the texture 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_magnum_1_1_sprite_sheet_ab6cd54156419571b16fe3f2271c11488}{Magnum\+::\+Sprite\+Sheet}, \hyperlink{class_magnum_1_1_texture_cube_file_ac6c9316cf89cdc14d30b97935f5db6a4}{Magnum\+::\+Texture\+Cube\+File}, \hyperlink{class_magnum_1_1_texture2_d_file_aa241beb38e56db60cfc10ae1a6d5daf5}{Magnum\+::\+Texture2\+D\+File}, 及 \hyperlink{class_magnum_1_1_font_ae39eee8daf71d9379bb7d7fccb502442}{Magnum\+::\+Font}.
+
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!get\+Height@{get\+Height}}
+\index{get\+Height@{get\+Height}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{get\+Height() const  =0}{getHeight() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Magnum\+::\+Texture\+Base\+::get\+Height (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_texture_base_a1a75ad18ee40238b2d6fb2105c5ce786}{}\label{class_magnum_1_1_texture_base_a1a75ad18ee40238b2d6fb2105c5ce786}
+
+
+Get the Height of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+int, the Height of the Texture. 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_magnum_1_1_sprite_sheet_a72648f274827c0ace93a24f3d9ac62ec}{Magnum\+::\+Sprite\+Sheet}, \hyperlink{class_magnum_1_1_texture_cube_file_a3b52ec18a5e58a91d60e17cdeae87b76}{Magnum\+::\+Texture\+Cube\+File}, \hyperlink{class_magnum_1_1_texture2_d_file_a05e993091cc066e9fe5787aec1b54d31}{Magnum\+::\+Texture2\+D\+File}, 及 \hyperlink{class_magnum_1_1_font_a95544f5096b7b11ed4bd82e5888bf32b}{Magnum\+::\+Font}.
+
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!get\+Level\+Count@{get\+Level\+Count}}
+\index{get\+Level\+Count@{get\+Level\+Count}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{get\+Level\+Count() const  =0}{getLevelCount() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Magnum\+::\+Texture\+Base\+::get\+Level\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_texture_base_af21b138bcc2a202a45551edbc9581022}{}\label{class_magnum_1_1_texture_base_af21b138bcc2a202a45551edbc9581022}
+
+
+Get the Mipmap Level Count of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+int, the Mipmap Level Count of the Texture. 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_magnum_1_1_texture_cube_file_a8462f84eb13011491a5c87763b77d034}{Magnum\+::\+Texture\+Cube\+File}, \hyperlink{class_magnum_1_1_sprite_sheet_a2205caeee91443f55c464949ba125b68}{Magnum\+::\+Sprite\+Sheet}, \hyperlink{class_magnum_1_1_texture2_d_file_a9b8508dcda5bfcf4e46779339b1d9a32}{Magnum\+::\+Texture2\+D\+File}, 及 \hyperlink{class_magnum_1_1_font_ab31bc3961d87559fb2bec990eb2ea74e}{Magnum\+::\+Font}.
+
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!get\+Mag\+Filter\+Mode@{get\+Mag\+Filter\+Mode}}
+\index{get\+Mag\+Filter\+Mode@{get\+Mag\+Filter\+Mode}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{get\+Mag\+Filter\+Mode() const }{getMagFilterMode() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf G\+X\+Texture\+Mag\+Filter\+Mode} \& Texture\+Base\+::get\+Mag\+Filter\+Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_texture_base_a468a5b6087e37705a6483fdead526985}{}\label{class_magnum_1_1_texture_base_a468a5b6087e37705a6483fdead526985}
+
+
+Get the Magification Filter of the Texture. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_g_x_texture_mag_filter_mode}{G\+X\+Texture\+Mag\+Filter\+Mode}, the Magification Filter of the Texture 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_g_x_texture_mag_filter_mode}{G\+X\+Texture\+Mag\+Filter\+Mode} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!get\+Min\+Filter\+Mode@{get\+Min\+Filter\+Mode}}
+\index{get\+Min\+Filter\+Mode@{get\+Min\+Filter\+Mode}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{get\+Min\+Filter\+Mode() const }{getMinFilterMode() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf G\+X\+Texture\+Min\+Filter\+Mode} \& Texture\+Base\+::get\+Min\+Filter\+Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_texture_base_a6f0c58f9dc21de5f403fa1690e30d897}{}\label{class_magnum_1_1_texture_base_a6f0c58f9dc21de5f403fa1690e30d897}
+
+
+Get the Minification Filter of the Texture. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_g_x_texture_min_filter_mode}{G\+X\+Texture\+Min\+Filter\+Mode}, the Minification Filter of the Texture 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_g_x_texture_min_filter_mode}{G\+X\+Texture\+Min\+Filter\+Mode} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!get\+Width@{get\+Width}}
+\index{get\+Width@{get\+Width}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{get\+Width() const  =0}{getWidth() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Magnum\+::\+Texture\+Base\+::get\+Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_texture_base_a51ea88554cb238b08ff6f79c5605a53b}{}\label{class_magnum_1_1_texture_base_a51ea88554cb238b08ff6f79c5605a53b}
+
+
+Get the Width of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+int, the Width of the Texture. 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_magnum_1_1_sprite_sheet_aa43930a60edba5b649350d2ad98a9b0c}{Magnum\+::\+Sprite\+Sheet}, \hyperlink{class_magnum_1_1_texture_cube_file_aee51b479c3fafdc26c22f37916e7b661}{Magnum\+::\+Texture\+Cube\+File}, \hyperlink{class_magnum_1_1_texture2_d_file_a2e5f9cb55744368e5e94deb84b26b388}{Magnum\+::\+Texture2\+D\+File}, 及 \hyperlink{class_magnum_1_1_font_a29554be6eae3bf01854205b373b87d4c}{Magnum\+::\+Font}.
+
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!get\+WrapS@{get\+WrapS}}
+\index{get\+WrapS@{get\+WrapS}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{get\+Wrap\+S() const }{getWrapS() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf G\+X\+Texture\+Wrap\+Mode} \& Texture\+Base\+::get\+WrapS (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_texture_base_a1becd0fa36754b6880b7dcd25742dec8}{}\label{class_magnum_1_1_texture_base_a1becd0fa36754b6880b7dcd25742dec8}
+
+
+Get the Warp Mode of S direction of the Texture. 
+
+\begin{DoxyReturn}{傳回值}
+, \hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode}, the Warp Mode of S direction of the Texture 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!get\+WrapT@{get\+WrapT}}
+\index{get\+WrapT@{get\+WrapT}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{get\+Wrap\+T() const }{getWrapT() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf G\+X\+Texture\+Wrap\+Mode} \& Texture\+Base\+::get\+WrapT (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_texture_base_a97d035f34c47bcd49b9948eecb4e1861}{}\label{class_magnum_1_1_texture_base_a97d035f34c47bcd49b9948eecb4e1861}
+
+
+Get the Warp Mode of T direction of the Texture. 
+
+\begin{DoxyReturn}{傳回值}
+, \hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode}, the Warp Mode of T direction of the Texture 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!is\+Power\+Of\+Two@{is\+Power\+Of\+Two}}
+\index{is\+Power\+Of\+Two@{is\+Power\+Of\+Two}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{is\+Power\+Of\+Two() const  =0}{isPowerOfTwo() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Magnum\+::\+Texture\+Base\+::is\+Power\+Of\+Two (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_texture_base_ac9975783371f732b546ce5b2680f23e3}{}\label{class_magnum_1_1_texture_base_ac9975783371f732b546ce5b2680f23e3}
+
+
+Check if texture is power of 2 in both width and height. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+true if the Texture is power of 2. 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_magnum_1_1_texture_cube_file_a6284e3adf45a424cf3b96b019e51a429}{Magnum\+::\+Texture\+Cube\+File}, \hyperlink{class_magnum_1_1_texture2_d_file_a609bb7859923c2812ae03318507f1a6c}{Magnum\+::\+Texture2\+D\+File}, \hyperlink{class_magnum_1_1_sprite_sheet_a39ddb71d251b807cd0bd9e9500528528}{Magnum\+::\+Sprite\+Sheet}, 及 \hyperlink{class_magnum_1_1_font_af3cd04a5fad1746998deb5c8f2cb1553}{Magnum\+::\+Font}.
+
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!is\+Renderable@{is\+Renderable}}
+\index{is\+Renderable@{is\+Renderable}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{is\+Renderable() const  =0}{isRenderable() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Magnum\+::\+Texture\+Base\+::is\+Renderable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_texture_base_a7e4d11ffd40d1a83e8838b5fc60cc4c2}{}\label{class_magnum_1_1_texture_base_a7e4d11ffd40d1a83e8838b5fc60cc4c2}
+
+
+Check if texture is renderable. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+true if the Texture is Renderable. 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_magnum_1_1_texture_cube_file_a2fd646d33cafd772cdb08455e9dd3c9c}{Magnum\+::\+Texture\+Cube\+File}, \hyperlink{class_magnum_1_1_texture2_d_file_ab962fa37ff37401b463651dfaf08db5d}{Magnum\+::\+Texture2\+D\+File}, \hyperlink{class_magnum_1_1_sprite_sheet_a21a8d282da4e731ce42adb2dca75c2e1}{Magnum\+::\+Sprite\+Sheet}, 及 \hyperlink{class_magnum_1_1_font_a2925b8c1b04096d45cc37bcce6980599}{Magnum\+::\+Font}.
+
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!set\+Mag\+Filter\+Mode@{set\+Mag\+Filter\+Mode}}
+\index{set\+Mag\+Filter\+Mode@{set\+Mag\+Filter\+Mode}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{set\+Mag\+Filter\+Mode(const G\+X\+Texture\+Mag\+Filter\+Mode \&mag\+Filter\+\_\+)}{setMagFilterMode(const GXTextureMagFilterMode &magFilter_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Texture\+Base\+::set\+Mag\+Filter\+Mode (
+\begin{DoxyParamCaption}
+\item[{const {\bf G\+X\+Texture\+Mag\+Filter\+Mode} \&}]{mag\+Filter\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_texture_base_a9ee607111c487e04b9eed86e3d17c214}{}\label{class_magnum_1_1_texture_base_a9ee607111c487e04b9eed86e3d17c214}
+
+
+Set the Magification Filter of the Texture. 
+
+
+\begin{DoxyParams}{參數}
+{\em mag\+Filter\+\_\+,\hyperlink{class_magnum_1_1_g_x_texture_mag_filter_mode}{G\+X\+Texture\+Mag\+Filter\+Mode},the} & Magification Filter of the Texture \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_g_x_texture_mag_filter_mode}{G\+X\+Texture\+Mag\+Filter\+Mode} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!set\+Min\+Filter\+Mode@{set\+Min\+Filter\+Mode}}
+\index{set\+Min\+Filter\+Mode@{set\+Min\+Filter\+Mode}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{set\+Min\+Filter\+Mode(const G\+X\+Texture\+Min\+Filter\+Mode \&min\+Filter\+\_\+)}{setMinFilterMode(const GXTextureMinFilterMode &minFilter_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Texture\+Base\+::set\+Min\+Filter\+Mode (
+\begin{DoxyParamCaption}
+\item[{const {\bf G\+X\+Texture\+Min\+Filter\+Mode} \&}]{min\+Filter\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_texture_base_a8aa04ad5a3fa29add142a66d46845655}{}\label{class_magnum_1_1_texture_base_a8aa04ad5a3fa29add142a66d46845655}
+
+
+Set the Minification Filter of the Texture. 
+
+
+\begin{DoxyParams}{參數}
+{\em min\+Filter\+\_\+,\hyperlink{class_magnum_1_1_g_x_texture_min_filter_mode}{G\+X\+Texture\+Min\+Filter\+Mode},the} & Minification Filter of the Texture \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_g_x_texture_min_filter_mode}{G\+X\+Texture\+Min\+Filter\+Mode} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!set\+WrapS@{set\+WrapS}}
+\index{set\+WrapS@{set\+WrapS}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{set\+Wrap\+S(const G\+X\+Texture\+Wrap\+Mode \&wrap\+S\+\_\+)}{setWrapS(const GXTextureWrapMode &wrapS_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Texture\+Base\+::set\+WrapS (
+\begin{DoxyParamCaption}
+\item[{const {\bf G\+X\+Texture\+Wrap\+Mode} \&}]{wrap\+S\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_texture_base_a40f574577388529dd629ec79bc88f647}{}\label{class_magnum_1_1_texture_base_a40f574577388529dd629ec79bc88f647}
+
+
+Set the Warp Mode of S direction of the Texture. 
+
+
+\begin{DoxyParams}{參數}
+{\em wrap\+S\+\_\+,\hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode},the} & Warp Mode of S direction of the Texture \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}!set\+WrapT@{set\+WrapT}}
+\index{set\+WrapT@{set\+WrapT}!Magnum\+::\+Texture\+Base@{Magnum\+::\+Texture\+Base}}
+\subsubsection[{\texorpdfstring{set\+Wrap\+T(const G\+X\+Texture\+Wrap\+Mode \&wrap\+T\+\_\+)}{setWrapT(const GXTextureWrapMode &wrapT_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Texture\+Base\+::set\+WrapT (
+\begin{DoxyParamCaption}
+\item[{const {\bf G\+X\+Texture\+Wrap\+Mode} \&}]{wrap\+T\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_texture_base_ac77a15bd968e31754b5d34fd7a7385e9}{}\label{class_magnum_1_1_texture_base_ac77a15bd968e31754b5d34fd7a7385e9}
+
+
+Set the Warp Mode of T direction of the Texture. 
+
+
+\begin{DoxyParams}{參數}
+{\em wrap\+T\+\_\+,\hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode},the} & Warp Mode of T direction of the Texture \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_g_x_texture_wrap_mode}{G\+X\+Texture\+Wrap\+Mode} 
+\end{DoxySeeAlso}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Texture\+Base.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Texture\+Base.\+cpp\end{DoxyCompactItemize}

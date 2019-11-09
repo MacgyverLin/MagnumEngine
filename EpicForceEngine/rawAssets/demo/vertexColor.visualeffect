@@ -1,0 +1,106 @@
+<VisualEffect>
+	<Attributes>
+		<Attribute type="vec3" format="float3" name="position" semantic="POSITION0" />
+		<Attribute type="vec4" format="float4" name="color" semantic="COLOR0" />
+		<Attribute type="vec2" format="float2" name="texCoord0" semantic="TEXCOORD0" />
+		<Attribute type="vec2" format="float2" name="texCoord1" semantic="TEXCOORD1" />
+	</Attributes>
+	<Uniforms>
+		<Uniform precision="lowp" format="vec4" name="colorConstant" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="vec4" name="colorConstant" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="mat4" name="projViewModelTransform" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="vec2" name="posOffset" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="vec2" name="posScale" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="mat2" name="texture0Transform" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="vec2" name="texCoord0Offset" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="vec2" name="texCoord0Scale" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="sampler2D" name="texture0" arraysize="1" semantic="" minfilter="linearmipmapnearest" magfilter="linear" wraps="repeat" wrapt="repeat"/>
+		<Uniform precision="" format="sampler2D" name="texture1" arraysize="1" semantic="" minfilter="linearmipmapnearest" magfilter="linear" wraps="repeat" wrapt="repeat"/>
+	</Uniforms>
+	<Technique name="Test">
+		<Pass name="P0">
+			<RenderStates>
+				<RenderState type="blendenable" value="false"/>						
+				<RenderState type="blendmodergb" value="add"/>						
+				<RenderState type="blendsrcfactorrgb" value="srcalpha"/>					
+				<RenderState type="blenddstfactorrgb" value="oneminussrcalpha"/>				
+				<RenderState type="blendmodealpha" value="add"/>					
+				<RenderState type="blendsrcfactoralpha" value="srcalpha"/>			
+				<RenderState type="blenddstfactoralpha" value="oneminussrcalpha"/>	
+
+				<RenderState type="colormask" value="rgba"/>						
+
+				<RenderState type="cullenable" value="true"/>					
+				<RenderState type="cullmode" value="cw"/>							
+
+				<RenderState type="depthtestenable" value="true"/>					
+				<RenderState type="depthwriteenable" value="true"/>					
+				<RenderState type="depthtestmode" value="lequal"/>					
+
+				<RenderState type="linewidth" value="1.0"/>							
+				<RenderState type="polygonoffsetfactor" value="1.0"/>				
+				<RenderState type="polygonoffsetunit" value="0.0"/>					
+
+				<RenderState type="scissor" value="0, 0, 640, 480"/>				
+
+				<RenderState type="stenciltestenable" value="false"/>				
+				<RenderState type="stenciltestmodefront" value="always"/>			
+				<RenderState type="stenciltestreffront" value="0"/>					
+				<RenderState type="stenciltestmaskfront" value="0xffffffff"/>		
+				<RenderState type="stenciltestwritemaskfront" value="0xffffffff"/>	
+				<RenderState type="stencilopfailfront" value="keep"/>				
+				<RenderState type="stencilopzpassfront" value="keep"/>				
+				<RenderState type="stencilopzfailfront" value="keep"/>				
+
+				<RenderState type="stenciltestmodeback" value="always"/>			
+				<RenderState type="stenciltestrefback" value="0"/>					
+				<RenderState type="stenciltestmaskback" value="0xffffffff"/>		
+				<RenderState type="stenciltestwritemaskback" value="0xffffffff"/>	
+				<RenderState type="stencilopfailback" value="keep"/>				
+				<RenderState type="stencilopzpassback" value="keep"/>				
+				<RenderState type="stencilopzfailback" value="keep"/>				
+
+				<RenderState type="viewport" value="0, 0, 640, 480"/>				
+			</RenderStates>
+			<VertexShader>
+				attribute vec3 position;
+				attribute vec4 color;
+				attribute vec2 texCoord0;
+				attribute vec2 texCoord1;
+
+				varying lowp vec4 colorVarying;
+				varying lowp vec2 texCoord0Varying;
+				varying lowp vec2 texCoord1Varying;
+
+				uniform mat4 projViewModelTransform;
+				uniform vec2 posOffset;
+				uniform vec2 posScale;
+				uniform mat2 texture0Transform;
+				uniform vec2 texCoord0Offset;
+				uniform vec2 texCoord0Scale;
+
+				void main()
+				{
+					gl_Position      = vec4(position.x, position.y, position.z, 1.0) * projViewModelTransform;
+					texCoord0Varying = texCoord0 * texture0Transform;
+					texCoord1Varying = texCoord1 * texCoord0Scale + texCoord0Offset;
+					colorVarying     = color;
+				}
+			</VertexShader>
+			<PixelShader>
+				uniform sampler2D texture0;
+				uniform sampler2D texture1;
+				uniform lowp vec4 colorConstant;
+				varying lowp vec4 colorVarying;
+				varying lowp vec2 texCoord0Varying;
+				varying lowp vec2 texCoord1Varying; 
+				void main()
+				{
+					lowp vec4 texcol0 = texture2D(texture0, texCoord0Varying);	
+					lowp vec4 texcol1 = texture2D(texture1, texCoord1Varying);	
+					gl_FragColor = colorConstant*colorVarying*((texcol0+texcol1)*0.5); 
+				}
+			</PixelShader>
+		</Pass>
+	</Technique>
+</VisualEffect>

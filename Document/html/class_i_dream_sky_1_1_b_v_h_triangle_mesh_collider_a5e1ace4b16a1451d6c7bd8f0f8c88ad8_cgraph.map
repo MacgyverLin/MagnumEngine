@@ -1,0 +1,11 @@
+<map id="IDreamSky::BVHTriangleMeshCollider::~BVHTriangleMeshCollider" name="IDreamSky::BVHTriangleMeshCollider::~BVHTriangleMeshCollider">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_b_v_h_triangle_mesh_shape3.html#aad17f2c23b7601f7b9443b9a40a73595" title="construct the BVHTriangleMeshShape3. " alt="" coords="287,5,486,47"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a5d62d5520cf4790b254e0d81a5f2d2bd" title="Construct the RigidBody. " alt="" coords="281,71,492,112"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a7d5e274aad11227be7f7bb64d76b9528" title="Set the Transform of the RigidBody. " alt="" coords="301,136,473,177"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_b_v_h_triangle_mesh_shape3.html#a8a810bc16558b9a6bdd1d506122a8db6" title="destruct BVHTriangleMeshShape3 and release memory its used " alt="" coords="287,201,486,243"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a476e3fa127c84f6a645647dd68013be1" title="Destruct the rigidbody. " alt="" coords="285,267,488,308"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_resource_access.html#a93e9d2b61b19334c64ec762cb04a3220" title="Increase Reference Count of the resource by 1 This function increase reference count to the resource ..." alt="" coords="540,5,733,47"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_frame3.html#a57a2f755811f485d9602103609c78d68" title="Get the Frame3&#39;s global transform. " alt="" coords="563,71,710,112"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_resource_access.html#a5aeaaeb81a37dd6ceac1cc7251a480f5" title="Decrease Reference Count of the resource by 1 This function decrease reference count to the resource..." alt="" coords="540,201,733,243"/>
+<area shape="rect" id="node10" href="$class_i_dream_sky_1_1_shape3.html#a069195b24c37ae47e01a6b195faf84e0" title="To calculate the mass and moment of inertia according to the shape and density. " alt="" coords="563,267,710,308"/>
+</map>

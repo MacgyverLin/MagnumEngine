@@ -1,0 +1,8 @@
+<map id="IDreamSky::FileOutputStream::opened" name="IDreamSky::FileOutputStream::opened">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_compressed_texture2_d_file_1_1_resource.html#a0d912cc9dc6c2709174faaac248eddfa" title="CompressedTexture2DFile::Resource Destructor. " alt="" coords="249,5,467,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_compressed_texture_cube_file_1_1_resource.html#aac2b5e1e1a4c3f47af472996b9bde573" title="CompressedTextureCubeFile::Resource Destructor. " alt="" coords="253,71,463,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_font_1_1_resource.html#aa85f09b7439ed4282cc04260f5fa25cd" title="bool chec if the texture is PowerOfTwo " alt="" coords="267,136,449,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_skeletal_animation_model_1_1_resource.html#a3cc030aab705211f7508024793a92984" title="SkeletalAnimationModel::Resource Destructor. " alt="" coords="259,201,457,243"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_texture2_d_file_1_1_resource.html#ad4893c973464e2f9db32a3952e137d2b" title="Texture2DFile::Resource Destructor. " alt="" coords="271,267,445,308"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_texture_cube_file_1_1_resource.html#abfc12309eb2f37daa741009cd5b22657" title="TextureCubeFile::Resource Destructor. " alt="" coords="264,332,452,373"/>
+</map>

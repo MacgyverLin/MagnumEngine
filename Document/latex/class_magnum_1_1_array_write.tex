@@ -1,0 +1,86 @@
+\hypertarget{class_magnum_1_1_array_write}{}\section{Magnum\+:\+:Array\+Write$<$ T $>$ 類別 樣版 參考文件}
+\label{class_magnum_1_1_array_write}\index{Magnum\+::\+Array\+Write$<$ T $>$@{Magnum\+::\+Array\+Write$<$ T $>$}}
+
+
+\hyperlink{class_magnum_1_1_array_write}{Array\+Write}.  
+
+
+
+
+{\ttfamily \#include $<$Output\+Stream.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_array_write_a06a97b133998f0284c148a207bb8bb97}{Array\+Write} (T $\ast$\&data\+\_\+, int size\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_array_write}{Array\+Write} Constructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_array_write_a2670b2bf9608c0eeee16ace945de2479}{write} (\hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} \&os)
+\begin{DoxyCompactList}\small\item\em write function. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_array_write_a998621bcdaf2b76d4247f14a74c80d43}{get\+Size} () const 
+\begin{DoxyCompactList}\small\item\em get\+Size function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\subsubsection*{template$<$class T$>$\\*
+class Magnum\+::\+Array\+Write$<$ T $>$}
+
+\hyperlink{class_magnum_1_1_array_write}{Array\+Write}. 
+
+A template class for serialization of vector of Type T 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Array\+Write@{Magnum\+::\+Array\+Write}!Array\+Write@{Array\+Write}}
+\index{Array\+Write@{Array\+Write}!Magnum\+::\+Array\+Write@{Magnum\+::\+Array\+Write}}
+\subsubsection[{\texorpdfstring{Array\+Write(\+T $\ast$\&data\+\_\+, int size\+\_\+)}{ArrayWrite(T *&data_, int size_)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf Magnum\+::\+Array\+Write}$<$ T $>$\+::{\bf Array\+Write} (
+\begin{DoxyParamCaption}
+\item[{T $\ast$\&}]{data\+\_\+, }
+\item[{int}]{size\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_write_a06a97b133998f0284c148a207bb8bb97}{}\label{class_magnum_1_1_array_write_a06a97b133998f0284c148a207bb8bb97}
+
+
+\hyperlink{class_magnum_1_1_array_write}{Array\+Write} Constructor. 
+
+To \hyperlink{class_magnum_1_1_vector_write}{Vector\+Write} the \hyperlink{class_magnum_1_1_vector_read}{Vector\+Read}. 
+\begin{DoxyParams}{參數}
+{\em vector\+\_\+,the} & vector of class T, the outputstream will fill up this vector\+\_\+ \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Array\+Write@{Magnum\+::\+Array\+Write}!get\+Size@{get\+Size}}
+\index{get\+Size@{get\+Size}!Magnum\+::\+Array\+Write@{Magnum\+::\+Array\+Write}}
+\subsubsection[{\texorpdfstring{get\+Size() const }{getSize() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ int {\bf Magnum\+::\+Array\+Write}$<$ T $>$\+::get\+Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_write_a998621bcdaf2b76d4247f14a74c80d43}{}\label{class_magnum_1_1_array_write_a998621bcdaf2b76d4247f14a74c80d43}
+
+
+get\+Size function. 
+
+\begin{DoxyReturn}{傳回值}
+int, size of the vector 
+\end{DoxyReturn}
+\index{Magnum\+::\+Array\+Write@{Magnum\+::\+Array\+Write}!write@{write}}
+\index{write@{write}!Magnum\+::\+Array\+Write@{Magnum\+::\+Array\+Write}}
+\subsubsection[{\texorpdfstring{write(\+Output\+Stream \&os)}{write(OutputStream &os)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ void {\bf Magnum\+::\+Array\+Write}$<$ T $>$\+::write (
+\begin{DoxyParamCaption}
+\item[{{\bf Output\+Stream} \&}]{os}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_write_a2670b2bf9608c0eeee16ace945de2479}{}\label{class_magnum_1_1_array_write_a2670b2bf9608c0eeee16ace945de2479}
+
+
+write function. 
+
+\hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} will call this function when \hyperlink{class_magnum_1_1_array_write}{Array\+Write} is serializing 
+\begin{DoxyParams}{參數}
+{\em os,the} & \hyperlink{class_magnum_1_1_output_stream}{Output\+Stream}, the \hyperlink{class_magnum_1_1_output_stream}{Output\+Stream}. \\
+\hline
+\end{DoxyParams}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Output\+Stream.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,747 @@
+\hypertarget{class_magnum_1_1_skeletal_anim_base}{}\section{Magnum\+:\+:Skeletal\+Anim\+Base 類別 參考文件}
+\label{class_magnum_1_1_skeletal_anim_base}\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+
+
+Base class For all type of Skeletal Animation.  
+
+
+
+
+{\ttfamily \#include $<$Skeletal\+Anim\+Base.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Skeletal\+Anim\+Base的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Skeletal\+Anim\+Base的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{class_magnum_1_1_skeletal_anim_base__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_skeletal_anim_base_a41b847c7e94a02cf2184ed55ec294d72}{Skeletal\+Anim\+Base} ()\hypertarget{class_magnum_1_1_skeletal_anim_base_a41b847c7e94a02cf2184ed55ec294d72}{}\label{class_magnum_1_1_skeletal_anim_base_a41b847c7e94a02cf2184ed55ec294d72}
+
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_skeletal_anim_base_a26c385908716fbb8faf765c8294933b7}{$\sim$\+Skeletal\+Anim\+Base} ()\hypertarget{class_magnum_1_1_skeletal_anim_base_a26c385908716fbb8faf765c8294933b7}{}\label{class_magnum_1_1_skeletal_anim_base_a26c385908716fbb8faf765c8294933b7}
+
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_skeletal_anim_base_adac35e055a6c2cb2299d194c78e4787f}{set\+Time} (const float \&time\+\_\+)=0
+\begin{DoxyCompactList}\small\item\em This function set the animation time. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_skeletal_anim_base_a9bb5c7f49a6a6373dd3b453224fb951a}{set\+Speed} (const float \&speed\+\_\+)=0
+\begin{DoxyCompactList}\small\item\em This function set the animation play back speed. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_skeletal_anim_base_a35665d1455a2787a5a0a3f960ffea68e}{set\+Loop\+Behavior} (\hyperlink{class_magnum_1_1_anim_base_ad6b3de9518d395df5ca9865f268ec581}{Anim\+Base\+::\+Loop\+Behavior} lb\+\_\+)=0
+\begin{DoxyCompactList}\small\item\em This function set the loop behaviour of animation. \end{DoxyCompactList}\item 
+virtual float \hyperlink{class_magnum_1_1_skeletal_anim_base_ac05339297aaebfde498fdae4bbffeffa}{get\+Time} () const  =0
+\begin{DoxyCompactList}\small\item\em This function set the animation time. \end{DoxyCompactList}\item 
+virtual float \hyperlink{class_magnum_1_1_skeletal_anim_base_aa720c38bdce83e6e838693a603030a06}{get\+Speed} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the animation play back speed. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_anim_base_ad6b3de9518d395df5ca9865f268ec581}{Anim\+Base\+::\+Loop\+Behavior} \hyperlink{class_magnum_1_1_skeletal_anim_base_a497edda28cd93d5816f20d4987f882ca}{get\+Loop\+Behavior} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the loop behaviour of animation. \end{DoxyCompactList}\item 
+virtual float \hyperlink{class_magnum_1_1_skeletal_anim_base_ad4bd0ed7e92e55bd20bb10e33f4be986}{get\+Duration} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the duration of the animation data. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_skeletal_anim_base_aa54468093c1c4013120edeedb328c108}{get\+Num\+Bones} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the Number of Bones in the animation data. \end{DoxyCompactList}\item 
+virtual const char $\ast$ \hyperlink{class_magnum_1_1_skeletal_anim_base_a69ce23d2cf00b9dde7a74c2182336070}{get\+Bone\+Name} (int bone\+Idx\+\_\+\+\_\+) const  =0
+\begin{DoxyCompactList}\small\item\em This function get the Name of Bone in the animation data. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_skeletal_anim_base_a5f18e02a292e1ad887c13b3a7bd9ec58}{get\+Bone\+Index} (const char $\ast$name\+\_\+) const  =0
+\begin{DoxyCompactList}\small\item\em This function try to find the position of Bone of animation data. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_skeletal_anim_base_a3f4a937de3dff61073c7730421465479}{get\+Bone\+Parent\+Index} (int bone\+Idx\+\_\+\+\_\+) const  =0
+\begin{DoxyCompactList}\small\item\em This function get the \hyperlink{class_magnum_1_1_vector10}{Vector10} (scale, rotation and translation) of the i-\/th bone. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_skeletal_anim_base_a4349fe8f84e7c7ac3324ac163e0fe727}{get\+Vector10} (int bone\+Idx\+\_\+\+\_\+, \hyperlink{class_magnum_1_1_vector10}{Vector10} \&v\+\_\+) const  =0
+\begin{DoxyCompactList}\small\item\em This function get the \hyperlink{class_magnum_1_1_vector10}{Vector10} (scale, rotation and translation) of the i-\/th bone. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_skeletal_anim_base_a3071b818530589de7f3b28c1300e6135}{get\+Local\+Transform} (int bone\+Idx\+\_\+\+\_\+, \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&mat\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em This function get the local \hyperlink{class_magnum_1_1_transform}{Transform} of of the i-\/th bone. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_skeletal_anim_base_abfba256c345b07790b774d0f0b9cc54f}{get\+System\+Transform} (int bone\+Idx\+\_\+\+\_\+, \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&mat\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em This function get the global \hyperlink{class_magnum_1_1_transform}{Transform} of of the i-\/th bone. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_skeletal_anim_base_a860f65cce1f9f3074dd6584262c18f35}{update} ()=0
+\begin{DoxyCompactList}\small\item\em This function is implemented thing need to do in each cycle of animation. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_skeletal_anim_base_a7a28f31f6d6814b69db534eb3ef46bb6}{is\+Playing} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the playing status of the Animation. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_skeletal_anim_base_acbcd0a3b08336efae13457820b05aa48}{play} (\hyperlink{class_magnum_1_1_anim_base_ad6b3de9518d395df5ca9865f268ec581}{Anim\+Base\+::\+Loop\+Behavior} lb\+\_\+=\hyperlink{class_magnum_1_1_anim_base_ad6b3de9518d395df5ca9865f268ec581a8b877225f523af406db47b5a700d443f}{Anim\+Base\+::\+L\+O\+OP}, const float \&speed\+\_\+=1, const float \&starttime\+\_\+=0)=0
+\begin{DoxyCompactList}\small\item\em This function start or resume the Animation. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_skeletal_anim_base_ab2739547493aff29897235917b7be270}{stop} ()=0
+\begin{DoxyCompactList}\small\item\em This function stop the Animation. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_skeletal_anim_base_aa8c10141024db6b3d1eb58bf8191d1a8}{pause} ()=0
+\begin{DoxyCompactList}\small\item\em This function pause the Animation. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_skeletal_anim_base_a34ab01c5b1f9e1e1be60a7665c296da0}{rewind} ()=0
+\begin{DoxyCompactList}\small\item\em This function rewind the Animation (to its first frame), clears time. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_skeletal_anim_base_a2fb2c9e7bd6a79f326492ef7c5add524}{is\+Paused} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the pause status of the Animation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+Base class For all type of Skeletal Animation. 
+
+This is the base class for all type of Skeletal Animation. The Animation type can be extended by inheritance. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!get\+Bone\+Index@{get\+Bone\+Index}}
+\index{get\+Bone\+Index@{get\+Bone\+Index}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Bone\+Index(const char $\ast$name\+\_\+) const  =0}{getBoneIndex(const char *name_) const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Magnum\+::\+Skeletal\+Anim\+Base\+::get\+Bone\+Index (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a5f18e02a292e1ad887c13b3a7bd9ec58}{}\label{class_magnum_1_1_skeletal_anim_base_a5f18e02a292e1ad887c13b3a7bd9ec58}
+
+
+This function try to find the position of Bone of animation data. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em name\+\_\+} & the name of Bone to find; \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+if name\+\_\+ exists in the bone list, bone index if name\+\_\+ does not exist in the bone list, -\/1; 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a02f4b2d1c647eb6000ce4950cb1baca4}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_a288b1017087bb5bda164c10d32fb4cdd}{Magnum\+::\+Skeletal\+Animation}.
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!get\+Bone\+Name@{get\+Bone\+Name}}
+\index{get\+Bone\+Name@{get\+Bone\+Name}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Bone\+Name(int bone\+Idx\+\_\+\+\_\+) const  =0}{getBoneName(int boneIdx__) const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual const char$\ast$ Magnum\+::\+Skeletal\+Anim\+Base\+::get\+Bone\+Name (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a69ce23d2cf00b9dde7a74c2182336070}{}\label{class_magnum_1_1_skeletal_anim_base_a69ce23d2cf00b9dde7a74c2182336070}
+
+
+This function get the Name of Bone in the animation data. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em i} & the idx to bone array; \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+the name of i-\/th Bone. 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_aa467f64b963302adc2eb4b9e96651e49}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_a872518695359f22a10be31ddb99f95bd}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_a69ce23d2cf00b9dde7a74c2182336070_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!get\+Bone\+Parent\+Index@{get\+Bone\+Parent\+Index}}
+\index{get\+Bone\+Parent\+Index@{get\+Bone\+Parent\+Index}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Bone\+Parent\+Index(int bone\+Idx\+\_\+\+\_\+) const  =0}{getBoneParentIndex(int boneIdx__) const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Magnum\+::\+Skeletal\+Anim\+Base\+::get\+Bone\+Parent\+Index (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a3f4a937de3dff61073c7730421465479}{}\label{class_magnum_1_1_skeletal_anim_base_a3f4a937de3dff61073c7730421465479}
+
+
+This function get the \hyperlink{class_magnum_1_1_vector10}{Vector10} (scale, rotation and translation) of the i-\/th bone. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em i\+\_\+} & the index of the bone; \\
+\hline
+{\em v\+\_\+} & the variable to received the \hyperlink{class_magnum_1_1_vector10}{Vector10} data of i-\/th bone; \\
+\hline
+\end{DoxyParams}
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a37e5b879823526f0f19797416f0b8742}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_adbdc94caa3a1a1e0711515bf8d2fe39b}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_a3f4a937de3dff61073c7730421465479_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!get\+Duration@{get\+Duration}}
+\index{get\+Duration@{get\+Duration}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Duration() const  =0}{getDuration() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual float Magnum\+::\+Skeletal\+Anim\+Base\+::get\+Duration (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_ad4bd0ed7e92e55bd20bb10e33f4be986}{}\label{class_magnum_1_1_skeletal_anim_base_ad4bd0ed7e92e55bd20bb10e33f4be986}
+
+
+This function get the duration of the animation data. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+the duration of the animation data 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_anim_base_aa9692d01a927dc7ac9a6f828e4c22e44}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a9632809b4b59659cdd5ff4c02371229e}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_ac2b3b3ded7fc4100e44390fda80b243d}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_ad4bd0ed7e92e55bd20bb10e33f4be986_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!get\+Local\+Transform@{get\+Local\+Transform}}
+\index{get\+Local\+Transform@{get\+Local\+Transform}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Local\+Transform(int bone\+Idx\+\_\+\+\_\+, Matrix4 \&mat\+\_\+) const }{getLocalTransform(int boneIdx__, Matrix4 &mat_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Skeletal\+Anim\+Base\+::get\+Local\+Transform (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+\+\_\+, }
+\item[{{\bf Matrix4} \&}]{mat\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a3071b818530589de7f3b28c1300e6135}{}\label{class_magnum_1_1_skeletal_anim_base_a3071b818530589de7f3b28c1300e6135}
+
+
+This function get the local \hyperlink{class_magnum_1_1_transform}{Transform} of of the i-\/th bone. 
+
+
+\begin{DoxyParams}{參數}
+{\em i\+\_\+} & the index of the bone; \\
+\hline
+{\em mat\+\_\+} & the variable to received the local \hyperlink{class_magnum_1_1_transform}{Transform} of i-\/th bone; \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_a3071b818530589de7f3b28c1300e6135_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_a3071b818530589de7f3b28c1300e6135_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!get\+Loop\+Behavior@{get\+Loop\+Behavior}}
+\index{get\+Loop\+Behavior@{get\+Loop\+Behavior}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Loop\+Behavior() const  =0}{getLoopBehavior() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Anim\+Base\+::\+Loop\+Behavior} Magnum\+::\+Skeletal\+Anim\+Base\+::get\+Loop\+Behavior (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a497edda28cd93d5816f20d4987f882ca}{}\label{class_magnum_1_1_skeletal_anim_base_a497edda28cd93d5816f20d4987f882ca}
+
+
+This function get the loop behaviour of animation. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+loop behaviour 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_anim_base_a8216c0d73667617346e4bad2d7be74bf}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a1f09f358071ec980a3783db1cc63c609}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_ab5cf2215842e3cd4dfa6ce789dcb6b47}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_a497edda28cd93d5816f20d4987f882ca_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!get\+Num\+Bones@{get\+Num\+Bones}}
+\index{get\+Num\+Bones@{get\+Num\+Bones}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Num\+Bones() const  =0}{getNumBones() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int Magnum\+::\+Skeletal\+Anim\+Base\+::get\+Num\+Bones (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_aa54468093c1c4013120edeedb328c108}{}\label{class_magnum_1_1_skeletal_anim_base_aa54468093c1c4013120edeedb328c108}
+
+
+This function get the Number of Bones in the animation data. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+the number of Bones in the animation data. 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a412fe2a0748a4462d44fd9f7355ba30c}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_aae3d05536af25e2bde8736e4f37235e8}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_aa54468093c1c4013120edeedb328c108_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!get\+Speed@{get\+Speed}}
+\index{get\+Speed@{get\+Speed}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Speed() const  =0}{getSpeed() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual float Magnum\+::\+Skeletal\+Anim\+Base\+::get\+Speed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_aa720c38bdce83e6e838693a603030a06}{}\label{class_magnum_1_1_skeletal_anim_base_aa720c38bdce83e6e838693a603030a06}
+
+
+This function get the animation play back speed. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+the speed of the animation, 1.\+0 means the same speed as exported data 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_anim_base_a8c3facbd86f9d22572bd3982c186ac8b}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a1a5fb941a66118b46991c41e7a77d6ad}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_a129c204122644a54e596d76747485c0a}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_aa720c38bdce83e6e838693a603030a06_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!get\+System\+Transform@{get\+System\+Transform}}
+\index{get\+System\+Transform@{get\+System\+Transform}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+System\+Transform(int bone\+Idx\+\_\+\+\_\+, Matrix4 \&mat\+\_\+) const }{getSystemTransform(int boneIdx__, Matrix4 &mat_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Skeletal\+Anim\+Base\+::get\+System\+Transform (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+\+\_\+, }
+\item[{{\bf Matrix4} \&}]{mat\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_abfba256c345b07790b774d0f0b9cc54f}{}\label{class_magnum_1_1_skeletal_anim_base_abfba256c345b07790b774d0f0b9cc54f}
+
+
+This function get the global \hyperlink{class_magnum_1_1_transform}{Transform} of of the i-\/th bone. 
+
+
+\begin{DoxyParams}{參數}
+{\em i\+\_\+} & the index of the bone; \\
+\hline
+{\em mat\+\_\+} & the variable to received the global \hyperlink{class_magnum_1_1_transform}{Transform} of i-\/th bone; \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_abfba256c345b07790b774d0f0b9cc54f_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!get\+Time@{get\+Time}}
+\index{get\+Time@{get\+Time}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Time() const  =0}{getTime() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual float Magnum\+::\+Skeletal\+Anim\+Base\+::get\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_ac05339297aaebfde498fdae4bbffeffa}{}\label{class_magnum_1_1_skeletal_anim_base_ac05339297aaebfde498fdae4bbffeffa}
+
+
+This function set the animation time. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em time} & the time of the animation \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_anim_base_aa442e6568018f83b5287c30291d9b109}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a1c35d25c9c59c8d867271004a36be82a}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_a53ce3b89b692b215984779c74541bc2f}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_ac05339297aaebfde498fdae4bbffeffa_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!get\+Vector10@{get\+Vector10}}
+\index{get\+Vector10@{get\+Vector10}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Vector10(int bone\+Idx\+\_\+\+\_\+, Vector10 \&v\+\_\+) const  =0}{getVector10(int boneIdx__, Vector10 &v_) const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Skeletal\+Anim\+Base\+::get\+Vector10 (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+\+\_\+, }
+\item[{{\bf Vector10} \&}]{v\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a4349fe8f84e7c7ac3324ac163e0fe727}{}\label{class_magnum_1_1_skeletal_anim_base_a4349fe8f84e7c7ac3324ac163e0fe727}
+
+
+This function get the \hyperlink{class_magnum_1_1_vector10}{Vector10} (scale, rotation and translation) of the i-\/th bone. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em i\+\_\+} & the index of the bone; \\
+\hline
+{\em v\+\_\+} & the variable to received the \hyperlink{class_magnum_1_1_vector10}{Vector10} data of i-\/th bone; \\
+\hline
+\end{DoxyParams}
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_ac31d36a225bceb45d1c2410f6819d609}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_a7c4a6ec45a2dbcc9b68612b26e897e18}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_a4349fe8f84e7c7ac3324ac163e0fe727_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!is\+Paused@{is\+Paused}}
+\index{is\+Paused@{is\+Paused}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{is\+Paused() const  =0}{isPaused() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Magnum\+::\+Skeletal\+Anim\+Base\+::is\+Paused (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a2fb2c9e7bd6a79f326492ef7c5add524}{}\label{class_magnum_1_1_skeletal_anim_base_a2fb2c9e7bd6a79f326492ef7c5add524}
+
+
+This function get the pause status of the Animation. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+if animation was paused, return true; if animation was not paused, return false; 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_anim_base_a7659048633d3fa2a8ed35a569dd23b9f}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a5ff4ad32c8af11867829515046d835d0}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_a5b01e6fba4eda5efe0ac300aabce7b14}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_a2fb2c9e7bd6a79f326492ef7c5add524_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!is\+Playing@{is\+Playing}}
+\index{is\+Playing@{is\+Playing}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{is\+Playing() const  =0}{isPlaying() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Magnum\+::\+Skeletal\+Anim\+Base\+::is\+Playing (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a7a28f31f6d6814b69db534eb3ef46bb6}{}\label{class_magnum_1_1_skeletal_anim_base_a7a28f31f6d6814b69db534eb3ef46bb6}
+
+
+This function get the playing status of the Animation. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+if animation is playing, return true; if animation is not playing, return false; 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_anim_base_a8d6bf53ec9aa736036333bfa2b17574f}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a937aa755ef6e880e7779b3a67afb3ca1}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_a28d2a4f1c455577300efb48357808007}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_a7a28f31f6d6814b69db534eb3ef46bb6_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!pause@{pause}}
+\index{pause@{pause}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{pause()=0}{pause()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Skeletal\+Anim\+Base\+::pause (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_aa8c10141024db6b3d1eb58bf8191d1a8}{}\label{class_magnum_1_1_skeletal_anim_base_aa8c10141024db6b3d1eb58bf8191d1a8}
+
+
+This function pause the Animation. 
+
+After this function is called, the animation will be set at pause state. We can resume it by calling resume or start
+
+This function should be implemented by sub class of Animation. 
+
+實作 \hyperlink{class_magnum_1_1_anim_base_adcd01579f036fd968f8a785c767704be}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a3adb5a40905ac4f395af18890215e249}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_aeac9832834f3356c2fb5f97a0d359729}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_aa8c10141024db6b3d1eb58bf8191d1a8_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!play@{play}}
+\index{play@{play}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{play(\+Anim\+Base\+::\+Loop\+Behavior lb\+\_\+=\+Anim\+Base\+::\+L\+O\+O\+P, const float \&speed\+\_\+=1, const float \&starttime\+\_\+=0)=0}{play(AnimBase::LoopBehavior lb_=AnimBase::LOOP, const float &speed_=1, const float &starttime_=0)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Skeletal\+Anim\+Base\+::play (
+\begin{DoxyParamCaption}
+\item[{{\bf Anim\+Base\+::\+Loop\+Behavior}}]{lb\+\_\+ = {\ttfamily {\bf Anim\+Base\+::\+L\+O\+OP}}, }
+\item[{const float \&}]{speed\+\_\+ = {\ttfamily 1}, }
+\item[{const float \&}]{starttime\+\_\+ = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_acbcd0a3b08336efae13457820b05aa48}{}\label{class_magnum_1_1_skeletal_anim_base_acbcd0a3b08336efae13457820b05aa48}
+
+
+This function start or resume the Animation. 
+
+After this function is called, the animation will be set at playing state
+
+
+\begin{DoxyParams}{參數}
+{\em lb\+\_\+} & the behaviour when animation is played to last frame \\
+\hline
+{\em speed\+\_\+} & the speed for the animation \\
+\hline
+{\em starttime\+\_\+} & from which the animation is played \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_anim_base_aa5b9f45b1fdae882c38edbfe92d1463c}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a1cecc3b4cb9a378ff1fac5583cbf7f89}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_ae5a6fd75843795a5910da79f786da17c}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_acbcd0a3b08336efae13457820b05aa48_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!rewind@{rewind}}
+\index{rewind@{rewind}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{rewind()=0}{rewind()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Skeletal\+Anim\+Base\+::rewind (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a34ab01c5b1f9e1e1be60a7665c296da0}{}\label{class_magnum_1_1_skeletal_anim_base_a34ab01c5b1f9e1e1be60a7665c296da0}
+
+
+This function rewind the Animation (to its first frame), clears time. 
+
+This function should be implemented by sub class of Animation. 
+
+實作 \hyperlink{class_magnum_1_1_anim_base_ab46d4859b6c145908395aa4a7ee64024}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_ad53119fea64b7fc6a1b1ba838d39b7cc}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_a0c6baff856d8dd1281833137c84fe617}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_a34ab01c5b1f9e1e1be60a7665c296da0_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!set\+Loop\+Behavior@{set\+Loop\+Behavior}}
+\index{set\+Loop\+Behavior@{set\+Loop\+Behavior}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{set\+Loop\+Behavior(\+Anim\+Base\+::\+Loop\+Behavior lb\+\_\+)=0}{setLoopBehavior(AnimBase::LoopBehavior lb_)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Skeletal\+Anim\+Base\+::set\+Loop\+Behavior (
+\begin{DoxyParamCaption}
+\item[{{\bf Anim\+Base\+::\+Loop\+Behavior}}]{lb\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a35665d1455a2787a5a0a3f960ffea68e}{}\label{class_magnum_1_1_skeletal_anim_base_a35665d1455a2787a5a0a3f960ffea68e}
+
+
+This function set the loop behaviour of animation. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em lb\+\_\+} & loop behaviour \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_anim_base_a18c12544926a889ca4903eaeeaba28b6}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a8535d7b72b50b66dbdf9178adb6d84bc}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_a180cd06d23c15eb2c6460d965464a452}{Magnum\+::\+Skeletal\+Animation}.
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!set\+Speed@{set\+Speed}}
+\index{set\+Speed@{set\+Speed}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{set\+Speed(const float \&speed\+\_\+)=0}{setSpeed(const float &speed_)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Skeletal\+Anim\+Base\+::set\+Speed (
+\begin{DoxyParamCaption}
+\item[{const float \&}]{speed\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a9bb5c7f49a6a6373dd3b453224fb951a}{}\label{class_magnum_1_1_skeletal_anim_base_a9bb5c7f49a6a6373dd3b453224fb951a}
+
+
+This function set the animation play back speed. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em speed} & the speed of the animation, set to 1.\+0 for the same speed as exported data \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_anim_base_a2719e2efd31cc11e9d1f33bf26ffb827}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_afaf5a75b6f24eb070c692075207564d4}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_a18dde64242b5ade75cc0f489c36edf8c}{Magnum\+::\+Skeletal\+Animation}.
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!set\+Time@{set\+Time}}
+\index{set\+Time@{set\+Time}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{set\+Time(const float \&time\+\_\+)=0}{setTime(const float &time_)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Skeletal\+Anim\+Base\+::set\+Time (
+\begin{DoxyParamCaption}
+\item[{const float \&}]{time\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_adac35e055a6c2cb2299d194c78e4787f}{}\label{class_magnum_1_1_skeletal_anim_base_adac35e055a6c2cb2299d194c78e4787f}
+
+
+This function set the animation time. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em time} & the time of the animation \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_anim_base_aa096e69ae333227ceb4efe80a6985869}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_ab80c1e90799256b2bef9da9610e79b04}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_ab66c2e42b4c6f8fec606286d26f6999c}{Magnum\+::\+Skeletal\+Animation}.
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!stop@{stop}}
+\index{stop@{stop}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{stop()=0}{stop()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Skeletal\+Anim\+Base\+::stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_ab2739547493aff29897235917b7be270}{}\label{class_magnum_1_1_skeletal_anim_base_ab2739547493aff29897235917b7be270}
+
+
+This function stop the Animation. 
+
+After this function is called, the animation will be set at stop state
+
+This function should be implemented by sub class of Animation. 
+
+實作 \hyperlink{class_magnum_1_1_anim_base_aab11d1fa24d0512928c0c605a1d1251b}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_a061b003b7492b5c91e19e4c9aca1621a}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_afb285ba851ad7a40f684e753637639ed}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_skeletal_anim_base_ab2739547493aff29897235917b7be270_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}!update@{update}}
+\index{update@{update}!Magnum\+::\+Skeletal\+Anim\+Base@{Magnum\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{update()=0}{update()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Skeletal\+Anim\+Base\+::update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_skeletal_anim_base_a860f65cce1f9f3074dd6584262c18f35}{}\label{class_magnum_1_1_skeletal_anim_base_a860f65cce1f9f3074dd6584262c18f35}
+
+
+This function is implemented thing need to do in each cycle of animation. 
+
+This function should be implemented by sub class of Animation. 
+
+實作 \hyperlink{class_magnum_1_1_anim_base_aa4aff002b23918cb98640966689c7aa6}{Magnum\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_magnum_1_1_skeletal_anim_blender_ad648bb5f97296b7e5ac203967c32a66b}{Magnum\+::\+Skeletal\+Anim\+Blender}, 及 \hyperlink{class_magnum_1_1_skeletal_animation_a2770fe6c5215d7ba5a28df07ac926ae5}{Magnum\+::\+Skeletal\+Animation}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Skeletal\+Anim\+Base.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Skeletal\+Anim\+Base.\+cpp\end{DoxyCompactItemize}

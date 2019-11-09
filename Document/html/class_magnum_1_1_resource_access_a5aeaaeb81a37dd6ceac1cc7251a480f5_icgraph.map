@@ -1,0 +1,17 @@
+<map id="Magnum::ResourceAccess::release" name="Magnum::ResourceAccess::release">
+<area shape="rect" id="node2" href="$class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="263,14,429,41"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_b_v_h_triangle_mesh_shape3.html#a8a810bc16558b9a6bdd1d506122a8db6" title="destruct BVHTriangleMeshShape3 and release memory its used " alt="" coords="232,65,460,107"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_height_field_shape3.html#a1d4b629093852f99e61bb98ff2d18df6" title="destruct HeightFieldShape3 and release memory its used " alt="" coords="251,131,441,172"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_texture2_d_file.html#af4b329a7880543fb2802e44e7f1ba933" title="destruct the texture and release of texture resource " alt="" coords="266,287,426,328"/>
+<area shape="rect" id="node15" href="$class_magnum_1_1_texture_cube_file.html#a1132d1610cae021b5f4e9a4061d11429" title="destruct the texture and release of texture resource " alt="" coords="259,449,433,491"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_b_v_h_triangle_mesh_collider.html#a5e1ace4b16a1451d6c7bd8f0f8c88ad8" title="BVHTriangleMeshCollider Destructor. " alt="" coords="526,5,753,47"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_height_field_collider.html#acd0e4168c3ac63f938ab24bc0f93aa3e" title="HeightFieldCollider Destructor. " alt="" coords="545,71,733,112"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_bill_board.html#adf4d1c65adcbf8b3ad6767aaa0b18fb5" title="Set the Rotation Pivot of the Particle of the ParticleEmitter. " alt="" coords="569,136,709,177"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_cube.html#aa814e979cecb8c451fdb332ded2cea1e" title="Cube Destructor. " alt="" coords="561,202,717,229"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_diffuse_map_cube.html#af7de4ae795858e54bc969b29e48872ed" title="DiffuseMapCube Destructor. " alt="" coords="552,253,727,295"/>
+<area shape="rect" id="node11" href="$class_magnum_1_1_diffuse_map_specular_map_cube.html#a723855f16958025f5fefdb679df736d1" title="DiffuseMapSpecularMapCube Destructor. " alt="" coords="508,319,771,360"/>
+<area shape="rect" id="node12" href="$class_magnum_1_1_particle_emitter.html#a2ff7eed6a6075bb8506261a9d1c6d1f9" title="Handle Destruct Event of the Component. " alt="" coords="556,384,723,425"/>
+<area shape="rect" id="node13" href="$class_magnum_1_1_sky_sphere.html#a4747bb606783031db88b2e622184e6d0" title="SkySphere Destructor. " alt="" coords="563,449,715,491"/>
+<area shape="rect" id="node14" href="$class_magnum_1_1_texture2_d_file.html#a8146587656686cd41b23a3ee036239d6" title="Texture2DFile Constructor. " alt="" coords="559,515,719,556"/>
+<area shape="rect" id="node16" href="$class_magnum_1_1_texture_cube_file.html#a3b88ee794b2b3725f68eccc3613e1596" title="TextureCubeFile Constructor. " alt="" coords="552,580,727,621"/>
+</map>

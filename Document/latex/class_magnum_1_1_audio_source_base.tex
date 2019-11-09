@@ -1,0 +1,931 @@
+\hypertarget{class_magnum_1_1_audio_source_base}{}\section{Magnum\+:\+:Audio\+Source\+Base 類別 參考文件}
+\label{class_magnum_1_1_audio_source_base}\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+
+
+\hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base}.  
+
+
+
+
+{\ttfamily \#include $<$Audio\+Source\+Base.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Audio\+Source\+Base的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{class_magnum_1_1_audio_source_base__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Audio\+Source\+Base的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_magnum_1_1_audio_source_base__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9}{Decay\+Mode} \{ \hyperlink{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9a7ee33a72cfd53d68f22368795e4e9ef2}{Logorithm\+Roll\+Off} = 0x00, 
+\hyperlink{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9a0ca9b0bbcd84ae70ccac071fcb4da366}{Linear\+Roll\+Off} = 0x01, 
+\hyperlink{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9ab735e1ed4e8adb0637680f123d3ce646}{Custom} = 0x02
+ \}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_audio_source_base_a8accbc06cfd3fcfc040d43c65ebf5b88}{Audio\+Source\+Base} (\hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} \&owner\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_audio_source_base_aebd15e698595d7592b9affe4cfbe747a}{$\sim$\+Audio\+Source\+Base} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_audio_source_base_a1aed201755910a3f876895ff284796d1}{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT} (\hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base}, \hyperlink{class_magnum_1_1_audio_component}{Audio\+Component}, false)   virtual bool play(bool loop)=0
+\begin{DoxyCompactList}\small\item\em Start playing the audio. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a67549138116b6c4d7824fa38c8a856e2}{stop} ()\hypertarget{class_magnum_1_1_audio_source_base_a67549138116b6c4d7824fa38c8a856e2}{}\label{class_magnum_1_1_audio_source_base_a67549138116b6c4d7824fa38c8a856e2}
+
+\begin{DoxyCompactList}\small\item\em Stop playing the audio. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_ade617910f4a1eb964516aa68c705f471}{pause} ()\hypertarget{class_magnum_1_1_audio_source_base_ade617910f4a1eb964516aa68c705f471}{}\label{class_magnum_1_1_audio_source_base_ade617910f4a1eb964516aa68c705f471}
+
+\begin{DoxyCompactList}\small\item\em Pause the audio. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_aee8840f1895eb802d25cc6b494ce9891}{resume} ()\hypertarget{class_magnum_1_1_audio_source_base_aee8840f1895eb802d25cc6b494ce9891}{}\label{class_magnum_1_1_audio_source_base_aee8840f1895eb802d25cc6b494ce9891}
+
+\begin{DoxyCompactList}\small\item\em Resume the audio. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5}{set\+Mute\+Enable} (bool mute\+Enable\+\_\+)
+\begin{DoxyCompactList}\small\item\em Mute/\+Unmute the audio Source. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a27f6acecda8f7960b3c79b99e8473ce8}{set\+Bypass\+Effects\+Enable} (bool bypass\+Effects\+Enable\+\_\+)
+\begin{DoxyCompactList}\small\item\em Enable/\+Disable Effect. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6}{set\+Loop\+Enable} (bool loop\+Enable\+\_\+)
+\begin{DoxyCompactList}\small\item\em Enable/\+Disable the looping. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7}{set\+Priority} (int priority\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the priority of the audio. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782}{set\+Volume} (float volume\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the volume of the audio source, from 0 to 1. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4}{set\+Pitch} (float pitch\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the pitch of the audio source. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9}{set3\+D\+Doppler\+Level} (float doppler\+Level\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the doppler Level. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a437afc1a3cb83b3c8780f895cf9673bf}{set3\+D\+Volume\+Decay\+Mode} (\hyperlink{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9}{Audio\+Source\+Base\+::\+Decay\+Mode} volume\+Decay\+Mode\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the volume Decay Mode. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88}{set3\+D\+Min\+Distance} (float min\+Distance\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the min Distance. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082}{set3\+D\+Pan\+Level} (float pan\+Level\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the pan Level. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012}{set3\+D\+Spread} (float spread\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the spread. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09}{set3\+D\+Max\+Distance} (float max\+Distance\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the max Distance. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_audio_source_base_aea802686d2ca8cc4491cebbf165d1f81}{is\+Paused} () const 
+\begin{DoxyCompactList}\small\item\em Check of audio is Paused. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_audio_source_base_a621c2d2081d06980314cfd0cbca47abb}{is\+Mute\+Enabled} () const 
+\begin{DoxyCompactList}\small\item\em Check of audio is Muted. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_audio_source_base_ac88502844fe48dee7fcecb82bc784b15}{is\+Bypass\+Effects\+Enabled} () const 
+\begin{DoxyCompactList}\small\item\em Check of audio effect is bypassed. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_audio_source_base_a3bc651b14d433eeb38b170a35f8065d2}{is\+Loop\+Enabled} () const 
+\begin{DoxyCompactList}\small\item\em Check of audio is looped. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_audio_source_base_a92c0b80da27c9767a3f5cffb2d269533}{get\+Priority} () const 
+\begin{DoxyCompactList}\small\item\em Get the priority of the audio. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_audio_source_base_a6109b9701bcccd30cf12384f3ee74264}{get\+Volume} () const 
+\begin{DoxyCompactList}\small\item\em Get the volume of the audio source, from 0 to 1. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_audio_source_base_a55b153ae8bf8b5a6130fd3dd703d3b77}{get\+Pitch} () const 
+\begin{DoxyCompactList}\small\item\em Get the pitch of the audio source. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_audio_source_base_a41b350acdf0d86b4770e2ad82d38c940}{get3\+D\+Doppler\+Level} () const 
+\begin{DoxyCompactList}\small\item\em Get the doppler Level. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9}{Decay\+Mode} \hyperlink{class_magnum_1_1_audio_source_base_af391e91a553bed39946da51541652b57}{get3\+D\+Volume\+Decay\+Mode} () const 
+\begin{DoxyCompactList}\small\item\em Get the volume Decay Mode. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_audio_source_base_a873f65d66feee4c6a815f55ebbc7b7c9}{get3\+D\+Min\+Distance} () const 
+\begin{DoxyCompactList}\small\item\em Get the min Distance. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_audio_source_base_a5b1fadd8c7e23e796e048d18a689e0ec}{get3\+D\+Pan\+Level} () const 
+\begin{DoxyCompactList}\small\item\em Get the pan Level. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_audio_source_base_a63a43e00bad4fcc571fc76d59c9b337a}{get3\+D\+Spread} () const 
+\begin{DoxyCompactList}\small\item\em Get the spread. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_audio_source_base_aa6d27b8b1ba879ba722719b1c6ea5eca}{get3\+D\+Max\+Distance} () const 
+\begin{DoxyCompactList}\small\item\em Get the max Distance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void $\ast$ {\bfseries get\+Channel\+Handle} ()\hypertarget{class_magnum_1_1_audio_source_base_a4354d0b3dbd51c1e934bbae6f5d1fecd}{}\label{class_magnum_1_1_audio_source_base_a4354d0b3dbd51c1e934bbae6f5d1fecd}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+void $\ast$ {\bfseries channel\+Handle}\hypertarget{class_magnum_1_1_audio_source_base_a699d212dc17d35476990ff6b7900bc70}{}\label{class_magnum_1_1_audio_source_base_a699d212dc17d35476990ff6b7900bc70}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Audio\+::\+Manager}\hypertarget{class_magnum_1_1_audio_source_base_a3ad7b469f47b268897de410969c1c7cd}{}\label{class_magnum_1_1_audio_source_base_a3ad7b469f47b268897de410969c1c7cd}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base}. 
+
+\hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base} is the base class of all Audio\+Source component. \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_audio_component}{Audio\+Component} 
+\end{DoxySeeAlso}
+
+
+\subsection{列舉型態成員說明文件}
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!Decay\+Mode@{Decay\+Mode}}
+\index{Decay\+Mode@{Decay\+Mode}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{Decay\+Mode}{DecayMode}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Magnum\+::\+Audio\+Source\+Base\+::\+Decay\+Mode}}\hypertarget{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9}{}\label{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{Logorithm\+Roll\+Off@{Logorithm\+Roll\+Off}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!Logorithm\+Roll\+Off@{Logorithm\+Roll\+Off}}\item[{\em 
+Logorithm\+Roll\+Off\hypertarget{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9a7ee33a72cfd53d68f22368795e4e9ef2}{}\label{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9a7ee33a72cfd53d68f22368795e4e9ef2}
+}]Static \hyperlink{class_magnum_1_1_audio}{Audio} Level Fall off Logorithmatically. \index{Linear\+Roll\+Off@{Linear\+Roll\+Off}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!Linear\+Roll\+Off@{Linear\+Roll\+Off}}\item[{\em 
+Linear\+Roll\+Off\hypertarget{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9a0ca9b0bbcd84ae70ccac071fcb4da366}{}\label{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9a0ca9b0bbcd84ae70ccac071fcb4da366}
+}]Static \hyperlink{class_magnum_1_1_audio}{Audio} Level Fall off Linearly. \index{Custom@{Custom}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!Custom@{Custom}}\item[{\em 
+Custom\hypertarget{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9ab735e1ed4e8adb0637680f123d3ce646}{}\label{class_magnum_1_1_audio_source_base_ab34de5e5b3170a8f0fce85ac723577c9ab735e1ed4e8adb0637680f123d3ce646}
+}]Static \hyperlink{class_magnum_1_1_audio}{Audio} Level Fall off Custom define. \end{description}
+\end{Desc}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!Audio\+Source\+Base@{Audio\+Source\+Base}}
+\index{Audio\+Source\+Base@{Audio\+Source\+Base}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{Audio\+Source\+Base(\+Component\+::\+Owner \&owner\+\_\+)}{AudioSourceBase(Component::Owner &owner_)}}]{\setlength{\rightskip}{0pt plus 5cm}Audio\+Source\+Base\+::\+Audio\+Source\+Base (
+\begin{DoxyParamCaption}
+\item[{{\bf Component\+::\+Owner} \&}]{owner\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a8accbc06cfd3fcfc040d43c65ebf5b88}{}\label{class_magnum_1_1_audio_source_base_a8accbc06cfd3fcfc040d43c65ebf5b88}
+
+
+\hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base} for the owner. 
+\begin{DoxyParams}{參數}
+{\em owner\+\_\+,the} & \hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} which owns this component. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!````~Audio\+Source\+Base@{$\sim$\+Audio\+Source\+Base}}
+\index{````~Audio\+Source\+Base@{$\sim$\+Audio\+Source\+Base}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{$\sim$\+Audio\+Source\+Base()}{~AudioSourceBase()}}]{\setlength{\rightskip}{0pt plus 5cm}Audio\+Source\+Base\+::$\sim$\+Audio\+Source\+Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_audio_source_base_aebd15e698595d7592b9affe4cfbe747a}{}\label{class_magnum_1_1_audio_source_base_aebd15e698595d7592b9affe4cfbe747a}
+
+
+\hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base} and remove from its owner. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT@{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT}}
+\index{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT@{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+N\+T(\+Audio\+Source\+Base, Audio\+Component, false)   virtual bool play(bool loop)=0}{DECLARE_COMPONENT(AudioSourceBase, AudioComponent, false)   virtual bool play(bool loop)=0}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Audio\+Source\+Base\+::\+D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT (
+\begin{DoxyParamCaption}
+\item[{{\bf Audio\+Source\+Base}}]{, }
+\item[{{\bf Audio\+Component}}]{, }
+\item[{false}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_audio_source_base_a1aed201755910a3f876895ff284796d1}{}\label{class_magnum_1_1_audio_source_base_a1aed201755910a3f876895ff284796d1}
+
+
+Start playing the audio. 
+
+
+\begin{DoxyParams}{參數}
+{\em loop,if} & true the audio will rewind to beginning. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!get3\+D\+Doppler\+Level@{get3\+D\+Doppler\+Level}}
+\index{get3\+D\+Doppler\+Level@{get3\+D\+Doppler\+Level}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{get3\+D\+Doppler\+Level() const }{get3DDopplerLevel() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Audio\+Source\+Base\+::get3\+D\+Doppler\+Level (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_a41b350acdf0d86b4770e2ad82d38c940}{}\label{class_magnum_1_1_audio_source_base_a41b350acdf0d86b4770e2ad82d38c940}
+
+
+Get the doppler Level. 
+
+\begin{DoxyReturn}{傳回值}
+float, the doppler\+Level of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. Adjust the dopper level will scale the effect of velocity 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a41b350acdf0d86b4770e2ad82d38c940_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!get3\+D\+Max\+Distance@{get3\+D\+Max\+Distance}}
+\index{get3\+D\+Max\+Distance@{get3\+D\+Max\+Distance}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{get3\+D\+Max\+Distance() const }{get3DMaxDistance() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Audio\+Source\+Base\+::get3\+D\+Max\+Distance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_aa6d27b8b1ba879ba722719b1c6ea5eca}{}\label{class_magnum_1_1_audio_source_base_aa6d27b8b1ba879ba722719b1c6ea5eca}
+
+
+Get the max Distance. 
+
+\begin{DoxyReturn}{傳回值}
+, the max\+Distance of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. It is the maximun distance, that the audio can be heard 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_aa6d27b8b1ba879ba722719b1c6ea5eca_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!get3\+D\+Min\+Distance@{get3\+D\+Min\+Distance}}
+\index{get3\+D\+Min\+Distance@{get3\+D\+Min\+Distance}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{get3\+D\+Min\+Distance() const }{get3DMinDistance() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Audio\+Source\+Base\+::get3\+D\+Min\+Distance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_a873f65d66feee4c6a815f55ebbc7b7c9}{}\label{class_magnum_1_1_audio_source_base_a873f65d66feee4c6a815f55ebbc7b7c9}
+
+
+Get the min Distance. 
+
+\begin{DoxyReturn}{傳回值}
+float, the min\+Distance of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. It is the minimun distance, that the audio can be heard 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a873f65d66feee4c6a815f55ebbc7b7c9_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!get3\+D\+Pan\+Level@{get3\+D\+Pan\+Level}}
+\index{get3\+D\+Pan\+Level@{get3\+D\+Pan\+Level}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{get3\+D\+Pan\+Level() const }{get3DPanLevel() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Audio\+Source\+Base\+::get3\+D\+Pan\+Level (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_a5b1fadd8c7e23e796e048d18a689e0ec}{}\label{class_magnum_1_1_audio_source_base_a5b1fadd8c7e23e796e048d18a689e0ec}
+
+
+Get the pan Level. 
+
+\begin{DoxyReturn}{傳回值}
+float, the pan\+Level of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. From -\/1 to 1, -\/1 being left, 1 being right 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a5b1fadd8c7e23e796e048d18a689e0ec_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!get3\+D\+Spread@{get3\+D\+Spread}}
+\index{get3\+D\+Spread@{get3\+D\+Spread}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{get3\+D\+Spread() const }{get3DSpread() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Audio\+Source\+Base\+::get3\+D\+Spread (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_a63a43e00bad4fcc571fc76d59c9b337a}{}\label{class_magnum_1_1_audio_source_base_a63a43e00bad4fcc571fc76d59c9b337a}
+
+
+Get the spread. 
+
+\begin{DoxyReturn}{傳回值}
+, the spread of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. From -\/1 to 1, -\/1 being left, 1 being right 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a63a43e00bad4fcc571fc76d59c9b337a_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!get3\+D\+Volume\+Decay\+Mode@{get3\+D\+Volume\+Decay\+Mode}}
+\index{get3\+D\+Volume\+Decay\+Mode@{get3\+D\+Volume\+Decay\+Mode}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{get3\+D\+Volume\+Decay\+Mode() const }{get3DVolumeDecayMode() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Audio\+Source\+Base\+::\+Decay\+Mode} Audio\+Source\+Base\+::get3\+D\+Volume\+Decay\+Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_af391e91a553bed39946da51541652b57}{}\label{class_magnum_1_1_audio_source_base_af391e91a553bed39946da51541652b57}
+
+
+Get the volume Decay Mode. 
+
+\begin{DoxyReturn}{傳回值}
+float, the volume\+Decay\+Mode of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. either Logorithm\+Roll\+Off, Linear\+Roll\+Off or Custom. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!get\+Pitch@{get\+Pitch}}
+\index{get\+Pitch@{get\+Pitch}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{get\+Pitch() const }{getPitch() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Audio\+Source\+Base\+::get\+Pitch (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_a55b153ae8bf8b5a6130fd3dd703d3b77}{}\label{class_magnum_1_1_audio_source_base_a55b153ae8bf8b5a6130fd3dd703d3b77}
+
+
+Get the pitch of the audio source. 
+
+\begin{DoxyReturn}{傳回值}
+float, the pitch of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. the frequency of the audio will be scale by the this parameter 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a55b153ae8bf8b5a6130fd3dd703d3b77_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!get\+Priority@{get\+Priority}}
+\index{get\+Priority@{get\+Priority}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{get\+Priority() const }{getPriority() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Audio\+Source\+Base\+::get\+Priority (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_a92c0b80da27c9767a3f5cffb2d269533}{}\label{class_magnum_1_1_audio_source_base_a92c0b80da27c9767a3f5cffb2d269533}
+
+
+Get the priority of the audio. 
+
+If all audio channels are fully occupied, lower priority will be ignored. \begin{DoxyReturn}{傳回值}
+int, the priority of the \hyperlink{class_magnum_1_1_audio}{Audio} 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a92c0b80da27c9767a3f5cffb2d269533_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!get\+Volume@{get\+Volume}}
+\index{get\+Volume@{get\+Volume}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{get\+Volume() const }{getVolume() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Audio\+Source\+Base\+::get\+Volume (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_a6109b9701bcccd30cf12384f3ee74264}{}\label{class_magnum_1_1_audio_source_base_a6109b9701bcccd30cf12384f3ee74264}
+
+
+Get the volume of the audio source, from 0 to 1. 
+
+\begin{DoxyReturn}{傳回值}
+float, the volume of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a6109b9701bcccd30cf12384f3ee74264_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!is\+Bypass\+Effects\+Enabled@{is\+Bypass\+Effects\+Enabled}}
+\index{is\+Bypass\+Effects\+Enabled@{is\+Bypass\+Effects\+Enabled}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{is\+Bypass\+Effects\+Enabled() const }{isBypassEffectsEnabled() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Audio\+Source\+Base\+::is\+Bypass\+Effects\+Enabled (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_ac88502844fe48dee7fcecb82bc784b15}{}\label{class_magnum_1_1_audio_source_base_ac88502844fe48dee7fcecb82bc784b15}
+
+
+Check of audio effect is bypassed. 
+
+\begin{DoxyReturn}{傳回值}
+, bool, true if audio effect is bypassed, false if audio effect is not bypassed. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!is\+Loop\+Enabled@{is\+Loop\+Enabled}}
+\index{is\+Loop\+Enabled@{is\+Loop\+Enabled}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{is\+Loop\+Enabled() const }{isLoopEnabled() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Audio\+Source\+Base\+::is\+Loop\+Enabled (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_a3bc651b14d433eeb38b170a35f8065d2}{}\label{class_magnum_1_1_audio_source_base_a3bc651b14d433eeb38b170a35f8065d2}
+
+
+Check of audio is looped. 
+
+\begin{DoxyReturn}{傳回值}
+, bool, true if audio is being muted, false if audio is not being muted 
+\end{DoxyReturn}
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!is\+Mute\+Enabled@{is\+Mute\+Enabled}}
+\index{is\+Mute\+Enabled@{is\+Mute\+Enabled}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{is\+Mute\+Enabled() const }{isMuteEnabled() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Audio\+Source\+Base\+::is\+Mute\+Enabled (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_a621c2d2081d06980314cfd0cbca47abb}{}\label{class_magnum_1_1_audio_source_base_a621c2d2081d06980314cfd0cbca47abb}
+
+
+Check of audio is Muted. 
+
+\begin{DoxyReturn}{傳回值}
+, bool, true if audio is being muted, false if audio is not being muted 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a621c2d2081d06980314cfd0cbca47abb_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!is\+Paused@{is\+Paused}}
+\index{is\+Paused@{is\+Paused}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{is\+Paused() const }{isPaused() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Audio\+Source\+Base\+::is\+Paused (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_source_base_aea802686d2ca8cc4491cebbf165d1f81}{}\label{class_magnum_1_1_audio_source_base_aea802686d2ca8cc4491cebbf165d1f81}
+
+
+Check of audio is Paused. 
+
+\begin{DoxyReturn}{傳回值}
+, bool, true if audio is being paused, false if audio is not being paused 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_aea802686d2ca8cc4491cebbf165d1f81_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set3\+D\+Doppler\+Level@{set3\+D\+Doppler\+Level}}
+\index{set3\+D\+Doppler\+Level@{set3\+D\+Doppler\+Level}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set3\+D\+Doppler\+Level(float doppler\+Level\+\_\+)}{set3DDopplerLevel(float dopplerLevel_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set3\+D\+Doppler\+Level (
+\begin{DoxyParamCaption}
+\item[{float}]{doppler\+Level\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9}{}\label{class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9}
+
+
+Set the doppler Level. 
+
+
+\begin{DoxyParams}{參數}
+{\em doppler\+Level\+\_\+,the} & doppler\+Level of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. Adjust the dopper level will scale the effect of velocity \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set3\+D\+Max\+Distance@{set3\+D\+Max\+Distance}}
+\index{set3\+D\+Max\+Distance@{set3\+D\+Max\+Distance}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set3\+D\+Max\+Distance(float max\+Distance\+\_\+)}{set3DMaxDistance(float maxDistance_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set3\+D\+Max\+Distance (
+\begin{DoxyParamCaption}
+\item[{float}]{max\+Distance\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09}{}\label{class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09}
+
+
+Set the max Distance. 
+
+
+\begin{DoxyParams}{參數}
+{\em max\+Distance\+\_\+,the} & max\+Distance of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. It is the maximun distance, that the audio can be heard \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set3\+D\+Min\+Distance@{set3\+D\+Min\+Distance}}
+\index{set3\+D\+Min\+Distance@{set3\+D\+Min\+Distance}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set3\+D\+Min\+Distance(float min\+Distance\+\_\+)}{set3DMinDistance(float minDistance_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set3\+D\+Min\+Distance (
+\begin{DoxyParamCaption}
+\item[{float}]{min\+Distance\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88}{}\label{class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88}
+
+
+Set the min Distance. 
+
+
+\begin{DoxyParams}{參數}
+{\em min\+Distance\+\_\+,the} & min\+Distance of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. It is the minimun distance, that the audio can be heard \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set3\+D\+Pan\+Level@{set3\+D\+Pan\+Level}}
+\index{set3\+D\+Pan\+Level@{set3\+D\+Pan\+Level}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set3\+D\+Pan\+Level(float pan\+Level\+\_\+)}{set3DPanLevel(float panLevel_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set3\+D\+Pan\+Level (
+\begin{DoxyParamCaption}
+\item[{float}]{pan\+Level\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082}{}\label{class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082}
+
+
+Set the pan Level. 
+
+
+\begin{DoxyParams}{參數}
+{\em pan\+Level\+\_\+,the} & pan\+Level of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. From -\/1 to 1, -\/1 being left, 1 being right \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set3\+D\+Spread@{set3\+D\+Spread}}
+\index{set3\+D\+Spread@{set3\+D\+Spread}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set3\+D\+Spread(float spread\+\_\+)}{set3DSpread(float spread_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set3\+D\+Spread (
+\begin{DoxyParamCaption}
+\item[{float}]{spread\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012}{}\label{class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012}
+
+
+Set the spread. 
+
+
+\begin{DoxyParams}{參數}
+{\em spread\+\_\+,the} & spread of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. From -\/1 to 1, -\/1 being left, 1 being right \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set3\+D\+Volume\+Decay\+Mode@{set3\+D\+Volume\+Decay\+Mode}}
+\index{set3\+D\+Volume\+Decay\+Mode@{set3\+D\+Volume\+Decay\+Mode}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set3\+D\+Volume\+Decay\+Mode(\+Audio\+Source\+Base\+::\+Decay\+Mode volume\+Decay\+Mode\+\_\+)}{set3DVolumeDecayMode(AudioSourceBase::DecayMode volumeDecayMode_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set3\+D\+Volume\+Decay\+Mode (
+\begin{DoxyParamCaption}
+\item[{{\bf Audio\+Source\+Base\+::\+Decay\+Mode}}]{volume\+Decay\+Mode\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a437afc1a3cb83b3c8780f895cf9673bf}{}\label{class_magnum_1_1_audio_source_base_a437afc1a3cb83b3c8780f895cf9673bf}
+
+
+Set the volume Decay Mode. 
+
+
+\begin{DoxyParams}{參數}
+{\em volume\+Decay\+Mode\+\_\+,the} & volume\+Decay\+Mode of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. either Logorithm\+Roll\+Off, Linear\+Roll\+Off or Custom. \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a437afc1a3cb83b3c8780f895cf9673bf_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set\+Bypass\+Effects\+Enable@{set\+Bypass\+Effects\+Enable}}
+\index{set\+Bypass\+Effects\+Enable@{set\+Bypass\+Effects\+Enable}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set\+Bypass\+Effects\+Enable(bool bypass\+Effects\+Enable\+\_\+)}{setBypassEffectsEnable(bool bypassEffectsEnable_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set\+Bypass\+Effects\+Enable (
+\begin{DoxyParamCaption}
+\item[{bool}]{bypass\+Effects\+Enable\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a27f6acecda8f7960b3c79b99e8473ce8}{}\label{class_magnum_1_1_audio_source_base_a27f6acecda8f7960b3c79b99e8473ce8}
+
+
+Enable/\+Disable Effect. 
+
+
+\begin{DoxyParams}{參數}
+{\em bypass\+Effects\+Enable\+\_\+,if} & true Disable the audio Effect, else Enable audio effect \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a27f6acecda8f7960b3c79b99e8473ce8_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set\+Loop\+Enable@{set\+Loop\+Enable}}
+\index{set\+Loop\+Enable@{set\+Loop\+Enable}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set\+Loop\+Enable(bool loop\+Enable\+\_\+)}{setLoopEnable(bool loopEnable_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set\+Loop\+Enable (
+\begin{DoxyParamCaption}
+\item[{bool}]{loop\+Enable\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6}{}\label{class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6}
+
+
+Enable/\+Disable the looping. 
+
+
+\begin{DoxyParams}{參數}
+{\em loop\+Enable\+\_\+,if} & true loop the audio, else unloop \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set\+Mute\+Enable@{set\+Mute\+Enable}}
+\index{set\+Mute\+Enable@{set\+Mute\+Enable}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set\+Mute\+Enable(bool mute\+Enable\+\_\+)}{setMuteEnable(bool muteEnable_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set\+Mute\+Enable (
+\begin{DoxyParamCaption}
+\item[{bool}]{mute\+Enable\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5}{}\label{class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5}
+
+
+Mute/\+Unmute the audio Source. 
+
+
+\begin{DoxyParams}{參數}
+{\em mute\+Enable\+\_\+,if} & true mute the audio, else unmute \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set\+Pitch@{set\+Pitch}}
+\index{set\+Pitch@{set\+Pitch}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set\+Pitch(float pitch\+\_\+)}{setPitch(float pitch_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set\+Pitch (
+\begin{DoxyParamCaption}
+\item[{float}]{pitch\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4}{}\label{class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4}
+
+
+Set the pitch of the audio source. 
+
+
+\begin{DoxyParams}{參數}
+{\em pitch\+\_\+,the} & pitch of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. the frequency of the audio will be scale by the this parameter \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set\+Priority@{set\+Priority}}
+\index{set\+Priority@{set\+Priority}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set\+Priority(int priority\+\_\+)}{setPriority(int priority_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set\+Priority (
+\begin{DoxyParamCaption}
+\item[{int}]{priority\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7}{}\label{class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7}
+
+
+Set the priority of the audio. 
+
+If all audio channels are fully occupied, lower priority will be ignored. 
+\begin{DoxyParams}{參數}
+{\em priority\+\_\+,the} & priority of the \hyperlink{class_magnum_1_1_audio}{Audio} \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}!set\+Volume@{set\+Volume}}
+\index{set\+Volume@{set\+Volume}!Magnum\+::\+Audio\+Source\+Base@{Magnum\+::\+Audio\+Source\+Base}}
+\subsubsection[{\texorpdfstring{set\+Volume(float volume\+\_\+)}{setVolume(float volume_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+Source\+Base\+::set\+Volume (
+\begin{DoxyParamCaption}
+\item[{float}]{volume\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782}{}\label{class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782}
+
+
+Set the volume of the audio source, from 0 to 1. 
+
+
+\begin{DoxyParams}{參數}
+{\em volume\+\_\+,the} & volume of the \hyperlink{class_magnum_1_1_audio}{Audio} Source. \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Audio\+Source\+Base.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Audio\+Source\+Base.\+cpp\end{DoxyCompactItemize}

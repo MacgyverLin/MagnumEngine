@@ -1,0 +1,152 @@
+\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state}{}\section{I\+Dream\+Sky\+:\+:Material\+:\+:Render\+State 類別 參考文件}
+\label{class_i_dream_sky_1_1_material_1_1_render_state}\index{I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State}.  
+
+
+
+
+{\ttfamily \#include $<$Material.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_render_state_aa126cdbda51ef9acb21df028a47ce1cc}{Render\+State} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state_ab7e62c5274ce7ff5cc54e4d1fc3469ce}{$\sim$\+Render\+State} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_render_state_ad18a28528f048e41e096b2d004811bd6}{Render\+State} (\hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Material\+::\+Render\+State} \&other)
+\begin{DoxyCompactList}\small\item\em Copy Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Material\+::\+Render\+State} \& \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state_afdca490ba7eebcc44bf86955ef9c92b1}{operator=} (const \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Material\+::\+Render\+State} \&other)
+\begin{DoxyCompactList}\small\item\em Assigned operator. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state_ac969002d5e23b21c7ff2aeff1dd04332}{get\+Name} () const 
+\begin{DoxyCompactList}\small\item\em Get the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block}. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} \& \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state_a4341091e54f0d2e4aaa3425687676870}{get\+State\+Block} ()
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state_a7ca4bac252c3adc321b543b732db71f7}{apply} ()\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_a7ca4bac252c3adc321b543b732db71f7}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_a7ca4bac252c3adc321b543b732db71f7}
+
+\begin{DoxyCompactList}\small\item\em apply the Render\+States of this \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state_a7aaf6f2d8d296c69eaa73c8ef72bfb7f}{restore} ()\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_a7aaf6f2d8d296c69eaa73c8ef72bfb7f}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_a7aaf6f2d8d296c69eaa73c8ef72bfb7f}
+
+\begin{DoxyCompactList}\small\item\em restore any \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} changed by this \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} \end{DoxyCompactList}\item 
+void {\bfseries read} (\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_aea86ba4a6d0e25624cd0c9e4847ab991}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_aea86ba4a6d0e25624cd0c9e4847ab991}
+
+\item 
+void {\bfseries write} (\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_a8d4f4e38f240d0445a76c8d01c8a6d87}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_a8d4f4e38f240d0445a76c8d01c8a6d87}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Material}\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_aa1212b6e372a0f45d2c01f3cd203af77}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_aa1212b6e372a0f45d2c01f3cd203af77}
+
+\item 
+class {\bfseries Material\+::\+Resource}\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_a6a002bcee6c883089769545352e9ccbd}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_a6a002bcee6c883089769545352e9ccbd}
+
+\item 
+class {\bfseries Material\+::\+Resource\+Importer}\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_a941a71e735085112a8496c27836506ee}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_a941a71e735085112a8496c27836506ee}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State}. 
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State}. This is the \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State}, Render Information of this \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}!Render\+State@{Render\+State}}
+\index{Render\+State@{Render\+State}!I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}}
+\subsubsection[{\texorpdfstring{Render\+State()}{RenderState()}}]{\setlength{\rightskip}{0pt plus 5cm}Material\+::\+Render\+State\+::\+Render\+State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_aa126cdbda51ef9acb21df028a47ce1cc}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_aa126cdbda51ef9acb21df028a47ce1cc}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} for the \hyperlink{class_i_dream_sky_1_1_material}{Material}. \index{I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}!````~Render\+State@{$\sim$\+Render\+State}}
+\index{````~Render\+State@{$\sim$\+Render\+State}!I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}}
+\subsubsection[{\texorpdfstring{$\sim$\+Render\+State()}{~RenderState()}}]{\setlength{\rightskip}{0pt plus 5cm}Material\+::\+Render\+State\+::$\sim$\+Render\+State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_ab7e62c5274ce7ff5cc54e4d1fc3469ce}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_ab7e62c5274ce7ff5cc54e4d1fc3469ce}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State}. \index{I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}!Render\+State@{Render\+State}}
+\index{Render\+State@{Render\+State}!I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}}
+\subsubsection[{\texorpdfstring{Render\+State(\+Material\+::\+Render\+State \&other)}{RenderState(Material::RenderState &other)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Material\+::\+Render\+State\+::\+Render\+State (
+\begin{DoxyParamCaption}
+\item[{{\bf Material\+::\+Render\+State} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_ad18a28528f048e41e096b2d004811bd6}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_ad18a28528f048e41e096b2d004811bd6}
+
+
+Copy Constructor. 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}}
+\subsubsection[{\texorpdfstring{get\+Name() const }{getName() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Material\+::\+Render\+State\+::get\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_ac969002d5e23b21c7ff2aeff1dd04332}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_ac969002d5e23b21c7ff2aeff1dd04332}
+
+
+Get the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block}. 
+
+\begin{DoxyReturn}{傳回值}
+, const char $\ast$, the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}!get\+State\+Block@{get\+State\+Block}}
+\index{get\+State\+Block@{get\+State\+Block}!I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}}
+\subsubsection[{\texorpdfstring{get\+State\+Block()}{getStateBlock()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Material\+::\+State\+Block} \& Material\+::\+Render\+State\+::get\+State\+Block (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_a4341091e54f0d2e4aaa3425687676870}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_a4341091e54f0d2e4aaa3425687676870}
+
+
+Get the \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block}. 
+
+\begin{DoxyReturn}{傳回值}
+, \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block}\&, the \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} of this \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}!operator=@{operator=}}
+\index{operator=@{operator=}!I\+Dream\+Sky\+::\+Material\+::\+Render\+State@{I\+Dream\+Sky\+::\+Material\+::\+Render\+State}}
+\subsubsection[{\texorpdfstring{operator=(const Material\+::\+Render\+State \&other)}{operator=(const Material::RenderState &other)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Material\+::\+Render\+State} \& Material\+::\+Render\+State\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Material\+::\+Render\+State} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_render_state_afdca490ba7eebcc44bf86955ef9c92b1}{}\label{class_i_dream_sky_1_1_material_1_1_render_state_afdca490ba7eebcc44bf86955ef9c92b1}
+
+
+Assigned operator. 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Material.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Material.\+cpp\end{DoxyCompactItemize}

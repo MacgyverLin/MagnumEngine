@@ -1,0 +1,193 @@
+\hypertarget{class_magnum_1_1_i_component_debug_renderer}{}\section{Magnum\+:\+:I\+Component\+Debug\+Renderer 類別 參考文件}
+\label{class_magnum_1_1_i_component_debug_renderer}\index{Magnum\+::\+I\+Component\+Debug\+Renderer@{Magnum\+::\+I\+Component\+Debug\+Renderer}}
+
+
+類別\+Magnum\+:\+:I\+Component\+Debug\+Renderer的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{class_magnum_1_1_i_component_debug_renderer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:I\+Component\+Debug\+Renderer的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{class_magnum_1_1_i_component_debug_renderer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Draw\+Mode} \{ \\*
+{\bfseries Points} = 0, 
+{\bfseries Lines} = 1, 
+{\bfseries Line\+Strip} = 2, 
+{\bfseries Triangles} = 3, 
+\\*
+{\bfseries Triangle\+Strip} = 4, 
+{\bfseries Triangle\+Fan} = 5
+ \}\hypertarget{class_magnum_1_1_i_component_debug_renderer_a4ff66311aaec0b675af0cb9fd6f8ac6d}{}\label{class_magnum_1_1_i_component_debug_renderer_a4ff66311aaec0b675af0cb9fd6f8ac6d}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries I\+Component\+Debug\+Renderer} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&proj\+Transform, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&view\+Transform)\hypertarget{class_magnum_1_1_i_component_debug_renderer_acb3e2846ae5304a686d3e2e4fa332f2d}{}\label{class_magnum_1_1_i_component_debug_renderer_acb3e2846ae5304a686d3e2e4fa332f2d}
+
+\item 
+const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries get\+Proj\+Transform} () const \hypertarget{class_magnum_1_1_i_component_debug_renderer_a93394cd289d57080096a451e135a0810}{}\label{class_magnum_1_1_i_component_debug_renderer_a93394cd289d57080096a451e135a0810}
+
+\item 
+const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries get\+View\+Transform} () const \hypertarget{class_magnum_1_1_i_component_debug_renderer_ada752f2ec1052bb063b50d2191e9371d}{}\label{class_magnum_1_1_i_component_debug_renderer_ada752f2ec1052bb063b50d2191e9371d}
+
+\item 
+void {\bfseries render\+Points} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_ace53456e12a1f08d3964f973303ad4ff}{}\label{class_magnum_1_1_i_component_debug_renderer_ace53456e12a1f08d3964f973303ad4ff}
+
+\item 
+void {\bfseries render\+Points} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$c, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a18651ad025eddfe5f6e9bc21fe81940a}{}\label{class_magnum_1_1_i_component_debug_renderer_a18651ad025eddfe5f6e9bc21fe81940a}
+
+\item 
+void {\bfseries render\+Lines} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a8c4f61e448ae48b963cb6cba6502f33f}{}\label{class_magnum_1_1_i_component_debug_renderer_a8c4f61e448ae48b963cb6cba6502f33f}
+
+\item 
+void {\bfseries render\+Lines} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$c, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_acad7ba9a4165e9e4c7f65fe81cff7228}{}\label{class_magnum_1_1_i_component_debug_renderer_acad7ba9a4165e9e4c7f65fe81cff7228}
+
+\item 
+void {\bfseries render\+Line\+Strip} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_aabc866fb644333d92aa8b90f930ebc74}{}\label{class_magnum_1_1_i_component_debug_renderer_aabc866fb644333d92aa8b90f930ebc74}
+
+\item 
+void {\bfseries render\+Line\+Strip} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$c, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a6ff705c1e2e9d08861450e67f7cc7ce1}{}\label{class_magnum_1_1_i_component_debug_renderer_a6ff705c1e2e9d08861450e67f7cc7ce1}
+
+\item 
+void {\bfseries render\+Line\+Loop} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a3e49447cb09f2fe4f554802a6a714989}{}\label{class_magnum_1_1_i_component_debug_renderer_a3e49447cb09f2fe4f554802a6a714989}
+
+\item 
+void {\bfseries render\+Line\+Loop} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$c, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_adee7ec3d3067b2671f18f8c64c2ad7af}{}\label{class_magnum_1_1_i_component_debug_renderer_adee7ec3d3067b2671f18f8c64c2ad7af}
+
+\item 
+void {\bfseries render\+Wire\+Triangles} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_af372c93580e0832346b311c0daf26872}{}\label{class_magnum_1_1_i_component_debug_renderer_af372c93580e0832346b311c0daf26872}
+
+\item 
+void {\bfseries render\+Solid\+Triangles} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a39b58dbe83fa0b030da0b5b5d208bead}{}\label{class_magnum_1_1_i_component_debug_renderer_a39b58dbe83fa0b030da0b5b5d208bead}
+
+\item 
+void {\bfseries render\+Wire\+Triangles} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$c, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a2e39808f69cf651fc799059838f951ab}{}\label{class_magnum_1_1_i_component_debug_renderer_a2e39808f69cf651fc799059838f951ab}
+
+\item 
+void {\bfseries render\+Solid\+Triangles} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$c, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a445e495b20e18aa8a47fc54c9cf4221d}{}\label{class_magnum_1_1_i_component_debug_renderer_a445e495b20e18aa8a47fc54c9cf4221d}
+
+\item 
+void {\bfseries render\+Wire\+Triangle\+Strip} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_ae8fca2b8db8a3fcc40c585051cbe952c}{}\label{class_magnum_1_1_i_component_debug_renderer_ae8fca2b8db8a3fcc40c585051cbe952c}
+
+\item 
+void {\bfseries render\+Solid\+Triangle\+Strip} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a3302ff82d543f152dac1a0847a8b78d6}{}\label{class_magnum_1_1_i_component_debug_renderer_a3302ff82d543f152dac1a0847a8b78d6}
+
+\item 
+void {\bfseries render\+Wire\+Triangle\+Strip} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$c, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_ada247203df7f38c148f1e106feb8c8bd}{}\label{class_magnum_1_1_i_component_debug_renderer_ada247203df7f38c148f1e106feb8c8bd}
+
+\item 
+void {\bfseries render\+Solid\+Triangle\+Strip} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$c, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_aee2b2d572d55e0da9dce15a44d38482c}{}\label{class_magnum_1_1_i_component_debug_renderer_aee2b2d572d55e0da9dce15a44d38482c}
+
+\item 
+void {\bfseries render\+Wire\+Triangle\+Fan} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_ab0effa0625b471841df6ab8657a23b13}{}\label{class_magnum_1_1_i_component_debug_renderer_ab0effa0625b471841df6ab8657a23b13}
+
+\item 
+void {\bfseries render\+Solid\+Triangle\+Fan} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_aa75042a3f7713641d32d8fe9bf8bef67}{}\label{class_magnum_1_1_i_component_debug_renderer_aa75042a3f7713641d32d8fe9bf8bef67}
+
+\item 
+void {\bfseries render\+Wire\+Triangle\+Fan} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$c, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_abcf64331eca38d235196c7b89dca0844}{}\label{class_magnum_1_1_i_component_debug_renderer_abcf64331eca38d235196c7b89dca0844}
+
+\item 
+void {\bfseries render\+Solid\+Triangle\+Fan} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$p, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$c, int count)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a150fadcffa44ab9dad111073e82dae63}{}\label{class_magnum_1_1_i_component_debug_renderer_a150fadcffa44ab9dad111073e82dae63}
+
+\item 
+void {\bfseries render\+Grid} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&size, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&extent, int bold\+Interval)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a3e96142f397cce0056193e67acb0328d}{}\label{class_magnum_1_1_i_component_debug_renderer_a3e96142f397cce0056193e67acb0328d}
+
+\item 
+void {\bfseries render\+Wire\+Circle} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float radius, int slices, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_ac6e55cbf2859be9ff89404eeb5631951}{}\label{class_magnum_1_1_i_component_debug_renderer_ac6e55cbf2859be9ff89404eeb5631951}
+
+\item 
+void {\bfseries render\+Solid\+Circle} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float radius, int slices, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a3731cc6906c1658e2fdc62273d390e61}{}\label{class_magnum_1_1_i_component_debug_renderer_a3731cc6906c1658e2fdc62273d390e61}
+
+\item 
+void {\bfseries render\+Wire\+Sphere} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float radius, int slices, int segments, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI, float start\+Phi=0, float end\+Phi=Math\+::\+O\+N\+E\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a0b77ba6049876fd81bd6e4c41ecafb5d}{}\label{class_magnum_1_1_i_component_debug_renderer_a0b77ba6049876fd81bd6e4c41ecafb5d}
+
+\item 
+void {\bfseries render\+Solid\+Sphere} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float radius, int slices, int segments, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI, float start\+Phi=0, float end\+Phi=Math\+::\+O\+N\+E\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_ae03d4196ce07074dfdec1a41648bb33e}{}\label{class_magnum_1_1_i_component_debug_renderer_ae03d4196ce07074dfdec1a41648bb33e}
+
+\item 
+void {\bfseries render\+Wire\+Capsule} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float radius, float height, int slices, int segments, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_ad2ddeded7d85647eb913d54e331a79cb}{}\label{class_magnum_1_1_i_component_debug_renderer_ad2ddeded7d85647eb913d54e331a79cb}
+
+\item 
+void {\bfseries render\+Solid\+Capsule} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float radius, float height, int slices, int segments, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a5231d1da4e13f3c5e789435d769aef4d}{}\label{class_magnum_1_1_i_component_debug_renderer_a5231d1da4e13f3c5e789435d769aef4d}
+
+\item 
+void {\bfseries render\+Wire\+Cylinder} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float radius, float height, int slices, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_ab3e3aff91ea3b53df3491eb14e4fdf7a}{}\label{class_magnum_1_1_i_component_debug_renderer_ab3e3aff91ea3b53df3491eb14e4fdf7a}
+
+\item 
+void {\bfseries render\+Solid\+Cylinder} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float radius, float height, int slices, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a87a6e169172662ab69b00679228ae6df}{}\label{class_magnum_1_1_i_component_debug_renderer_a87a6e169172662ab69b00679228ae6df}
+
+\item 
+void {\bfseries render\+Wire\+Cone} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float radius, float height, int slices, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_aabe06931f3b3d1b1bf1d0e996ab6fb4d}{}\label{class_magnum_1_1_i_component_debug_renderer_aabe06931f3b3d1b1bf1d0e996ab6fb4d}
+
+\item 
+void {\bfseries render\+Solid\+Cone} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float radius, float height, int slices, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_abeda76c526fa336f290520d318a0eb31}{}\label{class_magnum_1_1_i_component_debug_renderer_abeda76c526fa336f290520d318a0eb31}
+
+\item 
+void {\bfseries render\+Wire\+Box} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&extent)\hypertarget{class_magnum_1_1_i_component_debug_renderer_abaf3f7219bd34c0f075c509a71143f40}{}\label{class_magnum_1_1_i_component_debug_renderer_abaf3f7219bd34c0f075c509a71143f40}
+
+\item 
+void {\bfseries render\+Solid\+Box} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&extent)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a435d94b22bc31890a9c88a8efabee245}{}\label{class_magnum_1_1_i_component_debug_renderer_a435d94b22bc31890a9c88a8efabee245}
+
+\item 
+void {\bfseries render\+Wire\+Frustum} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float l, float r, float b, float t, float n, float f)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a2dd362fd9082054572fd3e562e251582}{}\label{class_magnum_1_1_i_component_debug_renderer_a2dd362fd9082054572fd3e562e251582}
+
+\item 
+void {\bfseries render\+Solid\+Frustum} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, float l, float r, float b, float t, float n, float f)\hypertarget{class_magnum_1_1_i_component_debug_renderer_ac08a39573a0b7f8a29d526476d6fe4b5}{}\label{class_magnum_1_1_i_component_debug_renderer_ac08a39573a0b7f8a29d526476d6fe4b5}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries render\+Wire\+Circle\+Core} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&offset, float radius, int slices, float start\+Theta, float end\+Theta)\hypertarget{class_magnum_1_1_i_component_debug_renderer_ac2378fa2554436b2b18b2f501f80a0fa}{}\label{class_magnum_1_1_i_component_debug_renderer_ac2378fa2554436b2b18b2f501f80a0fa}
+
+\item 
+void {\bfseries render\+Wire\+Sphere\+Core} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&offset, float radius, int slices, int segments, float start\+Theta, float end\+Theta, float start\+Phi, float end\+Phi)\hypertarget{class_magnum_1_1_i_component_debug_renderer_ae6684ae1d93748b74353b1e4539ee279}{}\label{class_magnum_1_1_i_component_debug_renderer_ae6684ae1d93748b74353b1e4539ee279}
+
+\item 
+void {\bfseries render\+Wire\+Cone\+Body} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&offset, float r0, float r1, float height, int slices, float start\+Theta, float end\+Theta)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a924cffd2c7414a53e11bf7ef190265ae}{}\label{class_magnum_1_1_i_component_debug_renderer_a924cffd2c7414a53e11bf7ef190265ae}
+
+\item 
+void {\bfseries render\+Solid\+Cone\+Core} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&offset, float radius, float height, int slices, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a9394b6dd4981ca76578ffd079b59e3a1}{}\label{class_magnum_1_1_i_component_debug_renderer_a9394b6dd4981ca76578ffd079b59e3a1}
+
+\item 
+void {\bfseries render\+Solid\+Sphere\+Core} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&offset, float radius, int slices, int segments, float start\+Theta=0, float end\+Theta=Math\+::\+T\+W\+O\+\_\+\+PI, float start\+Phi=0, float end\+Phi=Math\+::\+O\+N\+E\+\_\+\+PI)\hypertarget{class_magnum_1_1_i_component_debug_renderer_a4eb339c3ed885ef40d61129347dd30ab}{}\label{class_magnum_1_1_i_component_debug_renderer_a4eb339c3ed885ef40d61129347dd30ab}
+
+\item 
+void {\bfseries render\+Solid\+Cylinder\+Body} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&offset, float r0, float r1, float height, int slices, float start\+Theta, float end\+Theta)\hypertarget{class_magnum_1_1_i_component_debug_renderer_abd7539bede12d4e28e309233bc70588f}{}\label{class_magnum_1_1_i_component_debug_renderer_abd7539bede12d4e28e309233bc70588f}
+
+\item 
+virtual void {\bfseries render\+Primitive} (Draw\+Mode mode, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$v, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color, int count)=0\hypertarget{class_magnum_1_1_i_component_debug_renderer_af4b58091ad7024f4196a331e20f2f7c0}{}\label{class_magnum_1_1_i_component_debug_renderer_af4b58091ad7024f4196a331e20f2f7c0}
+
+\item 
+virtual void {\bfseries render\+Primitive} (Draw\+Mode mode, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$v, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$c, int count)=0\hypertarget{class_magnum_1_1_i_component_debug_renderer_aa921b0cbfae6473cde8cc194bec2bab3}{}\label{class_magnum_1_1_i_component_debug_renderer_aa921b0cbfae6473cde8cc194bec2bab3}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries proj\+Transform}\hypertarget{class_magnum_1_1_i_component_debug_renderer_ad4d68353b69e764bd43978e6f9eca818}{}\label{class_magnum_1_1_i_component_debug_renderer_ad4d68353b69e764bd43978e6f9eca818}
+
+\item 
+const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries view\+Transform}\hypertarget{class_magnum_1_1_i_component_debug_renderer_a446abcc3d901904613135a53a5857e14}{}\label{class_magnum_1_1_i_component_debug_renderer_a446abcc3d901904613135a53a5857e14}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/I\+Component\+Debug\+Renderer.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/I\+Component\+Debug\+Renderer.\+cpp\end{DoxyCompactItemize}

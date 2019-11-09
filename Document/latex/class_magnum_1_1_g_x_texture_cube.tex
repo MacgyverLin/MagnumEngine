@@ -1,0 +1,77 @@
+\hypertarget{class_magnum_1_1_g_x_texture_cube}{}\section{Magnum\+:\+:G\+X\+Texture\+Cube 類別 參考文件}
+\label{class_magnum_1_1_g_x_texture_cube}\index{Magnum\+::\+G\+X\+Texture\+Cube@{Magnum\+::\+G\+X\+Texture\+Cube}}
+
+
+\hyperlink{class_magnum_1_1_g_x_texture_cube}{G\+X\+Texture\+Cube} encapsulate a \hyperlink{class_magnum_1_1_cube}{Cube} Map Texture of Graphics Device.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Texture\+Cube.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:G\+X\+Texture\+Cube的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{class_magnum_1_1_g_x_texture_cube__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:G\+X\+Texture\+Cube的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_g_x_texture_cube__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+X\+Texture\+Cube} (int width\+\_\+, const \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \&format\+\_\+, const \hyperlink{class_magnum_1_1_g_x_pixel_buffer_option}{G\+X\+Pixel\+Buffer\+Option} \&option\+\_\+=G\+X\+Pixel\+Buffer\+Option\+::\+None)\hypertarget{class_magnum_1_1_g_x_texture_cube_a0feba5798fd9f23e268a6af81542895c}{}\label{class_magnum_1_1_g_x_texture_cube_a0feba5798fd9f23e268a6af81542895c}
+
+\item 
+{\bfseries G\+X\+Texture\+Cube} (const char $\ast$file\+Name\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture_cube_aacfb52320d982ae93f13781db7445ec9}{}\label{class_magnum_1_1_g_x_texture_cube_aacfb52320d982ae93f13781db7445ec9}
+
+\item 
+{\bfseries G\+X\+Texture\+Cube} (const char $\ast$file\+Image\+\_\+, unsigned int length\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture_cube_a5f7a0834c310063baecdfba2c28ee3d6}{}\label{class_magnum_1_1_g_x_texture_cube_a5f7a0834c310063baecdfba2c28ee3d6}
+
+\item 
+void {\bfseries set\+Pixels} (int level\+\_\+, const \hyperlink{class_magnum_1_1_g_x_texture_cube_face}{G\+X\+Texture\+Cube\+Face} \&cube\+Face\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&pixels\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture_cube_af2142d3c038e773d1b43127a3bd1fb06}{}\label{class_magnum_1_1_g_x_texture_cube_af2142d3c038e773d1b43127a3bd1fb06}
+
+\item 
+void {\bfseries set\+Pixels} (int level\+\_\+, const \hyperlink{class_magnum_1_1_g_x_texture_cube_face}{G\+X\+Texture\+Cube\+Face} \&cube\+Face\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&pixels\+\_\+, int dx\+\_\+, int dy\+\_\+, int dw\+\_\+, int dh\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture_cube_a1fde40d0364534b5ad661a58722c92c2}{}\label{class_magnum_1_1_g_x_texture_cube_a1fde40d0364534b5ad661a58722c92c2}
+
+\item 
+void {\bfseries set\+Pixels} (int level\+\_\+, const \hyperlink{class_magnum_1_1_g_x_texture_cube_face}{G\+X\+Texture\+Cube\+Face} \&cube\+Face\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&pixels\+\_\+, int offset\+\_\+, int pitch\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture_cube_a80e80831ac48023f7e2314e30e0a8cb1}{}\label{class_magnum_1_1_g_x_texture_cube_a80e80831ac48023f7e2314e30e0a8cb1}
+
+\item 
+void {\bfseries set\+Pixels} (int level\+\_\+, const \hyperlink{class_magnum_1_1_g_x_texture_cube_face}{G\+X\+Texture\+Cube\+Face} \&cube\+Face\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&pixels\+\_\+, const \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \&format)\hypertarget{class_magnum_1_1_g_x_texture_cube_a037f4db0dc54f3de154d63a68afcb14a}{}\label{class_magnum_1_1_g_x_texture_cube_a037f4db0dc54f3de154d63a68afcb14a}
+
+\item 
+void {\bfseries set\+Pixels} (int level\+\_\+, const \hyperlink{class_magnum_1_1_g_x_texture_cube_face}{G\+X\+Texture\+Cube\+Face} \&cube\+Face\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&pixels\+\_\+, const \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \&format\+\_\+, int offset\+\_\+, int pitch\+\_\+, int dx\+\_\+, int dy\+\_\+, int dw\+\_\+, int dh\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture_cube_afba12ebcd067cd975742f901c56c9f9c}{}\label{class_magnum_1_1_g_x_texture_cube_afba12ebcd067cd975742f901c56c9f9c}
+
+\item 
+void {\bfseries generate\+Mipmap} ()\hypertarget{class_magnum_1_1_g_x_texture_cube_ae481abe8d13f382c57c6f3d0380e96de}{}\label{class_magnum_1_1_g_x_texture_cube_ae481abe8d13f382c57c6f3d0380e96de}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries G\+X\+Context}\hypertarget{class_magnum_1_1_g_x_texture_cube_a2c36d7f8865080802bbad88cd73d871c}{}\label{class_magnum_1_1_g_x_texture_cube_a2c36d7f8865080802bbad88cd73d871c}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_g_x_texture_cube}{G\+X\+Texture\+Cube} encapsulate a \hyperlink{class_magnum_1_1_cube}{Cube} Map Texture of Graphics Device. 
+
+This is a Base Class of all other Cube\+Map Texture 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Texture\+Cube.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Texture\+Cube.\+cpp\end{DoxyCompactItemize}

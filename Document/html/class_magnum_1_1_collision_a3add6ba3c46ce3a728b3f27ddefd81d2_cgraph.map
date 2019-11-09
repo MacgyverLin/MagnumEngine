@@ -1,0 +1,6 @@
+<map id="Magnum::Collision::defaultCollisionResponse" name="Magnum::Collision::defaultCollisionResponse">
+<area shape="rect" id="node2" href="$class_magnum_1_1_collision.html#a8b7a7fb7066629e41fdc8c72a009b94f" title="set the Position of this Instance of Collision. " alt="" coords="231,5,368,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_collision.html#a87ca313908483a7ea68d0f5e22242567" title="get the Attribute of this Collision Instance " alt="" coords="231,71,368,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_collision.html#aaea103ce5b2bc5930ab754e4d2b6247b" title="This is a pure virtual function. " alt="" coords="220,137,379,163"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_collision_1_1_contact_info.html#a87a3e37fd31e63563ffba3b2e6f88296" title="Reverse the information contained in ContactInfo. " alt="" coords="231,188,368,229"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="IDreamSky::OutputStream::writeX" name="IDreamSky::OutputStream::writeX">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_output_stream.html#ad94eecac88f3a210a98b2765b46cfb35" title="read function for String char data " alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_output_stream.html#a3dc6afbd2233dcbfdce4e199d8b4e55d" title="OutputStream Constructor. " alt="" coords="228,71,403,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_variant.html#a73a88f05fea69f360cbae2dd211fd135" title="Clears data, free buffer and reset data size. " alt="" coords="248,136,383,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_variant.html#afefce84ee3f94c9154c69e2e9a62f0b0" title="Destructor of Data. " alt="" coords="451,103,585,144"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_variant.html#a442002c53f624632701be845b5fe749f" title="Copies the buffer pointer and its size. " alt="" coords="451,168,585,209"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_variant.html#ad086adaf0bccad716a2508c8f8465937" title="Copy constructor of Data. " alt="" coords="633,135,768,176"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_variant.html#ad9afd1d792eafd58a4fa866cb09915c7" title="Overloads of operator=. " alt="" coords="633,200,768,241"/>
+</map>

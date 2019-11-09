@@ -1,0 +1,114 @@
+\hypertarget{class_ti_xml_text}{}\section{Ti\+Xml\+Text 類別 參考文件}
+\label{class_ti_xml_text}\index{Ti\+Xml\+Text@{Ti\+Xml\+Text}}
+
+
+X\+ML text.  
+
+
+
+
+{\ttfamily \#include $<$tinyxml.\+h$>$}
+
+類別\+Ti\+Xml\+Text的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_ti_xml_text}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_ti_xml_text_af659e77c6b87d684827f35a8f4895960}{Ti\+Xml\+Text} (const char $\ast$init\+Value)
+\begin{DoxyCompactList}\small\item\em Constructor for text element. \end{DoxyCompactList}\item 
+{\bfseries Ti\+Xml\+Text} (const \hyperlink{class_ti_xml_text}{Ti\+Xml\+Text} \&copy)\hypertarget{class_ti_xml_text_a8d2cc1b4af2208cbb0171cf20f6815d1}{}\label{class_ti_xml_text_a8d2cc1b4af2208cbb0171cf20f6815d1}
+
+\item 
+\hyperlink{class_ti_xml_text}{Ti\+Xml\+Text} \& {\bfseries operator=} (const \hyperlink{class_ti_xml_text}{Ti\+Xml\+Text} \&base)\hypertarget{class_ti_xml_text_aed5b13f9c1b804c616fd533882c29f57}{}\label{class_ti_xml_text_aed5b13f9c1b804c616fd533882c29f57}
+
+\item 
+virtual void \hyperlink{class_ti_xml_text_ae74d56c5b3ddec6cc3103dd51821af92}{Print} (F\+I\+LE $\ast$cfile, int depth) const 
+\begin{DoxyCompactList}\small\item\em All Tiny\+Xml classes can print themselves to a filestream or the string class (\hyperlink{class_ti_xml_string}{Ti\+Xml\+String} in non-\/\+S\+TL mode, std\+::string in S\+TL mode.) Either or both cfile and str can be null. \end{DoxyCompactList}\item 
+bool \hyperlink{class_ti_xml_text_ad1a6a6b83fa2271022dd97c072a2b586}{C\+D\+A\+TA} () const \hypertarget{class_ti_xml_text_ad1a6a6b83fa2271022dd97c072a2b586}{}\label{class_ti_xml_text_ad1a6a6b83fa2271022dd97c072a2b586}
+
+\begin{DoxyCompactList}\small\item\em Queries whether this represents text using a C\+D\+A\+TA section. \end{DoxyCompactList}\item 
+void \hyperlink{class_ti_xml_text_acb17ff7c5d09b2c839393445a3de5ea9}{Set\+C\+D\+A\+TA} (bool \+\_\+cdata)\hypertarget{class_ti_xml_text_acb17ff7c5d09b2c839393445a3de5ea9}{}\label{class_ti_xml_text_acb17ff7c5d09b2c839393445a3de5ea9}
+
+\begin{DoxyCompactList}\small\item\em Turns on or off a C\+D\+A\+TA representation of text. \end{DoxyCompactList}\item 
+virtual const char $\ast$ {\bfseries Parse} (const char $\ast$p, \hyperlink{class_ti_xml_parsing_data}{Ti\+Xml\+Parsing\+Data} $\ast$data, Ti\+Xml\+Encoding encoding)\hypertarget{class_ti_xml_text_a8d2dcfa41fc73d3e62dacc2fcf633819}{}\label{class_ti_xml_text_a8d2dcfa41fc73d3e62dacc2fcf633819}
+
+\item 
+virtual const \hyperlink{class_ti_xml_text}{Ti\+Xml\+Text} $\ast$ \hyperlink{class_ti_xml_text_a895bf34ffad17f7439ab2a52b9651648}{To\+Text} () const \hypertarget{class_ti_xml_text_a895bf34ffad17f7439ab2a52b9651648}{}\label{class_ti_xml_text_a895bf34ffad17f7439ab2a52b9651648}
+
+\begin{DoxyCompactList}\small\item\em Cast to a more defined type. Will return null not of the requested type. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_ti_xml_text}{Ti\+Xml\+Text} $\ast$ \hyperlink{class_ti_xml_text_ae7c3a8fd3e4dbf6c0c4363a943d72f5b}{To\+Text} ()\hypertarget{class_ti_xml_text_ae7c3a8fd3e4dbf6c0c4363a943d72f5b}{}\label{class_ti_xml_text_ae7c3a8fd3e4dbf6c0c4363a943d72f5b}
+
+\begin{DoxyCompactList}\small\item\em Cast to a more defined type. Will return null not of the requested type. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_text_a43b9954ebf679557fac1a4453f337b7c}{Accept} (\hyperlink{class_ti_xml_visitor}{Ti\+Xml\+Visitor} $\ast$content) const \hypertarget{class_ti_xml_text_a43b9954ebf679557fac1a4453f337b7c}{}\label{class_ti_xml_text_a43b9954ebf679557fac1a4453f337b7c}
+
+\begin{DoxyCompactList}\small\item\em Walk the X\+ML tree visiting this node and all of its children. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{class_ti_xml_node}{Ti\+Xml\+Node} $\ast$ \hyperlink{class_ti_xml_text_adde1869dfb029be50713fbfd8ce4d21f}{Clone} () const \hypertarget{class_ti_xml_text_adde1869dfb029be50713fbfd8ce4d21f}{}\label{class_ti_xml_text_adde1869dfb029be50713fbfd8ce4d21f}
+
+\begin{DoxyCompactList}\small\item\em \mbox{[}internal use\mbox{]} Creates a new Element and returns it. \end{DoxyCompactList}\item 
+void {\bfseries Copy\+To} (\hyperlink{class_ti_xml_text}{Ti\+Xml\+Text} $\ast$target) const \hypertarget{class_ti_xml_text_adcec7d9b6fccfc5777452bb97e6031c1}{}\label{class_ti_xml_text_adcec7d9b6fccfc5777452bb97e6031c1}
+
+\item 
+bool {\bfseries Blank} () const \hypertarget{class_ti_xml_text_a1c120428e3b3cf24d79706e6d2b65aa6}{}\label{class_ti_xml_text_a1c120428e3b3cf24d79706e6d2b65aa6}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Ti\+Xml\+Element}\hypertarget{class_ti_xml_text_ab6592e32cb9132be517cc12a70564c4b}{}\label{class_ti_xml_text_ab6592e32cb9132be517cc12a70564c4b}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+X\+ML text. 
+
+A text node can have 2 ways to output the next. \char`\"{}normal\char`\"{} output and C\+D\+A\+TA. It will default to the mode it was parsed from the X\+ML file and you generally want to leave it alone, but you can change the output mode with \hyperlink{class_ti_xml_text_acb17ff7c5d09b2c839393445a3de5ea9}{Set\+C\+D\+A\+T\+A()} and query it with \hyperlink{class_ti_xml_text_ad1a6a6b83fa2271022dd97c072a2b586}{C\+D\+A\+T\+A()}. 
+
+\subsection{建構子與解構子說明文件}
+\index{Ti\+Xml\+Text@{Ti\+Xml\+Text}!Ti\+Xml\+Text@{Ti\+Xml\+Text}}
+\index{Ti\+Xml\+Text@{Ti\+Xml\+Text}!Ti\+Xml\+Text@{Ti\+Xml\+Text}}
+\subsubsection[{\texorpdfstring{Ti\+Xml\+Text(const char $\ast$init\+Value)}{TiXmlText(const char *initValue)}}]{\setlength{\rightskip}{0pt plus 5cm}Ti\+Xml\+Text\+::\+Ti\+Xml\+Text (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{init\+Value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_ti_xml_text_af659e77c6b87d684827f35a8f4895960}{}\label{class_ti_xml_text_af659e77c6b87d684827f35a8f4895960}
+
+
+Constructor for text element. 
+
+By default, it is treated as normal, encoded text. If you want it be output as a C\+D\+A\+TA text element, set the parameter \+\_\+cdata to \textquotesingle{}true\textquotesingle{} 
+
+\subsection{函式成員說明文件}
+\index{Ti\+Xml\+Text@{Ti\+Xml\+Text}!Print@{Print}}
+\index{Print@{Print}!Ti\+Xml\+Text@{Ti\+Xml\+Text}}
+\subsubsection[{\texorpdfstring{Print(\+F\+I\+L\+E $\ast$cfile, int depth) const }{Print(FILE *cfile, int depth) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Ti\+Xml\+Text\+::\+Print (
+\begin{DoxyParamCaption}
+\item[{F\+I\+LE $\ast$}]{cfile, }
+\item[{int}]{depth}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_ti_xml_text_ae74d56c5b3ddec6cc3103dd51821af92}{}\label{class_ti_xml_text_ae74d56c5b3ddec6cc3103dd51821af92}
+
+
+All Tiny\+Xml classes can print themselves to a filestream or the string class (\hyperlink{class_ti_xml_string}{Ti\+Xml\+String} in non-\/\+S\+TL mode, std\+::string in S\+TL mode.) Either or both cfile and str can be null. 
+
+This is a formatted print, and will insert tabs and newlines.
+
+(For an unformatted stream, use the $<$$<$ operator.) 
+
+實作 \hyperlink{class_ti_xml_base_aaea3e75b489fc3c937f3a7ef096069e7}{Ti\+Xml\+Base}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/tinyxml.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/tinyxml.\+cpp\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/tinyxmlparser.\+cpp\end{DoxyCompactItemize}

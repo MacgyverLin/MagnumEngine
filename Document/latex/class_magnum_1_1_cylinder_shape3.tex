@@ -1,0 +1,173 @@
+\hypertarget{class_magnum_1_1_cylinder_shape3}{}\section{Magnum\+:\+:Cylinder\+Shape3 類別 參考文件}
+\label{class_magnum_1_1_cylinder_shape3}\index{Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}}
+
+
+\hyperlink{class_magnum_1_1_cylinder_shape3}{Cylinder\+Shape3}.  
+
+
+
+
+{\ttfamily \#include $<$Cylinder\+Shape3.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Cylinder\+Shape3的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{class_magnum_1_1_cylinder_shape3__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Cylinder\+Shape3的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=243pt]{class_magnum_1_1_cylinder_shape3__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60b}{Axis\+Direction} \{ \hyperlink{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60ba16ae6d8725f786573e86695b85ee1cad}{X\+\_\+\+A\+X\+IS}, 
+\hyperlink{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60ba26eb1d04cc687989f719a3260ad3462f}{Y\+\_\+\+A\+X\+IS}, 
+\hyperlink{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60baf8643a91a4ac4ffcfc0363269a1ad22f}{Z\+\_\+\+A\+X\+IS}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_cylinder_shape3_a32c651f4bb77e70ddf6c2728b1b84bd8}{Cylinder\+Shape3} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_cylinder_shape3}{Cylinder\+Shape3} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_cylinder_shape3_a71e40d19f4a4069fdc7dba140bd661e2}{$\sim$\+Cylinder\+Shape3} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_cylinder_shape3}{Cylinder\+Shape3} Destructor. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_cylinder_shape3_a32cf0f886433891007464cb5ff6e4fd4}{construct} (\hyperlink{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60b}{Cylinder\+Shape3\+::\+Axis\+Direction} axis\+Dir\+\_\+, float radius\+\_\+, float height\+\_\+)
+\begin{DoxyCompactList}\small\item\em construct the \hyperlink{class_magnum_1_1_cylinder_shape3}{Cylinder\+Shape3}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_cylinder_shape3_a9166cef1017d172e8769a9d54e947660}{destruct} ()\hypertarget{class_magnum_1_1_cylinder_shape3_a9166cef1017d172e8769a9d54e947660}{}\label{class_magnum_1_1_cylinder_shape3_a9166cef1017d172e8769a9d54e947660}
+
+\begin{DoxyCompactList}\small\item\em destruct \hyperlink{class_magnum_1_1_cylinder_shape3}{Cylinder\+Shape3} and release memory its used \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_cylinder_shape3_ac34f1b50e44652be4bb1752c0fe8bff9}{get\+Mass\+Prop} (float density, float \&mass, \hyperlink{class_magnum_1_1_vector3}{Vector3} \&local\+Inertia) const 
+\begin{DoxyCompactList}\small\item\em calculate the mass and moment of inertia according to the shape and density \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_cylinder_shape3}{Cylinder\+Shape3}. 
+
+This class define a Cylinders Shape. \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_convex_shape3}{Convex\+Shape3} 
+\end{DoxySeeAlso}
+
+
+\subsection{列舉型態成員說明文件}
+\index{Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}!Axis\+Direction@{Axis\+Direction}}
+\index{Axis\+Direction@{Axis\+Direction}!Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}}
+\subsubsection[{\texorpdfstring{Axis\+Direction}{AxisDirection}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Magnum\+::\+Cylinder\+Shape3\+::\+Axis\+Direction}}\hypertarget{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60b}{}\label{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60b}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{X\+\_\+\+A\+X\+IS@{X\+\_\+\+A\+X\+IS}!Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}}\index{Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}!X\+\_\+\+A\+X\+IS@{X\+\_\+\+A\+X\+IS}}\item[{\em 
+X\+\_\+\+A\+X\+IS\hypertarget{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60ba16ae6d8725f786573e86695b85ee1cad}{}\label{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60ba16ae6d8725f786573e86695b85ee1cad}
+}]Height Align to X\+Axis. \index{Y\+\_\+\+A\+X\+IS@{Y\+\_\+\+A\+X\+IS}!Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}}\index{Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}!Y\+\_\+\+A\+X\+IS@{Y\+\_\+\+A\+X\+IS}}\item[{\em 
+Y\+\_\+\+A\+X\+IS\hypertarget{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60ba26eb1d04cc687989f719a3260ad3462f}{}\label{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60ba26eb1d04cc687989f719a3260ad3462f}
+}]Height Align to Y\+Axis. \index{Z\+\_\+\+A\+X\+IS@{Z\+\_\+\+A\+X\+IS}!Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}}\index{Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}!Z\+\_\+\+A\+X\+IS@{Z\+\_\+\+A\+X\+IS}}\item[{\em 
+Z\+\_\+\+A\+X\+IS\hypertarget{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60baf8643a91a4ac4ffcfc0363269a1ad22f}{}\label{class_magnum_1_1_cylinder_shape3_a48fd2f573e5d5a4c05914dd5c2def60baf8643a91a4ac4ffcfc0363269a1ad22f}
+}]Height Align to Z\+Axis. \end{description}
+\end{Desc}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}!Cylinder\+Shape3@{Cylinder\+Shape3}}
+\index{Cylinder\+Shape3@{Cylinder\+Shape3}!Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}}
+\subsubsection[{\texorpdfstring{Cylinder\+Shape3()}{CylinderShape3()}}]{\setlength{\rightskip}{0pt plus 5cm}Cylinder\+Shape3\+::\+Cylinder\+Shape3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_cylinder_shape3_a32c651f4bb77e70ddf6c2728b1b84bd8}{}\label{class_magnum_1_1_cylinder_shape3_a32c651f4bb77e70ddf6c2728b1b84bd8}
+
+
+\hyperlink{class_magnum_1_1_cylinder_shape3}{Cylinder\+Shape3} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_cylinder_shape3}{Cylinder\+Shape3} \index{Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}!````~Cylinder\+Shape3@{$\sim$\+Cylinder\+Shape3}}
+\index{````~Cylinder\+Shape3@{$\sim$\+Cylinder\+Shape3}!Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}}
+\subsubsection[{\texorpdfstring{$\sim$\+Cylinder\+Shape3()}{~CylinderShape3()}}]{\setlength{\rightskip}{0pt plus 5cm}Cylinder\+Shape3\+::$\sim$\+Cylinder\+Shape3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_cylinder_shape3_a71e40d19f4a4069fdc7dba140bd661e2}{}\label{class_magnum_1_1_cylinder_shape3_a71e40d19f4a4069fdc7dba140bd661e2}
+
+
+\hyperlink{class_magnum_1_1_cylinder_shape3}{Cylinder\+Shape3} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_cylinder_shape3}{Cylinder\+Shape3} 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}!construct@{construct}}
+\index{construct@{construct}!Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}}
+\subsubsection[{\texorpdfstring{construct(\+Cylinder\+Shape3\+::\+Axis\+Direction axis\+Dir\+\_\+, float radius\+\_\+, float height\+\_\+)}{construct(CylinderShape3::AxisDirection axisDir_, float radius_, float height_)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Cylinder\+Shape3\+::construct (
+\begin{DoxyParamCaption}
+\item[{{\bf Cylinder\+Shape3\+::\+Axis\+Direction}}]{axis\+Dir\+\_\+, }
+\item[{float}]{radius\+\_\+, }
+\item[{float}]{height\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_cylinder_shape3_a32cf0f886433891007464cb5ff6e4fd4}{}\label{class_magnum_1_1_cylinder_shape3_a32cf0f886433891007464cb5ff6e4fd4}
+
+
+construct the \hyperlink{class_magnum_1_1_cylinder_shape3}{Cylinder\+Shape3}. 
+
+
+\begin{DoxyParams}{參數}
+{\em axis\+Dir\+\_\+,the} & major axis of the cylinder \\
+\hline
+{\em radius\+\_\+,the} & radius of the cylinder \\
+\hline
+{\em height\+\_\+,the} & height of the cylinder \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if success, false if fail. 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_cylinder_shape3_a32cf0f886433891007464cb5ff6e4fd4_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}!get\+Mass\+Prop@{get\+Mass\+Prop}}
+\index{get\+Mass\+Prop@{get\+Mass\+Prop}!Magnum\+::\+Cylinder\+Shape3@{Magnum\+::\+Cylinder\+Shape3}}
+\subsubsection[{\texorpdfstring{get\+Mass\+Prop(float density, float \&mass, Vector3 \&local\+Inertia) const }{getMassProp(float density, float &mass, Vector3 &localInertia) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Cylinder\+Shape3\+::get\+Mass\+Prop (
+\begin{DoxyParamCaption}
+\item[{float}]{density, }
+\item[{float \&}]{mass, }
+\item[{{\bf Vector3} \&}]{local\+Inertia}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_cylinder_shape3_ac34f1b50e44652be4bb1752c0fe8bff9}{}\label{class_magnum_1_1_cylinder_shape3_ac34f1b50e44652be4bb1752c0fe8bff9}
+
+
+calculate the mass and moment of inertia according to the shape and density 
+
+
+\begin{DoxyParams}{參數}
+{\em density,the} & density of the shape \\
+\hline
+{\em mass,the} & result of the mass of the shape is returned here \\
+\hline
+{\em local\+Inertia,the} & result of the moment of inertia of the shape is returned here \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_shape3_a5d586c69e4a4b59b8386c3fbb8568984}{Magnum\+::\+Shape3}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Cylinder\+Shape3.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Cylinder\+Shape3.\+cpp\end{DoxyCompactItemize}

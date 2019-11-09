@@ -1,0 +1,5 @@
+<map id="IDreamSky::Graphics2" name="IDreamSky::Graphics2">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_component.html" title="Component. " alt="" coords="5,73,165,99"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_vector3.html" title="IDreamSky::Vector3" alt="" coords="189,73,328,99"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_color_r_g_b_a.html" title="IDreamSky::ColorRGBA" alt="" coords="422,73,583,99"/>
+</map>

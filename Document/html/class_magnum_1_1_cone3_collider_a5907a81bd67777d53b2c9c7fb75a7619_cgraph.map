@@ -1,0 +1,13 @@
+<map id="Magnum::Cone3Collider::~Cone3Collider" name="Magnum::Cone3Collider::~Cone3Collider">
+<area shape="rect" id="node2" href="$class_magnum_1_1_cone_shape3.html#afcf9be9a378121092ea4636421f1a5f6" title="construct the ConeShape3. " alt="" coords="249,5,404,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_physics3_1_1_rigid_body.html#a8e1f6c5d8575dbac5b444ce04041ff27" title="Construct the RigidBody. " alt="" coords="226,71,427,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_physics3_1_1_rigid_body.html#ae5b00d6e2ba30c69459263846b84ea59" title="Update the rigidbody and the owner. " alt="" coords="226,136,427,177"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_cone_shape3.html#a37b91e9e3716c959d37307d89c275fc3" title="destruct ConeShape3 and release memory its used " alt="" coords="249,201,404,243"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_physics3_1_1_rigid_body.html#aa20303aecff93264de0d7ee53524eebd" title="Destruct the rigidbody. " alt="" coords="226,267,427,308"/>
+<area shape="rect" id="node12" href="$class_magnum_1_1_shape3.html#a5704ab3fe88257e1f842720fe87cd201" title="Get the Bounding Box of this Shape;. " alt="" coords="213,333,440,359"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_physics3_1_1_rigid_body.html#af2e7f7ab84a226d14baa80afe0b7bec2" title="Set the Transform of the RigidBody. " alt="" coords="492,104,693,145"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_frame3.html#a7e8615aa5b044ecc068c0ac2ecf1d764" title="Set the Frame3&#39;s local transform by directly setting the a Global Transform Matrix. " alt="" coords="499,169,686,211"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_frame3.html#a08c5e5cb5e2127e9c8a166005abda231" title="Get a the parent of this frame. " alt="" coords="745,147,933,174"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_frame3.html#a57a2f755811f485d9602103609c78d68" title="Get the Frame3&#39;s global transform. " alt="" coords="746,199,933,240"/>
+<area shape="rect" id="node11" href="$class_magnum_1_1_shape3.html#a5d586c69e4a4b59b8386c3fbb8568984" title="To calculate the mass and moment of inertia according to the shape and density. " alt="" coords="488,274,697,301"/>
+</map>

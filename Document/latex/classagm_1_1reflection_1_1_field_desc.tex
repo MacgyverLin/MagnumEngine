@@ -1,0 +1,145 @@
+\hypertarget{classagm_1_1reflection_1_1_field_desc}{}\section{agm\+:\+:reflection\+:\+:Field\+Desc 類別 參考文件}
+\label{classagm_1_1reflection_1_1_field_desc}\index{agm\+::reflection\+::\+Field\+Desc@{agm\+::reflection\+::\+Field\+Desc}}
+
+
+The \hyperlink{classagm_1_1reflection_1_1_field_desc}{Field\+Desc} class represents an object\textquotesingle{}s field.  
+
+
+
+
+{\ttfamily \#include $<$reflection.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int {\bfseries get\+Offset} () const \hypertarget{classagm_1_1reflection_1_1_field_desc_a7c9c6bbb3dad3653d631c6124aea9718}{}\label{classagm_1_1reflection_1_1_field_desc_a7c9c6bbb3dad3653d631c6124aea9718}
+
+\item 
+int {\bfseries get\+Class\+Index} () const \hypertarget{classagm_1_1reflection_1_1_field_desc_a494c92e10506c69ad97f7118ca5e9864}{}\label{classagm_1_1reflection_1_1_field_desc_a494c92e10506c69ad97f7118ca5e9864}
+
+\item 
+const \hyperlink{classagm_1_1reflection_1_1_class_desc}{Class\+Desc} \& \hyperlink{classagm_1_1reflection_1_1_field_desc_a103ea498457f9ae4bed81e7b17f3b0a3}{get\+Class} () const 
+\begin{DoxyCompactList}\small\item\em returns the class that the member is declared into. \end{DoxyCompactList}\item 
+const A\+C\+C\+E\+S\+S\+\_\+\+T\+Y\+PE \hyperlink{classagm_1_1reflection_1_1_field_desc_a66684de39de57a1ec9bf106df649adbf}{get\+Access} () const 
+\begin{DoxyCompactList}\small\item\em returns the field\textquotesingle{}s access. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classagm_1_1reflection_1_1_field_desc_a99890532c8e3e88043256272d04ec533}{get\+Name} () const 
+\begin{DoxyCompactList}\small\item\em returns the field\textquotesingle{}s name. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class Object , class Value $>$ }\\void \hyperlink{classagm_1_1reflection_1_1_field_desc_a82e89e0ecceb1ceaaff712ac08685927}{get} (Value \&result, Object $\ast$object) const 
+\begin{DoxyCompactList}\small\item\em retrieves the field of the given object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class Object , class Value $>$ }\\void \hyperlink{classagm_1_1reflection_1_1_field_desc_a6fc0d156c0617a40d40a5eef2644c23b}{set} (Object $\ast$object, const Value \&value) const 
+\begin{DoxyCompactList}\small\item\em sets the field of the given object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Class\+Desc}\hypertarget{classagm_1_1reflection_1_1_field_desc_a0b395f500ac0508158cc81e407724cbe}{}\label{classagm_1_1reflection_1_1_field_desc_a0b395f500ac0508158cc81e407724cbe}
+
+\item 
+class {\bfseries Class\+Base}\hypertarget{classagm_1_1reflection_1_1_field_desc_a8fd6f16406e60843f1216df9334d572d}{}\label{classagm_1_1reflection_1_1_field_desc_a8fd6f16406e60843f1216df9334d572d}
+
+\item 
+struct {\bfseries \+\_\+\+\_\+register\+\_\+field\+\_\+\+\_\+}\hypertarget{classagm_1_1reflection_1_1_field_desc_a0c9c18280637c9c16861ff295e51cb2b}{}\label{classagm_1_1reflection_1_1_field_desc_a0c9c18280637c9c16861ff295e51cb2b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+The \hyperlink{classagm_1_1reflection_1_1_field_desc}{Field\+Desc} class represents an object\textquotesingle{}s field. 
+
+\subsection{函式成員說明文件}
+\index{agm\+::reflection\+::\+Field\+Desc@{agm\+::reflection\+::\+Field\+Desc}!get@{get}}
+\index{get@{get}!agm\+::reflection\+::\+Field\+Desc@{agm\+::reflection\+::\+Field\+Desc}}
+\subsubsection[{\texorpdfstring{get(\+Value \&result, Object $\ast$object) const }{get(Value &result, Object *object) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object , class Value $>$ void agm\+::reflection\+::\+Field\+Desc\+::get (
+\begin{DoxyParamCaption}
+\item[{Value \&}]{result, }
+\item[{Object $\ast$}]{object}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_field_desc_a82e89e0ecceb1ceaaff712ac08685927}{}\label{classagm_1_1reflection_1_1_field_desc_a82e89e0ecceb1ceaaff712ac08685927}
+
+
+retrieves the field of the given object. 
+
+
+\begin{DoxyParams}{參數}
+{\em result} & variable to store the result of the field \\
+\hline
+{\em object} & object to set the field of \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_type_mismatch_error}{Type\+Mismatch\+Error}} & thrown if the object is of invalid class or the result is of the wrong type. \\
+\hline
+\end{DoxyExceptions}
+\index{agm\+::reflection\+::\+Field\+Desc@{agm\+::reflection\+::\+Field\+Desc}!get\+Access@{get\+Access}}
+\index{get\+Access@{get\+Access}!agm\+::reflection\+::\+Field\+Desc@{agm\+::reflection\+::\+Field\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Access() const }{getAccess() const }}]{\setlength{\rightskip}{0pt plus 5cm}const A\+C\+C\+E\+S\+S\+\_\+\+T\+Y\+PE agm\+::reflection\+::\+Field\+Desc\+::get\+Access (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_field_desc_a66684de39de57a1ec9bf106df649adbf}{}\label{classagm_1_1reflection_1_1_field_desc_a66684de39de57a1ec9bf106df649adbf}
+
+
+returns the field\textquotesingle{}s access. 
+
+\begin{DoxyReturn}{傳回值}
+the field\textquotesingle{}s access. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Field\+Desc@{agm\+::reflection\+::\+Field\+Desc}!get\+Class@{get\+Class}}
+\index{get\+Class@{get\+Class}!agm\+::reflection\+::\+Field\+Desc@{agm\+::reflection\+::\+Field\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Class() const }{getClass() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Class\+Desc}\& agm\+::reflection\+::\+Field\+Desc\+::get\+Class (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_field_desc_a103ea498457f9ae4bed81e7b17f3b0a3}{}\label{classagm_1_1reflection_1_1_field_desc_a103ea498457f9ae4bed81e7b17f3b0a3}
+
+
+returns the class that the member is declared into. 
+
+\begin{DoxyReturn}{傳回值}
+the class that the member is declared into. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Field\+Desc@{agm\+::reflection\+::\+Field\+Desc}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!agm\+::reflection\+::\+Field\+Desc@{agm\+::reflection\+::\+Field\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Name() const }{getName() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ agm\+::reflection\+::\+Field\+Desc\+::get\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_field_desc_a99890532c8e3e88043256272d04ec533}{}\label{classagm_1_1reflection_1_1_field_desc_a99890532c8e3e88043256272d04ec533}
+
+
+returns the field\textquotesingle{}s name. 
+
+\begin{DoxyReturn}{傳回值}
+the field\textquotesingle{}s name. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Field\+Desc@{agm\+::reflection\+::\+Field\+Desc}!set@{set}}
+\index{set@{set}!agm\+::reflection\+::\+Field\+Desc@{agm\+::reflection\+::\+Field\+Desc}}
+\subsubsection[{\texorpdfstring{set(\+Object $\ast$object, const Value \&value) const }{set(Object *object, const Value &value) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object , class Value $>$ void agm\+::reflection\+::\+Field\+Desc\+::set (
+\begin{DoxyParamCaption}
+\item[{Object $\ast$}]{object, }
+\item[{const Value \&}]{value}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_field_desc_a6fc0d156c0617a40d40a5eef2644c23b}{}\label{classagm_1_1reflection_1_1_field_desc_a6fc0d156c0617a40d40a5eef2644c23b}
+
+
+sets the field of the given object. 
+
+
+\begin{DoxyParams}{參數}
+{\em object} & object to set the field of \\
+\hline
+{\em value} & new value of the field \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_type_mismatch_error}{Type\+Mismatch\+Error}} & thrown if the object is of invalid class or the value is of the wrong type. \\
+\hline
+{\em \hyperlink{classagm_1_1reflection_1_1_illegal_access_error}{Illegal\+Access\+Error}} & thrown if the field\textquotesingle{}s access is not public. \\
+\hline
+\end{DoxyExceptions}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/reflection.\+h\end{DoxyCompactItemize}

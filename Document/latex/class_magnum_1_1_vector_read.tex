@@ -1,0 +1,96 @@
+\hypertarget{class_magnum_1_1_vector_read}{}\section{Magnum\+:\+:Vector\+Read$<$ T $>$ 類別 樣版 參考文件}
+\label{class_magnum_1_1_vector_read}\index{Magnum\+::\+Vector\+Read$<$ T $>$@{Magnum\+::\+Vector\+Read$<$ T $>$}}
+
+
+\hyperlink{class_magnum_1_1_vector_read}{Vector\+Read}.  
+
+
+
+
+{\ttfamily \#include $<$Input\+Stream.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_vector_read_a142de33b4e2e2a5f44930204be9c8f56}{Vector\+Read} (\hyperlink{class_magnum_1_1_vector}{Vector}$<$ T $>$ \&vector\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_vector_read}{Vector\+Read} Constructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_vector_read_a9b27a68c51b6dbf396a25b753bbfbf7a}{read} (\hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} \&is)
+\begin{DoxyCompactList}\small\item\em read function. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_vector_read_a53cbc8a5baaefef7a6df405af73cc36f}{get\+Size} () const 
+\begin{DoxyCompactList}\small\item\em get\+Size function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\subsubsection*{template$<$class T$>$\\*
+class Magnum\+::\+Vector\+Read$<$ T $>$}
+
+\hyperlink{class_magnum_1_1_vector_read}{Vector\+Read}. 
+
+A template class for serialization of vector of Type T 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Vector\+Read@{Magnum\+::\+Vector\+Read}!Vector\+Read@{Vector\+Read}}
+\index{Vector\+Read@{Vector\+Read}!Magnum\+::\+Vector\+Read@{Magnum\+::\+Vector\+Read}}
+\subsubsection[{\texorpdfstring{Vector\+Read(\+Vector$<$ T $>$ \&vector\+\_\+)}{VectorRead(Vector< T > &vector_)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ {\bf Magnum\+::\+Vector\+Read}$<$ T $>$\+::{\bf Vector\+Read} (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector}$<$ T $>$ \&}]{vector\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_read_a142de33b4e2e2a5f44930204be9c8f56}{}\label{class_magnum_1_1_vector_read_a142de33b4e2e2a5f44930204be9c8f56}
+
+
+\hyperlink{class_magnum_1_1_vector_read}{Vector\+Read} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_vector_read}{Vector\+Read}. 
+\begin{DoxyParams}{參數}
+{\em vector\+\_\+,the} & vector of class T, the input stream will fill up this vector\+\_\+ \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Vector\+Read@{Magnum\+::\+Vector\+Read}!get\+Size@{get\+Size}}
+\index{get\+Size@{get\+Size}!Magnum\+::\+Vector\+Read@{Magnum\+::\+Vector\+Read}}
+\subsubsection[{\texorpdfstring{get\+Size() const }{getSize() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int {\bf Magnum\+::\+Vector\+Read}$<$ T $>$\+::get\+Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_read_a53cbc8a5baaefef7a6df405af73cc36f}{}\label{class_magnum_1_1_vector_read_a53cbc8a5baaefef7a6df405af73cc36f}
+
+
+get\+Size function. 
+
+\begin{DoxyReturn}{傳回值}
+int, size of the vector 
+\end{DoxyReturn}
+\index{Magnum\+::\+Vector\+Read@{Magnum\+::\+Vector\+Read}!read@{read}}
+\index{read@{read}!Magnum\+::\+Vector\+Read@{Magnum\+::\+Vector\+Read}}
+\subsubsection[{\texorpdfstring{read(\+Input\+Stream \&is)}{read(InputStream &is)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf Magnum\+::\+Vector\+Read}$<$ T $>$\+::read (
+\begin{DoxyParamCaption}
+\item[{{\bf Input\+Stream} \&}]{is}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_read_a9b27a68c51b6dbf396a25b753bbfbf7a}{}\label{class_magnum_1_1_vector_read_a9b27a68c51b6dbf396a25b753bbfbf7a}
+
+
+read function. 
+
+\hyperlink{class_magnum_1_1_input}{Input} Stream will call this function when \hyperlink{class_magnum_1_1_vector_read}{Vector\+Read} is serializing 
+\begin{DoxyParams}{參數}
+{\em is,the} & \hyperlink{class_magnum_1_1_input_stream}{Input\+Stream}, the input stream. \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{class_magnum_1_1_vector_read_a9b27a68c51b6dbf396a25b753bbfbf7a_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Input\+Stream.\+h\end{DoxyCompactItemize}

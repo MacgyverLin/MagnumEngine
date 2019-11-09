@@ -1,0 +1,149 @@
+\hypertarget{classagm_1_1reflection_1_1_method_desc}{}\section{agm\+:\+:reflection\+:\+:Method\+Desc 類別 參考文件}
+\label{classagm_1_1reflection_1_1_method_desc}\index{agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}}
+
+
+The \hyperlink{classagm_1_1reflection_1_1_method_desc}{Method\+Desc} class represents an object\textquotesingle{}s method.  
+
+
+
+
+{\ttfamily \#include $<$reflection.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classagm_1_1reflection_1_1_method_desc_a5f7e3fceb563a4352be08f6b444c5359}{$\sim$\+Method\+Desc} ()\hypertarget{classagm_1_1reflection_1_1_method_desc_a5f7e3fceb563a4352be08f6b444c5359}{}\label{classagm_1_1reflection_1_1_method_desc_a5f7e3fceb563a4352be08f6b444c5359}
+
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_class_desc}{Class\+Desc} \& \hyperlink{classagm_1_1reflection_1_1_method_desc_a205ca3b9cd08e85c557bb54438d3bf92}{get\+Class} () const 
+\begin{DoxyCompactList}\small\item\em returns the class that the member is declared into. \end{DoxyCompactList}\item 
+const A\+C\+C\+E\+S\+S\+\_\+\+T\+Y\+PE \hyperlink{classagm_1_1reflection_1_1_method_desc_ac52cb29de4e8dba4833f052dc88f136f}{get\+Access} () const 
+\begin{DoxyCompactList}\small\item\em returns the method\textquotesingle{}s access. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classagm_1_1reflection_1_1_method_desc_a2dc69fd8feb410be5f4489acc102a9a0}{get\+Type} () const 
+\begin{DoxyCompactList}\small\item\em returns the method\textquotesingle{}s type (return type). \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classagm_1_1reflection_1_1_method_desc_a85533cb0a86c116aa7d6bc3d56858929}{get\+Name} () const 
+\begin{DoxyCompactList}\small\item\em returns the method\textquotesingle{}s name. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classagm_1_1reflection_1_1_method_desc_a0b366083d02cb631c838daec5a53cd1b}{get\+Id} () const 
+\begin{DoxyCompactList}\small\item\em returns the method\textquotesingle{}s id (name + arguments). \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classagm_1_1reflection_1_1_method_desc_a049e670af6ab5306b2f2e1139fb57b65}{get\+Args} () const 
+\begin{DoxyCompactList}\small\item\em returns the method\textquotesingle{}s arguments. \end{DoxyCompactList}\item 
+bool \hyperlink{classagm_1_1reflection_1_1_method_desc_a86d0015e0e94eda49bfa672356b80427}{is\+Virtual} () const 
+\begin{DoxyCompactList}\small\item\em returns true if the method is virtual. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Class\+Desc}\hypertarget{classagm_1_1reflection_1_1_method_desc_a0b395f500ac0508158cc81e407724cbe}{}\label{classagm_1_1reflection_1_1_method_desc_a0b395f500ac0508158cc81e407724cbe}
+
+\item 
+struct {\bfseries \+\_\+\+\_\+register\+\_\+method\+\_\+\+\_\+}\hypertarget{classagm_1_1reflection_1_1_method_desc_af8dbf4a67282001e87c7d10b3c644715}{}\label{classagm_1_1reflection_1_1_method_desc_af8dbf4a67282001e87c7d10b3c644715}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+The \hyperlink{classagm_1_1reflection_1_1_method_desc}{Method\+Desc} class represents an object\textquotesingle{}s method. 
+
+\subsection{函式成員說明文件}
+\index{agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}!get\+Access@{get\+Access}}
+\index{get\+Access@{get\+Access}!agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Access() const }{getAccess() const }}]{\setlength{\rightskip}{0pt plus 5cm}const A\+C\+C\+E\+S\+S\+\_\+\+T\+Y\+PE agm\+::reflection\+::\+Method\+Desc\+::get\+Access (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_method_desc_ac52cb29de4e8dba4833f052dc88f136f}{}\label{classagm_1_1reflection_1_1_method_desc_ac52cb29de4e8dba4833f052dc88f136f}
+
+
+returns the method\textquotesingle{}s access. 
+
+\begin{DoxyReturn}{傳回值}
+the method\textquotesingle{}s access. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}!get\+Args@{get\+Args}}
+\index{get\+Args@{get\+Args}!agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Args() const }{getArgs() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ agm\+::reflection\+::\+Method\+Desc\+::get\+Args (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_method_desc_a049e670af6ab5306b2f2e1139fb57b65}{}\label{classagm_1_1reflection_1_1_method_desc_a049e670af6ab5306b2f2e1139fb57b65}
+
+
+returns the method\textquotesingle{}s arguments. 
+
+\begin{DoxyReturn}{傳回值}
+the method\textquotesingle{}s arguments. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}!get\+Class@{get\+Class}}
+\index{get\+Class@{get\+Class}!agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Class() const }{getClass() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Class\+Desc}\& agm\+::reflection\+::\+Method\+Desc\+::get\+Class (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_method_desc_a205ca3b9cd08e85c557bb54438d3bf92}{}\label{classagm_1_1reflection_1_1_method_desc_a205ca3b9cd08e85c557bb54438d3bf92}
+
+
+returns the class that the member is declared into. 
+
+\begin{DoxyReturn}{傳回值}
+the class that the member is declared into. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}!get\+Id@{get\+Id}}
+\index{get\+Id@{get\+Id}!agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Id() const }{getId() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ agm\+::reflection\+::\+Method\+Desc\+::get\+Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_method_desc_a0b366083d02cb631c838daec5a53cd1b}{}\label{classagm_1_1reflection_1_1_method_desc_a0b366083d02cb631c838daec5a53cd1b}
+
+
+returns the method\textquotesingle{}s id (name + arguments). 
+
+\begin{DoxyReturn}{傳回值}
+the method\textquotesingle{}s name. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Name() const }{getName() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ agm\+::reflection\+::\+Method\+Desc\+::get\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_method_desc_a85533cb0a86c116aa7d6bc3d56858929}{}\label{classagm_1_1reflection_1_1_method_desc_a85533cb0a86c116aa7d6bc3d56858929}
+
+
+returns the method\textquotesingle{}s name. 
+
+\begin{DoxyReturn}{傳回值}
+the method\textquotesingle{}s name. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Type() const }{getType() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ agm\+::reflection\+::\+Method\+Desc\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_method_desc_a2dc69fd8feb410be5f4489acc102a9a0}{}\label{classagm_1_1reflection_1_1_method_desc_a2dc69fd8feb410be5f4489acc102a9a0}
+
+
+returns the method\textquotesingle{}s type (return type). 
+
+\begin{DoxyReturn}{傳回值}
+the method\textquotesingle{}s type. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}!is\+Virtual@{is\+Virtual}}
+\index{is\+Virtual@{is\+Virtual}!agm\+::reflection\+::\+Method\+Desc@{agm\+::reflection\+::\+Method\+Desc}}
+\subsubsection[{\texorpdfstring{is\+Virtual() const }{isVirtual() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool agm\+::reflection\+::\+Method\+Desc\+::is\+Virtual (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_method_desc_a86d0015e0e94eda49bfa672356b80427}{}\label{classagm_1_1reflection_1_1_method_desc_a86d0015e0e94eda49bfa672356b80427}
+
+
+returns true if the method is virtual. 
+
+\begin{DoxyReturn}{傳回值}
+true if the method is virtual. 
+\end{DoxyReturn}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/reflection.\+h\end{DoxyCompactItemize}

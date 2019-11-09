@@ -1,0 +1,120 @@
+\hypertarget{class_magnum_1_1_video_1_1_manager}{}\section{Magnum\+:\+:Video\+:\+:Manager 類別 參考文件}
+\label{class_magnum_1_1_video_1_1_manager}\index{Magnum\+::\+Video\+::\+Manager@{Magnum\+::\+Video\+::\+Manager}}
+
+
+\hyperlink{class_magnum_1_1_video_1_1_manager}{Video\+::\+Manager} manage the all \hyperlink{class_magnum_1_1_camera_component}{Camera\+Component}, \hyperlink{class_magnum_1_1_renderer_base}{Renderer\+Base}, and Graphics Context.  
+
+
+
+
+{\ttfamily \#include $<$Video.\+h$>$}
+
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_video_1_1_manager_1_1_render_param}{Render\+Param}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_video_1_1_manager_1_1_render_param}{Video\+::\+Manager\+::\+Render\+Param} provide neccessary data for rendering each camera pass Mp = Projection transform Mv = View transform Mm = Model transform. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_magnum_1_1_video_1_1_manager_a561ebec411cdf6b41b91cfbb8d6422f4}{initiate} ()
+\begin{DoxyCompactList}\small\item\em Initiate the Services. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_video_1_1_manager_afda0bea6def1b2387b3c48b8a472d5b7}{process} ()\hypertarget{class_magnum_1_1_video_1_1_manager_afda0bea6def1b2387b3c48b8a472d5b7}{}\label{class_magnum_1_1_video_1_1_manager_afda0bea6def1b2387b3c48b8a472d5b7}
+
+\begin{DoxyCompactList}\small\item\em Update the Services. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_video_1_1_manager_af62ea72008ab069ba7348bb9dbe2ee8d}{pause} ()\hypertarget{class_magnum_1_1_video_1_1_manager_af62ea72008ab069ba7348bb9dbe2ee8d}{}\label{class_magnum_1_1_video_1_1_manager_af62ea72008ab069ba7348bb9dbe2ee8d}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is pause(e.\+g system bring the app to background, let the service to release resources) \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_video_1_1_manager_a318faa055cdb1d1da6370ccdaa33480d}{resume} ()\hypertarget{class_magnum_1_1_video_1_1_manager_a318faa055cdb1d1da6370ccdaa33480d}{}\label{class_magnum_1_1_video_1_1_manager_a318faa055cdb1d1da6370ccdaa33480d}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is resume(e.\+g system bring back the app from background, let the service to reload resources) \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_video_1_1_manager_a3a9b48bc7cad0f133f0bd874a12752da}{terminate} ()\hypertarget{class_magnum_1_1_video_1_1_manager_a3a9b48bc7cad0f133f0bd874a12752da}{}\label{class_magnum_1_1_video_1_1_manager_a3a9b48bc7cad0f133f0bd874a12752da}
+
+\begin{DoxyCompactList}\small\item\em Terminate the Services, called when the app is terminate. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_video_1_1_manager_a869cb21e0a94fb7c0a2a3d6b0b4e536e}{clear} ()
+\begin{DoxyCompactList}\small\item\em Call when the services needed to be clean up, e.\+g. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_video_1_1_manager_ab3ff834d6364a7fa78fb9176deb09056}{is\+Locked} () const 
+\begin{DoxyCompactList}\small\item\em check if the Rendering is in process(locked) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bfseries check\+Error} (const char $\ast$op)\hypertarget{class_magnum_1_1_video_1_1_manager_a6215cf06019401ac030bc0f56c6ec5ee}{}\label{class_magnum_1_1_video_1_1_manager_a6215cf06019401ac030bc0f56c6ec5ee}
+
+\item 
+static \hyperlink{class_magnum_1_1_video_1_1_manager}{Manager} \& {\bfseries instance} ()\hypertarget{class_magnum_1_1_video_1_1_manager_a85d7ad944649cab481573b3287a26dfe}{}\label{class_magnum_1_1_video_1_1_manager_a85d7ad944649cab481573b3287a26dfe}
+
+\item 
+static \hyperlink{class_magnum_1_1_g_x_context}{G\+X\+Context} \& {\bfseries get\+Context} ()\hypertarget{class_magnum_1_1_video_1_1_manager_a657230fb6b985786cc91a2d67ff7306f}{}\label{class_magnum_1_1_video_1_1_manager_a657230fb6b985786cc91a2d67ff7306f}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Camera\+Component}\hypertarget{class_magnum_1_1_video_1_1_manager_ae834a5e62eff7d0adb1092a0693388f7}{}\label{class_magnum_1_1_video_1_1_manager_ae834a5e62eff7d0adb1092a0693388f7}
+
+\item 
+class {\bfseries Renderer\+Base}\hypertarget{class_magnum_1_1_video_1_1_manager_a3be435fc6104d4d670e10e39be9bdf2a}{}\label{class_magnum_1_1_video_1_1_manager_a3be435fc6104d4d670e10e39be9bdf2a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_video_1_1_manager}{Video\+::\+Manager} manage the all \hyperlink{class_magnum_1_1_camera_component}{Camera\+Component}, \hyperlink{class_magnum_1_1_renderer_base}{Renderer\+Base}, and Graphics Context. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Video\+::\+Manager@{Magnum\+::\+Video\+::\+Manager}!clear@{clear}}
+\index{clear@{clear}!Magnum\+::\+Video\+::\+Manager@{Magnum\+::\+Video\+::\+Manager}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}void Video\+::\+Manager\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_video_1_1_manager_a869cb21e0a94fb7c0a2a3d6b0b4e536e}{}\label{class_magnum_1_1_video_1_1_manager_a869cb21e0a94fb7c0a2a3d6b0b4e536e}
+
+
+Call when the services needed to be clean up, e.\+g. 
+
+during scene transition. \index{Magnum\+::\+Video\+::\+Manager@{Magnum\+::\+Video\+::\+Manager}!initiate@{initiate}}
+\index{initiate@{initiate}!Magnum\+::\+Video\+::\+Manager@{Magnum\+::\+Video\+::\+Manager}}
+\subsubsection[{\texorpdfstring{initiate()}{initiate()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Video\+::\+Manager\+::initiate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_video_1_1_manager_a561ebec411cdf6b41b91cfbb8d6422f4}{}\label{class_magnum_1_1_video_1_1_manager_a561ebec411cdf6b41b91cfbb8d6422f4}
+
+
+Initiate the Services. 
+
+\begin{DoxyReturn}{傳回值}
+true if success, false if failed 
+\end{DoxyReturn}
+\index{Magnum\+::\+Video\+::\+Manager@{Magnum\+::\+Video\+::\+Manager}!is\+Locked@{is\+Locked}}
+\index{is\+Locked@{is\+Locked}!Magnum\+::\+Video\+::\+Manager@{Magnum\+::\+Video\+::\+Manager}}
+\subsubsection[{\texorpdfstring{is\+Locked() const }{isLocked() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Video\+::\+Manager\+::is\+Locked (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_video_1_1_manager_ab3ff834d6364a7fa78fb9176deb09056}{}\label{class_magnum_1_1_video_1_1_manager_ab3ff834d6364a7fa78fb9176deb09056}
+
+
+check if the Rendering is in process(locked) 
+
+\begin{DoxyReturn}{傳回值}
+true if locked, false if not locked 
+\end{DoxyReturn}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_video_1_1_manager_ab3ff834d6364a7fa78fb9176deb09056_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Video.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Video.\+cpp\end{DoxyCompactItemize}

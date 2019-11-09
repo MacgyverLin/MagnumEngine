@@ -1,0 +1,8 @@
+<map id="Magnum::Entity::release" name="Magnum::Entity::release">
+<area shape="rect" id="node2" href="$class_magnum_1_1_component_1_1_owner.html#a586f0cf237741a4d6e37c1f63872aefb" title="If this owner is the SELECTED Owner, set it as unselected. " alt="" coords="217,5,372,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_component_1_1_owner.html#a15f03464f950e9dd594e9f044827e38f" title="stop the Component, it do stop for itself by calling onStop method and also call the onStop method of..." alt="" coords="217,71,372,112"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_component_1_1_owner.html#af9a6ef2721ea21d86aece54ab1bae0c0" title="destruct the Component, it do destruct for itself by calling onDestruct method and also call the onDe..." alt="" coords="217,136,372,177"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_component_1_1_owner.html#abf13c26d4fc4c07fad6893aac99bad3d" title="Check if currently in Editor Mode. " alt="" coords="420,5,599,47"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_component_1_1_owner.html#ae883328e19cdc0bc293dbb17ba870eb5" title="Handle Stop Event of the Component. " alt="" coords="432,71,587,112"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_component_1_1_owner.html#a143672a60295c38510e29f0f0b53b7f0" title="Handle Destruct Event of the Component. " alt="" coords="432,136,587,177"/>
+</map>

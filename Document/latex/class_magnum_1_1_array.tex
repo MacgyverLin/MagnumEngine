@@ -1,0 +1,475 @@
+\hypertarget{class_magnum_1_1_array}{}\section{Magnum\+:\+:Array$<$ T $>$ 類別 樣版 參考文件}
+\label{class_magnum_1_1_array}\index{Magnum\+::\+Array$<$ T $>$@{Magnum\+::\+Array$<$ T $>$}}
+
+
+\hyperlink{class_magnum_1_1_array}{Array} class for a bound protected array class.  
+
+
+
+
+{\ttfamily \#include $<$Array.\+h$>$}
+
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+typedef int($\ast$ {\bfseries Compare}) (const void $\ast$left, const void $\ast$right)\hypertarget{class_magnum_1_1_array_adc7d00263d5d82f7cb926a4c20786208}{}\label{class_magnum_1_1_array_adc7d00263d5d82f7cb926a4c20786208}
+
+\item 
+typedef bool($\ast$ {\bfseries Iterate}) (int index, T \&t)\hypertarget{class_magnum_1_1_array_a5ea93cd04e5948a80e5af64d6e0e4f8b}{}\label{class_magnum_1_1_array_a5ea93cd04e5948a80e5af64d6e0e4f8b}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_magnum_1_1_array_a339bb755d42e2978993447d70779ed04}{length} () const 
+\begin{DoxyCompactList}\small\item\em Get the length of the \hyperlink{class_magnum_1_1_array}{Array}. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_array_a35912ed31a82aa8c67173988a325b0d0}{capacity} () const 
+\begin{DoxyCompactList}\small\item\em Get the capacity of the \hyperlink{class_magnum_1_1_array}{Array}. \end{DoxyCompactList}\item 
+void $\ast$ {\bfseries get} (int i)\hypertarget{class_magnum_1_1_array_ac6abfec70dbed68cb43e1ddce217adb3}{}\label{class_magnum_1_1_array_ac6abfec70dbed68cb43e1ddce217adb3}
+
+\item 
+T \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (int i)\hypertarget{class_magnum_1_1_array_ac65ba513a2f2e754e9a735337a97514f}{}\label{class_magnum_1_1_array_ac65ba513a2f2e754e9a735337a97514f}
+
+\item 
+const T \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (int i) const \hypertarget{class_magnum_1_1_array_aebd649285fc2333239d387d3cd475d82}{}\label{class_magnum_1_1_array_aebd649285fc2333239d387d3cd475d82}
+
+\item 
+void $\ast$ \hyperlink{class_magnum_1_1_array_ac6abfec70dbed68cb43e1ddce217adb3}{get} (int i)
+\begin{DoxyCompactList}\small\item\em Get i-\/th element of the \hyperlink{class_magnum_1_1_array}{Array}. \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_array_ac65ba513a2f2e754e9a735337a97514f}{operator\mbox{[}$\,$\mbox{]}} (int i)
+\begin{DoxyCompactList}\small\item\em Get i-\/th element of the \hyperlink{class_magnum_1_1_array}{Array}. \end{DoxyCompactList}\item 
+const T \& \hyperlink{class_magnum_1_1_array_aebd649285fc2333239d387d3cd475d82}{operator\mbox{[}$\,$\mbox{]}} (int i) const 
+\begin{DoxyCompactList}\small\item\em Get i-\/th element of the \hyperlink{class_magnum_1_1_array}{Array}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_array_a21cbbac74657541e420b8b2ab62a5b7e}{full} () const 
+\begin{DoxyCompactList}\small\item\em Check if the array is full. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_array_ac1aced1f3b927aaa3c4f685980785cfc}{clear} ()
+\begin{DoxyCompactList}\small\item\em Clear the array. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_array_a4b74a8d353ba59ce42e1165f3b3c8021}{empty} ()
+\begin{DoxyCompactList}\small\item\em Check if the array is empty. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_array_af71c6a4a87cd0d359551fe9ea304668e}{valid} (int i) const 
+\begin{DoxyCompactList}\small\item\em Check if the index is with the range of array. \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_array_a2326e6c7eb57ba2a3f147f7b0232d3ac}{back} ()
+\begin{DoxyCompactList}\small\item\em Get last element of the \hyperlink{class_magnum_1_1_array}{Array}. \end{DoxyCompactList}\item 
+const T \& \hyperlink{class_magnum_1_1_array_a3b3da1d95d58489569031fb3ea68a532}{back} () const 
+\begin{DoxyCompactList}\small\item\em Get last element of the \hyperlink{class_magnum_1_1_array}{Array}. \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_array_a25101c6a61ed527295f4ac881aaa430d}{insert} (int at)
+\begin{DoxyCompactList}\small\item\em insert an element at i-\/th position of the \hyperlink{class_magnum_1_1_array}{Array} \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_array_ad60beb01c2fff1bb8bc2b8a0fdfa21e8}{insert} ()
+\begin{DoxyCompactList}\small\item\em This function behave same as \hyperlink{class_magnum_1_1_array_a2326e6c7eb57ba2a3f147f7b0232d3ac}{back()} \end{DoxyCompactList}\item 
+T \& {\bfseries binary\+Insert} (const T \&item) const \hypertarget{class_magnum_1_1_array_a33dabae65ae538bdc0c3427e2757f2f9}{}\label{class_magnum_1_1_array_a33dabae65ae538bdc0c3427e2757f2f9}
+
+\item 
+int {\bfseries binary\+Search} (const T \&item) const \hypertarget{class_magnum_1_1_array_a149970c2c88a9ffb2d20b7a2c1b64a76}{}\label{class_magnum_1_1_array_a149970c2c88a9ffb2d20b7a2c1b64a76}
+
+\item 
+int \hyperlink{class_magnum_1_1_array_a808b8020d2dcc64f478a1e162b4bbe48}{search} (const T \&item)
+\begin{DoxyCompactList}\small\item\em search for an element and return its position index \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_array_a822ed7443c1d07e9551759277f3ce28d}{remove} (int index)
+\begin{DoxyCompactList}\small\item\em remove the i-\/th element from the array \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_array_afe078a841d59338dd298eea1d4166cca}{push} ()
+\begin{DoxyCompactList}\small\item\em append an element at the end of the array \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_array_a7acae3f384476203f29accce90569fbc}{pop} ()
+\begin{DoxyCompactList}\small\item\em remove an element at the end of the array \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_array_a0482b28e22054fb968e07196315a3617}{truncate} (int length\+\_\+)\hypertarget{class_magnum_1_1_array_a0482b28e22054fb968e07196315a3617}{}\label{class_magnum_1_1_array_a0482b28e22054fb968e07196315a3617}
+
+\begin{DoxyCompactList}\small\item\em truncate the array to length\+\_\+ \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_array_a2d0a5782ceabe5f514df47e5ba2455e5}{resize} (int length\+\_\+)\hypertarget{class_magnum_1_1_array_a2d0a5782ceabe5f514df47e5ba2455e5}{}\label{class_magnum_1_1_array_a2d0a5782ceabe5f514df47e5ba2455e5}
+
+\begin{DoxyCompactList}\small\item\em resize the array to length\+\_\+ \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_array_a4a15db86ad451329b74fa2a69dd8b516}{sort} (Compare method)
+\begin{DoxyCompactList}\small\item\em sort the array \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_array_adca79cbde0c3525849e540eb5e5f4638}{iterate} (Iterate cb)
+\begin{DoxyCompactList}\small\item\em iterate the array \end{DoxyCompactList}\item 
+T $\ast$ \hyperlink{class_magnum_1_1_array_a22b27a4f591381a49b297735cfca4476}{get\+Type} ()
+\begin{DoxyCompactList}\small\item\em Get the Type. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_array_a05badbd2016cf939f27f736573b763cf}{Array} (int capacity\+\_\+, int length\+\_\+=-\/1)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_array}{Array} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_array_a8ccfb9840110ad703ae7c9afab99a553}{$\sim$\+Array} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_array}{Array} Destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\subsubsection*{template$<$class T$>$\\*
+class Magnum\+::\+Array$<$ T $>$}
+
+\hyperlink{class_magnum_1_1_array}{Array} class for a bound protected array class. 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!Array@{Array}}
+\index{Array@{Array}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{Array(int capacity\+\_\+, int length\+\_\+=-\/1)}{Array(int capacity_, int length_=-1)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ {\bf Magnum\+::\+Array}$<$ T $>$\+::{\bf Array} (
+\begin{DoxyParamCaption}
+\item[{int}]{capacity\+\_\+, }
+\item[{int}]{length\+\_\+ = {\ttfamily -\/1}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a05badbd2016cf939f27f736573b763cf}{}\label{class_magnum_1_1_array_a05badbd2016cf939f27f736573b763cf}
+
+
+\hyperlink{class_magnum_1_1_array}{Array} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_array}{Array} 
+\begin{DoxyParams}{參數}
+{\em capacity\+\_\+,the} & capcity of the array \\
+\hline
+{\em length\+\_\+,the} & optional parameter, the length of array \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!````~Array@{$\sim$\+Array}}
+\index{````~Array@{$\sim$\+Array}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{$\sim$\+Array()}{~Array()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ {\bf Magnum\+::\+Array}$<$ T $>$\+::$\sim${\bf Array} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a8ccfb9840110ad703ae7c9afab99a553}{}\label{class_magnum_1_1_array_a8ccfb9840110ad703ae7c9afab99a553}
+
+
+\hyperlink{class_magnum_1_1_array}{Array} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_array}{Array} 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!back@{back}}
+\index{back@{back}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{back()}{back()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Array}$<$ T $>$\+::back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a2326e6c7eb57ba2a3f147f7b0232d3ac}{}\label{class_magnum_1_1_array_a2326e6c7eb57ba2a3f147f7b0232d3ac}
+
+
+Get last element of the \hyperlink{class_magnum_1_1_array}{Array}. 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of last element 
+\end{DoxyReturn}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!back@{back}}
+\index{back@{back}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{back() const }{back() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ const T\& {\bf Magnum\+::\+Array}$<$ T $>$\+::back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a3b3da1d95d58489569031fb3ea68a532}{}\label{class_magnum_1_1_array_a3b3da1d95d58489569031fb3ea68a532}
+
+
+Get last element of the \hyperlink{class_magnum_1_1_array}{Array}. 
+
+\begin{DoxyReturn}{傳回值}
+, const T\&, the const reference of last element 
+\end{DoxyReturn}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!capacity@{capacity}}
+\index{capacity@{capacity}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{capacity() const }{capacity() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int {\bf Magnum\+::\+Array}$<$ T $>$\+::capacity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a35912ed31a82aa8c67173988a325b0d0}{}\label{class_magnum_1_1_array_a35912ed31a82aa8c67173988a325b0d0}
+
+
+Get the capacity of the \hyperlink{class_magnum_1_1_array}{Array}. 
+
+Capacity is number array element that is actually allocated. \begin{DoxyReturn}{傳回值}
+, int, the length of the array 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_array_a35912ed31a82aa8c67173988a325b0d0_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!clear@{clear}}
+\index{clear@{clear}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf Magnum\+::\+Array}$<$ T $>$\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_ac1aced1f3b927aaa3c4f685980785cfc}{}\label{class_magnum_1_1_array_ac1aced1f3b927aaa3c4f685980785cfc}
+
+
+Clear the array. 
+
+Reset the Length of \hyperlink{class_magnum_1_1_array}{Array} to zero \index{Magnum\+::\+Array@{Magnum\+::\+Array}!empty@{empty}}
+\index{empty@{empty}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{empty()}{empty()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool {\bf Magnum\+::\+Array}$<$ T $>$\+::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a4b74a8d353ba59ce42e1165f3b3c8021}{}\label{class_magnum_1_1_array_a4b74a8d353ba59ce42e1165f3b3c8021}
+
+
+Check if the array is empty. 
+
+\begin{DoxyReturn}{傳回值}
+, true if length is equal to 0 else return false 
+\end{DoxyReturn}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!full@{full}}
+\index{full@{full}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{full() const }{full() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool {\bf Magnum\+::\+Array}$<$ T $>$\+::full (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a21cbbac74657541e420b8b2ab62a5b7e}{}\label{class_magnum_1_1_array_a21cbbac74657541e420b8b2ab62a5b7e}
+
+
+Check if the array is full. 
+
+\begin{DoxyReturn}{傳回值}
+, true if length is equal to capacity else return false 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{class_magnum_1_1_array_a21cbbac74657541e420b8b2ab62a5b7e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!get@{get}}
+\index{get@{get}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{get(int i)}{get(int i)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void$\ast$ {\bf Magnum\+::\+Array}$<$ T $>$\+::get (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_ac6abfec70dbed68cb43e1ddce217adb3}{}\label{class_magnum_1_1_array_ac6abfec70dbed68cb43e1ddce217adb3}
+
+
+Get i-\/th element of the \hyperlink{class_magnum_1_1_array}{Array}. 
+
+\begin{DoxyReturn}{傳回值}
+, int, the length of the array 
+\end{DoxyReturn}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{get\+Type()}{getType()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T$\ast$ {\bf Magnum\+::\+Array}$<$ T $>$\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a22b27a4f591381a49b297735cfca4476}{}\label{class_magnum_1_1_array_a22b27a4f591381a49b297735cfca4476}
+
+
+Get the Type. 
+
+\begin{DoxyReturn}{傳回值}
+T$\ast$, a null pointer only. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!insert@{insert}}
+\index{insert@{insert}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{insert(int at)}{insert(int at)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Array}$<$ T $>$\+::insert (
+\begin{DoxyParamCaption}
+\item[{int}]{at}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a25101c6a61ed527295f4ac881aaa430d}{}\label{class_magnum_1_1_array_a25101c6a61ed527295f4ac881aaa430d}
+
+
+insert an element at i-\/th position of the \hyperlink{class_magnum_1_1_array}{Array} 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of newly inserted i-\/th element 
+\end{DoxyReturn}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!insert@{insert}}
+\index{insert@{insert}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{insert()}{insert()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Array}$<$ T $>$\+::insert (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_ad60beb01c2fff1bb8bc2b8a0fdfa21e8}{}\label{class_magnum_1_1_array_ad60beb01c2fff1bb8bc2b8a0fdfa21e8}
+
+
+This function behave same as \hyperlink{class_magnum_1_1_array_a2326e6c7eb57ba2a3f147f7b0232d3ac}{back()} 
+
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_array_a2326e6c7eb57ba2a3f147f7b0232d3ac}{back()} 
+\end{DoxySeeAlso}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{class_magnum_1_1_array_ad60beb01c2fff1bb8bc2b8a0fdfa21e8_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!iterate@{iterate}}
+\index{iterate@{iterate}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{iterate(\+Iterate cb)}{iterate(Iterate cb)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool {\bf Magnum\+::\+Array}$<$ T $>$\+::iterate (
+\begin{DoxyParamCaption}
+\item[{Iterate}]{cb}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_adca79cbde0c3525849e540eb5e5f4638}{}\label{class_magnum_1_1_array_adca79cbde0c3525849e540eb5e5f4638}
+
+
+iterate the array 
+
+
+\begin{DoxyParams}{參數}
+{\em cb,the} & Callback function of the iteration. It will be called for each element in the array \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!length@{length}}
+\index{length@{length}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{length() const }{length() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int {\bf Magnum\+::\+Array}$<$ T $>$\+::length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a339bb755d42e2978993447d70779ed04}{}\label{class_magnum_1_1_array_a339bb755d42e2978993447d70779ed04}
+
+
+Get the length of the \hyperlink{class_magnum_1_1_array}{Array}. 
+
+\begin{DoxyReturn}{傳回值}
+, int, the length of the array 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_array_a339bb755d42e2978993447d70779ed04_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{operator[](int i)}{operator[](int i)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Array}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_ac65ba513a2f2e754e9a735337a97514f}{}\label{class_magnum_1_1_array_ac65ba513a2f2e754e9a735337a97514f}
+
+
+Get i-\/th element of the \hyperlink{class_magnum_1_1_array}{Array}. 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference at i-\/th position 
+\end{DoxyReturn}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{operator[](int i) const }{operator[](int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ const T\& {\bf Magnum\+::\+Array}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_aebd649285fc2333239d387d3cd475d82}{}\label{class_magnum_1_1_array_aebd649285fc2333239d387d3cd475d82}
+
+
+Get i-\/th element of the \hyperlink{class_magnum_1_1_array}{Array}. 
+
+\begin{DoxyReturn}{傳回值}
+, const T\&, the const reference at i-\/th position 
+\end{DoxyReturn}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!pop@{pop}}
+\index{pop@{pop}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{pop()}{pop()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Array}$<$ T $>$\+::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a7acae3f384476203f29accce90569fbc}{}\label{class_magnum_1_1_array_a7acae3f384476203f29accce90569fbc}
+
+
+remove an element at the end of the array 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of last element 
+\end{DoxyReturn}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!push@{push}}
+\index{push@{push}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{push()}{push()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Array}$<$ T $>$\+::push (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_afe078a841d59338dd298eea1d4166cca}{}\label{class_magnum_1_1_array_afe078a841d59338dd298eea1d4166cca}
+
+
+append an element at the end of the array 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of last element 
+\end{DoxyReturn}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!remove@{remove}}
+\index{remove@{remove}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{remove(int index)}{remove(int index)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf Magnum\+::\+Array}$<$ T $>$\+::remove (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a822ed7443c1d07e9551759277f3ce28d}{}\label{class_magnum_1_1_array_a822ed7443c1d07e9551759277f3ce28d}
+
+
+remove the i-\/th element from the array 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!search@{search}}
+\index{search@{search}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{search(const T \&item)}{search(const T &item)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int {\bf Magnum\+::\+Array}$<$ T $>$\+::search (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{item}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a808b8020d2dcc64f478a1e162b4bbe48}{}\label{class_magnum_1_1_array_a808b8020d2dcc64f478a1e162b4bbe48}
+
+
+search for an element and return its position index 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!sort@{sort}}
+\index{sort@{sort}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{sort(\+Compare method)}{sort(Compare method)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf Magnum\+::\+Array}$<$ T $>$\+::sort (
+\begin{DoxyParamCaption}
+\item[{Compare}]{method}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_a4a15db86ad451329b74fa2a69dd8b516}{}\label{class_magnum_1_1_array_a4a15db86ad451329b74fa2a69dd8b516}
+
+
+sort the array 
+
+
+\begin{DoxyParams}{參數}
+{\em method,the} & Compare method of the array \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Array@{Magnum\+::\+Array}!valid@{valid}}
+\index{valid@{valid}!Magnum\+::\+Array@{Magnum\+::\+Array}}
+\subsubsection[{\texorpdfstring{valid(int i) const }{valid(int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool {\bf Magnum\+::\+Array}$<$ T $>$\+::valid (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_array_af71c6a4a87cd0d359551fe9ea304668e}{}\label{class_magnum_1_1_array_af71c6a4a87cd0d359551fe9ea304668e}
+
+
+Check if the index is with the range of array. 
+
+\begin{DoxyReturn}{傳回值}
+, true if i is within the length of the array 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_array_af71c6a4a87cd0d359551fe9ea304668e_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Array.\+h\end{DoxyCompactItemize}

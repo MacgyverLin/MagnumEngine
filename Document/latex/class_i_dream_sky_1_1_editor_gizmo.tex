@@ -1,0 +1,228 @@
+\hypertarget{class_i_dream_sky_1_1_editor_gizmo}{}\section{I\+Dream\+Sky\+:\+:Editor\+Gizmo 類別 參考文件}
+\label{class_i_dream_sky_1_1_editor_gizmo}\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}
+
+
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo}{Editor\+Gizmo}.  
+
+
+
+
+{\ttfamily \#include $<$Editor\+Gizmo.\+h$>$}
+
+類別\+I\+Dream\+Sky\+:\+:Editor\+Gizmo的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_i_dream_sky_1_1_editor_gizmo}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394}{Mode} \{ \hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394a344cfdda6e113c3ecf8748b990aa21ff}{D\+E\+F\+A\+U\+LT} = 0, 
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394acef76e8596a49483fb71426c254e7002}{T\+R\+A\+N\+S\+L\+A\+TE} = 1, 
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394a77f441f62efafabfd92646b92ed7660b}{R\+O\+T\+A\+TE} = 2, 
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394af89b494dcddd3e8799518096f5e8423f}{S\+C\+A\+LE} = 3
+ \}
+\item 
+enum \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}{Coord\+Sys} \{ \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35faf463a519ae9c08322ff77658ef46b121}{L\+O\+C\+AL} = 0, 
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35fabccdf6b485bf7ad39b1c79c38733886f}{P\+A\+R\+E\+NT} = 1, 
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35fa67cd98fc308c56cae381fdc2fa2c3ff7}{W\+O\+R\+LD} = 2, 
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35fab2be228099a12ea64338a643ba016bd2}{V\+I\+EW} = 3
+ \}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_a062469ef365f32c44d73956042078c1a}{Editor\+Gizmo} (\hyperlink{class_i_dream_sky_1_1_component_1_1_owner}{Component\+::\+Owner} \&owner\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_editor_gizmo}{Editor\+Gizmo} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a1cb32e3c3f7fee6c1e2d7cc10a14718e}{$\sim$\+Editor\+Gizmo} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_editor_gizmo}{Editor\+Gizmo} Destructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a7969b643728532494df9ff05814808f7}{set\+Mode} (\hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394}{Editor\+Gizmo\+::\+Mode} mode\+\_\+, \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}{Editor\+Gizmo\+::\+Coord\+Sys} coordsys\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Gizmo Mode. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394}{Editor\+Gizmo\+::\+Mode} \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a821b3f473c337fb4175ba956caa46509}{get\+Mode} () const 
+\begin{DoxyCompactList}\small\item\em Get the Gizmo Mode. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}{Editor\+Gizmo\+::\+Coord\+Sys} \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a985277780cbf46f6a7f0c9e822b0c47a}{get\+Coord\+Sys} () const 
+\begin{DoxyCompactList}\small\item\em Get the Gizmo Coordinate \hyperlink{class_i_dream_sky_1_1_system}{System}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a85dc05a2eb5c2b8e1f8e623d9f82a891}{render} (const \hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param}{Video\+::\+Manager\+::\+Render\+Param} \&param)
+\begin{DoxyCompactList}\small\item\em Render the Graphics Object Gizmo. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a79d96c8cb5b98f708c5a1c39f7f5b7e4}{get\+Ref\+Transform} (\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \&ref\+Transform, \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}{Editor\+Gizmo\+::\+Coord\+Sys} coordsys)
+\begin{DoxyCompactList}\small\item\em Render reference \hyperlink{class_i_dream_sky_1_1_transform}{Transform}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo}{Editor\+Gizmo}. 
+
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo}{Editor\+Gizmo} are those mover icon, rotator icon, scaler icon, grid on editor screen \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_graphics3_component}{Graphics3\+Component} 
+\end{DoxySeeAlso}
+
+
+\subsection{列舉型態成員說明文件}
+\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!Coord\+Sys@{Coord\+Sys}}
+\index{Coord\+Sys@{Coord\+Sys}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}
+\subsubsection[{\texorpdfstring{Coord\+Sys}{CoordSys}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf I\+Dream\+Sky\+::\+Editor\+Gizmo\+::\+Coord\+Sys}}\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}{}\label{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{L\+O\+C\+AL@{L\+O\+C\+AL}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!L\+O\+C\+AL@{L\+O\+C\+AL}}\item[{\em 
+L\+O\+C\+AL\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35faf463a519ae9c08322ff77658ef46b121}{}\label{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35faf463a519ae9c08322ff77658ef46b121}
+}]Render Gizmo in Local Space. \index{P\+A\+R\+E\+NT@{P\+A\+R\+E\+NT}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!P\+A\+R\+E\+NT@{P\+A\+R\+E\+NT}}\item[{\em 
+P\+A\+R\+E\+NT\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35fabccdf6b485bf7ad39b1c79c38733886f}{}\label{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35fabccdf6b485bf7ad39b1c79c38733886f}
+}]Render Gizmo in Parent Space. \index{W\+O\+R\+LD@{W\+O\+R\+LD}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!W\+O\+R\+LD@{W\+O\+R\+LD}}\item[{\em 
+W\+O\+R\+LD\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35fa67cd98fc308c56cae381fdc2fa2c3ff7}{}\label{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35fa67cd98fc308c56cae381fdc2fa2c3ff7}
+}]Render Gizmo in World Space. \index{V\+I\+EW@{V\+I\+EW}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!V\+I\+EW@{V\+I\+EW}}\item[{\em 
+V\+I\+EW\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35fab2be228099a12ea64338a643ba016bd2}{}\label{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35fab2be228099a12ea64338a643ba016bd2}
+}]Render Gizmo in View Space. \end{description}
+\end{Desc}
+\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!Mode@{Mode}}
+\index{Mode@{Mode}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}
+\subsubsection[{\texorpdfstring{Mode}{Mode}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf I\+Dream\+Sky\+::\+Editor\+Gizmo\+::\+Mode}}\hypertarget{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394}{}\label{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{D\+E\+F\+A\+U\+LT@{D\+E\+F\+A\+U\+LT}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!D\+E\+F\+A\+U\+LT@{D\+E\+F\+A\+U\+LT}}\item[{\em 
+D\+E\+F\+A\+U\+LT\hypertarget{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394a344cfdda6e113c3ecf8748b990aa21ff}{}\label{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394a344cfdda6e113c3ecf8748b990aa21ff}
+}]Default gizmo only show 3 axis. \index{T\+R\+A\+N\+S\+L\+A\+TE@{T\+R\+A\+N\+S\+L\+A\+TE}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!T\+R\+A\+N\+S\+L\+A\+TE@{T\+R\+A\+N\+S\+L\+A\+TE}}\item[{\em 
+T\+R\+A\+N\+S\+L\+A\+TE\hypertarget{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394acef76e8596a49483fb71426c254e7002}{}\label{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394acef76e8596a49483fb71426c254e7002}
+}]Translation gizmo show 3 axis and translate handle. \index{R\+O\+T\+A\+TE@{R\+O\+T\+A\+TE}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!R\+O\+T\+A\+TE@{R\+O\+T\+A\+TE}}\item[{\em 
+R\+O\+T\+A\+TE\hypertarget{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394a77f441f62efafabfd92646b92ed7660b}{}\label{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394a77f441f62efafabfd92646b92ed7660b}
+}]Rotation gizmo only show 3 rotation circle handle. \index{S\+C\+A\+LE@{S\+C\+A\+LE}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!S\+C\+A\+LE@{S\+C\+A\+LE}}\item[{\em 
+S\+C\+A\+LE\hypertarget{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394af89b494dcddd3e8799518096f5e8423f}{}\label{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394af89b494dcddd3e8799518096f5e8423f}
+}]Scale only show 3 axis and scale handle. \end{description}
+\end{Desc}
+
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!Editor\+Gizmo@{Editor\+Gizmo}}
+\index{Editor\+Gizmo@{Editor\+Gizmo}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}
+\subsubsection[{\texorpdfstring{Editor\+Gizmo(\+Component\+::\+Owner \&owner\+\_\+)}{EditorGizmo(Component::Owner &owner_)}}]{\setlength{\rightskip}{0pt plus 5cm}Editor\+Gizmo\+::\+Editor\+Gizmo (
+\begin{DoxyParamCaption}
+\item[{{\bf Component\+::\+Owner} \&}]{owner\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a062469ef365f32c44d73956042078c1a}{}\label{class_i_dream_sky_1_1_editor_gizmo_a062469ef365f32c44d73956042078c1a}
+
+
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo}{Editor\+Gizmo} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_editor_gizmo}{Editor\+Gizmo} for the owner. 
+\begin{DoxyParams}{參數}
+{\em owner\+\_\+,the} & \hyperlink{class_i_dream_sky_1_1_component_1_1_owner}{Component\+::\+Owner} which owns this component. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!````~Editor\+Gizmo@{$\sim$\+Editor\+Gizmo}}
+\index{````~Editor\+Gizmo@{$\sim$\+Editor\+Gizmo}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}
+\subsubsection[{\texorpdfstring{$\sim$\+Editor\+Gizmo()}{~EditorGizmo()}}]{\setlength{\rightskip}{0pt plus 5cm}Editor\+Gizmo\+::$\sim$\+Editor\+Gizmo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a1cb32e3c3f7fee6c1e2d7cc10a14718e}{}\label{class_i_dream_sky_1_1_editor_gizmo_a1cb32e3c3f7fee6c1e2d7cc10a14718e}
+
+
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo}{Editor\+Gizmo} Destructor. 
+
+To Destruct the \hyperlink{class_i_dream_sky_1_1_editor_gizmo}{Editor\+Gizmo} for the owner. 
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!get\+Coord\+Sys@{get\+Coord\+Sys}}
+\index{get\+Coord\+Sys@{get\+Coord\+Sys}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}
+\subsubsection[{\texorpdfstring{get\+Coord\+Sys() const }{getCoordSys() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Editor\+Gizmo\+::\+Coord\+Sys} Editor\+Gizmo\+::get\+Coord\+Sys (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a985277780cbf46f6a7f0c9e822b0c47a}{}\label{class_i_dream_sky_1_1_editor_gizmo_a985277780cbf46f6a7f0c9e822b0c47a}
+
+
+Get the Gizmo Coordinate \hyperlink{class_i_dream_sky_1_1_system}{System}. 
+
+To Get the Coordinate \hyperlink{class_i_dream_sky_1_1_system}{System} of Gizmo \begin{DoxyReturn}{傳回值}
+the \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}{Editor\+Gizmo\+::\+Coord\+Sys} 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394}{Editor\+Gizmo\+::\+Mode}, \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}{Editor\+Gizmo\+::\+Coord\+Sys} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!get\+Mode@{get\+Mode}}
+\index{get\+Mode@{get\+Mode}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}
+\subsubsection[{\texorpdfstring{get\+Mode() const }{getMode() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Editor\+Gizmo\+::\+Mode} Editor\+Gizmo\+::get\+Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a821b3f473c337fb4175ba956caa46509}{}\label{class_i_dream_sky_1_1_editor_gizmo_a821b3f473c337fb4175ba956caa46509}
+
+
+Get the Gizmo Mode. 
+
+To Get the Mode of Gizmo \begin{DoxyReturn}{傳回值}
+the \hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394}{Editor\+Gizmo\+::\+Mode} 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394}{Editor\+Gizmo\+::\+Mode}, \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}{Editor\+Gizmo\+::\+Coord\+Sys} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!get\+Ref\+Transform@{get\+Ref\+Transform}}
+\index{get\+Ref\+Transform@{get\+Ref\+Transform}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}
+\subsubsection[{\texorpdfstring{get\+Ref\+Transform(\+Matrix4 \&ref\+Transform, Editor\+Gizmo\+::\+Coord\+Sys coordsys)}{getRefTransform(Matrix4 &refTransform, EditorGizmo::CoordSys coordsys)}}]{\setlength{\rightskip}{0pt plus 5cm}void Editor\+Gizmo\+::get\+Ref\+Transform (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix4} \&}]{ref\+Transform, }
+\item[{{\bf Editor\+Gizmo\+::\+Coord\+Sys}}]{coordsys}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a79d96c8cb5b98f708c5a1c39f7f5b7e4}{}\label{class_i_dream_sky_1_1_editor_gizmo_a79d96c8cb5b98f708c5a1c39f7f5b7e4}
+
+
+Render reference \hyperlink{class_i_dream_sky_1_1_transform}{Transform}. 
+
+
+\begin{DoxyParams}{參數}
+{\em ref\+Transform} & \hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \\
+\hline
+{\em coordsys} & \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}{Editor\+Gizmo\+::\+Coord\+Sys} \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param}{Video\+::\+Manager\+::\+Render\+Param} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!render@{render}}
+\index{render@{render}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}
+\subsubsection[{\texorpdfstring{render(const Video\+::\+Manager\+::\+Render\+Param \&param)}{render(const Video::Manager::RenderParam &param)}}]{\setlength{\rightskip}{0pt plus 5cm}void Editor\+Gizmo\+::render (
+\begin{DoxyParamCaption}
+\item[{const {\bf Video\+::\+Manager\+::\+Render\+Param} \&}]{param}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a85dc05a2eb5c2b8e1f8e623d9f82a891}{}\label{class_i_dream_sky_1_1_editor_gizmo_a85dc05a2eb5c2b8e1f8e623d9f82a891}
+
+
+Render the Graphics Object Gizmo. 
+
+
+\begin{DoxyParams}{參數}
+{\em param} & const \hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param}{Video\+::\+Manager\+::\+Render\+Param} \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param}{Video\+::\+Manager\+::\+Render\+Param} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}!set\+Mode@{set\+Mode}}
+\index{set\+Mode@{set\+Mode}!I\+Dream\+Sky\+::\+Editor\+Gizmo@{I\+Dream\+Sky\+::\+Editor\+Gizmo}}
+\subsubsection[{\texorpdfstring{set\+Mode(\+Editor\+Gizmo\+::\+Mode mode\+\_\+, Editor\+Gizmo\+::\+Coord\+Sys coordsys\+\_\+)}{setMode(EditorGizmo::Mode mode_, EditorGizmo::CoordSys coordsys_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Editor\+Gizmo\+::set\+Mode (
+\begin{DoxyParamCaption}
+\item[{{\bf Editor\+Gizmo\+::\+Mode}}]{mode\+\_\+, }
+\item[{{\bf Editor\+Gizmo\+::\+Coord\+Sys}}]{coordsys\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_editor_gizmo_a7969b643728532494df9ff05814808f7}{}\label{class_i_dream_sky_1_1_editor_gizmo_a7969b643728532494df9ff05814808f7}
+
+
+Set the Gizmo Mode. 
+
+To Set the Mode and Coordinate \hyperlink{class_i_dream_sky_1_1_system}{System} of Gizmo 
+\begin{DoxyParams}{參數}
+{\em mode\+\_\+,the} & \hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394}{Editor\+Gizmo\+::\+Mode} \\
+\hline
+{\em coordsys\+\_\+,the} & \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}{Editor\+Gizmo\+::\+Coord\+Sys} \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_editor_gizmo_ac4d72bcb586f548ceaba02af53340394}{Editor\+Gizmo\+::\+Mode}, \hyperlink{class_i_dream_sky_1_1_editor_gizmo_a907a83f34db5629458b5c1da4d13f35f}{Editor\+Gizmo\+::\+Coord\+Sys} 
+\end{DoxySeeAlso}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Editor\+Gizmo.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Editor\+Gizmo.\+cpp\end{DoxyCompactItemize}

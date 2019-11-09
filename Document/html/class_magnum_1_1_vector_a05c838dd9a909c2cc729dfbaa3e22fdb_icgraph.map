@@ -1,0 +1,15 @@
+<map id="Magnum::Vector::resize" name="Magnum::Vector::resize">
+<area shape="rect" id="node2" href="$class_magnum_1_1_audio_clip_1_1_resource.html#a31c5abfb8dc85cb158798e99d1400c7a" title="AudioClip Resource Destructor. " alt="" coords="264,5,412,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_font_1_1_resource_importer.html#ae6a44b5fa44b7c4ac523f87c91224e32" title="To terminate the resource import system. " alt="" coords="230,71,446,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_mem_output_stream.html#ad55c8d9ab626c7813d4e462058f373e4" title="write function buffer data " alt="" coords="243,136,433,177"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_mem_output_stream.html#a4c9a681b50dc976a0750705319659553" title="Tell the current read position. " alt="" coords="243,201,433,243"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_physics3_1_1_world.html#a01af519ec2b235107662dab201d3c78a" title="Ray&#45;cast the World2 for all fixtures in the path of the ray. " alt="" coords="250,267,426,308"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_skeletal_anim_blender.html#a261d22fd30ce53a3b4eba0c74cb8d36e" title="This function get the weights of bones specified by boneIndices_ of animIdx_&#45;th animation. " alt="" coords="237,332,439,373"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_skeletal_anim_weights.html#ae5324bf6dc58ecf310bdb31174d2a21e" title="Set the num of blend weights, this usually the same as the number of bone in Animation. " alt="" coords="235,397,441,439"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_skeletal_anim_model_renderer.html#aa19360f6fe46f14d0f8d7c4a760b619d" title="SkeletalAnimModelRenderer Constructor. " alt="" coords="215,463,461,504"/>
+<area shape="rect" id="node11" href="$class_magnum_1_1_skeletal_anim_model_renderer.html#a138ac08d14815bdc63a73b2d0722f52f" title="Get the Order of this renderer. " alt="" coords="242,528,434,569"/>
+<area shape="rect" id="node12" href="$class_magnum_1_1_texture2_d_file_1_1_resource.html#ad4893c973464e2f9db32a3952e137d2b" title="Texture2DFile::Resource Destructor. " alt="" coords="258,593,418,635"/>
+<area shape="rect" id="node13" href="$class_magnum_1_1_texture2_d_file_1_1_resource_importer.html#a01cfa5f495afea04a06380c0fa87978b" title="To terminate the resource import system. " alt="" coords="241,659,435,700"/>
+<area shape="rect" id="node14" href="$class_magnum_1_1_texture_cube_file_1_1_resource.html#abfc12309eb2f37daa741009cd5b22657" title="TextureCubeFile::Resource Destructor. " alt="" coords="251,724,425,765"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_skeletal_anim_blender.html#ab63b9cb4b608b6fdb46b288aea6b8d3a" title="This function add animation as child of this blender. " alt="" coords="509,397,711,439"/>
+</map>

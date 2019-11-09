@@ -1,0 +1,1878 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: Magnum::Physics3::Vehicle  類別 參考文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li class="current"><a href="annotated.html"><span>類別</span></a></li>
+      <li><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>複合列表</span></a></li>
+      <li><a href="classes.html"><span>複合索引</span></a></li>
+      <li><a href="inherits.html"><span>類別階層</span></a></li>
+      <li><a href="functions.html"><span>複合成員</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>Magnum</b></li><li class="navelem"><a class="el" href="class_magnum_1_1_physics3.html">Physics3</a></li><li class="navelem"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html">Vehicle</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">複合項目</a> &#124;
+<a href="#pub-methods">公開方法(Public Methods)</a> &#124;
+<a href="#pub-attribs">公開屬性</a> &#124;
+<a href="#pro-methods">保護方法(Protected Methods)</a> &#124;
+<a href="#friends">類別朋友(Friends)</a> &#124;
+<a href="class_magnum_1_1_physics3_1_1_vehicle-members.html">全部成員列表</a>  </div>
+  <div class="headertitle">
+<div class="title">Magnum::Physics3::Vehicle 類別 參考文件</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+類別Magnum::Physics3::Vehicle的繼承圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_physics3_1_1_vehicle__inherit__graph.png" border="0" usemap="#_magnum_1_1_physics3_1_1_vehicle_inherit__map" alt="Inheritance graph"/></div>
+<map name="_magnum_1_1_physics3_1_1_vehicle_inherit__map" id="_magnum_1_1_physics3_1_1_vehicle_inherit__map">
+<area shape="rect" id="node3" href="class_magnum_1_1_vehicle_collider.html" title="VehicleCollider Component. " alt="" coords="15,155,181,181"/>
+<area shape="rect" id="node2" href="class_magnum_1_1_component.html" title="Component. " alt="" coords="25,5,171,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">圖示</a>]</span></center></div>
+<div class="dynheader">
+Magnum::Physics3::Vehicle的合作圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_physics3_1_1_vehicle__coll__graph.png" border="0" usemap="#_magnum_1_1_physics3_1_1_vehicle_coll__map" alt="Collaboration graph"/></div>
+<map name="_magnum_1_1_physics3_1_1_vehicle_coll__map" id="_magnum_1_1_physics3_1_1_vehicle_coll__map">
+<area shape="rect" id="node2" href="class_magnum_1_1_component.html" title="Component. " alt="" coords="25,5,171,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">圖示</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+複合項目</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle_1_1_params.html">Params</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle_1_1_wheel_info.html">WheelInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開方法(Public Methods)</h2></td></tr>
+<tr class="memitem:aed5e5e80ea343bfd57b786d6a1509ac7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#aed5e5e80ea343bfd57b786d6a1509ac7">Vehicle</a> (<a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_)</td></tr>
+<tr class="memdesc:aed5e5e80ea343bfd57b786d6a1509ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html">Vehicle</a> Constructor.  <a href="#aed5e5e80ea343bfd57b786d6a1509ac7">更多...</a><br /></td></tr>
+<tr class="separator:aed5e5e80ea343bfd57b786d6a1509ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae1fd39511a7ea979ad0e5e97a71dcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#afae1fd39511a7ea979ad0e5e97a71dcf">~Vehicle</a> ()</td></tr>
+<tr class="memdesc:afae1fd39511a7ea979ad0e5e97a71dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html">Vehicle</a> Destructor.  <a href="#afae1fd39511a7ea979ad0e5e97a71dcf">更多...</a><br /></td></tr>
+<tr class="separator:afae1fd39511a7ea979ad0e5e97a71dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a724b38d8a9d9743c7b89bf0aa2e03aa5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a724b38d8a9d9743c7b89bf0aa2e03aa5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DECLARE_COMPONENT</b> (<a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html">Vehicle</a>, <a class="el" href="class_magnum_1_1_component.html">Component</a>, false) PROPERTY(<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td></tr>
+<tr class="separator:a724b38d8a9d9743c7b89bf0aa2e03aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71ed0dc43a137dcda0f0b3a4ab15a9a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71ed0dc43a137dcda0f0b3a4ab15a9a3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, BodyGroundOffset)</td></tr>
+<tr class="separator:a71ed0dc43a137dcda0f0b3a4ab15a9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae06640c5e162ee03c068d46139f6e72e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae06640c5e162ee03c068d46139f6e72e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, SuspensionStiffness)</td></tr>
+<tr class="separator:ae06640c5e162ee03c068d46139f6e72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac139b35d2571dcd14272d91ad6b83de8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac139b35d2571dcd14272d91ad6b83de8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, SuspensionCompression)</td></tr>
+<tr class="separator:ac139b35d2571dcd14272d91ad6b83de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb40b61497b9d959768d11841938f61c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb40b61497b9d959768d11841938f61c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, SuspensionDamping)</td></tr>
+<tr class="separator:acb40b61497b9d959768d11841938f61c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d0e5ae5a6abffa4390609647f85131"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35d0e5ae5a6abffa4390609647f85131"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, SuspensionRestLength)</td></tr>
+<tr class="separator:a35d0e5ae5a6abffa4390609647f85131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace9cb5483457a9966874b502415df8d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace9cb5483457a9966874b502415df8d4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, MaxSuspensionTravelCm)</td></tr>
+<tr class="separator:ace9cb5483457a9966874b502415df8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb73fc2833ef4bd05b674a2806116f1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb73fc2833ef4bd05b674a2806116f1a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, MaxSuspensionForce)</td></tr>
+<tr class="separator:afb73fc2833ef4bd05b674a2806116f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ffa74ec68e0e58c9e99ffb40f6393fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ffa74ec68e0e58c9e99ffb40f6393fd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, FrictionSlip)</td></tr>
+<tr class="separator:a0ffa74ec68e0e58c9e99ffb40f6393fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9114eab9aac309f92938d927937db143"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9114eab9aac309f92938d927937db143"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, RollInfluence)</td></tr>
+<tr class="separator:a9114eab9aac309f92938d927937db143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51605ea41dcde22052abf035f574bd49"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51605ea41dcde22052abf035f574bd49"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, WheelRadius)</td></tr>
+<tr class="separator:a51605ea41dcde22052abf035f574bd49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab417c4c7816db6bfe0bbaed0d716f33b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab417c4c7816db6bfe0bbaed0d716f33b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, WheelWidth)</td></tr>
+<tr class="separator:ab417c4c7816db6bfe0bbaed0d716f33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30bccc30b2b0ae82fbbe4da4c422db18"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30bccc30b2b0ae82fbbe4da4c422db18"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, WheelFriction)</td></tr>
+<tr class="separator:a30bccc30b2b0ae82fbbe4da4c422db18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b54f4f3014eee9fff8138f18ba7c71"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6b54f4f3014eee9fff8138f18ba7c71"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROPERTY</b> (float, ConnectionHeight)</td></tr>
+<tr class="separator:aa6b54f4f3014eee9fff8138f18ba7c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6222cb3de53a05610d8e8aa2c24ccbe7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6222cb3de53a05610d8e8aa2c24ccbe7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setParams</b> (<a class="el" href="class_magnum_1_1_physics3_1_1_vehicle_1_1_params.html">Physics3::Vehicle::Params</a> &amp;params)</td></tr>
+<tr class="separator:a6222cb3de53a05610d8e8aa2c24ccbe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada4fa8d2157c78658a9af9886431d320"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada4fa8d2157c78658a9af9886431d320"></a>
+const <a class="el" href="class_magnum_1_1_physics3_1_1_vehicle_1_1_params.html">Physics3::Vehicle::Params</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getParams</b> () const </td></tr>
+<tr class="separator:ada4fa8d2157c78658a9af9886431d320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0bd5f0ffdaaba972447dddfd83c853f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#ab0bd5f0ffdaaba972447dddfd83c853f">setTransform</a> (const <a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a> &amp;transform_)</td></tr>
+<tr class="memdesc:ab0bd5f0ffdaaba972447dddfd83c853f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_magnum_1_1_transform.html">Transform</a> of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#ab0bd5f0ffdaaba972447dddfd83c853f">更多...</a><br /></td></tr>
+<tr class="separator:ab0bd5f0ffdaaba972447dddfd83c853f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7841e834c5fcbd4df04a96313bf209"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a4e7841e834c5fcbd4df04a96313bf209">getTransform</a> (<a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a> &amp;transform_) const </td></tr>
+<tr class="memdesc:a4e7841e834c5fcbd4df04a96313bf209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_magnum_1_1_transform.html">Transform</a> of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a4e7841e834c5fcbd4df04a96313bf209">更多...</a><br /></td></tr>
+<tr class="separator:a4e7841e834c5fcbd4df04a96313bf209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe5aaeca6605623cb8601734db7b2cfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#afe5aaeca6605623cb8601734db7b2cfb">setPosition</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;position_)</td></tr>
+<tr class="memdesc:afe5aaeca6605623cb8601734db7b2cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Position of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#afe5aaeca6605623cb8601734db7b2cfb">更多...</a><br /></td></tr>
+<tr class="separator:afe5aaeca6605623cb8601734db7b2cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e9d0136caef1017453016c16bb447bf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a5e9d0136caef1017453016c16bb447bf">getPosition</a> () const </td></tr>
+<tr class="memdesc:a5e9d0136caef1017453016c16bb447bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Position of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a5e9d0136caef1017453016c16bb447bf">更多...</a><br /></td></tr>
+<tr class="separator:a5e9d0136caef1017453016c16bb447bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca687f6797c723e45452c3048014aac1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#aca687f6797c723e45452c3048014aac1">setAngularPosition</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;axis_, float angle_)</td></tr>
+<tr class="memdesc:aca687f6797c723e45452c3048014aac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Angular Position of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#aca687f6797c723e45452c3048014aac1">更多...</a><br /></td></tr>
+<tr class="separator:aca687f6797c723e45452c3048014aac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae98489afb5ca9374916373081c3a54bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#ae98489afb5ca9374916373081c3a54bf">setAngularPosition</a> (const <a class="el" href="class_magnum_1_1_quaternion.html">Quaternion</a> &amp;angularPosition_)</td></tr>
+<tr class="memdesc:ae98489afb5ca9374916373081c3a54bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Angular Position of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#ae98489afb5ca9374916373081c3a54bf">更多...</a><br /></td></tr>
+<tr class="separator:ae98489afb5ca9374916373081c3a54bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a258898ba73cb4c5a00778a957aee0eb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a258898ba73cb4c5a00778a957aee0eb3">getAngularPosition</a> () const </td></tr>
+<tr class="memdesc:a258898ba73cb4c5a00778a957aee0eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Angular Position of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a258898ba73cb4c5a00778a957aee0eb3">更多...</a><br /></td></tr>
+<tr class="separator:a258898ba73cb4c5a00778a957aee0eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2dc2a027e33b880e030ac6778f53679"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#ad2dc2a027e33b880e030ac6778f53679">setLinearVelocity</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;velocity_)</td></tr>
+<tr class="memdesc:ad2dc2a027e33b880e030ac6778f53679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Velocity of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#ad2dc2a027e33b880e030ac6778f53679">更多...</a><br /></td></tr>
+<tr class="separator:ad2dc2a027e33b880e030ac6778f53679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b9d8792970f5caf9e700db81d90af57"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a7b9d8792970f5caf9e700db81d90af57">getLinearVelocity</a> () const </td></tr>
+<tr class="memdesc:a7b9d8792970f5caf9e700db81d90af57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Velocity of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a7b9d8792970f5caf9e700db81d90af57">更多...</a><br /></td></tr>
+<tr class="separator:a7b9d8792970f5caf9e700db81d90af57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a979a75f5e95607530dca187641e7e25e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a979a75f5e95607530dca187641e7e25e">setAngularVelocity</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;angularVel_)</td></tr>
+<tr class="memdesc:a979a75f5e95607530dca187641e7e25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Angular Velocity of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a979a75f5e95607530dca187641e7e25e">更多...</a><br /></td></tr>
+<tr class="separator:a979a75f5e95607530dca187641e7e25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add0e84a198b96736e615042eb7a24628"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#add0e84a198b96736e615042eb7a24628">getAngularVelocity</a> () const </td></tr>
+<tr class="memdesc:add0e84a198b96736e615042eb7a24628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Angular Velocity of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#add0e84a198b96736e615042eb7a24628">更多...</a><br /></td></tr>
+<tr class="separator:add0e84a198b96736e615042eb7a24628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade08e94ec789fed968a4dadc76d8c67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#aade08e94ec789fed968a4dadc76d8c67">setLinearFactor</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;factor_)</td></tr>
+<tr class="memdesc:aade08e94ec789fed968a4dadc76d8c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Linear Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#aade08e94ec789fed968a4dadc76d8c67">更多...</a><br /></td></tr>
+<tr class="separator:aade08e94ec789fed968a4dadc76d8c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba7b42207ae8fc4dfa30a6dae6a51827"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#aba7b42207ae8fc4dfa30a6dae6a51827">getLinearFactor</a> () const </td></tr>
+<tr class="memdesc:aba7b42207ae8fc4dfa30a6dae6a51827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Linear Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#aba7b42207ae8fc4dfa30a6dae6a51827">更多...</a><br /></td></tr>
+<tr class="separator:aba7b42207ae8fc4dfa30a6dae6a51827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d91b48481f7652c47ff00b079f9e1b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a2d91b48481f7652c47ff00b079f9e1b5">setAngularFactor</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;factor_)</td></tr>
+<tr class="memdesc:a2d91b48481f7652c47ff00b079f9e1b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Angular Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a2d91b48481f7652c47ff00b079f9e1b5">更多...</a><br /></td></tr>
+<tr class="separator:a2d91b48481f7652c47ff00b079f9e1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade1d619f466b2cb3d3d4a6923a9cd36"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#aade1d619f466b2cb3d3d4a6923a9cd36">getAngularFactor</a> () const </td></tr>
+<tr class="memdesc:aade1d619f466b2cb3d3d4a6923a9cd36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Angular Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#aade1d619f466b2cb3d3d4a6923a9cd36">更多...</a><br /></td></tr>
+<tr class="separator:aade1d619f466b2cb3d3d4a6923a9cd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a359124c9058b1aa4d35b52146e823178"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a359124c9058b1aa4d35b52146e823178">applyForce</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;force_, const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;point_)</td></tr>
+<tr class="memdesc:a359124c9058b1aa4d35b52146e823178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a Force of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at specific point around its center of mass.  <a href="#a359124c9058b1aa4d35b52146e823178">更多...</a><br /></td></tr>
+<tr class="separator:a359124c9058b1aa4d35b52146e823178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78ddb176a78204b6aca72b70bacd7a9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a78ddb176a78204b6aca72b70bacd7a9e">applyForceToCenter</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;force_)</td></tr>
+<tr class="memdesc:a78ddb176a78204b6aca72b70bacd7a9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a Force of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at center of its center of mass.  <a href="#a78ddb176a78204b6aca72b70bacd7a9e">更多...</a><br /></td></tr>
+<tr class="separator:a78ddb176a78204b6aca72b70bacd7a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebcf231f4a9d674024bc00c12fc16394"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#aebcf231f4a9d674024bc00c12fc16394">applyTorque</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;torque_)</td></tr>
+<tr class="memdesc:aebcf231f4a9d674024bc00c12fc16394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a Torque(Rotational Force) of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at center of mass.  <a href="#aebcf231f4a9d674024bc00c12fc16394">更多...</a><br /></td></tr>
+<tr class="separator:aebcf231f4a9d674024bc00c12fc16394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae920d28badd225f4e32cd78215d8fac6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#ae920d28badd225f4e32cd78215d8fac6">applyLinearImpulse</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;impulse_, const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;point_)</td></tr>
+<tr class="memdesc:ae920d28badd225f4e32cd78215d8fac6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a LinearImpulse (Delta Velocity) of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at specific point around its center of mass.  <a href="#ae920d28badd225f4e32cd78215d8fac6">更多...</a><br /></td></tr>
+<tr class="separator:ae920d28badd225f4e32cd78215d8fac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a31dc975e8221bc45a2289e9edfbb07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a0a31dc975e8221bc45a2289e9edfbb07">applyLinearImpulseToCenter</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;impulse_)</td></tr>
+<tr class="memdesc:a0a31dc975e8221bc45a2289e9edfbb07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a LinearImpulse (Delta Velocity) of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at its center of mass.  <a href="#a0a31dc975e8221bc45a2289e9edfbb07">更多...</a><br /></td></tr>
+<tr class="separator:a0a31dc975e8221bc45a2289e9edfbb07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ba6863155dceba4ceed8e67d440c3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#af0ba6863155dceba4ceed8e67d440c3c">applyAngularImpulse</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;angularImpulse_)</td></tr>
+<tr class="memdesc:af0ba6863155dceba4ceed8e67d440c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a AngularImpulse (Delta Angular Velocity) of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at its center of mass.  <a href="#af0ba6863155dceba4ceed8e67d440c3c">更多...</a><br /></td></tr>
+<tr class="separator:af0ba6863155dceba4ceed8e67d440c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169778611810c1f97f81b419f3badc0b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a169778611810c1f97f81b419f3badc0b">getMass</a> () const </td></tr>
+<tr class="memdesc:a169778611810c1f97f81b419f3badc0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Mass of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a169778611810c1f97f81b419f3badc0b">更多...</a><br /></td></tr>
+<tr class="separator:a169778611810c1f97f81b419f3badc0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a902016b31fdff81c559e95366d276603"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a902016b31fdff81c559e95366d276603">getInertia</a> () const </td></tr>
+<tr class="memdesc:a902016b31fdff81c559e95366d276603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Moment of Inertia of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a902016b31fdff81c559e95366d276603">更多...</a><br /></td></tr>
+<tr class="separator:a902016b31fdff81c559e95366d276603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5cb89d84d8dd8a20ac43861938d281a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#ae5cb89d84d8dd8a20ac43861938d281a">getWorldPoint</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;localPoint_) const </td></tr>
+<tr class="memdesc:ae5cb89d84d8dd8a20ac43861938d281a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Position in Local Space of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Position in the <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space.  <a href="#ae5cb89d84d8dd8a20ac43861938d281a">更多...</a><br /></td></tr>
+<tr class="separator:ae5cb89d84d8dd8a20ac43861938d281a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94eea6437fb5a6588c781fdf13c1de59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a94eea6437fb5a6588c781fdf13c1de59">getWorldVector</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;localVector_) const </td></tr>
+<tr class="memdesc:a94eea6437fb5a6588c781fdf13c1de59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Directional <a class="el" href="class_magnum_1_1_vector.html" title="Vector class for a bound protected array class with variable size. ">Vector</a> in Local Space of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Direction in the <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space.  <a href="#a94eea6437fb5a6588c781fdf13c1de59">更多...</a><br /></td></tr>
+<tr class="separator:a94eea6437fb5a6588c781fdf13c1de59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abca19784232251857ea4c751d80c3265"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#abca19784232251857ea4c751d80c3265">getLocalPoint</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;worldPoint_) const </td></tr>
+<tr class="memdesc:abca19784232251857ea4c751d80c3265"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Position in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Position in the Local Space.  <a href="#abca19784232251857ea4c751d80c3265">更多...</a><br /></td></tr>
+<tr class="separator:abca19784232251857ea4c751d80c3265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb5d033a513e55c94f8dbe3fb7a03670"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#aeb5d033a513e55c94f8dbe3fb7a03670">getLocalVector</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;worldVector_) const </td></tr>
+<tr class="memdesc:aeb5d033a513e55c94f8dbe3fb7a03670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Directional <a class="el" href="class_magnum_1_1_vector.html" title="Vector class for a bound protected array class with variable size. ">Vector</a> in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Direction in the Local Space.  <a href="#aeb5d033a513e55c94f8dbe3fb7a03670">更多...</a><br /></td></tr>
+<tr class="separator:aeb5d033a513e55c94f8dbe3fb7a03670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3420f395123dc26b223b8b4420aa15ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a3420f395123dc26b223b8b4420aa15ea">getLinearVelocityFromWorldPoint</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;worldPoint_) const </td></tr>
+<tr class="memdesc:a3420f395123dc26b223b8b4420aa15ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Linear Velocity of specific point in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space on the Rigidbody.  <a href="#a3420f395123dc26b223b8b4420aa15ea">更多...</a><br /></td></tr>
+<tr class="separator:a3420f395123dc26b223b8b4420aa15ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc5f45544f10104d92956b180061a2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a9fc5f45544f10104d92956b180061a2e">getLinearVelocityFromLocalPoint</a> (const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;localPoint_) const </td></tr>
+<tr class="memdesc:a9fc5f45544f10104d92956b180061a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Linear Velocity of specific point in Local Space on the Rigidbody.  <a href="#a9fc5f45544f10104d92956b180061a2e">更多...</a><br /></td></tr>
+<tr class="separator:a9fc5f45544f10104d92956b180061a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8184706ec0b84a018a528dce980a63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a6c8184706ec0b84a018a528dce980a63">setLinearDamping</a> (float linearDamping_)</td></tr>
+<tr class="memdesc:a6c8184706ec0b84a018a528dce980a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Linear Damping Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a6c8184706ec0b84a018a528dce980a63">更多...</a><br /></td></tr>
+<tr class="separator:a6c8184706ec0b84a018a528dce980a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86fda41452842e012b716e20547b6d8b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a86fda41452842e012b716e20547b6d8b">getLinearDamping</a> () const </td></tr>
+<tr class="memdesc:a86fda41452842e012b716e20547b6d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Linear Damping Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a86fda41452842e012b716e20547b6d8b">更多...</a><br /></td></tr>
+<tr class="separator:a86fda41452842e012b716e20547b6d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7533ca488fdf87c8735b6d859ec59948"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a7533ca488fdf87c8735b6d859ec59948">setAngularDamping</a> (float angularDamping_)</td></tr>
+<tr class="memdesc:a7533ca488fdf87c8735b6d859ec59948"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Angular Damping Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a7533ca488fdf87c8735b6d859ec59948">更多...</a><br /></td></tr>
+<tr class="separator:a7533ca488fdf87c8735b6d859ec59948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b46af31be7f435edd68a42f381310a9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a2b46af31be7f435edd68a42f381310a9">getAngularDamping</a> () const </td></tr>
+<tr class="memdesc:a2b46af31be7f435edd68a42f381310a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Angular Damping Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a2b46af31be7f435edd68a42f381310a9">更多...</a><br /></td></tr>
+<tr class="separator:a2b46af31be7f435edd68a42f381310a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9f51ca1fed58fe59fcbca97797331e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#ac9f51ca1fed58fe59fcbca97797331e8">setMaterial</a> (const <a class="el" href="class_magnum_1_1_physics3_1_1_material.html">Physics3::Material</a> &amp;material_)</td></tr>
+<tr class="memdesc:ac9f51ca1fed58fe59fcbca97797331e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_magnum_1_1_physics3_1_1_material.html" title="Material. ">Material</a> of <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#ac9f51ca1fed58fe59fcbca97797331e8">更多...</a><br /></td></tr>
+<tr class="separator:ac9f51ca1fed58fe59fcbca97797331e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58ef92b0e85c4add856b8ffbef687494"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_physics3_1_1_material.html">Physics3::Material</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a58ef92b0e85c4add856b8ffbef687494">getMaterial</a> () const </td></tr>
+<tr class="memdesc:a58ef92b0e85c4add856b8ffbef687494"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_magnum_1_1_physics3_1_1_material.html" title="Material. ">Material</a> <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a58ef92b0e85c4add856b8ffbef687494">更多...</a><br /></td></tr>
+<tr class="separator:a58ef92b0e85c4add856b8ffbef687494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85f899ae2ea367efa89f29c6e1adad5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a85f899ae2ea367efa89f29c6e1adad5e">setCollisionFilter</a> (const <a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html">Physics3::CollisionFilter</a> &amp;collisionFilter_)</td></tr>
+<tr class="memdesc:a85f899ae2ea367efa89f29c6e1adad5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">CollisionFilter</a> of <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a85f899ae2ea367efa89f29c6e1adad5e">更多...</a><br /></td></tr>
+<tr class="separator:a85f899ae2ea367efa89f29c6e1adad5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af55e8960cf8043c0fa41d694d7fe096b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html">Physics3::CollisionFilter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#af55e8960cf8043c0fa41d694d7fe096b">getCollisionFilter</a> () const </td></tr>
+<tr class="memdesc:af55e8960cf8043c0fa41d694d7fe096b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">Physics3::CollisionFilter</a> <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#af55e8960cf8043c0fa41d694d7fe096b">更多...</a><br /></td></tr>
+<tr class="separator:af55e8960cf8043c0fa41d694d7fe096b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a021331348cdc03184a2728ffb219abaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a021331348cdc03184a2728ffb219abaa">setBullet</a> (bool flag)</td></tr>
+<tr class="memdesc:a021331348cdc03184a2728ffb219abaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether or not the Rigidbody use continuous collision detection(bullet).  <a href="#a021331348cdc03184a2728ffb219abaa">更多...</a><br /></td></tr>
+<tr class="separator:a021331348cdc03184a2728ffb219abaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d64edede40f64eb0d4934c0dbef804e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a7d64edede40f64eb0d4934c0dbef804e">isBullet</a> () const </td></tr>
+<tr class="memdesc:a7d64edede40f64eb0d4934c0dbef804e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether or not the Rigidbody use continuous collision detection(bullet).  <a href="#a7d64edede40f64eb0d4934c0dbef804e">更多...</a><br /></td></tr>
+<tr class="separator:a7d64edede40f64eb0d4934c0dbef804e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f757b4007c5bc7487323ef786910cbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a4f757b4007c5bc7487323ef786910cbe">setSleepingAllowed</a> (bool flag)</td></tr>
+<tr class="memdesc:a4f757b4007c5bc7487323ef786910cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether or not the Rigidbody is allowed to enter to sleep mode while isolated.  <a href="#a4f757b4007c5bc7487323ef786910cbe">更多...</a><br /></td></tr>
+<tr class="separator:a4f757b4007c5bc7487323ef786910cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a245ca03865839880fcb812182c2ca513"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a245ca03865839880fcb812182c2ca513">isSleepingAllowed</a> () const </td></tr>
+<tr class="memdesc:a245ca03865839880fcb812182c2ca513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether or not the Rigidbody is allowed to enter to sleep mode while isolated.  <a href="#a245ca03865839880fcb812182c2ca513">更多...</a><br /></td></tr>
+<tr class="separator:a245ca03865839880fcb812182c2ca513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58ebd7a0d773541ce33758e7aabb8446"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a58ebd7a0d773541ce33758e7aabb8446">setAwake</a> (bool flag)</td></tr>
+<tr class="memdesc:a58ebd7a0d773541ce33758e7aabb8446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Rigidbody to awake state.  <a href="#a58ebd7a0d773541ce33758e7aabb8446">更多...</a><br /></td></tr>
+<tr class="separator:a58ebd7a0d773541ce33758e7aabb8446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43bb4195748e32cf974e3f350a83c518"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a43bb4195748e32cf974e3f350a83c518">isAwake</a> () const </td></tr>
+<tr class="memdesc:a43bb4195748e32cf974e3f350a83c518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Rigidbody is in awake state.  <a href="#a43bb4195748e32cf974e3f350a83c518">更多...</a><br /></td></tr>
+<tr class="separator:a43bb4195748e32cf974e3f350a83c518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8658492c9ff18ab798cf4c64899968e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a8658492c9ff18ab798cf4c64899968e3">setActive</a> (bool flag)</td></tr>
+<tr class="memdesc:a8658492c9ff18ab798cf4c64899968e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Rigidbody to active state.  <a href="#a8658492c9ff18ab798cf4c64899968e3">更多...</a><br /></td></tr>
+<tr class="separator:a8658492c9ff18ab798cf4c64899968e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a819d0d84a23ff6be0fb5eae542411348"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a819d0d84a23ff6be0fb5eae542411348">isActive</a> () const </td></tr>
+<tr class="memdesc:a819d0d84a23ff6be0fb5eae542411348"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Rigidbody to active state.  <a href="#a819d0d84a23ff6be0fb5eae542411348">更多...</a><br /></td></tr>
+<tr class="separator:a819d0d84a23ff6be0fb5eae542411348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14bada4d1d552aa636709a180bf126bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a14bada4d1d552aa636709a180bf126bf">setCollisionCallBack</a> (<a class="el" href="class_magnum_1_1_functor.html">Functor</a> *collisionCB_)</td></tr>
+<tr class="memdesc:a14bada4d1d552aa636709a180bf126bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the CallBack Function for collision event between rigidbodies.  <a href="#a14bada4d1d552aa636709a180bf126bf">更多...</a><br /></td></tr>
+<tr class="separator:a14bada4d1d552aa636709a180bf126bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2264f2570a0ad9e288e7d71a6028ad2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_functor.html">Functor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a2264f2570a0ad9e288e7d71a6028ad2d">getCollisionCallBack</a> () const </td></tr>
+<tr class="memdesc:a2264f2570a0ad9e288e7d71a6028ad2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the CallBack Function for collision event between rigidbodies.  <a href="#a2264f2570a0ad9e288e7d71a6028ad2d">更多...</a><br /></td></tr>
+<tr class="separator:a2264f2570a0ad9e288e7d71a6028ad2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b4378b291d4eb375b8c889aa6b99964"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a3b4378b291d4eb375b8c889aa6b99964">setDestuctionCallBack</a> (<a class="el" href="class_magnum_1_1_functor.html">Functor</a> *destructionCB_)</td></tr>
+<tr class="memdesc:a3b4378b291d4eb375b8c889aa6b99964"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the CallBack Function for destruction event of the joint connected on the rigidbody.  <a href="#a3b4378b291d4eb375b8c889aa6b99964">更多...</a><br /></td></tr>
+<tr class="separator:a3b4378b291d4eb375b8c889aa6b99964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34d10492cff17017fbe150ce9cbe2c68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_functor.html">Functor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a34d10492cff17017fbe150ce9cbe2c68">getDestuctionCallBack</a> () const </td></tr>
+<tr class="memdesc:a34d10492cff17017fbe150ce9cbe2c68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the CallBack Function for destruction event of the joint connected on the rigidbody.  <a href="#a34d10492cff17017fbe150ce9cbe2c68">更多...</a><br /></td></tr>
+<tr class="separator:a34d10492cff17017fbe150ce9cbe2c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86ff63467957b662190213c82c4217ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a86ff63467957b662190213c82c4217ee">setUserData</a> (void *userData_)</td></tr>
+<tr class="memdesc:a86ff63467957b662190213c82c4217ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the pointer for custom user data.  <a href="#a86ff63467957b662190213c82c4217ee">更多...</a><br /></td></tr>
+<tr class="separator:a86ff63467957b662190213c82c4217ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd92bd78fac6d9b066a8fb17a2124c24"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#acd92bd78fac6d9b066a8fb17a2124c24">getUserData</a> () const </td></tr>
+<tr class="memdesc:acd92bd78fac6d9b066a8fb17a2124c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pointer for custom user data.  <a href="#acd92bd78fac6d9b066a8fb17a2124c24">更多...</a><br /></td></tr>
+<tr class="separator:acd92bd78fac6d9b066a8fb17a2124c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7623fd69f76c9d0fb83b1a984ccd0f63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a7623fd69f76c9d0fb83b1a984ccd0f63">setSteering</a> (float steering_)</td></tr>
+<tr class="memdesc:a7623fd69f76c9d0fb83b1a984ccd0f63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the steering, -1 for full left, 0 for middle, 1 for full right.  <a href="#a7623fd69f76c9d0fb83b1a984ccd0f63">更多...</a><br /></td></tr>
+<tr class="separator:a7623fd69f76c9d0fb83b1a984ccd0f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae28f1d1d5970aa0a53be82c222335788"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#ae28f1d1d5970aa0a53be82c222335788">applyEngineForce</a> (float force_)</td></tr>
+<tr class="memdesc:ae28f1d1d5970aa0a53be82c222335788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Engine Force on the wheel.  <a href="#ae28f1d1d5970aa0a53be82c222335788">更多...</a><br /></td></tr>
+<tr class="separator:ae28f1d1d5970aa0a53be82c222335788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a5e7196505062a1e183a4b96b77f4ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a8a5e7196505062a1e183a4b96b77f4ae">setBrakeForce</a> (float force_)</td></tr>
+<tr class="memdesc:a8a5e7196505062a1e183a4b96b77f4ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Brack Force on the wheel.  <a href="#a8a5e7196505062a1e183a4b96b77f4ae">更多...</a><br /></td></tr>
+<tr class="separator:a8a5e7196505062a1e183a4b96b77f4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7ba8b6104bf8481ba8cbfd839ffaaa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a4e7ba8b6104bf8481ba8cbfd839ffaaa">getSpeed</a> () const </td></tr>
+<tr class="memdesc:a4e7ba8b6104bf8481ba8cbfd839ffaaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Speed of the vehicle.  <a href="#a4e7ba8b6104bf8481ba8cbfd839ffaaa">更多...</a><br /></td></tr>
+<tr class="separator:a4e7ba8b6104bf8481ba8cbfd839ffaaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01cd99b654554f600054b8ca2055c81b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a01cd99b654554f600054b8ca2055c81b">getNumWheels</a> () const </td></tr>
+<tr class="memdesc:a01cd99b654554f600054b8ca2055c81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Number of Wheels.  <a href="#a01cd99b654554f600054b8ca2055c81b">更多...</a><br /></td></tr>
+<tr class="separator:a01cd99b654554f600054b8ca2055c81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fe5b6692fdf6b258e507514d2654103"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a1fe5b6692fdf6b258e507514d2654103">getChassisWorldTransform</a> (<a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a> &amp;worldTransform) const </td></tr>
+<tr class="memdesc:a1fe5b6692fdf6b258e507514d2654103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> <a class="el" href="class_magnum_1_1_transform.html">Transform</a> of the car body.  <a href="#a1fe5b6692fdf6b258e507514d2654103">更多...</a><br /></td></tr>
+<tr class="separator:a1fe5b6692fdf6b258e507514d2654103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43dcaf1d8a80592d6db24ac336a2c50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle_1_1_wheel_info.html">Physics3::Vehicle::WheelInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#af43dcaf1d8a80592d6db24ac336a2c50">getWheelInfo</a> (int i)</td></tr>
+<tr class="memdesc:af43dcaf1d8a80592d6db24ac336a2c50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Wheel Info of particular wheel.  <a href="#af43dcaf1d8a80592d6db24ac336a2c50">更多...</a><br /></td></tr>
+<tr class="separator:af43dcaf1d8a80592d6db24ac336a2c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_magnum_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_magnum_1_1_component')"><img src="closed.png" alt="-"/>&#160;公開方法(Public Methods) 繼承自 <a class="el" href="class_magnum_1_1_component.html">Magnum::Component</a></td></tr>
+<tr class="memitem:a756ac15f5ce6fa021d35c6115b8fe64b inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a756ac15f5ce6fa021d35c6115b8fe64b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> (<a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_)</td></tr>
+<tr class="separator:a756ac15f5ce6fa021d35c6115b8fe64b inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276a002fa6647f9dcf6420966fb9c8ff inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a276a002fa6647f9dcf6420966fb9c8ff"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS</b> (<a class="el" href="class_magnum_1_1_component.html">Component</a>, <a class="el" href="classagm_1_1reflection_1_1_null_class.html">agm::reflection::NullClass</a>)</td></tr>
+<tr class="separator:a276a002fa6647f9dcf6420966fb9c8ff inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30a9f5cf6e5c94519c752f30ac3c6013 inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_component.html#a30a9f5cf6e5c94519c752f30ac3c6013">PROPERTY</a> (bool, Enabled)</td></tr>
+<tr class="memdesc:a30a9f5cf6e5c94519c752f30ac3c6013 inherit pub_methods_class_magnum_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Enabled <a class="el" href="class_magnum_1_1_state.html">State</a> of <a class="el" href="class_magnum_1_1_component_1_1_owner.html" title="Owner. ">Owner</a>, if the component is not active, it become non functional.  <a href="#a30a9f5cf6e5c94519c752f30ac3c6013">更多...</a><br /></td></tr>
+<tr class="separator:a30a9f5cf6e5c94519c752f30ac3c6013 inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424ef8b2bc22e3742619ead43c8e255e inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_component.html#a424ef8b2bc22e3742619ead43c8e255e">PROPERTY</a> (<a class="el" href="class_magnum_1_1_string.html">String</a>, Name)</td></tr>
+<tr class="memdesc:a424ef8b2bc22e3742619ead43c8e255e inherit pub_methods_class_magnum_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Name of <a class="el" href="class_magnum_1_1_component_1_1_owner.html" title="Owner. ">Owner</a>.  <a href="#a424ef8b2bc22e3742619ead43c8e255e">更多...</a><br /></td></tr>
+<tr class="separator:a424ef8b2bc22e3742619ead43c8e255e inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296debc61f8cccc361ef8db6debcb5c8 inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a296debc61f8cccc361ef8db6debcb5c8"></a>
+<a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getOwner</b> ()</td></tr>
+<tr class="separator:a296debc61f8cccc361ef8db6debcb5c8 inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa736314b74d00201729f97bb40c0f7dc inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa736314b74d00201729f97bb40c0f7dc"></a>
+const <a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getOwner</b> () const </td></tr>
+<tr class="separator:aa736314b74d00201729f97bb40c0f7dc inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d812328a0e5406be71bc2b2f04a9e96 inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d812328a0e5406be71bc2b2f04a9e96"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isEditorModeActive</b> () const  =0</td></tr>
+<tr class="separator:a9d812328a0e5406be71bc2b2f04a9e96 inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+公開屬性</h2></td></tr>
+<tr class="memitem:ad043a297b64432c2302a5ba0d5f7f903"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad043a297b64432c2302a5ba0d5f7f903"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>BodyHalfSize</b></td></tr>
+<tr class="separator:ad043a297b64432c2302a5ba0d5f7f903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+保護方法(Protected Methods)</h2></td></tr>
+<tr class="memitem:a37648c149c5ad2c78868172fa1a6e5ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a37648c149c5ad2c78868172fa1a6e5ff">constructRigidBody</a> (const <a class="el" href="class_magnum_1_1_physics3_1_1_material.html">Physics3::Material</a> &amp;material_, const <a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html">Physics3::CollisionFilter</a> &amp;collisionFilter_)</td></tr>
+<tr class="memdesc:a37648c149c5ad2c78868172fa1a6e5ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a37648c149c5ad2c78868172fa1a6e5ff">更多...</a><br /></td></tr>
+<tr class="separator:a37648c149c5ad2c78868172fa1a6e5ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4532094d2d5972827a6cc8a89677cfd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a4532094d2d5972827a6cc8a89677cfd5">updateRigidBody</a> (float dt)</td></tr>
+<tr class="memdesc:a4532094d2d5972827a6cc8a89677cfd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the rigidbody and the owner.  <a href="#a4532094d2d5972827a6cc8a89677cfd5">更多...</a><br /></td></tr>
+<tr class="separator:a4532094d2d5972827a6cc8a89677cfd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7b1de22c398bb2711ed6c7ec384f45b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7b1de22c398bb2711ed6c7ec384f45b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#aa7b1de22c398bb2711ed6c7ec384f45b">destructRigidBody</a> ()</td></tr>
+<tr class="memdesc:aa7b1de22c398bb2711ed6c7ec384f45b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct the rigidbody. <br /></td></tr>
+<tr class="separator:aa7b1de22c398bb2711ed6c7ec384f45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+類別朋友(Friends)</h2></td></tr>
+<tr class="memitem:a7b4bcdf992c21ae83363f25df05b1d25"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b4bcdf992c21ae83363f25df05b1d25"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>World</b></td></tr>
+<tr class="separator:a7b4bcdf992c21ae83363f25df05b1d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddd5c43ff870a047aa66db4edf82a7e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adddd5c43ff870a047aa66db4edf82a7e"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>Manager</b></td></tr>
+<tr class="separator:adddd5c43ff870a047aa66db4edf82a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">建構子與解構子說明文件</h2>
+<a class="anchor" id="aed5e5e80ea343bfd57b786d6a1509ac7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Magnum::Physics3::Vehicle::Vehicle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td>
+          <td class="paramname"><em>owner_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html">Vehicle</a> Constructor. </p>
+<p>To Construct the <a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html">Vehicle</a> for the owner. </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">owener_,the</td><td>owner of this component </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="afae1fd39511a7ea979ad0e5e97a71dcf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Magnum::Physics3::Vehicle::~Vehicle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html">Vehicle</a> Destructor. </p>
+<p>To Destruct the <a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html">Vehicle</a> for the owner. </p>
+
+</div>
+</div>
+<h2 class="groupheader">函式成員說明文件</h2>
+<a class="anchor" id="af0ba6863155dceba4ceed8e67d440c3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::applyAngularImpulse </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>angularImpulse_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply a AngularImpulse (Delta Angular Velocity) of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at its center of mass. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angularImpulse_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the impulse direction and magnitude. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae28f1d1d5970aa0a53be82c222335788"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::applyEngineForce </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>force_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Engine Force on the wheel. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">force_</td><td>the Forward Engine Force </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a359124c9058b1aa4d35b52146e823178"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::applyForce </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>force_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>point_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply a Force of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at specific point around its center of mass. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">force_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the force direction and magnitude. </td></tr>
+    <tr><td class="paramname">point_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the point the force act on the Rigidbody. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a78ddb176a78204b6aca72b70bacd7a9e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::applyForceToCenter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>force_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply a Force of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at center of its center of mass. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">force_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the force direction and magnitude. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae920d28badd225f4e32cd78215d8fac6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::applyLinearImpulse </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>impulse_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>point_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply a LinearImpulse (Delta Velocity) of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at specific point around its center of mass. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">impulse_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the impulse direction and magnitude. </td></tr>
+    <tr><td class="paramname">point_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the point the impulse act on the Rigidbody. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0a31dc975e8221bc45a2289e9edfbb07"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::applyLinearImpulseToCenter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>impulse_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply a LinearImpulse (Delta Velocity) of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at its center of mass. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">impulse_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the impulse direction and magnitude. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aebcf231f4a9d674024bc00c12fc16394"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::applyTorque </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>torque_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply a Torque(Rotational Force) of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at center of mass. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">torque_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the torque direction and magnitude. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a37648c149c5ad2c78868172fa1a6e5ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Magnum::Physics3::Vehicle::constructRigidBody </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_physics3_1_1_material.html">Physics3::Material</a> &amp;&#160;</td>
+          <td class="paramname"><em>material_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html">Physics3::CollisionFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>collisionFilter_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">material_</td><td>the <a class="el" href="class_magnum_1_1_physics3_1_1_material.html" title="Material. ">Material</a> of <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> </td></tr>
+    <tr><td class="paramname">collisionFilter_</td><td>the <a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">Physics3::CollisionFilter</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>參閱</dt><dd><a class="el" href="class_magnum_1_1_physics3_1_1_material.html" title="Material. ">Physics3::Material</a> </dd>
+<dd>
+<a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">Physics3::CollisionFilter</a> </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_physics3_1_1_vehicle_a37648c149c5ad2c78868172fa1a6e5ff_icgraph.png" border="0" usemap="#class_magnum_1_1_physics3_1_1_vehicle_a37648c149c5ad2c78868172fa1a6e5ff_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_physics3_1_1_vehicle_a37648c149c5ad2c78868172fa1a6e5ff_icgraph" id="class_magnum_1_1_physics3_1_1_vehicle_a37648c149c5ad2c78868172fa1a6e5ff_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_vehicle_collider.html#a77ca7dc0653dd6bb43d91ad01ce6b8ea" title="VehicleCollider Destructor. " alt="" coords="239,5,405,47"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2b46af31be7f435edd68a42f381310a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Magnum::Physics3::Vehicle::getAngularDamping </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Angular Damping Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<p>The Angular Damping is a reduction of lienar velocity due to the loss of kinetic energy for some reason(e.g. friction, sound) </p><dl class="section return"><dt>傳回值</dt><dd>float, the angular damping factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aade1d619f466b2cb3d3d4a6923a9cd36"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&amp; Magnum::Physics3::Vehicle::getAngularFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Angular Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the angular factor of rigidbody. </dd></dl>
+<dl class="section see"><dt>參閱</dt><dd><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#a2d91b48481f7652c47ff00b079f9e1b5" title="Set the Angular Factor of the RigidBody. ">setAngularFactor()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a258898ba73cb4c5a00778a957aee0eb3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_quaternion.html">Quaternion</a> Magnum::Physics3::Vehicle::getAngularPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Angular Position of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_quaternion.html">Quaternion</a>, the angular position of rigidbody. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="add0e84a198b96736e615042eb7a24628"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&amp; Magnum::Physics3::Vehicle::getAngularVelocity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Angular Velocity of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the angular velocity of rigidbody. which represent axis of rotation and its length represent the angle of rotation (in radian). </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1fe5b6692fdf6b258e507514d2654103"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::getChassisWorldTransform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a> &amp;&#160;</td>
+          <td class="paramname"><em>worldTransform</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> <a class="el" href="class_magnum_1_1_transform.html">Transform</a> of the car body. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"><a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a>,retunr</td><td>the <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> <a class="el" href="class_magnum_1_1_transform.html">Transform</a> of the car body </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2264f2570a0ad9e288e7d71a6028ad2d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_functor.html">Functor</a>* Magnum::Physics3::Vehicle::getCollisionCallBack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the CallBack Function for collision event between rigidbodies. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_functor.html">Functor</a> : the CallBack Function </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af55e8960cf8043c0fa41d694d7fe096b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html">Physics3::CollisionFilter</a> Magnum::Physics3::Vehicle::getCollisionFilter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the <a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">Physics3::CollisionFilter</a> <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">Physics3::CollisionFilter</a>, the collision Filter of rigidbody. </dd></dl>
+<dl class="section see"><dt>參閱</dt><dd><a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">Physics3::CollisionFilter</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a34d10492cff17017fbe150ce9cbe2c68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_functor.html">Functor</a>* Magnum::Physics3::Vehicle::getDestuctionCallBack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the CallBack Function for destruction event of the joint connected on the rigidbody. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_functor.html">Functor</a> : the CallBack Function </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a902016b31fdff81c559e95366d276603"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> Magnum::Physics3::Vehicle::getInertia </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Moment of Inertia of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the Moment of Inertia of rigidbody. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a86fda41452842e012b716e20547b6d8b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Magnum::Physics3::Vehicle::getLinearDamping </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Linear Damping Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<p>The Linear Damping is a reduction of linear velocity due to the loss of kinetic energy for some reason(e.g. friction, sound) </p><dl class="section return"><dt>傳回值</dt><dd>float, the linear damping factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aba7b42207ae8fc4dfa30a6dae6a51827"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&amp; Magnum::Physics3::Vehicle::getLinearFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Linear Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the linear factor of rigidbody. </dd></dl>
+<dl class="section see"><dt>參閱</dt><dd><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle.html#aade08e94ec789fed968a4dadc76d8c67" title="Set the Linear Factor of the RigidBody. ">setLinearFactor()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7b9d8792970f5caf9e700db81d90af57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&amp; Magnum::Physics3::Vehicle::getLinearVelocity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Velocity of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the velocity of rigidbody. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9fc5f45544f10104d92956b180061a2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> Magnum::Physics3::Vehicle::getLinearVelocityFromLocalPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>localPoint_</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Linear Velocity of specific point in Local Space on the Rigidbody. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">localPoint_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the point in Local Space. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the Velocity of specific point in Local Space on the Rigidbody. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3420f395123dc26b223b8b4420aa15ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> Magnum::Physics3::Vehicle::getLinearVelocityFromWorldPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>worldPoint_</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Linear Velocity of specific point in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space on the Rigidbody. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">worldPoint_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the point in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the Velocity of specific point in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space on the Rigidbody. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abca19784232251857ea4c751d80c3265"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> Magnum::Physics3::Vehicle::getLocalPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>worldPoint_</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert a Position in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Position in the Local Space. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">worldPoint_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which input the position in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space to be converted. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the corresponding position in Local Space. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aeb5d033a513e55c94f8dbe3fb7a03670"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> Magnum::Physics3::Vehicle::getLocalVector </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>worldVector_</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert a Directional <a class="el" href="class_magnum_1_1_vector.html" title="Vector class for a bound protected array class with variable size. ">Vector</a> in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Direction in the Local Space. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">worldVector_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which input the direction in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space to be converted. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the corresponding direction in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a169778611810c1f97f81b419f3badc0b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Magnum::Physics3::Vehicle::getMass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Mass of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd>float, the mass of rigidbody. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a58ef92b0e85c4add856b8ffbef687494"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_physics3_1_1_material.html">Physics3::Material</a> Magnum::Physics3::Vehicle::getMaterial </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the <a class="el" href="class_magnum_1_1_physics3_1_1_material.html" title="Material. ">Material</a> <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_physics3_1_1_material.html" title="Material. ">Physics3::Material</a>, the material of rigidbody. </dd></dl>
+<dl class="section see"><dt>參閱</dt><dd><a class="el" href="class_magnum_1_1_physics3_1_1_material.html" title="Material. ">Physics3::Material</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a01cd99b654554f600054b8ca2055c81b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Magnum::Physics3::Vehicle::getNumWheels </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Number of Wheels. </p>
+<dl class="section return"><dt>傳回值</dt><dd>int: the Number of Wheels </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5e9d0136caef1017453016c16bb447bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>&amp; Magnum::Physics3::Vehicle::getPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Position of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the position of rigidbody. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4e7ba8b6104bf8481ba8cbfd839ffaaa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Magnum::Physics3::Vehicle::getSpeed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Speed of the vehicle. </p>
+<dl class="section return"><dt>傳回值</dt><dd>float: the Speed of the vehicle </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4e7841e834c5fcbd4df04a96313bf209"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::getTransform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a> &amp;&#160;</td>
+          <td class="paramname"><em>transform_</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the <a class="el" href="class_magnum_1_1_transform.html">Transform</a> of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transform_,<a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a></td><td>which receive the position, rotation, scale of rigidbody. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="acd92bd78fac6d9b066a8fb17a2124c24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* Magnum::Physics3::Vehicle::getUserData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the pointer for custom user data. </p>
+<dl class="section return"><dt>傳回值</dt><dd>the User Pointer </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af43dcaf1d8a80592d6db24ac336a2c50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle_1_1_wheel_info.html">Physics3::Vehicle::WheelInfo</a> Magnum::Physics3::Vehicle::getWheelInfo </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Wheel Info of particular wheel. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_physics3_1_1_vehicle_1_1_wheel_info.html">Physics3::Vehicle::WheelInfo</a>, Wheel Info of wheel index by i </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae5cb89d84d8dd8a20ac43861938d281a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> Magnum::Physics3::Vehicle::getWorldPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>localPoint_</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert a Position in Local Space of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Position in the <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">localPoint_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which input the position in Local Space to be converted. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the corresponding position in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a94eea6437fb5a6588c781fdf13c1de59"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> Magnum::Physics3::Vehicle::getWorldVector </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>localVector_</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert a Directional <a class="el" href="class_magnum_1_1_vector.html" title="Vector class for a bound protected array class with variable size. ">Vector</a> in Local Space of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Direction in the <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">localVector_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which input the direction in Local Space to be converted. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector3.html">Vector3</a>, the corresponding direction in <a class="el" href="class_magnum_1_1_physics3_1_1_world.html">World</a> Space. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a819d0d84a23ff6be0fb5eae542411348"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Magnum::Physics3::Vehicle::isActive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if Rigidbody to active state. </p>
+<p>Rigid Body in Active <a class="el" href="class_magnum_1_1_state.html">State</a> will participate into physics calculation. </p><dl class="section return"><dt>傳回值</dt><dd>true : in active state false: not in active state </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a43bb4195748e32cf974e3f350a83c518"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Magnum::Physics3::Vehicle::isAwake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if Rigidbody is in awake state. </p>
+<p>Rigid Body in Awake will participate into physics calculation and will enter Sleep <a class="el" href="class_magnum_1_1_state.html">State</a> if it become Steady. </p><dl class="section return"><dt>傳回值</dt><dd>flag, true : in awake state false: not in awake state </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7d64edede40f64eb0d4934c0dbef804e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Magnum::Physics3::Vehicle::isBullet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check whether or not the Rigidbody use continuous collision detection(bullet). </p>
+<p>Continuous <a class="el" href="class_magnum_1_1_collision.html" title="Base class For all type of Collision Object. ">Collision</a> Detection need more calculation, Only use on fast or small rigidbody only. </p><dl class="section return"><dt>傳回值</dt><dd>true : is bullet. false : not a bullet. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a245ca03865839880fcb812182c2ca513"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Magnum::Physics3::Vehicle::isSleepingAllowed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check whether or not the Rigidbody is allowed to enter to sleep mode while isolated. </p>
+<p>Isolated and Steady rigid body will go to sleep and will not participate in physics calculation. save CPU </p><dl class="section return"><dt>傳回值</dt><dd>true : allow to enter sleep mode. false: not allow to enter sleep mode. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8658492c9ff18ab798cf4c64899968e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setActive </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set Rigidbody to active state. </p>
+<p>Rigid Body in Active <a class="el" href="class_magnum_1_1_state.html">State</a> will participate into physics calculation. </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag,true</td><td>: in active state false: not in active state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7533ca488fdf87c8735b6d859ec59948"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setAngularDamping </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angularDamping_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Angular Damping Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<p>The Angular Damping is a reduction of angular velocity due to the loss of kinetic energy for some reason(e.g. friction, sound) </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angularDamping_,float</td><td>which specify the angular Damping factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2d91b48481f7652c47ff00b079f9e1b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setAngularFactor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>factor_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Angular Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">factor_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the angular factor of rigidbody. Angular Factor scales the amount of rotation motion along each axis. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aca687f6797c723e45452c3048014aac1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setAngularPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>axis_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Angular Position of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the axis of angular position. </td></tr>
+    <tr><td class="paramname">angle_,float</td><td>which specify the degree (in radian) rotate around the axis. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae98489afb5ca9374916373081c3a54bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setAngularPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_quaternion.html">Quaternion</a> &amp;&#160;</td>
+          <td class="paramname"><em>angularPosition_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Angular Position of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angularPosition_,<a class="el" href="class_magnum_1_1_quaternion.html">Quaternion</a></td><td>which specify the rotation and axis of rotation. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a979a75f5e95607530dca187641e7e25e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setAngularVelocity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>angularVel_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Angular Velocity of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angularVel_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the axis of rotation with its length represent the angle (in radian). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a58ebd7a0d773541ce33758e7aabb8446"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setAwake </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set Rigidbody to awake state. </p>
+<p>Rigid Body in Awake <a class="el" href="class_magnum_1_1_state.html">State</a> will participate into physics calculation and will enter Sleep <a class="el" href="class_magnum_1_1_state.html">State</a> if it become Steady. </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag,true</td><td>allow to enter sleep mode. false not allow to enter sleep mode. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8a5e7196505062a1e183a4b96b77f4ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setBrakeForce </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>force_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Brack Force on the wheel. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">force_</td><td>the Brack Force </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a021331348cdc03184a2728ffb219abaa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setBullet </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set whether or not the Rigidbody use continuous collision detection(bullet). </p>
+<p>Continuous <a class="el" href="class_magnum_1_1_collision.html" title="Base class For all type of Collision Object. ">Collision</a> Detection need more calculation, Only use on fast or small rigidbody only. </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag,true</td><td>rigid is bullet. false rigid is not a bullet. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a14bada4d1d552aa636709a180bf126bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setCollisionCallBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_functor.html">Functor</a> *&#160;</td>
+          <td class="paramname"><em>collisionCB_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the CallBack Function for collision event between rigidbodies. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collisionCB_,<a class="el" href="class_magnum_1_1_functor.html">Functor</a></td><td>: the <a class="el" href="class_magnum_1_1_collision.html" title="Base class For all type of Collision Object. ">Collision</a> CallBack Function </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a85f899ae2ea367efa89f29c6e1adad5e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setCollisionFilter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html">Physics3::CollisionFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>collisionFilter_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">CollisionFilter</a> of <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collisionFilter_,the</td><td>collision Filter of rigidbody. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>參閱</dt><dd><a class="el" href="class_magnum_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">Physics3::CollisionFilter</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3b4378b291d4eb375b8c889aa6b99964"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setDestuctionCallBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_functor.html">Functor</a> *&#160;</td>
+          <td class="paramname"><em>destructionCB_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the CallBack Function for destruction event of the joint connected on the rigidbody. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">destructionCB_,<a class="el" href="class_magnum_1_1_functor.html">Functor</a></td><td>: the Destruction CallBack Function </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6c8184706ec0b84a018a528dce980a63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setLinearDamping </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>linearDamping_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Linear Damping Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<p>The Linear Damping is a reduction of linear velocity due to the loss of kinetic energy for some reason(e.g. friction, sound) </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">linearDamping_,float</td><td>which specify the linear Damping factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aade08e94ec789fed968a4dadc76d8c67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setLinearFactor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>factor_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Linear Factor of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">factor_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the linear factor of rigidbody. Linear Factor scales the amount of linear motion along each axis. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad2dc2a027e33b880e030ac6778f53679"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setLinearVelocity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>velocity_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Velocity of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">velocity_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the velocity of rigidbody. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac9f51ca1fed58fe59fcbca97797331e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setMaterial </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_physics3_1_1_material.html">Physics3::Material</a> &amp;&#160;</td>
+          <td class="paramname"><em>material_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="class_magnum_1_1_physics3_1_1_material.html" title="Material. ">Material</a> of <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">material_,the</td><td>material of rigidbody. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>參閱</dt><dd><a class="el" href="class_magnum_1_1_physics3_1_1_material.html" title="Material. ">Physics3::Material</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="afe5aaeca6605623cb8601734db7b2cfb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>position_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Position of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position_,<a class="el" href="class_magnum_1_1_vector3.html">Vector3</a></td><td>which specify the position of rigidbody. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4f757b4007c5bc7487323ef786910cbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setSleepingAllowed </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set whether or not the Rigidbody is allowed to enter to sleep mode while isolated. </p>
+<p>Isolated and Steady rigid body will go to sleep and will not participate in physics calculation. save CPU </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag,true</td><td>allow to enter sleep mode. false not allow to enter sleep mode. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7623fd69f76c9d0fb83b1a984ccd0f63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setSteering </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>steering_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the steering, -1 for full left, 0 for middle, 1 for full right. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">steering_</td><td>the Steering value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab0bd5f0ffdaaba972447dddfd83c853f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a> &amp;&#160;</td>
+          <td class="paramname"><em>transform_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="class_magnum_1_1_transform.html">Transform</a> of the <a class="el" href="class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transform_,<a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a></td><td>which specify the position, rotation, scale of rigidbody. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_physics3_1_1_vehicle_ab0bd5f0ffdaaba972447dddfd83c853f_icgraph.png" border="0" usemap="#class_magnum_1_1_physics3_1_1_vehicle_ab0bd5f0ffdaaba972447dddfd83c853f_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_physics3_1_1_vehicle_ab0bd5f0ffdaaba972447dddfd83c853f_icgraph" id="class_magnum_1_1_physics3_1_1_vehicle_ab0bd5f0ffdaaba972447dddfd83c853f_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_vehicle_collider.html#a77ca7dc0653dd6bb43d91ad01ce6b8ea" title="VehicleCollider Destructor. " alt="" coords="239,5,405,47"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a86ff63467957b662190213c82c4217ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::setUserData </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>userData_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the pointer for custom user data. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">userData_</td><td>the User Pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4532094d2d5972827a6cc8a89677cfd5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Magnum::Physics3::Vehicle::updateRigidBody </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the rigidbody and the owner. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dt,the</td><td>delta of the game cycle </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_physics3_1_1_vehicle_a4532094d2d5972827a6cc8a89677cfd5_icgraph.png" border="0" usemap="#class_magnum_1_1_physics3_1_1_vehicle_a4532094d2d5972827a6cc8a89677cfd5_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_physics3_1_1_vehicle_a4532094d2d5972827a6cc8a89677cfd5_icgraph" id="class_magnum_1_1_physics3_1_1_vehicle_a4532094d2d5972827a6cc8a89677cfd5_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_vehicle_collider.html#a77ca7dc0653dd6bb43d91ad01ce6b8ea" title="VehicleCollider Destructor. " alt="" coords="239,5,405,47"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>此類別(class) 文件是由下列檔案中產生:<ul>
+<li>C:/EpicForceBackup/EpicForceEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/<a class="el" href="_physics3_8h_source.html">Physics3.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

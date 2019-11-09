@@ -1,0 +1,205 @@
+\hypertarget{class_magnum_1_1_audio_1_1_manager}{}\section{Magnum\+:\+:Audio\+:\+:Manager 類別 參考文件}
+\label{class_magnum_1_1_audio_1_1_manager}\index{Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}}
+
+
+\hyperlink{class_magnum_1_1_audio}{Audio} \hyperlink{class_magnum_1_1_audio_1_1_manager}{Manager} manager the all \hyperlink{class_magnum_1_1_audio_listener}{Audio\+Listener}, Audio\+Source, Volumes, Parameters.  
+
+
+
+
+{\ttfamily \#include $<$Audio.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_audio_1_1_manager_a016364645e15396221faf0f7bb2e2607}{Manager} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_audio_1_1_manager}{Audio\+::\+Manager} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_audio_1_1_manager_a93f306edbf9dcfc8ff98cd44ec66a903}{$\sim$\+Manager} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_audio_1_1_manager}{Audio\+::\+Manager} Destructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_1_1_manager_ac7ef14547cf4853a7878f30b98482181}{set\+Master\+Volume} (float volume)
+\begin{DoxyCompactList}\small\item\em Set the Master Volume. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_1_1_manager_a0e3cd85c6b28a25a550664ef1b038b0a}{set\+B\+G\+M\+Volume} (float volume)
+\begin{DoxyCompactList}\small\item\em Set the B\+GM Volume. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_audio_1_1_manager_a6043ba6ba2844915c60b237c7e0b7e9a}{set\+S\+F\+X\+Volume} (float volume)
+\begin{DoxyCompactList}\small\item\em Set the S\+FX Volume. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_audio_1_1_manager_a7c7b1a218649a82da9384e89c2bbc704}{get\+Master\+Volume} () const 
+\begin{DoxyCompactList}\small\item\em Get the Master Volume. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_audio_1_1_manager_aaf96945a324146455bda66853533ea56}{get\+B\+G\+M\+Volume} () const 
+\begin{DoxyCompactList}\small\item\em Get the B\+GM Volume. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_audio_1_1_manager_a97df6d7c2738ba77d35581978a076379}{get\+S\+F\+X\+Volume} () const 
+\begin{DoxyCompactList}\small\item\em Get the S\+FX Volume. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{class_magnum_1_1_audio_1_1_manager_a666d38790d8532041580f8908be4c3ed}{get\+System\+Handle} ()
+\begin{DoxyCompactList}\small\item\em Get the handle of the \hyperlink{class_magnum_1_1_audio}{Audio} \hyperlink{class_magnum_1_1_system}{System}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_magnum_1_1_audio_1_1_manager}{Manager} \& {\bfseries instance} ()\hypertarget{class_magnum_1_1_audio_1_1_manager_a9f266534db2ea5671e2a008b228bf3c3}{}\label{class_magnum_1_1_audio_1_1_manager_a9f266534db2ea5671e2a008b228bf3c3}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Audio}\hypertarget{class_magnum_1_1_audio_1_1_manager_a211f008bd6a46efe478fe81d31e28933}{}\label{class_magnum_1_1_audio_1_1_manager_a211f008bd6a46efe478fe81d31e28933}
+
+\item 
+class {\bfseries Audio\+Component}\hypertarget{class_magnum_1_1_audio_1_1_manager_af76924648e1e664d148d0e3951b5a9ce}{}\label{class_magnum_1_1_audio_1_1_manager_af76924648e1e664d148d0e3951b5a9ce}
+
+\item 
+class {\bfseries Audio\+Listener\+Base}\hypertarget{class_magnum_1_1_audio_1_1_manager_a76a29692301e521e926995991a14b87d}{}\label{class_magnum_1_1_audio_1_1_manager_a76a29692301e521e926995991a14b87d}
+
+\item 
+class {\bfseries Audio\+Source\+Base}\hypertarget{class_magnum_1_1_audio_1_1_manager_a93f447a7ad19640b0dd05bafe9ba5552}{}\label{class_magnum_1_1_audio_1_1_manager_a93f447a7ad19640b0dd05bafe9ba5552}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_audio}{Audio} \hyperlink{class_magnum_1_1_audio_1_1_manager}{Manager} manager the all \hyperlink{class_magnum_1_1_audio_listener}{Audio\+Listener}, Audio\+Source, Volumes, Parameters. 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}!Manager@{Manager}}
+\index{Manager@{Manager}!Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}}
+\subsubsection[{\texorpdfstring{Manager()}{Manager()}}]{\setlength{\rightskip}{0pt plus 5cm}Audio\+::\+Manager\+::\+Manager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_1_1_manager_a016364645e15396221faf0f7bb2e2607}{}\label{class_magnum_1_1_audio_1_1_manager_a016364645e15396221faf0f7bb2e2607}
+
+
+\hyperlink{class_magnum_1_1_audio_1_1_manager}{Audio\+::\+Manager} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_audio_1_1_manager}{Audio\+::\+Manager}. \index{Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}!````~Manager@{$\sim$\+Manager}}
+\index{````~Manager@{$\sim$\+Manager}!Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}}
+\subsubsection[{\texorpdfstring{$\sim$\+Manager()}{~Manager()}}]{\setlength{\rightskip}{0pt plus 5cm}Audio\+::\+Manager\+::$\sim$\+Manager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_audio_1_1_manager_a93f306edbf9dcfc8ff98cd44ec66a903}{}\label{class_magnum_1_1_audio_1_1_manager_a93f306edbf9dcfc8ff98cd44ec66a903}
+
+
+\hyperlink{class_magnum_1_1_audio_1_1_manager}{Audio\+::\+Manager} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_audio_1_1_manager}{Audio\+::\+Manager}. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}!get\+B\+G\+M\+Volume@{get\+B\+G\+M\+Volume}}
+\index{get\+B\+G\+M\+Volume@{get\+B\+G\+M\+Volume}!Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}}
+\subsubsection[{\texorpdfstring{get\+B\+G\+M\+Volume() const }{getBGMVolume() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Audio\+::\+Manager\+::get\+B\+G\+M\+Volume (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_1_1_manager_aaf96945a324146455bda66853533ea56}{}\label{class_magnum_1_1_audio_1_1_manager_aaf96945a324146455bda66853533ea56}
+
+
+Get the B\+GM Volume. 
+
+\begin{DoxyReturn}{傳回值}
+float, the volume from 0-\/1 
+\end{DoxyReturn}
+\index{Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}!get\+Master\+Volume@{get\+Master\+Volume}}
+\index{get\+Master\+Volume@{get\+Master\+Volume}!Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}}
+\subsubsection[{\texorpdfstring{get\+Master\+Volume() const }{getMasterVolume() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Audio\+::\+Manager\+::get\+Master\+Volume (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_1_1_manager_a7c7b1a218649a82da9384e89c2bbc704}{}\label{class_magnum_1_1_audio_1_1_manager_a7c7b1a218649a82da9384e89c2bbc704}
+
+
+Get the Master Volume. 
+
+\begin{DoxyReturn}{傳回值}
+float, the volume from 0-\/1 
+\end{DoxyReturn}
+\index{Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}!get\+S\+F\+X\+Volume@{get\+S\+F\+X\+Volume}}
+\index{get\+S\+F\+X\+Volume@{get\+S\+F\+X\+Volume}!Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}}
+\subsubsection[{\texorpdfstring{get\+S\+F\+X\+Volume() const }{getSFXVolume() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Audio\+::\+Manager\+::get\+S\+F\+X\+Volume (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_audio_1_1_manager_a97df6d7c2738ba77d35581978a076379}{}\label{class_magnum_1_1_audio_1_1_manager_a97df6d7c2738ba77d35581978a076379}
+
+
+Get the S\+FX Volume. 
+
+\begin{DoxyReturn}{傳回值}
+float, the volume from 0-\/1 
+\end{DoxyReturn}
+\index{Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}!get\+System\+Handle@{get\+System\+Handle}}
+\index{get\+System\+Handle@{get\+System\+Handle}!Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}}
+\subsubsection[{\texorpdfstring{get\+System\+Handle()}{getSystemHandle()}}]{\setlength{\rightskip}{0pt plus 5cm}void $\ast$ Audio\+::\+Manager\+::get\+System\+Handle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_1_1_manager_a666d38790d8532041580f8908be4c3ed}{}\label{class_magnum_1_1_audio_1_1_manager_a666d38790d8532041580f8908be4c3ed}
+
+
+Get the handle of the \hyperlink{class_magnum_1_1_audio}{Audio} \hyperlink{class_magnum_1_1_system}{System}. 
+
+\begin{DoxyReturn}{傳回值}
+void $\ast$ 
+\end{DoxyReturn}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_audio_1_1_manager_a666d38790d8532041580f8908be4c3ed_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}!set\+B\+G\+M\+Volume@{set\+B\+G\+M\+Volume}}
+\index{set\+B\+G\+M\+Volume@{set\+B\+G\+M\+Volume}!Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}}
+\subsubsection[{\texorpdfstring{set\+B\+G\+M\+Volume(float volume)}{setBGMVolume(float volume)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+::\+Manager\+::set\+B\+G\+M\+Volume (
+\begin{DoxyParamCaption}
+\item[{float}]{volume}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_1_1_manager_a0e3cd85c6b28a25a550664ef1b038b0a}{}\label{class_magnum_1_1_audio_1_1_manager_a0e3cd85c6b28a25a550664ef1b038b0a}
+
+
+Set the B\+GM Volume. 
+
+
+\begin{DoxyParams}{參數}
+{\em volume,float} & which specify the volume from 0-\/1 \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}!set\+Master\+Volume@{set\+Master\+Volume}}
+\index{set\+Master\+Volume@{set\+Master\+Volume}!Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}}
+\subsubsection[{\texorpdfstring{set\+Master\+Volume(float volume)}{setMasterVolume(float volume)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+::\+Manager\+::set\+Master\+Volume (
+\begin{DoxyParamCaption}
+\item[{float}]{volume}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_1_1_manager_ac7ef14547cf4853a7878f30b98482181}{}\label{class_magnum_1_1_audio_1_1_manager_ac7ef14547cf4853a7878f30b98482181}
+
+
+Set the Master Volume. 
+
+
+\begin{DoxyParams}{參數}
+{\em volume,float} & which specify the volume from 0-\/1 \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}!set\+S\+F\+X\+Volume@{set\+S\+F\+X\+Volume}}
+\index{set\+S\+F\+X\+Volume@{set\+S\+F\+X\+Volume}!Magnum\+::\+Audio\+::\+Manager@{Magnum\+::\+Audio\+::\+Manager}}
+\subsubsection[{\texorpdfstring{set\+S\+F\+X\+Volume(float volume)}{setSFXVolume(float volume)}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+::\+Manager\+::set\+S\+F\+X\+Volume (
+\begin{DoxyParamCaption}
+\item[{float}]{volume}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_1_1_manager_a6043ba6ba2844915c60b237c7e0b7e9a}{}\label{class_magnum_1_1_audio_1_1_manager_a6043ba6ba2844915c60b237c7e0b7e9a}
+
+
+Set the S\+FX Volume. 
+
+
+\begin{DoxyParams}{參數}
+{\em volume,float} & which specify the volume from 0-\/1 \\
+\hline
+\end{DoxyParams}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Audio.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Audio.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,173 @@
+\hypertarget{class_magnum_1_1_cone_shape3}{}\section{Magnum\+:\+:Cone\+Shape3 類別 參考文件}
+\label{class_magnum_1_1_cone_shape3}\index{Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}}
+
+
+\hyperlink{class_magnum_1_1_cone_shape3}{Cone\+Shape3}.  
+
+
+
+
+{\ttfamily \#include $<$Cone\+Shape3.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Cone\+Shape3的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{class_magnum_1_1_cone_shape3__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Cone\+Shape3的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{class_magnum_1_1_cone_shape3__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3}{Axis\+Direction} \{ \hyperlink{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3a7285be4c5568c9e27fa441b57e246bb6}{X\+\_\+\+A\+X\+IS}, 
+\hyperlink{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3a6e3e3251bee4f380ecbaa6a42c2277a0}{Y\+\_\+\+A\+X\+IS}, 
+\hyperlink{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3afcbc13f75392727a208fa736b3a149ad}{Z\+\_\+\+A\+X\+IS}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_cone_shape3_a71e6ebdc2ae8340a862d6d80737f9247}{Cone\+Shape3} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_cone_shape3}{Cone\+Shape3} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_cone_shape3_a791cb68a3c6398018ecda36db4beeeae}{$\sim$\+Cone\+Shape3} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_cone_shape3}{Cone\+Shape3} Destructor. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_cone_shape3_afcf9be9a378121092ea4636421f1a5f6}{construct} (\hyperlink{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3}{Cone\+Shape3\+::\+Axis\+Direction} axis\+Dir\+\_\+, float radius\+\_\+, float height\+\_\+)
+\begin{DoxyCompactList}\small\item\em construct the \hyperlink{class_magnum_1_1_cone_shape3}{Cone\+Shape3}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_cone_shape3_a37b91e9e3716c959d37307d89c275fc3}{destruct} ()\hypertarget{class_magnum_1_1_cone_shape3_a37b91e9e3716c959d37307d89c275fc3}{}\label{class_magnum_1_1_cone_shape3_a37b91e9e3716c959d37307d89c275fc3}
+
+\begin{DoxyCompactList}\small\item\em destruct \hyperlink{class_magnum_1_1_cone_shape3}{Cone\+Shape3} and release memory its used \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_cone_shape3_a8082855a635e33d5d9f209a953b0f15d}{get\+Mass\+Prop} (float density, float \&mass, \hyperlink{class_magnum_1_1_vector3}{Vector3} \&local\+Inertia) const 
+\begin{DoxyCompactList}\small\item\em calculate the mass and moment of inertia according to the shape and density \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_cone_shape3}{Cone\+Shape3}. 
+
+This class define a Cone Shape. \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_convex_shape3}{Convex\+Shape3} 
+\end{DoxySeeAlso}
+
+
+\subsection{列舉型態成員說明文件}
+\index{Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}!Axis\+Direction@{Axis\+Direction}}
+\index{Axis\+Direction@{Axis\+Direction}!Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}}
+\subsubsection[{\texorpdfstring{Axis\+Direction}{AxisDirection}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Magnum\+::\+Cone\+Shape3\+::\+Axis\+Direction}}\hypertarget{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3}{}\label{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{X\+\_\+\+A\+X\+IS@{X\+\_\+\+A\+X\+IS}!Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}}\index{Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}!X\+\_\+\+A\+X\+IS@{X\+\_\+\+A\+X\+IS}}\item[{\em 
+X\+\_\+\+A\+X\+IS\hypertarget{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3a7285be4c5568c9e27fa441b57e246bb6}{}\label{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3a7285be4c5568c9e27fa441b57e246bb6}
+}]Height Align to X\+Axis. \index{Y\+\_\+\+A\+X\+IS@{Y\+\_\+\+A\+X\+IS}!Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}}\index{Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}!Y\+\_\+\+A\+X\+IS@{Y\+\_\+\+A\+X\+IS}}\item[{\em 
+Y\+\_\+\+A\+X\+IS\hypertarget{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3a6e3e3251bee4f380ecbaa6a42c2277a0}{}\label{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3a6e3e3251bee4f380ecbaa6a42c2277a0}
+}]Height Align to Y\+Axis. \index{Z\+\_\+\+A\+X\+IS@{Z\+\_\+\+A\+X\+IS}!Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}}\index{Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}!Z\+\_\+\+A\+X\+IS@{Z\+\_\+\+A\+X\+IS}}\item[{\em 
+Z\+\_\+\+A\+X\+IS\hypertarget{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3afcbc13f75392727a208fa736b3a149ad}{}\label{class_magnum_1_1_cone_shape3_a7c6d6ac946d54755b7e7a64217e07ea3afcbc13f75392727a208fa736b3a149ad}
+}]Height Align to Z\+Axis. \end{description}
+\end{Desc}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}!Cone\+Shape3@{Cone\+Shape3}}
+\index{Cone\+Shape3@{Cone\+Shape3}!Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}}
+\subsubsection[{\texorpdfstring{Cone\+Shape3()}{ConeShape3()}}]{\setlength{\rightskip}{0pt plus 5cm}Cone\+Shape3\+::\+Cone\+Shape3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_cone_shape3_a71e6ebdc2ae8340a862d6d80737f9247}{}\label{class_magnum_1_1_cone_shape3_a71e6ebdc2ae8340a862d6d80737f9247}
+
+
+\hyperlink{class_magnum_1_1_cone_shape3}{Cone\+Shape3} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_cone_shape3}{Cone\+Shape3} \index{Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}!````~Cone\+Shape3@{$\sim$\+Cone\+Shape3}}
+\index{````~Cone\+Shape3@{$\sim$\+Cone\+Shape3}!Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}}
+\subsubsection[{\texorpdfstring{$\sim$\+Cone\+Shape3()}{~ConeShape3()}}]{\setlength{\rightskip}{0pt plus 5cm}Cone\+Shape3\+::$\sim$\+Cone\+Shape3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_cone_shape3_a791cb68a3c6398018ecda36db4beeeae}{}\label{class_magnum_1_1_cone_shape3_a791cb68a3c6398018ecda36db4beeeae}
+
+
+\hyperlink{class_magnum_1_1_cone_shape3}{Cone\+Shape3} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_cone_shape3}{Cone\+Shape3} 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}!construct@{construct}}
+\index{construct@{construct}!Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}}
+\subsubsection[{\texorpdfstring{construct(\+Cone\+Shape3\+::\+Axis\+Direction axis\+Dir\+\_\+, float radius\+\_\+, float height\+\_\+)}{construct(ConeShape3::AxisDirection axisDir_, float radius_, float height_)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Cone\+Shape3\+::construct (
+\begin{DoxyParamCaption}
+\item[{{\bf Cone\+Shape3\+::\+Axis\+Direction}}]{axis\+Dir\+\_\+, }
+\item[{float}]{radius\+\_\+, }
+\item[{float}]{height\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_cone_shape3_afcf9be9a378121092ea4636421f1a5f6}{}\label{class_magnum_1_1_cone_shape3_afcf9be9a378121092ea4636421f1a5f6}
+
+
+construct the \hyperlink{class_magnum_1_1_cone_shape3}{Cone\+Shape3}. 
+
+
+\begin{DoxyParams}{參數}
+{\em axis\+Dir\+\_\+,the} & major axis of the cone \\
+\hline
+{\em radius\+\_\+,the} & radius of the cone \\
+\hline
+{\em height\+\_\+,the} & height of the cone \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if success, false if fail. 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_cone_shape3_afcf9be9a378121092ea4636421f1a5f6_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}!get\+Mass\+Prop@{get\+Mass\+Prop}}
+\index{get\+Mass\+Prop@{get\+Mass\+Prop}!Magnum\+::\+Cone\+Shape3@{Magnum\+::\+Cone\+Shape3}}
+\subsubsection[{\texorpdfstring{get\+Mass\+Prop(float density, float \&mass, Vector3 \&local\+Inertia) const }{getMassProp(float density, float &mass, Vector3 &localInertia) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Cone\+Shape3\+::get\+Mass\+Prop (
+\begin{DoxyParamCaption}
+\item[{float}]{density, }
+\item[{float \&}]{mass, }
+\item[{{\bf Vector3} \&}]{local\+Inertia}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_cone_shape3_a8082855a635e33d5d9f209a953b0f15d}{}\label{class_magnum_1_1_cone_shape3_a8082855a635e33d5d9f209a953b0f15d}
+
+
+calculate the mass and moment of inertia according to the shape and density 
+
+
+\begin{DoxyParams}{參數}
+{\em density,the} & density of the shape \\
+\hline
+{\em mass,the} & result of the mass of the shape is returned here \\
+\hline
+{\em local\+Inertia,the} & result of the moment of inertia of the shape is returned here \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_shape3_a5d586c69e4a4b59b8386c3fbb8568984}{Magnum\+::\+Shape3}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Cone\+Shape3.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Cone\+Shape3.\+cpp\end{DoxyCompactItemize}

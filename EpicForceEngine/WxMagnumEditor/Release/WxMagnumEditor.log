@@ -1,0 +1,73 @@
+﻿Build started 1/19/2015 10:19:32 PM.
+     1>Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\WxMagnumEditor\WxMagnumEditor.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\WxMagnumEditor.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\WxMagnumEditor.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\ /LIBPATH:wx/lib/vc_lib /LIBPATH:../MagnumEngineLib/SDK/GLEW/Lib /LIBPATH:../MagnumEngineLib/SDK/OpenGLES/GL2/Lib MagnumEngineLib.lib wxmsw30u_aui.lib wxmsw30u_html.lib wxmsw30u_adv.lib wxmsw30u_core.lib wxbase30u_xml.lib wxbase30u.lib wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregexu.lib wxexpat.lib winmm.lib comctl32.lib rpcrt4.lib wsock32.lib wininet.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\WxMagnumEditor.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\WxMagnumEditor.lib" /MACHINE:X86 /SAFESEH Release\BitmapCreater.obj
+         Release\BuildModeToolBarView.obj
+         Release\Config.obj
+         Release\EditToolBarView.obj
+         Release\FileToolBarView.obj
+         Release\MiscBToolBarView.obj
+         Release\MiscAToolBarView.obj
+         Release\OperationModeToolBarView.obj
+         Release\PlayModeToolBarView.obj
+         Release\ReflectedClassPropertyPanel.obj
+         Release\DebugView.obj
+         Release\EGLDriver20.obj
+         Release\EntityCreatorsView.obj
+         Release\EntityDragDrop.obj
+         Release\EntityPanel.obj
+         Release\HierarchyView.obj
+         Release\InputData.obj
+         Release\InspectorView.obj
+         Release\Localization.obj
+         Release\main.obj
+         Release\PointerTreeItemMap.obj
+         Release\ProjectView.obj
+         Release\ResourceImportDragDrop.obj
+         Release\ResourceImporterView.obj
+         Release\SceneView.obj
+         Release\wxArrayBoolCtrl.obj
+         Release\wxArrayColorRGBACtrl.obj
+         Release\wxArrayDoubleSpinnerCtrl.obj
+         Release\wxArrayFloatSpinnerCtrl.obj
+         Release\wxArrayIntSpinnerCtrl.obj
+         Release\wxArrayIVector2SpinnerCtrl.obj
+         Release\wxArrayIVector3SpinnerCtrl.obj
+         Release\wxArrayIVector4SpinnerCtrl.obj
+         Release\wxArrayLengthCtrl.obj
+         Release\wxArrayResourcePathCtrl.obj
+         Release\wxArraySRTTRansformCtrl.obj
+         Release\wxArrayStringCtrl.obj
+         Release\wxArrayUIntSpinnerCtrl.obj
+         Release\wxArrayVector2SpinnerCtrl.obj
+         Release\wxArrayVector3SpinnerCtrl.obj
+         Release\wxArrayVector4SpinnerCtrl.obj
+         Release\wxBoolCtrl.obj
+         Release\wxCollapsePanelCtrl.obj
+         Release\wxColorDlg.obj
+         Release\wxColorRGBACtrl.obj
+         Release\wxDoubleSpinnerCtrl.obj
+         Release\wxFloatSpinnerCtrl.obj
+         Release\wxIntSpinnerCtrl.obj
+         Release\wxIVector2SpinnerCtrl.obj
+         Release\wxIVector3SpinnerCtrl.obj
+         Release\wxIVector4SpinnerCtrl.obj
+         Release\wxLabelCtrl.obj
+         Release\wxProjectDlg.obj
+         Release\wxResourcePathCtrl.obj
+         Release\wxStringCtrl.obj
+         Release\wxSRTTransformCtrl.obj
+         Release\wxUIntSpinnerCtrl.obj
+         Release\wxVector2SpinnerCtrl.obj
+         Release\wxVector3SpinnerCtrl.obj
+         Release\wxVector4SpinnerCtrl.obj
+     1>wxArrayFloatSpinnerCtrl.obj : fatal error LNK1000: unknown error at 01024372; consult documentation for technical support options
+     1>Done Building Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\WxMagnumEditor\WxMagnumEditor.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:35.68

@@ -1,0 +1,74 @@
+\hypertarget{class_magnum_1_1_delegate}{}\section{Magnum\+:\+:Delegate$<$ T $>$ 類別 樣版 參考文件}
+\label{class_magnum_1_1_delegate}\index{Magnum\+::\+Delegate$<$ T $>$@{Magnum\+::\+Delegate$<$ T $>$}}
+
+
+類別\+Magnum\+:\+:Delegate$<$ T $>$的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{class_magnum_1_1_delegate__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Delegate$<$ T $>$的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{class_magnum_1_1_delegate__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+typedef void(T\+::$\ast$ {\bfseries Proc}) ()\hypertarget{class_magnum_1_1_delegate_a9192ad8710be34957b68a524242763a8}{}\label{class_magnum_1_1_delegate_a9192ad8710be34957b68a524242763a8}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries operator==} (const Proc proc\+\_\+) const \hypertarget{class_magnum_1_1_delegate_accfed79f6dd28efb8ebf3e8469907363}{}\label{class_magnum_1_1_delegate_accfed79f6dd28efb8ebf3e8469907363}
+
+\item 
+bool {\bfseries operator!=} (const Proc proc\+\_\+) const \hypertarget{class_magnum_1_1_delegate_adf6395ac774f10ee180eb16b03e546dd}{}\label{class_magnum_1_1_delegate_adf6395ac774f10ee180eb16b03e546dd}
+
+\item 
+Proc \& {\bfseries operator=} (const Proc proc\+\_\+)\hypertarget{class_magnum_1_1_delegate_a1d342034c9be2e51f574ca34597538c4}{}\label{class_magnum_1_1_delegate_a1d342034c9be2e51f574ca34597538c4}
+
+\item 
+{\bfseries operator Proc \&} ()\hypertarget{class_magnum_1_1_delegate_afd398ff8104efa7918a967fc70d4e958}{}\label{class_magnum_1_1_delegate_afd398ff8104efa7918a967fc70d4e958}
+
+\item 
+{\bfseries Delegate} (T $\ast$who, Proc proc=0)\hypertarget{class_magnum_1_1_delegate_a5f6adde7423bab19c35c83bffa69b422}{}\label{class_magnum_1_1_delegate_a5f6adde7423bab19c35c83bffa69b422}
+
+\item 
+{\bfseries Delegate} (const char $\ast$name, T $\ast$who, Proc proc=0)\hypertarget{class_magnum_1_1_delegate_a6f302152885458bf82f5a297cc2a031c}{}\label{class_magnum_1_1_delegate_a6f302152885458bf82f5a297cc2a031c}
+
+\item 
+{\bfseries Delegate} (\hyperlink{class_magnum_1_1_dispatch}{Dispatch} \&dispatch, T $\ast$who, Proc proc)\hypertarget{class_magnum_1_1_delegate_a10946bed63b5e66968fca3faae473ff6}{}\label{class_magnum_1_1_delegate_a10946bed63b5e66968fca3faae473ff6}
+
+\item 
+{\bfseries Delegate} (\hyperlink{class_magnum_1_1_dispatch}{Dispatch} \&dispatch, const char $\ast$name, T $\ast$who, Proc proc)\hypertarget{class_magnum_1_1_delegate_a0e13705dacf72a658750f82f804edd82}{}\label{class_magnum_1_1_delegate_a0e13705dacf72a658750f82f804edd82}
+
+\item 
+\hyperlink{class_magnum_1_1_delegate}{Delegate}$<$ T $>$ $\ast$ {\bfseries clone} () const \hypertarget{class_magnum_1_1_delegate_a4910c1919591f4d5cfd1054e39d267c3}{}\label{class_magnum_1_1_delegate_a4910c1919591f4d5cfd1054e39d267c3}
+
+\item 
+void {\bfseries operator()} ()\hypertarget{class_magnum_1_1_delegate_aad0efe127e8fa96e6d47b8115e619cd5}{}\label{class_magnum_1_1_delegate_aad0efe127e8fa96e6d47b8115e619cd5}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+Proc {\bfseries proc}\hypertarget{class_magnum_1_1_delegate_af829400922b6f161b1516ebf2661b2bf}{}\label{class_magnum_1_1_delegate_af829400922b6f161b1516ebf2661b2bf}
+
+\item 
+T $\ast$ {\bfseries who}\hypertarget{class_magnum_1_1_delegate_ae078d3fa46f73e09544a6582eff872f1}{}\label{class_magnum_1_1_delegate_ae078d3fa46f73e09544a6582eff872f1}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Delegate.\+h\end{DoxyCompactItemize}

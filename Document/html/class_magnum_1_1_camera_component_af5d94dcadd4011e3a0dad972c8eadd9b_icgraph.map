@@ -1,0 +1,6 @@
+<map id="Magnum::CameraComponent::getProjectionPlanes" name="Magnum::CameraComponent::getProjectionPlanes">
+<area shape="rect" id="node2" href="$class_magnum_1_1_perspective_camera_component.html#ae3ce00b7bbf1c9e9e073f28793dd1645" title="Get the coordinate of project plane of at the near plane of camera. " alt="" coords="246,5,438,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_perspective_camera_component.html#a83b864b187b8b5244eb9d23eeef02b5c" title="Handle Debuger Rendering Event of the Component. " alt="" coords="246,71,438,112"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_sky_sphere_renderer.html#a2b7bd339a31bebd9c1770d591ad5f28f" title="Get the Order of this renderer. " alt="" coords="244,136,440,177"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_editor_camera_component.html#a25a0c9cdfa8ba1bb7aef1fc69435ab9f" title="EditorCameraComponent Destructor. " alt="" coords="488,71,713,112"/>
+</map>

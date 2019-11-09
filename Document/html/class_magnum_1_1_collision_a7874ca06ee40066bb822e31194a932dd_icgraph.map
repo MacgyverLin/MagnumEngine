@@ -1,0 +1,3 @@
+<map id="Magnum::Collision::getType" name="Magnum::Collision::getType">
+<area shape="rect" id="node2" href="$class_magnum_1_1_sphere3_collision.html#a401bddbc02cbbe9aeb8ab9b536aba7fb" title="This function test for collision in general, if other_ is sphere it will call testWithSphere3. " alt="" coords="191,5,368,47"/>
+</map>

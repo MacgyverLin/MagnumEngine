@@ -1,0 +1,18 @@
+<map id="TiXmlNode::NextSiblingElement" name="TiXmlNode::NextSiblingElement">
+<area shape="rect" id="node2" href="$class_ti_xml_handle.html#a8786475b9d1f1518492e3a46704c7ef0" title="Return a handle to the &quot;index&quot; child element. " alt="" coords="719,8,898,35"/>
+<area shape="rect" id="node3" href="$class_ti_xml_node.html#af854baeba384f5fe9859f5aee03b548e" title="Navigate to a sibling node. " alt="" coords="259,186,416,212"/>
+<area shape="rect" id="node4" href="$class_ti_xml_node.html#aaef7ac3978c4bb1cc8a24ffae7bced75" title="An alternate way to walk the children of a node. " alt="" coords="474,135,649,162"/>
+<area shape="rect" id="node6" href="$class_ti_xml_node.html#ab1f8d8e70d88aea4c5efedfe00862d55" title="Convenience function to get through elements. " alt="" coords="464,84,659,111"/>
+<area shape="rect" id="node8" href="$class_ti_xml_element.html#ad9d0c008866982ab8d9aafae7e14d692" title="All TinyXml classes can print themselves to a filestream or the string class (TiXmlString in non&#45;STL ..." alt="" coords="493,186,629,212"/>
+<area shape="rect" id="node10" href="$class_ti_xml_element.html#a31ab28cc3b892a69254391d6bbe08df3" title="Walk the XML tree visiting this node and all of its children. " alt="" coords="486,236,637,263"/>
+<area shape="rect" id="node13" href="$class_ti_xml_document.html#acf1672b4538c6d1d441f9f108aea2bf4" title="Save a file using the given FILE*. Returns true if successful. " alt="" coords="477,287,646,314"/>
+<area shape="rect" id="node14" href="$class_ti_xml_document.html#a7b1aea204fee266b70b9c105c8bf2ada" title="Print this Document to a FILE stream. " alt="" coords="488,338,635,364"/>
+<area shape="rect" id="node15" href="$class_ti_xml_document.html#a3daab2f472418ef66315750202f762ae" title="Walk the XML tree visiting this node and all of its children. " alt="" coords="481,388,642,415"/>
+<area shape="rect" id="node16" href="$class_ti_xml_handle.html#af9cf6a7d08a5da94a8924425ad0cd5ac" title="Return a handle to the &quot;index&quot; child. " alt="" coords="496,439,627,466"/>
+<area shape="rect" id="node17" href="$class_ti_xml_node.html#ac2cd892768726270e511b2ab32de4d10" title="Navigate to a sibling node. " alt="" coords="472,34,651,60"/>
+<area shape="rect" id="node5" href="$class_ti_xml_node.html#abad5bf1059c48127b958711ef89e8e5d" title="The last child of this node matching &#39;value&#39;. Will be null if there are no children. " alt="" coords="736,135,881,162"/>
+<area shape="rect" id="node7" href="$class_ti_xml_handle.html#a24d1112e995e937e4dddb202d4113d4a" title="Return a handle to the first child element. " alt="" coords="707,84,911,111"/>
+<area shape="rect" id="node9" href="$class_ti_xml_text.html#af659e77c6b87d684827f35a8f4895960" title="Constructor for text element. " alt="" coords="737,186,880,212"/>
+<area shape="rect" id="node11" href="$class_ti_xml_node.html#a4027136ca820ff4a636b607231b6a6df" title="Cast to a more defined type. Will return null if not of the requested type. " alt="" coords="723,236,894,263"/>
+<area shape="rect" id="node12" href="$class_ti_xml_text.html#ae7c3a8fd3e4dbf6c0c4363a943d72f5b" title="Cast to a more defined type. Will return null not of the requested type. " alt="" coords="746,287,871,314"/>
+</map>

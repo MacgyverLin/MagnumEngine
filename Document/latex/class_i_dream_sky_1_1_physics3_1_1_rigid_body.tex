@@ -1,0 +1,1116 @@
+\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{}\section{I\+Dream\+Sky\+:\+:Physics3\+:\+:Rigid\+Body 類別 參考文件}
+\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body}\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+
+
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} \hyperlink{class_i_dream_sky_1_1_component}{Component}.  
+
+
+
+
+{\ttfamily \#include $<$Physics3.\+h$>$}
+
+類別\+I\+Dream\+Sky\+:\+:Physics3\+:\+:Rigid\+Body的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=10.000000cm]{class_i_dream_sky_1_1_physics3_1_1_rigid_body}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14fa}{Type} \{ \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14faa82b6624dd8dbf02e84f646d105fdd0e3}{S\+T\+A\+T\+IC} = 0, 
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14faa6fe0113eab19e3d3334b51b7f5497102}{K\+I\+N\+E\+M\+A\+T\+IC}, 
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14faa0cfbb05a9c6a06aeb338eae6f86a3259}{D\+Y\+N\+A\+M\+IC}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ad70ccd573eadc1210eb3b73fd577eef4}{Rigid\+Body} (\hyperlink{class_i_dream_sky_1_1_component_1_1_owner}{Component\+::\+Owner} \&owner\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab4afd414af763a22d983cbfe608d16ec}{$\sim$\+Rigid\+Body} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Destructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7d5e274aad11227be7f7bb64d76b9528}{set\+Transform} (const \hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \&transform\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_i_dream_sky_1_1_transform}{Transform} of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aa4aadcf4a7c9d546b99168890e808aba}{get\+Transform} (\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \&transform\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_i_dream_sky_1_1_transform}{Transform} of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7144cd88a27218db578d6d767c06e474}{set\+Position} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&position\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Position of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \& \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ac64063d18bd567bb8684cb67fbe096da}{get\+Position} () const 
+\begin{DoxyCompactList}\small\item\em Get the Position of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5d3478baed09428e1ada2ddf8bfa5665}{set\+Angular\+Position} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&axis\+\_\+, float angle\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Angular Position of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aa25cc2bc6ce28df7f1fa6e0393d0bfec}{set\+Angular\+Position} (const \hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion} \&angular\+Position\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Angular Position of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a76bac87573ac41149b925f84e9be00f9}{get\+Angular\+Position} () const 
+\begin{DoxyCompactList}\small\item\em Get the Angular Position of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a71574b40fa7b726f0304d6b4b902cbed}{set\+Linear\+Velocity} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&velocity\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Velocity of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \& \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a1f48fa3807c3ecdb4a8bfc382d456023}{get\+Linear\+Velocity} () const 
+\begin{DoxyCompactList}\small\item\em Get the Velocity of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a9d485613dca6a54b3eb3adffda0d212a}{set\+Angular\+Velocity} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&angular\+Vel\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Angular Velocity of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \& \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3262511aa29767d58486286a18180721}{get\+Angular\+Velocity} () const 
+\begin{DoxyCompactList}\small\item\em Get the Angular Velocity of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a4ec719c23ab1c90fa9522d5128b6f628}{set\+Linear\+Factor} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&factor\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Linear Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \& \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a0e146f328579ca963a8e2b0c151ab168}{get\+Linear\+Factor} () const 
+\begin{DoxyCompactList}\small\item\em Get the Linear Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_abdf7ba04d15122d05f06bea761fa1166}{set\+Angular\+Factor} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&factor\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Angular Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \& \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a6c13cef6cb8baa62de37b35caf42ba32}{get\+Angular\+Factor} () const 
+\begin{DoxyCompactList}\small\item\em Get the Angular Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab2f4fd2a004f2dc740e86e36d94d5b90}{apply\+Force} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&force\+\_\+, const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&point\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Force of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at specific point around its center of mass. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7aeb196f8670a2e820ae4c829a7ab069}{apply\+Force\+To\+Center} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&force\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Force of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at center of its center of mass. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a78b659c6e60a30b97251440c6c12e445}{apply\+Torque} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&torque\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Torque(\+Rotational Force) of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at center of mass. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a631accd90e4b499cfbe5b691ac07b905}{apply\+Linear\+Impulse} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&impulse\+\_\+, const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&point\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Linear\+Impulse (Delta Velocity) of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at specific point around its center of mass. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a791761a4c6d234811140ad4698ef4a6f}{apply\+Linear\+Impulse\+To\+Center} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&impulse\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Linear\+Impulse (Delta Velocity) of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at its center of mass. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a14008559db22c483b4d2aa1e0f18c5b6}{apply\+Angular\+Impulse} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&angular\+Impulse\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Angular\+Impulse (Delta Angular Velocity) of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at its center of mass. \end{DoxyCompactList}\item 
+float \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3a97500df9a0b01efee57289bac19df4}{get\+Mass} () const 
+\begin{DoxyCompactList}\small\item\em Get the Mass of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8e1a4453fc4a842231073803bb22234c}{get\+Inertia} () const 
+\begin{DoxyCompactList}\small\item\em Get the Moment of Inertia of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a21168759e6e9c167779515f0cc7889eb}{get\+World\+Point} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&local\+Point\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Convert a Position in Local Space of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Position in the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3ec487fedfcc7b719439e709bf8d3fc0}{get\+World\+Vector} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&local\+Vector\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Convert a Directional \hyperlink{class_i_dream_sky_1_1_vector}{Vector} in Local Space of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Direction in the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab35b04ae4f947039424039d53f6a6f02}{get\+Local\+Point} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&world\+Point\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Convert a Position in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Position in the Local Space. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a805d3ffcbbb1b8ac8b171026f23a795b}{get\+Local\+Vector} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&world\+Vector\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Convert a Directional \hyperlink{class_i_dream_sky_1_1_vector}{Vector} in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Direction in the Local Space. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a671f0361b94d8727d152e0dc17eaa7e6}{get\+Linear\+Velocity\+From\+World\+Point} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&world\+Point\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the Linear Velocity of specific point in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space on the Rigidbody. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5aca0169fb6e1fb70158cec477f53e73}{get\+Linear\+Velocity\+From\+Local\+Point} (const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&local\+Point\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the Linear Velocity of specific point in Local Space on the Rigidbody. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5fd41697e67b5dea2b5ca0bcdcda9c22}{set\+Linear\+Damping} (float linear\+Damping\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Linear Damping Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+float \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a70ca7bcda490e12f2a9f3215a0d31832}{get\+Linear\+Damping} () const 
+\begin{DoxyCompactList}\small\item\em Get the Linear Damping Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_adb8001be31fa3920c73c1bae548d469d}{set\+Angular\+Damping} (float angular\+Damping\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Angular Damping Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+float \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ac0cdf429a507a5237ef84825d883ea1b}{get\+Angular\+Damping} () const 
+\begin{DoxyCompactList}\small\item\em Get the Angular Damping Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a508230d75ce92867d248c34b82465c10}{set\+Type} (\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14fa}{Physics3\+::\+Rigid\+Body\+::\+Type} type\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Type. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14fa}{Physics3\+::\+Rigid\+Body\+::\+Type} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7963a89eac63988e41d93e444d89a243}{get\+Type} () const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Type. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_abde660e6ae2336bc6b5ae0e8f5219bd7}{set\+Material} (const \hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Physics3\+::\+Material} \&material\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Material} of \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Physics3\+::\+Material} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ad3ac34c2a9ca4d357911596493781cbe}{get\+Material} () const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Material} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aec6c6c3d392567f7c0ee2a9857b4c49d}{set\+Collision\+Filter} (const \hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \&collision\+Filter\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Collision\+Filter} of \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aead253bff5342b09fb8705edf553ca98}{get\+Collision\+Filter} () const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a1fa821b799126307734a48d72aa2cd6c}{set\+Bullet} (bool flag)
+\begin{DoxyCompactList}\small\item\em Set whether or not the Rigidbody use continuous collision detection(bullet). \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7ee7b6fe98fb29804fa4f1731f30994c}{is\+Bullet} () const 
+\begin{DoxyCompactList}\small\item\em Check whether or not the Rigidbody use continuous collision detection(bullet). \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a06fadd5ade78b67db587fb0ee8b02ae3}{set\+Sleeping\+Allowed} (bool flag)
+\begin{DoxyCompactList}\small\item\em Set whether or not the Rigidbody is allowed to enter to sleep mode while isolated. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3629376b3a74724684ea012f9d0412e9}{is\+Sleeping\+Allowed} () const 
+\begin{DoxyCompactList}\small\item\em Check whether or not the Rigidbody is allowed to enter to sleep mode while isolated. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a4d9ee1a2ba1d9c09d711b3d5a00bab48}{set\+Awake} (bool flag)
+\begin{DoxyCompactList}\small\item\em Set Rigidbody to awake state. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_adf56d13f35a8f358864885ec97ac65a5}{is\+Awake} () const 
+\begin{DoxyCompactList}\small\item\em Check if Rigidbody is in awake state. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a200da59764cfc4196cc3db7eb39bb262}{set\+Active} (bool flag)
+\begin{DoxyCompactList}\small\item\em Set Rigidbody to active state. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a2769e904a08ef6714836a0885016b476}{is\+Active} () const 
+\begin{DoxyCompactList}\small\item\em Check if Rigidbody to active state. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab47a2db4795a49195dc59620ba4ab52c}{set\+Collision\+Call\+Back} (\hyperlink{class_i_dream_sky_1_1_functor}{Functor} $\ast$collision\+C\+B\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Call\+Back Function for collision event between rigidbodies. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_functor}{Functor} $\ast$ \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_af489937982e89fffadde2a4885d0c9ce}{get\+Collision\+Call\+Back} () const 
+\begin{DoxyCompactList}\small\item\em Get the Call\+Back Function for collision event between rigidbodies. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a2ffcb6cb2ddf0f264d4d7df2c45319c2}{set\+Destuction\+Call\+Back} (\hyperlink{class_i_dream_sky_1_1_functor}{Functor} $\ast$destruction\+C\+B\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Call\+Back Function for destruction event of the joint connected on the rigidbody. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_functor}{Functor} $\ast$ \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_abec3467cdf36209d4c97d611adfab805}{get\+Destuction\+Call\+Back} () const 
+\begin{DoxyCompactList}\small\item\em Get the Call\+Back Function for destruction event of the joint connected on the rigidbody. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_af8ca239d5d3b384b7fd40aa33b5ee20f}{set\+User\+Data} (void $\ast$user\+Data\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the pointer for custom user data. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a06204907d5fc684e249d486d816a73f3}{get\+User\+Data} () const 
+\begin{DoxyCompactList}\small\item\em Get the pointer for custom user data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5d62d5520cf4790b254e0d81a5f2d2bd}{construct\+Rigid\+Body} (\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14fa}{Physics3\+::\+Rigid\+Body\+::\+Type} type\+\_\+, const \hyperlink{class_i_dream_sky_1_1_shape3}{Shape3} $\ast$shape\+\_\+, const \hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Physics3\+::\+Material} \&material\+\_\+, const \hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \&collision\+Filter\+\_\+)
+\begin{DoxyCompactList}\small\item\em Construct the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a4b74946c58d83988424072399cb265c2}{update\+Rigid\+Body} (float dt)
+\begin{DoxyCompactList}\small\item\em Update the rigidbody and the owner. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a476e3fa127c84f6a645647dd68013be1}{destruct\+Rigid\+Body} ()\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a476e3fa127c84f6a645647dd68013be1}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a476e3fa127c84f6a645647dd68013be1}
+
+\begin{DoxyCompactList}\small\item\em Destruct the rigidbody. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries World}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7b4bcdf992c21ae83363f25df05b1d25}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7b4bcdf992c21ae83363f25df05b1d25}
+
+\item 
+class {\bfseries Manager}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_adddd5c43ff870a047aa66db4edf82a7e}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_adddd5c43ff870a047aa66db4edf82a7e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} \hyperlink{class_i_dream_sky_1_1_component}{Component}. 
+
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} \hyperlink{class_i_dream_sky_1_1_component}{Component} is a base component for handling Physics simulation. Developer can specified Mass, Shape, Position, Velocity, Force, Angular\+Position, Angular\+Velocity, Torque for Rigidbody Static, Kinematic, Dynamic Rigidbody is supported. 
+
+\subsection{列舉型態成員說明文件}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!Type@{Type}}
+\index{Type@{Type}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{Type}{Type}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body\+::\+Type}}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14fa}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14fa}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{S\+T\+A\+T\+IC@{S\+T\+A\+T\+IC}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!S\+T\+A\+T\+IC@{S\+T\+A\+T\+IC}}\item[{\em 
+S\+T\+A\+T\+IC\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14faa82b6624dd8dbf02e84f646d105fdd0e3}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14faa82b6624dd8dbf02e84f646d105fdd0e3}
+}]Static \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \index{K\+I\+N\+E\+M\+A\+T\+IC@{K\+I\+N\+E\+M\+A\+T\+IC}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!K\+I\+N\+E\+M\+A\+T\+IC@{K\+I\+N\+E\+M\+A\+T\+IC}}\item[{\em 
+K\+I\+N\+E\+M\+A\+T\+IC\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14faa6fe0113eab19e3d3334b51b7f5497102}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14faa6fe0113eab19e3d3334b51b7f5497102}
+}]Kinematic \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \index{D\+Y\+N\+A\+M\+IC@{D\+Y\+N\+A\+M\+IC}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!D\+Y\+N\+A\+M\+IC@{D\+Y\+N\+A\+M\+IC}}\item[{\em 
+D\+Y\+N\+A\+M\+IC\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14faa0cfbb05a9c6a06aeb338eae6f86a3259}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14faa0cfbb05a9c6a06aeb338eae6f86a3259}
+}]Dynamic \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{description}
+\end{Desc}
+
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!Rigid\+Body@{Rigid\+Body}}
+\index{Rigid\+Body@{Rigid\+Body}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{Rigid\+Body(\+Component\+::\+Owner \&owner\+\_\+)}{RigidBody(Component::Owner &owner_)}}]{\setlength{\rightskip}{0pt plus 5cm}Physics3\+::\+Rigid\+Body\+::\+Rigid\+Body (
+\begin{DoxyParamCaption}
+\item[{{\bf Component\+::\+Owner} \&}]{owner\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ad70ccd573eadc1210eb3b73fd577eef4}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ad70ccd573eadc1210eb3b73fd577eef4}
+
+
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Constructor. 
+
+To Construct the Rigidbody for the owner. \index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!````~Rigid\+Body@{$\sim$\+Rigid\+Body}}
+\index{````~Rigid\+Body@{$\sim$\+Rigid\+Body}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{$\sim$\+Rigid\+Body()}{~RigidBody()}}]{\setlength{\rightskip}{0pt plus 5cm}Physics3\+::\+Rigid\+Body\+::$\sim$\+Rigid\+Body (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab4afd414af763a22d983cbfe608d16ec}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab4afd414af763a22d983cbfe608d16ec}
+
+
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} and remove from its owner. 
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!apply\+Angular\+Impulse@{apply\+Angular\+Impulse}}
+\index{apply\+Angular\+Impulse@{apply\+Angular\+Impulse}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Angular\+Impulse(const Vector3 \&angular\+Impulse\+\_\+)}{applyAngularImpulse(const Vector3 &angularImpulse_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::apply\+Angular\+Impulse (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{angular\+Impulse\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a14008559db22c483b4d2aa1e0f18c5b6}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a14008559db22c483b4d2aa1e0f18c5b6}
+
+
+Apply a Angular\+Impulse (Delta Angular Velocity) of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at its center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em angular\+Impulse\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the impulse direction and magnitude. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!apply\+Force@{apply\+Force}}
+\index{apply\+Force@{apply\+Force}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Force(const Vector3 \&force\+\_\+, const Vector3 \&point\+\_\+)}{applyForce(const Vector3 &force_, const Vector3 &point_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::apply\+Force (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{force\+\_\+, }
+\item[{const {\bf Vector3} \&}]{point\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab2f4fd2a004f2dc740e86e36d94d5b90}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab2f4fd2a004f2dc740e86e36d94d5b90}
+
+
+Apply a Force of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at specific point around its center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em force\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the force direction and magnitude. \\
+\hline
+{\em point\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the point the force act on the Rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!apply\+Force\+To\+Center@{apply\+Force\+To\+Center}}
+\index{apply\+Force\+To\+Center@{apply\+Force\+To\+Center}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Force\+To\+Center(const Vector3 \&force\+\_\+)}{applyForceToCenter(const Vector3 &force_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::apply\+Force\+To\+Center (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{force\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7aeb196f8670a2e820ae4c829a7ab069}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7aeb196f8670a2e820ae4c829a7ab069}
+
+
+Apply a Force of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at center of its center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em force\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the force direction and magnitude. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!apply\+Linear\+Impulse@{apply\+Linear\+Impulse}}
+\index{apply\+Linear\+Impulse@{apply\+Linear\+Impulse}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Linear\+Impulse(const Vector3 \&impulse\+\_\+, const Vector3 \&point\+\_\+)}{applyLinearImpulse(const Vector3 &impulse_, const Vector3 &point_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::apply\+Linear\+Impulse (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{impulse\+\_\+, }
+\item[{const {\bf Vector3} \&}]{point\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a631accd90e4b499cfbe5b691ac07b905}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a631accd90e4b499cfbe5b691ac07b905}
+
+
+Apply a Linear\+Impulse (Delta Velocity) of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at specific point around its center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em impulse\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the impulse direction and magnitude. \\
+\hline
+{\em point\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the point the impulse act on the Rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!apply\+Linear\+Impulse\+To\+Center@{apply\+Linear\+Impulse\+To\+Center}}
+\index{apply\+Linear\+Impulse\+To\+Center@{apply\+Linear\+Impulse\+To\+Center}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Linear\+Impulse\+To\+Center(const Vector3 \&impulse\+\_\+)}{applyLinearImpulseToCenter(const Vector3 &impulse_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::apply\+Linear\+Impulse\+To\+Center (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{impulse\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a791761a4c6d234811140ad4698ef4a6f}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a791761a4c6d234811140ad4698ef4a6f}
+
+
+Apply a Linear\+Impulse (Delta Velocity) of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at its center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em impulse\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the impulse direction and magnitude. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!apply\+Torque@{apply\+Torque}}
+\index{apply\+Torque@{apply\+Torque}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Torque(const Vector3 \&torque\+\_\+)}{applyTorque(const Vector3 &torque_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::apply\+Torque (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{torque\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a78b659c6e60a30b97251440c6c12e445}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a78b659c6e60a30b97251440c6c12e445}
+
+
+Apply a Torque(\+Rotational Force) of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em torque\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the torque direction and magnitude. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!construct\+Rigid\+Body@{construct\+Rigid\+Body}}
+\index{construct\+Rigid\+Body@{construct\+Rigid\+Body}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{construct\+Rigid\+Body(\+Physics3\+::\+Rigid\+Body\+::\+Type type\+\_\+, const Shape3 $\ast$shape\+\_\+, const Physics3\+::\+Material \&material\+\_\+, const Physics3\+::\+Collision\+Filter \&collision\+Filter\+\_\+)}{constructRigidBody(Physics3::RigidBody::Type type_, const Shape3 *shape_, const Physics3::Material &material_, const Physics3::CollisionFilter &collisionFilter_)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Physics3\+::\+Rigid\+Body\+::construct\+Rigid\+Body (
+\begin{DoxyParamCaption}
+\item[{{\bf Physics3\+::\+Rigid\+Body\+::\+Type}}]{type\+\_\+, }
+\item[{const {\bf Shape3} $\ast$}]{shape\+\_\+, }
+\item[{const {\bf Physics3\+::\+Material} \&}]{material\+\_\+, }
+\item[{const {\bf Physics3\+::\+Collision\+Filter} \&}]{collision\+Filter\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5d62d5520cf4790b254e0d81a5f2d2bd}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5d62d5520cf4790b254e0d81a5f2d2bd}
+
+
+Construct the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em type\+\_\+} & the Type of \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} \\
+\hline
+{\em shape\+\_\+} & the \hyperlink{class_i_dream_sky_1_1_shape3}{Shape3} of rigidbody \\
+\hline
+{\em material\+\_\+} & the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Material} of \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} \\
+\hline
+{\em collision\+Filter\+\_\+} & the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14fa}{Physics3\+::\+Rigid\+Body\+::\+Type} 
+
+\hyperlink{class_i_dream_sky_1_1_shape3}{Shape3} 
+
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Physics3\+::\+Material} 
+
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Angular\+Damping@{get\+Angular\+Damping}}
+\index{get\+Angular\+Damping@{get\+Angular\+Damping}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Angular\+Damping() const }{getAngularDamping() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Physics3\+::\+Rigid\+Body\+::get\+Angular\+Damping (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ac0cdf429a507a5237ef84825d883ea1b}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ac0cdf429a507a5237ef84825d883ea1b}
+
+
+Get the Angular Damping Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+The Angular Damping is a reduction of lienar velocity due to the loss of kinetic energy for some reason(e.\+g. friction, sound) \begin{DoxyReturn}{傳回值}
+float, the angular damping factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Angular\+Factor@{get\+Angular\+Factor}}
+\index{get\+Angular\+Factor@{get\+Angular\+Factor}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Angular\+Factor() const }{getAngularFactor() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Physics3\+::\+Rigid\+Body\+::get\+Angular\+Factor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a6c13cef6cb8baa62de37b35caf42ba32}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a6c13cef6cb8baa62de37b35caf42ba32}
+
+
+Get the Angular Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the angular factor of rigidbody. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_abdf7ba04d15122d05f06bea761fa1166}{set\+Angular\+Factor()} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Angular\+Position@{get\+Angular\+Position}}
+\index{get\+Angular\+Position@{get\+Angular\+Position}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Angular\+Position() const }{getAngularPosition() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Quaternion} Physics3\+::\+Rigid\+Body\+::get\+Angular\+Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a76bac87573ac41149b925f84e9be00f9}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a76bac87573ac41149b925f84e9be00f9}
+
+
+Get the Angular Position of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion}, the angular position of rigidbody. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Angular\+Velocity@{get\+Angular\+Velocity}}
+\index{get\+Angular\+Velocity@{get\+Angular\+Velocity}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Angular\+Velocity() const }{getAngularVelocity() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Physics3\+::\+Rigid\+Body\+::get\+Angular\+Velocity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3262511aa29767d58486286a18180721}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3262511aa29767d58486286a18180721}
+
+
+Get the Angular Velocity of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the angular velocity of rigidbody. which represent axis of rotation and its length represent the angle of rotation (in radian). 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Collision\+Call\+Back@{get\+Collision\+Call\+Back}}
+\index{get\+Collision\+Call\+Back@{get\+Collision\+Call\+Back}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Collision\+Call\+Back() const }{getCollisionCallBack() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Functor} $\ast$ Physics3\+::\+Rigid\+Body\+::get\+Collision\+Call\+Back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_af489937982e89fffadde2a4885d0c9ce}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_af489937982e89fffadde2a4885d0c9ce}
+
+
+Get the Call\+Back Function for collision event between rigidbodies. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_functor}{Functor} \+: the Call\+Back Function 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Collision\+Filter@{get\+Collision\+Filter}}
+\index{get\+Collision\+Filter@{get\+Collision\+Filter}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Collision\+Filter() const }{getCollisionFilter() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Physics3\+::\+Collision\+Filter} Physics3\+::\+Rigid\+Body\+::get\+Collision\+Filter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aead253bff5342b09fb8705edf553ca98}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aead253bff5342b09fb8705edf553ca98}
+
+
+Get the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter}, the collision Filter of rigidbody. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Destuction\+Call\+Back@{get\+Destuction\+Call\+Back}}
+\index{get\+Destuction\+Call\+Back@{get\+Destuction\+Call\+Back}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Destuction\+Call\+Back() const }{getDestuctionCallBack() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Functor} $\ast$ Physics3\+::\+Rigid\+Body\+::get\+Destuction\+Call\+Back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_abec3467cdf36209d4c97d611adfab805}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_abec3467cdf36209d4c97d611adfab805}
+
+
+Get the Call\+Back Function for destruction event of the joint connected on the rigidbody. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_functor}{Functor} \+: the Call\+Back Function 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Inertia@{get\+Inertia}}
+\index{get\+Inertia@{get\+Inertia}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Inertia() const }{getInertia() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Physics3\+::\+Rigid\+Body\+::get\+Inertia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8e1a4453fc4a842231073803bb22234c}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8e1a4453fc4a842231073803bb22234c}
+
+
+Get the Moment of Inertia of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the Moment of Inertia of rigidbody. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Linear\+Damping@{get\+Linear\+Damping}}
+\index{get\+Linear\+Damping@{get\+Linear\+Damping}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Linear\+Damping() const }{getLinearDamping() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Physics3\+::\+Rigid\+Body\+::get\+Linear\+Damping (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a70ca7bcda490e12f2a9f3215a0d31832}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a70ca7bcda490e12f2a9f3215a0d31832}
+
+
+Get the Linear Damping Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+The Linear Damping is a reduction of linear velocity due to the loss of kinetic energy for some reason(e.\+g. friction, sound) \begin{DoxyReturn}{傳回值}
+float, the linear damping factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Linear\+Factor@{get\+Linear\+Factor}}
+\index{get\+Linear\+Factor@{get\+Linear\+Factor}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Linear\+Factor() const }{getLinearFactor() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Physics3\+::\+Rigid\+Body\+::get\+Linear\+Factor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a0e146f328579ca963a8e2b0c151ab168}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a0e146f328579ca963a8e2b0c151ab168}
+
+
+Get the Linear Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the linear factor of rigidbody. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a4ec719c23ab1c90fa9522d5128b6f628}{set\+Linear\+Factor()} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Linear\+Velocity@{get\+Linear\+Velocity}}
+\index{get\+Linear\+Velocity@{get\+Linear\+Velocity}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Linear\+Velocity() const }{getLinearVelocity() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Physics3\+::\+Rigid\+Body\+::get\+Linear\+Velocity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a1f48fa3807c3ecdb4a8bfc382d456023}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a1f48fa3807c3ecdb4a8bfc382d456023}
+
+
+Get the Velocity of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the velocity of rigidbody. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Linear\+Velocity\+From\+Local\+Point@{get\+Linear\+Velocity\+From\+Local\+Point}}
+\index{get\+Linear\+Velocity\+From\+Local\+Point@{get\+Linear\+Velocity\+From\+Local\+Point}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Linear\+Velocity\+From\+Local\+Point(const Vector3 \&local\+Point\+\_\+) const }{getLinearVelocityFromLocalPoint(const Vector3 &localPoint_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Physics3\+::\+Rigid\+Body\+::get\+Linear\+Velocity\+From\+Local\+Point (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{local\+Point\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5aca0169fb6e1fb70158cec477f53e73}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5aca0169fb6e1fb70158cec477f53e73}
+
+
+Get the Linear Velocity of specific point in Local Space on the Rigidbody. 
+
+
+\begin{DoxyParams}{參數}
+{\em local\+Point\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the point in Local Space. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the Velocity of specific point in Local Space on the Rigidbody. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Linear\+Velocity\+From\+World\+Point@{get\+Linear\+Velocity\+From\+World\+Point}}
+\index{get\+Linear\+Velocity\+From\+World\+Point@{get\+Linear\+Velocity\+From\+World\+Point}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Linear\+Velocity\+From\+World\+Point(const Vector3 \&world\+Point\+\_\+) const }{getLinearVelocityFromWorldPoint(const Vector3 &worldPoint_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Physics3\+::\+Rigid\+Body\+::get\+Linear\+Velocity\+From\+World\+Point (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{world\+Point\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a671f0361b94d8727d152e0dc17eaa7e6}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a671f0361b94d8727d152e0dc17eaa7e6}
+
+
+Get the Linear Velocity of specific point in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space on the Rigidbody. 
+
+
+\begin{DoxyParams}{參數}
+{\em world\+Point\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the point in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the Velocity of specific point in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space on the Rigidbody. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Local\+Point@{get\+Local\+Point}}
+\index{get\+Local\+Point@{get\+Local\+Point}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Local\+Point(const Vector3 \&world\+Point\+\_\+) const }{getLocalPoint(const Vector3 &worldPoint_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Physics3\+::\+Rigid\+Body\+::get\+Local\+Point (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{world\+Point\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab35b04ae4f947039424039d53f6a6f02}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab35b04ae4f947039424039d53f6a6f02}
+
+
+Convert a Position in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Position in the Local Space. 
+
+
+\begin{DoxyParams}{參數}
+{\em world\+Point\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which input the position in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space to be converted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the corresponding position in Local Space. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Local\+Vector@{get\+Local\+Vector}}
+\index{get\+Local\+Vector@{get\+Local\+Vector}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Local\+Vector(const Vector3 \&world\+Vector\+\_\+) const }{getLocalVector(const Vector3 &worldVector_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Physics3\+::\+Rigid\+Body\+::get\+Local\+Vector (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{world\+Vector\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a805d3ffcbbb1b8ac8b171026f23a795b}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a805d3ffcbbb1b8ac8b171026f23a795b}
+
+
+Convert a Directional \hyperlink{class_i_dream_sky_1_1_vector}{Vector} in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Direction in the Local Space. 
+
+
+\begin{DoxyParams}{參數}
+{\em world\+Vector\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which input the direction in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space to be converted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the corresponding direction in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Mass@{get\+Mass}}
+\index{get\+Mass@{get\+Mass}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Mass() const }{getMass() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Physics3\+::\+Rigid\+Body\+::get\+Mass (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3a97500df9a0b01efee57289bac19df4}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3a97500df9a0b01efee57289bac19df4}
+
+
+Get the Mass of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+float, the mass of rigidbody. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Material@{get\+Material}}
+\index{get\+Material@{get\+Material}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Material() const }{getMaterial() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Physics3\+::\+Material} Physics3\+::\+Rigid\+Body\+::get\+Material (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ad3ac34c2a9ca4d357911596493781cbe}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ad3ac34c2a9ca4d357911596493781cbe}
+
+
+Get the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Material} \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Physics3\+::\+Material}, the material of rigidbody. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Physics3\+::\+Material} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Position() const }{getPosition() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Physics3\+::\+Rigid\+Body\+::get\+Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ac64063d18bd567bb8684cb67fbe096da}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ac64063d18bd567bb8684cb67fbe096da}
+
+
+Get the Position of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the position of rigidbody. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Transform@{get\+Transform}}
+\index{get\+Transform@{get\+Transform}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Transform(\+Matrix4 \&transform\+\_\+) const }{getTransform(Matrix4 &transform_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::get\+Transform (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix4} \&}]{transform\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aa4aadcf4a7c9d546b99168890e808aba}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aa4aadcf4a7c9d546b99168890e808aba}
+
+
+Get the \hyperlink{class_i_dream_sky_1_1_transform}{Transform} of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em transform\+\_\+,\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4}} & which receive the position, rotation, scale of rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Type() const }{getType() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Physics3\+::\+Rigid\+Body\+::\+Type} Physics3\+::\+Rigid\+Body\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7963a89eac63988e41d93e444d89a243}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7963a89eac63988e41d93e444d89a243}
+
+
+Get the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Type. 
+
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} can be S\+T\+A\+T\+IC, D\+Y\+N\+A\+M\+IC, K\+I\+N\+E\+M\+A\+T\+IC \begin{DoxyReturn}{傳回值}
+type\+\_\+, \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14fa}{Physics3\+::\+Rigid\+Body\+::\+Type}, the type of rigidbody. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+User\+Data@{get\+User\+Data}}
+\index{get\+User\+Data@{get\+User\+Data}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+User\+Data() const }{getUserData() const }}]{\setlength{\rightskip}{0pt plus 5cm}void $\ast$ Physics3\+::\+Rigid\+Body\+::get\+User\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a06204907d5fc684e249d486d816a73f3}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a06204907d5fc684e249d486d816a73f3}
+
+
+Get the pointer for custom user data. 
+
+\begin{DoxyReturn}{傳回值}
+the User Pointer 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+World\+Point@{get\+World\+Point}}
+\index{get\+World\+Point@{get\+World\+Point}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+World\+Point(const Vector3 \&local\+Point\+\_\+) const }{getWorldPoint(const Vector3 &localPoint_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Physics3\+::\+Rigid\+Body\+::get\+World\+Point (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{local\+Point\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a21168759e6e9c167779515f0cc7889eb}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a21168759e6e9c167779515f0cc7889eb}
+
+
+Convert a Position in Local Space of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Position in the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space. 
+
+
+\begin{DoxyParams}{參數}
+{\em local\+Point\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which input the position in Local Space to be converted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the corresponding position in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!get\+World\+Vector@{get\+World\+Vector}}
+\index{get\+World\+Vector@{get\+World\+Vector}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+World\+Vector(const Vector3 \&local\+Vector\+\_\+) const }{getWorldVector(const Vector3 &localVector_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Physics3\+::\+Rigid\+Body\+::get\+World\+Vector (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{local\+Vector\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3ec487fedfcc7b719439e709bf8d3fc0}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3ec487fedfcc7b719439e709bf8d3fc0}
+
+
+Convert a Directional \hyperlink{class_i_dream_sky_1_1_vector}{Vector} in Local Space of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Direction in the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space. 
+
+
+\begin{DoxyParams}{參數}
+{\em local\+Vector\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which input the direction in Local Space to be converted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}, the corresponding direction in \hyperlink{class_i_dream_sky_1_1_physics3_1_1_world}{World} Space. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!is\+Active@{is\+Active}}
+\index{is\+Active@{is\+Active}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{is\+Active() const }{isActive() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Physics3\+::\+Rigid\+Body\+::is\+Active (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a2769e904a08ef6714836a0885016b476}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a2769e904a08ef6714836a0885016b476}
+
+
+Check if Rigidbody to active state. 
+
+Rigid Body in Active \hyperlink{class_i_dream_sky_1_1_state}{State} will participate into physics calculation. \begin{DoxyReturn}{傳回值}
+true \+: in active state false\+: not in active state 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!is\+Awake@{is\+Awake}}
+\index{is\+Awake@{is\+Awake}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{is\+Awake() const }{isAwake() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Physics3\+::\+Rigid\+Body\+::is\+Awake (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_adf56d13f35a8f358864885ec97ac65a5}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_adf56d13f35a8f358864885ec97ac65a5}
+
+
+Check if Rigidbody is in awake state. 
+
+Rigid Body in Awake will participate into physics calculation and will enter Sleep \hyperlink{class_i_dream_sky_1_1_state}{State} if it become Steady. \begin{DoxyReturn}{傳回值}
+flag, true \+: in awake state false\+: not in awake state 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!is\+Bullet@{is\+Bullet}}
+\index{is\+Bullet@{is\+Bullet}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{is\+Bullet() const }{isBullet() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Physics3\+::\+Rigid\+Body\+::is\+Bullet (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7ee7b6fe98fb29804fa4f1731f30994c}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7ee7b6fe98fb29804fa4f1731f30994c}
+
+
+Check whether or not the Rigidbody use continuous collision detection(bullet). 
+
+Continuous \hyperlink{class_i_dream_sky_1_1_collision}{Collision} Detection need more calculation, Only use on fast or small rigidbody only. \begin{DoxyReturn}{傳回值}
+true \+: is bullet. false \+: not a bullet. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!is\+Sleeping\+Allowed@{is\+Sleeping\+Allowed}}
+\index{is\+Sleeping\+Allowed@{is\+Sleeping\+Allowed}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{is\+Sleeping\+Allowed() const }{isSleepingAllowed() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Physics3\+::\+Rigid\+Body\+::is\+Sleeping\+Allowed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3629376b3a74724684ea012f9d0412e9}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a3629376b3a74724684ea012f9d0412e9}
+
+
+Check whether or not the Rigidbody is allowed to enter to sleep mode while isolated. 
+
+Isolated and Steady rigid body will go to sleep and will not participate in physics calculation. save C\+PU \begin{DoxyReturn}{傳回值}
+true \+: allow to enter sleep mode. false\+: not allow to enter sleep mode. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Active@{set\+Active}}
+\index{set\+Active@{set\+Active}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Active(bool flag)}{setActive(bool flag)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Active (
+\begin{DoxyParamCaption}
+\item[{bool}]{flag}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a200da59764cfc4196cc3db7eb39bb262}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a200da59764cfc4196cc3db7eb39bb262}
+
+
+Set Rigidbody to active state. 
+
+Rigid Body in Active \hyperlink{class_i_dream_sky_1_1_state}{State} will participate into physics calculation. 
+\begin{DoxyParams}{參數}
+{\em flag,true} & \+: in active state false\+: not in active state \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Angular\+Damping@{set\+Angular\+Damping}}
+\index{set\+Angular\+Damping@{set\+Angular\+Damping}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Angular\+Damping(float angular\+Damping\+\_\+)}{setAngularDamping(float angularDamping_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Angular\+Damping (
+\begin{DoxyParamCaption}
+\item[{float}]{angular\+Damping\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_adb8001be31fa3920c73c1bae548d469d}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_adb8001be31fa3920c73c1bae548d469d}
+
+
+Set the Angular Damping Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+The Angular Damping is a reduction of angular velocity due to the loss of kinetic energy for some reason(e.\+g. friction, sound) 
+\begin{DoxyParams}{參數}
+{\em angular\+Damping\+\_\+,float} & which specify the angular Damping factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Angular\+Factor@{set\+Angular\+Factor}}
+\index{set\+Angular\+Factor@{set\+Angular\+Factor}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Angular\+Factor(const Vector3 \&factor\+\_\+)}{setAngularFactor(const Vector3 &factor_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Angular\+Factor (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{factor\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_abdf7ba04d15122d05f06bea761fa1166}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_abdf7ba04d15122d05f06bea761fa1166}
+
+
+Set the Angular Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em factor\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the angular factor of rigidbody. Angular Factor scales the amount of rotation motion along each axis. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Angular\+Position@{set\+Angular\+Position}}
+\index{set\+Angular\+Position@{set\+Angular\+Position}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Angular\+Position(const Vector3 \&axis\+\_\+, float angle\+\_\+)}{setAngularPosition(const Vector3 &axis_, float angle_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Angular\+Position (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{axis\+\_\+, }
+\item[{float}]{angle\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5d3478baed09428e1ada2ddf8bfa5665}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5d3478baed09428e1ada2ddf8bfa5665}
+
+
+Set the Angular Position of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em axis\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the axis of angular position. \\
+\hline
+{\em angle\+\_\+,float} & which specify the degree (in radian) rotate around the axis. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Angular\+Position@{set\+Angular\+Position}}
+\index{set\+Angular\+Position@{set\+Angular\+Position}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Angular\+Position(const Quaternion \&angular\+Position\+\_\+)}{setAngularPosition(const Quaternion &angularPosition_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Angular\+Position (
+\begin{DoxyParamCaption}
+\item[{const {\bf Quaternion} \&}]{angular\+Position\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aa25cc2bc6ce28df7f1fa6e0393d0bfec}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aa25cc2bc6ce28df7f1fa6e0393d0bfec}
+
+
+Set the Angular Position of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em angular\+Position\+\_\+,\hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion}} & which specify the rotation and axis of rotation. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Angular\+Velocity@{set\+Angular\+Velocity}}
+\index{set\+Angular\+Velocity@{set\+Angular\+Velocity}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Angular\+Velocity(const Vector3 \&angular\+Vel\+\_\+)}{setAngularVelocity(const Vector3 &angularVel_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Angular\+Velocity (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{angular\+Vel\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a9d485613dca6a54b3eb3adffda0d212a}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a9d485613dca6a54b3eb3adffda0d212a}
+
+
+Set the Angular Velocity of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em angular\+Vel\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the axis of rotation with its length represent the angle (in radian). \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Awake@{set\+Awake}}
+\index{set\+Awake@{set\+Awake}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Awake(bool flag)}{setAwake(bool flag)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Awake (
+\begin{DoxyParamCaption}
+\item[{bool}]{flag}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a4d9ee1a2ba1d9c09d711b3d5a00bab48}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a4d9ee1a2ba1d9c09d711b3d5a00bab48}
+
+
+Set Rigidbody to awake state. 
+
+Rigid Body in Awake \hyperlink{class_i_dream_sky_1_1_state}{State} will participate into physics calculation and will enter Sleep \hyperlink{class_i_dream_sky_1_1_state}{State} if it become Steady. 
+\begin{DoxyParams}{參數}
+{\em flag,true} & allow to enter sleep mode. false not allow to enter sleep mode. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Bullet@{set\+Bullet}}
+\index{set\+Bullet@{set\+Bullet}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Bullet(bool flag)}{setBullet(bool flag)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Bullet (
+\begin{DoxyParamCaption}
+\item[{bool}]{flag}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a1fa821b799126307734a48d72aa2cd6c}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a1fa821b799126307734a48d72aa2cd6c}
+
+
+Set whether or not the Rigidbody use continuous collision detection(bullet). 
+
+Continuous \hyperlink{class_i_dream_sky_1_1_collision}{Collision} Detection need more calculation, Only use on fast or small rigidbody only. 
+\begin{DoxyParams}{參數}
+{\em flag,true} & rigid is bullet. false rigid is not a bullet. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Collision\+Call\+Back@{set\+Collision\+Call\+Back}}
+\index{set\+Collision\+Call\+Back@{set\+Collision\+Call\+Back}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Collision\+Call\+Back(\+Functor $\ast$collision\+C\+B\+\_\+)}{setCollisionCallBack(Functor *collisionCB_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Collision\+Call\+Back (
+\begin{DoxyParamCaption}
+\item[{{\bf Functor} $\ast$}]{collision\+C\+B\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab47a2db4795a49195dc59620ba4ab52c}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_ab47a2db4795a49195dc59620ba4ab52c}
+
+
+Set the Call\+Back Function for collision event between rigidbodies. 
+
+
+\begin{DoxyParams}{參數}
+{\em collision\+C\+B\+\_\+,\hyperlink{class_i_dream_sky_1_1_functor}{Functor}} & \+: the \hyperlink{class_i_dream_sky_1_1_collision}{Collision} Call\+Back Function \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Collision\+Filter@{set\+Collision\+Filter}}
+\index{set\+Collision\+Filter@{set\+Collision\+Filter}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Collision\+Filter(const Physics3\+::\+Collision\+Filter \&collision\+Filter\+\_\+)}{setCollisionFilter(const Physics3::CollisionFilter &collisionFilter_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Collision\+Filter (
+\begin{DoxyParamCaption}
+\item[{const {\bf Physics3\+::\+Collision\+Filter} \&}]{collision\+Filter\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aec6c6c3d392567f7c0ee2a9857b4c49d}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_aec6c6c3d392567f7c0ee2a9857b4c49d}
+
+
+Set the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Collision\+Filter} of \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em collision\+Filter\+\_\+,the} & collision Filter of rigidbody. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Destuction\+Call\+Back@{set\+Destuction\+Call\+Back}}
+\index{set\+Destuction\+Call\+Back@{set\+Destuction\+Call\+Back}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Destuction\+Call\+Back(\+Functor $\ast$destruction\+C\+B\+\_\+)}{setDestuctionCallBack(Functor *destructionCB_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Destuction\+Call\+Back (
+\begin{DoxyParamCaption}
+\item[{{\bf Functor} $\ast$}]{destruction\+C\+B\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a2ffcb6cb2ddf0f264d4d7df2c45319c2}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a2ffcb6cb2ddf0f264d4d7df2c45319c2}
+
+
+Set the Call\+Back Function for destruction event of the joint connected on the rigidbody. 
+
+
+\begin{DoxyParams}{參數}
+{\em destruction\+C\+B\+\_\+,\hyperlink{class_i_dream_sky_1_1_functor}{Functor}} & \+: the Destruction Call\+Back Function \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Linear\+Damping@{set\+Linear\+Damping}}
+\index{set\+Linear\+Damping@{set\+Linear\+Damping}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Linear\+Damping(float linear\+Damping\+\_\+)}{setLinearDamping(float linearDamping_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Linear\+Damping (
+\begin{DoxyParamCaption}
+\item[{float}]{linear\+Damping\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5fd41697e67b5dea2b5ca0bcdcda9c22}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a5fd41697e67b5dea2b5ca0bcdcda9c22}
+
+
+Set the Linear Damping Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+The Linear Damping is a reduction of linear velocity due to the loss of kinetic energy for some reason(e.\+g. friction, sound) 
+\begin{DoxyParams}{參數}
+{\em linear\+Damping\+\_\+,float} & which specify the linear Damping factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Linear\+Factor@{set\+Linear\+Factor}}
+\index{set\+Linear\+Factor@{set\+Linear\+Factor}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Linear\+Factor(const Vector3 \&factor\+\_\+)}{setLinearFactor(const Vector3 &factor_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Linear\+Factor (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{factor\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a4ec719c23ab1c90fa9522d5128b6f628}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a4ec719c23ab1c90fa9522d5128b6f628}
+
+
+Set the Linear Factor of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em factor\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the linear factor of rigidbody. Linear Factor scales the amount of linear motion along each axis. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Linear\+Velocity@{set\+Linear\+Velocity}}
+\index{set\+Linear\+Velocity@{set\+Linear\+Velocity}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Linear\+Velocity(const Vector3 \&velocity\+\_\+)}{setLinearVelocity(const Vector3 &velocity_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Linear\+Velocity (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{velocity\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a71574b40fa7b726f0304d6b4b902cbed}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a71574b40fa7b726f0304d6b4b902cbed}
+
+
+Set the Velocity of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em velocity\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the velocity of rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Material@{set\+Material}}
+\index{set\+Material@{set\+Material}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Material(const Physics3\+::\+Material \&material\+\_\+)}{setMaterial(const Physics3::Material &material_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Material (
+\begin{DoxyParamCaption}
+\item[{const {\bf Physics3\+::\+Material} \&}]{material\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_abde660e6ae2336bc6b5ae0e8f5219bd7}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_abde660e6ae2336bc6b5ae0e8f5219bd7}
+
+
+Set the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Material} of \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em material\+\_\+,the} & material of rigidbody. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_material}{Physics3\+::\+Material} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Position@{set\+Position}}
+\index{set\+Position@{set\+Position}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Position(const Vector3 \&position\+\_\+)}{setPosition(const Vector3 &position_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Position (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{position\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7144cd88a27218db578d6d767c06e474}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7144cd88a27218db578d6d767c06e474}
+
+
+Set the Position of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em position\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}} & which specify the position of rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Sleeping\+Allowed@{set\+Sleeping\+Allowed}}
+\index{set\+Sleeping\+Allowed@{set\+Sleeping\+Allowed}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Sleeping\+Allowed(bool flag)}{setSleepingAllowed(bool flag)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Sleeping\+Allowed (
+\begin{DoxyParamCaption}
+\item[{bool}]{flag}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a06fadd5ade78b67db587fb0ee8b02ae3}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a06fadd5ade78b67db587fb0ee8b02ae3}
+
+
+Set whether or not the Rigidbody is allowed to enter to sleep mode while isolated. 
+
+Isolated and Steady rigid body will go to sleep and will not participate in physics calculation. save C\+PU 
+\begin{DoxyParams}{參數}
+{\em flag,true} & allow to enter sleep mode. false not allow to enter sleep mode. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Transform@{set\+Transform}}
+\index{set\+Transform@{set\+Transform}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Transform(const Matrix4 \&transform\+\_\+)}{setTransform(const Matrix4 &transform_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Transform (
+\begin{DoxyParamCaption}
+\item[{const {\bf Matrix4} \&}]{transform\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7d5e274aad11227be7f7bb64d76b9528}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a7d5e274aad11227be7f7bb64d76b9528}
+
+
+Set the \hyperlink{class_i_dream_sky_1_1_transform}{Transform} of the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em transform\+\_\+,\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4}} & which specify the position, rotation, scale of rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+Type@{set\+Type}}
+\index{set\+Type@{set\+Type}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Type(\+Physics3\+::\+Rigid\+Body\+::\+Type type\+\_\+)}{setType(Physics3::RigidBody::Type type_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+Type (
+\begin{DoxyParamCaption}
+\item[{{\bf Physics3\+::\+Rigid\+Body\+::\+Type}}]{type\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a508230d75ce92867d248c34b82465c10}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a508230d75ce92867d248c34b82465c10}
+
+
+Set the \hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Type. 
+
+\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body}{Rigid\+Body} can be S\+T\+A\+T\+IC, D\+Y\+N\+A\+M\+IC, K\+I\+N\+E\+M\+A\+T\+IC 
+\begin{DoxyParams}{參數}
+{\em type\+\_\+,\hyperlink{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a8a970d66442558ce0a3ce7b8009c14fa}{Physics3\+::\+Rigid\+Body\+::\+Type},the} & type of rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!set\+User\+Data@{set\+User\+Data}}
+\index{set\+User\+Data@{set\+User\+Data}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+User\+Data(void $\ast$user\+Data\+\_\+)}{setUserData(void *userData_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::set\+User\+Data (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{user\+Data\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_af8ca239d5d3b384b7fd40aa33b5ee20f}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_af8ca239d5d3b384b7fd40aa33b5ee20f}
+
+
+Set the pointer for custom user data. 
+
+
+\begin{DoxyParams}{參數}
+{\em user\+Data\+\_\+} & the User Pointer \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}!update\+Rigid\+Body@{update\+Rigid\+Body}}
+\index{update\+Rigid\+Body@{update\+Rigid\+Body}!I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body@{I\+Dream\+Sky\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{update\+Rigid\+Body(float dt)}{updateRigidBody(float dt)}}]{\setlength{\rightskip}{0pt plus 5cm}void Physics3\+::\+Rigid\+Body\+::update\+Rigid\+Body (
+\begin{DoxyParamCaption}
+\item[{float}]{dt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a4b74946c58d83988424072399cb265c2}{}\label{class_i_dream_sky_1_1_physics3_1_1_rigid_body_a4b74946c58d83988424072399cb265c2}
+
+
+Update the rigidbody and the owner. 
+
+
+\begin{DoxyParams}{參數}
+{\em dt,the} & delta of the game cycle \\
+\hline
+\end{DoxyParams}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Physics3.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Physics3.\+cpp\end{DoxyCompactItemize}

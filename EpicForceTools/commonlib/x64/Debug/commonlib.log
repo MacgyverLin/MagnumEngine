@@ -1,0 +1,271 @@
+﻿Build started 3/14/2013 11:59:49 PM.
+     1>Project "C:\EpicForceEngine\EpicForceTools\commonlib\commonlib.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\EpicForceEngine\EpicForceTools\x64\Debug\".
+       InitializeBuildStatus:
+         Creating "x64\Debug\commonlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D EXPORTER /D WIN32 /D _DEBUG /D _LIB /D WIN64 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt AABB2.cpp AABB3.cpp Arc2.cpp Array.cpp BezierCurve2.cpp BezierCurve3.cpp BSplineBasis.cpp BSplineCurve2.cpp BSplineCurve3.cpp BVector2.cpp BVector3.cpp BVector4.cpp BVHTriangleMeshShape3.cpp Capsule3.cpp Circle2.cpp Circle3.cpp Color.cpp ColorRGB.cpp ColorRGBA.cpp Cone3.cpp Curve2.cpp Curve3.cpp Cylinder3.cpp EMath.cpp EString.cpp ESystem.cpp FileIO.cpp GXDef.cpp HeightFieldShape3.cpp InputStream.cpp IO.cpp IVector2.cpp IVector3.cpp IVector4.cpp Line2.cpp Line3.cpp Lozenge3.cpp Matrix2.cpp Matrix3.cpp Matrix4.cpp MultipleCurve2.cpp MultipleCurve3.cpp OutputStream.cpp Plane3.cpp Platform.cpp Polyhedron3.cpp Polynomial1.cpp Quadratic2.cpp Quadratic3.cpp Quaternion.cpp Ray2.cpp Ray3.cpp Rectangle3.cpp Segment2.cpp Segment3.cpp SingleCurve2.cpp SingleCurve3.cpp Stage.cpp TCBSpline2.cpp TCBSpline3.cpp Tetrahedron3.cpp TGAFile.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp Triangle2.cpp Triangle3.cpp Vector10.cpp Vector2.cpp Vector3.cpp Vector4.cpp VertexDesc.cpp
+         VertexDesc.cpp
+     1>c:\epicforceengine\epicforcetools\commonlib\Matrix2.inl(27): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\epicforceengine\epicforcetools\commonlib\Quaternion.inl(506): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Vector4.cpp
+         Vector3.cpp
+         Vector2.cpp
+         Vector10.cpp
+     1>c:\epicforceengine\epicforcetools\commonlib\Quaternion.inl(506): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Triangle3.cpp
+         Triangle2.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         TGAFile.cpp
+         Tetrahedron3.cpp
+     1>c:\epicforceengine\epicforcetools\commonlib\Tetrahedron3.inl(31): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         TCBSpline3.cpp
+         TCBSpline2.cpp
+         Stage.cpp
+     1>Stage.cpp(73): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Stage.cpp(121): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(354) : see declaration of 'vsnprintf'
+     1>Stage.cpp(137): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(354) : see declaration of 'vsnprintf'
+     1>Stage.cpp(152): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(354) : see declaration of 'vsnprintf'
+     1>Stage.cpp(168): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(354) : see declaration of 'vsnprintf'
+         SingleCurve3.cpp
+         SingleCurve2.cpp
+         Segment3.cpp
+         Segment2.cpp
+         Generating Code...
+         Compiling...
+         Rectangle3.cpp
+         Ray3.cpp
+         Ray2.cpp
+         Quaternion.cpp
+     1>c:\epicforceengine\epicforcetools\commonlib\Quaternion.inl(506): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Quadratic3.cpp
+     1>c:\epicforceengine\epicforcetools\commonlib\Quadratic3.inl(33): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         Quadratic2.cpp
+     1>c:\epicforceengine\epicforcetools\commonlib\Matrix2.inl(27): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\epicforceengine\epicforcetools\commonlib\Quadratic2.inl(29): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         Polynomial1.cpp
+         Polyhedron3.cpp
+     1>c:\epicforceengine\epicforcetools\commonlib\Polyhedron3.inl(61): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\epicforceengine\epicforcetools\commonlib\Polyhedron3.inl(64): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         Platform.cpp
+         Plane3.cpp
+         OutputStream.cpp
+         MultipleCurve3.cpp
+         MultipleCurve2.cpp
+         Matrix4.cpp
+         Matrix3.cpp
+         Matrix2.cpp
+     1>c:\epicforceengine\epicforcetools\commonlib\Matrix2.inl(27): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         Lozenge3.cpp
+         Line3.cpp
+         Line2.cpp
+         IVector4.cpp
+         Generating Code...
+         Compiling...
+         IVector3.cpp
+     1>IVector3.cpp(12): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(12): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(12): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(13): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(13): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(13): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(14): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(14): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(14): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(15): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(15): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(15): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(16): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(16): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector3.cpp(16): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         IVector2.cpp
+     1>IVector2.cpp(12): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector2.cpp(12): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector2.cpp(13): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector2.cpp(13): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector2.cpp(14): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector2.cpp(14): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector2.cpp(15): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>IVector2.cpp(15): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         IO.cpp
+         InputStream.cpp
+         HeightFieldShape3.cpp
+         GXDef.cpp
+     1>c:\epicforceengine\epicforcetools\commonlib\Matrix2.inl(27): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         FileIO.cpp
+     1>FileIO.cpp(106): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>FileIO.cpp(108): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>FileIO.cpp(110): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>FileIO.cpp(178): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>FileIO.cpp(180): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>FileIO.cpp(182): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>FileIO.cpp(540): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>FileIO.cpp(702): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>FileIO.cpp(948): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         ESystem.cpp
+     1>ESystem.cpp(30): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>ESystem.cpp(88): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ESystem.cpp(167): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>ESystem.cpp(168): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         EString.cpp
+     1>EString.cpp(38): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>EString.cpp(192): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>EString.cpp(236): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>EString.cpp(241): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>EString.cpp(246): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>EString.cpp(251): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>EString.cpp(256): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>EString.cpp(262): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>EString.cpp(267): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>EString.cpp(272): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>EString.cpp(287): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         EMath.cpp
+         Cylinder3.cpp
+         Curve3.cpp
+         Curve2.cpp
+         Cone3.cpp
+         ColorRGBA.cpp
+         ColorRGB.cpp
+         Color.cpp
+     1>Color.cpp(59): warning C4244: 'argument' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>Color.cpp(59): warning C4244: 'argument' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>Color.cpp(59): warning C4244: 'argument' : conversion from 'float' to 'unsigned char', possible loss of data
+         Circle3.cpp
+         Circle2.cpp
+         Capsule3.cpp
+         Generating Code...
+         Compiling...
+         BVHTriangleMeshShape3.cpp
+         BVector4.cpp
+         BVector3.cpp
+         BVector2.cpp
+         BSplineCurve3.cpp
+         BSplineCurve2.cpp
+         BSplineBasis.cpp
+         BezierCurve3.cpp
+         BezierCurve2.cpp
+         Array.cpp
+         Arc2.cpp
+         AABB3.cpp
+         AABB2.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\EpicForceEngine\EpicForceTools\x64\Debug\commonlib.lib" /NOLOGO x64\Debug\AABB2.obj
+         x64\Debug\AABB3.obj
+         x64\Debug\Arc2.obj
+         x64\Debug\Array.obj
+         x64\Debug\BezierCurve2.obj
+         x64\Debug\BezierCurve3.obj
+         x64\Debug\BSplineBasis.obj
+         x64\Debug\BSplineCurve2.obj
+         x64\Debug\BSplineCurve3.obj
+         x64\Debug\BVector2.obj
+         x64\Debug\BVector3.obj
+         x64\Debug\BVector4.obj
+         x64\Debug\BVHTriangleMeshShape3.obj
+         x64\Debug\Capsule3.obj
+         x64\Debug\Circle2.obj
+         x64\Debug\Circle3.obj
+         x64\Debug\Color.obj
+         x64\Debug\ColorRGB.obj
+         x64\Debug\ColorRGBA.obj
+         x64\Debug\Cone3.obj
+         x64\Debug\Curve2.obj
+         x64\Debug\Curve3.obj
+         x64\Debug\Cylinder3.obj
+         x64\Debug\EMath.obj
+         x64\Debug\EString.obj
+         x64\Debug\ESystem.obj
+         x64\Debug\FileIO.obj
+         x64\Debug\GXDef.obj
+         x64\Debug\HeightFieldShape3.obj
+         x64\Debug\InputStream.obj
+         x64\Debug\IO.obj
+         x64\Debug\IVector2.obj
+         x64\Debug\IVector3.obj
+         x64\Debug\IVector4.obj
+         x64\Debug\Line2.obj
+         x64\Debug\Line3.obj
+         x64\Debug\Lozenge3.obj
+         x64\Debug\Matrix2.obj
+         x64\Debug\Matrix3.obj
+         x64\Debug\Matrix4.obj
+         x64\Debug\MultipleCurve2.obj
+         x64\Debug\MultipleCurve3.obj
+         x64\Debug\OutputStream.obj
+         x64\Debug\Plane3.obj
+         x64\Debug\Platform.obj
+         x64\Debug\Polyhedron3.obj
+         x64\Debug\Polynomial1.obj
+         x64\Debug\Quadratic2.obj
+         x64\Debug\Quadratic3.obj
+         x64\Debug\Quaternion.obj
+         x64\Debug\Ray2.obj
+         x64\Debug\Ray3.obj
+         x64\Debug\Rectangle3.obj
+         x64\Debug\Segment2.obj
+         x64\Debug\Segment3.obj
+         x64\Debug\SingleCurve2.obj
+         x64\Debug\SingleCurve3.obj
+         x64\Debug\Stage.obj
+         x64\Debug\TCBSpline2.obj
+         x64\Debug\TCBSpline3.obj
+         x64\Debug\Tetrahedron3.obj
+         x64\Debug\TGAFile.obj
+         x64\Debug\tinystr.obj
+         x64\Debug\tinyxml.obj
+         x64\Debug\tinyxmlerror.obj
+         x64\Debug\tinyxmlparser.obj
+         x64\Debug\Triangle2.obj
+         x64\Debug\Triangle3.obj
+         x64\Debug\Vector10.obj
+         x64\Debug\Vector2.obj
+         x64\Debug\Vector3.obj
+         x64\Debug\Vector4.obj
+         x64\Debug\VertexDesc.obj
+     1>Triangle3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Triangle2.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Tetrahedron3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Segment3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Segment2.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Rectangle3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Ray3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Ray2.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Quadratic3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Quadratic2.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Polynomial1.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Polyhedron3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Plane3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Line3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Line2.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Cylinder3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Cone3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Circle3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Circle2.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Capsule3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Arc2.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>AABB3.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>AABB2.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         commonlib.vcxproj -> C:\EpicForceEngine\EpicForceTools\x64\Debug\commonlib.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\commonlib.unsuccessfulbuild".
+         Touching "x64\Debug\commonlib.lastbuildstate".
+     1>Done Building Project "C:\EpicForceEngine\EpicForceTools\commonlib\commonlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:05.61

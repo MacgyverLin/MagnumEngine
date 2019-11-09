@@ -1,0 +1,5 @@
+<map id="Magnum::OrthographicCameraComponent::setProjection" name="Magnum::OrthographicCameraComponent::setProjection">
+<area shape="rect" id="node2" href="$class_magnum_1_1_camera_component.html#ab50fcc345c5beb14317b4bb74f6c2b2e" title="Set the coordinate of project plane of at the near plane of camera. " alt="" coords="252,5,443,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_camera_component.html#a84bbd217e6201fd89894e6f8a81e03a9" title="mark the member variable projectTransformValid is invalide and should be update before next render ..." alt="" coords="491,5,693,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_camera_component.html#a54bc2d46cd53d0bf4c7151ecc25d37d1" title="This is a pure virtual function. " alt="" coords="741,5,948,47"/>
+</map>

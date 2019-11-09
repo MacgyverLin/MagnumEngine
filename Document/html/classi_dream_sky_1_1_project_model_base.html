@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: iDreamSky::ProjectModelBase  類別 參考文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li class="current"><a href="annotated.html"><span>類別</span></a></li>
+      <li><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>複合列表</span></a></li>
+      <li><a href="classes.html"><span>複合索引</span></a></li>
+      <li><a href="hierarchy.html"><span>類別階層</span></a></li>
+      <li><a href="functions.html"><span>複合成員</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>iDreamSky</b></li><li class="navelem"><a class="el" href="classi_dream_sky_1_1_project_model_base.html">ProjectModelBase</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">公開型態</a> &#124;
+<a href="#pub-methods">公開方法(Public Methods)</a> &#124;
+<a href="#pro-methods">保護方法(Protected Methods)</a> &#124;
+<a href="classi_dream_sky_1_1_project_model_base-members.html">全部成員列表</a>  </div>
+  <div class="headertitle">
+<div class="title">iDreamSky::ProjectModelBase 類別 參考文件<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+公開型態</h2></td></tr>
+<tr class="memitem:aaeeb6cd7cb360baaa87d450f8b63452b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaeeb6cd7cb360baaa87d450f8b63452b"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ChangeFlag</b> { <br />
+&#160;&#160;<b>NONE</b> = 0x00000000, 
+<b>STATE_CHANGED</b> = 0x00000001, 
+<b>CLASSIDXMAP</b> = 0x00000002, 
+<b>ENTITIY_CREATORS</b> = 0x00000004, 
+<br />
+&#160;&#160;<b>RESOURCE_IMPORTERS</b> = 0x00000008, 
+<b>HIERARCHY_SELECTION_CHANGED</b> = 0x00000010, 
+<b>HIERARCHY_VIEW</b> = 0x00000020, 
+<b>SELECTED_ENTITY_VALUE_CHANGED</b> = 0x00000040, 
+<br />
+&#160;&#160;<b>RESOURCEIMPORT_SELECTION_CHANGED</b> = 0x00000080, 
+<b>ALL</b> = 0xffffffff
+<br />
+ }</td></tr>
+<tr class="separator:aaeeb6cd7cb360baaa87d450f8b63452b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開方法(Public Methods)</h2></td></tr>
+<tr class="memitem:a5dbafe0f4b705a0e5cb75843835f7ae9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5dbafe0f4b705a0e5cb75843835f7ae9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initClassIndexMap</b> ()=0</td></tr>
+<tr class="separator:a5dbafe0f4b705a0e5cb75843835f7ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6ce4c3363fb327fb59c35e0e4c6d668"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6ce4c3363fb327fb59c35e0e4c6d668"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumClassIndices</b> ()=0</td></tr>
+<tr class="separator:ac6ce4c3363fb327fb59c35e0e4c6d668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adee45773c54aaac9ae98a78fcf438418"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adee45773c54aaac9ae98a78fcf438418"></a>
+virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><b>getClass</b> (int i)=0</td></tr>
+<tr class="separator:adee45773c54aaac9ae98a78fcf438418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba481bb256607943d97ace5a0f966f3c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba481bb256607943d97ace5a0f966f3c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initEntityCreators</b> ()=0</td></tr>
+<tr class="separator:aba481bb256607943d97ace5a0f966f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a167078190e93817817a8b6dcc09925ab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a167078190e93817817a8b6dcc09925ab"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumEntityCreators</b> (bool includeEditorActive)=0</td></tr>
+<tr class="separator:a167078190e93817817a8b6dcc09925ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d82e7a9e4a83b0c41d38993a078b83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad2d82e7a9e4a83b0c41d38993a078b83"></a>
+virtual <a class="el" href="class_i_dream_sky_1_1_entity_1_1_i_creator.html">Entity::ICreator</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getEntityCreators</b> (int i)=0</td></tr>
+<tr class="separator:ad2d82e7a9e4a83b0c41d38993a078b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb02d234fdfa746624da114307aba0e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5bb02d234fdfa746624da114307aba0e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>beginCheckRawAssets</b> ()=0</td></tr>
+<tr class="separator:a5bb02d234fdfa746624da114307aba0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a765751c0c85bc9da148fd302f6b0d1bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a765751c0c85bc9da148fd302f6b0d1bb"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isCheckingRawAssets</b> ()=0</td></tr>
+<tr class="separator:a765751c0c85bc9da148fd302f6b0d1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a916484e11a4a854aaf6d7281dce8334f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a916484e11a4a854aaf6d7281dce8334f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>beginUpdateResources</b> ()=0</td></tr>
+<tr class="separator:a916484e11a4a854aaf6d7281dce8334f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff097d92c9b301876d0752f159031147"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff097d92c9b301876d0752f159031147"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isUpdatingResources</b> ()=0</td></tr>
+<tr class="separator:aff097d92c9b301876d0752f159031147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c99240998423520a4ed799d63832018"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c99240998423520a4ed799d63832018"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>beginUpdateEntities</b> ()=0</td></tr>
+<tr class="separator:a4c99240998423520a4ed799d63832018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a5937eadd9f3baa9af38bceb6916436"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a5937eadd9f3baa9af38bceb6916436"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isUpdatingEntities</b> ()=0</td></tr>
+<tr class="separator:a0a5937eadd9f3baa9af38bceb6916436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af36063aeae4ecad925d0f0a4dd36547f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af36063aeae4ecad925d0f0a4dd36547f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>updateResourceImporters</b> ()=0</td></tr>
+<tr class="separator:af36063aeae4ecad925d0f0a4dd36547f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db3abac5ba1630384933113900c94e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4db3abac5ba1630384933113900c94e2"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumResourceCreators</b> ()=0</td></tr>
+<tr class="separator:a4db3abac5ba1630384933113900c94e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4df3937d2bd37469b9250b61c1bce71"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4df3937d2bd37469b9250b61c1bce71"></a>
+virtual const ResourceImport::ICreator *&#160;</td><td class="memItemRight" valign="bottom"><b>getResourceCreators</b> (int i) const  =0</td></tr>
+<tr class="separator:af4df3937d2bd37469b9250b61c1bce71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d9175592b88c1e9f5756243133cc18d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d9175592b88c1e9f5756243133cc18d"></a>
+virtual ResourceImport::ICreator *&#160;</td><td class="memItemRight" valign="bottom"><b>getResourceCreators</b> (int i)=0</td></tr>
+<tr class="separator:a1d9175592b88c1e9f5756243133cc18d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf6be97c3e5c61562c73f8425d49f751"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf6be97c3e5c61562c73f8425d49f751"></a>
+virtual <a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createEntity</b> (const char *classPath, const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;position)=0</td></tr>
+<tr class="separator:adf6be97c3e5c61562c73f8425d49f751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43fe717dab6832237966b76f7f096bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af43fe717dab6832237966b76f7f096bb"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>addChild</b> (<a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *newParent, <a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *child)=0</td></tr>
+<tr class="separator:af43fe717dab6832237966b76f7f096bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c5ffc8557e7293616fcf9056e5766f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87c5ffc8557e7293616fcf9056e5766f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>removeChild</b> (<a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *oldParent, <a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *child)=0</td></tr>
+<tr class="separator:a87c5ffc8557e7293616fcf9056e5766f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a607104b88d3ffec1db206c4f1195eeab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a607104b88d3ffec1db206c4f1195eeab"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>changeParent</b> (<a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *newParent, <a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *oldParent, <a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *child)=0</td></tr>
+<tr class="separator:a607104b88d3ffec1db206c4f1195eeab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae83f8512e6444232df52b4bd5d4ad567"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae83f8512e6444232df52b4bd5d4ad567"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setEntityName</b> (<a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *entity, const char *name)=0</td></tr>
+<tr class="separator:ae83f8512e6444232df52b4bd5d4ad567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715b736a0c03dc37ef7f62d9bebbdedc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a715b736a0c03dc37ef7f62d9bebbdedc"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>releaseEntity</b> (<a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *entity)=0</td></tr>
+<tr class="separator:a715b736a0c03dc37ef7f62d9bebbdedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a129239bd9b512e98b1994d20e136200a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a129239bd9b512e98b1994d20e136200a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>releaseAllEntity</b> ()=0</td></tr>
+<tr class="separator:a129239bd9b512e98b1994d20e136200a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5eb6659dcf4c8538a7c851e8e10cddb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa5eb6659dcf4c8538a7c851e8e10cddb"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>selectEntity</b> (<a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *entity)=0</td></tr>
+<tr class="separator:aa5eb6659dcf4c8538a7c851e8e10cddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af12eaaf3c2a0e40ce5bd1f22c4d401fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af12eaaf3c2a0e40ce5bd1f22c4d401fe"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>updateSelectedEntity</b> ()=0</td></tr>
+<tr class="separator:af12eaaf3c2a0e40ce5bd1f22c4d401fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4d415e09b93fbe4e8aa32458b2c33f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4d415e09b93fbe4e8aa32458b2c33f7"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>collectTopLevelEntity</b> (<a class="el" href="class_i_dream_sky_1_1_vector.html">Vector</a>&lt; <a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> * &gt; &amp;topLevelEntities, bool includeEditorEntity=false)=0</td></tr>
+<tr class="separator:aa4d415e09b93fbe4e8aa32458b2c33f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4eb90af53298638428d690e4a6fe1d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4eb90af53298638428d690e4a6fe1d3"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>collectEntitiesRecursive</b> (<a class="el" href="class_i_dream_sky_1_1_vector.html">Vector</a>&lt; <a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> * &gt; &amp;entities, <a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *topLevelEntity, bool includeEditorEntity=false)=0</td></tr>
+<tr class="separator:ab4eb90af53298638428d690e4a6fe1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafe137bf50cc1557b9981c24d2775ae7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafe137bf50cc1557b9981c24d2775ae7"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>collectAllEntities</b> (<a class="el" href="class_i_dream_sky_1_1_vector.html">Vector</a>&lt; <a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> * &gt; &amp;entities, bool includeEditorEntity=false)=0</td></tr>
+<tr class="separator:aafe137bf50cc1557b9981c24d2775ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74a33edbc585273bd175ff3f2c54539e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a74a33edbc585273bd175ff3f2c54539e"></a>
+virtual <a class="el" href="class_i_dream_sky_1_1_entity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getSelectedEntity</b> ()=0</td></tr>
+<tr class="separator:a74a33edbc585273bd175ff3f2c54539e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a689ad5a3b6c7c89126ca17fdf5bbe765"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a689ad5a3b6c7c89126ca17fdf5bbe765"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addView</b> (<a class="el" href="classi_dream_sky_1_1_project_view_base.html">ProjectViewBase</a> *view)</td></tr>
+<tr class="separator:a689ad5a3b6c7c89126ca17fdf5bbe765"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4659bcebb6dec9238661363d01543e6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4659bcebb6dec9238661363d01543e6e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumViews</b> () const </td></tr>
+<tr class="separator:a4659bcebb6dec9238661363d01543e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a928f1792e1b9ad1beb1bf9688c230cfb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a928f1792e1b9ad1beb1bf9688c230cfb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>removeView</b> (<a class="el" href="classi_dream_sky_1_1_project_view_base.html">ProjectViewBase</a> *view)</td></tr>
+<tr class="separator:a928f1792e1b9ad1beb1bf9688c230cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30d5690dfd04557692ab304283fe806a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30d5690dfd04557692ab304283fe806a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasChanged</b> (int flags)</td></tr>
+<tr class="separator:a30d5690dfd04557692ab304283fe806a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe3c62dfa939c12a9ab65ffbade6306"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fe3c62dfa939c12a9ab65ffbade6306"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>notifyViews</b> ()</td></tr>
+<tr class="separator:a2fe3c62dfa939c12a9ab65ffbade6306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5839f8dcbe8521e685cb6f98bb14df6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5839f8dcbe8521e685cb6f98bb14df6d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>notifyViews</b> (const <a class="el" href="class_i_dream_sky_1_1_vector.html">Vector</a>&lt; unsigned char &gt; &amp;buffer)</td></tr>
+<tr class="separator:a5839f8dcbe8521e685cb6f98bb14df6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+保護方法(Protected Methods)</h2></td></tr>
+<tr class="memitem:a159df53241ed6981bf18a641160cdfaf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a159df53241ed6981bf18a641160cdfaf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setChanged</b> (int flags)</td></tr>
+<tr class="separator:a159df53241ed6981bf18a641160cdfaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a036afc0cd3641848d92536de548e9d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a036afc0cd3641848d92536de548e9d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clearChanged</b> (int flags)</td></tr>
+<tr class="separator:a6a036afc0cd3641848d92536de548e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>此類別(class) 文件是由下列檔案中產生:<ul>
+<li>C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/<a class="el" href="_project_state_base_8h_source.html">ProjectStateBase.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

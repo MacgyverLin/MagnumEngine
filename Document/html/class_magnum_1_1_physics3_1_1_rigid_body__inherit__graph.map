@@ -1,0 +1,11 @@
+<map id="Magnum::Physics3::RigidBody" name="Magnum::Physics3::RigidBody">
+<area shape="rect" id="node3" href="$class_magnum_1_1_box3_collider.html" title="Box3Collider Component. " alt="" coords="486,5,639,32"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_b_v_h_triangle_mesh_collider.html" title="BVHTriangleMeshCollider Component. " alt="" coords="449,56,676,83"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_capsule3_collider.html" title="Capsule3Collider Component. " alt="" coords="474,107,651,133"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_cone3_collider.html" title="Cone3Collider Component. " alt="" coords="483,157,643,184"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_convex_hull3_collider.html" title="Magnum::ConvexHull3Collider" alt="" coords="465,208,660,235"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_cylinder3_collider.html" title="Cylinder3Collider Component. " alt="" coords="474,259,651,285"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_height_field_collider.html" title="HeightFieldCollider Component. " alt="" coords="469,309,657,336"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_sphere3_collider.html" title="Sphere3Collider Component. " alt="" coords="477,360,648,387"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_component.html" title="Component. " alt="" coords="5,183,152,209"/>
+</map>

@@ -1,0 +1,315 @@
+\hypertarget{class_magnum_1_1_bill_board}{}\section{Magnum\+:\+:Bill\+Board 類別 參考文件}
+\label{class_magnum_1_1_bill_board}\index{Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}}
+
+
+\hyperlink{class_magnum_1_1_bill_board}{Bill\+Board}.  
+
+
+
+
+{\ttfamily \#include $<$Bill\+Board.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Bill\+Board的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{class_magnum_1_1_bill_board__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Bill\+Board的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{class_magnum_1_1_bill_board__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_magnum_1_1_bill_board_1_1_vertex}{Vertex}
+\end{DoxyCompactItemize}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ {\bfseries N\+U\+M\+\_\+\+T\+E\+X\+T\+U\+R\+ES} = 2
+ \}\hypertarget{class_magnum_1_1_bill_board_af17e3a8dd42172db7ef61a67b3142448}{}\label{class_magnum_1_1_bill_board_af17e3a8dd42172db7ef61a67b3142448}
+
+\item 
+enum {\bfseries Alignment} \{ {\bfseries C\+A\+M\+E\+R\+A\+\_\+Z} = 0, 
+{\bfseries R\+O\+T\+A\+T\+E\+\_\+\+A\+B\+O\+U\+T\+\_\+\+C\+A\+M\+E\+RA}, 
+{\bfseries R\+O\+T\+A\+T\+E\+\_\+\+A\+B\+O\+U\+T\+\_\+\+A\+X\+IS}, 
+{\bfseries R\+O\+T\+A\+T\+E\+\_\+\+A\+B\+O\+U\+T\+\_\+\+P\+I\+V\+OT}
+ \}\hypertarget{class_magnum_1_1_bill_board_a3f1e4105ac9bb86fc6097999d3a79aa1}{}\label{class_magnum_1_1_bill_board_a3f1e4105ac9bb86fc6097999d3a79aa1}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_bill_board_a484900d8c24d851cfccf6b435886a2a4}{Bill\+Board} (\hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} \&owner\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_bill_board}{Bill\+Board} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_bill_board_ab84fd0e03cde0a0f6444cc9d601bd99f}{$\sim$\+Bill\+Board} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_bill_board}{Bill\+Board} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_bill_board_ac58229945b125e3174f5672ec9f968e6}{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT} (\hyperlink{class_magnum_1_1_bill_board}{Bill\+Board}, \hyperlink{class_magnum_1_1_graphics3_component}{Graphics3\+Component}, false)       \hyperlink{class_magnum_1_1_bill_board_ae7043fbb37878e815ee4515567a16c32}{P\+R\+O\+P\+E\+R\+TY}(\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}
+\begin{DoxyCompactList}\small\item\em Set the Path of Shader of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_bill_board_ae7043fbb37878e815ee4515567a16c32}{P\+R\+O\+P\+E\+R\+TY} (\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}, Texture0\+Path)
+\begin{DoxyCompactList}\small\item\em Set the Path of Texture0 of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_bill_board_a4d7116d7456bf82e1e893636a18ae388}{P\+R\+O\+P\+E\+R\+TY} (\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}, Texture1\+Path)
+\begin{DoxyCompactList}\small\item\em Set the Path of Texture1 of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_bill_board_a44595e898aed542ccf25a45d82b2869c}{P\+R\+O\+P\+E\+R\+TY} (\hyperlink{class_magnum_1_1_vector2}{Vector2}, Size)
+\begin{DoxyCompactList}\small\item\em Set the Size of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_bill_board_af5898fa7b3af0a3b2c919d93c83a6c43}{set\+Alignment\+Mode} (const Alignment \&mode)
+\begin{DoxyCompactList}\small\item\em Set the Alignment Mode of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \end{DoxyCompactList}\item 
+const Alignment \& {\bfseries get\+Alignment\+Mode} () const \hypertarget{class_magnum_1_1_bill_board_a7449d9a0d23e0c584e4d2a73afd233a8}{}\label{class_magnum_1_1_bill_board_a7449d9a0d23e0c584e4d2a73afd233a8}
+
+\item 
+void \hyperlink{class_magnum_1_1_bill_board_afebe7edeb5174befb91e9f9205678c89}{set\+Alignment\+Axis} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&axis)
+\begin{DoxyCompactList}\small\item\em Set the Alignment Axis of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} \& {\bfseries get\+Alignment\+Axis} () const \hypertarget{class_magnum_1_1_bill_board_ade8cdb1b707c9c408da541d9693802e1}{}\label{class_magnum_1_1_bill_board_ade8cdb1b707c9c408da541d9693802e1}
+
+\item 
+void \hyperlink{class_magnum_1_1_bill_board_adf4d1c65adcbf8b3ad6767aaa0b18fb5}{set\+Rotation\+Pivot} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&pivot)
+\begin{DoxyCompactList}\small\item\em Set the Rotation Pivot of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} \& {\bfseries get\+Rotation\+Pivot} () const \hypertarget{class_magnum_1_1_bill_board_a35d961b382d6c9199a6c2fb0f853fd40}{}\label{class_magnum_1_1_bill_board_a35d961b382d6c9199a6c2fb0f853fd40}
+
+\end{DoxyCompactItemize}
+\subsection*{公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Shader\+Path}\hypertarget{class_magnum_1_1_bill_board_ac2fb7448a9db2501f30f265c9fc38ae2}{}\label{class_magnum_1_1_bill_board_ac2fb7448a9db2501f30f265c9fc38ae2}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Bill\+Board\+Renderer}\hypertarget{class_magnum_1_1_bill_board_a07900560ab72c0f53aef6760ef761f1c}{}\label{class_magnum_1_1_bill_board_a07900560ab72c0f53aef6760ef761f1c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_bill_board}{Bill\+Board}. 
+
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_graphics3_component}{Graphics3\+Component} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}!Bill\+Board@{Bill\+Board}}
+\index{Bill\+Board@{Bill\+Board}!Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}}
+\subsubsection[{\texorpdfstring{Bill\+Board(\+Component\+::\+Owner \&owner\+\_\+)}{BillBoard(Component::Owner &owner_)}}]{\setlength{\rightskip}{0pt plus 5cm}Bill\+Board\+::\+Bill\+Board (
+\begin{DoxyParamCaption}
+\item[{{\bf Component\+::\+Owner} \&}]{owner\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_bill_board_a484900d8c24d851cfccf6b435886a2a4}{}\label{class_magnum_1_1_bill_board_a484900d8c24d851cfccf6b435886a2a4}
+
+
+\hyperlink{class_magnum_1_1_bill_board}{Bill\+Board} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_bill_board}{Bill\+Board} for the owner. 
+\begin{DoxyParams}{參數}
+{\em owner\+\_\+,the} & \hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} which owns this component. \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_magnum_1_1_bill_board_a484900d8c24d851cfccf6b435886a2a4_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}!````~Bill\+Board@{$\sim$\+Bill\+Board}}
+\index{````~Bill\+Board@{$\sim$\+Bill\+Board}!Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}}
+\subsubsection[{\texorpdfstring{$\sim$\+Bill\+Board()}{~BillBoard()}}]{\setlength{\rightskip}{0pt plus 5cm}Bill\+Board\+::$\sim$\+Bill\+Board (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_bill_board_ab84fd0e03cde0a0f6444cc9d601bd99f}{}\label{class_magnum_1_1_bill_board_ab84fd0e03cde0a0f6444cc9d601bd99f}
+
+
+\hyperlink{class_magnum_1_1_bill_board}{Bill\+Board} Destructor. 
+
+To Destruct the \hyperlink{class_magnum_1_1_bill_board}{Bill\+Board} for the owner. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}!D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT@{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT}}
+\index{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT@{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT}!Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}}
+\subsubsection[{\texorpdfstring{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+N\+T(\+Bill\+Board, Graphics3\+Component, false)       P\+R\+O\+P\+E\+R\+T\+Y(\+Resource\+Path}{DECLARE_COMPONENT(BillBoard, Graphics3Component, false)       PROPERTY(ResourcePath}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Bill\+Board\+::\+D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT (
+\begin{DoxyParamCaption}
+\item[{{\bf Bill\+Board}}]{, }
+\item[{{\bf Graphics3\+Component}}]{, }
+\item[{false}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_bill_board_ac58229945b125e3174f5672ec9f968e6}{}\label{class_magnum_1_1_bill_board_ac58229945b125e3174f5672ec9f968e6}
+
+
+Set the Path of Shader of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path},the} & Path of Shader of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. Get the Path of Shader of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}, the Path of Shader of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(\+Resource\+Path, Texture0\+Path)}{PROPERTY(ResourcePath, Texture0Path)}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Bill\+Board\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{{\bf Resource\+Path}}]{, }
+\item[{Texture0\+Path}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_bill_board_ae7043fbb37878e815ee4515567a16c32}{}\label{class_magnum_1_1_bill_board_ae7043fbb37878e815ee4515567a16c32}
+
+
+Set the Path of Texture0 of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path},the} & Path of Texture0 of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. Get the Path of Texture0 of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}, the Path of Texture0 of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(\+Resource\+Path, Texture1\+Path)}{PROPERTY(ResourcePath, Texture1Path)}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Bill\+Board\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{{\bf Resource\+Path}}]{, }
+\item[{Texture1\+Path}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_bill_board_a4d7116d7456bf82e1e893636a18ae388}{}\label{class_magnum_1_1_bill_board_a4d7116d7456bf82e1e893636a18ae388}
+
+
+Set the Path of Texture1 of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path},the} & Path of Texture1 of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. Get the Path of Texture1 of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}, the Path of Texture1 of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(\+Vector2, Size)}{PROPERTY(Vector2, Size)}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Bill\+Board\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector2}}]{, }
+\item[{Size}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_bill_board_a44595e898aed542ccf25a45d82b2869c}{}\label{class_magnum_1_1_bill_board_a44595e898aed542ccf25a45d82b2869c}
+
+
+Set the Size of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,\hyperlink{class_magnum_1_1_vector2}{Vector2},the} & Size of the Particle of Texture of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. Get the Size of the Particle of Texture of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector2}{Vector2}, the Size of the Particle of Texture of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}!set\+Alignment\+Axis@{set\+Alignment\+Axis}}
+\index{set\+Alignment\+Axis@{set\+Alignment\+Axis}!Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}}
+\subsubsection[{\texorpdfstring{set\+Alignment\+Axis(const Vector3 \&axis)}{setAlignmentAxis(const Vector3 &axis)}}]{\setlength{\rightskip}{0pt plus 5cm}void Bill\+Board\+::set\+Alignment\+Axis (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{axis}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_bill_board_afebe7edeb5174befb91e9f9205678c89}{}\label{class_magnum_1_1_bill_board_afebe7edeb5174befb91e9f9205678c89}
+
+
+Set the Alignment Axis of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3},the} & Alignment Axis of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_vector3}{Vector3} Get the Alignment Axis of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{傳回值}
+, \hyperlink{class_magnum_1_1_vector3}{Vector3}, the Alignment Axis of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_vector3}{Vector3} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}!set\+Alignment\+Mode@{set\+Alignment\+Mode}}
+\index{set\+Alignment\+Mode@{set\+Alignment\+Mode}!Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}}
+\subsubsection[{\texorpdfstring{set\+Alignment\+Mode(const Alignment \&mode)}{setAlignmentMode(const Alignment &mode)}}]{\setlength{\rightskip}{0pt plus 5cm}void Bill\+Board\+::set\+Alignment\+Mode (
+\begin{DoxyParamCaption}
+\item[{const Alignment \&}]{mode}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_bill_board_af5898fa7b3af0a3b2c919d93c83a6c43}{}\label{class_magnum_1_1_bill_board_af5898fa7b3af0a3b2c919d93c83a6c43}
+
+
+Set the Alignment Mode of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,Particle\+Emitter\+::\+Alignment,the} & Alignment Mode of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+Particle\+Emitter\+::\+Alignment Get the Alignment \hyperlink{class_magnum_1_1_graphics3_component_a3170b6656dd79c3c972f0d52e9386bdd}{Mode} of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{傳回值}
+, Particle\+Emitter\+::\+Alignment, the Alignment Mode of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+Particle\+Emitter\+::\+Alignment 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}!set\+Rotation\+Pivot@{set\+Rotation\+Pivot}}
+\index{set\+Rotation\+Pivot@{set\+Rotation\+Pivot}!Magnum\+::\+Bill\+Board@{Magnum\+::\+Bill\+Board}}
+\subsubsection[{\texorpdfstring{set\+Rotation\+Pivot(const Vector3 \&pivot)}{setRotationPivot(const Vector3 &pivot)}}]{\setlength{\rightskip}{0pt plus 5cm}void Bill\+Board\+::set\+Rotation\+Pivot (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{pivot}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_bill_board_adf4d1c65adcbf8b3ad6767aaa0b18fb5}{}\label{class_magnum_1_1_bill_board_adf4d1c65adcbf8b3ad6767aaa0b18fb5}
+
+
+Set the Rotation Pivot of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3},the} & Rotation Pivot of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_vector3}{Vector3} Get the Rotation Pivot of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{傳回值}
+, \hyperlink{class_magnum_1_1_vector3}{Vector3}, the Rotation Pivot of the Particle of the \hyperlink{class_magnum_1_1_particle_emitter}{Particle\+Emitter}. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_vector3}{Vector3} 
+\end{DoxySeeAlso}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_bill_board_adf4d1c65adcbf8b3ad6767aaa0b18fb5_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Bill\+Board.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Bill\+Board.\+cpp\end{DoxyCompactItemize}

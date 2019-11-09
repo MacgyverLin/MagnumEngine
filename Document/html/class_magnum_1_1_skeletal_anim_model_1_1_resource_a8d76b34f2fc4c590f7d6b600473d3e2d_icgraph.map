@@ -1,0 +1,5 @@
+<map id="Magnum::SkeletalAnimModel::Resource::getNumVisualEffectInfos" name="Magnum::SkeletalAnimModel::Resource::getNumVisualEffectInfos">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_model.html#a347a76d9c59646ea702ecac3e1914deb" title="Get the i&#45;th VisualEffect Infomation in the Skeletal Anim Model. " alt="" coords="288,35,480,76"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_model_component.html#a9ef9c3a84c2b8487326eb0976c7a7795" title="Get the i&#45;th Visual Effect(Material) of the Animation Model. " alt="" coords="528,5,720,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_anim_model_renderer.html#a138ac08d14815bdc63a73b2d0722f52f" title="remove SkeletalAnimModelComponent from the Renderer. " alt="" coords="768,35,960,76"/>
+</map>

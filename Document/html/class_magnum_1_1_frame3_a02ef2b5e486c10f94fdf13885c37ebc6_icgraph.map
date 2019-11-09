@@ -1,0 +1,7 @@
+<map id="Magnum::Frame3::getGlobalPosition" name="Magnum::Frame3::getGlobalPosition">
+<area shape="rect" id="node2" href="$class_magnum_1_1_audio_1_1_manager.html#a666d38790d8532041580f8908be4c3ed" title="Get the handle of the Audio System. " alt="" coords="247,5,417,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_bill_board.html#adf4d1c65adcbf8b3ad6767aaa0b18fb5" title="Set the Rotation Pivot of the Particle of the ParticleEmitter. " alt="" coords="262,71,402,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_bill_board_renderer.html#a551846a61bfad0c3104bd75136e37a7e" title="Get the Order of this renderer. " alt="" coords="240,136,424,177"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_editor_gizmo.html#a79d96c8cb5b98f708c5a1c39f7f5b7e4" title="Render reference Transform. " alt="" coords="256,201,408,243"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_particle_emitter.html#abb855f39844e600998adec2736008399" title="Handle Debuger Rendering Event of the Component. " alt="" coords="249,267,415,308"/>
+</map>

@@ -1,0 +1,177 @@
+\hypertarget{class_magnum_1_1_g_z_mem_input_stream}{}\section{Magnum\+:\+:G\+Z\+Mem\+Input\+Stream 類別 參考文件}
+\label{class_magnum_1_1_g_z_mem_input_stream}\index{Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}}
+
+
+類別\+Magnum\+:\+:G\+Z\+Mem\+Input\+Stream的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{class_magnum_1_1_g_z_mem_input_stream__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:G\+Z\+Mem\+Input\+Stream的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{class_magnum_1_1_g_z_mem_input_stream__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+Z\+Mem\+Input\+Stream} (const unsigned char $\ast$data\+\_\+, const unsigned int length\+\_\+)\hypertarget{class_magnum_1_1_g_z_mem_input_stream_a2a861910fa060eebbf0ac6faa7cc26f0}{}\label{class_magnum_1_1_g_z_mem_input_stream_a2a861910fa060eebbf0ac6faa7cc26f0}
+
+\item 
+virtual void \hyperlink{class_magnum_1_1_g_z_mem_input_stream_a8b564628112ee05eb92351f7eac1e355}{readX} (void $\ast$buffer, int size, bool reverse\+Order=false)
+\begin{DoxyCompactList}\small\item\em read function buffer data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_g_z_mem_input_stream_a61f5615cf4feac1867e3722b48cf44b0}{skip} (int size)
+\begin{DoxyCompactList}\small\item\em skip data from buffer \end{DoxyCompactList}\item 
+virtual unsigned int \hyperlink{class_magnum_1_1_g_z_mem_input_stream_a74c846aad4ffeb30d5c578cca1e1e5d1}{length} ()
+\begin{DoxyCompactList}\small\item\em Get the length of buffer data. \end{DoxyCompactList}\item 
+virtual unsigned int \hyperlink{class_magnum_1_1_g_z_mem_input_stream_abad8034612efd18ba47bb45231e42cc1}{tell} ()
+\begin{DoxyCompactList}\small\item\em Tell the current read position. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_g_z_mem_input_stream_a8ae7c17e52f20ee24a0a13ce45816981}{opened} ()
+\begin{DoxyCompactList}\small\item\em Check if the stream is opened. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_g_z_mem_input_stream_af5d94c076844481fca4050ecd0f21c08}{rewind} ()
+\begin{DoxyCompactList}\small\item\em Rewind the stream, the stream current read position will be reset to 0 by this function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}!length@{length}}
+\index{length@{length}!Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{length()}{length()}}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int G\+Z\+Mem\+Input\+Stream\+::length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_mem_input_stream_a74c846aad4ffeb30d5c578cca1e1e5d1}{}\label{class_magnum_1_1_g_z_mem_input_stream_a74c846aad4ffeb30d5c578cca1e1e5d1}
+
+
+Get the length of buffer data. 
+
+\begin{DoxyReturn}{傳回值}
+unsigned int, the length of \hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_input_stream_ab6d6c6089277296d49459011fc3bffb5}{Magnum\+::\+Input\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}!opened@{opened}}
+\index{opened@{opened}!Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{opened()}{opened()}}]{\setlength{\rightskip}{0pt plus 5cm}bool G\+Z\+Mem\+Input\+Stream\+::opened (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_mem_input_stream_a8ae7c17e52f20ee24a0a13ce45816981}{}\label{class_magnum_1_1_g_z_mem_input_stream_a8ae7c17e52f20ee24a0a13ce45816981}
+
+
+Check if the stream is opened. 
+
+\begin{DoxyReturn}{傳回值}
+true, stream is opened, else stream is closed 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_input_stream_adf0fafef2b18906f4be2145d64f9acc7}{Magnum\+::\+Input\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}!readX@{readX}}
+\index{readX@{readX}!Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read\+X(void $\ast$buffer, int size, bool reverse\+Order=false)}{readX(void *buffer, int size, bool reverseOrder=false)}}]{\setlength{\rightskip}{0pt plus 5cm}void G\+Z\+Mem\+Input\+Stream\+::readX (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{buffer, }
+\item[{int}]{size, }
+\item[{bool}]{reverse\+Order = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_mem_input_stream_a8b564628112ee05eb92351f7eac1e355}{}\label{class_magnum_1_1_g_z_mem_input_stream_a8b564628112ee05eb92351f7eac1e355}
+
+
+read function buffer data 
+
+
+\begin{DoxyParams}{參數}
+{\em buffer,void} & $\ast$, the data is read from the inputstream and fill in this buffer \\
+\hline
+{\em size,int,the} & number of byte to be read from the input steam \\
+\hline
+{\em reverse\+Order,true,for} & big endian system false, for little endian system skip data from buffer \\
+\hline
+{\em size,int,the} & number of byte to be skipped Get the length of buffer data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+unsigned int, the length of \hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} Tell the current read position 
+
+unsigned int, the current read position Check if the stream is opened 
+
+true, stream is opened, else stream is closed Rewind the stream, the stream current read position will be reset to 0 by this function 
+
+true, stream is opened, else stream is closed 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_input_stream_ab514aac8cc4042273ce97e919836703b}{Magnum\+::\+Input\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}!rewind@{rewind}}
+\index{rewind@{rewind}!Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{rewind()}{rewind()}}]{\setlength{\rightskip}{0pt plus 5cm}void G\+Z\+Mem\+Input\+Stream\+::rewind (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_mem_input_stream_af5d94c076844481fca4050ecd0f21c08}{}\label{class_magnum_1_1_g_z_mem_input_stream_af5d94c076844481fca4050ecd0f21c08}
+
+
+Rewind the stream, the stream current read position will be reset to 0 by this function. 
+
+\begin{DoxyReturn}{傳回值}
+true, stream is opened, else stream is closed 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_input_stream_af6156ecb8c82e061a158730bd497e5ed}{Magnum\+::\+Input\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}!skip@{skip}}
+\index{skip@{skip}!Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{skip(int size)}{skip(int size)}}]{\setlength{\rightskip}{0pt plus 5cm}void G\+Z\+Mem\+Input\+Stream\+::skip (
+\begin{DoxyParamCaption}
+\item[{int}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_mem_input_stream_a61f5615cf4feac1867e3722b48cf44b0}{}\label{class_magnum_1_1_g_z_mem_input_stream_a61f5615cf4feac1867e3722b48cf44b0}
+
+
+skip data from buffer 
+
+
+\begin{DoxyParams}{參數}
+{\em size,int,the} & number of byte to be skipped \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_input_stream_aafc4188de8ca8d84cfab1c109e0a4113}{Magnum\+::\+Input\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}!tell@{tell}}
+\index{tell@{tell}!Magnum\+::\+G\+Z\+Mem\+Input\+Stream@{Magnum\+::\+G\+Z\+Mem\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{tell()}{tell()}}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int G\+Z\+Mem\+Input\+Stream\+::tell (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_mem_input_stream_abad8034612efd18ba47bb45231e42cc1}{}\label{class_magnum_1_1_g_z_mem_input_stream_abad8034612efd18ba47bb45231e42cc1}
+
+
+Tell the current read position. 
+
+\begin{DoxyReturn}{傳回值}
+unsigned int, the current read position 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_input_stream_a244ca3d979b3e9fdef2721780db89adc}{Magnum\+::\+Input\+Stream}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Input\+Stream.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Input\+Stream.\+cpp\end{DoxyCompactItemize}

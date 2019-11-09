@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{5b6b4ee9-6aed-4071-9e6e-798ae90d5aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{00aec7d1-740b-4a52-9b31-64de32de4849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{83f5cd7c-78a0-4805-8700-4a8c07843858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MacTest">
+      <UniqueIdentifier>{7d10b2a9-169d-48e8-b289-d73cf74756c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\MacDemo">
+      <UniqueIdentifier>{0d472335-166e-43bd-9f50-04cf21ea9a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Editor">
+      <UniqueIdentifier>{76b45e20-8865-4071-9555-7069d244276d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\ModelViewEditorScene">
+      <UniqueIdentifier>{50c0a36a-71dd-41e2-a77d-691e3aeafe87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\ModelViewEditorScene\Actor">
+      <UniqueIdentifier>{904a52b2-394c-4c74-8b3a-9c3d2dc2730d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\ModelViewEditorScene\StateMachine">
+      <UniqueIdentifier>{049fe19b-3276-4870-9b7f-572db4dced3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\ModelViewEditorScene\States">
+      <UniqueIdentifier>{4e348700-1998-4d0f-84a9-c635902ccc12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\ModelViewEditorScene\States\Initiization">
+      <UniqueIdentifier>{961d53dd-5cff-4a7d-954e-7a7e41328bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\ModelViewEditorScene\States\Menu">
+      <UniqueIdentifier>{41f06167-548c-4b11-9330-2d6a6b6c97bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\PlayMode">
+      <UniqueIdentifier>{49e6224c-c024-4a35-a367-5362f78c4fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Racer">
+      <UniqueIdentifier>{dccd39c3-a1c0-4d43-8154-4fb227c9f883}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entities\ReflectEntity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\MacDemoScene.cpp">
+      <Filter>Scenes\MacTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\ModelViewEditorScene.cpp">
+      <Filter>Scenes\ModelViewEditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\ProjectModelFSM.cpp">
+      <Filter>Scenes\ModelViewEditorScene\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\ProjectModel.cpp">
+      <Filter>Scenes\ModelViewEditorScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\StartState.cpp">
+      <Filter>Scenes\ModelViewEditorScene\States\Initiization</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\DebugMenuState.cpp">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\BuildMenuState.cpp">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\HelpMenuState.cpp">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\EditMenuState.cpp">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\FileMenuState.cpp">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\OperationMenuState.cpp">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoAudioListenerEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoAudioSourceEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoBGMEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoBillBoardEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoCameraEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoCubeEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoDiffuseMapCubeEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoDiffuseMapSpecularMapCubeEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoLevelEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoParticleEmitterEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoPhysics3SkeletalAnimModelEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoPlaneEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoSkySphereEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\UpdateAssetsState.cpp">
+      <Filter>Scenes\ModelViewEditorScene\States\Initiization</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\GlobalState.cpp">
+      <Filter>Scenes\ModelViewEditorScene\States\Initiization</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\EditorEntity.cpp">
+      <Filter>Entities\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayModeScene.cpp">
+      <Filter>Scenes\PlayMode</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint\MagnumGame.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoPhysicsCubeEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoPhysicsDiffuseMapCubeEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\MacDemoPhysicsDiffuseMapSpecularMapCubeEntity.cpp">
+      <Filter>Entities\MacDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entities\ReflectEntity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryPoint\EntityCreators.h">
+      <Filter>EntryPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryPoint\SceneCreators.h">
+      <Filter>EntryPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\MacDemoScene.h">
+      <Filter>Scenes\MacTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\ModelViewEditorScene.h">
+      <Filter>Scenes\ModelViewEditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\ProjectModelFSM.h">
+      <Filter>Scenes\ModelViewEditorScene\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\ProjectModel.h">
+      <Filter>Scenes\ModelViewEditorScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\StartState.h">
+      <Filter>Scenes\ModelViewEditorScene\States\Initiization</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\DebugMenuState.h">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\BuildMenuState.h">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\HelpMenuState.h">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\EditMenuState.h">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\FileMenuState.h">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\OperationMenuState.h">
+      <Filter>Scenes\ModelViewEditorScene\States\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoSkySphereEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoAudioListenerEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoAudioSourceEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoBGMEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoBillBoardEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoCameraEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoCubeEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoDiffuseMapCubeEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoDiffuseMapSpecularMapCubeEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoLevelEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoParticleEmitterEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoPhysics3SkeletalAnimModelEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoPlaneEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\UpdateAssetsState.h">
+      <Filter>Scenes\ModelViewEditorScene\States\Initiization</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\GlobalState.h">
+      <Filter>Scenes\ModelViewEditorScene\States\Initiization</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\EditorEntity.h">
+      <Filter>Entities\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayModeScene.h">
+      <Filter>Scenes\PlayMode</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryPoint\MagnumGame.h">
+      <Filter>EntryPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoPhysicsCubeEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoPhysicsDiffuseMapCubeEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\MacDemoPhysicsDiffuseMapSpecularMapCubeEntity.h">
+      <Filter>Entities\MacDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

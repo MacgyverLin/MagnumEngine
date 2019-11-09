@@ -1,0 +1,18 @@
+﻿Build started 1/19/2015 3:56:25 PM.
+     1>Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\EpicForceEngineLib\EpicForceEngineLib.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\EpicForceEngineLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         EpicForceEngineLib.vcxproj -> C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Debug\EpicForceEngineLib.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\EpicForceEngineLib.unsuccessfulbuild".
+         Touching "Debug\EpicForceEngineLib.lastbuildstate".
+     1>Done Building Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\EpicForceEngineLib\EpicForceEngineLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28

@@ -1,0 +1,548 @@
+\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base}{}\section{I\+Dream\+Sky\+:\+:Skeletal\+Anim\+Base 類別 參考文件}
+\label{class_i_dream_sky_1_1_skeletal_anim_base}\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+
+
+Base class For all type of Skeletal Animation.  
+
+
+
+
+{\ttfamily \#include $<$Skeletal\+Anim\+Base.\+h$>$}
+
+類別\+I\+Dream\+Sky\+:\+:Skeletal\+Anim\+Base的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_i_dream_sky_1_1_skeletal_anim_base}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a41b847c7e94a02cf2184ed55ec294d72}{Skeletal\+Anim\+Base} ()\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a41b847c7e94a02cf2184ed55ec294d72}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a41b847c7e94a02cf2184ed55ec294d72}
+
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a26c385908716fbb8faf765c8294933b7}{$\sim$\+Skeletal\+Anim\+Base} ()\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a26c385908716fbb8faf765c8294933b7}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a26c385908716fbb8faf765c8294933b7}
+
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a836daad16db0f622b46b03935b3a29b3}{set\+Time} (const float \&time\+\_\+)=0
+\begin{DoxyCompactList}\small\item\em This function set the animation time. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a8a5fc617483bf51af7b1c196c7678c06}{set\+Speed} (const float \&speed\+\_\+)=0
+\begin{DoxyCompactList}\small\item\em This function set the animation play back speed. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_abfe5574b26b1726311fc351bf9cc0cbc}{set\+Loop\+Behavior} (\hyperlink{class_i_dream_sky_1_1_anim_base_aac1c8b7253df068cf02101dcd4f586e2}{Anim\+Base\+::\+Loop\+Behavior} lb\+\_\+)=0
+\begin{DoxyCompactList}\small\item\em This function set the loop behaviour of animation. \end{DoxyCompactList}\item 
+virtual float \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_abdac5a4486d5257eabda7c2dfac178e3}{get\+Time} () const  =0
+\begin{DoxyCompactList}\small\item\em This function set the animation time. \end{DoxyCompactList}\item 
+virtual float \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a8ab8560a9025183331a2ec5813305394}{get\+Speed} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the animation play back speed. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_anim_base_aac1c8b7253df068cf02101dcd4f586e2}{Anim\+Base\+::\+Loop\+Behavior} \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a035006f39ebbfd043fdaf281a8353d93}{get\+Loop\+Behavior} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the loop behaviour of animation. \end{DoxyCompactList}\item 
+virtual float \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a8305d9715321cb9f6a16e6501b72cbd8}{get\+Duration} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the duration of the animation data. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a91f5c38d6cb9220dd2353366f09a7664}{get\+Num\+Bones} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the Number of Bones in the animation data. \end{DoxyCompactList}\item 
+virtual const char $\ast$ \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_aa7be65ba6178b3538d78b8ad32504bcf}{get\+Bone\+Name} (int bone\+Idx\+\_\+\+\_\+) const  =0
+\begin{DoxyCompactList}\small\item\em This function get the Name of Bone in the animation data. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_ad4420984124b1ee74338524d460e505a}{get\+Bone\+Index} (const char $\ast$name\+\_\+) const  =0
+\begin{DoxyCompactList}\small\item\em This function try to find the position of Bone of animation data. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a4335e1a6e463f36b8530564576d531a8}{get\+Bone\+Parent\+Index} (int bone\+Idx\+\_\+\+\_\+) const  =0
+\begin{DoxyCompactList}\small\item\em This function get the \hyperlink{class_i_dream_sky_1_1_vector10}{Vector10} (scale, rotation and translation) of the i-\/th bone. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a05885a42d51027337a98841e929af057}{get\+Vector10} (int bone\+Idx\+\_\+\+\_\+, \hyperlink{class_i_dream_sky_1_1_vector10}{Vector10} \&v\+\_\+) const  =0
+\begin{DoxyCompactList}\small\item\em This function get the \hyperlink{class_i_dream_sky_1_1_vector10}{Vector10} (scale, rotation and translation) of the i-\/th bone. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a3071b818530589de7f3b28c1300e6135}{get\+Local\+Transform} (int bone\+Idx\+\_\+\+\_\+, \hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \&mat\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em This function get the local \hyperlink{class_i_dream_sky_1_1_transform}{Transform} of of the i-\/th bone. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_abfba256c345b07790b774d0f0b9cc54f}{get\+System\+Transform} (int bone\+Idx\+\_\+\+\_\+, \hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \&mat\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em This function get the global \hyperlink{class_i_dream_sky_1_1_transform}{Transform} of of the i-\/th bone. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_ae27da4b47988780eea5012025fd91109}{update} ()=0
+\begin{DoxyCompactList}\small\item\em This function is implemented thing need to do in each cycle of animation. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_ac4002b89d9e6cf5cfd9da4e0978ea749}{is\+Playing} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the playing status of the Animation. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a0697d0ce16e20098c5c63ff0882362be}{play} (\hyperlink{class_i_dream_sky_1_1_anim_base_aac1c8b7253df068cf02101dcd4f586e2}{Anim\+Base\+::\+Loop\+Behavior} lb\+\_\+=\hyperlink{class_i_dream_sky_1_1_anim_base_aac1c8b7253df068cf02101dcd4f586e2aa119a43717e821f2708795bd94021ea1}{Anim\+Base\+::\+L\+O\+OP}, const float \&speed\+\_\+=1, const float \&starttime\+\_\+=0)=0
+\begin{DoxyCompactList}\small\item\em This function start or resume the Animation. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a7add9665696c4ae222231321fbd39c48}{stop} ()=0
+\begin{DoxyCompactList}\small\item\em This function stop the Animation. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_acfa9bf9e6037a83fc6f4c9bbbc03bbe1}{pause} ()=0
+\begin{DoxyCompactList}\small\item\em This function pause the Animation. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_a8e37498b115718b94072d6bf5c374a31}{rewind} ()=0
+\begin{DoxyCompactList}\small\item\em This function rewind the Animation (to its first frame), clears time. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_i_dream_sky_1_1_skeletal_anim_base_abb02697b8c0a9daacbcf02026cfdf948}{is\+Paused} () const  =0
+\begin{DoxyCompactList}\small\item\em This function get the pause status of the Animation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+Base class For all type of Skeletal Animation. 
+
+This is the base class for all type of Skeletal Animation. The Animation type can be extended by inheritance. 
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!get\+Bone\+Index@{get\+Bone\+Index}}
+\index{get\+Bone\+Index@{get\+Bone\+Index}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Bone\+Index(const char $\ast$name\+\_\+) const  =0}{getBoneIndex(const char *name_) const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::get\+Bone\+Index (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_ad4420984124b1ee74338524d460e505a}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_ad4420984124b1ee74338524d460e505a}
+
+
+This function try to find the position of Bone of animation data. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em name\+\_\+} & the name of Bone to find; \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+if name\+\_\+ exists in the bone list, bone index if name\+\_\+ does not exist in the bone list, -\/1; 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a02f4b2d1c647eb6000ce4950cb1baca4}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!get\+Bone\+Name@{get\+Bone\+Name}}
+\index{get\+Bone\+Name@{get\+Bone\+Name}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Bone\+Name(int bone\+Idx\+\_\+\+\_\+) const  =0}{getBoneName(int boneIdx__) const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual const char$\ast$ I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::get\+Bone\+Name (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_aa7be65ba6178b3538d78b8ad32504bcf}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_aa7be65ba6178b3538d78b8ad32504bcf}
+
+
+This function get the Name of Bone in the animation data. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em i} & the idx to bone array; \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+the name of i-\/th Bone. 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_aa467f64b963302adc2eb4b9e96651e49}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!get\+Bone\+Parent\+Index@{get\+Bone\+Parent\+Index}}
+\index{get\+Bone\+Parent\+Index@{get\+Bone\+Parent\+Index}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Bone\+Parent\+Index(int bone\+Idx\+\_\+\+\_\+) const  =0}{getBoneParentIndex(int boneIdx__) const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::get\+Bone\+Parent\+Index (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a4335e1a6e463f36b8530564576d531a8}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a4335e1a6e463f36b8530564576d531a8}
+
+
+This function get the \hyperlink{class_i_dream_sky_1_1_vector10}{Vector10} (scale, rotation and translation) of the i-\/th bone. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em i\+\_\+} & the index of the bone; \\
+\hline
+{\em v\+\_\+} & the variable to received the \hyperlink{class_i_dream_sky_1_1_vector10}{Vector10} data of i-\/th bone; \\
+\hline
+\end{DoxyParams}
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a37e5b879823526f0f19797416f0b8742}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!get\+Duration@{get\+Duration}}
+\index{get\+Duration@{get\+Duration}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Duration() const  =0}{getDuration() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual float I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::get\+Duration (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a8305d9715321cb9f6a16e6501b72cbd8}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a8305d9715321cb9f6a16e6501b72cbd8}
+
+
+This function get the duration of the animation data. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+the duration of the animation data 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_a7fdd02473fb412e79562f5b0535e7ec8}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a9632809b4b59659cdd5ff4c02371229e}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!get\+Local\+Transform@{get\+Local\+Transform}}
+\index{get\+Local\+Transform@{get\+Local\+Transform}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Local\+Transform(int bone\+Idx\+\_\+\+\_\+, Matrix4 \&mat\+\_\+) const }{getLocalTransform(int boneIdx__, Matrix4 &mat_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Skeletal\+Anim\+Base\+::get\+Local\+Transform (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+\+\_\+, }
+\item[{{\bf Matrix4} \&}]{mat\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a3071b818530589de7f3b28c1300e6135}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a3071b818530589de7f3b28c1300e6135}
+
+
+This function get the local \hyperlink{class_i_dream_sky_1_1_transform}{Transform} of of the i-\/th bone. 
+
+
+\begin{DoxyParams}{參數}
+{\em i\+\_\+} & the index of the bone; \\
+\hline
+{\em mat\+\_\+} & the variable to received the local \hyperlink{class_i_dream_sky_1_1_transform}{Transform} of i-\/th bone; \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!get\+Loop\+Behavior@{get\+Loop\+Behavior}}
+\index{get\+Loop\+Behavior@{get\+Loop\+Behavior}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Loop\+Behavior() const  =0}{getLoopBehavior() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Anim\+Base\+::\+Loop\+Behavior} I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::get\+Loop\+Behavior (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a035006f39ebbfd043fdaf281a8353d93}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a035006f39ebbfd043fdaf281a8353d93}
+
+
+This function get the loop behaviour of animation. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+loop behaviour 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_a49befda4d29f8d5321a15b58c53b934f}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a1f09f358071ec980a3783db1cc63c609}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!get\+Num\+Bones@{get\+Num\+Bones}}
+\index{get\+Num\+Bones@{get\+Num\+Bones}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Num\+Bones() const  =0}{getNumBones() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::get\+Num\+Bones (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a91f5c38d6cb9220dd2353366f09a7664}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a91f5c38d6cb9220dd2353366f09a7664}
+
+
+This function get the Number of Bones in the animation data. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+the number of Bones in the animation data. 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a412fe2a0748a4462d44fd9f7355ba30c}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!get\+Speed@{get\+Speed}}
+\index{get\+Speed@{get\+Speed}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Speed() const  =0}{getSpeed() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual float I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::get\+Speed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a8ab8560a9025183331a2ec5813305394}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a8ab8560a9025183331a2ec5813305394}
+
+
+This function get the animation play back speed. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+the speed of the animation, 1.\+0 means the same speed as exported data 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_a1efd59d6fc483698de74097ef1bb8283}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a1a5fb941a66118b46991c41e7a77d6ad}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!get\+System\+Transform@{get\+System\+Transform}}
+\index{get\+System\+Transform@{get\+System\+Transform}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+System\+Transform(int bone\+Idx\+\_\+\+\_\+, Matrix4 \&mat\+\_\+) const }{getSystemTransform(int boneIdx__, Matrix4 &mat_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Skeletal\+Anim\+Base\+::get\+System\+Transform (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+\+\_\+, }
+\item[{{\bf Matrix4} \&}]{mat\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_abfba256c345b07790b774d0f0b9cc54f}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_abfba256c345b07790b774d0f0b9cc54f}
+
+
+This function get the global \hyperlink{class_i_dream_sky_1_1_transform}{Transform} of of the i-\/th bone. 
+
+
+\begin{DoxyParams}{參數}
+{\em i\+\_\+} & the index of the bone; \\
+\hline
+{\em mat\+\_\+} & the variable to received the global \hyperlink{class_i_dream_sky_1_1_transform}{Transform} of i-\/th bone; \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!get\+Time@{get\+Time}}
+\index{get\+Time@{get\+Time}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Time() const  =0}{getTime() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual float I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::get\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_abdac5a4486d5257eabda7c2dfac178e3}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_abdac5a4486d5257eabda7c2dfac178e3}
+
+
+This function set the animation time. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em time} & the time of the animation \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_a81c2529c9fa02d5ebf872b64a5bec94b}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a1c35d25c9c59c8d867271004a36be82a}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!get\+Vector10@{get\+Vector10}}
+\index{get\+Vector10@{get\+Vector10}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{get\+Vector10(int bone\+Idx\+\_\+\+\_\+, Vector10 \&v\+\_\+) const  =0}{getVector10(int boneIdx__, Vector10 &v_) const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::get\+Vector10 (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+\+\_\+, }
+\item[{{\bf Vector10} \&}]{v\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a05885a42d51027337a98841e929af057}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a05885a42d51027337a98841e929af057}
+
+
+This function get the \hyperlink{class_i_dream_sky_1_1_vector10}{Vector10} (scale, rotation and translation) of the i-\/th bone. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em i\+\_\+} & the index of the bone; \\
+\hline
+{\em v\+\_\+} & the variable to received the \hyperlink{class_i_dream_sky_1_1_vector10}{Vector10} data of i-\/th bone; \\
+\hline
+\end{DoxyParams}
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_ac31d36a225bceb45d1c2410f6819d609}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!is\+Paused@{is\+Paused}}
+\index{is\+Paused@{is\+Paused}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{is\+Paused() const  =0}{isPaused() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::is\+Paused (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_abb02697b8c0a9daacbcf02026cfdf948}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_abb02697b8c0a9daacbcf02026cfdf948}
+
+
+This function get the pause status of the Animation. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+if animation was paused, return true; if animation was not paused, return false; 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_a8aee0c5d07fdaafd564eac6dd086a097}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a5ff4ad32c8af11867829515046d835d0}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!is\+Playing@{is\+Playing}}
+\index{is\+Playing@{is\+Playing}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{is\+Playing() const  =0}{isPlaying() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::is\+Playing (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_ac4002b89d9e6cf5cfd9da4e0978ea749}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_ac4002b89d9e6cf5cfd9da4e0978ea749}
+
+
+This function get the playing status of the Animation. 
+
+This function should be implemented by sub class of Animation. \begin{DoxyReturn}{傳回值}
+if animation is playing, return true; if animation is not playing, return false; 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_a055c9b1b5984709bc8659566a084365c}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a937aa755ef6e880e7779b3a67afb3ca1}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!pause@{pause}}
+\index{pause@{pause}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{pause()=0}{pause()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::pause (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_acfa9bf9e6037a83fc6f4c9bbbc03bbe1}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_acfa9bf9e6037a83fc6f4c9bbbc03bbe1}
+
+
+This function pause the Animation. 
+
+After this function is called, the animation will be set at pause state. We can resume it by calling resume or start
+
+This function should be implemented by sub class of Animation. 
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_a58fa49c138e02d13ac9449644a79de03}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a3adb5a40905ac4f395af18890215e249}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!play@{play}}
+\index{play@{play}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{play(\+Anim\+Base\+::\+Loop\+Behavior lb\+\_\+=\+Anim\+Base\+::\+L\+O\+O\+P, const float \&speed\+\_\+=1, const float \&starttime\+\_\+=0)=0}{play(AnimBase::LoopBehavior lb_=AnimBase::LOOP, const float &speed_=1, const float &starttime_=0)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::play (
+\begin{DoxyParamCaption}
+\item[{{\bf Anim\+Base\+::\+Loop\+Behavior}}]{lb\+\_\+ = {\ttfamily {\bf Anim\+Base\+::\+L\+O\+OP}}, }
+\item[{const float \&}]{speed\+\_\+ = {\ttfamily 1}, }
+\item[{const float \&}]{starttime\+\_\+ = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a0697d0ce16e20098c5c63ff0882362be}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a0697d0ce16e20098c5c63ff0882362be}
+
+
+This function start or resume the Animation. 
+
+After this function is called, the animation will be set at playing state
+
+
+\begin{DoxyParams}{參數}
+{\em lb\+\_\+} & the behaviour when animation is played to last frame \\
+\hline
+{\em speed\+\_\+} & the speed for the animation \\
+\hline
+{\em starttime\+\_\+} & from which the animation is played \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_af3a714ac01e1e1f0ba0abbcfbd4f4444}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a1cecc3b4cb9a378ff1fac5583cbf7f89}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!rewind@{rewind}}
+\index{rewind@{rewind}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{rewind()=0}{rewind()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::rewind (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a8e37498b115718b94072d6bf5c374a31}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a8e37498b115718b94072d6bf5c374a31}
+
+
+This function rewind the Animation (to its first frame), clears time. 
+
+This function should be implemented by sub class of Animation. 
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_af22d4309bea55559e89f8ee6e065e152}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_ad53119fea64b7fc6a1b1ba838d39b7cc}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!set\+Loop\+Behavior@{set\+Loop\+Behavior}}
+\index{set\+Loop\+Behavior@{set\+Loop\+Behavior}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{set\+Loop\+Behavior(\+Anim\+Base\+::\+Loop\+Behavior lb\+\_\+)=0}{setLoopBehavior(AnimBase::LoopBehavior lb_)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::set\+Loop\+Behavior (
+\begin{DoxyParamCaption}
+\item[{{\bf Anim\+Base\+::\+Loop\+Behavior}}]{lb\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_abfe5574b26b1726311fc351bf9cc0cbc}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_abfe5574b26b1726311fc351bf9cc0cbc}
+
+
+This function set the loop behaviour of animation. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em lb\+\_\+} & loop behaviour \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_a6d2aacea797a49db32267341a74d7b15}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a8535d7b72b50b66dbdf9178adb6d84bc}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!set\+Speed@{set\+Speed}}
+\index{set\+Speed@{set\+Speed}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{set\+Speed(const float \&speed\+\_\+)=0}{setSpeed(const float &speed_)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::set\+Speed (
+\begin{DoxyParamCaption}
+\item[{const float \&}]{speed\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a8a5fc617483bf51af7b1c196c7678c06}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a8a5fc617483bf51af7b1c196c7678c06}
+
+
+This function set the animation play back speed. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em speed} & the speed of the animation, set to 1.\+0 for the same speed as exported data \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_a3df2a5e15c9008092b7c5a4b894a1348}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_afaf5a75b6f24eb070c692075207564d4}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!set\+Time@{set\+Time}}
+\index{set\+Time@{set\+Time}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{set\+Time(const float \&time\+\_\+)=0}{setTime(const float &time_)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::set\+Time (
+\begin{DoxyParamCaption}
+\item[{const float \&}]{time\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a836daad16db0f622b46b03935b3a29b3}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a836daad16db0f622b46b03935b3a29b3}
+
+
+This function set the animation time. 
+
+This function should be implemented by sub class of Animation. 
+\begin{DoxyParams}{參數}
+{\em time} & the time of the animation \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_a363398c5b1b32faa1cc2d2d34ded269b}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_ab80c1e90799256b2bef9da9610e79b04}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!stop@{stop}}
+\index{stop@{stop}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{stop()=0}{stop()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_a7add9665696c4ae222231321fbd39c48}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_a7add9665696c4ae222231321fbd39c48}
+
+
+This function stop the Animation. 
+
+After this function is called, the animation will be set at stop state
+
+This function should be implemented by sub class of Animation. 
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_ab14e27f6d184beaa70fb4fd397bdd2c6}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_a061b003b7492b5c91e19e4c9aca1621a}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+\index{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}!update@{update}}
+\index{update@{update}!I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base@{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base}}
+\subsubsection[{\texorpdfstring{update()=0}{update()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Skeletal\+Anim\+Base\+::update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_skeletal_anim_base_ae27da4b47988780eea5012025fd91109}{}\label{class_i_dream_sky_1_1_skeletal_anim_base_ae27da4b47988780eea5012025fd91109}
+
+
+This function is implemented thing need to do in each cycle of animation. 
+
+This function should be implemented by sub class of Animation. 
+
+實作 \hyperlink{class_i_dream_sky_1_1_anim_base_a10fac6c2bffe298a8758ddb142588737}{I\+Dream\+Sky\+::\+Anim\+Base}.
+
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_anim_blender_ad648bb5f97296b7e5ac203967c32a66b}{I\+Dream\+Sky\+::\+Skeletal\+Anim\+Blender}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Skeletal\+Anim\+Base.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Skeletal\+Anim\+Base.\+cpp\end{DoxyCompactItemize}

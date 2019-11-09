@@ -1,0 +1,142 @@
+\hypertarget{class_magnum_1_1_box_shape3}{}\section{Magnum\+:\+:Box\+Shape3 類別 參考文件}
+\label{class_magnum_1_1_box_shape3}\index{Magnum\+::\+Box\+Shape3@{Magnum\+::\+Box\+Shape3}}
+
+
+\hyperlink{class_magnum_1_1_box_shape3}{Box\+Shape3}.  
+
+
+
+
+{\ttfamily \#include $<$Box\+Shape3.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Box\+Shape3的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{class_magnum_1_1_box_shape3__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Box\+Shape3的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{class_magnum_1_1_box_shape3__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_box_shape3_a137fc4277ec6c9a2a87f1f919d8e831d}{Box\+Shape3} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_box_shape3}{Box\+Shape3} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_box_shape3_a9c44670d3cc33ae3c0aa8d8c12495a96}{$\sim$\+Box\+Shape3} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_box_shape3}{Box\+Shape3} Destructor. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_box_shape3_afcb880918c47623a4487a353b3ee6de9}{construct} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&half\+Extent\+\_\+)
+\begin{DoxyCompactList}\small\item\em construct the \hyperlink{class_magnum_1_1_box_shape3}{Box\+Shape3}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_box_shape3_a647ee110dbb44329caf171b7e9aed417}{destruct} ()\hypertarget{class_magnum_1_1_box_shape3_a647ee110dbb44329caf171b7e9aed417}{}\label{class_magnum_1_1_box_shape3_a647ee110dbb44329caf171b7e9aed417}
+
+\begin{DoxyCompactList}\small\item\em destruct \hyperlink{class_magnum_1_1_box_shape3}{Box\+Shape3} and release memory its used \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_box_shape3_aeb4314532f69b7e03d98dacd2f374095}{get\+Mass\+Prop} (float density, float \&mass, \hyperlink{class_magnum_1_1_vector3}{Vector3} \&local\+Inertia) const 
+\begin{DoxyCompactList}\small\item\em calculate the mass and moment of inertia according to the shape and density \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_box_shape3}{Box\+Shape3}. 
+
+This class define a 3D Box Shape. \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_convex_shape3}{Convex\+Shape3} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Box\+Shape3@{Magnum\+::\+Box\+Shape3}!Box\+Shape3@{Box\+Shape3}}
+\index{Box\+Shape3@{Box\+Shape3}!Magnum\+::\+Box\+Shape3@{Magnum\+::\+Box\+Shape3}}
+\subsubsection[{\texorpdfstring{Box\+Shape3()}{BoxShape3()}}]{\setlength{\rightskip}{0pt plus 5cm}Box\+Shape3\+::\+Box\+Shape3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_box_shape3_a137fc4277ec6c9a2a87f1f919d8e831d}{}\label{class_magnum_1_1_box_shape3_a137fc4277ec6c9a2a87f1f919d8e831d}
+
+
+\hyperlink{class_magnum_1_1_box_shape3}{Box\+Shape3} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_box_shape3}{Box\+Shape3} for the owner. \index{Magnum\+::\+Box\+Shape3@{Magnum\+::\+Box\+Shape3}!````~Box\+Shape3@{$\sim$\+Box\+Shape3}}
+\index{````~Box\+Shape3@{$\sim$\+Box\+Shape3}!Magnum\+::\+Box\+Shape3@{Magnum\+::\+Box\+Shape3}}
+\subsubsection[{\texorpdfstring{$\sim$\+Box\+Shape3()}{~BoxShape3()}}]{\setlength{\rightskip}{0pt plus 5cm}Box\+Shape3\+::$\sim$\+Box\+Shape3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_box_shape3_a9c44670d3cc33ae3c0aa8d8c12495a96}{}\label{class_magnum_1_1_box_shape3_a9c44670d3cc33ae3c0aa8d8c12495a96}
+
+
+\hyperlink{class_magnum_1_1_box_shape3}{Box\+Shape3} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_box_shape3}{Box\+Shape3} and remove from its owner. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Box\+Shape3@{Magnum\+::\+Box\+Shape3}!construct@{construct}}
+\index{construct@{construct}!Magnum\+::\+Box\+Shape3@{Magnum\+::\+Box\+Shape3}}
+\subsubsection[{\texorpdfstring{construct(const Vector3 \&half\+Extent\+\_\+)}{construct(const Vector3 &halfExtent_)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Box\+Shape3\+::construct (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{half\+Extent\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_box_shape3_afcb880918c47623a4487a353b3ee6de9}{}\label{class_magnum_1_1_box_shape3_afcb880918c47623a4487a353b3ee6de9}
+
+
+construct the \hyperlink{class_magnum_1_1_box_shape3}{Box\+Shape3}. 
+
+
+\begin{DoxyParams}{參數}
+{\em half\+Extent\+\_\+,the} & extent of the box \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if success, false if fail. 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{class_magnum_1_1_box_shape3_afcb880918c47623a4487a353b3ee6de9_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Box\+Shape3@{Magnum\+::\+Box\+Shape3}!get\+Mass\+Prop@{get\+Mass\+Prop}}
+\index{get\+Mass\+Prop@{get\+Mass\+Prop}!Magnum\+::\+Box\+Shape3@{Magnum\+::\+Box\+Shape3}}
+\subsubsection[{\texorpdfstring{get\+Mass\+Prop(float density, float \&mass, Vector3 \&local\+Inertia) const }{getMassProp(float density, float &mass, Vector3 &localInertia) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Box\+Shape3\+::get\+Mass\+Prop (
+\begin{DoxyParamCaption}
+\item[{float}]{density, }
+\item[{float \&}]{mass, }
+\item[{{\bf Vector3} \&}]{local\+Inertia}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_box_shape3_aeb4314532f69b7e03d98dacd2f374095}{}\label{class_magnum_1_1_box_shape3_aeb4314532f69b7e03d98dacd2f374095}
+
+
+calculate the mass and moment of inertia according to the shape and density 
+
+
+\begin{DoxyParams}{參數}
+{\em density,the} & density of the shape \\
+\hline
+{\em mass,the} & result of the mass of the shape is returned here \\
+\hline
+{\em local\+Inertia,the} & result of the moment of inertia of the shape is returned here \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_shape3_a5d586c69e4a4b59b8386c3fbb8568984}{Magnum\+::\+Shape3}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Box\+Shape3.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Box\+Shape3.\+cpp\end{DoxyCompactItemize}

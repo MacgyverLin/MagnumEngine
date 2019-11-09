@@ -1,0 +1,5 @@
+<map id="Magnum::BillBoardRenderer::remove" name="Magnum::BillBoardRenderer::remove">
+<area shape="rect" id="node2" href="$class_magnum_1_1_camera_component.html#a38e7ee545e4981d3285df17f89561c24" title="Check if the parameter layer matches TargetLayer to this camera. " alt="" coords="237,5,428,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_frame3.html#a02ef2b5e486c10f94fdf13885c37ebc6" title="Get the Frame3&#39;s global position. " alt="" coords="239,71,426,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_frame3.html#a57a2f755811f485d9602103609c78d68" title="Get the Frame3&#39;s global transform. " alt="" coords="239,136,426,177"/>
+</map>

@@ -1,0 +1,46 @@
+<map id="Magnum::Component" name="Magnum::Component">
+<area shape="rect" id="node2" href="$class_magnum_1_1_audio_component.html" title="AudioComponent. " alt="" coords="213,56,392,83"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_camera_component.html" title="CameraComponent. " alt="" coords="207,180,398,207"/>
+<area shape="rect" id="node12" href="$class_magnum_1_1_graphics2.html" title="Magnum::Graphics2" alt="" coords="233,381,372,408"/>
+<area shape="rect" id="node13" href="$class_magnum_1_1_graphics2_component.html" title="Graphics2Component. " alt="" coords="200,432,405,459"/>
+<area shape="rect" id="node14" href="$class_magnum_1_1_graphics3_component.html" title="Graphics3Component. " alt="" coords="200,483,405,509"/>
+<area shape="rect" id="node23" href="$class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. " alt="" coords="202,828,403,855"/>
+<area shape="rect" id="node32" href="$class_magnum_1_1_physics3_1_1_vehicle.html" title="Magnum::Physics3::Vehicle" alt="" coords="210,980,395,1007"/>
+<area shape="rect" id="node34" href="$class_magnum_1_1_renderer_base.html" title="RendererBase. " alt="" coords="221,1292,384,1319"/>
+<area shape="rect" id="node43" href="$class_magnum_1_1_selection3_1_1_bound.html" title="Magnum::Selection3\l::Bound" alt="" coords="232,1562,373,1603"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_audio_listener_base.html" title="AudioListenerBase. " alt="" coords="472,5,661,32"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_audio_source_base.html" title="AudioSourceBase. " alt="" coords="475,56,659,83"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_audio_listener.html" title="AudioListener. " alt="" coords="761,5,920,32"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_audio_clip.html" title="AudioClip. " alt="" coords="773,56,908,83"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_audio_stream.html" title="AudioStream. " alt="" coords="763,107,918,133"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_orthographic_camera_component.html" title="OrthographicCameraComponent. " alt="" coords="467,107,666,149"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_perspective_camera_component.html" title="PerspectiveCameraComponent. " alt="" coords="471,173,663,214"/>
+<area shape="rect" id="node11" href="$class_magnum_1_1_editor_camera_component.html" title="EditorCameraComponent. " alt="" coords="728,180,953,207"/>
+<area shape="rect" id="node15" href="$class_magnum_1_1_bill_board.html" title="BillBoard. " alt="" coords="501,239,633,265"/>
+<area shape="rect" id="node16" href="$class_magnum_1_1_cube.html" title="Cube Rendering Test Graphics Component. " alt="" coords="511,289,622,316"/>
+<area shape="rect" id="node17" href="$class_magnum_1_1_diffuse_map_cube.html" title="DiffuseMapCube Rendering Test Graphics Component. " alt="" coords="479,340,654,367"/>
+<area shape="rect" id="node18" href="$class_magnum_1_1_diffuse_map_specular_map_cube.html" title="DiffuseMapSpecularMapCube Rendering Test Graphics Component. " alt="" coords="469,391,664,433"/>
+<area shape="rect" id="node19" href="$class_magnum_1_1_editor_gizmo.html" title="EditorGizmo. " alt="" coords="491,457,643,484"/>
+<area shape="rect" id="node20" href="$class_magnum_1_1_particle_emitter.html" title="ParticleEmitter. " alt="" coords="483,508,650,535"/>
+<area shape="rect" id="node21" href="$class_magnum_1_1_skeletal_anim_model_component.html" title="SkeletalAnimModelComponent Rendering Graphics Component. " alt="" coords="471,559,663,601"/>
+<area shape="rect" id="node22" href="$class_magnum_1_1_sky_sphere.html" title="SkySphere Rendering Test Graphics Component. " alt="" coords="495,625,639,652"/>
+<area shape="rect" id="node24" href="$class_magnum_1_1_box3_collider.html" title="Box3Collider Component. " alt="" coords="490,676,643,703"/>
+<area shape="rect" id="node25" href="$class_magnum_1_1_b_v_h_triangle_mesh_collider.html" title="BVHTriangleMeshCollider Component. " alt="" coords="453,727,680,753"/>
+<area shape="rect" id="node26" href="$class_magnum_1_1_capsule3_collider.html" title="Capsule3Collider Component. " alt="" coords="478,777,655,804"/>
+<area shape="rect" id="node27" href="$class_magnum_1_1_cone3_collider.html" title="Cone3Collider Component. " alt="" coords="487,828,647,855"/>
+<area shape="rect" id="node28" href="$class_magnum_1_1_convex_hull3_collider.html" title="Magnum::ConvexHull3Collider" alt="" coords="469,879,664,905"/>
+<area shape="rect" id="node29" href="$class_magnum_1_1_cylinder3_collider.html" title="Cylinder3Collider Component. " alt="" coords="478,929,655,956"/>
+<area shape="rect" id="node30" href="$class_magnum_1_1_height_field_collider.html" title="HeightFieldCollider Component. " alt="" coords="473,980,661,1007"/>
+<area shape="rect" id="node31" href="$class_magnum_1_1_sphere3_collider.html" title="Sphere3Collider Component. " alt="" coords="481,1031,652,1057"/>
+<area shape="rect" id="node33" href="$class_magnum_1_1_vehicle_collider.html" title="VehicleCollider Component. " alt="" coords="483,1081,650,1108"/>
+<area shape="rect" id="node35" href="$class_magnum_1_1_bill_board_renderer.html" title="BillBoardRenderer. " alt="" coords="475,1132,659,1159"/>
+<area shape="rect" id="node36" href="$class_magnum_1_1_cube_renderer.html" title="CubeRenderer. " alt="" coords="485,1183,648,1209"/>
+<area shape="rect" id="node37" href="$class_magnum_1_1_diffuse_map_cube_renderer.html" title="DiffuseMapCubeRenderer. " alt="" coords="453,1233,680,1260"/>
+<area shape="rect" id="node38" href="$class_magnum_1_1_diffuse_map_specular_map_cube_renderer.html" title="DiffuseMapSpecularMapCubeRenderer. " alt="" coords="469,1285,664,1326"/>
+<area shape="rect" id="node39" href="$class_magnum_1_1_editor_gizmo_renderer.html" title="EditorGizmoRenderer. " alt="" coords="465,1351,669,1377"/>
+<area shape="rect" id="node40" href="$class_magnum_1_1_particle_emitter_renderer.html" title="ParticleEmitterRenderer. " alt="" coords="457,1401,676,1428"/>
+<area shape="rect" id="node41" href="$class_magnum_1_1_skeletal_anim_model_renderer.html" title="SkeletalAnimModelRenderer. " alt="" coords="471,1453,663,1494"/>
+<area shape="rect" id="node42" href="$class_magnum_1_1_sky_sphere_renderer.html" title="SkySphereRenderer. " alt="" coords="469,1519,665,1545"/>
+<area shape="rect" id="node44" href="$class_magnum_1_1_capsule_bound.html" title="CapsuleBound Component. " alt="" coords="485,1569,649,1596"/>
+<area shape="rect" id="node45" href="$class_magnum_1_1_sphere_bound.html" title="SphereBound Component. " alt="" coords="487,1620,646,1647"/>
+</map>

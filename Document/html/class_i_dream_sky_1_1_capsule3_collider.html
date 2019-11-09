@@ -1,0 +1,521 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: IDreamSky::Capsule3Collider  類別 參考文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li class="current"><a href="annotated.html"><span>類別</span></a></li>
+      <li><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>複合列表</span></a></li>
+      <li><a href="classes.html"><span>複合索引</span></a></li>
+      <li><a href="hierarchy.html"><span>類別階層</span></a></li>
+      <li><a href="functions.html"><span>複合成員</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>IDreamSky</b></li><li class="navelem"><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html">Capsule3Collider</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開方法(Public Methods)</a> &#124;
+<a href="#pub-attribs">公開屬性</a> &#124;
+<a href="class_i_dream_sky_1_1_capsule3_collider-members.html">全部成員列表</a>  </div>
+  <div class="headertitle">
+<div class="title">IDreamSky::Capsule3Collider 類別 參考文件</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html" title="Capsule3Collider Component. ">Capsule3Collider</a> <a class="el" href="class_i_dream_sky_1_1_component.html" title="Component. ">Component</a>.  
+ <a href="class_i_dream_sky_1_1_capsule3_collider.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_capsule3_collider_8h_source.html">Capsule3Collider.h</a>&gt;</code></p>
+<div class="dynheader">
+類別IDreamSky::Capsule3Collider的繼承圖:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_i_dream_sky_1_1_capsule3_collider.png" usemap="#IDreamSky::Capsule3Collider_map" alt=""/>
+  <map id="IDreamSky::Capsule3Collider_map" name="IDreamSky::Capsule3Collider_map">
+<area href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. " alt="IDreamSky::Physics3::RigidBody" shape="rect" coords="0,56,193,80"/>
+<area href="class_i_dream_sky_1_1_component.html" title="Component. " alt="IDreamSky::Component" shape="rect" coords="0,0,193,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開方法(Public Methods)</h2></td></tr>
+<tr class="memitem:a587731f0c8651797ed4b1197247c5639"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html#a587731f0c8651797ed4b1197247c5639">Capsule3Collider</a> (<a class="el" href="class_i_dream_sky_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_)</td></tr>
+<tr class="memdesc:a587731f0c8651797ed4b1197247c5639"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html" title="Capsule3Collider Component. ">Capsule3Collider</a> Constructor.  <a href="#a587731f0c8651797ed4b1197247c5639">更多...</a><br /></td></tr>
+<tr class="separator:a587731f0c8651797ed4b1197247c5639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae058105f27b8c2d3c3d0bf71fa583982"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html#ae058105f27b8c2d3c3d0bf71fa583982">~Capsule3Collider</a> ()</td></tr>
+<tr class="memdesc:ae058105f27b8c2d3c3d0bf71fa583982"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html" title="Capsule3Collider Component. ">Capsule3Collider</a> Destructor.  <a href="#ae058105f27b8c2d3c3d0bf71fa583982">更多...</a><br /></td></tr>
+<tr class="separator:ae058105f27b8c2d3c3d0bf71fa583982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0fd59097a2982d411d43e693f36ac11"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html#ad0fd59097a2982d411d43e693f36ac11">PROPERTY</a> (bool, Kinematic)</td></tr>
+<tr class="memdesc:ad0fd59097a2982d411d43e693f36ac11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the Collider is Kinematic RigidBody.  <a href="#ad0fd59097a2982d411d43e693f36ac11">更多...</a><br /></td></tr>
+<tr class="separator:ad0fd59097a2982d411d43e693f36ac11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25a9e38dd41bfb7119713aac158732dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html#a25a9e38dd41bfb7119713aac158732dd">PROPERTY</a> (float, Radius)</td></tr>
+<tr class="memdesc:a25a9e38dd41bfb7119713aac158732dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Radius of the Capsule.  <a href="#a25a9e38dd41bfb7119713aac158732dd">更多...</a><br /></td></tr>
+<tr class="separator:a25a9e38dd41bfb7119713aac158732dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a843ef83d4a10a10dbaeea18b63c85f68"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html#a843ef83d4a10a10dbaeea18b63c85f68">PROPERTY</a> (float, Height)</td></tr>
+<tr class="memdesc:a843ef83d4a10a10dbaeea18b63c85f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Height of the Capsule.  <a href="#a843ef83d4a10a10dbaeea18b63c85f68">更多...</a><br /></td></tr>
+<tr class="separator:a843ef83d4a10a10dbaeea18b63c85f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body')"><img src="closed.png" alt="-"/>&#160;公開方法(Public Methods) 繼承自 <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html">IDreamSky::Physics3::RigidBody</a></td></tr>
+<tr class="memitem:ad70ccd573eadc1210eb3b73fd577eef4 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#ad70ccd573eadc1210eb3b73fd577eef4">RigidBody</a> (<a class="el" href="class_i_dream_sky_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_)</td></tr>
+<tr class="memdesc:ad70ccd573eadc1210eb3b73fd577eef4 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> Constructor.  <a href="#ad70ccd573eadc1210eb3b73fd577eef4">更多...</a><br /></td></tr>
+<tr class="separator:ad70ccd573eadc1210eb3b73fd577eef4 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4afd414af763a22d983cbfe608d16ec inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#ab4afd414af763a22d983cbfe608d16ec">~RigidBody</a> ()</td></tr>
+<tr class="memdesc:ab4afd414af763a22d983cbfe608d16ec inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> Destructor.  <a href="#ab4afd414af763a22d983cbfe608d16ec">更多...</a><br /></td></tr>
+<tr class="separator:ab4afd414af763a22d983cbfe608d16ec inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5e274aad11227be7f7bb64d76b9528 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a7d5e274aad11227be7f7bb64d76b9528">setTransform</a> (const <a class="el" href="class_i_dream_sky_1_1_matrix4.html">Matrix4</a> &amp;transform_)</td></tr>
+<tr class="memdesc:a7d5e274aad11227be7f7bb64d76b9528 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_i_dream_sky_1_1_transform.html">Transform</a> of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a7d5e274aad11227be7f7bb64d76b9528">更多...</a><br /></td></tr>
+<tr class="separator:a7d5e274aad11227be7f7bb64d76b9528 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4aadcf4a7c9d546b99168890e808aba inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#aa4aadcf4a7c9d546b99168890e808aba">getTransform</a> (<a class="el" href="class_i_dream_sky_1_1_matrix4.html">Matrix4</a> &amp;transform_) const </td></tr>
+<tr class="memdesc:aa4aadcf4a7c9d546b99168890e808aba inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_i_dream_sky_1_1_transform.html">Transform</a> of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#aa4aadcf4a7c9d546b99168890e808aba">更多...</a><br /></td></tr>
+<tr class="separator:aa4aadcf4a7c9d546b99168890e808aba inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7144cd88a27218db578d6d767c06e474 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a7144cd88a27218db578d6d767c06e474">setPosition</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;position_)</td></tr>
+<tr class="memdesc:a7144cd88a27218db578d6d767c06e474 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Position of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a7144cd88a27218db578d6d767c06e474">更多...</a><br /></td></tr>
+<tr class="separator:a7144cd88a27218db578d6d767c06e474 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac64063d18bd567bb8684cb67fbe096da inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#ac64063d18bd567bb8684cb67fbe096da">getPosition</a> () const </td></tr>
+<tr class="memdesc:ac64063d18bd567bb8684cb67fbe096da inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Position of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#ac64063d18bd567bb8684cb67fbe096da">更多...</a><br /></td></tr>
+<tr class="separator:ac64063d18bd567bb8684cb67fbe096da inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d3478baed09428e1ada2ddf8bfa5665 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a5d3478baed09428e1ada2ddf8bfa5665">setAngularPosition</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;axis_, float angle_)</td></tr>
+<tr class="memdesc:a5d3478baed09428e1ada2ddf8bfa5665 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Angular Position of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a5d3478baed09428e1ada2ddf8bfa5665">更多...</a><br /></td></tr>
+<tr class="separator:a5d3478baed09428e1ada2ddf8bfa5665 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa25cc2bc6ce28df7f1fa6e0393d0bfec inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#aa25cc2bc6ce28df7f1fa6e0393d0bfec">setAngularPosition</a> (const <a class="el" href="class_i_dream_sky_1_1_quaternion.html">Quaternion</a> &amp;angularPosition_)</td></tr>
+<tr class="memdesc:aa25cc2bc6ce28df7f1fa6e0393d0bfec inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Angular Position of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#aa25cc2bc6ce28df7f1fa6e0393d0bfec">更多...</a><br /></td></tr>
+<tr class="separator:aa25cc2bc6ce28df7f1fa6e0393d0bfec inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76bac87573ac41149b925f84e9be00f9 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a76bac87573ac41149b925f84e9be00f9">getAngularPosition</a> () const </td></tr>
+<tr class="memdesc:a76bac87573ac41149b925f84e9be00f9 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Angular Position of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a76bac87573ac41149b925f84e9be00f9">更多...</a><br /></td></tr>
+<tr class="separator:a76bac87573ac41149b925f84e9be00f9 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71574b40fa7b726f0304d6b4b902cbed inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a71574b40fa7b726f0304d6b4b902cbed">setLinearVelocity</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;velocity_)</td></tr>
+<tr class="memdesc:a71574b40fa7b726f0304d6b4b902cbed inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Velocity of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a71574b40fa7b726f0304d6b4b902cbed">更多...</a><br /></td></tr>
+<tr class="separator:a71574b40fa7b726f0304d6b4b902cbed inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f48fa3807c3ecdb4a8bfc382d456023 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a1f48fa3807c3ecdb4a8bfc382d456023">getLinearVelocity</a> () const </td></tr>
+<tr class="memdesc:a1f48fa3807c3ecdb4a8bfc382d456023 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Velocity of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a1f48fa3807c3ecdb4a8bfc382d456023">更多...</a><br /></td></tr>
+<tr class="separator:a1f48fa3807c3ecdb4a8bfc382d456023 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d485613dca6a54b3eb3adffda0d212a inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a9d485613dca6a54b3eb3adffda0d212a">setAngularVelocity</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;angularVel_)</td></tr>
+<tr class="memdesc:a9d485613dca6a54b3eb3adffda0d212a inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Angular Velocity of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a9d485613dca6a54b3eb3adffda0d212a">更多...</a><br /></td></tr>
+<tr class="separator:a9d485613dca6a54b3eb3adffda0d212a inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3262511aa29767d58486286a18180721 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a3262511aa29767d58486286a18180721">getAngularVelocity</a> () const </td></tr>
+<tr class="memdesc:a3262511aa29767d58486286a18180721 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Angular Velocity of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a3262511aa29767d58486286a18180721">更多...</a><br /></td></tr>
+<tr class="separator:a3262511aa29767d58486286a18180721 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec719c23ab1c90fa9522d5128b6f628 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a4ec719c23ab1c90fa9522d5128b6f628">setLinearFactor</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;factor_)</td></tr>
+<tr class="memdesc:a4ec719c23ab1c90fa9522d5128b6f628 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Linear Factor of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a4ec719c23ab1c90fa9522d5128b6f628">更多...</a><br /></td></tr>
+<tr class="separator:a4ec719c23ab1c90fa9522d5128b6f628 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e146f328579ca963a8e2b0c151ab168 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a0e146f328579ca963a8e2b0c151ab168">getLinearFactor</a> () const </td></tr>
+<tr class="memdesc:a0e146f328579ca963a8e2b0c151ab168 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Linear Factor of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a0e146f328579ca963a8e2b0c151ab168">更多...</a><br /></td></tr>
+<tr class="separator:a0e146f328579ca963a8e2b0c151ab168 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdf7ba04d15122d05f06bea761fa1166 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#abdf7ba04d15122d05f06bea761fa1166">setAngularFactor</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;factor_)</td></tr>
+<tr class="memdesc:abdf7ba04d15122d05f06bea761fa1166 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Angular Factor of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#abdf7ba04d15122d05f06bea761fa1166">更多...</a><br /></td></tr>
+<tr class="separator:abdf7ba04d15122d05f06bea761fa1166 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c13cef6cb8baa62de37b35caf42ba32 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a6c13cef6cb8baa62de37b35caf42ba32">getAngularFactor</a> () const </td></tr>
+<tr class="memdesc:a6c13cef6cb8baa62de37b35caf42ba32 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Angular Factor of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a6c13cef6cb8baa62de37b35caf42ba32">更多...</a><br /></td></tr>
+<tr class="separator:a6c13cef6cb8baa62de37b35caf42ba32 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2f4fd2a004f2dc740e86e36d94d5b90 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#ab2f4fd2a004f2dc740e86e36d94d5b90">applyForce</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;force_, const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;point_)</td></tr>
+<tr class="memdesc:ab2f4fd2a004f2dc740e86e36d94d5b90 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a Force of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at specific point around its center of mass.  <a href="#ab2f4fd2a004f2dc740e86e36d94d5b90">更多...</a><br /></td></tr>
+<tr class="separator:ab2f4fd2a004f2dc740e86e36d94d5b90 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aeb196f8670a2e820ae4c829a7ab069 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a7aeb196f8670a2e820ae4c829a7ab069">applyForceToCenter</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;force_)</td></tr>
+<tr class="memdesc:a7aeb196f8670a2e820ae4c829a7ab069 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a Force of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at center of its center of mass.  <a href="#a7aeb196f8670a2e820ae4c829a7ab069">更多...</a><br /></td></tr>
+<tr class="separator:a7aeb196f8670a2e820ae4c829a7ab069 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78b659c6e60a30b97251440c6c12e445 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a78b659c6e60a30b97251440c6c12e445">applyTorque</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;torque_)</td></tr>
+<tr class="memdesc:a78b659c6e60a30b97251440c6c12e445 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a Torque(Rotational Force) of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at center of mass.  <a href="#a78b659c6e60a30b97251440c6c12e445">更多...</a><br /></td></tr>
+<tr class="separator:a78b659c6e60a30b97251440c6c12e445 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631accd90e4b499cfbe5b691ac07b905 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a631accd90e4b499cfbe5b691ac07b905">applyLinearImpulse</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;impulse_, const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;point_)</td></tr>
+<tr class="memdesc:a631accd90e4b499cfbe5b691ac07b905 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a LinearImpulse (Delta Velocity) of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at specific point around its center of mass.  <a href="#a631accd90e4b499cfbe5b691ac07b905">更多...</a><br /></td></tr>
+<tr class="separator:a631accd90e4b499cfbe5b691ac07b905 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a791761a4c6d234811140ad4698ef4a6f inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a791761a4c6d234811140ad4698ef4a6f">applyLinearImpulseToCenter</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;impulse_)</td></tr>
+<tr class="memdesc:a791761a4c6d234811140ad4698ef4a6f inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a LinearImpulse (Delta Velocity) of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at its center of mass.  <a href="#a791761a4c6d234811140ad4698ef4a6f">更多...</a><br /></td></tr>
+<tr class="separator:a791761a4c6d234811140ad4698ef4a6f inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14008559db22c483b4d2aa1e0f18c5b6 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a14008559db22c483b4d2aa1e0f18c5b6">applyAngularImpulse</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;angularImpulse_)</td></tr>
+<tr class="memdesc:a14008559db22c483b4d2aa1e0f18c5b6 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a AngularImpulse (Delta Angular Velocity) of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> at its center of mass.  <a href="#a14008559db22c483b4d2aa1e0f18c5b6">更多...</a><br /></td></tr>
+<tr class="separator:a14008559db22c483b4d2aa1e0f18c5b6 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a97500df9a0b01efee57289bac19df4 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a3a97500df9a0b01efee57289bac19df4">getMass</a> () const </td></tr>
+<tr class="memdesc:a3a97500df9a0b01efee57289bac19df4 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Mass of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a3a97500df9a0b01efee57289bac19df4">更多...</a><br /></td></tr>
+<tr class="separator:a3a97500df9a0b01efee57289bac19df4 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e1a4453fc4a842231073803bb22234c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8e1a4453fc4a842231073803bb22234c">getInertia</a> () const </td></tr>
+<tr class="memdesc:a8e1a4453fc4a842231073803bb22234c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Moment of Inertia of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a8e1a4453fc4a842231073803bb22234c">更多...</a><br /></td></tr>
+<tr class="separator:a8e1a4453fc4a842231073803bb22234c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21168759e6e9c167779515f0cc7889eb inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a21168759e6e9c167779515f0cc7889eb">getWorldPoint</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;localPoint_) const </td></tr>
+<tr class="memdesc:a21168759e6e9c167779515f0cc7889eb inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Position in Local Space of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Position in the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_world.html">World</a> Space.  <a href="#a21168759e6e9c167779515f0cc7889eb">更多...</a><br /></td></tr>
+<tr class="separator:a21168759e6e9c167779515f0cc7889eb inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ec487fedfcc7b719439e709bf8d3fc0 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a3ec487fedfcc7b719439e709bf8d3fc0">getWorldVector</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;localVector_) const </td></tr>
+<tr class="memdesc:a3ec487fedfcc7b719439e709bf8d3fc0 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Directional <a class="el" href="class_i_dream_sky_1_1_vector.html" title="Vector class for a bound protected array class with variable size. ">Vector</a> in Local Space of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Direction in the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_world.html">World</a> Space.  <a href="#a3ec487fedfcc7b719439e709bf8d3fc0">更多...</a><br /></td></tr>
+<tr class="separator:a3ec487fedfcc7b719439e709bf8d3fc0 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab35b04ae4f947039424039d53f6a6f02 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#ab35b04ae4f947039424039d53f6a6f02">getLocalPoint</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;worldPoint_) const </td></tr>
+<tr class="memdesc:ab35b04ae4f947039424039d53f6a6f02 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Position in <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_world.html">World</a> Space of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Position in the Local Space.  <a href="#ab35b04ae4f947039424039d53f6a6f02">更多...</a><br /></td></tr>
+<tr class="separator:ab35b04ae4f947039424039d53f6a6f02 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a805d3ffcbbb1b8ac8b171026f23a795b inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a805d3ffcbbb1b8ac8b171026f23a795b">getLocalVector</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;worldVector_) const </td></tr>
+<tr class="memdesc:a805d3ffcbbb1b8ac8b171026f23a795b inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a Directional <a class="el" href="class_i_dream_sky_1_1_vector.html" title="Vector class for a bound protected array class with variable size. ">Vector</a> in <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_world.html">World</a> Space of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> to a corresponding Direction in the Local Space.  <a href="#a805d3ffcbbb1b8ac8b171026f23a795b">更多...</a><br /></td></tr>
+<tr class="separator:a805d3ffcbbb1b8ac8b171026f23a795b inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a671f0361b94d8727d152e0dc17eaa7e6 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a671f0361b94d8727d152e0dc17eaa7e6">getLinearVelocityFromWorldPoint</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;worldPoint_) const </td></tr>
+<tr class="memdesc:a671f0361b94d8727d152e0dc17eaa7e6 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Linear Velocity of specific point in <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_world.html">World</a> Space on the Rigidbody.  <a href="#a671f0361b94d8727d152e0dc17eaa7e6">更多...</a><br /></td></tr>
+<tr class="separator:a671f0361b94d8727d152e0dc17eaa7e6 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aca0169fb6e1fb70158cec477f53e73 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a5aca0169fb6e1fb70158cec477f53e73">getLinearVelocityFromLocalPoint</a> (const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;localPoint_) const </td></tr>
+<tr class="memdesc:a5aca0169fb6e1fb70158cec477f53e73 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Linear Velocity of specific point in Local Space on the Rigidbody.  <a href="#a5aca0169fb6e1fb70158cec477f53e73">更多...</a><br /></td></tr>
+<tr class="separator:a5aca0169fb6e1fb70158cec477f53e73 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd41697e67b5dea2b5ca0bcdcda9c22 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a5fd41697e67b5dea2b5ca0bcdcda9c22">setLinearDamping</a> (float linearDamping_)</td></tr>
+<tr class="memdesc:a5fd41697e67b5dea2b5ca0bcdcda9c22 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Linear Damping Factor of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a5fd41697e67b5dea2b5ca0bcdcda9c22">更多...</a><br /></td></tr>
+<tr class="separator:a5fd41697e67b5dea2b5ca0bcdcda9c22 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70ca7bcda490e12f2a9f3215a0d31832 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a70ca7bcda490e12f2a9f3215a0d31832">getLinearDamping</a> () const </td></tr>
+<tr class="memdesc:a70ca7bcda490e12f2a9f3215a0d31832 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Linear Damping Factor of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a70ca7bcda490e12f2a9f3215a0d31832">更多...</a><br /></td></tr>
+<tr class="separator:a70ca7bcda490e12f2a9f3215a0d31832 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8001be31fa3920c73c1bae548d469d inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#adb8001be31fa3920c73c1bae548d469d">setAngularDamping</a> (float angularDamping_)</td></tr>
+<tr class="memdesc:adb8001be31fa3920c73c1bae548d469d inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Angular Damping Factor of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#adb8001be31fa3920c73c1bae548d469d">更多...</a><br /></td></tr>
+<tr class="separator:adb8001be31fa3920c73c1bae548d469d inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0cdf429a507a5237ef84825d883ea1b inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#ac0cdf429a507a5237ef84825d883ea1b">getAngularDamping</a> () const </td></tr>
+<tr class="memdesc:ac0cdf429a507a5237ef84825d883ea1b inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Angular Damping Factor of the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#ac0cdf429a507a5237ef84825d883ea1b">更多...</a><br /></td></tr>
+<tr class="separator:ac0cdf429a507a5237ef84825d883ea1b inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a508230d75ce92867d248c34b82465c10 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a508230d75ce92867d248c34b82465c10">setType</a> (<a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8a970d66442558ce0a3ce7b8009c14fa">Physics3::RigidBody::Type</a> type_)</td></tr>
+<tr class="memdesc:a508230d75ce92867d248c34b82465c10 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> Type.  <a href="#a508230d75ce92867d248c34b82465c10">更多...</a><br /></td></tr>
+<tr class="separator:a508230d75ce92867d248c34b82465c10 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7963a89eac63988e41d93e444d89a243 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8a970d66442558ce0a3ce7b8009c14fa">Physics3::RigidBody::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a7963a89eac63988e41d93e444d89a243">getType</a> () const </td></tr>
+<tr class="memdesc:a7963a89eac63988e41d93e444d89a243 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a> Type.  <a href="#a7963a89eac63988e41d93e444d89a243">更多...</a><br /></td></tr>
+<tr class="separator:a7963a89eac63988e41d93e444d89a243 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde660e6ae2336bc6b5ae0e8f5219bd7 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#abde660e6ae2336bc6b5ae0e8f5219bd7">setMaterial</a> (const <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_material.html">Physics3::Material</a> &amp;material_)</td></tr>
+<tr class="memdesc:abde660e6ae2336bc6b5ae0e8f5219bd7 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_material.html" title="Material. ">Material</a> of <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#abde660e6ae2336bc6b5ae0e8f5219bd7">更多...</a><br /></td></tr>
+<tr class="separator:abde660e6ae2336bc6b5ae0e8f5219bd7 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3ac34c2a9ca4d357911596493781cbe inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_material.html">Physics3::Material</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#ad3ac34c2a9ca4d357911596493781cbe">getMaterial</a> () const </td></tr>
+<tr class="memdesc:ad3ac34c2a9ca4d357911596493781cbe inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_material.html" title="Material. ">Material</a> <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#ad3ac34c2a9ca4d357911596493781cbe">更多...</a><br /></td></tr>
+<tr class="separator:ad3ac34c2a9ca4d357911596493781cbe inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec6c6c3d392567f7c0ee2a9857b4c49d inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#aec6c6c3d392567f7c0ee2a9857b4c49d">setCollisionFilter</a> (const <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_collision_filter.html">Physics3::CollisionFilter</a> &amp;collisionFilter_)</td></tr>
+<tr class="memdesc:aec6c6c3d392567f7c0ee2a9857b4c49d inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">CollisionFilter</a> of <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#aec6c6c3d392567f7c0ee2a9857b4c49d">更多...</a><br /></td></tr>
+<tr class="separator:aec6c6c3d392567f7c0ee2a9857b4c49d inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aead253bff5342b09fb8705edf553ca98 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_collision_filter.html">Physics3::CollisionFilter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#aead253bff5342b09fb8705edf553ca98">getCollisionFilter</a> () const </td></tr>
+<tr class="memdesc:aead253bff5342b09fb8705edf553ca98 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">Physics3::CollisionFilter</a> <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#aead253bff5342b09fb8705edf553ca98">更多...</a><br /></td></tr>
+<tr class="separator:aead253bff5342b09fb8705edf553ca98 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fa821b799126307734a48d72aa2cd6c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a1fa821b799126307734a48d72aa2cd6c">setBullet</a> (bool flag)</td></tr>
+<tr class="memdesc:a1fa821b799126307734a48d72aa2cd6c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether or not the Rigidbody use continuous collision detection(bullet).  <a href="#a1fa821b799126307734a48d72aa2cd6c">更多...</a><br /></td></tr>
+<tr class="separator:a1fa821b799126307734a48d72aa2cd6c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee7b6fe98fb29804fa4f1731f30994c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a7ee7b6fe98fb29804fa4f1731f30994c">isBullet</a> () const </td></tr>
+<tr class="memdesc:a7ee7b6fe98fb29804fa4f1731f30994c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether or not the Rigidbody use continuous collision detection(bullet).  <a href="#a7ee7b6fe98fb29804fa4f1731f30994c">更多...</a><br /></td></tr>
+<tr class="separator:a7ee7b6fe98fb29804fa4f1731f30994c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06fadd5ade78b67db587fb0ee8b02ae3 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a06fadd5ade78b67db587fb0ee8b02ae3">setSleepingAllowed</a> (bool flag)</td></tr>
+<tr class="memdesc:a06fadd5ade78b67db587fb0ee8b02ae3 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether or not the Rigidbody is allowed to enter to sleep mode while isolated.  <a href="#a06fadd5ade78b67db587fb0ee8b02ae3">更多...</a><br /></td></tr>
+<tr class="separator:a06fadd5ade78b67db587fb0ee8b02ae3 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3629376b3a74724684ea012f9d0412e9 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a3629376b3a74724684ea012f9d0412e9">isSleepingAllowed</a> () const </td></tr>
+<tr class="memdesc:a3629376b3a74724684ea012f9d0412e9 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether or not the Rigidbody is allowed to enter to sleep mode while isolated.  <a href="#a3629376b3a74724684ea012f9d0412e9">更多...</a><br /></td></tr>
+<tr class="separator:a3629376b3a74724684ea012f9d0412e9 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d9ee1a2ba1d9c09d711b3d5a00bab48 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a4d9ee1a2ba1d9c09d711b3d5a00bab48">setAwake</a> (bool flag)</td></tr>
+<tr class="memdesc:a4d9ee1a2ba1d9c09d711b3d5a00bab48 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Rigidbody to awake state.  <a href="#a4d9ee1a2ba1d9c09d711b3d5a00bab48">更多...</a><br /></td></tr>
+<tr class="separator:a4d9ee1a2ba1d9c09d711b3d5a00bab48 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf56d13f35a8f358864885ec97ac65a5 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#adf56d13f35a8f358864885ec97ac65a5">isAwake</a> () const </td></tr>
+<tr class="memdesc:adf56d13f35a8f358864885ec97ac65a5 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Rigidbody is in awake state.  <a href="#adf56d13f35a8f358864885ec97ac65a5">更多...</a><br /></td></tr>
+<tr class="separator:adf56d13f35a8f358864885ec97ac65a5 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a200da59764cfc4196cc3db7eb39bb262 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a200da59764cfc4196cc3db7eb39bb262">setActive</a> (bool flag)</td></tr>
+<tr class="memdesc:a200da59764cfc4196cc3db7eb39bb262 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Rigidbody to active state.  <a href="#a200da59764cfc4196cc3db7eb39bb262">更多...</a><br /></td></tr>
+<tr class="separator:a200da59764cfc4196cc3db7eb39bb262 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2769e904a08ef6714836a0885016b476 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a2769e904a08ef6714836a0885016b476">isActive</a> () const </td></tr>
+<tr class="memdesc:a2769e904a08ef6714836a0885016b476 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Rigidbody to active state.  <a href="#a2769e904a08ef6714836a0885016b476">更多...</a><br /></td></tr>
+<tr class="separator:a2769e904a08ef6714836a0885016b476 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab47a2db4795a49195dc59620ba4ab52c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#ab47a2db4795a49195dc59620ba4ab52c">setCollisionCallBack</a> (<a class="el" href="class_i_dream_sky_1_1_functor.html">Functor</a> *collisionCB_)</td></tr>
+<tr class="memdesc:ab47a2db4795a49195dc59620ba4ab52c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the CallBack Function for collision event between rigidbodies.  <a href="#ab47a2db4795a49195dc59620ba4ab52c">更多...</a><br /></td></tr>
+<tr class="separator:ab47a2db4795a49195dc59620ba4ab52c inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af489937982e89fffadde2a4885d0c9ce inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_functor.html">Functor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#af489937982e89fffadde2a4885d0c9ce">getCollisionCallBack</a> () const </td></tr>
+<tr class="memdesc:af489937982e89fffadde2a4885d0c9ce inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the CallBack Function for collision event between rigidbodies.  <a href="#af489937982e89fffadde2a4885d0c9ce">更多...</a><br /></td></tr>
+<tr class="separator:af489937982e89fffadde2a4885d0c9ce inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ffcb6cb2ddf0f264d4d7df2c45319c2 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a2ffcb6cb2ddf0f264d4d7df2c45319c2">setDestuctionCallBack</a> (<a class="el" href="class_i_dream_sky_1_1_functor.html">Functor</a> *destructionCB_)</td></tr>
+<tr class="memdesc:a2ffcb6cb2ddf0f264d4d7df2c45319c2 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the CallBack Function for destruction event of the joint connected on the rigidbody.  <a href="#a2ffcb6cb2ddf0f264d4d7df2c45319c2">更多...</a><br /></td></tr>
+<tr class="separator:a2ffcb6cb2ddf0f264d4d7df2c45319c2 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec3467cdf36209d4c97d611adfab805 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_functor.html">Functor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#abec3467cdf36209d4c97d611adfab805">getDestuctionCallBack</a> () const </td></tr>
+<tr class="memdesc:abec3467cdf36209d4c97d611adfab805 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the CallBack Function for destruction event of the joint connected on the rigidbody.  <a href="#abec3467cdf36209d4c97d611adfab805">更多...</a><br /></td></tr>
+<tr class="separator:abec3467cdf36209d4c97d611adfab805 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ca239d5d3b384b7fd40aa33b5ee20f inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#af8ca239d5d3b384b7fd40aa33b5ee20f">setUserData</a> (void *userData_)</td></tr>
+<tr class="memdesc:af8ca239d5d3b384b7fd40aa33b5ee20f inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the pointer for custom user data.  <a href="#af8ca239d5d3b384b7fd40aa33b5ee20f">更多...</a><br /></td></tr>
+<tr class="separator:af8ca239d5d3b384b7fd40aa33b5ee20f inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06204907d5fc684e249d486d816a73f3 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a06204907d5fc684e249d486d816a73f3">getUserData</a> () const </td></tr>
+<tr class="memdesc:a06204907d5fc684e249d486d816a73f3 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pointer for custom user data.  <a href="#a06204907d5fc684e249d486d816a73f3">更多...</a><br /></td></tr>
+<tr class="separator:a06204907d5fc684e249d486d816a73f3 inherit pub_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_i_dream_sky_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_dream_sky_1_1_component')"><img src="closed.png" alt="-"/>&#160;公開方法(Public Methods) 繼承自 <a class="el" href="class_i_dream_sky_1_1_component.html">IDreamSky::Component</a></td></tr>
+<tr class="memitem:a756ac15f5ce6fa021d35c6115b8fe64b inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a756ac15f5ce6fa021d35c6115b8fe64b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> (<a class="el" href="class_i_dream_sky_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_)</td></tr>
+<tr class="separator:a756ac15f5ce6fa021d35c6115b8fe64b inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fb71f3f47432cbcd28db0a183833686 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fb71f3f47432cbcd28db0a183833686"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS</b> (<a class="el" href="class_i_dream_sky_1_1_component.html">Component</a>, <a class="el" href="classagm_1_1reflection_1_1_null_class.html">agm::reflection::NullClass</a>)</td></tr>
+<tr class="separator:a2fb71f3f47432cbcd28db0a183833686 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b70d4bbc1cc834bf94fce513af81424 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_component.html#a6b70d4bbc1cc834bf94fce513af81424">PROPERTY</a> (bool, Enabled)</td></tr>
+<tr class="memdesc:a6b70d4bbc1cc834bf94fce513af81424 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Enabled <a class="el" href="class_i_dream_sky_1_1_state.html">State</a> of <a class="el" href="class_i_dream_sky_1_1_component_1_1_owner.html" title="Owner. ">Owner</a>, if the component is not active, it become non functional.  <a href="#a6b70d4bbc1cc834bf94fce513af81424">更多...</a><br /></td></tr>
+<tr class="separator:a6b70d4bbc1cc834bf94fce513af81424 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a938ae1e7fbc0288b07c89cccada70046 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_component.html#a938ae1e7fbc0288b07c89cccada70046">PROPERTY</a> (<a class="el" href="class_i_dream_sky_1_1_string.html">String</a>, Name)</td></tr>
+<tr class="memdesc:a938ae1e7fbc0288b07c89cccada70046 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Name of <a class="el" href="class_i_dream_sky_1_1_component_1_1_owner.html" title="Owner. ">Owner</a>.  <a href="#a938ae1e7fbc0288b07c89cccada70046">更多...</a><br /></td></tr>
+<tr class="separator:a938ae1e7fbc0288b07c89cccada70046 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296debc61f8cccc361ef8db6debcb5c8 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a296debc61f8cccc361ef8db6debcb5c8"></a>
+<a class="el" href="class_i_dream_sky_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getOwner</b> ()</td></tr>
+<tr class="separator:a296debc61f8cccc361ef8db6debcb5c8 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa736314b74d00201729f97bb40c0f7dc inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa736314b74d00201729f97bb40c0f7dc"></a>
+const <a class="el" href="class_i_dream_sky_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getOwner</b> () const </td></tr>
+<tr class="separator:aa736314b74d00201729f97bb40c0f7dc inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a364ed78577cefce64cea058e31343aa0 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a364ed78577cefce64cea058e31343aa0"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isEditorModeActive</b> () const  =0</td></tr>
+<tr class="separator:a364ed78577cefce64cea058e31343aa0 inherit pub_methods_class_i_dream_sky_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+公開屬性</h2></td></tr>
+<tr class="memitem:a17b897e20a45805fa1202bc4e97130fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17b897e20a45805fa1202bc4e97130fd"></a>
+<a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8a970d66442558ce0a3ce7b8009c14fa">Physics3::RigidBody::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html#a17b897e20a45805fa1202bc4e97130fd">type</a></td></tr>
+<tr class="memdesc:a17b897e20a45805fa1202bc4e97130fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8a970d66442558ce0a3ce7b8009c14fa">Physics3::RigidBody::Type</a> type. <br /></td></tr>
+<tr class="separator:a17b897e20a45805fa1202bc4e97130fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ae60055f812c2b5da9948cf1319bf27"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ae60055f812c2b5da9948cf1319bf27"></a>
+<a class="el" href="class_i_dream_sky_1_1_physics3_1_1_material.html">Physics3::Material</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html#a8ae60055f812c2b5da9948cf1319bf27">material</a></td></tr>
+<tr class="memdesc:a8ae60055f812c2b5da9948cf1319bf27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_material.html" title="Material. ">Physics3::Material</a> material. <br /></td></tr>
+<tr class="separator:a8ae60055f812c2b5da9948cf1319bf27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a102f842af457e721c7e1831eb61a72a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a102f842af457e721c7e1831eb61a72a2"></a>
+<a class="el" href="class_i_dream_sky_1_1_physics3_1_1_collision_filter.html">Physics3::CollisionFilter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html#a102f842af457e721c7e1831eb61a72a2">collisionFilter</a></td></tr>
+<tr class="memdesc:a102f842af457e721c7e1831eb61a72a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. ">Physics3::CollisionFilter</a> collisionFilter. <br /></td></tr>
+<tr class="separator:a102f842af457e721c7e1831eb61a72a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+額外的繼承成員</h2></td></tr>
+<tr class="inherit_header pub_types_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_i_dream_sky_1_1_physics3_1_1_rigid_body')"><img src="closed.png" alt="-"/>&#160;公開型態 繼承自 <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html">IDreamSky::Physics3::RigidBody</a></td></tr>
+<tr class="memitem:a8a970d66442558ce0a3ce7b8009c14fa inherit pub_types_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8a970d66442558ce0a3ce7b8009c14fa">Type</a> { <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8a970d66442558ce0a3ce7b8009c14faa82b6624dd8dbf02e84f646d105fdd0e3">STATIC</a> = 0, 
+<a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8a970d66442558ce0a3ce7b8009c14faa6fe0113eab19e3d3334b51b7f5497102">KINEMATIC</a>, 
+<a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8a970d66442558ce0a3ce7b8009c14faa0cfbb05a9c6a06aeb338eae6f86a3259">DYNAMIC</a>
+ }</td></tr>
+<tr class="separator:a8a970d66442558ce0a3ce7b8009c14fa inherit pub_types_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body')"><img src="closed.png" alt="-"/>&#160;保護方法(Protected Methods) 繼承自 <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html">IDreamSky::Physics3::RigidBody</a></td></tr>
+<tr class="memitem:a5d62d5520cf4790b254e0d81a5f2d2bd inherit pro_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a5d62d5520cf4790b254e0d81a5f2d2bd">constructRigidBody</a> (<a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8a970d66442558ce0a3ce7b8009c14fa">Physics3::RigidBody::Type</a> type_, const <a class="el" href="class_i_dream_sky_1_1_shape3.html">Shape3</a> *shape_, const <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_material.html">Physics3::Material</a> &amp;material_, const <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_collision_filter.html">Physics3::CollisionFilter</a> &amp;collisionFilter_)</td></tr>
+<tr class="memdesc:a5d62d5520cf4790b254e0d81a5f2d2bd inherit pro_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the <a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. ">RigidBody</a>.  <a href="#a5d62d5520cf4790b254e0d81a5f2d2bd">更多...</a><br /></td></tr>
+<tr class="separator:a5d62d5520cf4790b254e0d81a5f2d2bd inherit pro_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b74946c58d83988424072399cb265c2 inherit pro_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a4b74946c58d83988424072399cb265c2">updateRigidBody</a> (float dt)</td></tr>
+<tr class="memdesc:a4b74946c58d83988424072399cb265c2 inherit pro_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the rigidbody and the owner.  <a href="#a4b74946c58d83988424072399cb265c2">更多...</a><br /></td></tr>
+<tr class="separator:a4b74946c58d83988424072399cb265c2 inherit pro_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476e3fa127c84f6a645647dd68013be1 inherit pro_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a476e3fa127c84f6a645647dd68013be1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a476e3fa127c84f6a645647dd68013be1">destructRigidBody</a> ()</td></tr>
+<tr class="memdesc:a476e3fa127c84f6a645647dd68013be1 inherit pro_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruct the rigidbody. <br /></td></tr>
+<tr class="separator:a476e3fa127c84f6a645647dd68013be1 inherit pro_methods_class_i_dream_sky_1_1_physics3_1_1_rigid_body"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳細描述</h2>
+<div class="textblock"><p><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html" title="Capsule3Collider Component. ">Capsule3Collider</a> <a class="el" href="class_i_dream_sky_1_1_component.html" title="Component. ">Component</a>. </p>
+<p><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html" title="Capsule3Collider Component. ">Capsule3Collider</a> <a class="el" href="class_i_dream_sky_1_1_component.html" title="Component. ">Component</a> is a <a class="el" href="class_i_dream_sky_1_1_capsule3.html">Capsule3</a> RigidBody <a class="el" href="class_i_dream_sky_1_1_component.html" title="Component. ">Component</a>. </p><dl class="section see"><dt>參閱</dt><dd><a class="el" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#ad70ccd573eadc1210eb3b73fd577eef4" title="RigidBody Constructor. ">RigidBody</a> </dd></dl>
+</div><h2 class="groupheader">建構子與解構子說明文件</h2>
+<a class="anchor" id="a587731f0c8651797ed4b1197247c5639"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Capsule3Collider::Capsule3Collider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td>
+          <td class="paramname"><em>owner_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html" title="Capsule3Collider Component. ">Capsule3Collider</a> Constructor. </p>
+<p>To Construct the <a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html" title="Capsule3Collider Component. ">Capsule3Collider</a> for the owner. </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">owner_,the</td><td><a class="el" href="class_i_dream_sky_1_1_component_1_1_owner.html" title="Owner. ">Component::Owner</a> which owns this component. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae058105f27b8c2d3c3d0bf71fa583982"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Capsule3Collider::~Capsule3Collider </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html" title="Capsule3Collider Component. ">Capsule3Collider</a> Destructor. </p>
+<p>To Destruct <a class="el" href="class_i_dream_sky_1_1_capsule3_collider.html" title="Capsule3Collider Component. ">Capsule3Collider</a> and remove from its owner. </p>
+
+</div>
+</div>
+<h2 class="groupheader">函式成員說明文件</h2>
+<a class="anchor" id="ad0fd59097a2982d411d43e693f36ac11"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IDreamSky::Capsule3Collider::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Kinematic&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set if the Collider is Kinematic RigidBody. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value_,true</td><td>if Kinematic else Dynamic check if the Collider is Kinematic RigidBody. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>true if is Kinematic, else Dynamic. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a25a9e38dd41bfb7119713aac158732dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IDreamSky::Capsule3Collider::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Radius&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Radius of the Capsule. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value_,float,the</td><td>Radius of the Capsule Get the Radius of the Capsule </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>the Radius of the Capsule </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a843ef83d4a10a10dbaeea18b63c85f68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IDreamSky::Capsule3Collider::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Height&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Height of the Capsule. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value_,float,the</td><td>Height of the Capsule Get the Height of the Capsule </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>the Height of the Capsule </dd></dl>
+
+</div>
+</div>
+<hr/>此類別(class) 文件是由下列檔案中產生:<ul>
+<li>C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/<a class="el" href="_capsule3_collider_8h_source.html">Capsule3Collider.h</a></li>
+<li>C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/Capsule3Collider.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,183 @@
+\hypertarget{class_magnum_1_1_sprite_sheet}{}\section{Magnum\+:\+:Sprite\+Sheet 類別 參考文件}
+\label{class_magnum_1_1_sprite_sheet}\index{Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}}
+
+
+類別\+Magnum\+:\+:Sprite\+Sheet的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{class_magnum_1_1_sprite_sheet__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Sprite\+Sheet的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{class_magnum_1_1_sprite_sheet__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_sprite_sheet_1_1_data}{Data}
+\item 
+class \hyperlink{class_magnum_1_1_sprite_sheet_1_1_quad}{Quad}
+\item 
+class \hyperlink{class_magnum_1_1_sprite_sheet_1_1_resource}{Resource}
+\item 
+class \hyperlink{class_magnum_1_1_sprite_sheet_1_1_resource_importer}{Resource\+Importer}
+\item 
+class \hyperlink{class_magnum_1_1_sprite_sheet_1_1_sequence}{Sequence}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries construct} (const char $\ast$path\+\_\+)\hypertarget{class_magnum_1_1_sprite_sheet_aec334317729f368603b6973fe2093719}{}\label{class_magnum_1_1_sprite_sheet_aec334317729f368603b6973fe2093719}
+
+\item 
+void {\bfseries destruct} ()\hypertarget{class_magnum_1_1_sprite_sheet_ac902373a404443f8d200dd3c3cc56e7c}{}\label{class_magnum_1_1_sprite_sheet_ac902373a404443f8d200dd3c3cc56e7c}
+
+\item 
+virtual void $\ast$ \hyperlink{class_magnum_1_1_sprite_sheet_ab6cd54156419571b16fe3f2271c11488}{get\+Handle} () const 
+\begin{DoxyCompactList}\small\item\em Get the Handle of the Texture. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_sprite_sheet_aa43930a60edba5b649350d2ad98a9b0c}{get\+Width} () const 
+\begin{DoxyCompactList}\small\item\em Get the Width of the Texture. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_sprite_sheet_a72648f274827c0ace93a24f3d9ac62ec}{get\+Height} () const 
+\begin{DoxyCompactList}\small\item\em Get the Height of the Texture. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_sprite_sheet_a2205caeee91443f55c464949ba125b68}{get\+Level\+Count} () const 
+\begin{DoxyCompactList}\small\item\em Get the Mipmap Level Count of the Texture. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_sprite_sheet_a21a8d282da4e731ce42adb2dca75c2e1}{is\+Renderable} () const 
+\begin{DoxyCompactList}\small\item\em Check if texture is renderable. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_sprite_sheet_a39ddb71d251b807cd0bd9e9500528528}{is\+Power\+Of\+Two} () const 
+\begin{DoxyCompactList}\small\item\em Check if texture is power of 2 in both width and height. \end{DoxyCompactList}\item 
+int {\bfseries get\+Num\+Quads} () const \hypertarget{class_magnum_1_1_sprite_sheet_ac69707cb897737e6c46dbe003df59523}{}\label{class_magnum_1_1_sprite_sheet_ac69707cb897737e6c46dbe003df59523}
+
+\item 
+const \hyperlink{class_magnum_1_1_sprite_sheet_1_1_quad}{Sprite\+Sheet\+::\+Quad} \& {\bfseries get\+Quad} (int i) const \hypertarget{class_magnum_1_1_sprite_sheet_a9b96ce8c2be9c1b2421af0a123792d3f}{}\label{class_magnum_1_1_sprite_sheet_a9b96ce8c2be9c1b2421af0a123792d3f}
+
+\item 
+int {\bfseries get\+Num\+Sequences} () const \hypertarget{class_magnum_1_1_sprite_sheet_aeea6786b18f05261b9c23ca35bb70d75}{}\label{class_magnum_1_1_sprite_sheet_aeea6786b18f05261b9c23ca35bb70d75}
+
+\item 
+const \hyperlink{class_magnum_1_1_sprite_sheet_1_1_sequence}{Sprite\+Sheet\+::\+Sequence} \& {\bfseries get\+Sequence} (int i) const \hypertarget{class_magnum_1_1_sprite_sheet_a26f49f90f4c3ed6f780acf55b7f73a2b}{}\label{class_magnum_1_1_sprite_sheet_a26f49f90f4c3ed6f780acf55b7f73a2b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}!get\+Handle@{get\+Handle}}
+\index{get\+Handle@{get\+Handle}!Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}}
+\subsubsection[{\texorpdfstring{get\+Handle() const }{getHandle() const }}]{\setlength{\rightskip}{0pt plus 5cm}void $\ast$ Sprite\+Sheet\+::get\+Handle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_sprite_sheet_ab6cd54156419571b16fe3f2271c11488}{}\label{class_magnum_1_1_sprite_sheet_ab6cd54156419571b16fe3f2271c11488}
+
+
+Get the Handle of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+void $\ast$, handle of the texture 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a47ee419784cb12ca283f62deb2499b1e}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}!get\+Height@{get\+Height}}
+\index{get\+Height@{get\+Height}!Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}}
+\subsubsection[{\texorpdfstring{get\+Height() const }{getHeight() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Sprite\+Sheet\+::get\+Height (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_sprite_sheet_a72648f274827c0ace93a24f3d9ac62ec}{}\label{class_magnum_1_1_sprite_sheet_a72648f274827c0ace93a24f3d9ac62ec}
+
+
+Get the Height of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+int, the Height of the Texture. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a1a75ad18ee40238b2d6fb2105c5ce786}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}!get\+Level\+Count@{get\+Level\+Count}}
+\index{get\+Level\+Count@{get\+Level\+Count}!Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}}
+\subsubsection[{\texorpdfstring{get\+Level\+Count() const }{getLevelCount() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Sprite\+Sheet\+::get\+Level\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_sprite_sheet_a2205caeee91443f55c464949ba125b68}{}\label{class_magnum_1_1_sprite_sheet_a2205caeee91443f55c464949ba125b68}
+
+
+Get the Mipmap Level Count of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+int, the Mipmap Level Count of the Texture. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_af21b138bcc2a202a45551edbc9581022}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}!get\+Width@{get\+Width}}
+\index{get\+Width@{get\+Width}!Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}}
+\subsubsection[{\texorpdfstring{get\+Width() const }{getWidth() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Sprite\+Sheet\+::get\+Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_sprite_sheet_aa43930a60edba5b649350d2ad98a9b0c}{}\label{class_magnum_1_1_sprite_sheet_aa43930a60edba5b649350d2ad98a9b0c}
+
+
+Get the Width of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+int, the Width of the Texture. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a51ea88554cb238b08ff6f79c5605a53b}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}!is\+Power\+Of\+Two@{is\+Power\+Of\+Two}}
+\index{is\+Power\+Of\+Two@{is\+Power\+Of\+Two}!Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}}
+\subsubsection[{\texorpdfstring{is\+Power\+Of\+Two() const }{isPowerOfTwo() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Sprite\+Sheet\+::is\+Power\+Of\+Two (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_sprite_sheet_a39ddb71d251b807cd0bd9e9500528528}{}\label{class_magnum_1_1_sprite_sheet_a39ddb71d251b807cd0bd9e9500528528}
+
+
+Check if texture is power of 2 in both width and height. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+true if the Texture is power of 2. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_ac9975783371f732b546ce5b2680f23e3}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}!is\+Renderable@{is\+Renderable}}
+\index{is\+Renderable@{is\+Renderable}!Magnum\+::\+Sprite\+Sheet@{Magnum\+::\+Sprite\+Sheet}}
+\subsubsection[{\texorpdfstring{is\+Renderable() const }{isRenderable() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Sprite\+Sheet\+::is\+Renderable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_sprite_sheet_a21a8d282da4e731ce42adb2dca75c2e1}{}\label{class_magnum_1_1_sprite_sheet_a21a8d282da4e731ce42adb2dca75c2e1}
+
+
+Check if texture is renderable. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+true if the Texture is Renderable. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a7e4d11ffd40d1a83e8838b5fc60cc4c2}{Magnum\+::\+Texture\+Base}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Sprite\+Sheet.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Sprite\+Sheet.\+cpp\end{DoxyCompactItemize}

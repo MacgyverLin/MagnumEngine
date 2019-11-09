@@ -1,0 +1,179 @@
+\hypertarget{class_i_dream_sky_1_1_file_output_stream}{}\section{I\+Dream\+Sky\+:\+:File\+Output\+Stream 類別 參考文件}
+\label{class_i_dream_sky_1_1_file_output_stream}\index{I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}}
+
+
+\hyperlink{class_i_dream_sky_1_1_file_output_stream}{File\+Output\+Stream}.  
+
+
+
+
+{\ttfamily \#include $<$Output\+Stream.\+h$>$}
+
+類別\+I\+Dream\+Sky\+:\+:File\+Output\+Stream的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_i_dream_sky_1_1_file_output_stream}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_file_output_stream_a1ac1e55d601670564d5b0b4c0a1f5f8a}{File\+Output\+Stream} (const char $\ast$path\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_file_output_stream}{File\+Output\+Stream} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_file_output_stream_aa0423041bf20194144689440ed94ade3}{$\sim$\+File\+Output\+Stream} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_file_output_stream}{File\+Output\+Stream} Destructor. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_file_output_stream_ab3d24c893812e35318b3a535880465fb}{writeX} (const void $\ast$src\+\_\+, int size, bool reverse\+Order=false)
+\begin{DoxyCompactList}\small\item\em write function buffer data \end{DoxyCompactList}\item 
+virtual unsigned int \hyperlink{class_i_dream_sky_1_1_file_output_stream_a8ea8902dfc78e6c48a171ef6d9a5ef25}{tell} () const 
+\begin{DoxyCompactList}\small\item\em skip data from buffer \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_file_output_stream_a1d0294f4ece89e18dc9d9e7535b5a9cc}{skip} (int size)
+\begin{DoxyCompactList}\small\item\em Tell the current read position. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_i_dream_sky_1_1_file_output_stream_afcb041ab2dd146a2ba38dd0fb1b53f37}{opened} () const 
+\begin{DoxyCompactList}\small\item\em Check if the stream is opened. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_file_output_stream_ae3b49aa7a6a37581a17284bf6015839b}{rewind} ()
+\begin{DoxyCompactList}\small\item\em Rewind the stream, the stream current read position will be reset to 0 by this function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_file_output_stream}{File\+Output\+Stream}. 
+
+The class is a \hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} for a file stream 
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}!File\+Output\+Stream@{File\+Output\+Stream}}
+\index{File\+Output\+Stream@{File\+Output\+Stream}!I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{File\+Output\+Stream(const char $\ast$path\+\_\+)}{FileOutputStream(const char *path_)}}]{\setlength{\rightskip}{0pt plus 5cm}File\+Output\+Stream\+::\+File\+Output\+Stream (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{path\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_file_output_stream_a1ac1e55d601670564d5b0b4c0a1f5f8a}{}\label{class_i_dream_sky_1_1_file_output_stream_a1ac1e55d601670564d5b0b4c0a1f5f8a}
+
+
+\hyperlink{class_i_dream_sky_1_1_file_output_stream}{File\+Output\+Stream} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_file_output_stream}{File\+Output\+Stream}. 
+\begin{DoxyParams}{參數}
+{\em path\+\_\+,filename} & for the file of \hyperlink{class_i_dream_sky_1_1_file_output_stream}{File\+Output\+Stream} \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}!````~File\+Output\+Stream@{$\sim$\+File\+Output\+Stream}}
+\index{````~File\+Output\+Stream@{$\sim$\+File\+Output\+Stream}!I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{$\sim$\+File\+Output\+Stream()}{~FileOutputStream()}}]{\setlength{\rightskip}{0pt plus 5cm}File\+Output\+Stream\+::$\sim$\+File\+Output\+Stream (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_file_output_stream_aa0423041bf20194144689440ed94ade3}{}\label{class_i_dream_sky_1_1_file_output_stream_aa0423041bf20194144689440ed94ade3}
+
+
+\hyperlink{class_i_dream_sky_1_1_file_output_stream}{File\+Output\+Stream} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_file_output_stream}{File\+Output\+Stream} and close the file 
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}!opened@{opened}}
+\index{opened@{opened}!I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{opened() const }{opened() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool File\+Output\+Stream\+::opened (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_file_output_stream_afcb041ab2dd146a2ba38dd0fb1b53f37}{}\label{class_i_dream_sky_1_1_file_output_stream_afcb041ab2dd146a2ba38dd0fb1b53f37}
+
+
+Check if the stream is opened. 
+
+\begin{DoxyReturn}{傳回值}
+true, stream is opened, else stream is closed 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_output_stream_acaf486766730cc13bd9caa1122cee4b8}{I\+Dream\+Sky\+::\+Output\+Stream}.
+
+\index{I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}!rewind@{rewind}}
+\index{rewind@{rewind}!I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{rewind()}{rewind()}}]{\setlength{\rightskip}{0pt plus 5cm}void File\+Output\+Stream\+::rewind (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_file_output_stream_ae3b49aa7a6a37581a17284bf6015839b}{}\label{class_i_dream_sky_1_1_file_output_stream_ae3b49aa7a6a37581a17284bf6015839b}
+
+
+Rewind the stream, the stream current read position will be reset to 0 by this function. 
+
+\begin{DoxyReturn}{傳回值}
+true, stream is opened, else stream is closed 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_output_stream_aecbf1cf82e7fbc35e0b231231daf9959}{I\+Dream\+Sky\+::\+Output\+Stream}.
+
+\index{I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}!skip@{skip}}
+\index{skip@{skip}!I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{skip(int size)}{skip(int size)}}]{\setlength{\rightskip}{0pt plus 5cm}void File\+Output\+Stream\+::skip (
+\begin{DoxyParamCaption}
+\item[{int}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_file_output_stream_a1d0294f4ece89e18dc9d9e7535b5a9cc}{}\label{class_i_dream_sky_1_1_file_output_stream_a1d0294f4ece89e18dc9d9e7535b5a9cc}
+
+
+Tell the current read position. 
+
+\begin{DoxyReturn}{傳回值}
+unsigned int, the current read position 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_output_stream_ad2e8b521f90af7c57620040b47961a50}{I\+Dream\+Sky\+::\+Output\+Stream}.
+
+\index{I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}!tell@{tell}}
+\index{tell@{tell}!I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{tell() const }{tell() const }}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int File\+Output\+Stream\+::tell (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_file_output_stream_a8ea8902dfc78e6c48a171ef6d9a5ef25}{}\label{class_i_dream_sky_1_1_file_output_stream_a8ea8902dfc78e6c48a171ef6d9a5ef25}
+
+
+skip data from buffer 
+
+
+\begin{DoxyParams}{參數}
+{\em size,int,the} & number of byte to be skipped \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_output_stream_ac64e26bd7c453af494839b19c145e322}{I\+Dream\+Sky\+::\+Output\+Stream}.
+
+\index{I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}!writeX@{writeX}}
+\index{writeX@{writeX}!I\+Dream\+Sky\+::\+File\+Output\+Stream@{I\+Dream\+Sky\+::\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{write\+X(const void $\ast$src\+\_\+, int size, bool reverse\+Order=false)}{writeX(const void *src_, int size, bool reverseOrder=false)}}]{\setlength{\rightskip}{0pt plus 5cm}void File\+Output\+Stream\+::writeX (
+\begin{DoxyParamCaption}
+\item[{const void $\ast$}]{src\+\_\+, }
+\item[{int}]{size, }
+\item[{bool}]{reverse\+Order = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_file_output_stream_ab3d24c893812e35318b3a535880465fb}{}\label{class_i_dream_sky_1_1_file_output_stream_ab3d24c893812e35318b3a535880465fb}
+
+
+write function buffer data 
+
+
+\begin{DoxyParams}{參數}
+{\em buffer,void} & $\ast$, the data will be written to the stream. \\
+\hline
+{\em size,int,the} & number of byte to be write to the stream \\
+\hline
+{\em reverse\+Order,true,for} & big endian system false, for little endian system \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_output_stream_ae79fd5ab1935901e021f64ab0da4dbf0}{I\+Dream\+Sky\+::\+Output\+Stream}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Output\+Stream.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Output\+Stream.\+cpp\end{DoxyCompactItemize}

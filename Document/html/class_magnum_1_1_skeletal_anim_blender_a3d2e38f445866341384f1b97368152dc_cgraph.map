@@ -1,0 +1,5 @@
+<map id="Magnum::SkeletalAnimBlender::initSkeleton" name="Magnum::SkeletalAnimBlender::initSkeleton">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_base.html#aa54468093c1c4013120edeedb328c108" title="This function get the Number of Bones in the animation data. " alt="" coords="255,5,441,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_base.html#a69ce23d2cf00b9dde7a74c2182336070" title="This function get the Name of Bone in the animation data. " alt="" coords="255,71,441,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_anim_base.html#a3f4a937de3dff61073c7730421465479" title="This function get the Vector10 (scale, rotation and translation) of the i&#45;th bone. " alt="" coords="255,136,441,177"/>
+</map>

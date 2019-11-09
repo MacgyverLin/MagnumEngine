@@ -1,0 +1,9 @@
+<map id="TiXmlNode::LinkEndChild" name="TiXmlNode::LinkEndChild">
+<area shape="rect" id="node2" href="$class_ti_xml_element.html#ad9d0c008866982ab8d9aafae7e14d692" title="All TinyXml classes can print themselves to a filestream or the string class (TiXmlString in non&#45;STL ..." alt="" coords="237,5,373,32"/>
+<area shape="rect" id="node4" href="$class_ti_xml_document.html#acf1672b4538c6d1d441f9f108aea2bf4" title="Save a file using the given FILE*. Returns true if successful. " alt="" coords="220,56,389,83"/>
+<area shape="rect" id="node5" href="$class_ti_xml_node.html#abad5bf1059c48127b958711ef89e8e5d" title="The last child of this node matching &#39;value&#39;. Will be null if there are no children. " alt="" coords="232,107,377,133"/>
+<area shape="rect" id="node6" href="$class_ti_xml_document.html#a789ad2f06f93d52bdb5570b2f3670289" title="Parse the given null terminated block of xml data. " alt="" coords="227,157,382,184"/>
+<area shape="rect" id="node3" href="$class_ti_xml_text.html#af659e77c6b87d684827f35a8f4895960" title="Constructor for text element. " alt="" coords="451,5,593,32"/>
+<area shape="rect" id="node7" href="$class_ti_xml_document.html#a41f6fe7200864d1dca663d230caf8db6" title="Load a file using the given FILE*. " alt="" coords="437,132,607,159"/>
+<area shape="rect" id="node8" href="$class_ti_xml_base.html#ad0120210e4680ef2088601753ce0ede4" title="Get a pointer to arbitrary user data. " alt="" coords="439,183,605,209"/>
+</map>

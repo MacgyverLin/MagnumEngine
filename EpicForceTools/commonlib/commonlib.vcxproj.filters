@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Arc2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierCurve2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierCurve3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSplineBasis.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSplineCurve2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSplineCurve3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BVector2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BVector3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BVector4.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Capsule3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorRGB.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorRGBA.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cone3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EString.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESystem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gl2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gl2ext.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gl2platform.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GXDef.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputStream.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVector2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVector3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVector4.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Line2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Line3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lozenge3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultipleCurve2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultipleCurve3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputStream.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Polyhedron3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Polynomial1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadratic2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadratic3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleCurve2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleCurve3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TCBSpline2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TCBSpline3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetrahedron3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector10.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexDesc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TGAFile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BVHTriangleMeshShape3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightFieldShape3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AABB2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="AABB3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Arc2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="BVector2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="BVector3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="BVector4.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Capsule3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Circle2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Circle3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Cone3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Cylinder3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="EMath.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IVector2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IVector3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IVector4.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Line2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Line3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Lozenge3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Matrix2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Matrix3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Matrix4.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Plane3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Polyhedron3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Polynomial1.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Quadratic2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Quadratic3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Quaternion.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Ray2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Ray3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Rectangle3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Segment2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Segment3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Tetrahedron3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Triangle2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Triangle3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Vector2.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Vector3.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Vector4.inl">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Arc2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierCurve2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierCurve3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSplineBasis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSplineCurve2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSplineCurve3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BVector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BVector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BVector4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Capsule3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorRGB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorRGBA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cone3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GXDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IVector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IVector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IVector4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Line2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Line3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lozenge3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleCurve2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleCurve3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Polyhedron3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Polynomial1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadratic2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadratic3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleCurve2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleCurve3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TCBSpline2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TCBSpline3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetrahedron3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TGAFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BVHTriangleMeshShape3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightFieldShape3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+<map id="TiXmlElement::QueryBoolAttribute" name="TiXmlElement::QueryBoolAttribute">
+<area shape="rect" id="node2" href="$class_ti_xml_attribute.html#a0f874490eac8ca00ee0070765d0e97e3" title="Return the value of this attribute. " alt="" coords="304,5,447,32"/>
+<area shape="rect" id="node3" href="$class_ti_xml_element.html#aea0bfe471380f281c5945770ddbf52b9" title="QueryIntAttribute examines the attribute &#45; it is an alternative to the Attribute() method with richer..." alt="" coords="272,56,479,83"/>
+<area shape="rect" id="node4" href="$class_ti_xml_attribute.html#ad6c93088ee21af41a107931223339344" title="QueryIntValue examines the value string. " alt="" coords="527,74,685,115"/>
+</map>

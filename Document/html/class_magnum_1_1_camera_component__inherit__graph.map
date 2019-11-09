@@ -1,0 +1,6 @@
+<map id="Magnum::CameraComponent" name="Magnum::CameraComponent">
+<area shape="rect" id="node3" href="$class_magnum_1_1_orthographic_camera_component.html" title="OrthographicCameraComponent. " alt="" coords="5,155,204,196"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_perspective_camera_component.html" title="PerspectiveCameraComponent. " alt="" coords="229,155,421,196"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_component.html" title="Component. " alt="" coords="141,5,287,32"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_editor_camera_component.html" title="EditorCameraComponent. " alt="" coords="212,244,437,271"/>
+</map>

@@ -1,0 +1,162 @@
+\hypertarget{class_i_dream_sky_1_1_material_1_1_technique}{}\section{I\+Dream\+Sky\+:\+:Material\+:\+:Technique 類別 參考文件}
+\label{class_i_dream_sky_1_1_material_1_1_technique}\index{I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique}.  
+
+
+
+
+{\ttfamily \#include $<$Material.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_technique_a5c376b57ddf4afd862e409c6ee21235b}{Technique} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_material_1_1_technique_aac4f42459281e674556d5ada7df96a15}{$\sim$\+Technique} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_technique_ac20b220f353315874aab2e39de7871b5}{Technique} (const \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Material\+::\+Technique} \&other)
+\begin{DoxyCompactList}\small\item\em Copy Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Material\+::\+Technique} \& \hyperlink{class_i_dream_sky_1_1_material_1_1_technique_a7441f54066a1acfdfdf5b4ba1c8fe06d}{operator=} (const \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Material\+::\+Technique} \&other)
+\begin{DoxyCompactList}\small\item\em Assigned operator. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_i_dream_sky_1_1_material_1_1_technique_a79eea9e5f8d8a95120441a522a6b64df}{get\+Name} () const 
+\begin{DoxyCompactList}\small\item\em Get the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique}. \end{DoxyCompactList}\item 
+int \hyperlink{class_i_dream_sky_1_1_material_1_1_technique_a6d2d42e9b76fcf40dd7fd0ac26955d40}{get\+Num\+Passes} () const 
+\begin{DoxyCompactList}\small\item\em Get the Number of Passes of this \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique}. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Material\+::\+Pass} \& \hyperlink{class_i_dream_sky_1_1_material_1_1_technique_a99d7ec03f793832c402a65f11803814a}{get\+Pass} (int i)
+\begin{DoxyCompactList}\small\item\em Get the i-\/th \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} of this \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique}. \end{DoxyCompactList}\item 
+void {\bfseries read} (\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_i_dream_sky_1_1_material_1_1_technique_a9e226e1b8d586e9a1164f82a5fbb9f66}{}\label{class_i_dream_sky_1_1_material_1_1_technique_a9e226e1b8d586e9a1164f82a5fbb9f66}
+
+\item 
+void {\bfseries write} (\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_i_dream_sky_1_1_material_1_1_technique_a1881316367bc8086d4d58e0a8b34e42b}{}\label{class_i_dream_sky_1_1_material_1_1_technique_a1881316367bc8086d4d58e0a8b34e42b}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Material}\hypertarget{class_i_dream_sky_1_1_material_1_1_technique_aa1212b6e372a0f45d2c01f3cd203af77}{}\label{class_i_dream_sky_1_1_material_1_1_technique_aa1212b6e372a0f45d2c01f3cd203af77}
+
+\item 
+class {\bfseries Material\+::\+Resource}\hypertarget{class_i_dream_sky_1_1_material_1_1_technique_a6a002bcee6c883089769545352e9ccbd}{}\label{class_i_dream_sky_1_1_material_1_1_technique_a6a002bcee6c883089769545352e9ccbd}
+
+\item 
+class {\bfseries Material\+::\+Resource\+Importer}\hypertarget{class_i_dream_sky_1_1_material_1_1_technique_a941a71e735085112a8496c27836506ee}{}\label{class_i_dream_sky_1_1_material_1_1_technique_a941a71e735085112a8496c27836506ee}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique}. 
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique}. This is the \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique}, contains a \hyperlink{class_i_dream_sky_1_1_vector}{Vector} of \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}!Technique@{Technique}}
+\index{Technique@{Technique}!I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}}
+\subsubsection[{\texorpdfstring{Technique()}{Technique()}}]{\setlength{\rightskip}{0pt plus 5cm}Material\+::\+Technique\+::\+Technique (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_technique_a5c376b57ddf4afd862e409c6ee21235b}{}\label{class_i_dream_sky_1_1_material_1_1_technique_a5c376b57ddf4afd862e409c6ee21235b}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique} for the \hyperlink{class_i_dream_sky_1_1_material}{Material}. \index{I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}!````~Technique@{$\sim$\+Technique}}
+\index{````~Technique@{$\sim$\+Technique}!I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}}
+\subsubsection[{\texorpdfstring{$\sim$\+Technique()}{~Technique()}}]{\setlength{\rightskip}{0pt plus 5cm}Material\+::\+Technique\+::$\sim$\+Technique (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_material_1_1_technique_aac4f42459281e674556d5ada7df96a15}{}\label{class_i_dream_sky_1_1_material_1_1_technique_aac4f42459281e674556d5ada7df96a15}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique}. \index{I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}!Technique@{Technique}}
+\index{Technique@{Technique}!I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}}
+\subsubsection[{\texorpdfstring{Technique(const Material\+::\+Technique \&other)}{Technique(const Material::Technique &other)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Material\+::\+Technique\+::\+Technique (
+\begin{DoxyParamCaption}
+\item[{const {\bf Material\+::\+Technique} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_technique_ac20b220f353315874aab2e39de7871b5}{}\label{class_i_dream_sky_1_1_material_1_1_technique_ac20b220f353315874aab2e39de7871b5}
+
+
+Copy Constructor. 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}}
+\subsubsection[{\texorpdfstring{get\+Name() const }{getName() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Material\+::\+Technique\+::get\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_material_1_1_technique_a79eea9e5f8d8a95120441a522a6b64df}{}\label{class_i_dream_sky_1_1_material_1_1_technique_a79eea9e5f8d8a95120441a522a6b64df}
+
+
+Get the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique}. 
+
+\begin{DoxyReturn}{傳回值}
+, const char $\ast$, the name of this \hyperlink{class_i_dream_sky_1_1_material}{Material} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}!get\+Num\+Passes@{get\+Num\+Passes}}
+\index{get\+Num\+Passes@{get\+Num\+Passes}!I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}}
+\subsubsection[{\texorpdfstring{get\+Num\+Passes() const }{getNumPasses() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Material\+::\+Technique\+::get\+Num\+Passes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_material_1_1_technique_a6d2d42e9b76fcf40dd7fd0ac26955d40}{}\label{class_i_dream_sky_1_1_material_1_1_technique_a6d2d42e9b76fcf40dd7fd0ac26955d40}
+
+
+Get the Number of Passes of this \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique}. 
+
+\begin{DoxyReturn}{傳回值}
+, int, the number of passes of this \hyperlink{class_i_dream_sky_1_1_material}{Material} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}!get\+Pass@{get\+Pass}}
+\index{get\+Pass@{get\+Pass}!I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}}
+\subsubsection[{\texorpdfstring{get\+Pass(int i)}{getPass(int i)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Material\+::\+Pass} \& Material\+::\+Technique\+::get\+Pass (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_technique_a99d7ec03f793832c402a65f11803814a}{}\label{class_i_dream_sky_1_1_material_1_1_technique_a99d7ec03f793832c402a65f11803814a}
+
+
+Get the i-\/th \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} of this \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique}. 
+
+\begin{DoxyReturn}{傳回值}
+, \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}, the i-\/th \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} of this \hyperlink{class_i_dream_sky_1_1_material_1_1_technique}{Technique} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}!operator=@{operator=}}
+\index{operator=@{operator=}!I\+Dream\+Sky\+::\+Material\+::\+Technique@{I\+Dream\+Sky\+::\+Material\+::\+Technique}}
+\subsubsection[{\texorpdfstring{operator=(const Material\+::\+Technique \&other)}{operator=(const Material::Technique &other)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Material\+::\+Technique} \& Material\+::\+Technique\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Material\+::\+Technique} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_technique_a7441f54066a1acfdfdf5b4ba1c8fe06d}{}\label{class_i_dream_sky_1_1_material_1_1_technique_a7441f54066a1acfdfdf5b4ba1c8fe06d}
+
+
+Assigned operator. 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Material.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Material.\+cpp\end{DoxyCompactItemize}

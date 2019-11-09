@@ -1,0 +1,569 @@
+\hypertarget{class_magnum_1_1_collision}{}\section{Magnum\+:\+:Collision 類別 參考文件}
+\label{class_magnum_1_1_collision}\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+
+
+Base class For all type of \hyperlink{class_magnum_1_1_collision}{Collision} Object.  
+
+
+
+
+{\ttfamily \#include $<$Collision.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Collision的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_collision__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_collision_1_1_call_back}{Call\+Back}
+\item 
+class \hyperlink{class_magnum_1_1_collision_1_1_contact_info}{Contact\+Info}
+\begin{DoxyCompactList}\small\item\em Contains information about the collision. \end{DoxyCompactList}\item 
+class \hyperlink{class_magnum_1_1_collision_1_1_manager}{Manager}
+\item 
+struct \hyperlink{struct_magnum_1_1_collision_1_1_service}{Service}
+\end{DoxyCompactItemize}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_magnum_1_1_collision_af96418629e7663358a39f8138bc412a7}{Type} \{ {\bfseries C\+T\+\_\+\+S\+P\+H\+E\+R\+E3} = 0, 
+{\bfseries C\+T\+\_\+\+S\+C\+E\+NE}, 
+{\bfseries C\+T\+\_\+\+N\+U\+M\+\_\+\+C\+O\+L\+L\+I\+S\+I\+ON}
+ \}\begin{DoxyCompactList}\small\item\em enum supported \hyperlink{class_magnum_1_1_collision}{Collision} Shape(\+Type) \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_collision_a46268d910c83ef44fea79b8b72e8de66}{Collision} (\hyperlink{class_magnum_1_1_collision_af96418629e7663358a39f8138bc412a7}{Type} type\+\_\+)
+\begin{DoxyCompactList}\small\item\em The constructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_collision_a499d69586c47a68a1861af057695a30b}{set\+ID} (unsigned int I\+D\+\_\+)
+\begin{DoxyCompactList}\small\item\em set the ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_collision_aeae38467d08b59027dd277ca6923fb2c}{set\+Sub\+ID} (unsigned int Sub\+I\+D\+\_\+)
+\begin{DoxyCompactList}\small\item\em set the sub\+ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_collision_a8b7a7fb7066629e41fdc8c72a009b94f}{set\+Position} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&position\+\_\+)
+\begin{DoxyCompactList}\small\item\em set the Position of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_collision_ac7719f4d3e922b0234889d58987d5542}{set\+Transform} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform\+\_\+)
+\begin{DoxyCompactList}\small\item\em set the Position/\+Rotation of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_collision_aee897f30094e0aceba97002de014057e}{set\+Velocity} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&velocity\+\_\+)
+\begin{DoxyCompactList}\small\item\em set the Velocity of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_magnum_1_1_collision_a8b48c9d3da28892730e5ead328989f6b}{get\+ID} () const 
+\begin{DoxyCompactList}\small\item\em get the ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_magnum_1_1_collision_a7975bf1fe6ed60afbf3e4faa50561096}{get\+Sub\+ID} () const 
+\begin{DoxyCompactList}\small\item\em get the sub\+ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_collision_a759c9902ad30a31dca7e3ba0ad9e4f01}{get\+Position} () const 
+\begin{DoxyCompactList}\small\item\em get the Position of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& \hyperlink{class_magnum_1_1_collision_aed5c534471618d2057cafb33fe0f9a9d}{get\+Transform} () const 
+\begin{DoxyCompactList}\small\item\em get the Position/\+Rotation of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} \& \hyperlink{class_magnum_1_1_collision_ab1987f6bf0de0317b0ba6eff42360105}{get\+Velocity} () const 
+\begin{DoxyCompactList}\small\item\em get the Velocity of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_collision_af96418629e7663358a39f8138bc412a7}{Type} \hyperlink{class_magnum_1_1_collision_a7874ca06ee40066bb822e31194a932dd}{get\+Type} () const 
+\begin{DoxyCompactList}\small\item\em get the Type of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_collision_a4ec805eb2d9b1314b3c470f4f014f556}{set\+Call\+Back} (\hyperlink{class_magnum_1_1_functor1}{Functor1}$<$ \hyperlink{class_magnum_1_1_collision_1_1_contact_info}{Contact\+Info} $>$ \&cb\+\_\+)
+\begin{DoxyCompactList}\small\item\em set the \hyperlink{class_magnum_1_1_collision}{Collision} Event Handler \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_collision_abaf472ab7f1f151f966cfbc1d55fe9aa}{set\+Attribute} (unsigned int attribute\+\_\+)
+\begin{DoxyCompactList}\small\item\em set the Attribute of this \hyperlink{class_magnum_1_1_collision}{Collision} Instance \end{DoxyCompactList}\item 
+void {\bfseries set\+Category} (unsigned int category\+\_\+)\hypertarget{class_magnum_1_1_collision_af07546b0296e34c1fc24adc166692c23}{}\label{class_magnum_1_1_collision_af07546b0296e34c1fc24adc166692c23}
+
+\item 
+\hyperlink{class_magnum_1_1_functor1}{Functor1}$<$ \hyperlink{class_magnum_1_1_collision_1_1_contact_info}{Contact\+Info} $>$ \& \hyperlink{class_magnum_1_1_collision_a41da4846e87ddc84006ce4155f1bd4f6}{get\+Call\+Back} ()
+\begin{DoxyCompactList}\small\item\em get the \hyperlink{class_magnum_1_1_collision}{Collision} Event Handler \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_magnum_1_1_collision_a87ca313908483a7ea68d0f5e22242567}{get\+Attribute} () const 
+\begin{DoxyCompactList}\small\item\em get the Attribute of this \hyperlink{class_magnum_1_1_collision}{Collision} Instance \end{DoxyCompactList}\item 
+unsigned int {\bfseries get\+Category} () const \hypertarget{class_magnum_1_1_collision_a4b65edb40ad1803c6d39986617575a4d}{}\label{class_magnum_1_1_collision_a4b65edb40ad1803c6d39986617575a4d}
+
+\item 
+bool {\bfseries get\+Enabled} () const \hypertarget{class_magnum_1_1_collision_aa8e71c31006f4f13d8c3976605a68065}{}\label{class_magnum_1_1_collision_aa8e71c31006f4f13d8c3976605a68065}
+
+\item 
+void {\bfseries set\+Enabled} (bool enabled\+\_\+)\hypertarget{class_magnum_1_1_collision_a4cf7e1b0fc9cebfbf145265f0f21dfdc}{}\label{class_magnum_1_1_collision_a4cf7e1b0fc9cebfbf145265f0f21dfdc}
+
+\item 
+virtual bool \hyperlink{class_magnum_1_1_collision_a129bf6c62902ea60649bb4dfdc51064b}{is\+Inside} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&world\+\_\+point)
+\begin{DoxyCompactList}\small\item\em This is a pure virtual function. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_collision_a3add6ba3c46ce3a728b3f27ddefd81d2}{default\+Collision\+Response} (const \hyperlink{class_magnum_1_1_collision_1_1_contact_info}{Contact\+Info} \&info)
+\begin{DoxyCompactList}\small\item\em preform default Response when this Instance collide with other \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_collision_aaea103ce5b2bc5930ab754e4d2b6247b}{test} (float dt, \hyperlink{class_magnum_1_1_collision}{Collision} $\ast$other\+\_\+, \hyperlink{class_magnum_1_1_collision_1_1_contact_info}{Collision\+::\+Contact\+Info} \&info\+\_\+)
+\begin{DoxyCompactList}\small\item\em This is a pure virtual function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+Base class For all type of \hyperlink{class_magnum_1_1_collision}{Collision} Object. 
+
+This is the base class for all type of \hyperlink{class_magnum_1_1_collision}{Collision} Object. The collision type can be extended by inheritance. If set\+Physics\+Body(\+Physics\+::\+Body $\ast$physicsbody) is called with a valid physicsbody pointer, the \hyperlink{class_magnum_1_1_transform}{Transform} of the \hyperlink{class_magnum_1_1_collision}{Collision} is controlled by that of physicsbody. Otherwise, its \hyperlink{class_magnum_1_1_transform}{Transform} is controlled by \hyperlink{class_magnum_1_1_collision_ac7719f4d3e922b0234889d58987d5542}{Collision\+::set\+Transform(const Matrix4 \&transform\+\_\+)}; 
+
+\subsection{列舉型態成員說明文件}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!Type@{Type}}
+\index{Type@{Type}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{Type}{Type}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Magnum\+::\+Collision\+::\+Type}}\hypertarget{class_magnum_1_1_collision_af96418629e7663358a39f8138bc412a7}{}\label{class_magnum_1_1_collision_af96418629e7663358a39f8138bc412a7}
+
+
+enum supported \hyperlink{class_magnum_1_1_collision}{Collision} Shape(\+Type) 
+
+enum supported \hyperlink{class_magnum_1_1_collision}{Collision} Shape(\+Type) 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!Collision@{Collision}}
+\index{Collision@{Collision}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{Collision(\+Type type\+\_\+)}{Collision(Type type_)}}]{\setlength{\rightskip}{0pt plus 5cm}Collision\+::\+Collision (
+\begin{DoxyParamCaption}
+\item[{{\bf Type}}]{type\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_collision_a46268d910c83ef44fea79b8b72e8de66}{}\label{class_magnum_1_1_collision_a46268d910c83ef44fea79b8b72e8de66}
+
+
+The constructor. 
+
+
+\begin{DoxyParams}{參數}
+{\em type\+\_\+} & The Type(\+Shape) of \hyperlink{class_magnum_1_1_collision}{Collision} \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!default\+Collision\+Response@{default\+Collision\+Response}}
+\index{default\+Collision\+Response@{default\+Collision\+Response}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{default\+Collision\+Response(const Contact\+Info \&info)}{defaultCollisionResponse(const ContactInfo &info)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::default\+Collision\+Response (
+\begin{DoxyParamCaption}
+\item[{const {\bf Contact\+Info} \&}]{info}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_collision_a3add6ba3c46ce3a728b3f27ddefd81d2}{}\label{class_magnum_1_1_collision_a3add6ba3c46ce3a728b3f27ddefd81d2}
+
+
+preform default Response when this Instance collide with other 
+
+When this function is called, the Position of this instance will be changed. It will displaced by info.\+contact\+Normal $\ast$ info.\+penetration\+Depth / 2 This function is supposed to be called during Collision\+::\+Handler\+::on\+Collision(); If both the handler of info.\+this\+\_\+obj and info.\+other\+\_\+obj have called this function, Both info.\+this\+\_\+obj and info.\+other\+\_\+obj will not intersected
+
+If set\+Physics\+Body(\+Physics\+::\+Body $\ast$physicsbody\+\_\+) is called once with a non-\/zero physicsbody\+\_\+, The Physics\+::\+Body\+::default\+Impulse\+Response of physicsbody\+\_\+ will be called as well. physicsbody\+\_\+ will sync the Position/\+Rotation, and bounce back, afterward
+
+
+\begin{DoxyParams}{參數}
+{\em \hyperlink{class_magnum_1_1_collision_1_1_contact_info}{Collision\+::\+Contact\+Info}} & The information about the collision \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_collision_a3add6ba3c46ce3a728b3f27ddefd81d2_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_magnum_1_1_collision_a3add6ba3c46ce3a728b3f27ddefd81d2_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!get\+Attribute@{get\+Attribute}}
+\index{get\+Attribute@{get\+Attribute}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{get\+Attribute() const }{getAttribute() const }}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Collision\+::get\+Attribute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_collision_a87ca313908483a7ea68d0f5e22242567}{}\label{class_magnum_1_1_collision_a87ca313908483a7ea68d0f5e22242567}
+
+
+get the Attribute of this \hyperlink{class_magnum_1_1_collision}{Collision} Instance 
+
+\begin{DoxyReturn}{傳回值}
+unsigned int the Attribute of this \hyperlink{class_magnum_1_1_collision}{Collision} Instance 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_collision_a87ca313908483a7ea68d0f5e22242567_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!get\+Call\+Back@{get\+Call\+Back}}
+\index{get\+Call\+Back@{get\+Call\+Back}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{get\+Call\+Back()}{getCallBack()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Functor1}$<$ {\bf Collision\+::\+Contact\+Info} $>$ \& Collision\+::get\+Call\+Back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_collision_a41da4846e87ddc84006ce4155f1bd4f6}{}\label{class_magnum_1_1_collision_a41da4846e87ddc84006ce4155f1bd4f6}
+
+
+get the \hyperlink{class_magnum_1_1_collision}{Collision} Event Handler 
+
+This function is to get the Collision\+::\+Handler for handling the collision event
+
+\begin{DoxyReturn}{傳回值}
+Collision\+::\+Handler the \hyperlink{class_magnum_1_1_collision}{Collision} handler 
+\end{DoxyReturn}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!get\+ID@{get\+ID}}
+\index{get\+ID@{get\+ID}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{get\+I\+D() const }{getID() const }}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Collision\+::get\+ID (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_collision_a8b48c9d3da28892730e5ead328989f6b}{}\label{class_magnum_1_1_collision_a8b48c9d3da28892730e5ead328989f6b}
+
+
+get the ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+
+\begin{DoxyReturn}{傳回值}
+unsigned int ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{get\+Position() const }{getPosition() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Collision\+::get\+Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_collision_a759c9902ad30a31dca7e3ba0ad9e4f01}{}\label{class_magnum_1_1_collision_a759c9902ad30a31dca7e3ba0ad9e4f01}
+
+
+get the Position of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+
+If set\+Physics\+Body(\+Physics\+::\+Body $\ast$physicsbody\+\_\+) is called once with a non-\/zero physicsbody\+\_\+, The returned position is the Position of physicsbody\+\_\+.
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3} the Position of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_collision_a759c9902ad30a31dca7e3ba0ad9e4f01_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!get\+Sub\+ID@{get\+Sub\+ID}}
+\index{get\+Sub\+ID@{get\+Sub\+ID}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{get\+Sub\+I\+D() const }{getSubID() const }}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Collision\+::get\+Sub\+ID (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_collision_a7975bf1fe6ed60afbf3e4faa50561096}{}\label{class_magnum_1_1_collision_a7975bf1fe6ed60afbf3e4faa50561096}
+
+
+get the sub\+ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+
+\begin{DoxyReturn}{傳回值}
+unsigned int sub\+ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!get\+Transform@{get\+Transform}}
+\index{get\+Transform@{get\+Transform}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{get\+Transform() const }{getTransform() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Matrix4} \& Collision\+::get\+Transform (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_collision_aed5c534471618d2057cafb33fe0f9a9d}{}\label{class_magnum_1_1_collision_aed5c534471618d2057cafb33fe0f9a9d}
+
+
+get the Position/\+Rotation of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+
+If set\+Physics\+Body(\+Physics\+::\+Body $\ast$physicsbody\+\_\+) is called once with a non-\/zero physicsbody\+\_\+, The returned transform is the \hyperlink{class_magnum_1_1_transform}{Transform} of physicsbody\+\_\+.
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} the Position/\+Rotation of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{get\+Type() const }{getType() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Collision\+::\+Type} Collision\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_collision_a7874ca06ee40066bb822e31194a932dd}{}\label{class_magnum_1_1_collision_a7874ca06ee40066bb822e31194a932dd}
+
+
+get the Type of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_collision_af96418629e7663358a39f8138bc412a7}{Collision\+::\+Type} the enumerated Type of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision} 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_collision_a7874ca06ee40066bb822e31194a932dd_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!get\+Velocity@{get\+Velocity}}
+\index{get\+Velocity@{get\+Velocity}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{get\+Velocity() const }{getVelocity() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Collision\+::get\+Velocity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_collision_ab1987f6bf0de0317b0ba6eff42360105}{}\label{class_magnum_1_1_collision_ab1987f6bf0de0317b0ba6eff42360105}
+
+
+get the Velocity of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+
+If set\+Physics\+Body(\+Physics\+::\+Body $\ast$physicsbody\+\_\+) is called once with a non-\/zero physicsbody\+\_\+, The returned velocity is the Velocity of physicsbody\+\_\+.
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3} the Velocity of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_collision_ab1987f6bf0de0317b0ba6eff42360105_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!is\+Inside@{is\+Inside}}
+\index{is\+Inside@{is\+Inside}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{is\+Inside(const Vector3 \&world\+\_\+point)}{isInside(const Vector3 &world_point)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Magnum\+::\+Collision\+::is\+Inside (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{world\+\_\+point}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_collision_a129bf6c62902ea60649bb4dfdc51064b}{}\label{class_magnum_1_1_collision_a129bf6c62902ea60649bb4dfdc51064b}
+
+
+This is a pure virtual function. 
+
+The function checks if a point, defined in world space, is inside the collision shape
+
+
+\begin{DoxyParams}{參數}
+{\em world\+\_\+point} & the coordinates, defined in world space, to be checked against the collider\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if world\+\_\+point is inside collision false if world\+\_\+point is not inside collision 
+\end{DoxyReturn}
+
+
+在\hyperlink{class_magnum_1_1_sphere3_collision_a54686b42bb5841ad0ad882f748b7dfad}{Magnum\+::\+Sphere3\+Collision}重新實作.
+
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_collision_a129bf6c62902ea60649bb4dfdc51064b_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!set\+Attribute@{set\+Attribute}}
+\index{set\+Attribute@{set\+Attribute}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{set\+Attribute(unsigned int attribute\+\_\+)}{setAttribute(unsigned int attribute_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::set\+Attribute (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{attribute\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_collision_abaf472ab7f1f151f966cfbc1d55fe9aa}{}\label{class_magnum_1_1_collision_abaf472ab7f1f151f966cfbc1d55fe9aa}
+
+
+set the Attribute of this \hyperlink{class_magnum_1_1_collision}{Collision} Instance 
+
+This function is to set the 32-\/bit Attribute of this \hyperlink{class_magnum_1_1_collision}{Collision} Instance. \hyperlink{class_magnum_1_1_collision}{Collision} Detecion only performs on a pair of \hyperlink{class_magnum_1_1_collision}{Collision} Instance if they have at least 1 common bit set in their attri\+\_\+bit. The default value of attri\+\_\+bit is 0xffffffff
+
+
+\begin{DoxyParams}{參數}
+{\em attri\+\_\+bit\+\_\+} & the Attribute of this \hyperlink{class_magnum_1_1_collision}{Collision} \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_magnum_1_1_collision_abaf472ab7f1f151f966cfbc1d55fe9aa_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!set\+Call\+Back@{set\+Call\+Back}}
+\index{set\+Call\+Back@{set\+Call\+Back}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{set\+Call\+Back(\+Functor1$<$ Contact\+Info $>$ \&cb\+\_\+)}{setCallBack(Functor1< ContactInfo > &cb_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::set\+Call\+Back (
+\begin{DoxyParamCaption}
+\item[{{\bf Functor1}$<$ {\bf Contact\+Info} $>$ \&}]{cb\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_collision_a4ec805eb2d9b1314b3c470f4f014f556}{}\label{class_magnum_1_1_collision_a4ec805eb2d9b1314b3c470f4f014f556}
+
+
+set the \hyperlink{class_magnum_1_1_collision}{Collision} Event Handler 
+
+This function is to set the Collision\+::\+Handler for handling the collision event
+
+
+\begin{DoxyParams}{參數}
+{\em handler\+\_\+} & the Collision\+::\+Handler \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!set\+ID@{set\+ID}}
+\index{set\+ID@{set\+ID}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{set\+I\+D(unsigned int I\+D\+\_\+)}{setID(unsigned int ID_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::set\+ID (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{I\+D\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_collision_a499d69586c47a68a1861af057695a30b}{}\label{class_magnum_1_1_collision_a499d69586c47a68a1861af057695a30b}
+
+
+set the ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+
+
+\begin{DoxyParams}{參數}
+{\em I\+D\+\_\+} & ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!set\+Position@{set\+Position}}
+\index{set\+Position@{set\+Position}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{set\+Position(const Vector3 \&position\+\_\+)}{setPosition(const Vector3 &position_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::set\+Position (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{position\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_collision_a8b7a7fb7066629e41fdc8c72a009b94f}{}\label{class_magnum_1_1_collision_a8b7a7fb7066629e41fdc8c72a009b94f}
+
+
+set the Position of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+
+If set\+Physics\+Body(\+Physics\+::\+Body $\ast$physicsbody\+\_\+) is called once with a non-\/zero physicsbody\+\_\+, The Position of physicsbody\+\_\+ will be set equal to position\+\_\+.
+
+
+\begin{DoxyParams}{參數}
+{\em position\+\_\+} & the Position of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_collision_a8b7a7fb7066629e41fdc8c72a009b94f_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!set\+Sub\+ID@{set\+Sub\+ID}}
+\index{set\+Sub\+ID@{set\+Sub\+ID}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{set\+Sub\+I\+D(unsigned int Sub\+I\+D\+\_\+)}{setSubID(unsigned int SubID_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::set\+Sub\+ID (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{sub\+I\+D\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_collision_aeae38467d08b59027dd277ca6923fb2c}{}\label{class_magnum_1_1_collision_aeae38467d08b59027dd277ca6923fb2c}
+
+
+set the sub\+ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+
+
+\begin{DoxyParams}{參數}
+{\em sub\+I\+D\+\_\+} & sub\+ID of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!set\+Transform@{set\+Transform}}
+\index{set\+Transform@{set\+Transform}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{set\+Transform(const Matrix4 \&transform\+\_\+)}{setTransform(const Matrix4 &transform_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::set\+Transform (
+\begin{DoxyParamCaption}
+\item[{const {\bf Matrix4} \&}]{transform\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_collision_ac7719f4d3e922b0234889d58987d5542}{}\label{class_magnum_1_1_collision_ac7719f4d3e922b0234889d58987d5542}
+
+
+set the Position/\+Rotation of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+
+If set\+Physics\+Body(\+Physics\+::\+Body $\ast$physicsbody\+\_\+) is called once with a non-\/zero physicsbody\+\_\+, The \hyperlink{class_magnum_1_1_transform}{Transform} of physicsbody\+\_\+ will be set equal to transform\+\_\+.
+
+
+\begin{DoxyParams}{參數}
+{\em transform\+\_\+} & the Position/\+Rotation of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!set\+Velocity@{set\+Velocity}}
+\index{set\+Velocity@{set\+Velocity}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{set\+Velocity(const Vector3 \&velocity\+\_\+)}{setVelocity(const Vector3 &velocity_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::set\+Velocity (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{velocity\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_collision_aee897f30094e0aceba97002de014057e}{}\label{class_magnum_1_1_collision_aee897f30094e0aceba97002de014057e}
+
+
+set the Velocity of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. 
+
+If set\+Physics\+Body(\+Physics\+::\+Body $\ast$physicsbody\+\_\+) is called once with a non-\/zero physicsbody\+\_\+, The Velocity of physicsbody\+\_\+ will be set equal to velocity\+\_\+.
+
+
+\begin{DoxyParams}{參數}
+{\em velocity\+\_\+} & the Velocity of this Instance of \hyperlink{class_magnum_1_1_collision}{Collision}. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Collision@{Magnum\+::\+Collision}!test@{test}}
+\index{test@{test}!Magnum\+::\+Collision@{Magnum\+::\+Collision}}
+\subsubsection[{\texorpdfstring{test(float dt, Collision $\ast$other\+\_\+, Collision\+::\+Contact\+Info \&info\+\_\+)}{test(float dt, Collision *other_, Collision::ContactInfo &info_)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Magnum\+::\+Collision\+::test (
+\begin{DoxyParamCaption}
+\item[{float}]{dt, }
+\item[{{\bf Collision} $\ast$}]{other\+\_\+, }
+\item[{{\bf Collision\+::\+Contact\+Info} \&}]{info\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_collision_aaea103ce5b2bc5930ab754e4d2b6247b}{}\label{class_magnum_1_1_collision_aaea103ce5b2bc5930ab754e4d2b6247b}
+
+
+This is a pure virtual function. 
+
+The function is a core function for calculate collision
+
+This function should be implemented by sub class of \hyperlink{class_magnum_1_1_collision}{Collision}. It should get the type of other\+\_\+ in the parameter and perform collision calculation with all possible type of other\+\_\+ enummerated by \hyperlink{class_magnum_1_1_collision_af96418629e7663358a39f8138bc412a7}{Collision\+::\+Type}
+
+
+\begin{DoxyParams}{參數}
+{\em other} & the other collision instance to be checked with \\
+\hline
+{\em collided\+\_\+} & set by this function, true if collision occurs, false other wise \\
+\hline
+{\em contact\+Point\+\_\+} & set by this function, the calculated Contact Point of the Collided surface \\
+\hline
+{\em contact\+Normal\+\_\+} & set by this function, the calculated Contact Normal of the Collided surface \\
+\hline
+{\em penetration\+Depth\+\_\+} & set by this function, the depth in which this instance penetrate with the other.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if collision detection is calculated false if collision detection is not calculated, i.\+e. no implemnetation 
+\end{DoxyReturn}
+
+
+在\hyperlink{class_magnum_1_1_sphere3_collision_a401bddbc02cbbe9aeb8ab9b536aba7fb}{Magnum\+::\+Sphere3\+Collision}重新實作.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_collision_aaea103ce5b2bc5930ab754e4d2b6247b_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Collision.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Collision.\+cpp\end{DoxyCompactItemize}

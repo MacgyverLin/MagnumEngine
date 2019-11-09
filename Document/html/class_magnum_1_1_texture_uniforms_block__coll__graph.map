@@ -1,0 +1,7 @@
+<map id="Magnum::TextureUniformsBlock" name="Magnum::TextureUniformsBlock">
+<area shape="rect" id="node2" href="$class_magnum_1_1_vector.html" title="Magnum::Vector\&lt; Magnum\l::GXTextureMagFilterMode \&gt;" alt="" coords="5,5,193,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_vector.html" title="Magnum::Vector\&lt; Magnum\l::GXTextureMinFilterMode \&gt;" alt="" coords="7,71,191,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_vector.html" title="Magnum::Vector\&lt; void * \&gt;" alt="" coords="13,137,186,163"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_vector.html" title="Magnum::Vector\&lt; Magnum\l::GXTextureWrapMode \&gt;" alt="" coords="9,189,189,231"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_vector.html" title="Magnum::Vector\&lt; Magnum\l::String \&gt;" alt="" coords="9,255,189,296"/>
+</map>

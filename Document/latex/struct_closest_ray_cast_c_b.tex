@@ -1,0 +1,89 @@
+\hypertarget{struct_closest_ray_cast_c_b}{}\section{Closest\+Ray\+Cast\+CB Struct Reference}
+\label{struct_closest_ray_cast_c_b}\index{Closest\+Ray\+Cast\+CB@{Closest\+Ray\+Cast\+CB}}
+
+
+\hyperlink{struct_closest_ray_cast_c_b}{Closest\+Ray\+Cast\+CB}.  
+
+
+
+
+{\ttfamily \#include $<$Ray\+Sphere\+Cast.\+h$>$}
+
+Inheritance diagram for Closest\+Ray\+Cast\+CB\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{struct_closest_ray_cast_c_b}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_closest_ray_cast_c_b_a2d80260a6655d5b23a87c3473f0ea2e6}{Closest\+Ray\+Cast\+CB} (\hyperlink{class_magnum_1_1_physics3_1_1_ray_cast_result}{Physics3\+::\+Ray\+Cast\+Result} \&result\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&ray\+From\+World\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&ray\+To\+World\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{struct_closest_ray_cast_c_b}{Closest\+Ray\+Cast\+CB} Constructor. \end{DoxyCompactList}\item 
+virtual bt\+Scalar \hyperlink{struct_closest_ray_cast_c_b_a644986e5dc6766853d4f95c075a48cb0}{add\+Single\+Result} (bt\+Collision\+World\+::\+Local\+Ray\+Result \&ray\+Result, bool normal\+In\+World\+Space)
+\begin{DoxyCompactList}\small\item\em The callback function for Raycaster. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_physics3_1_1_ray_cast_result}{Physics3\+::\+Ray\+Cast\+Result} \& {\bfseries result}\hypertarget{struct_closest_ray_cast_c_b_a84f4713685884263323942a567b5eeae}{}\label{struct_closest_ray_cast_c_b_a84f4713685884263323942a567b5eeae}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{struct_closest_ray_cast_c_b}{Closest\+Ray\+Cast\+CB}. 
+
+\hyperlink{struct_closest_ray_cast_c_b}{Closest\+Ray\+Cast\+CB} defines the call back structure used for \hyperlink{struct_closest_ray_cast_c_b}{Closest\+Ray\+Cast\+CB}. \hyperlink{struct_closest_ray_cast_c_b}{Closest\+Ray\+Cast\+CB} returns the closest intersection point of the raycasting 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Closest\+Ray\+Cast\+CB@{Closest\+Ray\+Cast\+CB}!Closest\+Ray\+Cast\+CB@{Closest\+Ray\+Cast\+CB}}
+\index{Closest\+Ray\+Cast\+CB@{Closest\+Ray\+Cast\+CB}!Closest\+Ray\+Cast\+CB@{Closest\+Ray\+Cast\+CB}}
+\subsubsection[{\texorpdfstring{Closest\+Ray\+Cast\+C\+B(\+Physics3\+::\+Ray\+Cast\+Result \&result\+\_\+, const Vector3 \&ray\+From\+World\+\_\+, const Vector3 \&ray\+To\+World\+\_\+)}{ClosestRayCastCB(Physics3::RayCastResult &result_, const Vector3 &rayFromWorld_, const Vector3 &rayToWorld_)}}]{\setlength{\rightskip}{0pt plus 5cm}Closest\+Ray\+Cast\+C\+B\+::\+Closest\+Ray\+Cast\+CB (
+\begin{DoxyParamCaption}
+\item[{{\bf Physics3\+::\+Ray\+Cast\+Result} \&}]{result\+\_\+, }
+\item[{const {\bf Vector3} \&}]{ray\+From\+World\+\_\+, }
+\item[{const {\bf Vector3} \&}]{ray\+To\+World\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{struct_closest_ray_cast_c_b_a2d80260a6655d5b23a87c3473f0ea2e6}{}\label{struct_closest_ray_cast_c_b_a2d80260a6655d5b23a87c3473f0ea2e6}
+
+
+\hyperlink{struct_closest_ray_cast_c_b}{Closest\+Ray\+Cast\+CB} Constructor. 
+
+To Construct the \hyperlink{struct_closest_ray_cast_c_b}{Closest\+Ray\+Cast\+CB} 
+\begin{DoxyParams}{Parameters}
+{\em result\+\_\+,Physics3\+::\+Ray\+Cast\+Result,the} & result of ray casting is return in this parameter \\
+\hline
+{\em ray\+From\+World\+\_\+,Vector3,the} & ray starting point \\
+\hline
+{\em ray\+To\+World\+\_\+,Vector3,the} & ray starting point \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Closest\+Ray\+Cast\+CB@{Closest\+Ray\+Cast\+CB}!add\+Single\+Result@{add\+Single\+Result}}
+\index{add\+Single\+Result@{add\+Single\+Result}!Closest\+Ray\+Cast\+CB@{Closest\+Ray\+Cast\+CB}}
+\subsubsection[{\texorpdfstring{add\+Single\+Result(bt\+Collision\+World\+::\+Local\+Ray\+Result \&ray\+Result, bool normal\+In\+World\+Space)}{addSingleResult(btCollisionWorld::LocalRayResult &rayResult, bool normalInWorldSpace)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bt\+Scalar Closest\+Ray\+Cast\+C\+B\+::add\+Single\+Result (
+\begin{DoxyParamCaption}
+\item[{bt\+Collision\+World\+::\+Local\+Ray\+Result \&}]{ray\+Result, }
+\item[{bool}]{normal\+In\+World\+Space}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{struct_closest_ray_cast_c_b_a644986e5dc6766853d4f95c075a48cb0}{}\label{struct_closest_ray_cast_c_b_a644986e5dc6766853d4f95c075a48cb0}
+
+
+The callback function for Raycaster. 
+
+This function is called by the Physics3 Service when it detect the ray hit certain Shape in the physics world 
+\begin{DoxyParams}{Parameters}
+{\em ray\+Result,Physics3\+::\+Ray\+Cast\+Result,the} & result of ray casting is return in this parameter \\
+\hline
+{\em normal\+In\+World\+Space,if} & true the normal is return in world space, otherwise return in object local space \\
+\hline
+{\em float,the} & fraction of the ray closest intersection. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Ray\+Sphere\+Cast.\+h\end{DoxyCompactItemize}

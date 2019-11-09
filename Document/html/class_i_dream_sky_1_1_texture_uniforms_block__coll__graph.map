@@ -1,0 +1,7 @@
+<map id="IDreamSky::TextureUniformsBlock" name="IDreamSky::TextureUniformsBlock">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_vector.html" title="IDreamSky::Vector\&lt;\l IDreamSky::GXTextureMagFilter\lMode \&gt;" alt="" coords="16,5,228,61"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_vector.html" title="IDreamSky::Vector\&lt;\l IDreamSky::GXTextureMinFilter\lMode \&gt;" alt="" coords="18,85,226,141"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_vector.html" title="IDreamSky::Vector\&lt;\l void * \&gt;" alt="" coords="52,166,192,207"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_vector.html" title="IDreamSky::Vector\&lt;\l IDreamSky::GXTextureWrapMode \&gt;" alt="" coords="5,231,239,273"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_vector.html" title="IDreamSky::Vector\&lt;\l IDreamSky::String \&gt;" alt="" coords="50,297,194,338"/>
+</map>

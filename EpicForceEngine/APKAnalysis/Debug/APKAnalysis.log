@@ -1,0 +1,130 @@
+﻿Build started 5/14/2015 12:00:59 PM.
+     1>Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\APKAnalysis\APKAnalysis.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\wx\lib\vc_lib\mswud /I..\wx\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(210): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(212): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(288) : see declaration of 'wcscpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(214): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(216): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(218): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(220): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(288) : see declaration of 'wcscpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(222): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(288) : see declaration of 'wcscpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(224): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(288) : see declaration of 'wcscpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(226): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(228): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(288) : see declaration of 'wcscpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(231): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(233): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(317) : see declaration of 'wcsncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(235): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(237): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(239): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(241): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(317) : see declaration of 'wcsncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(243): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(317) : see declaration of 'wcsncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(245): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(317) : see declaration of 'wcsncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(247): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(249): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(317) : see declaration of 'wcsncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(261): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(274): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(317) : see declaration of 'wcsncpy'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(282): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(284): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(279) : see declaration of 'wcscat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(286): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(288): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(290): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(292): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(279) : see declaration of 'wcscat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(294): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(279) : see declaration of 'wcscat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(296): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(279) : see declaration of 'wcscat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(298): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(300): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(279) : see declaration of 'wcscat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(303): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(182) : see declaration of 'strncat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(305): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(310) : see declaration of 'wcsncat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(307): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(182) : see declaration of 'strncat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(309): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(182) : see declaration of 'strncat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(311): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(182) : see declaration of 'strncat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(313): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(310) : see declaration of 'wcsncat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(315): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(310) : see declaration of 'wcsncat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(317): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(310) : see declaration of 'wcsncat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(319): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(182) : see declaration of 'strncat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(321): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(310) : see declaration of 'wcsncat'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(755): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(838) : see declaration of '_wfopen'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(757): warning C4996: '_wfreopen': This function or variable may be unsafe. Consider using _wfreopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(840) : see declaration of '_wfreopen'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(924): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(449) : see declaration of 'getenv'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(925): warning C4996: '_wgetenv': This function or variable may be unsafe. Consider using _wdupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(682) : see declaration of '_wgetenv'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(926): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(449) : see declaration of 'getenv'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(927): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(449) : see declaration of 'getenv'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(928): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(449) : see declaration of 'getenv'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\wxcrt.h(929): warning C4996: '_wgetenv': This function or variable may be unsafe. Consider using _wdupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(682) : see declaration of '_wgetenv'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wx\include\wx\filefn.h(506): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(342) : see declaration of '_wopen'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(29): error C2065: 'projectView' : undeclared identifier
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(29): error C2061: syntax error : identifier 'ProjectView'
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(29): error C2653: 'Localization' : is not a class or namespace name
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(30): error C2065: 'projectView' : undeclared identifier
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(32): error C2065: 'projectView' : undeclared identifier
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(32): error C2227: left of '->initStage' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(34): error C2065: 'projectView' : undeclared identifier
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(34): error C2227: left of '->Show' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(49): error C2065: 'projectView' : undeclared identifier
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(53): error C2065: 'projectView' : undeclared identifier
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(53): error C2227: left of '->processStage' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(64): error C2065: 'projectView' : undeclared identifier
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(65): error C2065: 'projectView' : undeclared identifier
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\apkanalysis\main.cpp(65): error C2227: left of '->terminateStage' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>Done Building Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\APKAnalysis\APKAnalysis.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.87

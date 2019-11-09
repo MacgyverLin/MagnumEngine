@@ -1,0 +1,14 @@
+<map id="Magnum::ResourceAccess" name="Magnum::ResourceAccess">
+<area shape="rect" id="node2" href="$class_magnum_1_1_audio_clip_1_1_resource.html" title="AudioClip::Resource AudioClip::Resource is the class resposible for audio clip resource. " alt="" coords="275,5,417,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_b_v_h_triangle_mesh_shape3_1_1_resource.html" title="Magnum::BVHTriangleMeshShape3\l::Resource" alt="" coords="232,71,460,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1endif_1_1_resource.html" title="Magnum::endif::Resource" alt="" coords="261,137,431,163"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_font_1_1_resource.html" title="Magnum::Font::Resource" alt="" coords="261,187,431,214"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_height_field_shape3_1_1_resource.html" title="Magnum::HeightFieldShape3\l::Resource" alt="" coords="251,239,441,280"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_magnum_prefab_1_1_resource.html" title="Magnum::MagnumPrefab\l::Resource" alt="" coords="263,304,429,345"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_magnum_scene_1_1_resource.html" title="Magnum::MagnumScene\l::Resource" alt="" coords="263,369,429,411"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_scene_collision_1_1_resource.html" title="Magnum::SceneCollision\l::Resource" alt="" coords="263,435,429,476"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_sprite_sheet_1_1_resource.html" title="Magnum::SpriteSheet\l::Resource" alt="" coords="272,500,420,541"/>
+<area shape="rect" id="node11" href="$class_magnum_1_1_texture2_d_file_1_1_resource.html" title="Texture2DFile::Resource. " alt="" coords="266,565,426,607"/>
+<area shape="rect" id="node12" href="$class_magnum_1_1_texture_cube_file_1_1_resource.html" title="TextureCubeFile::Resource. " alt="" coords="259,631,433,672"/>
+<area shape="rect" id="node13" href="$class_magnum_1_1_visual_effect_1_1_resource.html" title="Magnum::VisualEffect\l::Resource" alt="" coords="271,696,421,737"/>
+</map>

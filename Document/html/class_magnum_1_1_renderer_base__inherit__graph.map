@@ -1,0 +1,11 @@
+<map id="Magnum::RendererBase" name="Magnum::RendererBase">
+<area shape="rect" id="node3" href="$class_magnum_1_1_bill_board_renderer.html" title="BillBoardRenderer. " alt="" coords="432,5,616,32"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_cube_renderer.html" title="CubeRenderer. " alt="" coords="443,56,605,83"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_diffuse_map_cube_renderer.html" title="DiffuseMapCubeRenderer. " alt="" coords="411,107,637,133"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_diffuse_map_specular_map_cube_renderer.html" title="DiffuseMapSpecularMapCubeRenderer. " alt="" coords="427,158,621,199"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_editor_gizmo_renderer.html" title="EditorGizmoRenderer. " alt="" coords="422,224,626,251"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_particle_emitter_renderer.html" title="ParticleEmitterRenderer. " alt="" coords="415,275,633,301"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_skeletal_anim_model_renderer.html" title="SkeletalAnimModelRenderer. " alt="" coords="428,326,620,367"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_sky_sphere_renderer.html" title="SkySphereRenderer. " alt="" coords="426,392,622,419"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_component.html" title="Component. " alt="" coords="5,195,152,221"/>
+</map>

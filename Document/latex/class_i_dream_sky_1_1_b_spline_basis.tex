@@ -1,0 +1,101 @@
+\hypertarget{class_i_dream_sky_1_1_b_spline_basis}{}\section{I\+Dream\+Sky\+:\+:B\+Spline\+Basis 類別 參考文件}
+\label{class_i_dream_sky_1_1_b_spline_basis}\index{I\+Dream\+Sky\+::\+B\+Spline\+Basis@{I\+Dream\+Sky\+::\+B\+Spline\+Basis}}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries B\+Spline\+Basis} (int i\+Num\+Ctrl\+Points, int i\+Degree, bool b\+Open)\hypertarget{class_i_dream_sky_1_1_b_spline_basis_a677226c827906cbceab08e6e7676472c}{}\label{class_i_dream_sky_1_1_b_spline_basis_a677226c827906cbceab08e6e7676472c}
+
+\item 
+void {\bfseries Create} (int i\+Num\+Ctrl\+Points, int i\+Degree, bool b\+Open)\hypertarget{class_i_dream_sky_1_1_b_spline_basis_a0a173370c7924991c1b66b0dda5ea8ca}{}\label{class_i_dream_sky_1_1_b_spline_basis_a0a173370c7924991c1b66b0dda5ea8ca}
+
+\item 
+{\bfseries B\+Spline\+Basis} (int i\+Num\+Ctrl\+Points, int i\+Degree, const float $\ast$af\+Knot)\hypertarget{class_i_dream_sky_1_1_b_spline_basis_a7bd0be64ceafb0d77ab8226d221bac5a}{}\label{class_i_dream_sky_1_1_b_spline_basis_a7bd0be64ceafb0d77ab8226d221bac5a}
+
+\item 
+void {\bfseries Create} (int i\+Num\+Ctrl\+Points, int i\+Degree, const float $\ast$af\+Knot)\hypertarget{class_i_dream_sky_1_1_b_spline_basis_a871e574dbb18dbf3c3f39d94541df56b}{}\label{class_i_dream_sky_1_1_b_spline_basis_a871e574dbb18dbf3c3f39d94541df56b}
+
+\item 
+int {\bfseries Get\+Num\+Ctrl\+Points} () const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_ad009e013af116834c42f5320a9175661}{}\label{class_i_dream_sky_1_1_b_spline_basis_ad009e013af116834c42f5320a9175661}
+
+\item 
+int {\bfseries Get\+Degree} () const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_adb4900194ac7e4b6032d3a059d5890fc}{}\label{class_i_dream_sky_1_1_b_spline_basis_adb4900194ac7e4b6032d3a059d5890fc}
+
+\item 
+bool {\bfseries Is\+Open} () const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_a4981bd7ed53f66aebbe5dc1257d65333}{}\label{class_i_dream_sky_1_1_b_spline_basis_a4981bd7ed53f66aebbe5dc1257d65333}
+
+\item 
+bool {\bfseries Is\+Uniform} () const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_a30c2cf66fe5861e2baea796fd75b7ccc}{}\label{class_i_dream_sky_1_1_b_spline_basis_a30c2cf66fe5861e2baea796fd75b7ccc}
+
+\item 
+void {\bfseries Set\+Knot} (int i, float f\+Knot)\hypertarget{class_i_dream_sky_1_1_b_spline_basis_a9802026a1e6481d233a63b4e3f1ea18c}{}\label{class_i_dream_sky_1_1_b_spline_basis_a9802026a1e6481d233a63b4e3f1ea18c}
+
+\item 
+float {\bfseries Get\+Knot} (int i) const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_ae07f87cc46be5561178a135426176f54}{}\label{class_i_dream_sky_1_1_b_spline_basis_ae07f87cc46be5561178a135426176f54}
+
+\item 
+float {\bfseries Get\+D0} (int i) const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_a263db0b03958b547a683c4118f43699d}{}\label{class_i_dream_sky_1_1_b_spline_basis_a263db0b03958b547a683c4118f43699d}
+
+\item 
+float {\bfseries Get\+D1} (int i) const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_a286f97a825e5403270485c08877203ea}{}\label{class_i_dream_sky_1_1_b_spline_basis_a286f97a825e5403270485c08877203ea}
+
+\item 
+float {\bfseries Get\+D2} (int i) const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_a6bcd89d536d9db8a02f84421a93381a9}{}\label{class_i_dream_sky_1_1_b_spline_basis_a6bcd89d536d9db8a02f84421a93381a9}
+
+\item 
+float {\bfseries Get\+D3} (int i) const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_a3eb66f3eafa049070a43348e23df225f}{}\label{class_i_dream_sky_1_1_b_spline_basis_a3eb66f3eafa049070a43348e23df225f}
+
+\item 
+void {\bfseries Compute} (float f\+Time, unsigned int ui\+Order, int \&ri\+Min\+Index, int \&ri\+Max\+Index) const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_ac28ad1e3c2c0957b6197aa40442359da}{}\label{class_i_dream_sky_1_1_b_spline_basis_ac28ad1e3c2c0957b6197aa40442359da}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries Initialize} (int i\+Num\+Ctrl\+Points, int i\+Degree, bool b\+Open)\hypertarget{class_i_dream_sky_1_1_b_spline_basis_ad321121da12ccbcfdaa4095fc07649dc}{}\label{class_i_dream_sky_1_1_b_spline_basis_ad321121da12ccbcfdaa4095fc07649dc}
+
+\item 
+float $\ast$$\ast$ {\bfseries Allocate} () const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_abcd39eb682099af2a037df3be8d4590a}{}\label{class_i_dream_sky_1_1_b_spline_basis_abcd39eb682099af2a037df3be8d4590a}
+
+\item 
+void {\bfseries Deallocate} (float $\ast$$\ast$aaf\+Array)\hypertarget{class_i_dream_sky_1_1_b_spline_basis_a6196de873aacc4bc58a9bc4e01824f98}{}\label{class_i_dream_sky_1_1_b_spline_basis_a6196de873aacc4bc58a9bc4e01824f98}
+
+\item 
+int {\bfseries Get\+Key} (float \&rf\+Time) const \hypertarget{class_i_dream_sky_1_1_b_spline_basis_a3b81e8c2fa4ee6c5e8f05f114f87c7b5}{}\label{class_i_dream_sky_1_1_b_spline_basis_a3b81e8c2fa4ee6c5e8f05f114f87c7b5}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries m\+\_\+i\+Num\+Ctrl\+Points}\hypertarget{class_i_dream_sky_1_1_b_spline_basis_a9e92cffbfcac94cec6760029876c8c6d}{}\label{class_i_dream_sky_1_1_b_spline_basis_a9e92cffbfcac94cec6760029876c8c6d}
+
+\item 
+int {\bfseries m\+\_\+i\+Degree}\hypertarget{class_i_dream_sky_1_1_b_spline_basis_aee2ea7ecb8b21d77ca89bd8c4d8047b5}{}\label{class_i_dream_sky_1_1_b_spline_basis_aee2ea7ecb8b21d77ca89bd8c4d8047b5}
+
+\item 
+float $\ast$ {\bfseries m\+\_\+af\+Knot}\hypertarget{class_i_dream_sky_1_1_b_spline_basis_ae0b30d8c4c05c3be730fcd978659edc8}{}\label{class_i_dream_sky_1_1_b_spline_basis_ae0b30d8c4c05c3be730fcd978659edc8}
+
+\item 
+bool {\bfseries m\+\_\+b\+Open}\hypertarget{class_i_dream_sky_1_1_b_spline_basis_a7cc1b7d87481b2bf7488803df5e49539}{}\label{class_i_dream_sky_1_1_b_spline_basis_a7cc1b7d87481b2bf7488803df5e49539}
+
+\item 
+bool {\bfseries m\+\_\+b\+Uniform}\hypertarget{class_i_dream_sky_1_1_b_spline_basis_ac61da73bb638e0c74aed3ad91223e709}{}\label{class_i_dream_sky_1_1_b_spline_basis_ac61da73bb638e0c74aed3ad91223e709}
+
+\item 
+float $\ast$$\ast$ {\bfseries m\+\_\+aaf\+B\+D0}\hypertarget{class_i_dream_sky_1_1_b_spline_basis_a962006f92aa27ea4a957d057479acb35}{}\label{class_i_dream_sky_1_1_b_spline_basis_a962006f92aa27ea4a957d057479acb35}
+
+\item 
+float $\ast$$\ast$ {\bfseries m\+\_\+aaf\+B\+D1}\hypertarget{class_i_dream_sky_1_1_b_spline_basis_a22be6c94408749855120d67a23e34edb}{}\label{class_i_dream_sky_1_1_b_spline_basis_a22be6c94408749855120d67a23e34edb}
+
+\item 
+float $\ast$$\ast$ {\bfseries m\+\_\+aaf\+B\+D2}\hypertarget{class_i_dream_sky_1_1_b_spline_basis_a5f1682f430c1ea09982becebbd059166}{}\label{class_i_dream_sky_1_1_b_spline_basis_a5f1682f430c1ea09982becebbd059166}
+
+\item 
+float $\ast$$\ast$ {\bfseries m\+\_\+aaf\+B\+D3}\hypertarget{class_i_dream_sky_1_1_b_spline_basis_af1e92321efc2e719595fc7be034e1e4c}{}\label{class_i_dream_sky_1_1_b_spline_basis_af1e92321efc2e719595fc7be034e1e4c}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/B\+Spline\+Basis.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/B\+Spline\+Basis.\+cpp\end{DoxyCompactItemize}

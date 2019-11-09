@@ -1,0 +1,6 @@
+<map id="TiXmlBase::EncodeString" name="TiXmlBase::EncodeString">
+<area shape="rect" id="node2" href="$class_ti_xml_attribute.html#a54a5f8730c7b02b9a41b74e12e27fe86" title="Get the previous sibling attribute in the DOM. Returns null at beginning. " alt="" coords="227,5,385,32"/>
+<area shape="rect" id="node3" href="$class_ti_xml_text.html#ae74d56c5b3ddec6cc3103dd51821af92" title="All TinyXml classes can print themselves to a filestream or the string class (TiXmlString in non&#45;STL ..." alt="" coords="249,56,363,83"/>
+<area shape="rect" id="node4" href="$class_ti_xml_printer.html#a0857c5d32c59b9a257f9a49cb9411df5" title="Visit a text node. " alt="" coords="243,107,369,133"/>
+<area shape="rect" id="node5" href="$class_ti_xml_base.html#ad0120210e4680ef2088601753ce0ede4" title="Get a pointer to arbitrary user data. " alt="" coords="223,157,389,184"/>
+</map>

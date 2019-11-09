@@ -1,0 +1,5 @@
+<map id="Magnum::Entity::ICreator::getEntity" name="Magnum::Entity::ICreator::getEntity">
+<area shape="rect" id="node2" href="$class_magnum_1_1_component_1_1_owner.html#aae6b25b4cfa051ad7a76ad5ac59f08c7" title="PreUpdate the Component, it do preUpdate for itself by calling onPreUpdate method and also call the p..." alt="" coords="220,39,375,80"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_component_1_1_owner.html#abf13c26d4fc4c07fad6893aac99bad3d" title="Check if currently in Editor Mode. " alt="" coords="423,5,601,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_component_1_1_owner.html#afb16090797801a819858cf93f53e2113" title="Handle onPreUpdate Event of the Component. " alt="" coords="435,71,589,112"/>
+</map>

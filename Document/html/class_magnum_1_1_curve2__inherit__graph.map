@@ -1,0 +1,7 @@
+<map id="Magnum::Curve2" name="Magnum::Curve2">
+<area shape="rect" id="node2" href="$class_magnum_1_1_multiple_curve2.html" title="Magnum::MultipleCurve2" alt="" coords="5,80,169,107"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_single_curve2.html" title="Magnum::SingleCurve2" alt="" coords="194,80,349,107"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_t_c_b_spline2.html" title="Magnum::TCBSpline2" alt="" coords="13,155,161,181"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_bezier_curve2.html" title="Magnum::BezierCurve2" alt="" coords="189,155,345,181"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_b_spline_curve2.html" title="Magnum::BSplineCurve2" alt="" coords="369,155,533,181"/>
+</map>

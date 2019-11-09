@@ -1,0 +1,45 @@
+Attributes
+{
+	attribute vec3 POSITION		: POSITION0;
+	attribute vec3 NORMAL		: NORMAL;
+	attribute vec2 TEXCOORD0	: TEXCOORD0;
+}
+
+Uniforms
+{
+	uniform vec4 ambientLightColor					= {0.2,0.2,0.2,1.0};
+	uniform vec3 dirLightDir		: LIGHT0VECTOR	= {0.577,0.577,0.577};
+	uniform vec4 dirLightColor		: LIGHT0COLOR;
+	uniform mat4 viewMat			: VIEW;
+	uniform mat4 worldViewMat		: WORLDVIEW;
+	uniform mat4 worldViewProjMat	: WORLDVIEWPROJ;
+	
+	uniform sampler2D diffuseMapSampler;
+}
+
+Technique Default
+{
+	Pass P0
+	{
+		cullenable				= true;
+        cullmode 				= cw;
+		
+		blendenable				= false;
+		blendmode				= add;
+		blendsrcfactor			= srcalpha;
+		blenddstfactor			= oneminussrcalpha;
+		
+		depthtestenable			= true;
+		
+		vertexshader
+		{
+			"precision highp float;attribute vec3 POSITION;attribute vec3 NORMAL;attribute vec2 TEXCOORD0;varying vec4 xlat_varying_COLOR0;varying vec4 xlat_varying_TEXCOORD0;uniform vec4 ambientLightColor;uniform vec4 dirLightColor;uniform vec3 dirLightDir;uniform mat4 viewMat;uniform mat4 worldViewMat;uniform mat4 worldViewProjMat;mat3 xlat_lib_constructMat3(mat4 m){return mat3( vec3( m[0]), vec3( m[1]), vec3( m[2]));}vec3 blinnDiffuse(in vec3 L, in vec3 N){return vec3( max( 0.000000, dot( N, L)));}vec3 convertWorldToView(in vec3 dir){return normalize( ( dir * xlat_lib_constructMat3( viewMat) ) );}void VS(in vec3 inputPosition, in vec3 inputNormal, in vec2 inputTexCoord0, out vec4 outputPosition, out vec4 outputColor0, out vec2 outputTexCoord0) {vec3 N;vec3 L;	vec3 V = vec3( 0.000000, 0.000000, -1.00000);vec3 H;N = normalize( ( inputNormal * xlat_lib_constructMat3( worldViewMat) ) );L = convertWorldToView( dirLightDir);H = normalize( (L + V) );outputPosition = ( vec4( inputPosition, 1.00000) * worldViewProjMat );outputColor0 = vec4( (vec3( ambientLightColor) + (vec3( dirLightColor) * blinnDiffuse( L, N))), 1.00000);outputTexCoord0 = inputTexCoord0;}void main(){vec4 xlat_temp_outputPosition;vec4 xlat_temp_outputColor0;vec2 xlat_temp_outputTexCoord0;VS( vec3(POSITION), vec3(NORMAL), vec2(TEXCOORD0), xlat_temp_outputPosition, xlat_temp_outputColor0, xlat_temp_outputTexCoord0);gl_Position = vec4( xlat_temp_outputPosition);xlat_varying_COLOR0 = vec4( xlat_temp_outputColor0);xlat_varying_TEXCOORD0 = vec4( xlat_temp_outputTexCoord0, 0.0, 0.0);	}";
+		}
+
+		pixelshader
+		{
+			"precision highp float;varying vec4 xlat_varying_POSITION;	varying vec4 xlat_varying_COLOR0;	varying vec4 xlat_varying_TEXCOORD0;uniform sampler2D diffuseMapSampler; void PS( in vec4 inputPosition, in vec4 inputColor0, in vec2 inputTexCoord0, out vec4 outputColor ) {	vec3 diffuseColor;	diffuseColor = vec3( texture2D( diffuseMapSampler, inputTexCoord0));outputColor = vec4( (vec3( inputColor0) * diffuseColor), 1.00000); }void main(){vec4 xlat_temp_outputColor;	PS( vec4(xlat_varying_POSITION), vec4(xlat_varying_COLOR0), vec2(xlat_varying_TEXCOORD0), xlat_temp_outputColor);gl_FragData[0] = vec4( xlat_temp_outputColor);}";
+		}
+	}
+}
+

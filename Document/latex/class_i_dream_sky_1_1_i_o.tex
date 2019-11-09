@@ -1,0 +1,148 @@
+\hypertarget{class_i_dream_sky_1_1_i_o}{}\section{I\+Dream\+Sky\+:\+:IO 類別 參考文件}
+\label{class_i_dream_sky_1_1_i_o}\index{I\+Dream\+Sky\+::\+IO@{I\+Dream\+Sky\+::\+IO}}
+類別\+I\+Dream\+Sky\+:\+:I\+O的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_i_dream_sky_1_1_i_o}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Seek\+Def} \{ {\bfseries B\+E\+G\+IN} = 0, 
+{\bfseries C\+U\+R\+R\+E\+NT}, 
+{\bfseries E\+ND}
+ \}\hypertarget{class_i_dream_sky_1_1_i_o_a0e6f707a0a387b12a713071facf306fa}{}\label{class_i_dream_sky_1_1_i_o_a0e6f707a0a387b12a713071facf306fa}
+
+\item 
+enum {\bfseries Access\+Mode} \{ {\bfseries R\+E\+AD} = 0x01, 
+{\bfseries W\+R\+I\+TE} = 0x02
+ \}\hypertarget{class_i_dream_sky_1_1_i_o_a2cc6b28b4454ad1045f58cf116278510}{}\label{class_i_dream_sky_1_1_i_o_a2cc6b28b4454ad1045f58cf116278510}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries IO} (const char $\ast$path\+\_\+)\hypertarget{class_i_dream_sky_1_1_i_o_aeb3f6781ea9a3fb77b7574261322c03c}{}\label{class_i_dream_sky_1_1_i_o_aeb3f6781ea9a3fb77b7574261322c03c}
+
+\item 
+virtual bool {\bfseries open} (Access\+Mode mode)\hypertarget{class_i_dream_sky_1_1_i_o_a807d034f0c46c1b4c20e58e927b6ea11}{}\label{class_i_dream_sky_1_1_i_o_a807d034f0c46c1b4c20e58e927b6ea11}
+
+\item 
+virtual bool {\bfseries open\+For\+Async} (Access\+Mode mode)\hypertarget{class_i_dream_sky_1_1_i_o_a0eeb59567195ac5ee74be22e090d7912}{}\label{class_i_dream_sky_1_1_i_o_a0eeb59567195ac5ee74be22e090d7912}
+
+\item 
+virtual bool {\bfseries is\+Async\+Finished} ()=0\hypertarget{class_i_dream_sky_1_1_i_o_a068f273be6d94d1fbc3876aa6e5ed460}{}\label{class_i_dream_sky_1_1_i_o_a068f273be6d94d1fbc3876aa6e5ed460}
+
+\item 
+virtual void {\bfseries wait\+Async\+Finished} ()=0\hypertarget{class_i_dream_sky_1_1_i_o_a827a5718294ced4dc23575e063951728}{}\label{class_i_dream_sky_1_1_i_o_a827a5718294ced4dc23575e063951728}
+
+\item 
+virtual bool {\bfseries close} ()=0\hypertarget{class_i_dream_sky_1_1_i_o_a2a74c8b56cc7b01003aa79d138b3148f}{}\label{class_i_dream_sky_1_1_i_o_a2a74c8b56cc7b01003aa79d138b3148f}
+
+\item 
+virtual bool {\bfseries live} () const  =0\hypertarget{class_i_dream_sky_1_1_i_o_a113637836930e9d4141e9688eb2c676a}{}\label{class_i_dream_sky_1_1_i_o_a113637836930e9d4141e9688eb2c676a}
+
+\item 
+virtual int {\bfseries tell} () const  =0\hypertarget{class_i_dream_sky_1_1_i_o_a45d74ad68dea94c0e10d7191105c6b1b}{}\label{class_i_dream_sky_1_1_i_o_a45d74ad68dea94c0e10d7191105c6b1b}
+
+\item 
+virtual int {\bfseries seek} (Seek\+Def from, int offset=0)=0\hypertarget{class_i_dream_sky_1_1_i_o_a9261d59c207751c62ce8d0dd3b5dda06}{}\label{class_i_dream_sky_1_1_i_o_a9261d59c207751c62ce8d0dd3b5dda06}
+
+\item 
+virtual int {\bfseries read} (void $\ast$buf, int size)=0\hypertarget{class_i_dream_sky_1_1_i_o_a898c340a4b46cab0c00bd85ee7d087f6}{}\label{class_i_dream_sky_1_1_i_o_a898c340a4b46cab0c00bd85ee7d087f6}
+
+\item 
+virtual int {\bfseries read} (unsigned char $\ast$uc)=0\hypertarget{class_i_dream_sky_1_1_i_o_ad702bcb2a5a47290af2f8e9e3529dfc3}{}\label{class_i_dream_sky_1_1_i_o_ad702bcb2a5a47290af2f8e9e3529dfc3}
+
+\item 
+virtual int {\bfseries read} (char $\ast$c)=0\hypertarget{class_i_dream_sky_1_1_i_o_a78b2e678b0d6fc1932a099916950ac14}{}\label{class_i_dream_sky_1_1_i_o_a78b2e678b0d6fc1932a099916950ac14}
+
+\item 
+virtual int {\bfseries read} (unsigned short $\ast$us)=0\hypertarget{class_i_dream_sky_1_1_i_o_aacc31713d35d4299a2cc3f49e65c8bba}{}\label{class_i_dream_sky_1_1_i_o_aacc31713d35d4299a2cc3f49e65c8bba}
+
+\item 
+virtual int {\bfseries read} (short $\ast$s)=0\hypertarget{class_i_dream_sky_1_1_i_o_a18f6e9e964c80b1672e2ceb5f56d76c5}{}\label{class_i_dream_sky_1_1_i_o_a18f6e9e964c80b1672e2ceb5f56d76c5}
+
+\item 
+virtual int {\bfseries read} (unsigned int $\ast$ui)=0\hypertarget{class_i_dream_sky_1_1_i_o_aee72e62cde3d90e8db72db5b74e13a0e}{}\label{class_i_dream_sky_1_1_i_o_aee72e62cde3d90e8db72db5b74e13a0e}
+
+\item 
+virtual int {\bfseries read} (int $\ast$i)=0\hypertarget{class_i_dream_sky_1_1_i_o_a73508a4409ce98f9bb87486b0644dac5}{}\label{class_i_dream_sky_1_1_i_o_a73508a4409ce98f9bb87486b0644dac5}
+
+\item 
+virtual int {\bfseries read} (unsigned long $\ast$ui)=0\hypertarget{class_i_dream_sky_1_1_i_o_a3b83bca265fac3c512578ff8742f5fa7}{}\label{class_i_dream_sky_1_1_i_o_a3b83bca265fac3c512578ff8742f5fa7}
+
+\item 
+virtual int {\bfseries read} (long $\ast$i)=0\hypertarget{class_i_dream_sky_1_1_i_o_aa47767e4c85a51979706c78860828f86}{}\label{class_i_dream_sky_1_1_i_o_aa47767e4c85a51979706c78860828f86}
+
+\item 
+virtual int {\bfseries read} (float $\ast$f)=0\hypertarget{class_i_dream_sky_1_1_i_o_ab6cd44368b47e6184b51762b2f3df587}{}\label{class_i_dream_sky_1_1_i_o_ab6cd44368b47e6184b51762b2f3df587}
+
+\item 
+virtual int {\bfseries read} (double $\ast$d)=0\hypertarget{class_i_dream_sky_1_1_i_o_a2364748b5d19837893956f0935e7a425}{}\label{class_i_dream_sky_1_1_i_o_a2364748b5d19837893956f0935e7a425}
+
+\item 
+virtual int {\bfseries write} (const void $\ast$buf, int size)=0\hypertarget{class_i_dream_sky_1_1_i_o_ad5617d23d6f13e412d36672904a8c15c}{}\label{class_i_dream_sky_1_1_i_o_ad5617d23d6f13e412d36672904a8c15c}
+
+\item 
+virtual int {\bfseries write} (const unsigned char $\ast$uc)=0\hypertarget{class_i_dream_sky_1_1_i_o_a7e8c224996c1745e46bf01af2a7bf28e}{}\label{class_i_dream_sky_1_1_i_o_a7e8c224996c1745e46bf01af2a7bf28e}
+
+\item 
+virtual int {\bfseries write} (const char $\ast$c)=0\hypertarget{class_i_dream_sky_1_1_i_o_a7d1b8d2afd4b653280087ae6b588e7b7}{}\label{class_i_dream_sky_1_1_i_o_a7d1b8d2afd4b653280087ae6b588e7b7}
+
+\item 
+virtual int {\bfseries write} (const unsigned short $\ast$us)=0\hypertarget{class_i_dream_sky_1_1_i_o_a7c77b0feebcee231a3aa5a59a8c0e685}{}\label{class_i_dream_sky_1_1_i_o_a7c77b0feebcee231a3aa5a59a8c0e685}
+
+\item 
+virtual int {\bfseries write} (const short $\ast$s)=0\hypertarget{class_i_dream_sky_1_1_i_o_aa2005361c44a3a05935c61de10cf9a8b}{}\label{class_i_dream_sky_1_1_i_o_aa2005361c44a3a05935c61de10cf9a8b}
+
+\item 
+virtual int {\bfseries write} (const unsigned int $\ast$ui)=0\hypertarget{class_i_dream_sky_1_1_i_o_a61525597d0054253dfa7b57e54338a2a}{}\label{class_i_dream_sky_1_1_i_o_a61525597d0054253dfa7b57e54338a2a}
+
+\item 
+virtual int {\bfseries write} (const int $\ast$i)=0\hypertarget{class_i_dream_sky_1_1_i_o_a65a8cd02fba0c6d4d8dc4e123d453f7a}{}\label{class_i_dream_sky_1_1_i_o_a65a8cd02fba0c6d4d8dc4e123d453f7a}
+
+\item 
+virtual int {\bfseries write} (const unsigned long $\ast$ui)=0\hypertarget{class_i_dream_sky_1_1_i_o_ab18cff4980f527837c8926fd92dcd6a8}{}\label{class_i_dream_sky_1_1_i_o_ab18cff4980f527837c8926fd92dcd6a8}
+
+\item 
+virtual int {\bfseries write} (const long $\ast$i)=0\hypertarget{class_i_dream_sky_1_1_i_o_ae9a25cd6fc7d4899a2d822fc2ec915f6}{}\label{class_i_dream_sky_1_1_i_o_ae9a25cd6fc7d4899a2d822fc2ec915f6}
+
+\item 
+virtual int {\bfseries write} (const float $\ast$f)=0\hypertarget{class_i_dream_sky_1_1_i_o_ae2405f8cbbd6251dec138286436bb14b}{}\label{class_i_dream_sky_1_1_i_o_ae2405f8cbbd6251dec138286436bb14b}
+
+\item 
+virtual int {\bfseries write} (const double $\ast$d)=0\hypertarget{class_i_dream_sky_1_1_i_o_a790c358a765bc0b1d49c7a7985484c62}{}\label{class_i_dream_sky_1_1_i_o_a790c358a765bc0b1d49c7a7985484c62}
+
+\item 
+virtual int {\bfseries length} () const  =0\hypertarget{class_i_dream_sky_1_1_i_o_a08008e733c3d51f1a252eda8f66bcc92}{}\label{class_i_dream_sky_1_1_i_o_a08008e733c3d51f1a252eda8f66bcc92}
+
+\item 
+bool {\bfseries is\+Read\+Enabled} () const \hypertarget{class_i_dream_sky_1_1_i_o_a9c3f4f8d7228777a1020307e254460d2}{}\label{class_i_dream_sky_1_1_i_o_a9c3f4f8d7228777a1020307e254460d2}
+
+\item 
+bool {\bfseries is\+Write\+Enabled} () const \hypertarget{class_i_dream_sky_1_1_i_o_ac3a9bd02f8d9e62d9524e2d887357d7f}{}\label{class_i_dream_sky_1_1_i_o_ac3a9bd02f8d9e62d9524e2d887357d7f}
+
+\item 
+const char $\ast$ {\bfseries get\+Path} () const \hypertarget{class_i_dream_sky_1_1_i_o_a9500060996c4b8077acd05bd40a926dc}{}\label{class_i_dream_sky_1_1_i_o_a9500060996c4b8077acd05bd40a926dc}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_string}{String} {\bfseries path}\hypertarget{class_i_dream_sky_1_1_i_o_a4f3cdf3eba6460e31ca81a3763177e43}{}\label{class_i_dream_sky_1_1_i_o_a4f3cdf3eba6460e31ca81a3763177e43}
+
+\item 
+Access\+Mode {\bfseries access\+Mode}\hypertarget{class_i_dream_sky_1_1_i_o_aa69530339dfa8aa055b09b3de08ac219}{}\label{class_i_dream_sky_1_1_i_o_aa69530339dfa8aa055b09b3de08ac219}
+
+\item 
+bool {\bfseries async\+Mode}\hypertarget{class_i_dream_sky_1_1_i_o_a182c19a45bd3fc249265318f0b9321a2}{}\label{class_i_dream_sky_1_1_i_o_a182c19a45bd3fc249265318f0b9321a2}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/I\+O.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/I\+O.\+cpp\end{DoxyCompactItemize}

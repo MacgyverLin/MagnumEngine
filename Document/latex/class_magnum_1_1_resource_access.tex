@@ -1,0 +1,204 @@
+\hypertarget{class_magnum_1_1_resource_access}{}\section{Magnum\+:\+:Resource\+Access 類別 參考文件}
+\label{class_magnum_1_1_resource_access}\index{Magnum\+::\+Resource\+Access@{Magnum\+::\+Resource\+Access}}
+
+
+類別\+Magnum\+:\+:Resource\+Access的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_resource_access__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_resource_access_1_1_creator}{Creator}
+\item 
+class \hyperlink{class_magnum_1_1_resource_access_1_1_factory}{Factory}
+\item 
+class \hyperlink{class_magnum_1_1_resource_access_1_1_i_creator}{I\+Creator}
+\item 
+struct \hyperlink{struct_magnum_1_1_resource_access_1_1_service}{Service}
+\end{DoxyCompactItemize}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ {\bfseries M\+A\+X\+\_\+\+C\+R\+E\+A\+T\+OR} = 50, 
+{\bfseries M\+A\+X\+\_\+\+N\+A\+ME} = 64
+ \}\hypertarget{class_magnum_1_1_resource_access_a8196b9cc6f30e6991e6c2d1caad6412e}{}\label{class_magnum_1_1_resource_access_a8196b9cc6f30e6991e6c2d1caad6412e}
+
+\item 
+enum {\bfseries State} \{ {\bfseries P\+E\+N\+D\+I\+NG} = 0, 
+{\bfseries L\+O\+A\+D\+I\+NG}, 
+{\bfseries F\+A\+I\+L\+ED}, 
+{\bfseries R\+E\+A\+DY}
+ \}\hypertarget{class_magnum_1_1_resource_access_a159e8791782791c10fa4807a8efc6b8e}{}\label{class_magnum_1_1_resource_access_a159e8791782791c10fa4807a8efc6b8e}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_resource_access_a4322947bdd4f7fb491daa02ac9a8c7d9}{Resource\+Access} (const char $\ast$name\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_resource_access}{Resource\+Access} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_resource_access_a443279db5552ee397553e556807bd637}{$\sim$\+Resource\+Access} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_resource_access}{Resource\+Access} Destructor. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_magnum_1_1_resource_access_aacebfe47ff62d9a3b23db0ad4c9c2767}{name} ()
+\begin{DoxyCompactList}\small\item\em Get the Name. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_resource_access_a6da5b8b50b4a52190a0215eedaa1d0e6}{add\+Reference} ()\hypertarget{class_magnum_1_1_resource_access_a6da5b8b50b4a52190a0215eedaa1d0e6}{}\label{class_magnum_1_1_resource_access_a6da5b8b50b4a52190a0215eedaa1d0e6}
+
+\begin{DoxyCompactList}\small\item\em Increase Reference Count of the resource by 1 This function increase reference count to the resource and keep managed by the Resource Manager. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_resource_access_a5aeaaeb81a37dd6ceac1cc7251a480f5}{release} ()
+\begin{DoxyCompactList}\small\item\em Decrease Reference Count of the resource by 1 This function decrease reference count to the resource. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_resource_access_a64e4a911f49d166c02b9cd1f6f8c4e90}{get\+Ref\+Count} () const 
+\begin{DoxyCompactList}\small\item\em Get the Reference Count of the resource. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_resource_access_aee67422c4295313158b2682cbc8a2d53}{is\+Loading} () const \hypertarget{class_magnum_1_1_resource_access_aee67422c4295313158b2682cbc8a2d53}{}\label{class_magnum_1_1_resource_access_aee67422c4295313158b2682cbc8a2d53}
+
+\begin{DoxyCompactList}\small\item\em Check if the Resource is Loading. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_resource_access_a8451cc6dd389b29bb16fa4575614ba9a}{is\+Ready} () const \hypertarget{class_magnum_1_1_resource_access_a8451cc6dd389b29bb16fa4575614ba9a}{}\label{class_magnum_1_1_resource_access_a8451cc6dd389b29bb16fa4575614ba9a}
+
+\begin{DoxyCompactList}\small\item\em Increase Reference Count of the resource by 1 This function increase reference count to the resource and keep managed by the Resource Manager. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_magnum_1_1_resource_access}{Resource\+Access} $\ast$ {\bfseries get} (const char $\ast$name\+\_\+, const char $\ast$extension\+\_\+, bool async\+Loading=false)\hypertarget{class_magnum_1_1_resource_access_acc0a1ddf8d12b7c80839a07ec87a6dd8}{}\label{class_magnum_1_1_resource_access_acc0a1ddf8d12b7c80839a07ec87a6dd8}
+
+\item 
+static void {\bfseries load} (const char $\ast$directory\+\_\+, const char $\ast$extension=\char`\"{}$\ast$\char`\"{})\hypertarget{class_magnum_1_1_resource_access_abce2fed1d16d29afba7651ed4ebc6d00}{}\label{class_magnum_1_1_resource_access_abce2fed1d16d29afba7651ed4ebc6d00}
+
+\item 
+static void {\bfseries unload} (const char $\ast$directory\+\_\+, const char $\ast$extension=\char`\"{}$\ast$\char`\"{})\hypertarget{class_magnum_1_1_resource_access_a78e1244ae000d9ecc092be8ab34cdb89}{}\label{class_magnum_1_1_resource_access_a78e1244ae000d9ecc092be8ab34cdb89}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual const char $\ast$ {\bfseries extension} () const  =0\hypertarget{class_magnum_1_1_resource_access_a14269a8f1df85c696739572afff4a0a2}{}\label{class_magnum_1_1_resource_access_a14269a8f1df85c696739572afff4a0a2}
+
+\item 
+virtual unsigned char $\ast$ {\bfseries on\+Create} (int length)=0\hypertarget{class_magnum_1_1_resource_access_a443332834bd368346df79be6941d8e58}{}\label{class_magnum_1_1_resource_access_a443332834bd368346df79be6941d8e58}
+
+\item 
+virtual void {\bfseries on\+Loaded} ()=0\hypertarget{class_magnum_1_1_resource_access_a812b6f26dc7e3eceafa3d0a7fb983132}{}\label{class_magnum_1_1_resource_access_a812b6f26dc7e3eceafa3d0a7fb983132}
+
+\item 
+virtual void {\bfseries on\+Destroy} ()=0\hypertarget{class_magnum_1_1_resource_access_a99508288dcbd3359a366214c8a1de5bf}{}\label{class_magnum_1_1_resource_access_a99508288dcbd3359a366214c8a1de5bf}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Factory}\hypertarget{class_magnum_1_1_resource_access_a328c093d609680cca505905c6d49901a}{}\label{class_magnum_1_1_resource_access_a328c093d609680cca505905c6d49901a}
+
+\item 
+class {\bfseries I\+Creator}\hypertarget{class_magnum_1_1_resource_access_a6d6e56ac47edfce9d2590e0757222ded}{}\label{class_magnum_1_1_resource_access_a6d6e56ac47edfce9d2590e0757222ded}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Resource\+Access@{Magnum\+::\+Resource\+Access}!Resource\+Access@{Resource\+Access}}
+\index{Resource\+Access@{Resource\+Access}!Magnum\+::\+Resource\+Access@{Magnum\+::\+Resource\+Access}}
+\subsubsection[{\texorpdfstring{Resource\+Access(const char $\ast$name\+\_\+)}{ResourceAccess(const char *name_)}}]{\setlength{\rightskip}{0pt plus 5cm}Resource\+Access\+::\+Resource\+Access (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_resource_access_a4322947bdd4f7fb491daa02ac9a8c7d9}{}\label{class_magnum_1_1_resource_access_a4322947bdd4f7fb491daa02ac9a8c7d9}
+
+
+\hyperlink{class_magnum_1_1_resource_access}{Resource\+Access} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_resource_access}{Resource\+Access} for the owner. 
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_resource_access_a4322947bdd4f7fb491daa02ac9a8c7d9_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Resource\+Access@{Magnum\+::\+Resource\+Access}!````~Resource\+Access@{$\sim$\+Resource\+Access}}
+\index{````~Resource\+Access@{$\sim$\+Resource\+Access}!Magnum\+::\+Resource\+Access@{Magnum\+::\+Resource\+Access}}
+\subsubsection[{\texorpdfstring{$\sim$\+Resource\+Access()}{~ResourceAccess()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual Magnum\+::\+Resource\+Access\+::$\sim$\+Resource\+Access (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_resource_access_a443279db5552ee397553e556807bd637}{}\label{class_magnum_1_1_resource_access_a443279db5552ee397553e556807bd637}
+
+
+\hyperlink{class_magnum_1_1_resource_access}{Resource\+Access} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_resource_access}{Resource\+Access} and remove from its owner. 
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_resource_access_a443279db5552ee397553e556807bd637_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Resource\+Access@{Magnum\+::\+Resource\+Access}!get\+Ref\+Count@{get\+Ref\+Count}}
+\index{get\+Ref\+Count@{get\+Ref\+Count}!Magnum\+::\+Resource\+Access@{Magnum\+::\+Resource\+Access}}
+\subsubsection[{\texorpdfstring{get\+Ref\+Count() const }{getRefCount() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Resource\+Access\+::get\+Ref\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_resource_access_a64e4a911f49d166c02b9cd1f6f8c4e90}{}\label{class_magnum_1_1_resource_access_a64e4a911f49d166c02b9cd1f6f8c4e90}
+
+
+Get the Reference Count of the resource. 
+
+\begin{DoxyReturn}{傳回值}
+int, the how many time the resource is reference. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Resource\+Access@{Magnum\+::\+Resource\+Access}!name@{name}}
+\index{name@{name}!Magnum\+::\+Resource\+Access@{Magnum\+::\+Resource\+Access}}
+\subsubsection[{\texorpdfstring{name()}{name()}}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Resource\+Access\+::name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_resource_access_aacebfe47ff62d9a3b23db0ad4c9c2767}{}\label{class_magnum_1_1_resource_access_aacebfe47ff62d9a3b23db0ad4c9c2767}
+
+
+Get the Name. 
+
+\begin{DoxyReturn}{傳回值}
+, const char $\ast$name of the resource. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Resource\+Access@{Magnum\+::\+Resource\+Access}!release@{release}}
+\index{release@{release}!Magnum\+::\+Resource\+Access@{Magnum\+::\+Resource\+Access}}
+\subsubsection[{\texorpdfstring{release()}{release()}}]{\setlength{\rightskip}{0pt plus 5cm}void Resource\+Access\+::release (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_resource_access_a5aeaaeb81a37dd6ceac1cc7251a480f5}{}\label{class_magnum_1_1_resource_access_a5aeaaeb81a37dd6ceac1cc7251a480f5}
+
+
+Decrease Reference Count of the resource by 1 This function decrease reference count to the resource. 
+
+If the reference count reach zero, the resource will be release by Resource Services \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_resource_access_a6da5b8b50b4a52190a0215eedaa1d0e6}{add\+Reference} 
+\end{DoxySeeAlso}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_resource_access_a5aeaaeb81a37dd6ceac1cc7251a480f5_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Resource\+Access.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Resource\+Access.\+cpp\end{DoxyCompactItemize}

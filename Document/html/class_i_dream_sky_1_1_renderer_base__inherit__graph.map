@@ -1,0 +1,11 @@
+<map id="IDreamSky::RendererBase" name="IDreamSky::RendererBase">
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_bill_board_renderer.html" title="BillBoardRenderer. " alt="" coords="447,5,646,32"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_cube_renderer.html" title="CubeRenderer. " alt="" coords="459,56,635,83"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_diffuse_map_cube_renderer.html" title="DiffuseMapCubeRenderer. " alt="" coords="453,107,641,149"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_diffuse_map_specular_map_cube_renderer.html" title="DiffuseMapSpecularMapCubeRenderer. " alt="" coords="442,173,651,214"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_editor_gizmo_renderer.html" title="EditorGizmoRenderer. " alt="" coords="437,239,656,265"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_particle_emitter_renderer.html" title="ParticleEmitterRenderer. " alt="" coords="457,290,637,331"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_skeletal_animation_model_renderer.html" title="SkeletalAnimationModelRenderer. " alt="" coords="447,355,646,397"/>
+<area shape="rect" id="node10" href="$class_i_dream_sky_1_1_sky_sphere_renderer.html" title="SkySphereRenderer. " alt="" coords="441,421,652,448"/>
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_component.html" title="Component. " alt="" coords="5,209,165,236"/>
+</map>

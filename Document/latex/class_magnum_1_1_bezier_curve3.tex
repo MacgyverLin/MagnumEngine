@@ -1,0 +1,102 @@
+\hypertarget{class_magnum_1_1_bezier_curve3}{}\section{Magnum\+:\+:Bezier\+Curve3 類別 參考文件}
+\label{class_magnum_1_1_bezier_curve3}\index{Magnum\+::\+Bezier\+Curve3@{Magnum\+::\+Bezier\+Curve3}}
+
+
+類別\+Magnum\+:\+:Bezier\+Curve3的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{class_magnum_1_1_bezier_curve3__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Bezier\+Curve3的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_bezier_curve3__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Bezier\+Curve3} (int i\+Degree, \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$ak\+Ctrl\+Point)\hypertarget{class_magnum_1_1_bezier_curve3_aa25c072fbf78285374c2b7bc97109db4}{}\label{class_magnum_1_1_bezier_curve3_aa25c072fbf78285374c2b7bc97109db4}
+
+\item 
+int {\bfseries Get\+Degree} () const \hypertarget{class_magnum_1_1_bezier_curve3_ab71736c1419240724131a847f94e99e7}{}\label{class_magnum_1_1_bezier_curve3_ab71736c1419240724131a847f94e99e7}
+
+\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$ {\bfseries Get\+Control\+Points} () const \hypertarget{class_magnum_1_1_bezier_curve3_affbc297eb6cbb0d2975477743927d2e8}{}\label{class_magnum_1_1_bezier_curve3_affbc297eb6cbb0d2975477743927d2e8}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Get\+Position} (float f\+Time) const \hypertarget{class_magnum_1_1_bezier_curve3_a3fc3869f6ce5be8537b8710e5b14f91b}{}\label{class_magnum_1_1_bezier_curve3_a3fc3869f6ce5be8537b8710e5b14f91b}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Get\+First\+Derivative} (float f\+Time) const \hypertarget{class_magnum_1_1_bezier_curve3_ad7475ec4b3d683e48d4ade3319f71c6d}{}\label{class_magnum_1_1_bezier_curve3_ad7475ec4b3d683e48d4ade3319f71c6d}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Get\+Second\+Derivative} (float f\+Time) const \hypertarget{class_magnum_1_1_bezier_curve3_af39cb85a8faab1621e1b789eb39b874d}{}\label{class_magnum_1_1_bezier_curve3_af39cb85a8faab1621e1b789eb39b874d}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Get\+Third\+Derivative} (float f\+Time) const \hypertarget{class_magnum_1_1_bezier_curve3_a28be74150eff6df733e706cb48f8bcee}{}\label{class_magnum_1_1_bezier_curve3_a28be74150eff6df733e706cb48f8bcee}
+
+\item 
+virtual float {\bfseries Get\+Variation} (float f\+T0, float f\+T1, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$pk\+P0=0, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$pk\+P1=0) const \hypertarget{class_magnum_1_1_bezier_curve3_a6101a072381df8c399b46c8f150a39c7}{}\label{class_magnum_1_1_bezier_curve3_a6101a072381df8c399b46c8f150a39c7}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries m\+\_\+i\+Degree}\hypertarget{class_magnum_1_1_bezier_curve3_a3607e4cf87c2f9915dbd106147f98a27}{}\label{class_magnum_1_1_bezier_curve3_a3607e4cf87c2f9915dbd106147f98a27}
+
+\item 
+int {\bfseries m\+\_\+i\+Num\+Ctrl\+Points}\hypertarget{class_magnum_1_1_bezier_curve3_a04cd8278c9dd51747b8f8b8cab080514}{}\label{class_magnum_1_1_bezier_curve3_a04cd8278c9dd51747b8f8b8cab080514}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$ {\bfseries m\+\_\+ak\+Ctrl\+Point}\hypertarget{class_magnum_1_1_bezier_curve3_aa33a24af4da9904f560e823c898c25b9}{}\label{class_magnum_1_1_bezier_curve3_aa33a24af4da9904f560e823c898c25b9}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$ {\bfseries m\+\_\+ak\+Der1\+Ctrl\+Point}\hypertarget{class_magnum_1_1_bezier_curve3_ac8afdd52384ff857e55f21df16cdcb5c}{}\label{class_magnum_1_1_bezier_curve3_ac8afdd52384ff857e55f21df16cdcb5c}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$ {\bfseries m\+\_\+ak\+Der2\+Ctrl\+Point}\hypertarget{class_magnum_1_1_bezier_curve3_a9004517f03b7645294aa420efe1b120d}{}\label{class_magnum_1_1_bezier_curve3_a9004517f03b7645294aa420efe1b120d}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$ {\bfseries m\+\_\+ak\+Der3\+Ctrl\+Point}\hypertarget{class_magnum_1_1_bezier_curve3_a8e0474aeba822b6e13dbeba7a5329ab4}{}\label{class_magnum_1_1_bezier_curve3_a8e0474aeba822b6e13dbeba7a5329ab4}
+
+\item 
+float $\ast$$\ast$ {\bfseries m\+\_\+aaf\+Choose}\hypertarget{class_magnum_1_1_bezier_curve3_a4bb55676442697bd18a9702b4822a5a1}{}\label{class_magnum_1_1_bezier_curve3_a4bb55676442697bd18a9702b4822a5a1}
+
+\item 
+int {\bfseries m\+\_\+i\+Two\+Degree}\hypertarget{class_magnum_1_1_bezier_curve3_a1b87b8efd28d8435e4e0c13984caca67}{}\label{class_magnum_1_1_bezier_curve3_a1b87b8efd28d8435e4e0c13984caca67}
+
+\item 
+int {\bfseries m\+\_\+i\+Two\+Degree\+Plus\+One}\hypertarget{class_magnum_1_1_bezier_curve3_abdbd46ad64f1bcd49fe8c7629ffb740d}{}\label{class_magnum_1_1_bezier_curve3_abdbd46ad64f1bcd49fe8c7629ffb740d}
+
+\item 
+float $\ast$ {\bfseries m\+\_\+af\+Sigma}\hypertarget{class_magnum_1_1_bezier_curve3_a8340c847a63c783efb6182f53809032a}{}\label{class_magnum_1_1_bezier_curve3_a8340c847a63c783efb6182f53809032a}
+
+\item 
+float $\ast$ {\bfseries m\+\_\+af\+Recip}\hypertarget{class_magnum_1_1_bezier_curve3_ad800d67ef87395afae0056a8c426f729}{}\label{class_magnum_1_1_bezier_curve3_ad800d67ef87395afae0056a8c426f729}
+
+\item 
+float $\ast$ {\bfseries m\+\_\+af\+Pow\+T0}\hypertarget{class_magnum_1_1_bezier_curve3_afc4e67aa452b05f991f13f24dd126941}{}\label{class_magnum_1_1_bezier_curve3_afc4e67aa452b05f991f13f24dd126941}
+
+\item 
+float $\ast$ {\bfseries m\+\_\+af\+Pow\+Om\+T0}\hypertarget{class_magnum_1_1_bezier_curve3_a4a9ceb30ab3752d5fb0a1a3d906dc6e7}{}\label{class_magnum_1_1_bezier_curve3_a4a9ceb30ab3752d5fb0a1a3d906dc6e7}
+
+\item 
+float $\ast$ {\bfseries m\+\_\+af\+Pow\+T1}\hypertarget{class_magnum_1_1_bezier_curve3_a156e12c5cf0d5968a16818f238e63663}{}\label{class_magnum_1_1_bezier_curve3_a156e12c5cf0d5968a16818f238e63663}
+
+\item 
+float $\ast$ {\bfseries m\+\_\+af\+Pow\+Om\+T1}\hypertarget{class_magnum_1_1_bezier_curve3_a03d1a6d2eefb723a99cc76a57b1c8a25}{}\label{class_magnum_1_1_bezier_curve3_a03d1a6d2eefb723a99cc76a57b1c8a25}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Bezier\+Curve3.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Bezier\+Curve3.\+cpp\end{DoxyCompactItemize}

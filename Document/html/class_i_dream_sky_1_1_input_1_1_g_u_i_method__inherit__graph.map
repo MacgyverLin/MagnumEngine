@@ -1,0 +1,5 @@
+<map id="IDreamSky::Input::GUIMethod&lt; U &gt;" name="IDreamSky::Input::GUIMethod&lt; U &gt;">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_input_1_1_input_delegate1.html" title="IDreamSky::Input::InputDelegate1\l\&lt; U, GUIEvent \&gt;" alt="" coords="11,184,227,225"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_functor1.html" title="IDreamSky::Functor1\l\&lt; GUIEvent \&gt;" alt="" coords="47,95,192,136"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_link.html" title="IDreamSky::Link\&lt; Functor1\l\&lt; GUIEvent \&gt; \&gt;" alt="" coords="29,5,210,47"/>
+</map>

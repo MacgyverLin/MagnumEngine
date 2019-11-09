@@ -1,0 +1,4 @@
+<map id="Magnum::Collision" name="Magnum::Collision">
+<area shape="rect" id="node2" href="$class_magnum_1_1_scene_collision.html" title="This is the sub class for Scene Collision Object. " alt="" coords="5,80,172,107"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_sphere3_collision.html" title="This is the sub class for spherical Collision Object. " alt="" coords="196,80,373,107"/>
+</map>

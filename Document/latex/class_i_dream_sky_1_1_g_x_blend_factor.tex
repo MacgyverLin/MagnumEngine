@@ -1,0 +1,107 @@
+\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor}{}\section{I\+Dream\+Sky\+:\+:G\+X\+Blend\+Factor 類別 參考文件}
+\label{class_i_dream_sky_1_1_g_x_blend_factor}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}
+
+
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} encapsulate a Blend Factor Blending Equation\+: Add Cs $\ast$ Fs + Cd $\ast$ Fs Subtract Cs $\ast$ Fs -\/ Cd $\ast$ Fs Reverse\+Subtract Cd $\ast$ Fs -\/ Cs $\ast$ Fs where Fs, Fd are blend factor for source and destination respectively where Cs, Cd are color of fragment or frame buffer and destination respectively.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Def.\+h$>$}
+
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ \\*
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a50dbe5aa7c5017ebe752e4d3bfa8bd3f}{Zero} = 0, 
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aae7a689435e948e20dfba9553eb32527}{One} = 1, 
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a4cd33ae10b3151bd629e1e70ffb46a1f}{Src\+Color} = 2, 
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aca2ffa5aa96e1dc67ad48a14c5f87140}{One\+Minus\+Src\+Color} = 3, 
+\\*
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3adc6338621c08b6c0fc262b30c4bd7857}{Dst\+Color} = 4, 
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a84616783657bbbf302ed94d76e521b7d}{One\+Minus\+Dst\+Color} = 5, 
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a9b89888549a88aaf2b7ac2bcf73f0f6c}{Src\+Alpha} = 6, 
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aaa3ab4c4f5d9b66bffa0e40142109b86}{One\+Minus\+Src\+Alpha} = 7, 
+\\*
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a4b109816d9e6a6b6ff57b0643950ce60}{Dst\+Alpha} = 8, 
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a7911c1008f6725666978b0bdf0eb0b87}{One\+Minus\+Dst\+Alpha} = 9, 
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a901509cba5833a6ff75faaff94a26422}{Constant\+Color} = 10, 
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a9af4204151986715310837934226e6df}{One\+Minus\+Constant\+Color} = 11, 
+\\*
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a8004ead828d068cb2a00cc2aaab0182c}{Constant\+Alpha} = 12, 
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a82b84c2292f5cda6cb619e0a35bd6eae}{One\+Minus\+Constant\+Alpha} = 13, 
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aa50be0170753b8d33753b4c886569cc6}{Src\+Alpha\+Saturate} = 14
+ \}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+X\+Blend\+Factor} (unsigned int order\+\_\+=0)\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a303bbbc4cd14c1b183ec983d15961e71}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a303bbbc4cd14c1b183ec983d15961e71}
+
+\item 
+{\bfseries operator unsigned int} ()\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_ae1af9b613f2086236f6f7333ae3e37c3}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_ae1af9b613f2086236f6f7333ae3e37c3}
+
+\item 
+{\bfseries operator const unsigned int} () const \hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a6d8e8a59012ca086d0f876c8edf126bc}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a6d8e8a59012ca086d0f876c8edf126bc}
+
+\item 
+unsigned int {\bfseries get\+Value} () const \hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a3398cb47ec7134f439349644005633da}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a3398cb47ec7134f439349644005633da}
+
+\item 
+bool {\bfseries set} (const \hyperlink{class_i_dream_sky_1_1_string}{String} \&value)\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a2a7ca1b477bd0c10fce20cd54ada3137}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a2a7ca1b477bd0c10fce20cd54ada3137}
+
+\item 
+void {\bfseries read} (\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a5ec46cbf47f0f8a6947550b53d391eb9}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a5ec46cbf47f0f8a6947550b53d391eb9}
+
+\item 
+void {\bfseries write} (\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_ae63988331c5b38a2522c227e7e374532}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_ae63988331c5b38a2522c227e7e374532}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} encapsulate a Blend Factor Blending Equation\+: Add Cs $\ast$ Fs + Cd $\ast$ Fs Subtract Cs $\ast$ Fs -\/ Cd $\ast$ Fs Reverse\+Subtract Cd $\ast$ Fs -\/ Cs $\ast$ Fs where Fs, Fd are blend factor for source and destination respectively where Cs, Cd are color of fragment or frame buffer and destination respectively. 
+
+\subsection{列舉型態成員說明文件}
+\subsubsection[{\texorpdfstring{anonymous enum}{anonymous enum}}]{\setlength{\rightskip}{0pt plus 5cm}anonymous enum}\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{Zero@{Zero}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!Zero@{Zero}}\item[{\em 
+Zero\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a50dbe5aa7c5017ebe752e4d3bfa8bd3f}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a50dbe5aa7c5017ebe752e4d3bfa8bd3f}
+}]Blend Factor=0. \index{One@{One}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!One@{One}}\item[{\em 
+One\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aae7a689435e948e20dfba9553eb32527}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aae7a689435e948e20dfba9553eb32527}
+}]Blend Factor=1. \index{Src\+Color@{Src\+Color}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!Src\+Color@{Src\+Color}}\item[{\em 
+Src\+Color\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a4cd33ae10b3151bd629e1e70ffb46a1f}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a4cd33ae10b3151bd629e1e70ffb46a1f}
+}]Blend Factor=Cs. \index{One\+Minus\+Src\+Color@{One\+Minus\+Src\+Color}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!One\+Minus\+Src\+Color@{One\+Minus\+Src\+Color}}\item[{\em 
+One\+Minus\+Src\+Color\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aca2ffa5aa96e1dc67ad48a14c5f87140}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aca2ffa5aa96e1dc67ad48a14c5f87140}
+}]Blend Factor=1-\/\+Cs. \index{Dst\+Color@{Dst\+Color}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!Dst\+Color@{Dst\+Color}}\item[{\em 
+Dst\+Color\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3adc6338621c08b6c0fc262b30c4bd7857}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3adc6338621c08b6c0fc262b30c4bd7857}
+}]Blend Factor=Cd. \index{One\+Minus\+Dst\+Color@{One\+Minus\+Dst\+Color}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!One\+Minus\+Dst\+Color@{One\+Minus\+Dst\+Color}}\item[{\em 
+One\+Minus\+Dst\+Color\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a84616783657bbbf302ed94d76e521b7d}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a84616783657bbbf302ed94d76e521b7d}
+}]Blend Factor=1-\/\+Cd. \index{Src\+Alpha@{Src\+Alpha}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!Src\+Alpha@{Src\+Alpha}}\item[{\em 
+Src\+Alpha\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a9b89888549a88aaf2b7ac2bcf73f0f6c}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a9b89888549a88aaf2b7ac2bcf73f0f6c}
+}]Blend Factor=As. \index{One\+Minus\+Src\+Alpha@{One\+Minus\+Src\+Alpha}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!One\+Minus\+Src\+Alpha@{One\+Minus\+Src\+Alpha}}\item[{\em 
+One\+Minus\+Src\+Alpha\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aaa3ab4c4f5d9b66bffa0e40142109b86}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aaa3ab4c4f5d9b66bffa0e40142109b86}
+}]Blend Factor=1-\/\+As. \index{Dst\+Alpha@{Dst\+Alpha}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!Dst\+Alpha@{Dst\+Alpha}}\item[{\em 
+Dst\+Alpha\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a4b109816d9e6a6b6ff57b0643950ce60}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a4b109816d9e6a6b6ff57b0643950ce60}
+}]Blend Factor=Ad. \index{One\+Minus\+Dst\+Alpha@{One\+Minus\+Dst\+Alpha}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!One\+Minus\+Dst\+Alpha@{One\+Minus\+Dst\+Alpha}}\item[{\em 
+One\+Minus\+Dst\+Alpha\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a7911c1008f6725666978b0bdf0eb0b87}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a7911c1008f6725666978b0bdf0eb0b87}
+}]Blend Factor=1-\/\+Ad. \index{Constant\+Color@{Constant\+Color}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!Constant\+Color@{Constant\+Color}}\item[{\em 
+Constant\+Color\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a901509cba5833a6ff75faaff94a26422}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a901509cba5833a6ff75faaff94a26422}
+}]Blend Factor=Cc. \index{One\+Minus\+Constant\+Color@{One\+Minus\+Constant\+Color}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!One\+Minus\+Constant\+Color@{One\+Minus\+Constant\+Color}}\item[{\em 
+One\+Minus\+Constant\+Color\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a9af4204151986715310837934226e6df}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a9af4204151986715310837934226e6df}
+}]Blend Factor=1-\/\+Cc. \index{Constant\+Alpha@{Constant\+Alpha}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!Constant\+Alpha@{Constant\+Alpha}}\item[{\em 
+Constant\+Alpha\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a8004ead828d068cb2a00cc2aaab0182c}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a8004ead828d068cb2a00cc2aaab0182c}
+}]Blend Factor=Ac. \index{One\+Minus\+Constant\+Alpha@{One\+Minus\+Constant\+Alpha}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!One\+Minus\+Constant\+Alpha@{One\+Minus\+Constant\+Alpha}}\item[{\em 
+One\+Minus\+Constant\+Alpha\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a82b84c2292f5cda6cb619e0a35bd6eae}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3a82b84c2292f5cda6cb619e0a35bd6eae}
+}]Blend Factor=1-\/\+Ac. \index{Src\+Alpha\+Saturate@{Src\+Alpha\+Saturate}!I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}}\index{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor@{I\+Dream\+Sky\+::\+G\+X\+Blend\+Factor}!Src\+Alpha\+Saturate@{Src\+Alpha\+Saturate}}\item[{\em 
+Src\+Alpha\+Saturate\hypertarget{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aa50be0170753b8d33753b4c886569cc6}{}\label{class_i_dream_sky_1_1_g_x_blend_factor_a4226ff82883fba994b921c202fc536e3aa50be0170753b8d33753b4c886569cc6}
+}]Blend Factor=Assat. \end{description}
+\end{Desc}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Def.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Def.\+cpp\end{DoxyCompactItemize}

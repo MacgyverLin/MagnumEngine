@@ -1,0 +1,520 @@
+\hypertarget{class_magnum_1_1_vector}{}\section{Magnum\+:\+:Vector$<$ T $>$ 類別 樣版 參考文件}
+\label{class_magnum_1_1_vector}\index{Magnum\+::\+Vector$<$ T $>$@{Magnum\+::\+Vector$<$ T $>$}}
+
+
+\hyperlink{class_magnum_1_1_vector}{Vector} class for a bound protected array class with variable size.  
+
+
+
+
+{\ttfamily \#include $<$Array.\+h$>$}
+
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+typedef int($\ast$ {\bfseries Compare}) (const void $\ast$left, const void $\ast$right)\hypertarget{class_magnum_1_1_vector_a6b5120c3159dcd25eca315281c2a35c7}{}\label{class_magnum_1_1_vector_a6b5120c3159dcd25eca315281c2a35c7}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_magnum_1_1_vector_a0350766ba61f29a27692e9a7f3e2e61d}{length} () const 
+\begin{DoxyCompactList}\small\item\em Get the length of the \hyperlink{class_magnum_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_vector_a8831d0ce69f8693ee20d8bcac32f198b}{capacity} () const 
+\begin{DoxyCompactList}\small\item\em Get the capacity of the \hyperlink{class_magnum_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+void $\ast$ {\bfseries get} (int i)\hypertarget{class_magnum_1_1_vector_a1e7f4e2774e1d3c4bbafdee1272acb79}{}\label{class_magnum_1_1_vector_a1e7f4e2774e1d3c4bbafdee1272acb79}
+
+\item 
+T \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (int i)\hypertarget{class_magnum_1_1_vector_a0130a7137209ce2e30dbc52d9c2a938a}{}\label{class_magnum_1_1_vector_a0130a7137209ce2e30dbc52d9c2a938a}
+
+\item 
+const T \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (int i) const \hypertarget{class_magnum_1_1_vector_acdc74b0e4facc66319461c7c079f455f}{}\label{class_magnum_1_1_vector_acdc74b0e4facc66319461c7c079f455f}
+
+\item 
+void $\ast$ \hyperlink{class_magnum_1_1_vector_a1e7f4e2774e1d3c4bbafdee1272acb79}{get} (int i)
+\begin{DoxyCompactList}\small\item\em Get i-\/th element of the \hyperlink{class_magnum_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_vector_a0130a7137209ce2e30dbc52d9c2a938a}{operator\mbox{[}$\,$\mbox{]}} (int i)
+\begin{DoxyCompactList}\small\item\em Get i-\/th element of the \hyperlink{class_magnum_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+const T \& \hyperlink{class_magnum_1_1_vector_acdc74b0e4facc66319461c7c079f455f}{operator\mbox{[}$\,$\mbox{]}} (int i) const 
+\begin{DoxyCompactList}\small\item\em Get i-\/th element of the \hyperlink{class_magnum_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_vector_a630a21421716742f8d64622dc6e198f2}{back} ()
+\begin{DoxyCompactList}\small\item\em Get last element of the \hyperlink{class_magnum_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+const T \& \hyperlink{class_magnum_1_1_vector_a5ce75a14c5af280e4abdc028e4d39bcb}{back} () const 
+\begin{DoxyCompactList}\small\item\em Get last element of the \hyperlink{class_magnum_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_vector_a64ca8bd8cfa9fcc6150b40eadad4ac88}{full} () const 
+\begin{DoxyCompactList}\small\item\em Check if the \hyperlink{class_magnum_1_1_vector}{Vector} is full. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_vector_af2b60f8a75083db19544c9036701c57d}{clear} ()
+\begin{DoxyCompactList}\small\item\em Clear the \hyperlink{class_magnum_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_vector_a1f348ec2c7341adc0d72fed4cd97bef0}{empty} () const 
+\begin{DoxyCompactList}\small\item\em Check if the \hyperlink{class_magnum_1_1_vector}{Vector} is empty. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_vector_a80fa55e044b6c81df801db05bddccf62}{valid} (int i) const 
+\begin{DoxyCompactList}\small\item\em Check if the index is with the range of \hyperlink{class_magnum_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+void {\bfseries destroy} ()\hypertarget{class_magnum_1_1_vector_a1a30461c80a9472a88654cbbfec7b05f}{}\label{class_magnum_1_1_vector_a1a30461c80a9472a88654cbbfec7b05f}
+
+\item 
+void \hyperlink{class_magnum_1_1_vector_a05c838dd9a909c2cc729dfbaa3e22fdb}{resize} (int length\+\_\+)
+\begin{DoxyCompactList}\small\item\em resize the \hyperlink{class_magnum_1_1_vector}{Vector} to length\+\_\+ \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_vector_a6737ec02b4803c01eef99a08a34eec6c}{allocate} (int length\+\_\+)
+\begin{DoxyCompactList}\small\item\em allocate buffer the \hyperlink{class_magnum_1_1_vector}{Vector} to length\+\_\+. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_vector_a52279501ad72e02b91c0351eba25ef9a}{expand} (int new\+\_\+capacity)
+\begin{DoxyCompactList}\small\item\em expand the \hyperlink{class_magnum_1_1_vector}{Vector}\textquotesingle{}s capacity to new\+\_\+capacity. \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_vector_ad5bb418fb5a17fdadb10580b4c546311}{insert} (int at)
+\begin{DoxyCompactList}\small\item\em insert an element at i-\/th position of the \hyperlink{class_magnum_1_1_vector}{Vector} \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_vector_a5dc89524d89d7a48070fe98927290875}{insert} ()
+\begin{DoxyCompactList}\small\item\em This function behave same as \hyperlink{class_magnum_1_1_vector_a630a21421716742f8d64622dc6e198f2}{back()} \end{DoxyCompactList}\item 
+int {\bfseries binary\+Search} (const T \&item, Compare method) const \hypertarget{class_magnum_1_1_vector_a6dd54af6cd164a775f3e658a460118e0}{}\label{class_magnum_1_1_vector_a6dd54af6cd164a775f3e658a460118e0}
+
+\item 
+int \hyperlink{class_magnum_1_1_vector_a239e0fba9b962a359c7cf1b38c5d00f2}{search} (const T \&item) const 
+\begin{DoxyCompactList}\small\item\em search for an element and return its position index \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_vector_ad31f0a95b95546807be0f67678ca7f2c}{remove} (int index)
+\begin{DoxyCompactList}\small\item\em remove the i-\/th element from the \hyperlink{class_magnum_1_1_vector}{Vector} \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_vector_af1b172b31bf8b09d5cde611cbf6c1cfd}{push} ()
+\begin{DoxyCompactList}\small\item\em append an element at the end of the \hyperlink{class_magnum_1_1_vector}{Vector} \end{DoxyCompactList}\item 
+T \& \hyperlink{class_magnum_1_1_vector_abda6b15e2fe5c9d8b29a54316231848b}{pop} ()
+\begin{DoxyCompactList}\small\item\em remove an element at the end of the \hyperlink{class_magnum_1_1_vector}{Vector} \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_vector_a71123256e74acc86ec065eec55f1ef08}{sort} (Compare method)
+\begin{DoxyCompactList}\small\item\em sort the \hyperlink{class_magnum_1_1_vector}{Vector} \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector_afc61b13a96e6067c1b71ece8d858efbd}{Vector} (int capacity\+\_\+=0, int length\+\_\+=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_vector}{Vector} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector}{Vector} \& {\bfseries operator=} (const \hyperlink{class_magnum_1_1_vector}{Vector} \&other)\hypertarget{class_magnum_1_1_vector_a98db9eb9896fa5290b3149d5b571c560}{}\label{class_magnum_1_1_vector_a98db9eb9896fa5290b3149d5b571c560}
+
+\item 
+T $\ast$ \hyperlink{class_magnum_1_1_vector_abf2688cecf0cd6f093e1b90b57b0a2cc}{get\+Type} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_vector}{Vector} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector_a94f250eb26ba7cb4d752bf2feebd7137}{Vector} (const \hyperlink{class_magnum_1_1_vector}{Vector} \&other)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_vector}{Vector} Copy Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector_ae6825628f60ea1247b5994cb748ddb0a}{$\sim$\+Vector} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_vector}{Vector} Destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\subsubsection*{template$<$class T$>$\\*
+class Magnum\+::\+Vector$<$ T $>$}
+
+\hyperlink{class_magnum_1_1_vector}{Vector} class for a bound protected array class with variable size. 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!Vector@{Vector}}
+\index{Vector@{Vector}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{Vector(int capacity\+\_\+=0, int length\+\_\+=0)}{Vector(int capacity_=0, int length_=0)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ {\bf Magnum\+::\+Vector}$<$ T $>$\+::{\bf Vector} (
+\begin{DoxyParamCaption}
+\item[{int}]{capacity\+\_\+ = {\ttfamily 0}, }
+\item[{int}]{length\+\_\+ = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_afc61b13a96e6067c1b71ece8d858efbd}{}\label{class_magnum_1_1_vector_afc61b13a96e6067c1b71ece8d858efbd}
+
+
+\hyperlink{class_magnum_1_1_vector}{Vector} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_vector}{Vector} 
+\begin{DoxyParams}{參數}
+{\em capacity\+\_\+,the} & capcity of the \hyperlink{class_magnum_1_1_vector}{Vector} \\
+\hline
+{\em length\+\_\+,the} & optional parameter, the length of \hyperlink{class_magnum_1_1_vector}{Vector} \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!Vector@{Vector}}
+\index{Vector@{Vector}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{Vector(const Vector \&other)}{Vector(const Vector &other)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ {\bf Magnum\+::\+Vector}$<$ T $>$\+::{\bf Vector} (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector}$<$ T $>$ \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a94f250eb26ba7cb4d752bf2feebd7137}{}\label{class_magnum_1_1_vector_a94f250eb26ba7cb4d752bf2feebd7137}
+
+
+\hyperlink{class_magnum_1_1_vector}{Vector} Copy Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_vector}{Vector} by copying the other \hyperlink{class_magnum_1_1_vector}{Vector} 
+\begin{DoxyParams}{參數}
+{\em other,the} & other \hyperlink{class_magnum_1_1_vector}{Vector} to be copied \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!````~Vector@{$\sim$\+Vector}}
+\index{````~Vector@{$\sim$\+Vector}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{$\sim$\+Vector()}{~Vector()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ {\bf Magnum\+::\+Vector}$<$ T $>$\+::$\sim${\bf Vector} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_ae6825628f60ea1247b5994cb748ddb0a}{}\label{class_magnum_1_1_vector_ae6825628f60ea1247b5994cb748ddb0a}
+
+
+\hyperlink{class_magnum_1_1_vector}{Vector} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_vector}{Vector} 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!allocate@{allocate}}
+\index{allocate@{allocate}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{allocate(int length\+\_\+)}{allocate(int length_)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf Magnum\+::\+Vector}$<$ T $>$\+::allocate (
+\begin{DoxyParamCaption}
+\item[{int}]{length\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a6737ec02b4803c01eef99a08a34eec6c}{}\label{class_magnum_1_1_vector_a6737ec02b4803c01eef99a08a34eec6c}
+
+
+allocate buffer the \hyperlink{class_magnum_1_1_vector}{Vector} to length\+\_\+. 
+
+Therefore, both capacity and length\+\_\+ of \hyperlink{class_magnum_1_1_vector}{Vector} will be adjusted 
+\begin{DoxyParams}{參數}
+{\em length\+\_\+,the} & new length and new capacity of the \hyperlink{class_magnum_1_1_vector}{Vector} \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!back@{back}}
+\index{back@{back}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{back()}{back()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Vector}$<$ T $>$\+::back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a630a21421716742f8d64622dc6e198f2}{}\label{class_magnum_1_1_vector_a630a21421716742f8d64622dc6e198f2}
+
+
+Get last element of the \hyperlink{class_magnum_1_1_vector}{Vector}. 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of last element 
+\end{DoxyReturn}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!back@{back}}
+\index{back@{back}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{back() const }{back() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ const T\& {\bf Magnum\+::\+Vector}$<$ T $>$\+::back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a5ce75a14c5af280e4abdc028e4d39bcb}{}\label{class_magnum_1_1_vector_a5ce75a14c5af280e4abdc028e4d39bcb}
+
+
+Get last element of the \hyperlink{class_magnum_1_1_vector}{Vector}. 
+
+\begin{DoxyReturn}{傳回值}
+, const T\&, the const reference of last element 
+\end{DoxyReturn}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!capacity@{capacity}}
+\index{capacity@{capacity}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{capacity() const }{capacity() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int {\bf Magnum\+::\+Vector}$<$ T $>$\+::capacity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a8831d0ce69f8693ee20d8bcac32f198b}{}\label{class_magnum_1_1_vector_a8831d0ce69f8693ee20d8bcac32f198b}
+
+
+Get the capacity of the \hyperlink{class_magnum_1_1_vector}{Vector}. 
+
+Capacity is number \hyperlink{class_magnum_1_1_vector}{Vector} element that is actually allocated. \begin{DoxyReturn}{傳回值}
+, int, the length of the \hyperlink{class_magnum_1_1_vector}{Vector} 
+\end{DoxyReturn}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!clear@{clear}}
+\index{clear@{clear}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf Magnum\+::\+Vector}$<$ T $>$\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_af2b60f8a75083db19544c9036701c57d}{}\label{class_magnum_1_1_vector_af2b60f8a75083db19544c9036701c57d}
+
+
+Clear the \hyperlink{class_magnum_1_1_vector}{Vector}. 
+
+Reset the Length of \hyperlink{class_magnum_1_1_vector}{Vector} to zero 
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_vector_af2b60f8a75083db19544c9036701c57d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!empty@{empty}}
+\index{empty@{empty}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{empty() const }{empty() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool {\bf Magnum\+::\+Vector}$<$ T $>$\+::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a1f348ec2c7341adc0d72fed4cd97bef0}{}\label{class_magnum_1_1_vector_a1f348ec2c7341adc0d72fed4cd97bef0}
+
+
+Check if the \hyperlink{class_magnum_1_1_vector}{Vector} is empty. 
+
+\begin{DoxyReturn}{傳回值}
+, true if length is equal to 0 else return false 
+\end{DoxyReturn}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!expand@{expand}}
+\index{expand@{expand}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{expand(int new\+\_\+capacity)}{expand(int new_capacity)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf Magnum\+::\+Vector}$<$ T $>$\+::expand (
+\begin{DoxyParamCaption}
+\item[{int}]{new\+\_\+capacity}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a52279501ad72e02b91c0351eba25ef9a}{}\label{class_magnum_1_1_vector_a52279501ad72e02b91c0351eba25ef9a}
+
+
+expand the \hyperlink{class_magnum_1_1_vector}{Vector}\textquotesingle{}s capacity to new\+\_\+capacity. 
+
+
+\begin{DoxyParams}{參數}
+{\em new\+\_\+capacity,the} & new capacity of the \hyperlink{class_magnum_1_1_vector}{Vector} \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!full@{full}}
+\index{full@{full}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{full() const }{full() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool {\bf Magnum\+::\+Vector}$<$ T $>$\+::full (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a64ca8bd8cfa9fcc6150b40eadad4ac88}{}\label{class_magnum_1_1_vector_a64ca8bd8cfa9fcc6150b40eadad4ac88}
+
+
+Check if the \hyperlink{class_magnum_1_1_vector}{Vector} is full. 
+
+\begin{DoxyReturn}{傳回值}
+, true if length is equal to capacity else return false 
+\end{DoxyReturn}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!get@{get}}
+\index{get@{get}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{get(int i)}{get(int i)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void$\ast$ {\bf Magnum\+::\+Vector}$<$ T $>$\+::get (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a1e7f4e2774e1d3c4bbafdee1272acb79}{}\label{class_magnum_1_1_vector_a1e7f4e2774e1d3c4bbafdee1272acb79}
+
+
+Get i-\/th element of the \hyperlink{class_magnum_1_1_vector}{Vector}. 
+
+\begin{DoxyReturn}{傳回值}
+, int, the length of the \hyperlink{class_magnum_1_1_vector}{Vector} 
+\end{DoxyReturn}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{get\+Type()}{getType()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T$\ast$ {\bf Magnum\+::\+Vector}$<$ T $>$\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_abf2688cecf0cd6f093e1b90b57b0a2cc}{}\label{class_magnum_1_1_vector_abf2688cecf0cd6f093e1b90b57b0a2cc}
+
+
+\hyperlink{class_magnum_1_1_vector}{Vector} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_vector}{Vector} \index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!insert@{insert}}
+\index{insert@{insert}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{insert(int at)}{insert(int at)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Vector}$<$ T $>$\+::insert (
+\begin{DoxyParamCaption}
+\item[{int}]{at}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_ad5bb418fb5a17fdadb10580b4c546311}{}\label{class_magnum_1_1_vector_ad5bb418fb5a17fdadb10580b4c546311}
+
+
+insert an element at i-\/th position of the \hyperlink{class_magnum_1_1_vector}{Vector} 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of newly inserted i-\/th element 
+\end{DoxyReturn}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!insert@{insert}}
+\index{insert@{insert}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{insert()}{insert()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Vector}$<$ T $>$\+::insert (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a5dc89524d89d7a48070fe98927290875}{}\label{class_magnum_1_1_vector_a5dc89524d89d7a48070fe98927290875}
+
+
+This function behave same as \hyperlink{class_magnum_1_1_vector_a630a21421716742f8d64622dc6e198f2}{back()} 
+
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_vector_a630a21421716742f8d64622dc6e198f2}{back()} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!length@{length}}
+\index{length@{length}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{length() const }{length() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int {\bf Magnum\+::\+Vector}$<$ T $>$\+::length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a0350766ba61f29a27692e9a7f3e2e61d}{}\label{class_magnum_1_1_vector_a0350766ba61f29a27692e9a7f3e2e61d}
+
+
+Get the length of the \hyperlink{class_magnum_1_1_vector}{Vector}. 
+
+\begin{DoxyReturn}{傳回值}
+, int, the length of the \hyperlink{class_magnum_1_1_vector}{Vector} 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_vector_a0350766ba61f29a27692e9a7f3e2e61d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{operator[](int i)}{operator[](int i)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Vector}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a0130a7137209ce2e30dbc52d9c2a938a}{}\label{class_magnum_1_1_vector_a0130a7137209ce2e30dbc52d9c2a938a}
+
+
+Get i-\/th element of the \hyperlink{class_magnum_1_1_vector}{Vector}. 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference at i-\/th position 
+\end{DoxyReturn}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{operator[](int i) const }{operator[](int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ const T\& {\bf Magnum\+::\+Vector}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_acdc74b0e4facc66319461c7c079f455f}{}\label{class_magnum_1_1_vector_acdc74b0e4facc66319461c7c079f455f}
+
+
+Get i-\/th element of the \hyperlink{class_magnum_1_1_vector}{Vector}. 
+
+\begin{DoxyReturn}{傳回值}
+, const T\&, the const reference at i-\/th position 
+\end{DoxyReturn}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!pop@{pop}}
+\index{pop@{pop}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{pop()}{pop()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Vector}$<$ T $>$\+::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_abda6b15e2fe5c9d8b29a54316231848b}{}\label{class_magnum_1_1_vector_abda6b15e2fe5c9d8b29a54316231848b}
+
+
+remove an element at the end of the \hyperlink{class_magnum_1_1_vector}{Vector} 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of last element 
+\end{DoxyReturn}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!push@{push}}
+\index{push@{push}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{push()}{push()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf Magnum\+::\+Vector}$<$ T $>$\+::push (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_af1b172b31bf8b09d5cde611cbf6c1cfd}{}\label{class_magnum_1_1_vector_af1b172b31bf8b09d5cde611cbf6c1cfd}
+
+
+append an element at the end of the \hyperlink{class_magnum_1_1_vector}{Vector} 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of last element 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_vector_af1b172b31bf8b09d5cde611cbf6c1cfd_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!remove@{remove}}
+\index{remove@{remove}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{remove(int index)}{remove(int index)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf Magnum\+::\+Vector}$<$ T $>$\+::remove (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_ad31f0a95b95546807be0f67678ca7f2c}{}\label{class_magnum_1_1_vector_ad31f0a95b95546807be0f67678ca7f2c}
+
+
+remove the i-\/th element from the \hyperlink{class_magnum_1_1_vector}{Vector} 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!resize@{resize}}
+\index{resize@{resize}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{resize(int length\+\_\+)}{resize(int length_)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf Magnum\+::\+Vector}$<$ T $>$\+::resize (
+\begin{DoxyParamCaption}
+\item[{int}]{length\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a05c838dd9a909c2cc729dfbaa3e22fdb}{}\label{class_magnum_1_1_vector_a05c838dd9a909c2cc729dfbaa3e22fdb}
+
+
+resize the \hyperlink{class_magnum_1_1_vector}{Vector} to length\+\_\+ 
+
+
+\begin{DoxyParams}{參數}
+{\em length\+\_\+,the} & new length of the \hyperlink{class_magnum_1_1_vector}{Vector} \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_vector_a05c838dd9a909c2cc729dfbaa3e22fdb_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!search@{search}}
+\index{search@{search}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{search(const T \&item) const }{search(const T &item) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int {\bf Magnum\+::\+Vector}$<$ T $>$\+::search (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{item}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a239e0fba9b962a359c7cf1b38c5d00f2}{}\label{class_magnum_1_1_vector_a239e0fba9b962a359c7cf1b38c5d00f2}
+
+
+search for an element and return its position index 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!sort@{sort}}
+\index{sort@{sort}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{sort(\+Compare method)}{sort(Compare method)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf Magnum\+::\+Vector}$<$ T $>$\+::sort (
+\begin{DoxyParamCaption}
+\item[{Compare}]{method}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a71123256e74acc86ec065eec55f1ef08}{}\label{class_magnum_1_1_vector_a71123256e74acc86ec065eec55f1ef08}
+
+
+sort the \hyperlink{class_magnum_1_1_vector}{Vector} 
+
+
+\begin{DoxyParams}{參數}
+{\em method,the} & Compare method of the \hyperlink{class_magnum_1_1_vector}{Vector} \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_vector_a71123256e74acc86ec065eec55f1ef08_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Vector@{Magnum\+::\+Vector}!valid@{valid}}
+\index{valid@{valid}!Magnum\+::\+Vector@{Magnum\+::\+Vector}}
+\subsubsection[{\texorpdfstring{valid(int i) const }{valid(int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool {\bf Magnum\+::\+Vector}$<$ T $>$\+::valid (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_magnum_1_1_vector_a80fa55e044b6c81df801db05bddccf62}{}\label{class_magnum_1_1_vector_a80fa55e044b6c81df801db05bddccf62}
+
+
+Check if the index is with the range of \hyperlink{class_magnum_1_1_vector}{Vector}. 
+
+\begin{DoxyReturn}{傳回值}
+, true if i is within the length of the \hyperlink{class_magnum_1_1_vector}{Vector} 
+\end{DoxyReturn}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Array.\+h\end{DoxyCompactItemize}

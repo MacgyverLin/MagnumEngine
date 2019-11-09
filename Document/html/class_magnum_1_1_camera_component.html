@@ -1,0 +1,940 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: Magnum::CameraComponent  類別 參考文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li class="current"><a href="annotated.html"><span>類別</span></a></li>
+      <li><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>複合列表</span></a></li>
+      <li><a href="classes.html"><span>複合索引</span></a></li>
+      <li><a href="inherits.html"><span>類別階層</span></a></li>
+      <li><a href="functions.html"><span>複合成員</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>Magnum</b></li><li class="navelem"><a class="el" href="class_magnum_1_1_camera_component.html">CameraComponent</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">公開型態</a> &#124;
+<a href="#pub-methods">公開方法(Public Methods)</a> &#124;
+<a href="#pub-static-methods">靜態公開方法(Static Public Methods)</a> &#124;
+<a href="#pub-attribs">公開屬性</a> &#124;
+<a href="#pro-methods">保護方法(Protected Methods)</a> &#124;
+<a href="#friends">類別朋友(Friends)</a> &#124;
+<a href="class_magnum_1_1_camera_component-members.html">全部成員列表</a>  </div>
+  <div class="headertitle">
+<div class="title">Magnum::CameraComponent 類別 參考文件<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><a class="el" href="class_magnum_1_1_camera_component.html" title="CameraComponent. ">CameraComponent</a>.  
+ <a href="class_magnum_1_1_camera_component.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_camera_component_8h_source.html">CameraComponent.h</a>&gt;</code></p>
+<div class="dynheader">
+類別Magnum::CameraComponent的繼承圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_camera_component__inherit__graph.png" border="0" usemap="#_magnum_1_1_camera_component_inherit__map" alt="Inheritance graph"/></div>
+<map name="_magnum_1_1_camera_component_inherit__map" id="_magnum_1_1_camera_component_inherit__map">
+<area shape="rect" id="node3" href="class_magnum_1_1_orthographic_camera_component.html" title="OrthographicCameraComponent. " alt="" coords="5,155,204,196"/>
+<area shape="rect" id="node4" href="class_magnum_1_1_perspective_camera_component.html" title="PerspectiveCameraComponent. " alt="" coords="229,155,421,196"/>
+<area shape="rect" id="node2" href="class_magnum_1_1_component.html" title="Component. " alt="" coords="141,5,287,32"/>
+<area shape="rect" id="node5" href="class_magnum_1_1_editor_camera_component.html" title="EditorCameraComponent. " alt="" coords="212,244,437,271"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">圖示</a>]</span></center></div>
+<div class="dynheader">
+Magnum::CameraComponent的合作圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_camera_component__coll__graph.png" border="0" usemap="#_magnum_1_1_camera_component_coll__map" alt="Collaboration graph"/></div>
+<map name="_magnum_1_1_camera_component_coll__map" id="_magnum_1_1_camera_component_coll__map">
+<area shape="rect" id="node2" href="class_magnum_1_1_component.html" title="Component. " alt="" coords="27,5,174,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">圖示</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+公開型態</h2></td></tr>
+<tr class="memitem:af55863c6ee2da0eca8fcafaf55dd2da4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#af55863c6ee2da0eca8fcafaf55dd2da4">ClearFlag</a> { <br />
+&#160;&#160;<a class="el" href="class_magnum_1_1_camera_component.html#af55863c6ee2da0eca8fcafaf55dd2da4a7ee3a6cb3c87e42c930211e61a79e293">CLEAR_NONE</a> = 0x00, 
+<a class="el" href="class_magnum_1_1_camera_component.html#af55863c6ee2da0eca8fcafaf55dd2da4acfd7ec2881297cd462644631c6db2f65">CLEAR_COLOR</a> = 0x01, 
+<a class="el" href="class_magnum_1_1_camera_component.html#af55863c6ee2da0eca8fcafaf55dd2da4a600ae87aceccfbbbeadc2770cbefbd77">CLEAR_DEPTH</a> = 0x02, 
+<a class="el" href="class_magnum_1_1_camera_component.html#af55863c6ee2da0eca8fcafaf55dd2da4a1ab7e868ebd612f7b8e65bcc0b1d0501">CLEAR_STENCIL</a> = 0x04, 
+<br />
+&#160;&#160;<a class="el" href="class_magnum_1_1_camera_component.html#af55863c6ee2da0eca8fcafaf55dd2da4aec7274a40367493371d34665a0591561">CLEAR_SKYBOX</a> = 0x08
+<br />
+ }</td></tr>
+<tr class="separator:af55863c6ee2da0eca8fcafaf55dd2da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開方法(Public Methods)</h2></td></tr>
+<tr class="memitem:ab6a56dfe932d9ddad1df9c0ffe0a329f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#ab6a56dfe932d9ddad1df9c0ffe0a329f">CameraComponent</a> (<a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_)</td></tr>
+<tr class="memdesc:ab6a56dfe932d9ddad1df9c0ffe0a329f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_magnum_1_1_camera_component.html" title="CameraComponent. ">CameraComponent</a> Constructor.  <a href="#ab6a56dfe932d9ddad1df9c0ffe0a329f">更多...</a><br /></td></tr>
+<tr class="separator:ab6a56dfe932d9ddad1df9c0ffe0a329f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a977e080c45152719c5e6335cfb0698fc"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a977e080c45152719c5e6335cfb0698fc">~CameraComponent</a> ()</td></tr>
+<tr class="memdesc:a977e080c45152719c5e6335cfb0698fc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_magnum_1_1_camera_component.html" title="CameraComponent. ">CameraComponent</a> Destructor.  <a href="#a977e080c45152719c5e6335cfb0698fc">更多...</a><br /></td></tr>
+<tr class="separator:a977e080c45152719c5e6335cfb0698fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2744b8bee88e1e7577b416147731fa31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a2744b8bee88e1e7577b416147731fa31">DECLARE_COMPONENT</a> (<a class="el" href="class_magnum_1_1_camera_component.html">CameraComponent</a>, <a class="el" href="class_magnum_1_1_component.html">Component</a>, false)   <a class="el" href="class_magnum_1_1_camera_component.html#a2887b0c8a70aea853e6390193c013886">PROPERTY</a>(int</td></tr>
+<tr class="memdesc:a2744b8bee88e1e7577b416147731fa31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Rendering Order of this Camera.  <a href="#a2744b8bee88e1e7577b416147731fa31">更多...</a><br /></td></tr>
+<tr class="separator:a2744b8bee88e1e7577b416147731fa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2887b0c8a70aea853e6390193c013886"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a2887b0c8a70aea853e6390193c013886">PROPERTY</a> (unsigned int, TargetLayer)</td></tr>
+<tr class="memdesc:a2887b0c8a70aea853e6390193c013886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value of the TargetLayer of this Camera.  <a href="#a2887b0c8a70aea853e6390193c013886">更多...</a><br /></td></tr>
+<tr class="separator:a2887b0c8a70aea853e6390193c013886"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4199c46f3ece9fbc167f208a7ea07c5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a4199c46f3ece9fbc167f208a7ea07c5e">PROPERTY</a> (int, ClearFlags)</td></tr>
+<tr class="memdesc:a4199c46f3ece9fbc167f208a7ea07c5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Clearing Flags of this Camera.  <a href="#a4199c46f3ece9fbc167f208a7ea07c5e">更多...</a><br /></td></tr>
+<tr class="separator:a4199c46f3ece9fbc167f208a7ea07c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eae24223559e50c71b0bc86ebac663f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a0eae24223559e50c71b0bc86ebac663f">PROPERTY</a> (<a class="el" href="class_magnum_1_1_color_r_g_b_a.html">ColorRGBA</a>, ClearColor)</td></tr>
+<tr class="memdesc:a0eae24223559e50c71b0bc86ebac663f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Clear Color of this Camera.  <a href="#a0eae24223559e50c71b0bc86ebac663f">更多...</a><br /></td></tr>
+<tr class="separator:a0eae24223559e50c71b0bc86ebac663f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3469e31f41b35c54963463cb05d62d22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a3469e31f41b35c54963463cb05d62d22">PROPERTY</a> (float, ClearDepth)</td></tr>
+<tr class="memdesc:a3469e31f41b35c54963463cb05d62d22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Clear Depth of this Camera.  <a href="#a3469e31f41b35c54963463cb05d62d22">更多...</a><br /></td></tr>
+<tr class="separator:a3469e31f41b35c54963463cb05d62d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9adf263660e4b03c2f77de49dd7900e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a9adf263660e4b03c2f77de49dd7900e0">PROPERTY</a> (unsigned int, ClearStencil)</td></tr>
+<tr class="memdesc:a9adf263660e4b03c2f77de49dd7900e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Clear Stencil of this Camera.  <a href="#a9adf263660e4b03c2f77de49dd7900e0">更多...</a><br /></td></tr>
+<tr class="separator:a9adf263660e4b03c2f77de49dd7900e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65676fa2193d9bedf3449f6db06ed07c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a65676fa2193d9bedf3449f6db06ed07c">PROPERTY</a> (<a class="el" href="class_magnum_1_1_vector4.html">Vector4</a>, Viewport)</td></tr>
+<tr class="memdesc:a65676fa2193d9bedf3449f6db06ed07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Viewport of this Camera.  <a href="#a65676fa2193d9bedf3449f6db06ed07c">更多...</a><br /></td></tr>
+<tr class="separator:a65676fa2193d9bedf3449f6db06ed07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab50fcc345c5beb14317b4bb74f6c2b2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#ab50fcc345c5beb14317b4bb74f6c2b2e">setProjectionPlanes</a> (float left_, float right_, float bottom_, float top_, float nearPlane_, float farPlane_)</td></tr>
+<tr class="memdesc:ab50fcc345c5beb14317b4bb74f6c2b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the coordinate of project plane of at the near plane of camera.  <a href="#ab50fcc345c5beb14317b4bb74f6c2b2e">更多...</a><br /></td></tr>
+<tr class="separator:ab50fcc345c5beb14317b4bb74f6c2b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5d94dcadd4011e3a0dad972c8eadd9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#af5d94dcadd4011e3a0dad972c8eadd9b">getProjectionPlanes</a> (float &amp;left_, float &amp;right_, float &amp;bottom_, float &amp;top_, float &amp;nearPlane_, float &amp;farPlane_) const </td></tr>
+<tr class="memdesc:af5d94dcadd4011e3a0dad972c8eadd9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the coordinate of project plane of at the near plane of camera.  <a href="#af5d94dcadd4011e3a0dad972c8eadd9b">更多...</a><br /></td></tr>
+<tr class="separator:af5d94dcadd4011e3a0dad972c8eadd9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d6a7f6379dc17af5eec17fd91843af"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#aa7d6a7f6379dc17af5eec17fd91843af">getProjectionTransform</a> ()</td></tr>
+<tr class="memdesc:aa7d6a7f6379dc17af5eec17fd91843af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the project transform of this camera.  <a href="#aa7d6a7f6379dc17af5eec17fd91843af">更多...</a><br /></td></tr>
+<tr class="separator:aa7d6a7f6379dc17af5eec17fd91843af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e7ee545e4981d3285df17f89561c24"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a38e7ee545e4981d3285df17f89561c24">isLayerMatched</a> (unsigned int layer) const </td></tr>
+<tr class="memdesc:a38e7ee545e4981d3285df17f89561c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the parameter layer matches TargetLayer to this camera.  <a href="#a38e7ee545e4981d3285df17f89561c24">更多...</a><br /></td></tr>
+<tr class="separator:a38e7ee545e4981d3285df17f89561c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_magnum_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_magnum_1_1_component')"><img src="closed.png" alt="-"/>&#160;公開方法(Public Methods) 繼承自 <a class="el" href="class_magnum_1_1_component.html">Magnum::Component</a></td></tr>
+<tr class="memitem:a756ac15f5ce6fa021d35c6115b8fe64b inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a756ac15f5ce6fa021d35c6115b8fe64b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> (<a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_)</td></tr>
+<tr class="separator:a756ac15f5ce6fa021d35c6115b8fe64b inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276a002fa6647f9dcf6420966fb9c8ff inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a276a002fa6647f9dcf6420966fb9c8ff"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS</b> (<a class="el" href="class_magnum_1_1_component.html">Component</a>, <a class="el" href="classagm_1_1reflection_1_1_null_class.html">agm::reflection::NullClass</a>)</td></tr>
+<tr class="separator:a276a002fa6647f9dcf6420966fb9c8ff inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30a9f5cf6e5c94519c752f30ac3c6013 inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_component.html#a30a9f5cf6e5c94519c752f30ac3c6013">PROPERTY</a> (bool, Enabled)</td></tr>
+<tr class="memdesc:a30a9f5cf6e5c94519c752f30ac3c6013 inherit pub_methods_class_magnum_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Enabled <a class="el" href="class_magnum_1_1_state.html">State</a> of <a class="el" href="class_magnum_1_1_component_1_1_owner.html" title="Owner. ">Owner</a>, if the component is not active, it become non functional.  <a href="#a30a9f5cf6e5c94519c752f30ac3c6013">更多...</a><br /></td></tr>
+<tr class="separator:a30a9f5cf6e5c94519c752f30ac3c6013 inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424ef8b2bc22e3742619ead43c8e255e inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_component.html#a424ef8b2bc22e3742619ead43c8e255e">PROPERTY</a> (<a class="el" href="class_magnum_1_1_string.html">String</a>, Name)</td></tr>
+<tr class="memdesc:a424ef8b2bc22e3742619ead43c8e255e inherit pub_methods_class_magnum_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Name of <a class="el" href="class_magnum_1_1_component_1_1_owner.html" title="Owner. ">Owner</a>.  <a href="#a424ef8b2bc22e3742619ead43c8e255e">更多...</a><br /></td></tr>
+<tr class="separator:a424ef8b2bc22e3742619ead43c8e255e inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296debc61f8cccc361ef8db6debcb5c8 inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a296debc61f8cccc361ef8db6debcb5c8"></a>
+<a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getOwner</b> ()</td></tr>
+<tr class="separator:a296debc61f8cccc361ef8db6debcb5c8 inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa736314b74d00201729f97bb40c0f7dc inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa736314b74d00201729f97bb40c0f7dc"></a>
+const <a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getOwner</b> () const </td></tr>
+<tr class="separator:aa736314b74d00201729f97bb40c0f7dc inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d812328a0e5406be71bc2b2f04a9e96 inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d812328a0e5406be71bc2b2f04a9e96"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isEditorModeActive</b> () const  =0</td></tr>
+<tr class="separator:a9d812328a0e5406be71bc2b2f04a9e96 inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+靜態公開方法(Static Public Methods)</h2></td></tr>
+<tr class="memitem:a01e3c4027e51ef82206627057d824a18"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01e3c4027e51ef82206627057d824a18"></a>
+static int&#160;</td><td class="memItemRight" valign="bottom"><b>compare</b> (const void *left, const void *right)</td></tr>
+<tr class="separator:a01e3c4027e51ef82206627057d824a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+公開屬性</h2></td></tr>
+<tr class="memitem:aef265045d6e85f9d9c39aad419625aaa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef265045d6e85f9d9c39aad419625aaa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Order</b></td></tr>
+<tr class="separator:aef265045d6e85f9d9c39aad419625aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+保護方法(Protected Methods)</h2></td></tr>
+<tr class="memitem:ac7ea89b8cd16133d963a5cc54942f22f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#ac7ea89b8cd16133d963a5cc54942f22f">onConstruct</a> ()</td></tr>
+<tr class="memdesc:ac7ea89b8cd16133d963a5cc54942f22f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle Construct Event of the <a class="el" href="class_magnum_1_1_component.html" title="Component. ">Component</a>.  <a href="#ac7ea89b8cd16133d963a5cc54942f22f">更多...</a><br /></td></tr>
+<tr class="separator:ac7ea89b8cd16133d963a5cc54942f22f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4ee1cdff7b10f4d275d4db47e7f2c55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4ee1cdff7b10f4d275d4db47e7f2c55"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#ae4ee1cdff7b10f4d275d4db47e7f2c55">onStart</a> ()</td></tr>
+<tr class="memdesc:ae4ee1cdff7b10f4d275d4db47e7f2c55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle Start Event of the <a class="el" href="class_magnum_1_1_component.html" title="Component. ">Component</a>. <br /></td></tr>
+<tr class="separator:ae4ee1cdff7b10f4d275d4db47e7f2c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf42005f7bc8c4f93b609c8666d65a30"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#aaf42005f7bc8c4f93b609c8666d65a30">onUpdate</a> (float dt)</td></tr>
+<tr class="memdesc:aaf42005f7bc8c4f93b609c8666d65a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle Update Event of the <a class="el" href="class_magnum_1_1_component.html" title="Component. ">Component</a>.  <a href="#aaf42005f7bc8c4f93b609c8666d65a30">更多...</a><br /></td></tr>
+<tr class="separator:aaf42005f7bc8c4f93b609c8666d65a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af22f1839001c7eea5c4de87fd5901212"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af22f1839001c7eea5c4de87fd5901212"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#af22f1839001c7eea5c4de87fd5901212">onPause</a> ()</td></tr>
+<tr class="memdesc:af22f1839001c7eea5c4de87fd5901212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle Pause Event of the <a class="el" href="class_magnum_1_1_component.html" title="Component. ">Component</a>. <br /></td></tr>
+<tr class="separator:af22f1839001c7eea5c4de87fd5901212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5808958ab0c9cd496bf419b15a9bab1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5808958ab0c9cd496bf419b15a9bab1f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a5808958ab0c9cd496bf419b15a9bab1f">onResume</a> ()</td></tr>
+<tr class="memdesc:a5808958ab0c9cd496bf419b15a9bab1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle Resume Event of the <a class="el" href="class_magnum_1_1_component.html" title="Component. ">Component</a>. <br /></td></tr>
+<tr class="separator:a5808958ab0c9cd496bf419b15a9bab1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c624bffc5605a56fb0fa2eb82c256ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8c624bffc5605a56fb0fa2eb82c256ba"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a8c624bffc5605a56fb0fa2eb82c256ba">onStop</a> ()</td></tr>
+<tr class="memdesc:a8c624bffc5605a56fb0fa2eb82c256ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle Stop Event of the <a class="el" href="class_magnum_1_1_component.html" title="Component. ">Component</a>. <br /></td></tr>
+<tr class="separator:a8c624bffc5605a56fb0fa2eb82c256ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea23765a5cf05c750e92a01e42a5a3b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea23765a5cf05c750e92a01e42a5a3b1"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#aea23765a5cf05c750e92a01e42a5a3b1">onDestruct</a> ()</td></tr>
+<tr class="memdesc:aea23765a5cf05c750e92a01e42a5a3b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle Destruct Event of the <a class="el" href="class_magnum_1_1_component.html" title="Component. ">Component</a>. <br /></td></tr>
+<tr class="separator:aea23765a5cf05c750e92a01e42a5a3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb172977c04d0bc3736ab5d2b8d14f61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb172977c04d0bc3736ab5d2b8d14f61"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#acb172977c04d0bc3736ab5d2b8d14f61">onDebugRender</a> (<a class="el" href="class_magnum_1_1_i_component_debug_renderer.html">IComponentDebugRenderer</a> &amp;debugRenderer)=0</td></tr>
+<tr class="memdesc:acb172977c04d0bc3736ab5d2b8d14f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle Debuger Rendering Event of the <a class="el" href="class_magnum_1_1_component.html" title="Component. ">Component</a>. <br /></td></tr>
+<tr class="separator:acb172977c04d0bc3736ab5d2b8d14f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84bbd217e6201fd89894e6f8a81e03a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84bbd217e6201fd89894e6f8a81e03a9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a84bbd217e6201fd89894e6f8a81e03a9">inValidateProjectionTransform</a> ()</td></tr>
+<tr class="memdesc:a84bbd217e6201fd89894e6f8a81e03a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">mark the member variable projectTransformValid is invalide and should be update before next render <br /></td></tr>
+<tr class="separator:a84bbd217e6201fd89894e6f8a81e03a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54bc2d46cd53d0bf4c7151ecc25d37d1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_camera_component.html#a54bc2d46cd53d0bf4c7151ecc25d37d1">onValidateProjectionTransform</a> (<a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a> &amp;projectTransform) const  =0</td></tr>
+<tr class="memdesc:a54bc2d46cd53d0bf4c7151ecc25d37d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a pure virtual function.  <a href="#a54bc2d46cd53d0bf4c7151ecc25d37d1">更多...</a><br /></td></tr>
+<tr class="separator:a54bc2d46cd53d0bf4c7151ecc25d37d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+類別朋友(Friends)</h2></td></tr>
+<tr class="memitem:a96cc6acb288ad905825c71c3a22a9c9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a96cc6acb288ad905825c71c3a22a9c9f"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>Video::Manager</b></td></tr>
+<tr class="separator:a96cc6acb288ad905825c71c3a22a9c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳細描述</h2>
+<div class="textblock"><p><a class="el" href="class_magnum_1_1_camera_component.html" title="CameraComponent. ">CameraComponent</a>. </p>
+<p><a class="el" href="class_magnum_1_1_camera_component.html" title="CameraComponent. ">CameraComponent</a> is the base class of all <a class="el" href="class_magnum_1_1_camera_component.html" title="CameraComponent. ">CameraComponent</a> component. </p><dl class="section see"><dt>參閱</dt><dd><a class="el" href="class_magnum_1_1_component.html" title="Component. ">Component</a> </dd></dl>
+</div><h2 class="groupheader">列舉型態成員說明文件</h2>
+<a class="anchor" id="af55863c6ee2da0eca8fcafaf55dd2da4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_magnum_1_1_camera_component.html#af55863c6ee2da0eca8fcafaf55dd2da4">Magnum::CameraComponent::ClearFlag</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">列舉值</th></tr><tr><td class="fieldname"><a class="anchor" id="af55863c6ee2da0eca8fcafaf55dd2da4a7ee3a6cb3c87e42c930211e61a79e293"></a>CLEAR_NONE&#160;</td><td class="fielddoc">
+<p>do not clear </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="af55863c6ee2da0eca8fcafaf55dd2da4acfd7ec2881297cd462644631c6db2f65"></a>CLEAR_COLOR&#160;</td><td class="fielddoc">
+<p>clear color buffer at each frame by ClearColor </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="af55863c6ee2da0eca8fcafaf55dd2da4a600ae87aceccfbbbeadc2770cbefbd77"></a>CLEAR_DEPTH&#160;</td><td class="fielddoc">
+<p>clear depth buffer at each frame by ClearDepth </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="af55863c6ee2da0eca8fcafaf55dd2da4a1ab7e868ebd612f7b8e65bcc0b1d0501"></a>CLEAR_STENCIL&#160;</td><td class="fielddoc">
+<p>clear stencil buffer at each frame by ClearStencil </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="af55863c6ee2da0eca8fcafaf55dd2da4aec7274a40367493371d34665a0591561"></a>CLEAR_SKYBOX&#160;</td><td class="fielddoc">
+<p>clear color buffer at each frame by SkyBox </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">建構子與解構子說明文件</h2>
+<a class="anchor" id="ab6a56dfe932d9ddad1df9c0ffe0a329f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CameraComponent::CameraComponent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td>
+          <td class="paramname"><em>owner_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_magnum_1_1_camera_component.html" title="CameraComponent. ">CameraComponent</a> Constructor. </p>
+<p>To Construct the <a class="el" href="class_magnum_1_1_camera_component.html" title="CameraComponent. ">CameraComponent</a> for the owner. </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">owner_,the</td><td><a class="el" href="class_magnum_1_1_component_1_1_owner.html" title="Owner. ">Component::Owner</a> which owns this component. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a977e080c45152719c5e6335cfb0698fc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CameraComponent::~CameraComponent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_magnum_1_1_camera_component.html" title="CameraComponent. ">CameraComponent</a> Destructor. </p>
+<p>To Destruct <a class="el" href="class_magnum_1_1_camera_component.html" title="CameraComponent. ">CameraComponent</a> and remove from its owner. </p>
+
+</div>
+</div>
+<h2 class="groupheader">函式成員說明文件</h2>
+<a class="anchor" id="a2744b8bee88e1e7577b416147731fa31"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Magnum::CameraComponent::DECLARE_COMPONENT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_camera_component.html">CameraComponent</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_component.html">Component</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">false&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Rendering Order of this Camera. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value_,int,the</td><td>Rendering Order of this Camera Get the Rendering Order of this Camera </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>the Rendering Order of this Camera </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af5d94dcadd4011e3a0dad972c8eadd9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraComponent::getProjectionPlanes </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>left_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>right_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>bottom_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>top_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>nearPlane_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>farPlane_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the coordinate of project plane of at the near plane of camera. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">left_,float,the</td><td>left side frustum x coordinate in this camera space is returned thru this parameter </td></tr>
+    <tr><td class="paramname">right_,float,the</td><td>right side frustum x coordinate in this camera space is returned thru this parameter </td></tr>
+    <tr><td class="paramname">bottom_,float,the</td><td>bottom side frustum y coordinate in this camera space is returned thru this parameter </td></tr>
+    <tr><td class="paramname">top_,float,the</td><td>top side frustum y coordinate in this camera space is returned thru this parameter </td></tr>
+    <tr><td class="paramname">nearPlane_,float,the</td><td>near side frustum z coordinate in this camera space is returned thru this parameter </td></tr>
+    <tr><td class="paramname">farPlane_,float,the</td><td>far side frustum z coordinate in this camera space is returned thru this parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>參閱</dt><dd>Redbook of OpenGL Bible for detail of definition of Projection <a class="el" href="class_magnum_1_1_transform.html">Transform</a> </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_camera_component_af5d94dcadd4011e3a0dad972c8eadd9b_icgraph.png" border="0" usemap="#class_magnum_1_1_camera_component_af5d94dcadd4011e3a0dad972c8eadd9b_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_camera_component_af5d94dcadd4011e3a0dad972c8eadd9b_icgraph" id="class_magnum_1_1_camera_component_af5d94dcadd4011e3a0dad972c8eadd9b_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_perspective_camera_component.html#ae3ce00b7bbf1c9e9e073f28793dd1645" title="Get the coordinate of project plane of at the near plane of camera. " alt="" coords="246,5,438,47"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_perspective_camera_component.html#a83b864b187b8b5244eb9d23eeef02b5c" title="Handle Debuger Rendering Event of the Component. " alt="" coords="246,71,438,112"/>
+<area shape="rect" id="node5" href="class_magnum_1_1_sky_sphere_renderer.html#a2b7bd339a31bebd9c1770d591ad5f28f" title="Get the Order of this renderer. " alt="" coords="244,136,440,177"/>
+<area shape="rect" id="node4" href="class_magnum_1_1_editor_camera_component.html#a25a0c9cdfa8ba1bb7aef1fc69435ab9f" title="EditorCameraComponent Destructor. " alt="" coords="488,71,713,112"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7d6a7f6379dc17af5eec17fd91843af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a> &amp; CameraComponent::getProjectionTransform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the project transform of this camera. </p>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a>, the projection transform of this camera. </dd></dl>
+<dl class="section see"><dt>參閱</dt><dd>Redbook of OpenGL Bible for detail of definition of Projection <a class="el" href="class_magnum_1_1_transform.html">Transform</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a38e7ee545e4981d3285df17f89561c24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CameraComponent::isLayerMatched </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>layer</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the parameter layer matches TargetLayer to this camera. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layer,unsigned</td><td>int, the layer to be check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>true: layer matches this camera TargetLayer </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_camera_component_a38e7ee545e4981d3285df17f89561c24_icgraph.png" border="0" usemap="#class_magnum_1_1_camera_component_a38e7ee545e4981d3285df17f89561c24_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_camera_component_a38e7ee545e4981d3285df17f89561c24_icgraph" id="class_magnum_1_1_camera_component_a38e7ee545e4981d3285df17f89561c24_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_bill_board_renderer.html#a551846a61bfad0c3104bd75136e37a7e" title="Get the Order of this renderer. " alt="" coords="265,5,449,47"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_cube_renderer.html#a0ee1e417798a21ad7276c90d327226ed" title="Get the Order of this renderer. " alt="" coords="276,71,439,112"/>
+<area shape="rect" id="node4" href="class_magnum_1_1_diffuse_map_cube_renderer.html#ac02b3206600e1825d321e213d96bcf81" title="Get the Order of this renderer. " alt="" coords="244,136,471,177"/>
+<area shape="rect" id="node5" href="class_magnum_1_1_diffuse_map_specular_map_cube_renderer.html#a1f74a1a086edaa7c142682c2b8648678" title="Get the Order of this renderer. " alt="" coords="260,201,455,243"/>
+<area shape="rect" id="node6" href="class_magnum_1_1_particle_emitter_renderer.html#a1c48314c5386716962d6859e4c546ef1" title="Get the Order of this renderer. " alt="" coords="248,267,467,308"/>
+<area shape="rect" id="node7" href="class_magnum_1_1_skeletal_anim_model_renderer.html#a138ac08d14815bdc63a73b2d0722f52f" title="Get the Order of this renderer. " alt="" coords="261,332,453,373"/>
+<area shape="rect" id="node8" href="class_magnum_1_1_sky_sphere_renderer.html#a2b7bd339a31bebd9c1770d591ad5f28f" title="Get the Order of this renderer. " alt="" coords="259,397,455,439"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac7ea89b8cd16133d963a5cc54942f22f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CameraComponent::onConstruct </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handle Construct Event of the <a class="el" href="class_magnum_1_1_component.html" title="Component. ">Component</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd>true if construction is success, return false if fail </dd></dl>
+
+<p>依據<a class="el" href="class_magnum_1_1_component.html">Magnum::Component</a>重新實作.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaf42005f7bc8c4f93b609c8666d65a30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraComponent::onUpdate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handle Update Event of the <a class="el" href="class_magnum_1_1_component.html" title="Component. ">Component</a>. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delta</td><td>elapse of the game cycle </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>依據<a class="el" href="class_magnum_1_1_component.html">Magnum::Component</a>重新實作.</p>
+
+</div>
+</div>
+<a class="anchor" id="a54bc2d46cd53d0bf4c7151ecc25d37d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Magnum::CameraComponent::onValidateProjectionTransform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a> &amp;&#160;</td>
+          <td class="paramname"><em>projectTransform</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is a pure virtual function. </p>
+<p>all sub class should implement this function for their own version of project transform. </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">projectTransform,<a class="el" href="class_magnum_1_1_matrix4.html">Matrix4</a>,the</td><td>layer to be check. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_camera_component_a54bc2d46cd53d0bf4c7151ecc25d37d1_icgraph.png" border="0" usemap="#class_magnum_1_1_camera_component_a54bc2d46cd53d0bf4c7151ecc25d37d1_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_camera_component_a54bc2d46cd53d0bf4c7151ecc25d37d1_icgraph" id="class_magnum_1_1_camera_component_a54bc2d46cd53d0bf4c7151ecc25d37d1_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_camera_component.html#a84bbd217e6201fd89894e6f8a81e03a9" title="mark the member variable projectTransformValid is invalide and should be update before next render ..." alt="" coords="260,5,463,47"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_camera_component.html#ab50fcc345c5beb14317b4bb74f6c2b2e" title="Set the coordinate of project plane of at the near plane of camera. " alt="" coords="511,5,701,47"/>
+<area shape="rect" id="node4" href="class_magnum_1_1_perspective_camera_component.html#a6b49a13999f7fb6593ca845c10579795" title="Set the coordinate of project plane of at the near plane of camera. " alt="" coords="749,5,941,47"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2887b0c8a70aea853e6390193c013886"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Magnum::CameraComponent::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TargetLayer&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the value of the TargetLayer of this Camera. </p>
+<p>This camera will only render those Entities with the <a class="el" href="class_magnum_1_1_layer.html">Layer</a> equal to camera's TargetLayer. </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value_,unsigned</td><td>int, the value of the TargetLayer of this Camera Get the TargetLayer of this Camera </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>the TargetLayer of this Camera </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4199c46f3ece9fbc167f208a7ea07c5e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Magnum::CameraComponent::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ClearFlags&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Clearing Flags of this Camera. </p>
+<p>ClearFlag can be any one of those specified in CameraComponent::Clearing Flags </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value_,int,the</td><td>Clearing Flags of this Camera. Get the Clearing Flags of this Camera. ClearFlag can be any one of those specified in CameraComponent::Clearing Flags </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>int, the Clearing Flags of this Camera. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0eae24223559e50c71b0bc86ebac663f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Magnum::CameraComponent::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_color_r_g_b_a.html">ColorRGBA</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ClearColor&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Clear Color of this Camera. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value_,<a class="el" href="class_magnum_1_1_color_r_g_b_a.html">ColorRGBA</a>,the</td><td>Claring Color of this Camera. Get the Clear Color of this Camera. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_color_r_g_b_a.html">ColorRGBA</a>, the Clearing Color of this Camera. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3469e31f41b35c54963463cb05d62d22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Magnum::CameraComponent::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ClearDepth&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Clear Depth of this Camera. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value_,float,the</td><td>Clear Depth of this Camera. Get the Clear Depth of this Camera. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>float, the Clear Depth of this Camera. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9adf263660e4b03c2f77de49dd7900e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Magnum::CameraComponent::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ClearStencil&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Clear Stencil of this Camera. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value_,unsigned</td><td>int, the Clear Stencil of this Camera. Get the Clear Stencil of this Camera. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>unsigned int, the Clear Stencil of this Camera. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a65676fa2193d9bedf3449f6db06ed07c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Magnum::CameraComponent::PROPERTY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_vector4.html">Vector4</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Viewport&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Viewport of this Camera. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value_,<a class="el" href="class_magnum_1_1_vector4.html">Vector4</a>,the</td><td>x, y, width, height of the view port in screen coordinate. Get the Viewport of this Camera. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd><a class="el" href="class_magnum_1_1_vector4.html">Vector4</a>, the x, y, width, height of the view port in screen coordinate. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab50fcc345c5beb14317b4bb74f6c2b2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraComponent::setProjectionPlanes </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>left_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>right_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>bottom_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>top_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>nearPlane_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>farPlane_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the coordinate of project plane of at the near plane of camera. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">left_,float,the</td><td>left side frustum x coordinate in this camera space </td></tr>
+    <tr><td class="paramname">right_,float,the</td><td>right side frustum x coordinate in this camera space </td></tr>
+    <tr><td class="paramname">bottom_,float,the</td><td>bottom side frustum y coordinate in this camera space </td></tr>
+    <tr><td class="paramname">top_,float,the</td><td>top side frustum y coordinate in this camera space </td></tr>
+    <tr><td class="paramname">nearPlane_,float,the</td><td>near side frustum z coordinate in this camera space </td></tr>
+    <tr><td class="paramname">farPlane_,float,the</td><td>far side frustum z coordinate in this camera space </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>參閱</dt><dd>Redbook of OpenGL Bible for detail of definition of Projection <a class="el" href="class_magnum_1_1_transform.html">Transform</a> </dd></dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_camera_component_ab50fcc345c5beb14317b4bb74f6c2b2e_cgraph.png" border="0" usemap="#class_magnum_1_1_camera_component_ab50fcc345c5beb14317b4bb74f6c2b2e_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_camera_component_ab50fcc345c5beb14317b4bb74f6c2b2e_cgraph" id="class_magnum_1_1_camera_component_ab50fcc345c5beb14317b4bb74f6c2b2e_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_camera_component.html#a84bbd217e6201fd89894e6f8a81e03a9" title="mark the member variable projectTransformValid is invalide and should be update before next render ..." alt="" coords="244,5,447,47"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_camera_component.html#a54bc2d46cd53d0bf4c7151ecc25d37d1" title="This is a pure virtual function. " alt="" coords="495,5,701,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_camera_component_ab50fcc345c5beb14317b4bb74f6c2b2e_icgraph.png" border="0" usemap="#class_magnum_1_1_camera_component_ab50fcc345c5beb14317b4bb74f6c2b2e_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_camera_component_ab50fcc345c5beb14317b4bb74f6c2b2e_icgraph" id="class_magnum_1_1_camera_component_ab50fcc345c5beb14317b4bb74f6c2b2e_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_perspective_camera_component.html#a6b49a13999f7fb6593ca845c10579795" title="Set the coordinate of project plane of at the near plane of camera. " alt="" coords="244,5,436,47"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>此類別(class) 文件是由下列檔案中產生:<ul>
+<li>C:/EpicForceBackup/EpicForceEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/<a class="el" href="_camera_component_8h_source.html">CameraComponent.h</a></li>
+<li>C:/EpicForceBackup/EpicForceEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/CameraComponent.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

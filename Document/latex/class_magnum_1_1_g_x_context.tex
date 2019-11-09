@@ -1,0 +1,365 @@
+\hypertarget{class_magnum_1_1_g_x_context}{}\section{Magnum\+:\+:G\+X\+Context 類別 參考文件}
+\label{class_magnum_1_1_g_x_context}\index{Magnum\+::\+G\+X\+Context@{Magnum\+::\+G\+X\+Context}}
+
+
+\hyperlink{class_magnum_1_1_g_x_color_buffer}{G\+X\+Color\+Buffer} encapsulate a the Context of Graphics Device.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Context.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:G\+X\+Context的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{class_magnum_1_1_g_x_context__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:G\+X\+Context的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{class_magnum_1_1_g_x_context__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_g_x_context_1_1_quad}{Quad}
+\end{DoxyCompactItemize}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ {\bfseries N\+U\+M\+\_\+\+V\+E\+R\+T\+E\+X\+B\+U\+F\+F\+E\+RS} = 4, 
+{\bfseries N\+U\+M\+\_\+\+I\+N\+D\+E\+X\+B\+U\+F\+F\+E\+RS} = 4, 
+{\bfseries N\+U\+M\+\_\+\+T\+E\+X\+T\+U\+R\+ES} = 8
+ \}\hypertarget{class_magnum_1_1_g_x_context_ac4300d1ef845efa0bc0f0e4ad5473e9d}{}\label{class_magnum_1_1_g_x_context_ac4300d1ef845efa0bc0f0e4ad5473e9d}
+
+\item 
+enum {\bfseries Graphics\+Update} \{ \\*
+{\bfseries None} = 0x00000000, 
+{\bfseries Blend\+Func} = 0x00000001, 
+{\bfseries Clear\+Color} = 0x00000002, 
+{\bfseries Clear\+Depth} = 0x00000004, 
+\\*
+{\bfseries Clear\+Stencil} = 0x00000008, 
+{\bfseries Color\+Mask} = 0x00000010, 
+{\bfseries Cull\+Face} = 0x00000020, 
+{\bfseries Depth\+Func} = 0x00000040, 
+\\*
+{\bfseries Depth\+Range} = 0x00000080, 
+{\bfseries Enable} = 0x00000100, 
+{\bfseries Frame\+Buffer} = 0x00000200, 
+{\bfseries Line\+Width} = 0x00000400, 
+\\*
+{\bfseries Polygon\+Offset} = 0x00000800, 
+{\bfseries Scissor} = 0x00001000, 
+{\bfseries Shader\+Program} = 0x00002000, 
+{\bfseries Stencil\+Func} = 0x00004000, 
+\\*
+{\bfseries Stencil\+Op} = 0x00008000, 
+{\bfseries Texture0} = 0x00010000, 
+{\bfseries TextureN} = 0x00020000, 
+{\bfseries Vertex\+Buffer0} = 0x00040000, 
+\\*
+{\bfseries Vertex\+BufferN} = 0x00080000, 
+{\bfseries Index\+Buffer0} = 0x00100000, 
+{\bfseries Index\+BufferN} = 0x00200000, 
+{\bfseries Viewport} = 0x00400000
+ \}\hypertarget{class_magnum_1_1_g_x_context_aff8f4b8f30d1af0adc3ea133cf0d4bb8}{}\label{class_magnum_1_1_g_x_context_aff8f4b8f30d1af0adc3ea133cf0d4bb8}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+X\+Context} (int width\+\_\+, int height\+\_\+, \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} color\+Format\+\_\+, \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} depth\+Format\+\_\+, \hyperlink{class_magnum_1_1_g_x_multi_sample_mode}{G\+X\+Multi\+Sample\+Mode} multi\+Sample\+Mode\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a4ec59eea395c067216c0245c6d486672}{}\label{class_magnum_1_1_g_x_context_a4ec59eea395c067216c0245c6d486672}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_frame_buffer}{G\+X\+Frame\+Buffer} $\ast$ {\bfseries get\+Screen} () const \hypertarget{class_magnum_1_1_g_x_context_a49d48f7981f76fc3030700d9ee3e28ef}{}\label{class_magnum_1_1_g_x_context_a49d48f7981f76fc3030700d9ee3e28ef}
+
+\item 
+void {\bfseries flush} ()\hypertarget{class_magnum_1_1_g_x_context_a36462301294a68de6c99c3599e370ad0}{}\label{class_magnum_1_1_g_x_context_a36462301294a68de6c99c3599e370ad0}
+
+\item 
+void {\bfseries finish} ()\hypertarget{class_magnum_1_1_g_x_context_a9536ca0668294067af79fb6404b864de}{}\label{class_magnum_1_1_g_x_context_a9536ca0668294067af79fb6404b864de}
+
+\item 
+void {\bfseries clear} ()\hypertarget{class_magnum_1_1_g_x_context_aec5c070800c9b82965223c13ae810b88}{}\label{class_magnum_1_1_g_x_context_aec5c070800c9b82965223c13ae810b88}
+
+\item 
+void {\bfseries clear} (\hyperlink{class_magnum_1_1_g_x_clear_mask}{G\+X\+Clear\+Mask} mask\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_aed4b8bad3ea948cc0168b48ecd020cf4}{}\label{class_magnum_1_1_g_x_context_aed4b8bad3ea948cc0168b48ecd020cf4}
+
+\item 
+void {\bfseries draw} (\hyperlink{class_magnum_1_1_g_x_draw_mode}{G\+X\+Draw\+Mode} mode\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&proj\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&view\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&world\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$vertices\+\_\+, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color\+\_\+, int count\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a30c06e65573d46cfd20e52c764fb9f40}{}\label{class_magnum_1_1_g_x_context_a30c06e65573d46cfd20e52c764fb9f40}
+
+\item 
+void {\bfseries draw} (\hyperlink{class_magnum_1_1_g_x_draw_mode}{G\+X\+Draw\+Mode} mode\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&proj\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&view\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&world\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$vertices\+\_\+, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color\+\_\+, const \hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$texcoords\+\_\+, int count\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_af36b043da46fb937c9aa98108d8de178}{}\label{class_magnum_1_1_g_x_context_af36b043da46fb937c9aa98108d8de178}
+
+\item 
+void {\bfseries draw} (\hyperlink{class_magnum_1_1_g_x_draw_mode}{G\+X\+Draw\+Mode} mode\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&proj\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&view\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&world\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$vertices\+\_\+, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$colors\+\_\+, int count\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a3e245440e97e8c266d894c87a7fe6f38}{}\label{class_magnum_1_1_g_x_context_a3e245440e97e8c266d894c87a7fe6f38}
+
+\item 
+void {\bfseries draw} (\hyperlink{class_magnum_1_1_g_x_draw_mode}{G\+X\+Draw\+Mode} mode\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&proj\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&view\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&world\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$vertices\+\_\+, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$colors\+\_\+, const \hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$texcoords\+\_\+, int count\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a24ae804ad64d1ff2f0e7763aa2208b23}{}\label{class_magnum_1_1_g_x_context_a24ae804ad64d1ff2f0e7763aa2208b23}
+
+\item 
+void {\bfseries draw\+Quad} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&proj\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&view\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&world\+Transform\+\_\+, const float $\ast$vertices\+\_\+, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} $\ast$colors\+\_\+, const float $\ast$texcoords\+\_\+, int count\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a66f38f58592a36bc0bc708137cac73ca}{}\label{class_magnum_1_1_g_x_context_a66f38f58592a36bc0bc708137cac73ca}
+
+\item 
+void {\bfseries draw\+Quad} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&proj\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&view\+Transform\+\_\+, const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&world\+Transform\+\_\+, float x\+Offset\+\_\+, float y\+Offset\+\_\+, const \hyperlink{class_magnum_1_1_color_r_g_b_a}{Color\+R\+G\+BA} \&color\+\_\+, const \hyperlink{class_magnum_1_1_g_x_context_1_1_quad}{Quad} \&quad\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a04056dba5fcc5f91fb04f8c5e4b26cf3}{}\label{class_magnum_1_1_g_x_context_a04056dba5fcc5f91fb04f8c5e4b26cf3}
+
+\item 
+void {\bfseries draw} (\hyperlink{class_magnum_1_1_g_x_draw_mode}{G\+X\+Draw\+Mode} mode\+\_\+, int first\+\_\+, int count\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_ae27d95e3c25caf09b3d131d2597bfd90}{}\label{class_magnum_1_1_g_x_context_ae27d95e3c25caf09b3d131d2597bfd90}
+
+\item 
+void {\bfseries draw} (\hyperlink{class_magnum_1_1_g_x_draw_mode}{G\+X\+Draw\+Mode} mode\+\_\+, int first\+\_\+, int count\+\_\+, int repeat\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a14ca0a530488d8512039d181580aed58}{}\label{class_magnum_1_1_g_x_context_a14ca0a530488d8512039d181580aed58}
+
+\item 
+void {\bfseries draw} (const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_g_x_primitive}{G\+X\+Primitive} $>$ \&primitives\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_aae81ab3576f73498f1f883746cfe3fb8}{}\label{class_magnum_1_1_g_x_context_aae81ab3576f73498f1f883746cfe3fb8}
+
+\item 
+void {\bfseries draw} (const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_g_x_primitive}{G\+X\+Primitive} $>$ \&primitives\+\_\+, int first\+\_\+, int count\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a622043bce177941e13e36c8184a15631}{}\label{class_magnum_1_1_g_x_context_a622043bce177941e13e36c8184a15631}
+
+\item 
+void {\bfseries read\+Pixels} (\hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&pixels\+\_\+, \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} format\+\_\+, int sx\+\_\+, int sy\+\_\+, int sw\+\_\+, int sh\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a183d1df7d5f46612d76f894124b449c1}{}\label{class_magnum_1_1_g_x_context_a183d1df7d5f46612d76f894124b449c1}
+
+\item 
+void {\bfseries read\+Pixels} (\hyperlink{class_magnum_1_1_g_x_texture2_d}{G\+X\+Texture2D} $\ast$texture\+\_\+, int level\+\_\+, int dx\+\_\+, int dy\+\_\+, int sx\+\_\+, int sy\+\_\+, int sw\+\_\+, int sh\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_ae62a2adb036d7640f9e0d322f8a06789}{}\label{class_magnum_1_1_g_x_context_ae62a2adb036d7640f9e0d322f8a06789}
+
+\item 
+void {\bfseries read\+Pixels} (\hyperlink{class_magnum_1_1_g_x_texture_cube}{G\+X\+Texture\+Cube} $\ast$texture\+\_\+, int level\+\_\+, \hyperlink{class_magnum_1_1_g_x_texture_cube_face}{G\+X\+Texture\+Cube\+Face} cube\+Face\+\_\+, int dx\+\_\+, int dy\+\_\+, int sx\+\_\+, int sy\+\_\+, int sw\+\_\+, int sh\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_ae702cb140e5e7c9f6357b90c35bd4ee2}{}\label{class_magnum_1_1_g_x_context_ae702cb140e5e7c9f6357b90c35bd4ee2}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_shader_program}{G\+X\+Shader\+Program} $\ast$ {\bfseries get\+Shader\+Program} () const \hypertarget{class_magnum_1_1_g_x_context_af74befdccce27cc038f6ed0189868760}{}\label{class_magnum_1_1_g_x_context_af74befdccce27cc038f6ed0189868760}
+
+\item 
+void {\bfseries set\+Shader\+Program} (\hyperlink{class_magnum_1_1_g_x_shader_program}{G\+X\+Shader\+Program} $\ast$program\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a5c46606bfd45a766cce6d44668b7803c}{}\label{class_magnum_1_1_g_x_context_a5c46606bfd45a766cce6d44668b7803c}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_vertex_buffer}{G\+X\+Vertex\+Buffer} $\ast$ {\bfseries get\+Vertex\+Buffer} (int index\+\_\+) const \hypertarget{class_magnum_1_1_g_x_context_ac45a798d1e64ec28c93b9ed4d15af0be}{}\label{class_magnum_1_1_g_x_context_ac45a798d1e64ec28c93b9ed4d15af0be}
+
+\item 
+void {\bfseries set\+Vertex\+Buffer} (int index\+\_\+, \hyperlink{class_magnum_1_1_g_x_vertex_buffer}{G\+X\+Vertex\+Buffer} $\ast$buffer\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_ace0081c29461b0a0239ed116ca63cd4a}{}\label{class_magnum_1_1_g_x_context_ace0081c29461b0a0239ed116ca63cd4a}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_index_buffer}{G\+X\+Index\+Buffer} $\ast$ {\bfseries get\+Index\+Buffer} (int index\+\_\+) const \hypertarget{class_magnum_1_1_g_x_context_a40da427018dd17072bbf0ca39d51df8c}{}\label{class_magnum_1_1_g_x_context_a40da427018dd17072bbf0ca39d51df8c}
+
+\item 
+void {\bfseries set\+Index\+Buffer} (int index\+\_\+, \hyperlink{class_magnum_1_1_g_x_index_buffer}{G\+X\+Index\+Buffer} $\ast$buffer\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a1a71090b1d7b70f71471815e3ee164b5}{}\label{class_magnum_1_1_g_x_context_a1a71090b1d7b70f71471815e3ee164b5}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_texture}{G\+X\+Texture} $\ast$ {\bfseries get\+Texture} (int index\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_adb2cd578e9024f693056210a87e476e7}{}\label{class_magnum_1_1_g_x_context_adb2cd578e9024f693056210a87e476e7}
+
+\item 
+void {\bfseries set\+Texture} (int index\+\_\+, \hyperlink{class_magnum_1_1_g_x_texture}{G\+X\+Texture} $\ast$texture\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a6613713038f0ddc4b7ac79691cc87403}{}\label{class_magnum_1_1_g_x_context_a6613713038f0ddc4b7ac79691cc87403}
+
+\item 
+\hyperlink{class_magnum_1_1_g_x_frame_buffer}{G\+X\+Frame\+Buffer} $\ast$ {\bfseries get\+Frame\+Buffer} () const \hypertarget{class_magnum_1_1_g_x_context_a72122f55b94090a715e86967352e313b}{}\label{class_magnum_1_1_g_x_context_a72122f55b94090a715e86967352e313b}
+
+\item 
+void {\bfseries set\+Frame\+Buffer} (\hyperlink{class_magnum_1_1_g_x_frame_buffer}{G\+X\+Frame\+Buffer} $\ast$buffer\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a34f92cb75f87b92433d3b3ad4ff9b67f}{}\label{class_magnum_1_1_g_x_context_a34f92cb75f87b92433d3b3ad4ff9b67f}
+
+\item 
+bool {\bfseries is\+Enabled} (\hyperlink{class_magnum_1_1_g_x_enable_mode}{G\+X\+Enable\+Mode} mode\+\_\+) const \hypertarget{class_magnum_1_1_g_x_context_ae57757290c550b87f247534596d3f0fb}{}\label{class_magnum_1_1_g_x_context_ae57757290c550b87f247534596d3f0fb}
+
+\item 
+void {\bfseries enable} (\hyperlink{class_magnum_1_1_g_x_enable_mode}{G\+X\+Enable\+Mode} mode\+\_\+, bool status\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a3faef3dce6535a6fb924c21bbf137b43}{}\label{class_magnum_1_1_g_x_context_a3faef3dce6535a6fb924c21bbf137b43}
+
+\item 
+void {\bfseries enable} (\hyperlink{class_magnum_1_1_g_x_enable_mode}{G\+X\+Enable\+Mode} mode\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a23e3e77bc514312da08ae52f6fc5c2c2}{}\label{class_magnum_1_1_g_x_context_a23e3e77bc514312da08ae52f6fc5c2c2}
+
+\item 
+void {\bfseries disable} (\hyperlink{class_magnum_1_1_g_x_enable_mode}{G\+X\+Enable\+Mode} mode\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a91f46c8fe3683c773840cd23cc064849}{}\label{class_magnum_1_1_g_x_context_a91f46c8fe3683c773840cd23cc064849}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_image_rect}{G\+X\+Image\+Rect} \& {\bfseries get\+Scissor} () const \hypertarget{class_magnum_1_1_g_x_context_a1546b0d7f1c9e02a14692ee69f9469fb}{}\label{class_magnum_1_1_g_x_context_a1546b0d7f1c9e02a14692ee69f9469fb}
+
+\item 
+void {\bfseries set\+Scissor} (const \hyperlink{class_magnum_1_1_g_x_image_rect}{G\+X\+Image\+Rect} \&scissor\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a5d6d443a6f5f7520fb2fe39d42026cb1}{}\label{class_magnum_1_1_g_x_context_a5d6d443a6f5f7520fb2fe39d42026cb1}
+
+\item 
+void {\bfseries set\+Scissor} (int x\+\_\+, int y\+\_\+, int w\+\_\+, int h\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a8de140a502e47c58bd3420fe2cdcd31b}{}\label{class_magnum_1_1_g_x_context_a8de140a502e47c58bd3420fe2cdcd31b}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_image_rect}{G\+X\+Image\+Rect} \& {\bfseries get\+Viewport} () const \hypertarget{class_magnum_1_1_g_x_context_ae6cd9c72dbba65f6b30a3b518ad5411e}{}\label{class_magnum_1_1_g_x_context_ae6cd9c72dbba65f6b30a3b518ad5411e}
+
+\item 
+void {\bfseries set\+Viewport} (const \hyperlink{class_magnum_1_1_g_x_image_rect}{G\+X\+Image\+Rect} \&viewport\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a0593c4181a0e926918268b6d9612c1eb}{}\label{class_magnum_1_1_g_x_context_a0593c4181a0e926918268b6d9612c1eb}
+
+\item 
+void {\bfseries set\+Viewport} (int x\+\_\+, int y\+\_\+, int w\+\_\+, int h\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_ac7844fbca6be20bd03909c2e0092c7bb}{}\label{class_magnum_1_1_g_x_context_ac7844fbca6be20bd03909c2e0092c7bb}
+
+\item 
+const \hyperlink{class_magnum_1_1_vector2}{Vector2} \& {\bfseries get\+Depth\+Range} () const \hypertarget{class_magnum_1_1_g_x_context_a1ddb2db7fd0ce68054072bda645cd33e}{}\label{class_magnum_1_1_g_x_context_a1ddb2db7fd0ce68054072bda645cd33e}
+
+\item 
+void {\bfseries set\+Depth\+Range} (const \hyperlink{class_magnum_1_1_vector2}{Vector2} \&depth\+Range\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a6f0e057916a656461647ff330dc71a4a}{}\label{class_magnum_1_1_g_x_context_a6f0e057916a656461647ff330dc71a4a}
+
+\item 
+void {\bfseries set\+Depth\+Range} (float min\+\_\+, float max\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a4763b1959d84d92446880c2ff45a659a}{}\label{class_magnum_1_1_g_x_context_a4763b1959d84d92446880c2ff45a659a}
+
+\item 
+const \hyperlink{class_magnum_1_1_vector4}{Vector4} \& {\bfseries get\+Clear\+Color} () const \hypertarget{class_magnum_1_1_g_x_context_ab9375a8421a7b455ef976df96d44ec38}{}\label{class_magnum_1_1_g_x_context_ab9375a8421a7b455ef976df96d44ec38}
+
+\item 
+void {\bfseries set\+Clear\+Color} (const \hyperlink{class_magnum_1_1_vector4}{Vector4} \&clear\+Color\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a9238232c9d1d243930f35bed59a2c5eb}{}\label{class_magnum_1_1_g_x_context_a9238232c9d1d243930f35bed59a2c5eb}
+
+\item 
+void {\bfseries set\+Clear\+Color} (float r\+\_\+, float g\+\_\+, float b\+\_\+, float a\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a14fba60878def7efcd65a996f08fe6db}{}\label{class_magnum_1_1_g_x_context_a14fba60878def7efcd65a996f08fe6db}
+
+\item 
+void {\bfseries set\+Clear\+Color} (int r\+\_\+, int g\+\_\+, int b\+\_\+, int a\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a30e4d804bd3efd71b8a5805ab44df135}{}\label{class_magnum_1_1_g_x_context_a30e4d804bd3efd71b8a5805ab44df135}
+
+\item 
+float {\bfseries get\+Clear\+Depth} () const \hypertarget{class_magnum_1_1_g_x_context_a3e81c982d218564e62a48cdb129ed2c2}{}\label{class_magnum_1_1_g_x_context_a3e81c982d218564e62a48cdb129ed2c2}
+
+\item 
+void {\bfseries set\+Clear\+Depth} (float clear\+Depth\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a04777c1bf6b4b617ddd711685da73bfe}{}\label{class_magnum_1_1_g_x_context_a04777c1bf6b4b617ddd711685da73bfe}
+
+\item 
+int {\bfseries get\+Clear\+Stencil} () const \hypertarget{class_magnum_1_1_g_x_context_a58166ef8fe8aff1b96bc387935730c37}{}\label{class_magnum_1_1_g_x_context_a58166ef8fe8aff1b96bc387935730c37}
+
+\item 
+void {\bfseries set\+Clear\+Stencil} (int clear\+Stencil\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a7424d08a9c7340d0867ecd800e5f40be}{}\label{class_magnum_1_1_g_x_context_a7424d08a9c7340d0867ecd800e5f40be}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_cull_state}{G\+X\+Cull\+State} \& {\bfseries get\+Cull\+State} () const \hypertarget{class_magnum_1_1_g_x_context_af140ab80442d0c94bd66a6c3e5a50275}{}\label{class_magnum_1_1_g_x_context_af140ab80442d0c94bd66a6c3e5a50275}
+
+\item 
+void {\bfseries set\+Cull\+State} (const \hyperlink{class_magnum_1_1_g_x_cull_state}{G\+X\+Cull\+State} \&cull\+Face\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_ad4d70bfd517f03e3391a0202585b920e}{}\label{class_magnum_1_1_g_x_context_ad4d70bfd517f03e3391a0202585b920e}
+
+\item 
+void {\bfseries set\+Cull\+State} (const \hyperlink{class_magnum_1_1_g_x_cull_mode}{G\+X\+Cull\+Mode} \&cull\+Mode\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a1a8ebea8c32929a17000a5fc2d740a54}{}\label{class_magnum_1_1_g_x_context_a1a8ebea8c32929a17000a5fc2d740a54}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_blend_state}{G\+X\+Blend\+State} \& {\bfseries get\+Blend\+State} () const \hypertarget{class_magnum_1_1_g_x_context_a5020d793df64d2fcc7c3804c33a59343}{}\label{class_magnum_1_1_g_x_context_a5020d793df64d2fcc7c3804c33a59343}
+
+\item 
+void {\bfseries set\+Blend\+State} (const \hyperlink{class_magnum_1_1_g_x_blend_state}{G\+X\+Blend\+State} \&blend\+State\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_accf3cc9ef423fa6864ecd41f8d5e620b}{}\label{class_magnum_1_1_g_x_context_accf3cc9ef423fa6864ecd41f8d5e620b}
+
+\item 
+void {\bfseries set\+Blend\+State} (const \hyperlink{class_magnum_1_1_g_x_blend_mode}{G\+X\+Blend\+Mode} \&mode\+\_\+, const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \&src\+Factor\+\_\+, const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \&dst\+Factor\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a525c94e3f2c176b86813a15e3b17763f}{}\label{class_magnum_1_1_g_x_context_a525c94e3f2c176b86813a15e3b17763f}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_blend_state}{G\+X\+Blend\+State} \& {\bfseries get\+Blend\+State\+Rgb} () const \hypertarget{class_magnum_1_1_g_x_context_a76dd7a2065a2616173696b5685cc4a85}{}\label{class_magnum_1_1_g_x_context_a76dd7a2065a2616173696b5685cc4a85}
+
+\item 
+void {\bfseries set\+Blend\+State\+Rgb} (const \hyperlink{class_magnum_1_1_g_x_blend_state}{G\+X\+Blend\+State} \&blend\+State\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a7cdbbc4ae1c993d69c2c9de12cd3156f}{}\label{class_magnum_1_1_g_x_context_a7cdbbc4ae1c993d69c2c9de12cd3156f}
+
+\item 
+void {\bfseries set\+Blend\+State\+Rgb} (const \hyperlink{class_magnum_1_1_g_x_blend_mode}{G\+X\+Blend\+Mode} \&mode\+\_\+, const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \&src\+Factor\+\_\+, const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \&dst\+Factor\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a8ab1f4663e2aafe58b78951544530fba}{}\label{class_magnum_1_1_g_x_context_a8ab1f4663e2aafe58b78951544530fba}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_blend_state}{G\+X\+Blend\+State} \& {\bfseries get\+Blend\+State\+Alpha} () const \hypertarget{class_magnum_1_1_g_x_context_adb72782ef2ea063b754b18cf85470f8e}{}\label{class_magnum_1_1_g_x_context_adb72782ef2ea063b754b18cf85470f8e}
+
+\item 
+void {\bfseries set\+Blend\+State\+Alpha} (const \hyperlink{class_magnum_1_1_g_x_blend_state}{G\+X\+Blend\+State} \&blend\+State\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a41190096effdf7968f52c7fa5786d63f}{}\label{class_magnum_1_1_g_x_context_a41190096effdf7968f52c7fa5786d63f}
+
+\item 
+void {\bfseries set\+Blend\+State\+Alpha} (const \hyperlink{class_magnum_1_1_g_x_blend_mode}{G\+X\+Blend\+Mode} \&mode\+\_\+, const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \&src\+Factor\+\_\+, const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \&dst\+Factor\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_ad9fd13f072e3fbd149622ce31012619f}{}\label{class_magnum_1_1_g_x_context_ad9fd13f072e3fbd149622ce31012619f}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_depth_test_state}{G\+X\+Depth\+Test\+State} \& {\bfseries get\+Depth\+Test\+State} () const \hypertarget{class_magnum_1_1_g_x_context_af9249ab05633c731ade3e57849cd5cac}{}\label{class_magnum_1_1_g_x_context_af9249ab05633c731ade3e57849cd5cac}
+
+\item 
+void {\bfseries set\+Depth\+Test\+State} (const \hyperlink{class_magnum_1_1_g_x_depth_test_state}{G\+X\+Depth\+Test\+State} \&depth\+Test\+State\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a92fc4f92b0074224b3316690da2ff1c9}{}\label{class_magnum_1_1_g_x_context_a92fc4f92b0074224b3316690da2ff1c9}
+
+\item 
+void {\bfseries set\+Depth\+Test\+State} (const \hyperlink{class_magnum_1_1_g_x_depth_test_mode}{G\+X\+Depth\+Test\+Mode} \&mode\+\_\+, bool write\+Mask\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a850fc290dd4a385ab0b38208da2c3926}{}\label{class_magnum_1_1_g_x_context_a850fc290dd4a385ab0b38208da2c3926}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_polygon_offset_state}{G\+X\+Polygon\+Offset\+State} \& {\bfseries get\+Polygon\+Offset\+State} () const \hypertarget{class_magnum_1_1_g_x_context_a19206dd8521338e47c185f81598e298a}{}\label{class_magnum_1_1_g_x_context_a19206dd8521338e47c185f81598e298a}
+
+\item 
+void {\bfseries set\+Polygon\+Offset\+State} (const \hyperlink{class_magnum_1_1_g_x_polygon_offset_state}{G\+X\+Polygon\+Offset\+State} \&polygon\+Offset\+State\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a75d204c3899565fadd9cad49a983e89c}{}\label{class_magnum_1_1_g_x_context_a75d204c3899565fadd9cad49a983e89c}
+
+\item 
+void {\bfseries set\+Polygon\+Offset\+State} (float factor\+\_\+, float units\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_aff2bbb79caf79f5dfffddce4673276d0}{}\label{class_magnum_1_1_g_x_context_aff2bbb79caf79f5dfffddce4673276d0}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_stencil_test_state}{G\+X\+Stencil\+Test\+State} \& {\bfseries get\+Stencil\+Test\+State} () const \hypertarget{class_magnum_1_1_g_x_context_a82a9ced7888e1aeba24a58fd58f36ba1}{}\label{class_magnum_1_1_g_x_context_a82a9ced7888e1aeba24a58fd58f36ba1}
+
+\item 
+void {\bfseries set\+Stencil\+Test\+State} (const \hyperlink{class_magnum_1_1_g_x_stencil_test_state}{G\+X\+Stencil\+Test\+State} \&func\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_ab03151a23d92d6c23d409f866a074b6a}{}\label{class_magnum_1_1_g_x_context_ab03151a23d92d6c23d409f866a074b6a}
+
+\item 
+void {\bfseries set\+Stencil\+Test\+State} (const \hyperlink{class_magnum_1_1_g_x_stencil_test_mode}{G\+X\+Stencil\+Test\+Mode} \&mode\+\_\+, unsigned int reference\+\_\+, unsigned int read\+Mask\+\_\+, unsigned int write\+Mask\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a51ddac53d744f328ecae61f0d3586b70}{}\label{class_magnum_1_1_g_x_context_a51ddac53d744f328ecae61f0d3586b70}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_stencil_op_state}{G\+X\+Stencil\+Op\+State} \& {\bfseries get\+Stencil\+Op\+State} () const \hypertarget{class_magnum_1_1_g_x_context_aa2d848fa986ee4cdf03249b482a040a2}{}\label{class_magnum_1_1_g_x_context_aa2d848fa986ee4cdf03249b482a040a2}
+
+\item 
+void {\bfseries set\+Stencil\+Op\+State} (const \hyperlink{class_magnum_1_1_g_x_stencil_op_state}{G\+X\+Stencil\+Op\+State} \&op\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a401a7210f55a636d228df72b2eeef171}{}\label{class_magnum_1_1_g_x_context_a401a7210f55a636d228df72b2eeef171}
+
+\item 
+void {\bfseries set\+Stencil\+Op\+State} (const \hyperlink{class_magnum_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} \&fail\+Op\+\_\+, const \hyperlink{class_magnum_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} \&z\+Fail\+Op\+\_\+, const \hyperlink{class_magnum_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} \&z\+Pass\+Op\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a51c51855b627d2c2f0a48170cee85376}{}\label{class_magnum_1_1_g_x_context_a51c51855b627d2c2f0a48170cee85376}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_stencil_test_state}{G\+X\+Stencil\+Test\+State} \& {\bfseries get\+Stencil\+Test\+State\+Front} () const \hypertarget{class_magnum_1_1_g_x_context_ae691ff5bc7eadf1c63b231a91e5d3771}{}\label{class_magnum_1_1_g_x_context_ae691ff5bc7eadf1c63b231a91e5d3771}
+
+\item 
+void {\bfseries set\+Stencil\+Test\+State\+Front} (const \hyperlink{class_magnum_1_1_g_x_stencil_test_state}{G\+X\+Stencil\+Test\+State} \&func\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_ac6d35490a2f6d46107a5cacc1c182616}{}\label{class_magnum_1_1_g_x_context_ac6d35490a2f6d46107a5cacc1c182616}
+
+\item 
+void {\bfseries set\+Stencil\+Test\+State\+Front} (const \hyperlink{class_magnum_1_1_g_x_stencil_test_mode}{G\+X\+Stencil\+Test\+Mode} \&mode\+\_\+, unsigned int reference\+\_\+, unsigned int read\+Mask\+\_\+, unsigned int write\+Mask\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a3affefbf98251f390ae99e9cb68ce6e6}{}\label{class_magnum_1_1_g_x_context_a3affefbf98251f390ae99e9cb68ce6e6}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_stencil_op_state}{G\+X\+Stencil\+Op\+State} \& {\bfseries get\+Stencil\+Op\+State\+Front} () const \hypertarget{class_magnum_1_1_g_x_context_a3e14cbc5c89a4a047e07835ae35be6af}{}\label{class_magnum_1_1_g_x_context_a3e14cbc5c89a4a047e07835ae35be6af}
+
+\item 
+void {\bfseries set\+Stencil\+Op\+State\+Front} (const \hyperlink{class_magnum_1_1_g_x_stencil_op_state}{G\+X\+Stencil\+Op\+State} \&op\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a3ec31c910d91bde9accedee2412fa1e5}{}\label{class_magnum_1_1_g_x_context_a3ec31c910d91bde9accedee2412fa1e5}
+
+\item 
+void {\bfseries set\+Stencil\+Op\+State\+Front} (const \hyperlink{class_magnum_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} \&fail\+Op\+\_\+, const \hyperlink{class_magnum_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} \&z\+Fail\+Op\+\_\+, const \hyperlink{class_magnum_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} \&z\+Pass\+Op\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a7153d9974cc2b13ade9b4c84f7201e79}{}\label{class_magnum_1_1_g_x_context_a7153d9974cc2b13ade9b4c84f7201e79}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_stencil_test_state}{G\+X\+Stencil\+Test\+State} \& {\bfseries get\+Stencil\+Test\+State\+Back} () const \hypertarget{class_magnum_1_1_g_x_context_a81833fa15e72079a336f4491ed353517}{}\label{class_magnum_1_1_g_x_context_a81833fa15e72079a336f4491ed353517}
+
+\item 
+void {\bfseries set\+Stencil\+Test\+State\+Back} (const \hyperlink{class_magnum_1_1_g_x_stencil_test_state}{G\+X\+Stencil\+Test\+State} \&func\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_aa03b9a328ed02f714a6dfbd437a4b35e}{}\label{class_magnum_1_1_g_x_context_aa03b9a328ed02f714a6dfbd437a4b35e}
+
+\item 
+void {\bfseries set\+Stencil\+Test\+State\+Back} (const \hyperlink{class_magnum_1_1_g_x_stencil_test_mode}{G\+X\+Stencil\+Test\+Mode} \&mode\+\_\+, unsigned int reference\+\_\+, unsigned int read\+Mask\+\_\+, unsigned int write\+Mask\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_ae9ac9b24a994ae0817d5665ef6dc9c93}{}\label{class_magnum_1_1_g_x_context_ae9ac9b24a994ae0817d5665ef6dc9c93}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_stencil_op_state}{G\+X\+Stencil\+Op\+State} \& {\bfseries get\+Stencil\+Op\+State\+Back} () const \hypertarget{class_magnum_1_1_g_x_context_a0f8b37fac4bd27fdd67437ea033b5b2d}{}\label{class_magnum_1_1_g_x_context_a0f8b37fac4bd27fdd67437ea033b5b2d}
+
+\item 
+void {\bfseries set\+Stencil\+Op\+State\+Back} (const \hyperlink{class_magnum_1_1_g_x_stencil_op_state}{G\+X\+Stencil\+Op\+State} \&op\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a2446b018020d4dc0e3f21888fdd87c96}{}\label{class_magnum_1_1_g_x_context_a2446b018020d4dc0e3f21888fdd87c96}
+
+\item 
+void {\bfseries set\+Stencil\+Op\+State\+Back} (const \hyperlink{class_magnum_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} \&fail\+Op\+\_\+, const \hyperlink{class_magnum_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} \&z\+Fail\+Op\+\_\+, const \hyperlink{class_magnum_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} \&z\+Pass\+Op\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_affa09eb1b7fffd6feb54c9c3cb334d30}{}\label{class_magnum_1_1_g_x_context_affa09eb1b7fffd6feb54c9c3cb334d30}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_color_mask}{G\+X\+Color\+Mask} \& {\bfseries get\+Color\+Mask} () const \hypertarget{class_magnum_1_1_g_x_context_a5752edc69ea61702a007215e32f266e5}{}\label{class_magnum_1_1_g_x_context_a5752edc69ea61702a007215e32f266e5}
+
+\item 
+void {\bfseries set\+Color\+Mask} (const \hyperlink{class_magnum_1_1_g_x_color_mask}{G\+X\+Color\+Mask} \&color\+Mask\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a16dfc4c6be174f066556863cd0ca9f30}{}\label{class_magnum_1_1_g_x_context_a16dfc4c6be174f066556863cd0ca9f30}
+
+\item 
+float {\bfseries get\+Line\+Width} () const \hypertarget{class_magnum_1_1_g_x_context_a236e28580c69e09c56b174930446f534}{}\label{class_magnum_1_1_g_x_context_a236e28580c69e09c56b174930446f534}
+
+\item 
+void {\bfseries set\+Line\+Width} (float line\+Width\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a36b5a7f559e2d38a98e6def3ede9e640}{}\label{class_magnum_1_1_g_x_context_a36b5a7f559e2d38a98e6def3ede9e640}
+
+\item 
+void {\bfseries notify\+Update} (Graphics\+Update update\+\_\+)\hypertarget{class_magnum_1_1_g_x_context_a183c907d8096fa05d3805ba8223c84ad}{}\label{class_magnum_1_1_g_x_context_a183c907d8096fa05d3805ba8223c84ad}
+
+\item 
+void {\bfseries check\+Update} ()\hypertarget{class_magnum_1_1_g_x_context_a6729135b8e8d7adda3e5f2503bc84cbc}{}\label{class_magnum_1_1_g_x_context_a6729135b8e8d7adda3e5f2503bc84cbc}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_g_x_color_buffer}{G\+X\+Color\+Buffer} encapsulate a the Context of Graphics Device. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Context.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Context.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Final|Win32">
+      <Configuration>Final</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8E6CE5C-F87E-407C-B93E-1DE6A4AFB68A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Game</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_MFC_OVERRIDES_NEW;WIN32;_DEBUG;_WINDOWS;_USRDLL;GAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../MagnumEngineLib/SDK/Bullet; ../MagnumEngineLib/SDK/GLEW/Include/GL; ../MagnumEngineLib/SDK/OpenGLES/GL2/Include; ../MagnumEngineLib/MagnumCore; ./EntryPoint; ./Scenes; ./Entities</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);  ../MagnumEngineLib/SDK/GLEW/Lib; ../MagnumEngineLib/SDK/OpenGLES/GL2/Lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>MagnumEngineLib.lib; kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>prebuilt $(ProjectName).vcxproj</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_MFC_OVERRIDES_NEW;WIN32;NDEBUG;_WINDOWS;_USRDLL;GAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../MagnumEngineLib/SDK/GLEW/Include/GL; ../MagnumEngineLib/SDK/OpenGLES/GL2/Include; ../MagnumEngineLib/MagnumCore; ./EntryPoint; ./Scenes; ./Entities</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OutDir);  ../MagnumEngineLib/SDK/GLEW/Lib; ../MagnumEngineLib/SDK/OpenGLES/GL2/Lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>MagnumEngineLib.lib; kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>prebuilt $(ProjectName).vcxproj</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_MFC_OVERRIDES_NEW;WIN32;NDEBUG;_WINDOWS;_USRDLL;GAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../MagnumEngineLib/SDK/GLEW/Include/GL; ../MagnumEngineLib/SDK/OpenGLES/GL2/Include; ../MagnumEngineLib/MagnumCore; ./EntryPoint; ./Scenes; ./Entities</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OutDir);  ../MagnumEngineLib/SDK/GLEW/Lib; ../MagnumEngineLib/SDK/OpenGLES/GL2/Lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>MagnumEngineLib.lib; kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>prebuilt $(ProjectName).vcxproj</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Entities\MacDemoAudioListenerEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoAudioSourceEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoCameraEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoBGMEntity.cpp" />
+    <ClCompile Include="Entities\EditorEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoLevelEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoPhysicsCubeEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoPhysicsDiffuseMapCubeEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoPhysicsDiffuseMapSpecularMapCubeEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoPlaneEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoParticleEmitterEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoPhysics3SkeletalAnimModelEntity.cpp" />
+    <ClCompile Include="Entities\ReflectEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoSkySphereEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoBillBoardEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoCubeEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoDiffuseMapCubeEntity.cpp" />
+    <ClCompile Include="Entities\MacDemoDiffuseMapSpecularMapCubeEntity.cpp" />
+    <ClCompile Include="EntryPoint\MagnumGame.cpp" />
+    <ClCompile Include="Scenes\BuildMenuState.cpp" />
+    <ClCompile Include="Scenes\GlobalState.cpp" />
+    <ClCompile Include="Scenes\DebugMenuState.cpp" />
+    <ClCompile Include="Scenes\EditMenuState.cpp" />
+    <ClCompile Include="Scenes\FileMenuState.cpp" />
+    <ClCompile Include="Scenes\HelpMenuState.cpp" />
+    <ClCompile Include="Scenes\MacDemoScene.cpp" />
+    <ClCompile Include="Scenes\ModelViewEditorScene.cpp" />
+    <ClCompile Include="Scenes\OperationMenuState.cpp" />
+    <ClCompile Include="Scenes\PlayModeScene.cpp" />
+    <ClCompile Include="Scenes\UpdateAssetsState.cpp" />
+    <ClCompile Include="Scenes\ProjectModelFSM.cpp" />
+    <ClCompile Include="Scenes\ProjectModel.cpp" />
+    <ClCompile Include="Scenes\StartState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entities\MacDemoAudioListenerEntity.h" />
+    <ClInclude Include="Entities\MacDemoAudioSourceEntity.h" />
+    <ClInclude Include="Entities\MacDemoCameraEntity.h" />
+    <ClInclude Include="Entities\MacDemoBGMEntity.h" />
+    <ClInclude Include="Entities\EditorEntity.h" />
+    <ClInclude Include="Entities\MacDemoLevelEntity.h" />
+    <ClInclude Include="Entities\MacDemoPhysicsCubeEntity.h" />
+    <ClInclude Include="Entities\MacDemoPhysicsDiffuseMapCubeEntity.h" />
+    <ClInclude Include="Entities\MacDemoPhysicsDiffuseMapSpecularMapCubeEntity.h" />
+    <ClInclude Include="Entities\MacDemoPlaneEntity.h" />
+    <ClInclude Include="Entities\MacDemoParticleEmitterEntity.h" />
+    <ClInclude Include="Entities\MacDemoPhysics3SkeletalAnimModelEntity.h" />
+    <ClInclude Include="Entities\ReflectEntity.h" />
+    <ClInclude Include="Entities\MacDemoSkySphereEntity.h" />
+    <ClInclude Include="Entities\MacDemoBillBoardEntity.h" />
+    <ClInclude Include="Entities\MacDemoCubeEntity.h" />
+    <ClInclude Include="Entities\MacDemoDiffuseMapCubeEntity.h" />
+    <ClInclude Include="Entities\MacDemoDiffuseMapSpecularMapCubeEntity.h" />
+    <ClInclude Include="EntryPoint\EntityCreators.h" />
+    <ClInclude Include="EntryPoint\MagnumGame.h" />
+    <ClInclude Include="EntryPoint\SceneCreators.h" />
+    <ClInclude Include="Scenes\BuildMenuState.h" />
+    <ClInclude Include="Scenes\GlobalState.h" />
+    <ClInclude Include="Scenes\DebugMenuState.h" />
+    <ClInclude Include="Scenes\EditMenuState.h" />
+    <ClInclude Include="Scenes\FileMenuState.h" />
+    <ClInclude Include="Scenes\HelpMenuState.h" />
+    <ClInclude Include="Scenes\MacDemoScene.h" />
+    <ClInclude Include="Scenes\ModelViewEditorScene.h" />
+    <ClInclude Include="Scenes\OperationMenuState.h" />
+    <ClInclude Include="Scenes\PlayModeScene.h" />
+    <ClInclude Include="Scenes\UpdateAssetsState.h" />
+    <ClInclude Include="Scenes\ProjectModelFSM.h" />
+    <ClInclude Include="Scenes\ProjectModel.h" />
+    <ClInclude Include="Scenes\StartState.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

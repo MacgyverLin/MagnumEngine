@@ -1,0 +1,4 @@
+<map id="IDreamSky::SkeletalAnimBlender::setBlendWeights" name="IDreamSky::SkeletalAnimBlender::setBlendWeights">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_vector.html#ac4d19b6d0c51f31abb9fa1e976ba98fe" title="Get the length of the Vector. " alt="" coords="307,5,447,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_skeletal_anim_weights.html#a061d2171357595d5e2920f44f972bfef" title="Set the blend weight of the i&#45;th bone of animation. " alt="" coords="268,71,487,112"/>
+</map>

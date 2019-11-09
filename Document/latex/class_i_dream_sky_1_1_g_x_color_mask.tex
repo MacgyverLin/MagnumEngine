@@ -1,0 +1,90 @@
+\hypertarget{class_i_dream_sky_1_1_g_x_color_mask}{}\section{I\+Dream\+Sky\+:\+:G\+X\+Color\+Mask 類別 參考文件}
+\label{class_i_dream_sky_1_1_g_x_color_mask}\index{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}}
+
+
+\hyperlink{class_i_dream_sky_1_1_g_x_color_mask}{G\+X\+Color\+Mask} encapsulate a Color Mask for Color Buffer Writing Operation.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Def.\+h$>$}
+
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ \\*
+\hyperlink{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbad53afc7eacb469bcd2e13766387e8e77}{None} = 0, 
+\hyperlink{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bba60039493c971688176f829f5b7dc0226}{R} = 1, 
+\hyperlink{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbae41225e067d91f9684be5c46e581d08e}{G} = 2, 
+\hyperlink{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbaf8ee50a2e379c51a983ee5d11548b1b7}{B} = 4, 
+\\*
+\hyperlink{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bba8bdc786778ad6362fd631498b14691b9}{A} = 8, 
+\hyperlink{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbac00e2cfeabfde3e8fa3cedfa71504d2a}{Rgb} = 7, 
+\hyperlink{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbac7d7acfee6fabaad2dadc615db28af6d}{Rgba} = 15
+ \}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+X\+Color\+Mask} (unsigned int mask\+\_\+=0)\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a4b4f8b7c5de4e240855ac2b56fc13bc7}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a4b4f8b7c5de4e240855ac2b56fc13bc7}
+
+\item 
+bool {\bfseries G\+X\+Color\+Mask\+::operator==} (const \hyperlink{class_i_dream_sky_1_1_g_x_color_mask}{G\+X\+Color\+Mask} \&other\+\_\+)\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_adfe4934314865715c818960e79f6f61a}{}\label{class_i_dream_sky_1_1_g_x_color_mask_adfe4934314865715c818960e79f6f61a}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_g_x_color_mask}{G\+X\+Color\+Mask} \& {\bfseries G\+X\+Color\+Mask\+::operator\&=} (const \hyperlink{class_i_dream_sky_1_1_g_x_color_mask}{G\+X\+Color\+Mask} \&other\+\_\+)\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a8826bf6e1eb13c0d0f6be48f7dfe5582}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a8826bf6e1eb13c0d0f6be48f7dfe5582}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_g_x_color_mask}{G\+X\+Color\+Mask} \& {\bfseries G\+X\+Color\+Mask\+::operator$\vert$=} (const \hyperlink{class_i_dream_sky_1_1_g_x_color_mask}{G\+X\+Color\+Mask} \&other\+\_\+)\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_adbaba9dd2677b3bb8b76323b9383cdf1}{}\label{class_i_dream_sky_1_1_g_x_color_mask_adbaba9dd2677b3bb8b76323b9383cdf1}
+
+\item 
+{\bfseries operator unsigned int} ()\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a9b60042a4b19cb23a4a26f6c899f8c65}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a9b60042a4b19cb23a4a26f6c899f8c65}
+
+\item 
+{\bfseries operator const unsigned int} () const \hypertarget{class_i_dream_sky_1_1_g_x_color_mask_af2186fd904b78643ba279afd57fc0e12}{}\label{class_i_dream_sky_1_1_g_x_color_mask_af2186fd904b78643ba279afd57fc0e12}
+
+\item 
+unsigned int {\bfseries get\+Value} () const \hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a89204a2a28a395eef0d1fe078e61cace}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a89204a2a28a395eef0d1fe078e61cace}
+
+\item 
+void {\bfseries read} (\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_ab157e45326d3fab9cb53cc9cdb5384dc}{}\label{class_i_dream_sky_1_1_g_x_color_mask_ab157e45326d3fab9cb53cc9cdb5384dc}
+
+\item 
+void {\bfseries write} (\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a8aaa09b547efbc4c15a8b96dba41df35}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a8aaa09b547efbc4c15a8b96dba41df35}
+
+\item 
+bool {\bfseries set} (const \hyperlink{class_i_dream_sky_1_1_string}{String} \&value)\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_ada9816f8069f6e2f12ca193882a63cd8}{}\label{class_i_dream_sky_1_1_g_x_color_mask_ada9816f8069f6e2f12ca193882a63cd8}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_g_x_color_mask}{G\+X\+Color\+Mask} encapsulate a Color Mask for Color Buffer Writing Operation. 
+
+\subsection{列舉型態成員說明文件}
+\subsubsection[{\texorpdfstring{anonymous enum}{anonymous enum}}]{\setlength{\rightskip}{0pt plus 5cm}anonymous enum}\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bb}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bb}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{None@{None}!I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}}\index{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}!None@{None}}\item[{\em 
+None\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbad53afc7eacb469bcd2e13766387e8e77}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbad53afc7eacb469bcd2e13766387e8e77}
+}]Disable all writing. \index{R@{R}!I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}}\index{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}!R@{R}}\item[{\em 
+R\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bba60039493c971688176f829f5b7dc0226}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bba60039493c971688176f829f5b7dc0226}
+}]Enable writing R \hyperlink{class_i_dream_sky_1_1_component}{Component} to Color Buffer. \index{G@{G}!I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}}\index{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}!G@{G}}\item[{\em 
+G\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbae41225e067d91f9684be5c46e581d08e}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbae41225e067d91f9684be5c46e581d08e}
+}]Enable writing G \hyperlink{class_i_dream_sky_1_1_component}{Component} to Color Buffer. \index{B@{B}!I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}}\index{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}!B@{B}}\item[{\em 
+B\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbaf8ee50a2e379c51a983ee5d11548b1b7}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbaf8ee50a2e379c51a983ee5d11548b1b7}
+}]Enable writing B \hyperlink{class_i_dream_sky_1_1_component}{Component} to Color Buffer. \index{A@{A}!I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}}\index{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}!A@{A}}\item[{\em 
+A\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bba8bdc786778ad6362fd631498b14691b9}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bba8bdc786778ad6362fd631498b14691b9}
+}]Enable writing A \hyperlink{class_i_dream_sky_1_1_component}{Component} to Color Buffer. \index{Rgb@{Rgb}!I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}}\index{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}!Rgb@{Rgb}}\item[{\em 
+Rgb\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbac00e2cfeabfde3e8fa3cedfa71504d2a}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbac00e2cfeabfde3e8fa3cedfa71504d2a}
+}]Enable writing R\+GB \hyperlink{class_i_dream_sky_1_1_component}{Component} to Color Buffer. \index{Rgba@{Rgba}!I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}}\index{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask@{I\+Dream\+Sky\+::\+G\+X\+Color\+Mask}!Rgba@{Rgba}}\item[{\em 
+Rgba\hypertarget{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbac7d7acfee6fabaad2dadc615db28af6d}{}\label{class_i_dream_sky_1_1_g_x_color_mask_a5e0981194bd89cddc402cd085318f8bbac7d7acfee6fabaad2dadc615db28af6d}
+}]Enable writing R\+G\+BA \hyperlink{class_i_dream_sky_1_1_component}{Component} to Color Buffer. \end{description}
+\end{Desc}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Def.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Def.\+cpp\end{DoxyCompactItemize}

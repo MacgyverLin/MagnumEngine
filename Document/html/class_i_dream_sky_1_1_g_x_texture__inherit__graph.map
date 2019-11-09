@@ -1,0 +1,5 @@
+<map id="IDreamSky::GXTexture" name="IDreamSky::GXTexture">
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_g_x_texture2_d.html" title="GXTexture2D encapsulate a 2D Texture of Graphics Device. " alt="" coords="5,155,176,181"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_g_x_texture_cube.html" title="GXTextureCube encapsulate a Cube Map Texture of Graphics Device. " alt="" coords="200,155,384,181"/>
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_g_x_pixel_buffer.html" title="GXPixelBuffer is the base class of all Buffer of Graphics Devices. " alt="" coords="104,5,277,32"/>
+</map>

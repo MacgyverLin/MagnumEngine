@@ -1,0 +1,5 @@
+<map id="TiXmlDocument" name="TiXmlDocument">
+<area shape="rect" id="node2" href="$class_ti_xml_node.html" title="The parent class for everything in the Document Object Model. " alt="" coords="20,194,103,221"/>
+<area shape="rect" id="node3" href="$class_ti_xml_base.html" title="TiXmlBase is a base class for every class in TinyXml. " alt="" coords="20,95,103,121"/>
+<area shape="rect" id="node4" href="$struct_ti_xml_cursor.html" title="TiXmlCursor" alt="" coords="16,5,107,32"/>
+</map>

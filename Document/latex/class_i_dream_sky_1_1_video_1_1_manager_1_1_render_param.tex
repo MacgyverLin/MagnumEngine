@@ -1,0 +1,50 @@
+\hypertarget{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param}{}\section{I\+Dream\+Sky\+:\+:Video\+:\+:Manager\+:\+:Render\+Param 類別 參考文件}
+\label{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param}\index{I\+Dream\+Sky\+::\+Video\+::\+Manager\+::\+Render\+Param@{I\+Dream\+Sky\+::\+Video\+::\+Manager\+::\+Render\+Param}}
+
+
+\hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param}{Video\+::\+Manager\+::\+Render\+Param} provide neccessary data for rendering each camera pass Mp = Projection transform Mv = View transform Mm = Model transform.  
+
+
+
+
+{\ttfamily \#include $<$Video.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Render\+Param} (\hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component} \&camera\+\_\+)\hypertarget{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a1f521ca736e476b4c560f6d834e38a35}{}\label{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a1f521ca736e476b4c560f6d834e38a35}
+
+\end{DoxyCompactItemize}
+\subsection*{公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component} \& \hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_ab8e670dadcca6d567d376c357d83d9bd}{camera\+Component}\hypertarget{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_ab8e670dadcca6d567d376c357d83d9bd}{}\label{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_ab8e670dadcca6d567d376c357d83d9bd}
+
+\begin{DoxyCompactList}\small\item\em the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a0048dca4e1ff75afd6ccd815b9c2eff9}{view\+Transform}\hypertarget{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a0048dca4e1ff75afd6ccd815b9c2eff9}{}\label{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a0048dca4e1ff75afd6ccd815b9c2eff9}
+
+\begin{DoxyCompactList}\small\item\em the Mv of the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a761dd9b42e21671d80c87392f6485f82}{proj\+Transform}\hypertarget{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a761dd9b42e21671d80c87392f6485f82}{}\label{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a761dd9b42e21671d80c87392f6485f82}
+
+\begin{DoxyCompactList}\small\item\em the Mp of the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_ac28721fcad529d5d728b53df3bb327e8}{proj\+View\+Transform}\hypertarget{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_ac28721fcad529d5d728b53df3bb327e8}{}\label{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_ac28721fcad529d5d728b53df3bb327e8}
+
+\begin{DoxyCompactList}\small\item\em the Mp $\ast$ Mv of the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a00076c41514dfbb13dbfe63137291527}{view\+Transform\+Inverse}\hypertarget{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a00076c41514dfbb13dbfe63137291527}{}\label{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a00076c41514dfbb13dbfe63137291527}
+
+\begin{DoxyCompactList}\small\item\em the Inverse of Mv of the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_ab704dbe471f3a2c1df1ec179e9513d21}{proj\+Transform\+Inverse}\hypertarget{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_ab704dbe471f3a2c1df1ec179e9513d21}{}\label{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_ab704dbe471f3a2c1df1ec179e9513d21}
+
+\begin{DoxyCompactList}\small\item\em the Inverse of Mp of the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a92b0febe8954672333caabf4a7acbca6}{proj\+View\+Transform\+Inverse}\hypertarget{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a92b0febe8954672333caabf4a7acbca6}{}\label{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param_a92b0febe8954672333caabf4a7acbca6}
+
+\begin{DoxyCompactList}\small\item\em the Inverse of Mp $\ast$ Mv of the current Rendering Camera \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_video_1_1_manager_1_1_render_param}{Video\+::\+Manager\+::\+Render\+Param} provide neccessary data for rendering each camera pass Mp = Projection transform Mv = View transform Mm = Model transform. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Video.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Video.\+cpp\end{DoxyCompactItemize}

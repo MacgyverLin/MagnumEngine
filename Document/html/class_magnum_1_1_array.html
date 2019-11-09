@@ -1,0 +1,938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: Magnum::Array&lt; T &gt;  類別 樣版 參考文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li class="current"><a href="annotated.html"><span>類別</span></a></li>
+      <li><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>複合列表</span></a></li>
+      <li><a href="classes.html"><span>複合索引</span></a></li>
+      <li><a href="inherits.html"><span>類別階層</span></a></li>
+      <li><a href="functions.html"><span>複合成員</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>Magnum</b></li><li class="navelem"><a class="el" href="class_magnum_1_1_array.html">Array</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">公開型態</a> &#124;
+<a href="#pub-methods">公開方法(Public Methods)</a> &#124;
+<a href="class_magnum_1_1_array-members.html">全部成員列表</a>  </div>
+  <div class="headertitle">
+<div class="title">Magnum::Array&lt; T &gt; 類別 樣版 參考文件</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a> class for a bound protected array class.  
+ <a href="class_magnum_1_1_array.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_array_8h_source.html">Array.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+公開型態</h2></td></tr>
+<tr class="memitem:adc7d00263d5d82f7cb926a4c20786208"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc7d00263d5d82f7cb926a4c20786208"></a>
+typedef int(*&#160;</td><td class="memItemRight" valign="bottom"><b>Compare</b>) (const void *left, const void *right)</td></tr>
+<tr class="separator:adc7d00263d5d82f7cb926a4c20786208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea93cd04e5948a80e5af64d6e0e4f8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ea93cd04e5948a80e5af64d6e0e4f8b"></a>
+typedef bool(*&#160;</td><td class="memItemRight" valign="bottom"><b>Iterate</b>) (int index, T &amp;t)</td></tr>
+<tr class="separator:a5ea93cd04e5948a80e5af64d6e0e4f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開方法(Public Methods)</h2></td></tr>
+<tr class="memitem:a339bb755d42e2978993447d70779ed04"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a339bb755d42e2978993447d70779ed04">length</a> () const </td></tr>
+<tr class="memdesc:a339bb755d42e2978993447d70779ed04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the length of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>.  <a href="#a339bb755d42e2978993447d70779ed04">更多...</a><br /></td></tr>
+<tr class="separator:a339bb755d42e2978993447d70779ed04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35912ed31a82aa8c67173988a325b0d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a35912ed31a82aa8c67173988a325b0d0">capacity</a> () const </td></tr>
+<tr class="memdesc:a35912ed31a82aa8c67173988a325b0d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the capacity of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>.  <a href="#a35912ed31a82aa8c67173988a325b0d0">更多...</a><br /></td></tr>
+<tr class="separator:a35912ed31a82aa8c67173988a325b0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6abfec70dbed68cb43e1ddce217adb3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6abfec70dbed68cb43e1ddce217adb3"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (int i)</td></tr>
+<tr class="separator:ac6abfec70dbed68cb43e1ddce217adb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac65ba513a2f2e754e9a735337a97514f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac65ba513a2f2e754e9a735337a97514f"></a>
+T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (int i)</td></tr>
+<tr class="separator:ac65ba513a2f2e754e9a735337a97514f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd649285fc2333239d387d3cd475d82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebd649285fc2333239d387d3cd475d82"></a>
+const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (int i) const </td></tr>
+<tr class="separator:aebd649285fc2333239d387d3cd475d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6abfec70dbed68cb43e1ddce217adb3"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#ac6abfec70dbed68cb43e1ddce217adb3">get</a> (int i)</td></tr>
+<tr class="memdesc:ac6abfec70dbed68cb43e1ddce217adb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get i-th element of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>.  <a href="#ac6abfec70dbed68cb43e1ddce217adb3">更多...</a><br /></td></tr>
+<tr class="separator:ac6abfec70dbed68cb43e1ddce217adb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac65ba513a2f2e754e9a735337a97514f"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#ac65ba513a2f2e754e9a735337a97514f">operator[]</a> (int i)</td></tr>
+<tr class="memdesc:ac65ba513a2f2e754e9a735337a97514f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get i-th element of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>.  <a href="#ac65ba513a2f2e754e9a735337a97514f">更多...</a><br /></td></tr>
+<tr class="separator:ac65ba513a2f2e754e9a735337a97514f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd649285fc2333239d387d3cd475d82"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#aebd649285fc2333239d387d3cd475d82">operator[]</a> (int i) const </td></tr>
+<tr class="memdesc:aebd649285fc2333239d387d3cd475d82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get i-th element of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>.  <a href="#aebd649285fc2333239d387d3cd475d82">更多...</a><br /></td></tr>
+<tr class="separator:aebd649285fc2333239d387d3cd475d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21cbbac74657541e420b8b2ab62a5b7e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a21cbbac74657541e420b8b2ab62a5b7e">full</a> () const </td></tr>
+<tr class="memdesc:a21cbbac74657541e420b8b2ab62a5b7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the array is full.  <a href="#a21cbbac74657541e420b8b2ab62a5b7e">更多...</a><br /></td></tr>
+<tr class="separator:a21cbbac74657541e420b8b2ab62a5b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1aced1f3b927aaa3c4f685980785cfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#ac1aced1f3b927aaa3c4f685980785cfc">clear</a> ()</td></tr>
+<tr class="memdesc:ac1aced1f3b927aaa3c4f685980785cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the array.  <a href="#ac1aced1f3b927aaa3c4f685980785cfc">更多...</a><br /></td></tr>
+<tr class="separator:ac1aced1f3b927aaa3c4f685980785cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b74a8d353ba59ce42e1165f3b3c8021"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a4b74a8d353ba59ce42e1165f3b3c8021">empty</a> ()</td></tr>
+<tr class="memdesc:a4b74a8d353ba59ce42e1165f3b3c8021"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the array is empty.  <a href="#a4b74a8d353ba59ce42e1165f3b3c8021">更多...</a><br /></td></tr>
+<tr class="separator:a4b74a8d353ba59ce42e1165f3b3c8021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af71c6a4a87cd0d359551fe9ea304668e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#af71c6a4a87cd0d359551fe9ea304668e">valid</a> (int i) const </td></tr>
+<tr class="memdesc:af71c6a4a87cd0d359551fe9ea304668e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the index is with the range of array.  <a href="#af71c6a4a87cd0d359551fe9ea304668e">更多...</a><br /></td></tr>
+<tr class="separator:af71c6a4a87cd0d359551fe9ea304668e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2326e6c7eb57ba2a3f147f7b0232d3ac"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a2326e6c7eb57ba2a3f147f7b0232d3ac">back</a> ()</td></tr>
+<tr class="memdesc:a2326e6c7eb57ba2a3f147f7b0232d3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get last element of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>.  <a href="#a2326e6c7eb57ba2a3f147f7b0232d3ac">更多...</a><br /></td></tr>
+<tr class="separator:a2326e6c7eb57ba2a3f147f7b0232d3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b3da1d95d58489569031fb3ea68a532"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a3b3da1d95d58489569031fb3ea68a532">back</a> () const </td></tr>
+<tr class="memdesc:a3b3da1d95d58489569031fb3ea68a532"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get last element of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>.  <a href="#a3b3da1d95d58489569031fb3ea68a532">更多...</a><br /></td></tr>
+<tr class="separator:a3b3da1d95d58489569031fb3ea68a532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25101c6a61ed527295f4ac881aaa430d"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a25101c6a61ed527295f4ac881aaa430d">insert</a> (int at)</td></tr>
+<tr class="memdesc:a25101c6a61ed527295f4ac881aaa430d"><td class="mdescLeft">&#160;</td><td class="mdescRight">insert an element at i-th position of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>  <a href="#a25101c6a61ed527295f4ac881aaa430d">更多...</a><br /></td></tr>
+<tr class="separator:a25101c6a61ed527295f4ac881aaa430d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad60beb01c2fff1bb8bc2b8a0fdfa21e8"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#ad60beb01c2fff1bb8bc2b8a0fdfa21e8">insert</a> ()</td></tr>
+<tr class="memdesc:ad60beb01c2fff1bb8bc2b8a0fdfa21e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function behave same as <a class="el" href="class_magnum_1_1_array.html#a2326e6c7eb57ba2a3f147f7b0232d3ac" title="Get last element of the Array. ">back()</a>  <a href="#ad60beb01c2fff1bb8bc2b8a0fdfa21e8">更多...</a><br /></td></tr>
+<tr class="separator:ad60beb01c2fff1bb8bc2b8a0fdfa21e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33dabae65ae538bdc0c3427e2757f2f9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33dabae65ae538bdc0c3427e2757f2f9"></a>
+T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>binaryInsert</b> (const T &amp;item) const </td></tr>
+<tr class="separator:a33dabae65ae538bdc0c3427e2757f2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a149970c2c88a9ffb2d20b7a2c1b64a76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a149970c2c88a9ffb2d20b7a2c1b64a76"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>binarySearch</b> (const T &amp;item) const </td></tr>
+<tr class="separator:a149970c2c88a9ffb2d20b7a2c1b64a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808b8020d2dcc64f478a1e162b4bbe48"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a808b8020d2dcc64f478a1e162b4bbe48">search</a> (const T &amp;item)</td></tr>
+<tr class="memdesc:a808b8020d2dcc64f478a1e162b4bbe48"><td class="mdescLeft">&#160;</td><td class="mdescRight">search for an element and return its position index  <a href="#a808b8020d2dcc64f478a1e162b4bbe48">更多...</a><br /></td></tr>
+<tr class="separator:a808b8020d2dcc64f478a1e162b4bbe48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a822ed7443c1d07e9551759277f3ce28d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a822ed7443c1d07e9551759277f3ce28d">remove</a> (int index)</td></tr>
+<tr class="memdesc:a822ed7443c1d07e9551759277f3ce28d"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove the i-th element from the array  <a href="#a822ed7443c1d07e9551759277f3ce28d">更多...</a><br /></td></tr>
+<tr class="separator:a822ed7443c1d07e9551759277f3ce28d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe078a841d59338dd298eea1d4166cca"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#afe078a841d59338dd298eea1d4166cca">push</a> ()</td></tr>
+<tr class="memdesc:afe078a841d59338dd298eea1d4166cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">append an element at the end of the array  <a href="#afe078a841d59338dd298eea1d4166cca">更多...</a><br /></td></tr>
+<tr class="separator:afe078a841d59338dd298eea1d4166cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7acae3f384476203f29accce90569fbc"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a7acae3f384476203f29accce90569fbc">pop</a> ()</td></tr>
+<tr class="memdesc:a7acae3f384476203f29accce90569fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove an element at the end of the array  <a href="#a7acae3f384476203f29accce90569fbc">更多...</a><br /></td></tr>
+<tr class="separator:a7acae3f384476203f29accce90569fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0482b28e22054fb968e07196315a3617"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0482b28e22054fb968e07196315a3617"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a0482b28e22054fb968e07196315a3617">truncate</a> (int length_)</td></tr>
+<tr class="memdesc:a0482b28e22054fb968e07196315a3617"><td class="mdescLeft">&#160;</td><td class="mdescRight">truncate the array to length_ <br /></td></tr>
+<tr class="separator:a0482b28e22054fb968e07196315a3617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d0a5782ceabe5f514df47e5ba2455e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d0a5782ceabe5f514df47e5ba2455e5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a2d0a5782ceabe5f514df47e5ba2455e5">resize</a> (int length_)</td></tr>
+<tr class="memdesc:a2d0a5782ceabe5f514df47e5ba2455e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">resize the array to length_ <br /></td></tr>
+<tr class="separator:a2d0a5782ceabe5f514df47e5ba2455e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a15db86ad451329b74fa2a69dd8b516"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a4a15db86ad451329b74fa2a69dd8b516">sort</a> (Compare method)</td></tr>
+<tr class="memdesc:a4a15db86ad451329b74fa2a69dd8b516"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort the array  <a href="#a4a15db86ad451329b74fa2a69dd8b516">更多...</a><br /></td></tr>
+<tr class="separator:a4a15db86ad451329b74fa2a69dd8b516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca79cbde0c3525849e540eb5e5f4638"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#adca79cbde0c3525849e540eb5e5f4638">iterate</a> (Iterate cb)</td></tr>
+<tr class="memdesc:adca79cbde0c3525849e540eb5e5f4638"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterate the array  <a href="#adca79cbde0c3525849e540eb5e5f4638">更多...</a><br /></td></tr>
+<tr class="separator:adca79cbde0c3525849e540eb5e5f4638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22b27a4f591381a49b297735cfca4476"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a22b27a4f591381a49b297735cfca4476">getType</a> ()</td></tr>
+<tr class="memdesc:a22b27a4f591381a49b297735cfca4476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Type.  <a href="#a22b27a4f591381a49b297735cfca4476">更多...</a><br /></td></tr>
+<tr class="separator:a22b27a4f591381a49b297735cfca4476"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05badbd2016cf939f27f736573b763cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a05badbd2016cf939f27f736573b763cf">Array</a> (int capacity_, int length_=-1)</td></tr>
+<tr class="memdesc:a05badbd2016cf939f27f736573b763cf"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a> Constructor.  <a href="#a05badbd2016cf939f27f736573b763cf">更多...</a><br /></td></tr>
+<tr class="separator:a05badbd2016cf939f27f736573b763cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ccfb9840110ad703ae7c9afab99a553"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_array.html#a8ccfb9840110ad703ae7c9afab99a553">~Array</a> ()</td></tr>
+<tr class="memdesc:a8ccfb9840110ad703ae7c9afab99a553"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a> Destructor.  <a href="#a8ccfb9840110ad703ae7c9afab99a553">更多...</a><br /></td></tr>
+<tr class="separator:a8ccfb9840110ad703ae7c9afab99a553"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳細描述</h2>
+<div class="textblock"><h3>template&lt;class T&gt;<br />
+class Magnum::Array&lt; T &gt;</h3>
+
+<p><a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a> class for a bound protected array class. </p>
+</div><h2 class="groupheader">建構子與解構子說明文件</h2>
+<a class="anchor" id="a05badbd2016cf939f27f736573b763cf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::<a class="el" href="class_magnum_1_1_array.html">Array</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>capacity_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>length_</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a> Constructor. </p>
+<p>To Construct the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a> </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">capacity_,the</td><td>capcity of the array </td></tr>
+    <tr><td class="paramname">length_,the</td><td>optional parameter, the length of array </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8ccfb9840110ad703ae7c9afab99a553"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::~<a class="el" href="class_magnum_1_1_array.html">Array</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a> Destructor. </p>
+<p>To Destruct <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a> </p>
+
+</div>
+</div>
+<h2 class="groupheader">函式成員說明文件</h2>
+<a class="anchor" id="a2326e6c7eb57ba2a3f147f7b0232d3ac"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T&amp; <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::back </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get last element of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, T&amp;, the reference of last element </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3b3da1d95d58489569031fb3ea68a532"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T&amp; <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::back </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get last element of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, const T&amp;, the const reference of last element </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a35912ed31a82aa8c67173988a325b0d0"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::capacity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the capacity of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>. </p>
+<p>Capacity is number array element that is actually allocated. </p><dl class="section return"><dt>傳回值</dt><dd>, int, the length of the array </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_array_a35912ed31a82aa8c67173988a325b0d0_icgraph.png" border="0" usemap="#class_magnum_1_1_array_a35912ed31a82aa8c67173988a325b0d0_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_array_a35912ed31a82aa8c67173988a325b0d0_icgraph" id="class_magnum_1_1_array_a35912ed31a82aa8c67173988a325b0d0_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_array.html#a21cbbac74657541e420b8b2ab62a5b7e" title="Check if the array is full. " alt="" coords="221,5,395,47"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac1aced1f3b927aaa3c4f685980785cfc"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear the array. </p>
+<p>Reset the Length of <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a> to zero </p>
+
+</div>
+</div>
+<a class="anchor" id="a4b74a8d353ba59ce42e1165f3b3c8021"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::empty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the array is empty. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, true if length is equal to 0 else return false </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a21cbbac74657541e420b8b2ab62a5b7e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::full </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the array is full. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, true if length is equal to capacity else return false </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_array_a21cbbac74657541e420b8b2ab62a5b7e_icgraph.png" border="0" usemap="#class_magnum_1_1_array_a21cbbac74657541e420b8b2ab62a5b7e_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_array_a21cbbac74657541e420b8b2ab62a5b7e_icgraph" id="class_magnum_1_1_array_a21cbbac74657541e420b8b2ab62a5b7e_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_array.html#a25101c6a61ed527295f4ac881aaa430d" title="insert an element at i&#45;th position of the Array " alt="" coords="188,5,361,47"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac6abfec70dbed68cb43e1ddce217adb3"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::get </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get i-th element of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, int, the length of the array </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a22b27a4f591381a49b297735cfca4476"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T* <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the Type. </p>
+<dl class="section return"><dt>傳回值</dt><dd>T*, a null pointer only. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a25101c6a61ed527295f4ac881aaa430d"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T&amp; <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::insert </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>at</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>insert an element at i-th position of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a> </p>
+<dl class="section return"><dt>傳回值</dt><dd>, T&amp;, the reference of newly inserted i-th element </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad60beb01c2fff1bb8bc2b8a0fdfa21e8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T&amp; <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::insert </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function behave same as <a class="el" href="class_magnum_1_1_array.html#a2326e6c7eb57ba2a3f147f7b0232d3ac" title="Get last element of the Array. ">back()</a> </p>
+<dl class="section see"><dt>參閱</dt><dd><a class="el" href="class_magnum_1_1_array.html#a2326e6c7eb57ba2a3f147f7b0232d3ac" title="Get last element of the Array. ">back()</a> </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_array_ad60beb01c2fff1bb8bc2b8a0fdfa21e8_icgraph.png" border="0" usemap="#class_magnum_1_1_array_ad60beb01c2fff1bb8bc2b8a0fdfa21e8_icgraph" alt=""/></div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="adca79cbde0c3525849e540eb5e5f4638"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::iterate </td>
+          <td>(</td>
+          <td class="paramtype">Iterate&#160;</td>
+          <td class="paramname"><em>cb</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>iterate the array </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cb,the</td><td>Callback function of the iteration. It will be called for each element in the array </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a339bb755d42e2978993447d70779ed04"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the length of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, int, the length of the array </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_array_a339bb755d42e2978993447d70779ed04_icgraph.png" border="0" usemap="#class_magnum_1_1_array_a339bb755d42e2978993447d70779ed04_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_array_a339bb755d42e2978993447d70779ed04_icgraph" id="class_magnum_1_1_array_a339bb755d42e2978993447d70779ed04_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_array.html#adca79cbde0c3525849e540eb5e5f4638" title="iterate the array " alt="" coords="215,5,388,47"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_stack.html#a884a402b593f0430035e5bfc01fe9afd" title="Check if the Stack is fulled. " alt="" coords="208,71,395,127"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac65ba513a2f2e754e9a735337a97514f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T&amp; <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get i-th element of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, T&amp;, the reference at i-th position </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aebd649285fc2333239d387d3cd475d82"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T&amp; <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get i-th element of the <a class="el" href="class_magnum_1_1_array.html" title="Array class for a bound protected array class. ">Array</a>. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, const T&amp;, the const reference at i-th position </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7acae3f384476203f29accce90569fbc"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T&amp; <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::pop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>remove an element at the end of the array </p>
+<dl class="section return"><dt>傳回值</dt><dd>, T&amp;, the reference of last element </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="afe078a841d59338dd298eea1d4166cca"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T&amp; <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::push </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>append an element at the end of the array </p>
+<dl class="section return"><dt>傳回值</dt><dd>, T&amp;, the reference of last element </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a822ed7443c1d07e9551759277f3ce28d"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::remove </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>remove the i-th element from the array </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a808b8020d2dcc64f478a1e162b4bbe48"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::search </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>search for an element and return its position index </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4a15db86ad451329b74fa2a69dd8b516"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::sort </td>
+          <td>(</td>
+          <td class="paramtype">Compare&#160;</td>
+          <td class="paramname"><em>method</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sort the array </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">method,the</td><td>Compare method of the array </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af71c6a4a87cd0d359551fe9ea304668e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_magnum_1_1_array.html">Magnum::Array</a>&lt; T &gt;::valid </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the index is with the range of array. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, true if i is within the length of the array </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_array_af71c6a4a87cd0d359551fe9ea304668e_icgraph.png" border="0" usemap="#class_magnum_1_1_array_af71c6a4a87cd0d359551fe9ea304668e_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_array_af71c6a4a87cd0d359551fe9ea304668e_icgraph" id="class_magnum_1_1_array_af71c6a4a87cd0d359551fe9ea304668e_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_array.html#ac6abfec70dbed68cb43e1ddce217adb3" title="Get i&#45;th element of the Array. " alt="" coords="201,5,374,47"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_array.html#ac65ba513a2f2e754e9a735337a97514f" title="Get i&#45;th element of the Array. " alt="" coords="201,71,374,112"/>
+<area shape="rect" id="node4" href="class_magnum_1_1_vector.html#a1e7f4e2774e1d3c4bbafdee1272acb79" title="Get i&#45;th element of the Vector. " alt="" coords="197,136,377,177"/>
+<area shape="rect" id="node5" href="class_magnum_1_1_vector.html#a0130a7137209ce2e30dbc52d9c2a938a" title="Get i&#45;th element of the Vector. " alt="" coords="197,201,377,243"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>此類別(class) 文件是由下列檔案中產生:<ul>
+<li>C:/EpicForceBackup/EpicForceEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/<a class="el" href="_array_8h_source.html">Array.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

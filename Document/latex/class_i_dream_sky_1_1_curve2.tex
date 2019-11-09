@@ -1,0 +1,97 @@
+\hypertarget{class_i_dream_sky_1_1_curve2}{}\section{I\+Dream\+Sky\+:\+:Curve2 類別 參考文件}
+\label{class_i_dream_sky_1_1_curve2}\index{I\+Dream\+Sky\+::\+Curve2@{I\+Dream\+Sky\+::\+Curve2}}
+類別\+I\+Dream\+Sky\+:\+:Curve2的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_i_dream_sky_1_1_curve2}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_i_dream_sky_1_1_curve2_1_1_point_list}{Point\+List}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Curve2} (float f\+T\+Min, float f\+T\+Max)\hypertarget{class_i_dream_sky_1_1_curve2_af8ce8223a59423fe9f6e1c60c4a16c8c}{}\label{class_i_dream_sky_1_1_curve2_af8ce8223a59423fe9f6e1c60c4a16c8c}
+
+\item 
+float {\bfseries Get\+Min\+Time} () const \hypertarget{class_i_dream_sky_1_1_curve2_a82275ae4b1b409354343145cf4f8fdf2}{}\label{class_i_dream_sky_1_1_curve2_a82275ae4b1b409354343145cf4f8fdf2}
+
+\item 
+float {\bfseries Get\+Max\+Time} () const \hypertarget{class_i_dream_sky_1_1_curve2_abde5eaf8241b48c87c35add4b6834243}{}\label{class_i_dream_sky_1_1_curve2_abde5eaf8241b48c87c35add4b6834243}
+
+\item 
+void {\bfseries Set\+Time\+Interval} (float f\+T\+Min, float f\+T\+Max)\hypertarget{class_i_dream_sky_1_1_curve2_a0310cf77001a3dff8eaa15cf836ba737}{}\label{class_i_dream_sky_1_1_curve2_a0310cf77001a3dff8eaa15cf836ba737}
+
+\item 
+virtual \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} {\bfseries Get\+Position} (float f\+Time) const  =0\hypertarget{class_i_dream_sky_1_1_curve2_a2bd3f46d9d74b66130addb8810c9dddc}{}\label{class_i_dream_sky_1_1_curve2_a2bd3f46d9d74b66130addb8810c9dddc}
+
+\item 
+virtual \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} {\bfseries Get\+First\+Derivative} (float f\+Time) const  =0\hypertarget{class_i_dream_sky_1_1_curve2_a421bc5180153f669f4ad7f4d4c11abee}{}\label{class_i_dream_sky_1_1_curve2_a421bc5180153f669f4ad7f4d4c11abee}
+
+\item 
+virtual \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} {\bfseries Get\+Second\+Derivative} (float f\+Time) const  =0\hypertarget{class_i_dream_sky_1_1_curve2_a23c7eb32947e7aa7189e7b6ee1fd4302}{}\label{class_i_dream_sky_1_1_curve2_a23c7eb32947e7aa7189e7b6ee1fd4302}
+
+\item 
+virtual \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} {\bfseries Get\+Third\+Derivative} (float f\+Time) const  =0\hypertarget{class_i_dream_sky_1_1_curve2_acdf138a6ba64ce4d030079349c996de8}{}\label{class_i_dream_sky_1_1_curve2_acdf138a6ba64ce4d030079349c996de8}
+
+\item 
+float {\bfseries Get\+Speed} (float f\+Time) const \hypertarget{class_i_dream_sky_1_1_curve2_ac34e9eb60f7d5bc24a7f578d4947bd58}{}\label{class_i_dream_sky_1_1_curve2_ac34e9eb60f7d5bc24a7f578d4947bd58}
+
+\item 
+virtual float {\bfseries Get\+Length} (float f\+T0, float f\+T1) const  =0\hypertarget{class_i_dream_sky_1_1_curve2_ac7d8a40965e020416c7b34617e219e89}{}\label{class_i_dream_sky_1_1_curve2_ac7d8a40965e020416c7b34617e219e89}
+
+\item 
+float {\bfseries Get\+Total\+Length} () const \hypertarget{class_i_dream_sky_1_1_curve2_a5670b00e8aff0dd2f4233b485e81e3c2}{}\label{class_i_dream_sky_1_1_curve2_a5670b00e8aff0dd2f4233b485e81e3c2}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} {\bfseries Get\+Tangent} (float f\+Time) const \hypertarget{class_i_dream_sky_1_1_curve2_adc1276d9daa3322e0097c920019eb6c9}{}\label{class_i_dream_sky_1_1_curve2_adc1276d9daa3322e0097c920019eb6c9}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} {\bfseries Get\+Normal} (float f\+Time) const \hypertarget{class_i_dream_sky_1_1_curve2_aa08ffd40bccf0cb83ddb333ad74b3070}{}\label{class_i_dream_sky_1_1_curve2_aa08ffd40bccf0cb83ddb333ad74b3070}
+
+\item 
+void {\bfseries Get\+Frame} (float f\+Time, \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} \&rk\+Position, \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} \&rk\+Tangent, \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} \&rk\+Normal) const \hypertarget{class_i_dream_sky_1_1_curve2_a5d84a5cde48a15a54e7e563b61bd891f}{}\label{class_i_dream_sky_1_1_curve2_a5d84a5cde48a15a54e7e563b61bd891f}
+
+\item 
+float {\bfseries Get\+Curvature} (float f\+Time) const \hypertarget{class_i_dream_sky_1_1_curve2_a6171794217bb384ddd61614934e97fa3}{}\label{class_i_dream_sky_1_1_curve2_a6171794217bb384ddd61614934e97fa3}
+
+\item 
+virtual float {\bfseries Get\+Time} (float f\+Length, int i\+Iterations=32, float f\+Tolerance=(float) 1e-\/06) const  =0\hypertarget{class_i_dream_sky_1_1_curve2_aed5653174120ef2bc4ec662bc013d4a0}{}\label{class_i_dream_sky_1_1_curve2_aed5653174120ef2bc4ec662bc013d4a0}
+
+\item 
+void {\bfseries Subdivide\+By\+Time} (int i\+Num\+Points, \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} $\ast$\&rak\+Point) const \hypertarget{class_i_dream_sky_1_1_curve2_a95a3e0574ae5e75ee1dc82c867f77156}{}\label{class_i_dream_sky_1_1_curve2_a95a3e0574ae5e75ee1dc82c867f77156}
+
+\item 
+void {\bfseries Subdivide\+By\+Length} (int i\+Num\+Points, \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} $\ast$\&rak\+Point) const \hypertarget{class_i_dream_sky_1_1_curve2_aab2b59146e5dc02d949ff9b2c5b870a1}{}\label{class_i_dream_sky_1_1_curve2_aab2b59146e5dc02d949ff9b2c5b870a1}
+
+\item 
+virtual float {\bfseries Get\+Variation} (float f\+T0, float f\+T1, const \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} $\ast$pk\+P0=0, const \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} $\ast$pk\+P1=0) const  =0\hypertarget{class_i_dream_sky_1_1_curve2_aa559c7c912c0babdb9db5af94d1cbad6}{}\label{class_i_dream_sky_1_1_curve2_aa559c7c912c0babdb9db5af94d1cbad6}
+
+\item 
+void {\bfseries Subdivide\+By\+Variation} (float f\+Min\+Variation, int i\+Max\+Level, int \&ri\+Num\+Points, \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} $\ast$\&rak\+Point) const \hypertarget{class_i_dream_sky_1_1_curve2_a454cd1ffa4154d7b6116da76221b767d}{}\label{class_i_dream_sky_1_1_curve2_a454cd1ffa4154d7b6116da76221b767d}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Subdivide\+By\+Variation} (float f\+T0, const \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} \&rk\+P0, float f\+T1, const \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} \&rk\+P1, float k\+Min\+Variation, int i\+Level, int \&ri\+Num\+Points, \hyperlink{class_i_dream_sky_1_1_curve2_1_1_point_list}{Point\+List} $\ast$\&rpk\+List) const \hypertarget{class_i_dream_sky_1_1_curve2_afdf482d13c43764eef467d9bfc9deb00}{}\label{class_i_dream_sky_1_1_curve2_afdf482d13c43764eef467d9bfc9deb00}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+float {\bfseries m\+\_\+f\+T\+Min}\hypertarget{class_i_dream_sky_1_1_curve2_a760deca9f1c5070a3386750488a09e32}{}\label{class_i_dream_sky_1_1_curve2_a760deca9f1c5070a3386750488a09e32}
+
+\item 
+float {\bfseries m\+\_\+f\+T\+Max}\hypertarget{class_i_dream_sky_1_1_curve2_a7596532512dbd19a10762781f018dc4e}{}\label{class_i_dream_sky_1_1_curve2_a7596532512dbd19a10762781f018dc4e}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Curve2.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Curve2.\+cpp\end{DoxyCompactItemize}

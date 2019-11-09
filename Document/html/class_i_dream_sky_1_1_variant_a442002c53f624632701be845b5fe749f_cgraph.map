@@ -1,0 +1,6 @@
+<map id="IDreamSky::Variant::copy" name="IDreamSky::Variant::copy">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_variant.html#a73a88f05fea69f360cbae2dd211fd135" title="Clears data, free buffer and reset data size. " alt="" coords="188,71,323,112"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_input_stream.html#a1d91c05358c6bba4df7e5e8f4743527b" title="Get the length of buffer data. " alt="" coords="376,5,540,47"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_input_stream.html#abf84dc5067f961cbeb37b161c3a893b2" title="read function buffer data " alt="" coords="376,71,540,112"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_output_stream.html#ae79fd5ab1935901e021f64ab0da4dbf0" title="write function buffer data " alt="" coords="371,136,545,177"/>
+</map>

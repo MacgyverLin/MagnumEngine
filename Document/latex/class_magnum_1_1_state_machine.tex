@@ -1,0 +1,58 @@
+\hypertarget{class_magnum_1_1_state_machine}{}\section{Magnum\+:\+:State\+Machine$<$ Actor $>$ 類別 樣版 參考文件}
+\label{class_magnum_1_1_state_machine}\index{Magnum\+::\+State\+Machine$<$ Actor $>$@{Magnum\+::\+State\+Machine$<$ Actor $>$}}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries State\+Machine} (Actor \&actor\+\_\+)\hypertarget{class_magnum_1_1_state_machine_a1f530100fca6bc09bf0b3fb9c5f458fb}{}\label{class_magnum_1_1_state_machine_a1f530100fca6bc09bf0b3fb9c5f458fb}
+
+\item 
+void {\bfseries on\+Update} (Actor \&actor, float dt)\hypertarget{class_magnum_1_1_state_machine_a10d52e27c6a2c0315d663aa64a4785dd}{}\label{class_magnum_1_1_state_machine_a10d52e27c6a2c0315d663aa64a4785dd}
+
+\item 
+void {\bfseries on\+Pause} ()\hypertarget{class_magnum_1_1_state_machine_a432b7584b2e4870038a9caf0bd861b7e}{}\label{class_magnum_1_1_state_machine_a432b7584b2e4870038a9caf0bd861b7e}
+
+\item 
+void {\bfseries on\+Resume} ()\hypertarget{class_magnum_1_1_state_machine_a2867b609c964769e91bde527496d7c54}{}\label{class_magnum_1_1_state_machine_a2867b609c964769e91bde527496d7c54}
+
+\item 
+void {\bfseries on\+Touchpad} (Actor \&actor, const \hyperlink{class_magnum_1_1_input_1_1_touchpad_event}{Input\+::\+Touchpad\+Event} \&evt)\hypertarget{class_magnum_1_1_state_machine_a4a45eabe0a269499fbf918055c947f9b}{}\label{class_magnum_1_1_state_machine_a4a45eabe0a269499fbf918055c947f9b}
+
+\item 
+void {\bfseries on\+Keypad} (Actor \&actor, const \hyperlink{class_magnum_1_1_input_1_1_gamepad_event}{Input\+::\+Gamepad\+Event} \&evt)\hypertarget{class_magnum_1_1_state_machine_a4acc3eb950d9aac1e98394499efadec7}{}\label{class_magnum_1_1_state_machine_a4acc3eb950d9aac1e98394499efadec7}
+
+\item 
+void {\bfseries on\+Accelerator} (Actor \&actor, const \hyperlink{class_magnum_1_1_input_1_1_accelerator_event}{Input\+::\+Accelerator\+Event} \&evt)\hypertarget{class_magnum_1_1_state_machine_a479f28ff196847ecfcec41ef266a42b8}{}\label{class_magnum_1_1_state_machine_a479f28ff196847ecfcec41ef266a42b8}
+
+\item 
+void {\bfseries on\+G\+UI} (Actor \&actor, const \hyperlink{class_magnum_1_1_input_1_1_g_u_i_event}{Input\+::\+G\+U\+I\+Event} \&evt)\hypertarget{class_magnum_1_1_state_machine_a3ea7bb9a549878b8906cee7db84bac1a}{}\label{class_magnum_1_1_state_machine_a3ea7bb9a549878b8906cee7db84bac1a}
+
+\item 
+void {\bfseries change\+State} (const char $\ast$name)\hypertarget{class_magnum_1_1_state_machine_a0a61afa1577748993b3076263adbb81f}{}\label{class_magnum_1_1_state_machine_a0a61afa1577748993b3076263adbb81f}
+
+\item 
+void {\bfseries revert\+To\+Previous\+State} ()\hypertarget{class_magnum_1_1_state_machine_abd0941d90bd50c4967d2a9bc94e32ada}{}\label{class_magnum_1_1_state_machine_abd0941d90bd50c4967d2a9bc94e32ada}
+
+\item 
+const \hyperlink{class_magnum_1_1_string}{String} \& {\bfseries get\+Current\+State} () const \hypertarget{class_magnum_1_1_state_machine_a729bc7bf1574a8771f08198a4a031a29}{}\label{class_magnum_1_1_state_machine_a729bc7bf1574a8771f08198a4a031a29}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+Global\+State} (\hyperlink{class_magnum_1_1_state}{State}$<$ Actor $>$ $\ast$state)\hypertarget{class_magnum_1_1_state_machine_a39be3c9545ef10b98e63cb2fc1b67ee9}{}\label{class_magnum_1_1_state_machine_a39be3c9545ef10b98e63cb2fc1b67ee9}
+
+\item 
+void {\bfseries add\+State} (const char $\ast$name, \hyperlink{class_magnum_1_1_state}{State}$<$ Actor $>$ $\ast$state)\hypertarget{class_magnum_1_1_state_machine_a2e3249e3432473015d61d3a917a72c0e}{}\label{class_magnum_1_1_state_machine_a2e3249e3432473015d61d3a917a72c0e}
+
+\item 
+void {\bfseries remove\+State} (const char $\ast$name)\hypertarget{class_magnum_1_1_state_machine_aee58430d734b1d0f7bf98918ffcb3851}{}\label{class_magnum_1_1_state_machine_aee58430d734b1d0f7bf98918ffcb3851}
+
+\item 
+\hyperlink{class_magnum_1_1_state}{State}$<$ Actor $>$ $\ast$ {\bfseries get\+State} (const char $\ast$name)\hypertarget{class_magnum_1_1_state_machine_a8134dec0a703d699d17ce3befe2cf398}{}\label{class_magnum_1_1_state_machine_a8134dec0a703d699d17ce3befe2cf398}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/State\+Machine.\+h\end{DoxyCompactItemize}

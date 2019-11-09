@@ -1,0 +1,5 @@
+<map id="IDreamSky::Entity::ICreator::getEntity" name="IDreamSky::Entity::ICreator::getEntity">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_component_1_1_owner.html#aae6b25b4cfa051ad7a76ad5ac59f08c7" title="PreUpdate the Component, it do preUpdate for itself by calling onPreUpdate method and also call the p..." alt="" coords="189,39,349,80"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_component_1_1_owner.html#abf13c26d4fc4c07fad6893aac99bad3d" title="Check if currently in Editor Mode. " alt="" coords="397,5,584,47"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_component_1_1_owner.html#a493e3083c5600e177a2b641c723234aa" title="Handle onPreUpdate Event of the Component. " alt="" coords="411,71,571,112"/>
+</map>

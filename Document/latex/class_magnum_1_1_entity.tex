@@ -1,0 +1,472 @@
+\hypertarget{class_magnum_1_1_entity}{}\section{Magnum\+:\+:Entity 類別 參考文件}
+\label{class_magnum_1_1_entity}\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+
+
+\hyperlink{class_magnum_1_1_entity}{Entity} is the container for all component and provide message servce, game object life cycle It is the most important class in the engine and all the game entity and game entity interaction is constructed thru this class.  
+
+
+
+
+{\ttfamily \#include $<$Entity.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Entity的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{class_magnum_1_1_entity__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Entity的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{class_magnum_1_1_entity__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_entity_1_1_creator}{Creator}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_entity_1_1_creator}{Creator} template \hyperlink{class_magnum_1_1_entity_1_1_creator}{Creator} template is the entity creator. \end{DoxyCompactList}\item 
+class \hyperlink{class_magnum_1_1_entity_1_1_factory}{Factory}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_entity_1_1_factory}{Factory} template \hyperlink{class_magnum_1_1_entity_1_1_factory}{Factory} template is the entity creator factory. \end{DoxyCompactList}\item 
+class \hyperlink{class_magnum_1_1_entity_1_1_i_creator}{I\+Creator}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_entity_1_1_i_creator}{I\+Creator}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ {\bfseries M\+A\+X\+\_\+\+C\+R\+E\+A\+T\+OR} = 512, 
+{\bfseries M\+A\+X\+\_\+\+C\+L\+A\+S\+S\+P\+A\+TH} = 1024
+ \}\hypertarget{class_magnum_1_1_entity_ae537ac5fe6bf7f38bb2633ecfd4db93b}{}\label{class_magnum_1_1_entity_ae537ac5fe6bf7f38bb2633ecfd4db93b}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_entity_a980f368aa07ce358583982821533a54a}{Entity} ()\hypertarget{class_magnum_1_1_entity_a980f368aa07ce358583982821533a54a}{}\label{class_magnum_1_1_entity_a980f368aa07ce358583982821533a54a}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_entity}{Entity} Constructor To Construct the \hyperlink{class_magnum_1_1_entity}{Entity}. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_entity_adf6d3f7cb1b2ba029b6b048a395cc8ae}{$\sim$\+Entity} ()\hypertarget{class_magnum_1_1_entity_adf6d3f7cb1b2ba029b6b048a395cc8ae}{}\label{class_magnum_1_1_entity_adf6d3f7cb1b2ba029b6b048a395cc8ae}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_entity}{Entity} Destructor To Destructor the \hyperlink{class_magnum_1_1_entity}{Entity}. \end{DoxyCompactList}\item 
+{\bfseries C\+L\+A\+SS} (\hyperlink{class_magnum_1_1_entity}{Entity}, \hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner})\hypertarget{class_magnum_1_1_entity_aba3392e402c20094e9169aa7dbad5c70}{}\label{class_magnum_1_1_entity_aba3392e402c20094e9169aa7dbad5c70}
+
+\item 
+const char $\ast$ \hyperlink{class_magnum_1_1_entity_a47a29754f7e29daaaf069b287c2d76e7}{get\+Class\+Path} () const 
+\begin{DoxyCompactList}\small\item\em Get the Class Name of the \hyperlink{class_magnum_1_1_entity}{Entity}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_entity_a58873f05c2fca4c91c92924f9be753c9}{read} (\hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} \&is)
+\begin{DoxyCompactList}\small\item\em read method for Serialization \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_entity_a10741436b8c23a174df4918577ad593c}{write} (\hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} \&os) const 
+\begin{DoxyCompactList}\small\item\em write method for Serialization \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_a23b08d85a88f3346ca1833ebd8a48b61}{create} (const char $\ast$class\+Path\+\_\+, const char $\ast$name\+\_\+)
+\begin{DoxyCompactList}\small\item\em Create the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying a class path and provide a name as identifier. \end{DoxyCompactList}\item 
+static void \hyperlink{class_magnum_1_1_entity_a055ac09f7e01765eaa8894723c3024c5}{release} (\hyperlink{class_magnum_1_1_entity}{Entity} $\ast$entity\+\_\+)
+\begin{DoxyCompactList}\small\item\em Release the \hyperlink{class_magnum_1_1_entity}{Entity} and. \end{DoxyCompactList}\item 
+static \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_a2498f266d451dc9666c12b8e7c9b456d}{find\+By\+Name} (const char $\ast$class\+Path\+\_\+, const char $\ast$name\+\_\+)
+\begin{DoxyCompactList}\small\item\em Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying a class path and provide a name as identifier. \end{DoxyCompactList}\item 
+static \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_aebb48b61877838c79db84676a8c8f2f6}{find\+By\+Name} (const char $\ast$name\+\_\+)
+\begin{DoxyCompactList}\small\item\em Find all Entities with specifying a its name. \end{DoxyCompactList}\item 
+static \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_af11cacde05a933a1ac7663d4956d2e25}{find\+By\+Tag} (const char $\ast$class\+Path\+\_\+, const char $\ast$tag\+\_\+)
+\begin{DoxyCompactList}\small\item\em Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying a class path and its tag. \end{DoxyCompactList}\item 
+static \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_ac39f9be772d7d8bb3ca77a441e05d5d2}{find\+By\+Tag} (const char $\ast$tag\+\_\+)
+\begin{DoxyCompactList}\small\item\em Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying its tag. \end{DoxyCompactList}\item 
+static \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_a3e59b521e341639b1242f39583b77ff2}{find\+By\+Unique\+ID} (unsigned int unique\+I\+D\+\_\+)
+\begin{DoxyCompactList}\small\item\em Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying its unique ID. \end{DoxyCompactList}\item 
+static \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_a6f25a85b01d260b79b2d9f4950bf8cc0}{get\+Selected} ()
+\begin{DoxyCompactList}\small\item\em Get the currently selected \hyperlink{class_magnum_1_1_entity}{Entity}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Entity\+Field\+Reader}\hypertarget{class_magnum_1_1_entity_ab7fb4b81ee2c1bb94db69210d7b2ea66}{}\label{class_magnum_1_1_entity_ab7fb4b81ee2c1bb94db69210d7b2ea66}
+
+\item 
+class {\bfseries Entity\+Field\+Writer}\hypertarget{class_magnum_1_1_entity_a1707aaf78713d8cb720ad4e79995cbf6}{}\label{class_magnum_1_1_entity_a1707aaf78713d8cb720ad4e79995cbf6}
+
+\item 
+class {\bfseries Entity\+Property\+Reader}\hypertarget{class_magnum_1_1_entity_a8148d510bcc9ef7816fd2a26ccfe9aa8}{}\label{class_magnum_1_1_entity_a8148d510bcc9ef7816fd2a26ccfe9aa8}
+
+\item 
+class {\bfseries Entity\+Property\+Writer}\hypertarget{class_magnum_1_1_entity_ab1b4e0322a0c8792702430edadcd9c36}{}\label{class_magnum_1_1_entity_ab1b4e0322a0c8792702430edadcd9c36}
+
+\item 
+class {\bfseries Factory}\hypertarget{class_magnum_1_1_entity_a328c093d609680cca505905c6d49901a}{}\label{class_magnum_1_1_entity_a328c093d609680cca505905c6d49901a}
+
+\item 
+class {\bfseries I\+Creator}\hypertarget{class_magnum_1_1_entity_a6d6e56ac47edfce9d2590e0757222ded}{}\label{class_magnum_1_1_entity_a6d6e56ac47edfce9d2590e0757222ded}
+
+\item 
+class {\bfseries Call\+Back}\hypertarget{class_magnum_1_1_entity_a03be71fa2cf10fb5469291b9046bb9bd}{}\label{class_magnum_1_1_entity_a03be71fa2cf10fb5469291b9046bb9bd}
+
+\item 
+class {\bfseries Project\+Model}\hypertarget{class_magnum_1_1_entity_a15704f55ab05bf170c108a247ba31047}{}\label{class_magnum_1_1_entity_a15704f55ab05bf170c108a247ba31047}
+
+\item 
+class {\bfseries Play\+Mode\+Scene}\hypertarget{class_magnum_1_1_entity_a4caf1f1270ead90fd5312fa3c3e31c18}{}\label{class_magnum_1_1_entity_a4caf1f1270ead90fd5312fa3c3e31c18}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_entity}{Entity} is the container for all component and provide message servce, game object life cycle It is the most important class in the engine and all the game entity and game entity interaction is constructed thru this class. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}!create@{create}}
+\index{create@{create}!Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+\subsubsection[{\texorpdfstring{create(const char $\ast$class\+Path\+\_\+, const char $\ast$name\+\_\+)}{create(const char *classPath_, const char *name_)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Entity} $\ast$ Entity\+::create (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{class\+Path\+\_\+, }
+\item[{const char $\ast$}]{name\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_magnum_1_1_entity_a23b08d85a88f3346ca1833ebd8a48b61}{}\label{class_magnum_1_1_entity_a23b08d85a88f3346ca1833ebd8a48b61}
+
+
+Create the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying a class path and provide a name as identifier. 
+
+
+\begin{DoxyParams}{參數}
+{\em class\+Path\+\_\+,const} & char $\ast$, the class path \\
+\hline
+{\em name\+\_\+,const} & char $\ast$, the name \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_a23b08d85a88f3346ca1833ebd8a48b61_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}!find\+By\+Name@{find\+By\+Name}}
+\index{find\+By\+Name@{find\+By\+Name}!Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+\subsubsection[{\texorpdfstring{find\+By\+Name(const char $\ast$class\+Path\+\_\+, const char $\ast$name\+\_\+)}{findByName(const char *classPath_, const char *name_)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Entity} $\ast$ Entity\+::find\+By\+Name (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{class\+Path\+\_\+, }
+\item[{const char $\ast$}]{name\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_magnum_1_1_entity_a2498f266d451dc9666c12b8e7c9b456d}{}\label{class_magnum_1_1_entity_a2498f266d451dc9666c12b8e7c9b456d}
+
+
+Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying a class path and provide a name as identifier. 
+
+
+\begin{DoxyParams}{參數}
+{\em class\+Path\+\_\+,const} & char $\ast$, the class path \\
+\hline
+{\em name\+\_\+,const} & char $\ast$, the name \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{class_magnum_1_1_entity_a2498f266d451dc9666c12b8e7c9b456d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{class_magnum_1_1_entity_a2498f266d451dc9666c12b8e7c9b456d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}!find\+By\+Name@{find\+By\+Name}}
+\index{find\+By\+Name@{find\+By\+Name}!Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+\subsubsection[{\texorpdfstring{find\+By\+Name(const char $\ast$name\+\_\+)}{findByName(const char *name_)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Entity} $\ast$ Entity\+::find\+By\+Name (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_magnum_1_1_entity_aebb48b61877838c79db84676a8c8f2f6}{}\label{class_magnum_1_1_entity_aebb48b61877838c79db84676a8c8f2f6}
+
+
+Find all Entities with specifying a its name. 
+
+
+\begin{DoxyParams}{參數}
+{\em name\+\_\+,const} & char $\ast$, the name \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_aebb48b61877838c79db84676a8c8f2f6_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}!find\+By\+Tag@{find\+By\+Tag}}
+\index{find\+By\+Tag@{find\+By\+Tag}!Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+\subsubsection[{\texorpdfstring{find\+By\+Tag(const char $\ast$class\+Path\+\_\+, const char $\ast$tag\+\_\+)}{findByTag(const char *classPath_, const char *tag_)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Entity} $\ast$ Entity\+::find\+By\+Tag (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{class\+Path\+\_\+, }
+\item[{const char $\ast$}]{tag\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_magnum_1_1_entity_af11cacde05a933a1ac7663d4956d2e25}{}\label{class_magnum_1_1_entity_af11cacde05a933a1ac7663d4956d2e25}
+
+
+Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying a class path and its tag. 
+
+
+\begin{DoxyParams}{參數}
+{\em class\+Path\+\_\+,const} & char $\ast$, the class path \\
+\hline
+{\em name\+\_\+,const} & char $\ast$, the name \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_magnum_1_1_entity_af11cacde05a933a1ac7663d4956d2e25_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_magnum_1_1_entity_af11cacde05a933a1ac7663d4956d2e25_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}!find\+By\+Tag@{find\+By\+Tag}}
+\index{find\+By\+Tag@{find\+By\+Tag}!Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+\subsubsection[{\texorpdfstring{find\+By\+Tag(const char $\ast$tag\+\_\+)}{findByTag(const char *tag_)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Entity} $\ast$ Entity\+::find\+By\+Tag (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{tag\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_magnum_1_1_entity_ac39f9be772d7d8bb3ca77a441e05d5d2}{}\label{class_magnum_1_1_entity_ac39f9be772d7d8bb3ca77a441e05d5d2}
+
+
+Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying its tag. 
+
+
+\begin{DoxyParams}{參數}
+{\em name\+\_\+,const} & char $\ast$, the name \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_ac39f9be772d7d8bb3ca77a441e05d5d2_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}!find\+By\+Unique\+ID@{find\+By\+Unique\+ID}}
+\index{find\+By\+Unique\+ID@{find\+By\+Unique\+ID}!Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+\subsubsection[{\texorpdfstring{find\+By\+Unique\+I\+D(unsigned int unique\+I\+D\+\_\+)}{findByUniqueID(unsigned int uniqueID_)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Entity} $\ast$ Entity\+::find\+By\+Unique\+ID (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{unique\+I\+D\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_magnum_1_1_entity_a3e59b521e341639b1242f39583b77ff2}{}\label{class_magnum_1_1_entity_a3e59b521e341639b1242f39583b77ff2}
+
+
+Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying its unique ID. 
+
+
+\begin{DoxyParams}{參數}
+{\em unique\+I\+D\+\_\+,unsigned} & int, the unique ID \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_magnum_1_1_entity_a3e59b521e341639b1242f39583b77ff2_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_magnum_1_1_entity_a3e59b521e341639b1242f39583b77ff2_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}!get\+Class\+Path@{get\+Class\+Path}}
+\index{get\+Class\+Path@{get\+Class\+Path}!Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+\subsubsection[{\texorpdfstring{get\+Class\+Path() const }{getClassPath() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Entity\+::get\+Class\+Path (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_entity_a47a29754f7e29daaaf069b287c2d76e7}{}\label{class_magnum_1_1_entity_a47a29754f7e29daaaf069b287c2d76e7}
+
+
+Get the Class Name of the \hyperlink{class_magnum_1_1_entity}{Entity}. 
+
+\begin{DoxyReturn}{傳回值}
+const char $\ast$, Get the Path of the Class Name 
+\end{DoxyReturn}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_a47a29754f7e29daaaf069b287c2d76e7_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}!get\+Selected@{get\+Selected}}
+\index{get\+Selected@{get\+Selected}!Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+\subsubsection[{\texorpdfstring{get\+Selected()}{getSelected()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Entity} $\ast$ Entity\+::get\+Selected (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_magnum_1_1_entity_a6f25a85b01d260b79b2d9f4950bf8cc0}{}\label{class_magnum_1_1_entity_a6f25a85b01d260b79b2d9f4950bf8cc0}
+
+
+Get the currently selected \hyperlink{class_magnum_1_1_entity}{Entity}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_entity}{Entity} $\ast$, the currently selected \hyperlink{class_magnum_1_1_entity}{Entity} 
+\end{DoxyReturn}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_a6f25a85b01d260b79b2d9f4950bf8cc0_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_a6f25a85b01d260b79b2d9f4950bf8cc0_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}!read@{read}}
+\index{read@{read}!Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+\subsubsection[{\texorpdfstring{read(\+Input\+Stream \&is)}{read(InputStream &is)}}]{\setlength{\rightskip}{0pt plus 5cm}void Entity\+::read (
+\begin{DoxyParamCaption}
+\item[{{\bf Input\+Stream} \&}]{is}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_entity_a58873f05c2fca4c91c92924f9be753c9}{}\label{class_magnum_1_1_entity_a58873f05c2fca4c91c92924f9be753c9}
+
+
+read method for Serialization 
+
+
+\begin{DoxyParams}{參數}
+{\em is,the} & \hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} for Serialization \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_a58873f05c2fca4c91c92924f9be753c9_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}!release@{release}}
+\index{release@{release}!Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+\subsubsection[{\texorpdfstring{release(\+Entity $\ast$entity\+\_\+)}{release(Entity *entity_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Entity\+::release (
+\begin{DoxyParamCaption}
+\item[{{\bf Entity} $\ast$}]{entity\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_magnum_1_1_entity_a055ac09f7e01765eaa8894723c3024c5}{}\label{class_magnum_1_1_entity_a055ac09f7e01765eaa8894723c3024c5}
+
+
+Release the \hyperlink{class_magnum_1_1_entity}{Entity} and. 
+
+
+\begin{DoxyParams}{參數}
+{\em entity\+\_\+,\hyperlink{class_magnum_1_1_entity}{Entity}} & $\ast$, release the entity and put it inactive list, if \hyperlink{class_magnum_1_1_entity}{Entity} refer count is zero and it is in inactive list, the \hyperlink{class_magnum_1_1_entity}{Entity} will be destructed. \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_a055ac09f7e01765eaa8894723c3024c5_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity@{Magnum\+::\+Entity}!write@{write}}
+\index{write@{write}!Magnum\+::\+Entity@{Magnum\+::\+Entity}}
+\subsubsection[{\texorpdfstring{write(\+Output\+Stream \&os) const }{write(OutputStream &os) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Entity\+::write (
+\begin{DoxyParamCaption}
+\item[{{\bf Output\+Stream} \&}]{os}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_entity_a10741436b8c23a174df4918577ad593c}{}\label{class_magnum_1_1_entity_a10741436b8c23a174df4918577ad593c}
+
+
+write method for Serialization 
+
+
+\begin{DoxyParams}{參數}
+{\em os,the} & \hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} for Serialization \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_a10741436b8c23a174df4918577ad593c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Entity.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Entity.\+cpp\end{DoxyCompactItemize}

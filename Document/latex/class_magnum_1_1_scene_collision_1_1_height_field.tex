@@ -1,0 +1,90 @@
+\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field}{}\section{Magnum\+:\+:Scene\+Collision\+:\+:Height\+Field 類別 參考文件}
+\label{class_magnum_1_1_scene_collision_1_1_height_field}\index{Magnum\+::\+Scene\+Collision\+::\+Height\+Field@{Magnum\+::\+Scene\+Collision\+::\+Height\+Field}}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Collision\+Mode} \{ {\bfseries H\+F\+\_\+\+C\+M\+\_\+\+R\+E\+P\+O\+R\+T\+\_\+\+L\+E\+S\+S\+T\+H\+AN}, 
+{\bfseries H\+F\+\_\+\+C\+M\+\_\+\+R\+E\+P\+O\+R\+T\+\_\+\+E\+Q\+U\+AL}, 
+{\bfseries H\+F\+\_\+\+C\+M\+\_\+\+R\+E\+P\+O\+R\+T\+\_\+\+G\+R\+E\+A\+T\+E\+R\+T\+H\+AN}, 
+{\bfseries H\+F\+\_\+\+C\+M\+\_\+\+R\+E\+P\+O\+R\+T\+\_\+\+A\+L\+W\+A\+YS}
+ \}\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_a8d4e8992b522b4bd4152a4bbd5d9af35}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_a8d4e8992b522b4bd4152a4bbd5d9af35}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries init} (float xmin\+\_\+, float xmax\+\_\+, float zmin\+\_\+, float zmax\+\_\+, int num\+Grid\+X\+\_\+, int num\+Grid\+Z\+\_\+, float grid\+Size\+X\+\_\+, float grid\+Size\+Z\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ float $>$ \&heights\+\_\+)\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_ab74ec98982526edfdca5d0e5db8c496b}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_ab74ec98982526edfdca5d0e5db8c496b}
+
+\item 
+void {\bfseries set\+Enabled} (bool enabled\+\_\+)\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_addcd9b6e5251976736e388955dc593d0}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_addcd9b6e5251976736e388955dc593d0}
+
+\item 
+bool {\bfseries get\+Enabled} () const \hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_aa2e8ff3a99dc02a33cda2812be07ca57}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_aa2e8ff3a99dc02a33cda2812be07ca57}
+
+\item 
+void {\bfseries set\+Mode} (Collision\+Mode coll\+\_\+mode\+\_\+)\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_ae96e1b9a117ddd21306e248d707d094b}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_ae96e1b9a117ddd21306e248d707d094b}
+
+\item 
+Height\+Field\+::\+Collision\+Mode {\bfseries get\+Mode} ()\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_ad898907dc99013e0856c7fa9158a6504}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_ad898907dc99013e0856c7fa9158a6504}
+
+\item 
+int {\bfseries get\+Num\+GridX} ()\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_a8be13ec763ab6bf1e2dd274ee94ee5c6}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_a8be13ec763ab6bf1e2dd274ee94ee5c6}
+
+\item 
+int {\bfseries get\+Num\+GridZ} ()\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_ac19b07a7d43d24ea4c4c553b388d8c4e}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_ac19b07a7d43d24ea4c4c553b388d8c4e}
+
+\item 
+float {\bfseries get\+Grid\+SizeX} ()\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_af9aa907ee001f663bb22c3a381c165c8}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_af9aa907ee001f663bb22c3a381c165c8}
+
+\item 
+float {\bfseries get\+Grid\+SizeZ} ()\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_afa303314b4411acfddb7c689bec9385f}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_afa303314b4411acfddb7c689bec9385f}
+
+\item 
+bool {\bfseries is\+Inside\+Region} (const float \&x\+\_\+, const float \&z\+\_\+)\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_afaa48f9971eb689d97a0231fa9406da1}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_afaa48f9971eb689d97a0231fa9406da1}
+
+\item 
+bool {\bfseries is\+Inside\+Region} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&point\+\_\+)\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_a81f59f2bbfd0bb977c94cc99426d28c8}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_a81f59f2bbfd0bb977c94cc99426d28c8}
+
+\item 
+float {\bfseries get\+Height\+At} (const float \&x\+\_\+, const float \&z\+\_\+)\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_aca7329ab575e4abcee794332026db80f}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_aca7329ab575e4abcee794332026db80f}
+
+\item 
+float {\bfseries get\+Height\+At} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&point\+\_\+)\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_a5156dde9f96f3af16d4a94252333c567}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_a5156dde9f96f3af16d4a94252333c567}
+
+\item 
+void {\bfseries read} (\hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} \&s)\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_af64f8554886f8ab10a1647d10e584734}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_af64f8554886f8ab10a1647d10e584734}
+
+\item 
+void {\bfseries write} (\hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_af89a4601fd0f3112e3f3cce7e19bec4a}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_af89a4601fd0f3112e3f3cce7e19bec4a}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries test} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&point\+\_\+)\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_a5cd4318b7ad9284bcb994cd1659f2814}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_a5cd4318b7ad9284bcb994cd1659f2814}
+
+\item 
+bool {\bfseries test\+Sphere} (\hyperlink{class_magnum_1_1_scene_collision_1_1_cast_info}{Scene\+Collision\+::\+Cast\+Info} \&cast\+Info\+\_\+)\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_a3ae2a2040b7ffac05f81f937db37d4b8}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_a3ae2a2040b7ffac05f81f937db37d4b8}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Scene\+Collision}\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_a7f7f4483f99e66d8de91c12344383316}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_a7f7f4483f99e66d8de91c12344383316}
+
+\item 
+class {\bfseries Scene\+Collision\+::\+Resource}\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_a71b236c1c24fec68b8fc80e32c6a1df9}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_a71b236c1c24fec68b8fc80e32c6a1df9}
+
+\item 
+class {\bfseries Scene\+Collision\+::\+Resource\+Importer}\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_a7892633f22a5e0a8a9dcf89bb56cdff8}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_a7892633f22a5e0a8a9dcf89bb56cdff8}
+
+\item 
+class {\bfseries Scene\+Collision\+Builder}\hypertarget{class_magnum_1_1_scene_collision_1_1_height_field_a2d946a399a3297cd5ab77a3604b6211e}{}\label{class_magnum_1_1_scene_collision_1_1_height_field_a2d946a399a3297cd5ab77a3604b6211e}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Scene\+Collision.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Scene\+Collision.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,8 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node1" href="$class_i_dream_sky_1_1_g_x_pixel_buffer.html" title="GXPixelBuffer is the base class of all Buffer of Graphics Devices. " alt="" coords="5,56,179,83"/>
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_g_x_color_buffer.html" title="GXColorBuffer encapsulate a the ColorBuffer of Graphics Device. " alt="" coords="229,5,403,32"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_g_x_depth_buffer.html" title="GXDepthBuffer encapsulate a the Depth Buffer of Graphics Device. " alt="" coords="227,56,405,83"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_g_x_texture.html" title="GXTexture encapsulate a Texture of Graphics Device. " alt="" coords="239,107,393,133"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_g_x_texture2_d.html" title="GXTexture2D encapsulate a 2D Texture of Graphics Device. " alt="" coords="460,81,631,108"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_g_x_texture_cube.html" title="GXTextureCube encapsulate a Cube Map Texture of Graphics Device. " alt="" coords="453,132,637,159"/>
+</map>

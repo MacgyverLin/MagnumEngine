@@ -1,0 +1,101 @@
+\hypertarget{class_magnum_1_1_b_spline_basis}{}\section{Magnum\+:\+:B\+Spline\+Basis 類別 參考文件}
+\label{class_magnum_1_1_b_spline_basis}\index{Magnum\+::\+B\+Spline\+Basis@{Magnum\+::\+B\+Spline\+Basis}}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries B\+Spline\+Basis} (int i\+Num\+Ctrl\+Points, int i\+Degree, bool b\+Open)\hypertarget{class_magnum_1_1_b_spline_basis_a49f9d1a3059e81d71e17940717570d98}{}\label{class_magnum_1_1_b_spline_basis_a49f9d1a3059e81d71e17940717570d98}
+
+\item 
+void {\bfseries Create} (int i\+Num\+Ctrl\+Points, int i\+Degree, bool b\+Open)\hypertarget{class_magnum_1_1_b_spline_basis_ac5290de6ab3f20b5943bf196a4bc644d}{}\label{class_magnum_1_1_b_spline_basis_ac5290de6ab3f20b5943bf196a4bc644d}
+
+\item 
+{\bfseries B\+Spline\+Basis} (int i\+Num\+Ctrl\+Points, int i\+Degree, const float $\ast$af\+Knot)\hypertarget{class_magnum_1_1_b_spline_basis_a63e34b1a89d5d921a31d0e2584be0359}{}\label{class_magnum_1_1_b_spline_basis_a63e34b1a89d5d921a31d0e2584be0359}
+
+\item 
+void {\bfseries Create} (int i\+Num\+Ctrl\+Points, int i\+Degree, const float $\ast$af\+Knot)\hypertarget{class_magnum_1_1_b_spline_basis_aa58aef7fbc39e14e5ca16dcb1be49582}{}\label{class_magnum_1_1_b_spline_basis_aa58aef7fbc39e14e5ca16dcb1be49582}
+
+\item 
+int {\bfseries Get\+Num\+Ctrl\+Points} () const \hypertarget{class_magnum_1_1_b_spline_basis_a595ce6fd2057473e902749740ba187a2}{}\label{class_magnum_1_1_b_spline_basis_a595ce6fd2057473e902749740ba187a2}
+
+\item 
+int {\bfseries Get\+Degree} () const \hypertarget{class_magnum_1_1_b_spline_basis_a1c393145e2f8e9ecdbec747f3a773f76}{}\label{class_magnum_1_1_b_spline_basis_a1c393145e2f8e9ecdbec747f3a773f76}
+
+\item 
+bool {\bfseries Is\+Open} () const \hypertarget{class_magnum_1_1_b_spline_basis_a9bcdcca1769224daa62609f03d6cd0b0}{}\label{class_magnum_1_1_b_spline_basis_a9bcdcca1769224daa62609f03d6cd0b0}
+
+\item 
+bool {\bfseries Is\+Uniform} () const \hypertarget{class_magnum_1_1_b_spline_basis_a0a62018cd3d814bb1e719378bbfa390c}{}\label{class_magnum_1_1_b_spline_basis_a0a62018cd3d814bb1e719378bbfa390c}
+
+\item 
+void {\bfseries Set\+Knot} (int i, float f\+Knot)\hypertarget{class_magnum_1_1_b_spline_basis_a04b68d140cef79aae88dea0c96ced74b}{}\label{class_magnum_1_1_b_spline_basis_a04b68d140cef79aae88dea0c96ced74b}
+
+\item 
+float {\bfseries Get\+Knot} (int i) const \hypertarget{class_magnum_1_1_b_spline_basis_a600766bdb2cb4b5e92c2956a0ccaa280}{}\label{class_magnum_1_1_b_spline_basis_a600766bdb2cb4b5e92c2956a0ccaa280}
+
+\item 
+float {\bfseries Get\+D0} (int i) const \hypertarget{class_magnum_1_1_b_spline_basis_a16fdf99f6e642ca4504c70a18d984abe}{}\label{class_magnum_1_1_b_spline_basis_a16fdf99f6e642ca4504c70a18d984abe}
+
+\item 
+float {\bfseries Get\+D1} (int i) const \hypertarget{class_magnum_1_1_b_spline_basis_a6e3c4f1e968b2ecf692678276473dc52}{}\label{class_magnum_1_1_b_spline_basis_a6e3c4f1e968b2ecf692678276473dc52}
+
+\item 
+float {\bfseries Get\+D2} (int i) const \hypertarget{class_magnum_1_1_b_spline_basis_a0beb422409f338ff50ed8e7ff20a8d75}{}\label{class_magnum_1_1_b_spline_basis_a0beb422409f338ff50ed8e7ff20a8d75}
+
+\item 
+float {\bfseries Get\+D3} (int i) const \hypertarget{class_magnum_1_1_b_spline_basis_a91262a767ffa9a9b8ceaf00ab3288a9e}{}\label{class_magnum_1_1_b_spline_basis_a91262a767ffa9a9b8ceaf00ab3288a9e}
+
+\item 
+void {\bfseries Compute} (float f\+Time, unsigned int ui\+Order, int \&ri\+Min\+Index, int \&ri\+Max\+Index) const \hypertarget{class_magnum_1_1_b_spline_basis_ae3661e2db185ecd0c98259f59d1d67bd}{}\label{class_magnum_1_1_b_spline_basis_ae3661e2db185ecd0c98259f59d1d67bd}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries Initialize} (int i\+Num\+Ctrl\+Points, int i\+Degree, bool b\+Open)\hypertarget{class_magnum_1_1_b_spline_basis_ad9e02b34b85f3d49c4eafb5b63ae2fac}{}\label{class_magnum_1_1_b_spline_basis_ad9e02b34b85f3d49c4eafb5b63ae2fac}
+
+\item 
+float $\ast$$\ast$ {\bfseries Allocate} () const \hypertarget{class_magnum_1_1_b_spline_basis_ac8179e0a1fe615c7dd7aab69b6adad1b}{}\label{class_magnum_1_1_b_spline_basis_ac8179e0a1fe615c7dd7aab69b6adad1b}
+
+\item 
+void {\bfseries Deallocate} (float $\ast$$\ast$aaf\+Array)\hypertarget{class_magnum_1_1_b_spline_basis_a970a334320b3d3f1712fcaff8af0c7c4}{}\label{class_magnum_1_1_b_spline_basis_a970a334320b3d3f1712fcaff8af0c7c4}
+
+\item 
+int {\bfseries Get\+Key} (float \&rf\+Time) const \hypertarget{class_magnum_1_1_b_spline_basis_a7b55f991b042a94232c7fd4cc8b3086f}{}\label{class_magnum_1_1_b_spline_basis_a7b55f991b042a94232c7fd4cc8b3086f}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries m\+\_\+i\+Num\+Ctrl\+Points}\hypertarget{class_magnum_1_1_b_spline_basis_a378c9cdb29b6cd1b41b1fc2e91236918}{}\label{class_magnum_1_1_b_spline_basis_a378c9cdb29b6cd1b41b1fc2e91236918}
+
+\item 
+int {\bfseries m\+\_\+i\+Degree}\hypertarget{class_magnum_1_1_b_spline_basis_ad12b15fa5a01c718e0e3e9a74a7c7426}{}\label{class_magnum_1_1_b_spline_basis_ad12b15fa5a01c718e0e3e9a74a7c7426}
+
+\item 
+float $\ast$ {\bfseries m\+\_\+af\+Knot}\hypertarget{class_magnum_1_1_b_spline_basis_a87271b782e6dc0754840ba074736dc05}{}\label{class_magnum_1_1_b_spline_basis_a87271b782e6dc0754840ba074736dc05}
+
+\item 
+bool {\bfseries m\+\_\+b\+Open}\hypertarget{class_magnum_1_1_b_spline_basis_ab322dddd8f57d733269bcad6ee9f3a6f}{}\label{class_magnum_1_1_b_spline_basis_ab322dddd8f57d733269bcad6ee9f3a6f}
+
+\item 
+bool {\bfseries m\+\_\+b\+Uniform}\hypertarget{class_magnum_1_1_b_spline_basis_acef4e63b9341df5d531aeac9d562f150}{}\label{class_magnum_1_1_b_spline_basis_acef4e63b9341df5d531aeac9d562f150}
+
+\item 
+float $\ast$$\ast$ {\bfseries m\+\_\+aaf\+B\+D0}\hypertarget{class_magnum_1_1_b_spline_basis_a2581a58c8fb190dd45c38e65e6a86787}{}\label{class_magnum_1_1_b_spline_basis_a2581a58c8fb190dd45c38e65e6a86787}
+
+\item 
+float $\ast$$\ast$ {\bfseries m\+\_\+aaf\+B\+D1}\hypertarget{class_magnum_1_1_b_spline_basis_ae5b0aa26681bb75addd5978ae86ef73b}{}\label{class_magnum_1_1_b_spline_basis_ae5b0aa26681bb75addd5978ae86ef73b}
+
+\item 
+float $\ast$$\ast$ {\bfseries m\+\_\+aaf\+B\+D2}\hypertarget{class_magnum_1_1_b_spline_basis_a4b93752ee484b1bf3e474f325334adeb}{}\label{class_magnum_1_1_b_spline_basis_a4b93752ee484b1bf3e474f325334adeb}
+
+\item 
+float $\ast$$\ast$ {\bfseries m\+\_\+aaf\+B\+D3}\hypertarget{class_magnum_1_1_b_spline_basis_a1f186e3d12dc790691ddeda28fdb235e}{}\label{class_magnum_1_1_b_spline_basis_a1f186e3d12dc790691ddeda28fdb235e}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/B\+Spline\+Basis.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/B\+Spline\+Basis.\+cpp\end{DoxyCompactItemize}

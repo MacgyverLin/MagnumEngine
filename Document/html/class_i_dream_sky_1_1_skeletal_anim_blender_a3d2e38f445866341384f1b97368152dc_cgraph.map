@@ -1,0 +1,5 @@
+<map id="IDreamSky::SkeletalAnimBlender::initSkeleton" name="IDreamSky::SkeletalAnimBlender::initSkeleton">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_skeletal_anim_base.html#a91f5c38d6cb9220dd2353366f09a7664" title="This function get the Number of Bones in the animation data. " alt="" coords="268,5,469,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_skeletal_anim_base.html#aa7be65ba6178b3538d78b8ad32504bcf" title="This function get the Name of Bone in the animation data. " alt="" coords="268,71,469,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_skeletal_anim_base.html#a4335e1a6e463f36b8530564576d531a8" title="This function get the Vector10 (scale, rotation and translation) of the i&#45;th bone. " alt="" coords="268,136,469,177"/>
+</map>

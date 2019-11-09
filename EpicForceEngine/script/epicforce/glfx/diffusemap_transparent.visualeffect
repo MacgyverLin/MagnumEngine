@@ -1,0 +1,105 @@
+<VisualEffect order="10">
+	<Attributes>
+		<Attribute type="vec3" format="float3" name="inputPosition"	semantic="POSITION0" />
+		<Attribute type="vec3" format="float3" name="inputNormal"	semantic="NORMAL" />
+		<Attribute type="vec2" format="float2" name="inputTexCoord0"	semantic="TEXCOORD0" />
+	</Attributes>
+	<Uniforms>
+		<Uniform precision="" format="vec4" name="ambientLightColor" arraysize="1" semantic="" initializer="0.3,0.3,0.3,1.0"/>
+		<Uniform precision="" format="vec3" name="dirLightDir" arraysize="1" semantic="LIGHT0VECTOR" initializer=""/>
+		<Uniform precision="" format="vec4" name="dirLightColor" arraysize="1" semantic="LIGHT0COLOR" initializer=""/>
+		<Uniform precision="" format="vec3" name="omniLightPosition0" arraysize="1" semantic="LIGHT1VECTOR" initializer=""/>
+		<Uniform precision="" format="vec4" name="omniLightColor0" arraysize="1" semantic="LIGHT1COLOR" initializer=""/>
+		<Uniform precision="" format="vec3" name="omniLightPosition1" arraysize="1" semantic="LIGHT2VECTOR" initializer=""/>
+		<Uniform precision="" format="vec4" name="omniLightColor1" arraysize="1" semantic="LIGHT2COLOR" initializer=""/>
+		<Uniform precision="" format="mat4" name="worldMat" arraysize="1" semantic="WORLD" initializer=""/>
+		<Uniform precision="" format="mat4" name="viewMat" arraysize="1" semantic="VIEW" initializer=""/>
+		<Uniform precision="" format="mat4" name="worldViewMat" arraysize="1" semantic="WORLDVIEW" initializer=""/>
+		<Uniform precision="" format="mat4" name="viewProjMat" arraysize="1" semantic="VIEWPROJ" initializer=""/>
+		<Uniform precision="" format="sampler2D" name="diffuseMapSampler" arraysize="1" semantic="DIFFUSEMAP" minfilter="linearmipmapnearest" magfilter="linear" wraps="repeat" wrapt="repeat"/>
+		<Uniform precision="" format="sampler2D" name="opacityMapSampler" arraysize="1" semantic="OPACITYMAP" minfilter="linearmipmapnearest" magfilter="linear" wraps="repeat" wrapt="repeat"/>
+	</Uniforms>
+	<Technique name="Default">
+		<Pass name="P0">
+			<RenderStates>
+        <RenderState type="cullenable" value="true"/>
+        <RenderState type="cullmode" value="cw"/>
+
+				<RenderState type="blendEnable" value="true"/>
+				<RenderState type="blendMode" value="add"/>
+				<RenderState type="blendSrcFactor" value="srcalpha"/>
+				<RenderState type="blendDstFactor" value="oneminussrcalpha"/>
+
+				<RenderState type="depthtestenable" value="true"/>
+				<RenderState type="depthwriteenable" value="false"/>
+			</RenderStates>
+			<VertexShader>
+				attribute vec3 inputPosition;
+				attribute vec3 inputNormal;
+				attribute vec2 inputTexCoord0;
+
+				varying vec4 varyingColor0;
+				varying vec2 varyingTexCoord0;
+
+				uniform vec4 ambientLightColor;
+				uniform vec4 dirLightColor;
+				uniform vec3 dirLightDir;
+				uniform mat4 worldMat;
+				uniform mat4 viewMat;
+				uniform mat4 worldViewMat;
+				uniform mat4 viewProjMat;
+				uniform float time;
+				uniform float period;
+
+				mat3 xlat_lib_constructMat3(mat4 m)
+				{
+					return mat3(vec3(m[0]), vec3(m[1]), vec3(m[2]));
+				}
+
+				vec3 blinnDiffuse(in vec3 L, in vec3 N)
+				{
+					return vec3(max(0.000000, dot(N, L)));
+				}
+
+				vec3 convertModelToView(in vec3 dir)
+				{
+					return normalize(dir * xlat_lib_constructMat3(worldViewMat));
+				}
+
+				vec3 convertWorldToView(in vec3 dir)
+				{
+					return normalize(dir * xlat_lib_constructMat3(viewMat));
+				}
+
+				void main()
+				{
+					vec3 V = vec3(0.000000, 0.000000, 1.00000);
+					vec3 N = convertModelToView(inputNormal);
+					vec3 L = convertWorldToView(dirLightDir);
+					vec3 H = normalize(L + V);
+
+					gl_Position			= vec4(inputPosition, 1.00000) * worldMat * viewProjMat;
+					varyingColor0		= vec4(ambientLightColor.rgb + dirLightColor.rgb * blinnDiffuse(L, N), 1.00000);
+
+					varyingTexCoord0	= inputTexCoord0;
+				}
+			</VertexShader>
+			<PixelShader>
+				varying vec4 varyingColor0;
+				varying vec2 varyingTexCoord0;
+
+				uniform sampler2D diffuseMapSampler;
+				uniform sampler2D opacityMapSampler;
+
+				void main()
+				{
+					vec4 opacity		= texture2D(opacityMapSampler, varyingTexCoord0);
+					vec4 diffuseColor	= texture2D(diffuseMapSampler, varyingTexCoord0);
+					
+					gl_FragData[0]		= vec4( varyingColor0.rgb * diffuseColor.rgb, opacity.a);
+				}
+			</PixelShader>
+		</Pass>
+	</Technique>
+
+</VisualEffect>

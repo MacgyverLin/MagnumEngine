@@ -1,0 +1,4 @@
+<map id="Magnum::TextureCubeFile::~TextureCubeFile" name="Magnum::TextureCubeFile::~TextureCubeFile">
+<area shape="rect" id="node2" href="$class_magnum_1_1_texture_cube_file.html#a1132d1610cae021b5f4e9a4061d11429" title="destruct the texture and release of texture resource " alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_resource_access.html#a5aeaaeb81a37dd6ceac1cc7251a480f5" title="Decrease Reference Count of the resource by 1 This function decrease reference count to the resource..." alt="" coords="451,5,629,47"/>
+</map>

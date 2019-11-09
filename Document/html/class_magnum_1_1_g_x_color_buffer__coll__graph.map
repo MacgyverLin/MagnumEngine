@@ -1,0 +1,6 @@
+<map id="Magnum::GXColorBuffer" name="Magnum::GXColorBuffer">
+<area shape="rect" id="node2" href="$class_magnum_1_1_g_x_pixel_buffer.html" title="GXPixelBuffer is the base class of all Buffer of Graphics Devices. " alt="" coords="335,229,493,256"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_g_x_pixel_format.html" title="Magnum::GXPixelFormat" alt="" coords="5,73,172,99"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_g_x_pixel_buffer_option.html" title="Magnum::GXPixelBufferOption" alt="" coords="315,73,513,99"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_g_x_pixel_buffer_type.html" title="GXPixelBufferType encapsulate the Type of Pixel Buffer. " alt="" coords="630,73,817,99"/>
+</map>

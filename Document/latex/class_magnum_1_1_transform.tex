@@ -1,0 +1,59 @@
+\hypertarget{class_magnum_1_1_transform}{}\section{Magnum\+:\+:Transform 類別 參考文件}
+\label{class_magnum_1_1_transform}\index{Magnum\+::\+Transform@{Magnum\+::\+Transform}}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Transform} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&scale, const \hyperlink{class_magnum_1_1_quaternion}{Quaternion} \&rotation, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&translate)\hypertarget{class_magnum_1_1_transform_ab5ac0144f58ce273b4cd3004d2cc9030}{}\label{class_magnum_1_1_transform_ab5ac0144f58ce273b4cd3004d2cc9030}
+
+\item 
+void {\bfseries set\+Translation} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&translate)\hypertarget{class_magnum_1_1_transform_a874d4f91300cd473876b758a2b69f3ff}{}\label{class_magnum_1_1_transform_a874d4f91300cd473876b758a2b69f3ff}
+
+\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} \& {\bfseries get\+Translation} () const \hypertarget{class_magnum_1_1_transform_af25c2824f4186172a3b47d83cad1793f}{}\label{class_magnum_1_1_transform_af25c2824f4186172a3b47d83cad1793f}
+
+\item 
+void {\bfseries set\+Rotation} (const \hyperlink{class_magnum_1_1_quaternion}{Quaternion} \&rotation)\hypertarget{class_magnum_1_1_transform_a82f09f9b0855677f410330127ed259ec}{}\label{class_magnum_1_1_transform_a82f09f9b0855677f410330127ed259ec}
+
+\item 
+const \hyperlink{class_magnum_1_1_quaternion}{Quaternion} \& {\bfseries get\+Rotation} () const \hypertarget{class_magnum_1_1_transform_a3006df2d7a642fcecd8dfa6560f87a4a}{}\label{class_magnum_1_1_transform_a3006df2d7a642fcecd8dfa6560f87a4a}
+
+\item 
+void {\bfseries set\+Scale} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&scale)\hypertarget{class_magnum_1_1_transform_a4b7af4739e7f6aeca62b09f6fe4045c1}{}\label{class_magnum_1_1_transform_a4b7af4739e7f6aeca62b09f6fe4045c1}
+
+\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} \& {\bfseries get\+Scale} () const \hypertarget{class_magnum_1_1_transform_a875d74b9302e56391668721340a40f8b}{}\label{class_magnum_1_1_transform_a875d74b9302e56391668721340a40f8b}
+
+\item 
+\hyperlink{class_magnum_1_1_transform}{Transform} {\bfseries operator$\ast$} (const \hyperlink{class_magnum_1_1_transform}{Transform} \&transform) const \hypertarget{class_magnum_1_1_transform_ad358904c7cf5974bf1fb7798fbfa937b}{}\label{class_magnum_1_1_transform_ad358904c7cf5974bf1fb7798fbfa937b}
+
+\item 
+\hyperlink{class_magnum_1_1_transform}{Transform} \& {\bfseries operator$\ast$=} (const \hyperlink{class_magnum_1_1_transform}{Transform} \&transform)\hypertarget{class_magnum_1_1_transform_a4573dee47bea87226ac0e052cc148cab}{}\label{class_magnum_1_1_transform_a4573dee47bea87226ac0e052cc148cab}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries operator$\ast$} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&v) const \hypertarget{class_magnum_1_1_transform_aec4bc2efd40364eeff9db3d6aaf501e0}{}\label{class_magnum_1_1_transform_aec4bc2efd40364eeff9db3d6aaf501e0}
+
+\item 
+\hyperlink{class_magnum_1_1_vector4}{Vector4} {\bfseries operator$\ast$} (const \hyperlink{class_magnum_1_1_vector4}{Vector4} \&v) const \hypertarget{class_magnum_1_1_transform_acc16c3434363e1884057d5b63d3794a9}{}\label{class_magnum_1_1_transform_acc16c3434363e1884057d5b63d3794a9}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries times\+Position\+Vector} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&v) const \hypertarget{class_magnum_1_1_transform_acf653d4a4f33cad58c31a8cd93d14aef}{}\label{class_magnum_1_1_transform_acf653d4a4f33cad58c31a8cd93d14aef}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries times\+Direction\+Vector} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&v) const \hypertarget{class_magnum_1_1_transform_ad1175d0ba69e3e712e5cecdf0385a2a8}{}\label{class_magnum_1_1_transform_ad1175d0ba69e3e712e5cecdf0385a2a8}
+
+\item 
+\hyperlink{class_magnum_1_1_transform}{Transform} {\bfseries inverse} () const \hypertarget{class_magnum_1_1_transform_a2f541623721570442976504241009d49}{}\label{class_magnum_1_1_transform_a2f541623721570442976504241009d49}
+
+\item 
+void {\bfseries read} (\hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_magnum_1_1_transform_a441ea015ed03e3823780c60bdfd10136}{}\label{class_magnum_1_1_transform_a441ea015ed03e3823780c60bdfd10136}
+
+\item 
+void {\bfseries write} (\hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_magnum_1_1_transform_ac6fac139249f7002f3a6e08230e63f0a}{}\label{class_magnum_1_1_transform_ac6fac139249f7002f3a6e08230e63f0a}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Transform.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Transform.\+cpp\end{DoxyCompactItemize}

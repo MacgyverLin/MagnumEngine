@@ -1,0 +1,367 @@
+\hypertarget{class_magnum_1_1endif}{}\section{Magnum\+:\+:endif 類別 參考文件}
+\label{class_magnum_1_1endif}\index{Magnum\+::endif@{Magnum\+::endif}}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_animation}{Animation}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_bone}{Bone}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_bone_animation}{Bone\+Animation}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_data}{Data}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_index_buffer}{Index\+Buffer}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_mesh}{Mesh}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_node}{Node}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_resource}{Resource}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_resource_importer}{Resource\+Importer}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_texture_info}{Texture\+Info}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_vertex_buffer}{Vertex\+Buffer}
+\item 
+class \hyperlink{class_magnum_1_1endif_1_1_visual_effect_info}{Visual\+Effect\+Info}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Skeletal\+Anim\+Model} ()\hypertarget{class_magnum_1_1endif_a84c44781c138ed94306c240b756a620e}{}\label{class_magnum_1_1endif_a84c44781c138ed94306c240b756a620e}
+
+\item 
+bool {\bfseries construct} (const char $\ast$path\+\_\+)\hypertarget{class_magnum_1_1endif_a55bb108c0e96c3ff0521d5d9397af62a}{}\label{class_magnum_1_1endif_a55bb108c0e96c3ff0521d5d9397af62a}
+
+\item 
+void {\bfseries destruct} ()\hypertarget{class_magnum_1_1endif_a512f42984fb78dbab327715d1e67bf3e}{}\label{class_magnum_1_1endif_a512f42984fb78dbab327715d1e67bf3e}
+
+\item 
+int \hyperlink{class_magnum_1_1endif_af7894c43a6807d42c1ddd026a61fb9cd}{get\+Num\+Texture\+Infos} () const 
+\begin{DoxyCompactList}\small\item\em Get the number of Texture Infomations in the Skeletal Anim Model. \end{DoxyCompactList}\item 
+const Skeletal\+Anim\+Model\+::\+Texture\+Info $\ast$ \hyperlink{class_magnum_1_1endif_a2b584f886902531fe8f95b6af822cff7}{get\+Texture\+Info} (int i) const 
+\begin{DoxyCompactList}\small\item\em Get the i-\/th Texture Infomation in the Skeletal Anim Model. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1endif_ae7a3e48aeefba53e20dad31b3ae497d2}{get\+Num\+Visual\+Effect\+Infos} () const 
+\begin{DoxyCompactList}\small\item\em Get the number of Visual\+Effect\+Infos in the Skeletal Anim Model. \end{DoxyCompactList}\item 
+const Skeletal\+Anim\+Model\+::\+Visual\+Effect\+Info $\ast$ \hyperlink{class_magnum_1_1endif_ac2b9142e4f0b550fe780cf765acdfc10}{get\+Visual\+Effect\+Info} (int i) const 
+\begin{DoxyCompactList}\small\item\em Get the i-\/th \hyperlink{class_magnum_1_1_visual_effect}{Visual\+Effect} Infomation in the Skeletal Anim Model. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1endif_a7d911b8de0406185c589a97e70bd832e}{get\+Num\+Bones} () const 
+\begin{DoxyCompactList}\small\item\em Get the number of Bones in the Skeletal Anim Model. \end{DoxyCompactList}\item 
+const Skeletal\+Anim\+Model\+::\+Bone $\ast$ \hyperlink{class_magnum_1_1endif_a0afbc81f8b22efa12df6f8c66fa00fc4}{get\+Bone} (int i) const 
+\begin{DoxyCompactList}\small\item\em Get the i-\/th \hyperlink{class_magnum_1_1endif_1_1_bone}{Bone} in the Skeletal Anim Model. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ Skeletal\+Anim\+Model\+::\+Bone $>$ $\ast$ \hyperlink{class_magnum_1_1endif_ab234bdd9141370fdd3cd18f3a1c0303b}{get\+Bones} () const 
+\begin{DoxyCompactList}\small\item\em Get all \hyperlink{class_magnum_1_1endif_1_1_bone}{Bone} in the Skeletal Anim Model. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1endif_acbb0043ea64044fca0fc186e83793054}{get\+Num\+Meshes} () const 
+\begin{DoxyCompactList}\small\item\em Get the number of Meshes in the Skeletal Anim Model. \end{DoxyCompactList}\item 
+const Skeletal\+Anim\+Model\+::\+Mesh $\ast$ \hyperlink{class_magnum_1_1endif_ae71a00c05373bfc9b1e508bff4008b48}{get\+Mesh} (int i) const 
+\begin{DoxyCompactList}\small\item\em Get the i-\/th \hyperlink{class_magnum_1_1endif_1_1_mesh}{Mesh} in the Skeletal Anim Model. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1endif_aca1d5b1a717d7e86cafdae78a8ac87c8}{get\+Duration} () const 
+\begin{DoxyCompactList}\small\item\em Get the number frames of \hyperlink{class_magnum_1_1endif_1_1_animation}{Animation}. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1endif_a4a22019c6baf0297e3d6152242c6e4fb}{get\+F\+PS} () const 
+\begin{DoxyCompactList}\small\item\em Get the Frame Per Seconds of \hyperlink{class_magnum_1_1endif_1_1_animation}{Animation}. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1endif_ae5b331561f7adcbf6d41ab419cb43307}{get\+Num\+Bone\+Animations} () const 
+\begin{DoxyCompactList}\small\item\em Get the Number of Bones of \hyperlink{class_magnum_1_1endif_1_1_animation}{Animation}. \end{DoxyCompactList}\item 
+const Skeletal\+Anim\+Model\+::\+Bone\+Animation $\ast$ {\bfseries get\+Bone\+Animation} (int bone\+Idx\+\_\+) const \hypertarget{class_magnum_1_1endif_a257ca4fb5cdf623e6085905875cc3ba7}{}\label{class_magnum_1_1endif_a257ca4fb5cdf623e6085905875cc3ba7}
+
+\item 
+const char $\ast$ \hyperlink{class_magnum_1_1endif_ab08b5b57dc8f5a976d934b61f36790a7}{get\+Bone\+Name} (int bone\+Idx\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the Name of the i-\/th \hyperlink{class_magnum_1_1endif_1_1_bone}{Bone} in the Skeletal Anim Model. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1endif_afc3c06c02c558c18aa11657fb3a84d11}{get\+Bone\+Index} (const char $\ast$name\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the index of the bone by the name of the bone. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1endif_add5b99ac6632ed57dac0b1dded8ef3bb}{get\+Bone\+Parent\+Index} (int bone\+Idx\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the index of the parent of the i-\/th bone. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1endif_a66a295c37fadba864f924f46e2e5ff97}{get\+Vector10} (int bone\+Idx\+\_\+, float time, \hyperlink{class_magnum_1_1_vector10}{Vector10} \&v\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the position, rotation, scale of the i-\/th bone at time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Max\+Skeletal\+Model\+Builder}\hypertarget{class_magnum_1_1endif_a01c1ccb3ad3a413e68b2d073aa4a6a20}{}\label{class_magnum_1_1endif_a01c1ccb3ad3a413e68b2d073aa4a6a20}
+
+\item 
+class {\bfseries Skeletal\+Model\+Builder}\hypertarget{class_magnum_1_1endif_a68bc87f6949e02b2a7763dcd5b373e17}{}\label{class_magnum_1_1endif_a68bc87f6949e02b2a7763dcd5b373e17}
+
+\item 
+class {\bfseries Skeletal\+Model\+Renderer}\hypertarget{class_magnum_1_1endif_a4cc1cb32612548d783030290fc7062bf}{}\label{class_magnum_1_1endif_a4cc1cb32612548d783030290fc7062bf}
+
+\item 
+class {\bfseries Skeletal\+Anim\+Model}\hypertarget{class_magnum_1_1endif_a88c72f2f6b125ba518843b71080035e5}{}\label{class_magnum_1_1endif_a88c72f2f6b125ba518843b71080035e5}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Bone@{get\+Bone}}
+\index{get\+Bone@{get\+Bone}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Bone(int i) const }{getBone(int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}const Skeletal\+Anim\+Model\+::\+Bone$\ast$ Magnum\+::endif\+::get\+Bone (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_a0afbc81f8b22efa12df6f8c66fa00fc4}{}\label{class_magnum_1_1endif_a0afbc81f8b22efa12df6f8c66fa00fc4}
+
+
+Get the i-\/th \hyperlink{class_magnum_1_1endif_1_1_bone}{Bone} in the Skeletal Anim Model. 
+
+
+\begin{DoxyParams}{參數}
+{\em i,int} & the index to the bone to be returned \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+Skeletal\+Anim\+Model\+::\+Bone$\ast$, the i-\/th \hyperlink{class_magnum_1_1endif_1_1_bone}{Bone} in the Skeletal Anim Model. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Bone\+Index@{get\+Bone\+Index}}
+\index{get\+Bone\+Index@{get\+Bone\+Index}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Bone\+Index(const char $\ast$name\+\_\+) const }{getBoneIndex(const char *name_) const }}]{\setlength{\rightskip}{0pt plus 5cm}int Magnum\+::endif\+::get\+Bone\+Index (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_afc3c06c02c558c18aa11657fb3a84d11}{}\label{class_magnum_1_1endif_afc3c06c02c558c18aa11657fb3a84d11}
+
+
+Get the index of the bone by the name of the bone. 
+
+
+\begin{DoxyParams}{參數}
+{\em name\+\_\+,const} & char $\ast$, the name of the bone \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+int, index of the bone, return -\/1 if none of the bones\textquotesingle{}s name is name\+\_\+ 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Bone\+Name@{get\+Bone\+Name}}
+\index{get\+Bone\+Name@{get\+Bone\+Name}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Bone\+Name(int bone\+Idx\+\_\+) const }{getBoneName(int boneIdx_) const }}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ Magnum\+::endif\+::get\+Bone\+Name (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_ab08b5b57dc8f5a976d934b61f36790a7}{}\label{class_magnum_1_1endif_ab08b5b57dc8f5a976d934b61f36790a7}
+
+
+Get the Name of the i-\/th \hyperlink{class_magnum_1_1endif_1_1_bone}{Bone} in the Skeletal Anim Model. 
+
+
+\begin{DoxyParams}{參數}
+{\em i,int,the} & index to the bone \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+const char $\ast$, the name of i-\/th \hyperlink{class_magnum_1_1endif_1_1_bone}{Bone} in the Skeletal Anim Model. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Bone\+Parent\+Index@{get\+Bone\+Parent\+Index}}
+\index{get\+Bone\+Parent\+Index@{get\+Bone\+Parent\+Index}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Bone\+Parent\+Index(int bone\+Idx\+\_\+) const }{getBoneParentIndex(int boneIdx_) const }}]{\setlength{\rightskip}{0pt plus 5cm}int Magnum\+::endif\+::get\+Bone\+Parent\+Index (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_add5b99ac6632ed57dac0b1dded8ef3bb}{}\label{class_magnum_1_1endif_add5b99ac6632ed57dac0b1dded8ef3bb}
+
+
+Get the index of the parent of the i-\/th bone. 
+
+
+\begin{DoxyParams}{參數}
+{\em i\+\_\+,int,the} & index to the bone. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+int, the index to the parent of the i-\/th bone. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Bones@{get\+Bones}}
+\index{get\+Bones@{get\+Bones}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Bones() const }{getBones() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector}$<$Skeletal\+Anim\+Model\+::\+Bone$>$$\ast$ Magnum\+::endif\+::get\+Bones (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_ab234bdd9141370fdd3cd18f3a1c0303b}{}\label{class_magnum_1_1endif_ab234bdd9141370fdd3cd18f3a1c0303b}
+
+
+Get all \hyperlink{class_magnum_1_1endif_1_1_bone}{Bone} in the Skeletal Anim Model. 
+
+\begin{DoxyReturn}{傳回值}
+Vector$<$\+Skeletal\+Anim\+Model\+::\+Bone$>$ $\ast$, all \hyperlink{class_magnum_1_1endif_1_1_bone}{Bone} in the Skeletal Anim Model. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Duration@{get\+Duration}}
+\index{get\+Duration@{get\+Duration}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Duration() const }{getDuration() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Magnum\+::endif\+::get\+Duration (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_aca1d5b1a717d7e86cafdae78a8ac87c8}{}\label{class_magnum_1_1endif_aca1d5b1a717d7e86cafdae78a8ac87c8}
+
+
+Get the number frames of \hyperlink{class_magnum_1_1endif_1_1_animation}{Animation}. 
+
+\begin{DoxyReturn}{傳回值}
+int, the number of frames of \hyperlink{class_magnum_1_1endif_1_1_animation}{Animation}. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+F\+PS@{get\+F\+PS}}
+\index{get\+F\+PS@{get\+F\+PS}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+F\+P\+S() const }{getFPS() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Magnum\+::endif\+::get\+F\+PS (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_a4a22019c6baf0297e3d6152242c6e4fb}{}\label{class_magnum_1_1endif_a4a22019c6baf0297e3d6152242c6e4fb}
+
+
+Get the Frame Per Seconds of \hyperlink{class_magnum_1_1endif_1_1_animation}{Animation}. 
+
+\begin{DoxyReturn}{傳回值}
+int, the Frame Per Secondsof \hyperlink{class_magnum_1_1endif_1_1_animation}{Animation}. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Mesh@{get\+Mesh}}
+\index{get\+Mesh@{get\+Mesh}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Mesh(int i) const }{getMesh(int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}const Skeletal\+Anim\+Model\+::\+Mesh$\ast$ Magnum\+::endif\+::get\+Mesh (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_ae71a00c05373bfc9b1e508bff4008b48}{}\label{class_magnum_1_1endif_ae71a00c05373bfc9b1e508bff4008b48}
+
+
+Get the i-\/th \hyperlink{class_magnum_1_1endif_1_1_mesh}{Mesh} in the Skeletal Anim Model. 
+
+
+\begin{DoxyParams}{參數}
+{\em i,int} & the index to the \hyperlink{class_magnum_1_1endif_1_1_mesh}{Mesh} to be returned \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+Skeletal\+Anim\+Model\+::\+Mesh$\ast$, the i-\/th \hyperlink{class_magnum_1_1endif_1_1_mesh}{Mesh} in the Skeletal Anim Model. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Num\+Bone\+Animations@{get\+Num\+Bone\+Animations}}
+\index{get\+Num\+Bone\+Animations@{get\+Num\+Bone\+Animations}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Num\+Bone\+Animations() const }{getNumBoneAnimations() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Magnum\+::endif\+::get\+Num\+Bone\+Animations (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_ae5b331561f7adcbf6d41ab419cb43307}{}\label{class_magnum_1_1endif_ae5b331561f7adcbf6d41ab419cb43307}
+
+
+Get the Number of Bones of \hyperlink{class_magnum_1_1endif_1_1_animation}{Animation}. 
+
+\begin{DoxyReturn}{傳回值}
+int, the Number of Bones of \hyperlink{class_magnum_1_1endif_1_1_animation}{Animation}. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Num\+Bones@{get\+Num\+Bones}}
+\index{get\+Num\+Bones@{get\+Num\+Bones}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Num\+Bones() const }{getNumBones() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Magnum\+::endif\+::get\+Num\+Bones (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_a7d911b8de0406185c589a97e70bd832e}{}\label{class_magnum_1_1endif_a7d911b8de0406185c589a97e70bd832e}
+
+
+Get the number of Bones in the Skeletal Anim Model. 
+
+\begin{DoxyReturn}{傳回值}
+int, the number of Bones in the Skeletal Anim Model. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Num\+Meshes@{get\+Num\+Meshes}}
+\index{get\+Num\+Meshes@{get\+Num\+Meshes}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Num\+Meshes() const }{getNumMeshes() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Magnum\+::endif\+::get\+Num\+Meshes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_acbb0043ea64044fca0fc186e83793054}{}\label{class_magnum_1_1endif_acbb0043ea64044fca0fc186e83793054}
+
+
+Get the number of Meshes in the Skeletal Anim Model. 
+
+\begin{DoxyReturn}{傳回值}
+int, the number of Meshes in the Skeletal Anim Model. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Num\+Texture\+Infos@{get\+Num\+Texture\+Infos}}
+\index{get\+Num\+Texture\+Infos@{get\+Num\+Texture\+Infos}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Num\+Texture\+Infos() const }{getNumTextureInfos() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Magnum\+::endif\+::get\+Num\+Texture\+Infos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_af7894c43a6807d42c1ddd026a61fb9cd}{}\label{class_magnum_1_1endif_af7894c43a6807d42c1ddd026a61fb9cd}
+
+
+Get the number of Texture Infomations in the Skeletal Anim Model. 
+
+\begin{DoxyReturn}{傳回值}
+int, the number of Texture Infomations in the Skeletal Anim Model. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Num\+Visual\+Effect\+Infos@{get\+Num\+Visual\+Effect\+Infos}}
+\index{get\+Num\+Visual\+Effect\+Infos@{get\+Num\+Visual\+Effect\+Infos}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Num\+Visual\+Effect\+Infos() const }{getNumVisualEffectInfos() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Magnum\+::endif\+::get\+Num\+Visual\+Effect\+Infos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_ae7a3e48aeefba53e20dad31b3ae497d2}{}\label{class_magnum_1_1endif_ae7a3e48aeefba53e20dad31b3ae497d2}
+
+
+Get the number of Visual\+Effect\+Infos in the Skeletal Anim Model. 
+
+\begin{DoxyReturn}{傳回值}
+int, the number of Visual\+Effect\+Infos in the Skeletal Anim Model. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Texture\+Info@{get\+Texture\+Info}}
+\index{get\+Texture\+Info@{get\+Texture\+Info}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Texture\+Info(int i) const }{getTextureInfo(int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}const Skeletal\+Anim\+Model\+::\+Texture\+Info$\ast$ Magnum\+::endif\+::get\+Texture\+Info (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_a2b584f886902531fe8f95b6af822cff7}{}\label{class_magnum_1_1endif_a2b584f886902531fe8f95b6af822cff7}
+
+
+Get the i-\/th Texture Infomation in the Skeletal Anim Model. 
+
+
+\begin{DoxyParams}{參數}
+{\em i,int} & the index to the Texture Infomation to be returned \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+Skeletal\+Anim\+Model\+::\+Texture\+Info $\ast$, the i-\/th Texture Infomation in the Skeletal Anim Model. 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Vector10@{get\+Vector10}}
+\index{get\+Vector10@{get\+Vector10}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Vector10(int bone\+Idx\+\_\+, float time, Vector10 \&v\+\_\+) const }{getVector10(int boneIdx_, float time, Vector10 &v_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::endif\+::get\+Vector10 (
+\begin{DoxyParamCaption}
+\item[{int}]{bone\+Idx\+\_\+, }
+\item[{float}]{time, }
+\item[{{\bf Vector10} \&}]{v\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_a66a295c37fadba864f924f46e2e5ff97}{}\label{class_magnum_1_1endif_a66a295c37fadba864f924f46e2e5ff97}
+
+
+Get the position, rotation, scale of the i-\/th bone at time. 
+
+
+\begin{DoxyParams}{參數}
+{\em i\+\_\+,int,the} & index to the bone. \\
+\hline
+{\em time\+\_\+,float,the} & time of the position, rotation, scale to be sample \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector10}{Vector10}, the position, rotation, scale of the i-\/th bone at time 
+\end{DoxyReturn}
+\index{Magnum\+::endif@{Magnum\+::endif}!get\+Visual\+Effect\+Info@{get\+Visual\+Effect\+Info}}
+\index{get\+Visual\+Effect\+Info@{get\+Visual\+Effect\+Info}!Magnum\+::endif@{Magnum\+::endif}}
+\subsubsection[{\texorpdfstring{get\+Visual\+Effect\+Info(int i) const }{getVisualEffectInfo(int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}const Skeletal\+Anim\+Model\+::\+Visual\+Effect\+Info$\ast$ Magnum\+::endif\+::get\+Visual\+Effect\+Info (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1endif_ac2b9142e4f0b550fe780cf765acdfc10}{}\label{class_magnum_1_1endif_ac2b9142e4f0b550fe780cf765acdfc10}
+
+
+Get the i-\/th \hyperlink{class_magnum_1_1_visual_effect}{Visual\+Effect} Infomation in the Skeletal Anim Model. 
+
+
+\begin{DoxyParams}{參數}
+{\em i,int} & the index to the \hyperlink{class_magnum_1_1_visual_effect}{Visual\+Effect} to be returned \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+Skeletal\+Anim\+Model\+::\+Visual\+Effect $\ast$, the i-\/th \hyperlink{class_magnum_1_1_visual_effect}{Visual\+Effect} Infomation in the Skeletal Anim Model. 
+\end{DoxyReturn}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Skeletal\+Anim\+Model.\+h\end{DoxyCompactItemize}

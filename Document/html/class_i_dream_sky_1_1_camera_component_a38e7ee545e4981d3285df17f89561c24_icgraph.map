@@ -1,0 +1,9 @@
+<map id="IDreamSky::CameraComponent::isLayerMatched" name="IDreamSky::CameraComponent::isLayerMatched">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_bill_board_renderer.html#a551846a61bfad0c3104bd75136e37a7e" title="remove BillBoard from the Renderer. " alt="" coords="265,5,463,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_cube_renderer.html#a0ee1e417798a21ad7276c90d327226ed" title="remove Cube from the Renderer. " alt="" coords="276,71,452,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_diffuse_map_cube_renderer.html#ac02b3206600e1825d321e213d96bcf81" title="remove DiffuseMapCube from the Renderer. " alt="" coords="270,136,458,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_diffuse_map_specular_map_cube_renderer.html#a1f74a1a086edaa7c142682c2b8648678" title="remove DiffuseMapSpecularMapCube from the Renderer. " alt="" coords="259,201,469,243"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_particle_emitter_renderer.html#a1c48314c5386716962d6859e4c546ef1" title="remove ParticleEmitter from the Renderer. " alt="" coords="274,267,454,308"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_skeletal_animation_model_renderer.html#a5cebe1d6df2478a3d0fbfcb7b676dbd6" title="remove SkySphere from the Renderer. " alt="" coords="265,332,463,373"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_sky_sphere_renderer.html#a2b7bd339a31bebd9c1770d591ad5f28f" title="remove SkySphere from the Renderer. " alt="" coords="259,397,469,439"/>
+</map>

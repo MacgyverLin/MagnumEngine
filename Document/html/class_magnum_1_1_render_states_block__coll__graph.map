@@ -1,0 +1,10 @@
+<map id="Magnum::RenderStatesBlock" name="Magnum::RenderStatesBlock">
+<area shape="rect" id="node2" href="$class_magnum_1_1_g_x_image_rect.html" title="Magnum::GXImageRect" alt="" coords="23,5,182,32"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_g_x_blend_mode.html" title="GXBlendMode encapsulate a Blending Mode Blending Equation: Add Cs * Fs + Cd * Fs Subtract Cs * Fs &#45; C..." alt="" coords="21,124,184,151"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_g_x_stencil_test_mode.html" title="GXShaderUniformType encapsulate Type of Uniform Variable of the Shader. " alt="" coords="5,316,200,343"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_g_x_color_mask.html" title="GXColorMask encapsulate a Color Mask for Color Buffer Writing Operation. " alt="" coords="23,493,182,520"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_g_x_stencil_op.html" title="GXStencilOp encapsulate Type of Stencil Operation. " alt="" coords="25,685,180,712"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_g_x_depth_test_mode.html" title="GXDepthTestMode encapsulate a Depth Test Mode. " alt="" coords="9,877,197,904"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_g_x_cull_mode.html" title="GXCullMode encapsulate a Culling Mode. " alt="" coords="27,981,178,1008"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_g_x_blend_factor.html" title="GXBlendFactor encapsulate a Blend Factor Blending Equation: Add Cs * Fs + Cd * Fs Subtract Cs * Fs &#45; ..." alt="" coords="19,1217,186,1244"/>
+</map>

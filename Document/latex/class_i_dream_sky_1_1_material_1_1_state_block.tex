@@ -1,0 +1,207 @@
+\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block}{}\section{I\+Dream\+Sky\+:\+:Material\+:\+:State\+Block 類別 參考文件}
+\label{class_i_dream_sky_1_1_material_1_1_state_block}\index{I\+Dream\+Sky\+::\+Material\+::\+State\+Block@{I\+Dream\+Sky\+::\+Material\+::\+State\+Block}}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block}.  
+
+
+
+
+{\ttfamily \#include $<$Material.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_state_block_aeeb8bcab6671808d46ad78b1dbb72cd1}{State\+Block} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block_ac28531650d7c81a4d7671dfdde4354c8}{$\sim$\+State\+Block} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_state_block_a5fa5631f46632acb9af1ae8b7fe358ad}{State\+Block} (\hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{Material\+::\+State\+Block} \&other)
+\begin{DoxyCompactList}\small\item\em Copy Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{Material\+::\+State\+Block} \& \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block_a19f6516728b90762ee945d288384b052}{operator=} (const \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{Material\+::\+State\+Block} \&other)
+\begin{DoxyCompactList}\small\item\em Assigned operator. \end{DoxyCompactList}\item 
+void {\bfseries set\+State} (const std\+::string \&name, const std\+::string \&value)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a0f24e6fd11397d5246d5103725d2d0dc}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a0f24e6fd11397d5246d5103725d2d0dc}
+
+\item 
+void {\bfseries set\+Blend\+Enable} (bool blend\+Enable\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a9d01c7bfc3fc35c65658130e8ac4b5e9}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a9d01c7bfc3fc35c65658130e8ac4b5e9}
+
+\item 
+void {\bfseries set\+Blend\+Mode} (const \hyperlink{class_i_dream_sky_1_1_g_x_blend_mode}{G\+X\+Blend\+Mode} \&blend\+Mode\+\_\+, bool rgb)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a9dec9e7339376ed533322df8948c875b}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a9dec9e7339376ed533322df8948c875b}
+
+\item 
+void {\bfseries set\+Blend\+Factor\+Src} (\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} blend\+Factor\+Src\+\_\+, bool rgb)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_ac69d2e14ce43161ea1cb645c6ecc3cdb}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_ac69d2e14ce43161ea1cb645c6ecc3cdb}
+
+\item 
+void {\bfseries set\+Blend\+Factor\+Dst} (\hyperlink{class_i_dream_sky_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} blend\+Factor\+Dst\+\_\+, bool rgb)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_aa41e9a7476830b5a9badf8d16ff929c4}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_aa41e9a7476830b5a9badf8d16ff929c4}
+
+\item 
+void {\bfseries set\+Clear\+Color} (const \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4} \&clear\+Color\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a4401bce5515208095d2e55826bf58e0f}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a4401bce5515208095d2e55826bf58e0f}
+
+\item 
+void {\bfseries set\+Clear\+Depth} (float clear\+Depth)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_ae1b90631c06f3be50e76cbea4b856fb6}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_ae1b90631c06f3be50e76cbea4b856fb6}
+
+\item 
+void {\bfseries set\+Clear\+Stencil} (unsigned int clear\+Stencil\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_ac9bd69386b2fb8abd3f22d73e03535ab}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_ac9bd69386b2fb8abd3f22d73e03535ab}
+
+\item 
+void {\bfseries set\+Color\+Mask} (\hyperlink{class_i_dream_sky_1_1_g_x_color_mask}{G\+X\+Color\+Mask} color\+Mask\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a1f1ced6cb372726a3378e7900b235a83}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a1f1ced6cb372726a3378e7900b235a83}
+
+\item 
+void {\bfseries set\+Cull\+Enable} (bool cull\+Enable\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a443c429bdfebc08145e1401511b48b63}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a443c429bdfebc08145e1401511b48b63}
+
+\item 
+void {\bfseries set\+Cull\+Mode} (\hyperlink{class_i_dream_sky_1_1_g_x_cull_mode}{G\+X\+Cull\+Mode} cull\+Mode\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a37dfbd63f4c732030784b11cde1c35ba}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a37dfbd63f4c732030784b11cde1c35ba}
+
+\item 
+void {\bfseries set\+Depth\+Test\+Enable} (bool depth\+Test\+Enable\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_ae0b61753b55222c095befe2405228e25}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_ae0b61753b55222c095befe2405228e25}
+
+\item 
+void {\bfseries set\+Depth\+Test\+Mode} (\hyperlink{class_i_dream_sky_1_1_g_x_depth_test_mode}{G\+X\+Depth\+Test\+Mode} depth\+Test\+Mode\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_af699f6c604e90e7547cf4f21d58cb429}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_af699f6c604e90e7547cf4f21d58cb429}
+
+\item 
+void {\bfseries set\+Depth\+Write\+Enable} (bool depth\+Write\+Enable\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a0fc3229e092b5c3f9348472a2359e689}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a0fc3229e092b5c3f9348472a2359e689}
+
+\item 
+void {\bfseries set\+Depth\+Range} (float depth\+Range\+Near\+\_\+, float depth\+Range\+Far\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a4b9d181e3aa6c46a61c386f9404730e2}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a4b9d181e3aa6c46a61c386f9404730e2}
+
+\item 
+void {\bfseries set\+Dither\+Enable} (bool dither\+Enable\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_afa48ccad9ff8def19edcf6092d9d32a6}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_afa48ccad9ff8def19edcf6092d9d32a6}
+
+\item 
+void {\bfseries set\+Line\+Width} (float line\+Width\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_ae261e50681c939bc368406a7bd7abc13}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_ae261e50681c939bc368406a7bd7abc13}
+
+\item 
+void {\bfseries set\+Polygon\+Offset\+Enable} (bool polygon\+Offset\+Enable\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_aac7cb040eb05f43de05e6f61b34158bb}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_aac7cb040eb05f43de05e6f61b34158bb}
+
+\item 
+void {\bfseries set\+Polygon\+Offset} (float factor\+\_\+, float units\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_ac066f10f0657131bc0edc1eea280c42b}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_ac066f10f0657131bc0edc1eea280c42b}
+
+\item 
+void {\bfseries set\+Scissor\+Test\+Enable} (bool scissor\+Test\+Enable\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a558e666577bf509ff111c4623db95c33}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a558e666577bf509ff111c4623db95c33}
+
+\item 
+void {\bfseries set\+Scissor} (const \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4} \&scissor)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a2901263609a695e3cb352b2b3a27db54}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a2901263609a695e3cb352b2b3a27db54}
+
+\item 
+void {\bfseries set\+Stencil\+Test\+Enable} (bool stencil\+Test\+Enable\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a39117ec86330f6543e3d78592cae5023}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a39117ec86330f6543e3d78592cae5023}
+
+\item 
+void {\bfseries set\+Stencil\+Test\+Mode} (\hyperlink{class_i_dream_sky_1_1_g_x_stencil_test_mode}{G\+X\+Stencil\+Test\+Mode} front\+Stencil\+Test\+Mode\+\_\+, int front\+Stencil\+Ref\+\_\+, unsigned int front\+Stencil\+Mask\+\_\+, bool front\+Face)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a74a6cc127b6d7b2b0ce2a0a47ee8ad61}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a74a6cc127b6d7b2b0ce2a0a47ee8ad61}
+
+\item 
+void {\bfseries set\+Stencil\+Op} (\hyperlink{class_i_dream_sky_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} front\+Stencil\+Op\+Stencil\+Fail\+\_\+, \hyperlink{class_i_dream_sky_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} front\+Stencil\+Op\+Stencil\+Pass\+Depth\+Fail\+\_\+, \hyperlink{class_i_dream_sky_1_1_g_x_stencil_op}{G\+X\+Stencil\+Op} front\+Stencil\+Op\+Stencil\+Pass\+Depth\+Pass\+\_\+, bool front\+Face)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_ac85e3b278ddba391fcfb9edc82190d1b}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_ac85e3b278ddba391fcfb9edc82190d1b}
+
+\item 
+void {\bfseries set\+Stencil\+Write\+Mask} (unsigned int front\+Stencil\+Write\+Mask\+\_\+, bool front\+Face)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_ab764071f5f605ae73f683ce6471c8ea3}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_ab764071f5f605ae73f683ce6471c8ea3}
+
+\item 
+void {\bfseries set\+Viewport} (const \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4} \&viewport\+\_\+)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a69f20148c92e2a4b6ffe64650abd99e2}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a69f20148c92e2a4b6ffe64650abd99e2}
+
+\item 
+void {\bfseries set\+Default} ()\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a43c3675a384583e1b725691a43d85405}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a43c3675a384583e1b725691a43d85405}
+
+\item 
+void \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block_a82fd9b828a2fc1baafadf3bc88542517}{apply} ()\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a82fd9b828a2fc1baafadf3bc88542517}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a82fd9b828a2fc1baafadf3bc88542517}
+
+\begin{DoxyCompactList}\small\item\em apply all the Render\+States of this Render\+States \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block_a8448dc8f012f07065f881476c660ea73}{restore} ()\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a8448dc8f012f07065f881476c660ea73}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a8448dc8f012f07065f881476c660ea73}
+
+\begin{DoxyCompactList}\small\item\em restore all the \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} of this Render\+States \end{DoxyCompactList}\item 
+void {\bfseries read} (\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a3b40823607d02f122e5ef2267a8c4509}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a3b40823607d02f122e5ef2267a8c4509}
+
+\item 
+void {\bfseries write} (\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a685db9fb2920542f95e9fecd2ce79369}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a685db9fb2920542f95e9fecd2ce79369}
+
+\end{DoxyCompactItemize}
+\subsection*{靜態公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+static const \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} {\bfseries default\+State\+Block}\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_aba42323670b5b3bb2b09e033d1173da5}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_aba42323670b5b3bb2b09e033d1173da5}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Material}\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_aa1212b6e372a0f45d2c01f3cd203af77}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_aa1212b6e372a0f45d2c01f3cd203af77}
+
+\item 
+class {\bfseries Material\+::\+Resource}\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a6a002bcee6c883089769545352e9ccbd}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a6a002bcee6c883089769545352e9ccbd}
+
+\item 
+class {\bfseries Material\+::\+Resource\+Importer}\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a941a71e735085112a8496c27836506ee}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a941a71e735085112a8496c27836506ee}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block}. 
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block}. This is the \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block}, \hyperlink{class_i_dream_sky_1_1_state}{State} Information of this \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Material\+::\+State\+Block@{I\+Dream\+Sky\+::\+Material\+::\+State\+Block}!State\+Block@{State\+Block}}
+\index{State\+Block@{State\+Block}!I\+Dream\+Sky\+::\+Material\+::\+State\+Block@{I\+Dream\+Sky\+::\+Material\+::\+State\+Block}}
+\subsubsection[{\texorpdfstring{State\+Block()}{StateBlock()}}]{\setlength{\rightskip}{0pt plus 5cm}Material\+::\+State\+Block\+::\+State\+Block (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_aeeb8bcab6671808d46ad78b1dbb72cd1}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_aeeb8bcab6671808d46ad78b1dbb72cd1}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} for the \hyperlink{class_i_dream_sky_1_1_material}{Material}. \index{I\+Dream\+Sky\+::\+Material\+::\+State\+Block@{I\+Dream\+Sky\+::\+Material\+::\+State\+Block}!````~State\+Block@{$\sim$\+State\+Block}}
+\index{````~State\+Block@{$\sim$\+State\+Block}!I\+Dream\+Sky\+::\+Material\+::\+State\+Block@{I\+Dream\+Sky\+::\+Material\+::\+State\+Block}}
+\subsubsection[{\texorpdfstring{$\sim$\+State\+Block()}{~StateBlock()}}]{\setlength{\rightskip}{0pt plus 5cm}Material\+::\+State\+Block\+::$\sim$\+State\+Block (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_ac28531650d7c81a4d7671dfdde4354c8}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_ac28531650d7c81a4d7671dfdde4354c8}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_material_1_1_state_block}{State\+Block}. \index{I\+Dream\+Sky\+::\+Material\+::\+State\+Block@{I\+Dream\+Sky\+::\+Material\+::\+State\+Block}!State\+Block@{State\+Block}}
+\index{State\+Block@{State\+Block}!I\+Dream\+Sky\+::\+Material\+::\+State\+Block@{I\+Dream\+Sky\+::\+Material\+::\+State\+Block}}
+\subsubsection[{\texorpdfstring{State\+Block(\+Material\+::\+State\+Block \&other)}{StateBlock(Material::StateBlock &other)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Material\+::\+State\+Block\+::\+State\+Block (
+\begin{DoxyParamCaption}
+\item[{{\bf Material\+::\+State\+Block} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a5fa5631f46632acb9af1ae8b7fe358ad}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a5fa5631f46632acb9af1ae8b7fe358ad}
+
+
+Copy Constructor. 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Material\+::\+State\+Block@{I\+Dream\+Sky\+::\+Material\+::\+State\+Block}!operator=@{operator=}}
+\index{operator=@{operator=}!I\+Dream\+Sky\+::\+Material\+::\+State\+Block@{I\+Dream\+Sky\+::\+Material\+::\+State\+Block}}
+\subsubsection[{\texorpdfstring{operator=(const Material\+::\+State\+Block \&other)}{operator=(const Material::StateBlock &other)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Material\+::\+State\+Block} \& Material\+::\+State\+Block\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Material\+::\+State\+Block} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_state_block_a19f6516728b90762ee945d288384b052}{}\label{class_i_dream_sky_1_1_material_1_1_state_block_a19f6516728b90762ee945d288384b052}
+
+
+Assigned operator. 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Material.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Material.\+cpp\end{DoxyCompactItemize}

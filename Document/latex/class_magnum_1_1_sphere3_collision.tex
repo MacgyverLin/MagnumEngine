@@ -1,0 +1,380 @@
+\hypertarget{class_magnum_1_1_sphere3_collision}{}\section{Magnum\+:\+:Sphere3\+Collision 類別 參考文件}
+\label{class_magnum_1_1_sphere3_collision}\index{Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}}
+
+
+This is the sub class for spherical \hyperlink{class_magnum_1_1_collision}{Collision} Object.  
+
+
+
+
+{\ttfamily \#include $<$Sphere3\+Collision.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Sphere3\+Collision的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{class_magnum_1_1_sphere3_collision__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Sphere3\+Collision的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{class_magnum_1_1_sphere3_collision__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_sphere3_collision_a9da6a13091c103cb520e9c10c0fc1360}{Sphere3\+Collision} (const float \&radius\+\_\+=1)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_sphere3_collision}{Sphere3\+Collision} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_sphere3_collision_a274417dc6054f6c9509fb8efeba88cdc}{$\sim$\+Sphere3\+Collision} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_sphere3_collision}{Sphere3\+Collision} Destructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_sphere3_collision_abd9f5a829661c4d4aac40da32bb95cf2}{set\+Radius} (const float \&radius\+\_\+)
+\begin{DoxyCompactList}\small\item\em This function set the radius of the sphere. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_sphere3_collision_a92f0a4804bb7cd7d0d7a343e69c6d11d}{get\+Radius} () const 
+\begin{DoxyCompactList}\small\item\em This function return the radius of the sphere. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_sphere3_collision_a54686b42bb5841ad0ad882f748b7dfad}{is\+Inside} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&world\+\_\+point)
+\begin{DoxyCompactList}\small\item\em This is a virtual function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \hyperlink{class_magnum_1_1_sphere3_collision_a401bddbc02cbbe9aeb8ab9b536aba7fb}{test} (float dt, \hyperlink{class_magnum_1_1_collision}{Collision} $\ast$other\+\_\+, \hyperlink{class_magnum_1_1_collision_1_1_contact_info}{Contact\+Info} \&info\+\_\+)
+\begin{DoxyCompactList}\small\item\em This function test for collision in general, if other\+\_\+ is sphere it will call test\+With\+Sphere3. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_sphere3_collision_a7d3bd58c5d443ca38cfc060057298be6}{test\+With\+Sphere3} (float dt, \hyperlink{class_magnum_1_1_collision}{Collision} $\ast$other\+\_\+, \hyperlink{class_magnum_1_1_collision_1_1_contact_info}{Contact\+Info} \&info\+\_\+)
+\begin{DoxyCompactList}\small\item\em This function test for collision with \hyperlink{class_magnum_1_1_sphere3}{Sphere3}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_sphere3_collision_a412a102d642fd2e0d55cbeb882ff83a3}{test\+With\+Scene} (float dt, \hyperlink{class_magnum_1_1_collision}{Collision} $\ast$other\+\_\+, \hyperlink{class_magnum_1_1_collision_1_1_contact_info}{Contact\+Info} \&info\+\_\+)
+\begin{DoxyCompactList}\small\item\em This function test for collision with \hyperlink{class_magnum_1_1_scene}{Scene}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Collision}\hypertarget{class_magnum_1_1_sphere3_collision_aa08e39e5a8a0a97f10c15f0c5d98013b}{}\label{class_magnum_1_1_sphere3_collision_aa08e39e5a8a0a97f10c15f0c5d98013b}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+This is the sub class for spherical \hyperlink{class_magnum_1_1_collision}{Collision} Object. 
+
+The Position/\+Rotation \hyperlink{class_magnum_1_1_collision}{Collision} Sphere can be retrieve by \hyperlink{class_magnum_1_1_collision_aed5c534471618d2057cafb33fe0f9a9d}{get\+Transform()}. Its radius is set by \hyperlink{class_magnum_1_1_sphere3_collision_abd9f5a829661c4d4aac40da32bb95cf2}{Sphere3\+Collision\+::set\+Radius} Scaling of the \hyperlink{class_magnum_1_1_transform}{Transform} is not supported. 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}!Sphere3\+Collision@{Sphere3\+Collision}}
+\index{Sphere3\+Collision@{Sphere3\+Collision}!Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}}
+\subsubsection[{\texorpdfstring{Sphere3\+Collision(const float \&radius\+\_\+=1)}{Sphere3Collision(const float &radius_=1)}}]{\setlength{\rightskip}{0pt plus 5cm}Sphere3\+Collision\+::\+Sphere3\+Collision (
+\begin{DoxyParamCaption}
+\item[{const float \&}]{radius\+\_\+ = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_sphere3_collision_a9da6a13091c103cb520e9c10c0fc1360}{}\label{class_magnum_1_1_sphere3_collision_a9da6a13091c103cb520e9c10c0fc1360}
+
+
+\hyperlink{class_magnum_1_1_sphere3_collision}{Sphere3\+Collision} Constructor. 
+
+The constructor.
+
+To Construct the \hyperlink{class_magnum_1_1_sphere3_collision}{Sphere3\+Collision} 
+\begin{DoxyParams}{參數}
+{\em radius\+\_\+,float,the} & radius of the Sphere\\
+\hline
+{\em radius\+\_\+} & The radius of this Sphere Collider, default value 1 \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}!````~Sphere3\+Collision@{$\sim$\+Sphere3\+Collision}}
+\index{````~Sphere3\+Collision@{$\sim$\+Sphere3\+Collision}!Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}}
+\subsubsection[{\texorpdfstring{$\sim$\+Sphere3\+Collision()}{~Sphere3Collision()}}]{\setlength{\rightskip}{0pt plus 5cm}Sphere3\+Collision\+::$\sim$\+Sphere3\+Collision (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_sphere3_collision_a274417dc6054f6c9509fb8efeba88cdc}{}\label{class_magnum_1_1_sphere3_collision_a274417dc6054f6c9509fb8efeba88cdc}
+
+
+\hyperlink{class_magnum_1_1_sphere3_collision}{Sphere3\+Collision} Destructor. 
+
+The destructor.
+
+To Destruct \hyperlink{class_magnum_1_1_sphere3_collision}{Sphere3\+Collision}
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}!get\+Radius@{get\+Radius}}
+\index{get\+Radius@{get\+Radius}!Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}}
+\subsubsection[{\texorpdfstring{get\+Radius() const }{getRadius() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Sphere3\+Collision\+::get\+Radius (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_sphere3_collision_a92f0a4804bb7cd7d0d7a343e69c6d11d}{}\label{class_magnum_1_1_sphere3_collision_a92f0a4804bb7cd7d0d7a343e69c6d11d}
+
+
+This function return the radius of the sphere. 
+
+get the Radius of this Sphere Collider
+
+\begin{DoxyReturn}{傳回值}
+float the radius of the Sphere
+
+float The radius of this Sphere Collider 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_sphere3_collision_a92f0a4804bb7cd7d0d7a343e69c6d11d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}!is\+Inside@{is\+Inside}}
+\index{is\+Inside@{is\+Inside}!Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}}
+\subsubsection[{\texorpdfstring{is\+Inside(const Vector3 \&world\+\_\+point)}{isInside(const Vector3 &world_point)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Sphere3\+Collision\+::is\+Inside (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{world\+\_\+point}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_sphere3_collision_a54686b42bb5841ad0ad882f748b7dfad}{}\label{class_magnum_1_1_sphere3_collision_a54686b42bb5841ad0ad882f748b7dfad}
+
+
+This is a virtual function. 
+
+This is a pure virtual function.
+
+The function checks if a point, defined in world space, is inside the collision shape
+
+
+\begin{DoxyParams}{參數}
+{\em world\+\_\+point} & the coordinates, defined in world space, to be checked against the collider\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if world\+\_\+point is inside collision false if world\+\_\+point is not inside collision 
+\end{DoxyReturn}
+
+
+依據\hyperlink{class_magnum_1_1_collision_a129bf6c62902ea60649bb4dfdc51064b}{Magnum\+::\+Collision}重新實作.
+
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_sphere3_collision_a54686b42bb5841ad0ad882f748b7dfad_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}!set\+Radius@{set\+Radius}}
+\index{set\+Radius@{set\+Radius}!Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}}
+\subsubsection[{\texorpdfstring{set\+Radius(const float \&radius\+\_\+)}{setRadius(const float &radius_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Sphere3\+Collision\+::set\+Radius (
+\begin{DoxyParamCaption}
+\item[{const float \&}]{radius\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_sphere3_collision_abd9f5a829661c4d4aac40da32bb95cf2}{}\label{class_magnum_1_1_sphere3_collision_abd9f5a829661c4d4aac40da32bb95cf2}
+
+
+This function set the radius of the sphere. 
+
+Set the Radius of this Sphere Collider.
+
+
+\begin{DoxyParams}{參數}
+{\em radius\+\_\+,float,the} & radius of the Sphere\\
+\hline
+{\em radius\+\_\+} & The radius of this Sphere Collider \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}!test@{test}}
+\index{test@{test}!Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}}
+\subsubsection[{\texorpdfstring{test(float dt, Collision $\ast$other\+\_\+, Contact\+Info \&info\+\_\+)}{test(float dt, Collision *other_, ContactInfo &info_)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Sphere3\+Collision\+::test (
+\begin{DoxyParamCaption}
+\item[{float}]{dt, }
+\item[{{\bf Collision} $\ast$}]{other\+\_\+, }
+\item[{{\bf Contact\+Info} \&}]{info\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_sphere3_collision_a401bddbc02cbbe9aeb8ab9b536aba7fb}{}\label{class_magnum_1_1_sphere3_collision_a401bddbc02cbbe9aeb8ab9b536aba7fb}
+
+
+This function test for collision in general, if other\+\_\+ is sphere it will call test\+With\+Sphere3. 
+
+The function is a core function for calculate collision.
+
+if the other\+\_\+ is \hyperlink{class_magnum_1_1_scene}{Scene}, it will call 
+\begin{DoxyParams}{參數}
+{\em dt,the} & time elapse. \\
+\hline
+{\em other\+\_\+,the} & Other collision object. \\
+\hline
+{\em info\+\_\+,if} & collision is detected, the Contact\+Info of the collision is return here.\\
+\hline
+\end{DoxyParams}
+This function implements the collision detection with all possible type of other\+\_\+ enummerated by \hyperlink{class_magnum_1_1_collision_af96418629e7663358a39f8138bc412a7}{Collision\+::\+Type}
+
+
+\begin{DoxyParams}{參數}
+{\em other} & the other collision instance to be checked with \\
+\hline
+{\em info\+\_\+.\+collided} & set by this function, true if collision occurs, false other wise \\
+\hline
+{\em info\+\_\+.\+contact\+Point} & set by this function, the calculated Contact Point of the Collided surface \\
+\hline
+{\em info\+\_\+.\+contact\+Normal} & set by this function, the calculated Contact Normal of the Collided surface \\
+\hline
+{\em info\+\_\+.\+penetration\+Depth} & set by this function, the depth in which this instance penetrate with the other.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if collision detection is calculated false if collision detection is not calculated, i.\+e. no implemnetation 
+\end{DoxyReturn}
+
+
+依據\hyperlink{class_magnum_1_1_collision_aaea103ce5b2bc5930ab754e4d2b6247b}{Magnum\+::\+Collision}重新實作.
+
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_sphere3_collision_a401bddbc02cbbe9aeb8ab9b536aba7fb_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}!test\+With\+Scene@{test\+With\+Scene}}
+\index{test\+With\+Scene@{test\+With\+Scene}!Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}}
+\subsubsection[{\texorpdfstring{test\+With\+Scene(float dt, Collision $\ast$other\+\_\+, Contact\+Info \&info\+\_\+)}{testWithScene(float dt, Collision *other_, ContactInfo &info_)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Sphere3\+Collision\+::test\+With\+Scene (
+\begin{DoxyParamCaption}
+\item[{float}]{dt, }
+\item[{{\bf Collision} $\ast$}]{other\+\_\+, }
+\item[{{\bf Contact\+Info} \&}]{info\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_magnum_1_1_sphere3_collision_a412a102d642fd2e0d55cbeb882ff83a3}{}\label{class_magnum_1_1_sphere3_collision_a412a102d642fd2e0d55cbeb882ff83a3}
+
+
+This function test for collision with \hyperlink{class_magnum_1_1_scene}{Scene}. 
+
+The function is a core function for calculate collision.
+
+
+\begin{DoxyParams}{參數}
+{\em dt,the} & time elapse. \\
+\hline
+{\em other\+\_\+,the} & Other collision object. \\
+\hline
+{\em info\+\_\+,if} & collision is detected, the Contact\+Info of the collision is return here.\\
+\hline
+\end{DoxyParams}
+This function implements the collision detection with \hyperlink{class_magnum_1_1_scene_collision}{Scene\+Collision} enummerated by \hyperlink{class_magnum_1_1_collision_af96418629e7663358a39f8138bc412a7}{Collision\+::\+Type}
+
+
+\begin{DoxyParams}{參數}
+{\em other} & the other collision instance to be checked with \\
+\hline
+{\em info\+\_\+.\+collided} & set by this function, true if collision occurs, false other wise \\
+\hline
+{\em info\+\_\+.\+contact\+Point} & set by this function, the calculated Contact Point of the Collided surface \\
+\hline
+{\em info\+\_\+.\+contact\+Normal} & set by this function, the calculated Contact Normal of the Collided surface \\
+\hline
+{\em info\+\_\+.\+penetration\+Depth} & set by this function, the depth in which this instance penetrate with the other.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if collision detection is calculated false if collision detection is not calculated, i.\+e. no implemnetation 
+\end{DoxyReturn}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_sphere3_collision_a412a102d642fd2e0d55cbeb882ff83a3_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_sphere3_collision_a412a102d642fd2e0d55cbeb882ff83a3_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}!test\+With\+Sphere3@{test\+With\+Sphere3}}
+\index{test\+With\+Sphere3@{test\+With\+Sphere3}!Magnum\+::\+Sphere3\+Collision@{Magnum\+::\+Sphere3\+Collision}}
+\subsubsection[{\texorpdfstring{test\+With\+Sphere3(float dt, Collision $\ast$other\+\_\+, Contact\+Info \&info\+\_\+)}{testWithSphere3(float dt, Collision *other_, ContactInfo &info_)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Sphere3\+Collision\+::test\+With\+Sphere3 (
+\begin{DoxyParamCaption}
+\item[{float}]{dt, }
+\item[{{\bf Collision} $\ast$}]{other\+\_\+, }
+\item[{{\bf Contact\+Info} \&}]{info\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_magnum_1_1_sphere3_collision_a7d3bd58c5d443ca38cfc060057298be6}{}\label{class_magnum_1_1_sphere3_collision_a7d3bd58c5d443ca38cfc060057298be6}
+
+
+This function test for collision with \hyperlink{class_magnum_1_1_sphere3}{Sphere3}. 
+
+The function is a core function for calculate collision.
+
+
+\begin{DoxyParams}{參數}
+{\em dt,the} & time elapse. \\
+\hline
+{\em other\+\_\+,the} & Other collision object. \\
+\hline
+{\em info\+\_\+,if} & collision is detected, the Contact\+Info of the collision is return here.\\
+\hline
+\end{DoxyParams}
+This function implements the collision detection with Sphere\+Collision enummerated by \hyperlink{class_magnum_1_1_collision_af96418629e7663358a39f8138bc412a7}{Collision\+::\+Type}
+
+
+\begin{DoxyParams}{參數}
+{\em other} & the other collision instance to be checked with \\
+\hline
+{\em info\+\_\+.\+collided} & set by this function, true if collision occurs, false other wise \\
+\hline
+{\em info\+\_\+.\+contact\+Point} & set by this function, the calculated Contact Point of the Collided surface \\
+\hline
+{\em info\+\_\+.\+contact\+Normal} & set by this function, the calculated Contact Normal of the Collided surface \\
+\hline
+{\em info\+\_\+.\+penetration\+Depth} & set by this function, the depth in which this instance penetrate with the other.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if collision detection is calculated false if collision detection is not calculated, i.\+e. no implemnetation 
+\end{DoxyReturn}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_sphere3_collision_a7d3bd58c5d443ca38cfc060057298be6_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_sphere3_collision_a7d3bd58c5d443ca38cfc060057298be6_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Sphere3\+Collision.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Sphere3\+Collision.\+cpp\end{DoxyCompactItemize}

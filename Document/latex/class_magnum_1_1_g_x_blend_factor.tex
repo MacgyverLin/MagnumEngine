@@ -1,0 +1,89 @@
+\hypertarget{class_magnum_1_1_g_x_blend_factor}{}\section{Magnum\+:\+:G\+X\+Blend\+Factor 類別 參考文件}
+\label{class_magnum_1_1_g_x_blend_factor}\index{Magnum\+::\+G\+X\+Blend\+Factor@{Magnum\+::\+G\+X\+Blend\+Factor}}
+
+
+\hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} encapsulate a Blend Factor Blending Equation\+: Add Cs $\ast$ Fs + Cd $\ast$ Fs Subtract Cs $\ast$ Fs -\/ Cd $\ast$ Fs Reverse\+Subtract Cd $\ast$ Fs -\/ Cs $\ast$ Fs where Fs, Fd are blend factor for source and destination respectively where Cs, Cd are color of fragment or frame buffer and destination respectively.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Def.\+h$>$}
+
+
+
+Magnum\+:\+:G\+X\+Blend\+Factor的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{class_magnum_1_1_g_x_blend_factor__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+X\+Blend\+Factor} (unsigned int order\+\_\+=0)\hypertarget{class_magnum_1_1_g_x_blend_factor_a67d25d21dbca2d6c77bd654ff99b9f03}{}\label{class_magnum_1_1_g_x_blend_factor_a67d25d21dbca2d6c77bd654ff99b9f03}
+
+\item 
+{\bfseries operator unsigned int} ()\hypertarget{class_magnum_1_1_g_x_blend_factor_ae1af9b613f2086236f6f7333ae3e37c3}{}\label{class_magnum_1_1_g_x_blend_factor_ae1af9b613f2086236f6f7333ae3e37c3}
+
+\item 
+{\bfseries operator const unsigned int} () const \hypertarget{class_magnum_1_1_g_x_blend_factor_a6d8e8a59012ca086d0f876c8edf126bc}{}\label{class_magnum_1_1_g_x_blend_factor_a6d8e8a59012ca086d0f876c8edf126bc}
+
+\item 
+unsigned int {\bfseries get\+Value} () const \hypertarget{class_magnum_1_1_g_x_blend_factor_a3398cb47ec7134f439349644005633da}{}\label{class_magnum_1_1_g_x_blend_factor_a3398cb47ec7134f439349644005633da}
+
+\item 
+bool {\bfseries set} (const \hyperlink{class_magnum_1_1_string}{String} \&value)\hypertarget{class_magnum_1_1_g_x_blend_factor_a557137b024008c2f1ecbe9b41e57570f}{}\label{class_magnum_1_1_g_x_blend_factor_a557137b024008c2f1ecbe9b41e57570f}
+
+\item 
+void {\bfseries read} (\hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_magnum_1_1_g_x_blend_factor_a67ca271fc58c0f3915f8c1866dde55ee}{}\label{class_magnum_1_1_g_x_blend_factor_a67ca271fc58c0f3915f8c1866dde55ee}
+
+\item 
+void {\bfseries write} (\hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_magnum_1_1_g_x_blend_factor_ac4cbf06e181feb6bd30981f5e6cc7b19}{}\label{class_magnum_1_1_g_x_blend_factor_ac4cbf06e181feb6bd30981f5e6cc7b19}
+
+\end{DoxyCompactItemize}
+\subsection*{靜態公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+static const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \hyperlink{class_magnum_1_1_g_x_blend_factor_a975e0d341a5a34242d5b96d5371dd747}{Zero}\hypertarget{class_magnum_1_1_g_x_blend_factor_a975e0d341a5a34242d5b96d5371dd747}{}\label{class_magnum_1_1_g_x_blend_factor_a975e0d341a5a34242d5b96d5371dd747}
+
+\begin{DoxyCompactList}\small\item\em Blend Factor=0. \end{DoxyCompactList}\item 
+static const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \hyperlink{class_magnum_1_1_g_x_blend_factor_a0d83c403b4aee7abdd97f3ff8c74b59b}{One}\hypertarget{class_magnum_1_1_g_x_blend_factor_a0d83c403b4aee7abdd97f3ff8c74b59b}{}\label{class_magnum_1_1_g_x_blend_factor_a0d83c403b4aee7abdd97f3ff8c74b59b}
+
+\begin{DoxyCompactList}\small\item\em Blend Factor=1. \end{DoxyCompactList}\item 
+static const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \hyperlink{class_magnum_1_1_g_x_blend_factor_a0fd76a24a6639b9df6d9a0b37f82334a}{Src\+Color}\hypertarget{class_magnum_1_1_g_x_blend_factor_a0fd76a24a6639b9df6d9a0b37f82334a}{}\label{class_magnum_1_1_g_x_blend_factor_a0fd76a24a6639b9df6d9a0b37f82334a}
+
+\begin{DoxyCompactList}\small\item\em Blend Factor=Cs. \end{DoxyCompactList}\item 
+static const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \hyperlink{class_magnum_1_1_g_x_blend_factor_a38ba7eeb2783422ea42c6441978a6c30}{One\+Minus\+Src\+Color}\hypertarget{class_magnum_1_1_g_x_blend_factor_a38ba7eeb2783422ea42c6441978a6c30}{}\label{class_magnum_1_1_g_x_blend_factor_a38ba7eeb2783422ea42c6441978a6c30}
+
+\begin{DoxyCompactList}\small\item\em Blend Factor=1-\/\+Cs. \end{DoxyCompactList}\item 
+static const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \hyperlink{class_magnum_1_1_g_x_blend_factor_a6c57870aa0d05bd567b8864985a0d2f0}{Src\+Alpha}\hypertarget{class_magnum_1_1_g_x_blend_factor_a6c57870aa0d05bd567b8864985a0d2f0}{}\label{class_magnum_1_1_g_x_blend_factor_a6c57870aa0d05bd567b8864985a0d2f0}
+
+\begin{DoxyCompactList}\small\item\em Blend Factor=As. \end{DoxyCompactList}\item 
+static const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \hyperlink{class_magnum_1_1_g_x_blend_factor_a2ef0fb69901d4be3bd2cb40c1215e110}{One\+Minus\+Src\+Alpha}\hypertarget{class_magnum_1_1_g_x_blend_factor_a2ef0fb69901d4be3bd2cb40c1215e110}{}\label{class_magnum_1_1_g_x_blend_factor_a2ef0fb69901d4be3bd2cb40c1215e110}
+
+\begin{DoxyCompactList}\small\item\em Blend Factor=1-\/\+As. \end{DoxyCompactList}\item 
+static const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \hyperlink{class_magnum_1_1_g_x_blend_factor_a9baf2930ea98a6612c347d2b5dec36a3}{Dst\+Color}\hypertarget{class_magnum_1_1_g_x_blend_factor_a9baf2930ea98a6612c347d2b5dec36a3}{}\label{class_magnum_1_1_g_x_blend_factor_a9baf2930ea98a6612c347d2b5dec36a3}
+
+\begin{DoxyCompactList}\small\item\em Blend Factor=Cd. \end{DoxyCompactList}\item 
+static const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \hyperlink{class_magnum_1_1_g_x_blend_factor_aa85ad8d1ba4063b57cafb6de33aff6cb}{One\+Minus\+Dst\+Color}\hypertarget{class_magnum_1_1_g_x_blend_factor_aa85ad8d1ba4063b57cafb6de33aff6cb}{}\label{class_magnum_1_1_g_x_blend_factor_aa85ad8d1ba4063b57cafb6de33aff6cb}
+
+\begin{DoxyCompactList}\small\item\em Blend Factor=1-\/\+Cd. \end{DoxyCompactList}\item 
+static const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \hyperlink{class_magnum_1_1_g_x_blend_factor_af3a0e23be0b21c46f3174d0de19aad11}{Dst\+Alpha}\hypertarget{class_magnum_1_1_g_x_blend_factor_af3a0e23be0b21c46f3174d0de19aad11}{}\label{class_magnum_1_1_g_x_blend_factor_af3a0e23be0b21c46f3174d0de19aad11}
+
+\begin{DoxyCompactList}\small\item\em Blend Factor=Ad. \end{DoxyCompactList}\item 
+static const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \hyperlink{class_magnum_1_1_g_x_blend_factor_ad6dc91e8282c66b2299d999e6046ad7f}{One\+Minus\+Dst\+Alpha}\hypertarget{class_magnum_1_1_g_x_blend_factor_ad6dc91e8282c66b2299d999e6046ad7f}{}\label{class_magnum_1_1_g_x_blend_factor_ad6dc91e8282c66b2299d999e6046ad7f}
+
+\begin{DoxyCompactList}\small\item\em Blend Factor=1-\/\+Ad. \end{DoxyCompactList}\item 
+static const \hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} \hyperlink{class_magnum_1_1_g_x_blend_factor_a4527e91ff4267d77e7c96852f61423ba}{Src\+Alpha\+Saturate}\hypertarget{class_magnum_1_1_g_x_blend_factor_a4527e91ff4267d77e7c96852f61423ba}{}\label{class_magnum_1_1_g_x_blend_factor_a4527e91ff4267d77e7c96852f61423ba}
+
+\begin{DoxyCompactList}\small\item\em Blend Factor=As. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_g_x_blend_factor}{G\+X\+Blend\+Factor} encapsulate a Blend Factor Blending Equation\+: Add Cs $\ast$ Fs + Cd $\ast$ Fs Subtract Cs $\ast$ Fs -\/ Cd $\ast$ Fs Reverse\+Subtract Cd $\ast$ Fs -\/ Cs $\ast$ Fs where Fs, Fd are blend factor for source and destination respectively where Cs, Cd are color of fragment or frame buffer and destination respectively. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Def.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Def.\+cpp\end{DoxyCompactItemize}

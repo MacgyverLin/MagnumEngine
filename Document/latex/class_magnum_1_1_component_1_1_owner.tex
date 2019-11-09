@@ -1,0 +1,665 @@
+\hypertarget{class_magnum_1_1_component_1_1_owner}{}\section{Magnum\+:\+:Component\+:\+:Owner 類別 參考文件}
+\label{class_magnum_1_1_component_1_1_owner}\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+
+
+\hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}.  
+
+
+
+
+{\ttfamily \#include $<$Component.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Component\+:\+:Owner的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{class_magnum_1_1_component_1_1_owner__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Component\+:\+:Owner的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{class_magnum_1_1_component_1_1_owner__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_component_1_1_owner_aca1a7487123900c93da0de29a5974f8b}{Owner} ()\hypertarget{class_magnum_1_1_component_1_1_owner_aca1a7487123900c93da0de29a5974f8b}{}\label{class_magnum_1_1_component_1_1_owner_aca1a7487123900c93da0de29a5974f8b}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} Constructor To Construct the \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_component_1_1_owner_af1b9c8d2c072df49f7db39592e016b44}{$\sim$\+Owner} ()\hypertarget{class_magnum_1_1_component_1_1_owner_af1b9c8d2c072df49f7db39592e016b44}{}\label{class_magnum_1_1_component_1_1_owner_af1b9c8d2c072df49f7db39592e016b44}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} Destructor To Destructor the \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}. \end{DoxyCompactList}\item 
+{\bfseries C\+L\+A\+SS} (\hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner}, \hyperlink{classagm_1_1reflection_1_1_null_class}{agm\+::reflection\+::\+Null\+Class})\hypertarget{class_magnum_1_1_component_1_1_owner_a9d9a7e6b24dccb3554a47da90e914d0c}{}\label{class_magnum_1_1_component_1_1_owner_a9d9a7e6b24dccb3554a47da90e914d0c}
+
+\item 
+\hyperlink{class_magnum_1_1_component_1_1_owner_a619164b31cc171b995af57a274582daa}{P\+R\+O\+P\+E\+R\+TY} (\hyperlink{class_magnum_1_1_string}{String}, Name)
+\begin{DoxyCompactList}\small\item\em Set the Name of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_component_1_1_owner_a207f8d1f1003f66cbcb74be31eab6fd1}{P\+R\+O\+P\+E\+R\+TY} (\hyperlink{class_magnum_1_1_string}{String}, Tag)
+\begin{DoxyCompactList}\small\item\em Set the Tag of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_component_1_1_owner_a0d185a08081f3426e5d92264ab240331}{P\+R\+O\+P\+E\+R\+TY} (unsigned int, \hyperlink{class_magnum_1_1_layer}{Layer})
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_layer}{Layer} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, \hyperlink{class_magnum_1_1_layer}{Layer} value is used for Camera or \hyperlink{class_magnum_1_1_collision}{Collision} Filtering. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_component_1_1_owner_aec6c47111d6f1d92cfadd446e3a77f81}{P\+R\+O\+P\+E\+R\+TY} (bool, Active)
+\begin{DoxyCompactList}\small\item\em Set the Activation \hyperlink{class_magnum_1_1_state}{State} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, if the owner is not active, it become non functional as well as all of its component. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_component_1_1_owner_a2f21802f16d84f0458640ce87f8398df}{P\+R\+O\+P\+E\+R\+TY} (bool, Static)
+\begin{DoxyCompactList}\small\item\em Set the Static \hyperlink{class_magnum_1_1_state}{State} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, if the component is not static, it will be optimized for physics. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_component_1_1_owner_a534bf399acb1fe6c2756aab7fc49d973}{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC} (\hyperlink{class_magnum_1_1_s_r_t_transform}{S\+R\+T\+Transform}, \hyperlink{class_magnum_1_1_transform}{Transform},\{\hyperlink{class_magnum_1_1_s_r_t_transform}{S\+R\+T\+Transform} srt;const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&mat=\hyperlink{class_magnum_1_1_frame3_a024b5f957cbb324a48e16b264d960410}{get\+Local\+Transform}();mat.\+To\+S\+RT(srt.\+S(), srt.\+R(), srt.\+T());return srt;\},\{\hyperlink{class_magnum_1_1_matrix4}{Matrix4} mat;mat.\+From\+S\+RT(value.\+S(), value.\+R(), value.\+T());\hyperlink{class_magnum_1_1_frame3_a83afcd522b770d9f91539a5edd120b71}{set\+Local\+Transform}(mat);\})
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_transform}{Transform} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, the transform will shared across the owner and component. \end{DoxyCompactList}\item 
+unsigned int {\bfseries get\+Unique\+ID} () const \hypertarget{class_magnum_1_1_component_1_1_owner_a369116f1f6c84117e76a5237376c2f59}{}\label{class_magnum_1_1_component_1_1_owner_a369116f1f6c84117e76a5237376c2f59}
+
+\item 
+int \hyperlink{class_magnum_1_1_component_1_1_owner_a936488a8c0a2e5eca370ca4112be7f11}{get\+Num\+Components} () const 
+\begin{DoxyCompactList}\small\item\em Get the Number of Components,. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_component}{Component} $\ast$ \hyperlink{class_magnum_1_1_component_1_1_owner_abed74294c87ac3b84663441feb20f5a7}{get\+Component} (int i)
+\begin{DoxyCompactList}\small\item\em Get the Components at index i. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_component}{Component} $\ast$ \hyperlink{class_magnum_1_1_component_1_1_owner_aa658bf4938f0216a0db979c6324f9666}{get\+Component} (int i) const 
+\begin{DoxyCompactList}\small\item\em Get the Components at index i. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_component}{Component} $\ast$ \hyperlink{class_magnum_1_1_component_1_1_owner_a098a31b0eb76e8f6c661cd9542866a3d}{get\+Component} (const char $\ast$name\+\_\+)
+\begin{DoxyCompactList}\small\item\em Get the Components by its name. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_component}{Component} $\ast$ \hyperlink{class_magnum_1_1_component_1_1_owner_ab574cb2132f012f7400ef489aefa4005}{get\+Component} (const char $\ast$name\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the Components by its name. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_component_1_1_owner_abf13c26d4fc4c07fad6893aac99bad3d}{is\+Editor\+Mode\+Active} () const 
+\begin{DoxyCompactList}\small\item\em Check if currently in Editor Mode. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_a87291f87dfe3a340fd4983ccfcfa9c50}{select} ()\hypertarget{class_magnum_1_1_component_1_1_owner_a87291f87dfe3a340fd4983ccfcfa9c50}{}\label{class_magnum_1_1_component_1_1_owner_a87291f87dfe3a340fd4983ccfcfa9c50}
+
+\begin{DoxyCompactList}\small\item\em Set this owner in as the S\+E\+L\+E\+C\+T\+ED \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_a586f0cf237741a4d6e37c1f63872aefb}{unselect} ()\hypertarget{class_magnum_1_1_component_1_1_owner_a586f0cf237741a4d6e37c1f63872aefb}{}\label{class_magnum_1_1_component_1_1_owner_a586f0cf237741a4d6e37c1f63872aefb}
+
+\begin{DoxyCompactList}\small\item\em If this owner is the S\+E\+L\+E\+C\+T\+ED \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, set it as unselected. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_component_1_1_owner_ad82a85171641ba638ac4334d5bc93cb4}{is\+Selected} () const \hypertarget{class_magnum_1_1_component_1_1_owner_ad82a85171641ba638ac4334d5bc93cb4}{}\label{class_magnum_1_1_component_1_1_owner_ad82a85171641ba638ac4334d5bc93cb4}
+
+\begin{DoxyCompactList}\small\item\em Check if this owner in the S\+E\+L\+E\+C\+T\+ED \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_component_1_1_owner_a6878b12a1f8e8119da43305d175bf522}{construct} ()
+\begin{DoxyCompactList}\small\item\em Construct the \hyperlink{class_magnum_1_1_component}{Component}, it do construct for itself by calling on\+Construct method and also call the construct method of all its component. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_a40b2d7b5072754e7517251d52d09c8f2}{start} ()\hypertarget{class_magnum_1_1_component_1_1_owner_a40b2d7b5072754e7517251d52d09c8f2}{}\label{class_magnum_1_1_component_1_1_owner_a40b2d7b5072754e7517251d52d09c8f2}
+
+\begin{DoxyCompactList}\small\item\em Start the \hyperlink{class_magnum_1_1_component}{Component}, it do start it for itself by calling on\+Start method and also call the start method of all its component. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_aae6b25b4cfa051ad7a76ad5ac59f08c7}{pre\+Update} (float dt)\hypertarget{class_magnum_1_1_component_1_1_owner_aae6b25b4cfa051ad7a76ad5ac59f08c7}{}\label{class_magnum_1_1_component_1_1_owner_aae6b25b4cfa051ad7a76ad5ac59f08c7}
+
+\begin{DoxyCompactList}\small\item\em Pre\+Update the \hyperlink{class_magnum_1_1_component}{Component}, it do pre\+Update for itself by calling on\+Pre\+Update method and also call the pre\+Update method of all its component. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_a2a5903c026526f83cfd5d0d808a3eecc}{update} (float dt)\hypertarget{class_magnum_1_1_component_1_1_owner_a2a5903c026526f83cfd5d0d808a3eecc}{}\label{class_magnum_1_1_component_1_1_owner_a2a5903c026526f83cfd5d0d808a3eecc}
+
+\begin{DoxyCompactList}\small\item\em Update the \hyperlink{class_magnum_1_1_component}{Component}, it do update for itself by calling on\+Update method and also call the update method of all its component. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_a8f796ed8887766aa49673abcffcba82f}{post\+Update} (float dt)\hypertarget{class_magnum_1_1_component_1_1_owner_a8f796ed8887766aa49673abcffcba82f}{}\label{class_magnum_1_1_component_1_1_owner_a8f796ed8887766aa49673abcffcba82f}
+
+\begin{DoxyCompactList}\small\item\em Post\+Update the \hyperlink{class_magnum_1_1_component}{Component}, it do post\+Update for itself by calling on\+Post\+Update method and also call the post\+Update method of all its component. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_a75d6556ec96115c162786b106e487f0a}{pause} ()\hypertarget{class_magnum_1_1_component_1_1_owner_a75d6556ec96115c162786b106e487f0a}{}\label{class_magnum_1_1_component_1_1_owner_a75d6556ec96115c162786b106e487f0a}
+
+\begin{DoxyCompactList}\small\item\em pause the \hyperlink{class_magnum_1_1_component}{Component}, it do pause for itself by calling on\+Pause method and also call the on\+Pause method of all its component \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_ac2287e82a71a7d62586b09b1ec9d1280}{resume} ()\hypertarget{class_magnum_1_1_component_1_1_owner_ac2287e82a71a7d62586b09b1ec9d1280}{}\label{class_magnum_1_1_component_1_1_owner_ac2287e82a71a7d62586b09b1ec9d1280}
+
+\begin{DoxyCompactList}\small\item\em resume the \hyperlink{class_magnum_1_1_component}{Component}, it do resume for itself by calling on\+Resume method and also call the on\+Resume method of all its component \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_a15f03464f950e9dd594e9f044827e38f}{stop} ()\hypertarget{class_magnum_1_1_component_1_1_owner_a15f03464f950e9dd594e9f044827e38f}{}\label{class_magnum_1_1_component_1_1_owner_a15f03464f950e9dd594e9f044827e38f}
+
+\begin{DoxyCompactList}\small\item\em stop the \hyperlink{class_magnum_1_1_component}{Component}, it do stop for itself by calling on\+Stop method and also call the on\+Stop method of all its component \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_af9a6ef2721ea21d86aece54ab1bae0c0}{destruct} ()\hypertarget{class_magnum_1_1_component_1_1_owner_af9a6ef2721ea21d86aece54ab1bae0c0}{}\label{class_magnum_1_1_component_1_1_owner_af9a6ef2721ea21d86aece54ab1bae0c0}
+
+\begin{DoxyCompactList}\small\item\em destruct the \hyperlink{class_magnum_1_1_component}{Component}, it do destruct for itself by calling on\+Destruct method and also call the on\+Destruct method of all its component \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_a4bcd81179c5e4ce113f88c6925149ef4}{debug\+Render} (\hyperlink{class_magnum_1_1_i_component_debug_renderer}{I\+Component\+Debug\+Renderer} \&debug\+Renderer)\hypertarget{class_magnum_1_1_component_1_1_owner_a4bcd81179c5e4ce113f88c6925149ef4}{}\label{class_magnum_1_1_component_1_1_owner_a4bcd81179c5e4ce113f88c6925149ef4}
+
+\begin{DoxyCompactList}\small\item\em call by Editor \hyperlink{class_magnum_1_1_service}{Service} for Debug Rendering \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_ad3a6cf325d63ebe6e67440f7c8688420}{read} (\hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} \&is)
+\begin{DoxyCompactList}\small\item\em read method for Serialization \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_component_1_1_owner_aa0aa90562a79de82adecd5b0451d3bd5}{write} (\hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} \&os) const 
+\begin{DoxyCompactList}\small\item\em write method for Serialization \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} $\ast$ \hyperlink{class_magnum_1_1_component_1_1_owner_a0235cf8f0a39af071d264c93fe83f959}{get\+Selected} ()\hypertarget{class_magnum_1_1_component_1_1_owner_a0235cf8f0a39af071d264c93fe83f959}{}\label{class_magnum_1_1_component_1_1_owner_a0235cf8f0a39af071d264c93fe83f959}
+
+\begin{DoxyCompactList}\small\item\em Get the S\+E\+L\+E\+C\+T\+ED \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \hyperlink{class_magnum_1_1_component_1_1_owner_ada62d0f70f59917efb49e4bcbebf3a56}{on\+Construct} ()
+\begin{DoxyCompactList}\small\item\em Handle Construct Event of the \hyperlink{class_magnum_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_component_1_1_owner_a19f60122b850afe5b03c80f49feef56e}{on\+Start} ()\hypertarget{class_magnum_1_1_component_1_1_owner_a19f60122b850afe5b03c80f49feef56e}{}\label{class_magnum_1_1_component_1_1_owner_a19f60122b850afe5b03c80f49feef56e}
+
+\begin{DoxyCompactList}\small\item\em Handle Start Event of the \hyperlink{class_magnum_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_component_1_1_owner_afb16090797801a819858cf93f53e2113}{on\+Pre\+Update} (float dt)
+\begin{DoxyCompactList}\small\item\em Handle on\+Pre\+Update Event of the \hyperlink{class_magnum_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_component_1_1_owner_a5ab10cdba327e2cff3fd53eddbb094b8}{on\+Update} (float dt)
+\begin{DoxyCompactList}\small\item\em Handle Update Event of the \hyperlink{class_magnum_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_component_1_1_owner_a196e67ddcee045d18d9908255f2e67d3}{on\+Post\+Update} (float dt)
+\begin{DoxyCompactList}\small\item\em Handle on\+Post\+Update Event of the \hyperlink{class_magnum_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_component_1_1_owner_acaea23801155ebf1acbab0d265d8b3d0}{on\+Pause} ()\hypertarget{class_magnum_1_1_component_1_1_owner_acaea23801155ebf1acbab0d265d8b3d0}{}\label{class_magnum_1_1_component_1_1_owner_acaea23801155ebf1acbab0d265d8b3d0}
+
+\begin{DoxyCompactList}\small\item\em Handle Pause Event of the \hyperlink{class_magnum_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_component_1_1_owner_ad8287d45f72835b21a28710904d1d791}{on\+Resume} ()\hypertarget{class_magnum_1_1_component_1_1_owner_ad8287d45f72835b21a28710904d1d791}{}\label{class_magnum_1_1_component_1_1_owner_ad8287d45f72835b21a28710904d1d791}
+
+\begin{DoxyCompactList}\small\item\em Handle Resume Event of the \hyperlink{class_magnum_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_component_1_1_owner_ae883328e19cdc0bc293dbb17ba870eb5}{on\+Stop} ()\hypertarget{class_magnum_1_1_component_1_1_owner_ae883328e19cdc0bc293dbb17ba870eb5}{}\label{class_magnum_1_1_component_1_1_owner_ae883328e19cdc0bc293dbb17ba870eb5}
+
+\begin{DoxyCompactList}\small\item\em Handle Stop Event of the \hyperlink{class_magnum_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_component_1_1_owner_a143672a60295c38510e29f0f0b53b7f0}{on\+Destruct} ()\hypertarget{class_magnum_1_1_component_1_1_owner_a143672a60295c38510e29f0f0b53b7f0}{}\label{class_magnum_1_1_component_1_1_owner_a143672a60295c38510e29f0f0b53b7f0}
+
+\begin{DoxyCompactList}\small\item\em Handle Destruct Event of the \hyperlink{class_magnum_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_component_1_1_owner_aae44f2e891f2cb1a1fd4e4fa59e37289}{on\+Debug\+Render} (\hyperlink{class_magnum_1_1_i_component_debug_renderer}{I\+Component\+Debug\+Renderer} \&debug\+Renderer)\hypertarget{class_magnum_1_1_component_1_1_owner_aae44f2e891f2cb1a1fd4e4fa59e37289}{}\label{class_magnum_1_1_component_1_1_owner_aae44f2e891f2cb1a1fd4e4fa59e37289}
+
+\begin{DoxyCompactList}\small\item\em Handle the Debug Rendering Event. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} $\ast$ \hyperlink{class_magnum_1_1_component_1_1_owner_a9b9c76f12a399d31386b4606be7e448b}{selected} = 0\hypertarget{class_magnum_1_1_component_1_1_owner_a9b9c76f12a399d31386b4606be7e448b}{}\label{class_magnum_1_1_component_1_1_owner_a9b9c76f12a399d31386b4606be7e448b}
+
+\begin{DoxyCompactList}\small\item\em the selected Components \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Component}\hypertarget{class_magnum_1_1_component_1_1_owner_a90717717700965c100968cff0188e244}{}\label{class_magnum_1_1_component_1_1_owner_a90717717700965c100968cff0188e244}
+
+\item 
+class {\bfseries Entity}\hypertarget{class_magnum_1_1_component_1_1_owner_a614439ccac0344926adc4c0165d64060}{}\label{class_magnum_1_1_component_1_1_owner_a614439ccac0344926adc4c0165d64060}
+
+\item 
+class {\bfseries Entity\+Reader}\hypertarget{class_magnum_1_1_component_1_1_owner_a56e67fba8094d0ad6c4e9a70157aeea0}{}\label{class_magnum_1_1_component_1_1_owner_a56e67fba8094d0ad6c4e9a70157aeea0}
+
+\item 
+class {\bfseries Entity\+Writer}\hypertarget{class_magnum_1_1_component_1_1_owner_a2530bdf39e07c94e0f4b49472a0ac288}{}\label{class_magnum_1_1_component_1_1_owner_a2530bdf39e07c94e0f4b49472a0ac288}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}. 
+
+\hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} is the base class of owner of component. \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} contains basic information. \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_frame3}{Frame3} 
+\end{DoxySeeAlso}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!construct@{construct}}
+\index{construct@{construct}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{construct()}{construct()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Component\+::\+Owner\+::construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_component_1_1_owner_a6878b12a1f8e8119da43305d175bf522}{}\label{class_magnum_1_1_component_1_1_owner_a6878b12a1f8e8119da43305d175bf522}
+
+
+Construct the \hyperlink{class_magnum_1_1_component}{Component}, it do construct for itself by calling on\+Construct method and also call the construct method of all its component. 
+
+\begin{DoxyReturn}{傳回值}
+true if construction is success, return false if fail 
+\end{DoxyReturn}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_magnum_1_1_component_1_1_owner_a6878b12a1f8e8119da43305d175bf522_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_component_1_1_owner_a6878b12a1f8e8119da43305d175bf522_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!get\+Component@{get\+Component}}
+\index{get\+Component@{get\+Component}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{get\+Component(int i)}{getComponent(int i)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Component} $\ast$ Component\+::\+Owner\+::get\+Component (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_component_1_1_owner_abed74294c87ac3b84663441feb20f5a7}{}\label{class_magnum_1_1_component_1_1_owner_abed74294c87ac3b84663441feb20f5a7}
+
+
+Get the Components at index i. 
+
+
+\begin{DoxyParams}{參數}
+{\em index,int} & of the component \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_component}{Component} $\ast$, the Components at index i 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_component_1_1_owner_abed74294c87ac3b84663441feb20f5a7_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!get\+Component@{get\+Component}}
+\index{get\+Component@{get\+Component}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{get\+Component(int i) const }{getComponent(int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Component} $\ast$ Component\+::\+Owner\+::get\+Component (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_component_1_1_owner_aa658bf4938f0216a0db979c6324f9666}{}\label{class_magnum_1_1_component_1_1_owner_aa658bf4938f0216a0db979c6324f9666}
+
+
+Get the Components at index i. 
+
+
+\begin{DoxyParams}{參數}
+{\em index,int} & of the component \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+const \hyperlink{class_magnum_1_1_component}{Component} $\ast$, the Components at index i 
+\end{DoxyReturn}
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!get\+Component@{get\+Component}}
+\index{get\+Component@{get\+Component}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{get\+Component(const char $\ast$name\+\_\+)}{getComponent(const char *name_)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Component} $\ast$ Component\+::\+Owner\+::get\+Component (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_component_1_1_owner_a098a31b0eb76e8f6c661cd9542866a3d}{}\label{class_magnum_1_1_component_1_1_owner_a098a31b0eb76e8f6c661cd9542866a3d}
+
+
+Get the Components by its name. 
+
+
+\begin{DoxyParams}{參數}
+{\em const} & char $\ast$ of the component \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+const \hyperlink{class_magnum_1_1_component}{Component} $\ast$, the Components with specified name 
+\end{DoxyReturn}
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!get\+Component@{get\+Component}}
+\index{get\+Component@{get\+Component}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{get\+Component(const char $\ast$name\+\_\+) const }{getComponent(const char *name_) const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Component} $\ast$ Component\+::\+Owner\+::get\+Component (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_component_1_1_owner_ab574cb2132f012f7400ef489aefa4005}{}\label{class_magnum_1_1_component_1_1_owner_ab574cb2132f012f7400ef489aefa4005}
+
+
+Get the Components by its name. 
+
+
+\begin{DoxyParams}{參數}
+{\em const} & char $\ast$ of the component \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+const \hyperlink{class_magnum_1_1_component}{Component} $\ast$, the Components with specified name 
+\end{DoxyReturn}
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!get\+Num\+Components@{get\+Num\+Components}}
+\index{get\+Num\+Components@{get\+Num\+Components}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{get\+Num\+Components() const }{getNumComponents() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Component\+::\+Owner\+::get\+Num\+Components (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_component_1_1_owner_a936488a8c0a2e5eca370ca4112be7f11}{}\label{class_magnum_1_1_component_1_1_owner_a936488a8c0a2e5eca370ca4112be7f11}
+
+
+Get the Number of Components,. 
+
+\begin{DoxyReturn}{傳回值}
+int, the Num of Components in this \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_component_1_1_owner_a936488a8c0a2e5eca370ca4112be7f11_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!is\+Editor\+Mode\+Active@{is\+Editor\+Mode\+Active}}
+\index{is\+Editor\+Mode\+Active@{is\+Editor\+Mode\+Active}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{is\+Editor\+Mode\+Active() const }{isEditorModeActive() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Component\+::\+Owner\+::is\+Editor\+Mode\+Active (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_component_1_1_owner_abf13c26d4fc4c07fad6893aac99bad3d}{}\label{class_magnum_1_1_component_1_1_owner_abf13c26d4fc4c07fad6893aac99bad3d}
+
+
+Check if currently in Editor Mode. 
+
+
+\begin{DoxyParams}{參數}
+{\em bool} & is in Editor Mode \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if in editor mode false if in not editor mode 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_component_1_1_owner_abf13c26d4fc4c07fad6893aac99bad3d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!on\+Construct@{on\+Construct}}
+\index{on\+Construct@{on\+Construct}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{on\+Construct()}{onConstruct()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Magnum\+::\+Component\+::\+Owner\+::on\+Construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_component_1_1_owner_ada62d0f70f59917efb49e4bcbebf3a56}{}\label{class_magnum_1_1_component_1_1_owner_ada62d0f70f59917efb49e4bcbebf3a56}
+
+
+Handle Construct Event of the \hyperlink{class_magnum_1_1_component}{Component}. 
+
+\begin{DoxyReturn}{傳回值}
+true if construction is success, return false if fail 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_component_1_1_owner_ada62d0f70f59917efb49e4bcbebf3a56_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!on\+Post\+Update@{on\+Post\+Update}}
+\index{on\+Post\+Update@{on\+Post\+Update}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{on\+Post\+Update(float dt)}{onPostUpdate(float dt)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Component\+::\+Owner\+::on\+Post\+Update (
+\begin{DoxyParamCaption}
+\item[{float}]{dt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_component_1_1_owner_a196e67ddcee045d18d9908255f2e67d3}{}\label{class_magnum_1_1_component_1_1_owner_a196e67ddcee045d18d9908255f2e67d3}
+
+
+Handle on\+Post\+Update Event of the \hyperlink{class_magnum_1_1_component}{Component}. 
+
+
+\begin{DoxyParams}{參數}
+{\em delta} & elapse of the game cycle \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_component_1_1_owner_a196e67ddcee045d18d9908255f2e67d3_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!on\+Pre\+Update@{on\+Pre\+Update}}
+\index{on\+Pre\+Update@{on\+Pre\+Update}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{on\+Pre\+Update(float dt)}{onPreUpdate(float dt)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Component\+::\+Owner\+::on\+Pre\+Update (
+\begin{DoxyParamCaption}
+\item[{float}]{dt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_component_1_1_owner_afb16090797801a819858cf93f53e2113}{}\label{class_magnum_1_1_component_1_1_owner_afb16090797801a819858cf93f53e2113}
+
+
+Handle on\+Pre\+Update Event of the \hyperlink{class_magnum_1_1_component}{Component}. 
+
+
+\begin{DoxyParams}{參數}
+{\em delta} & elapse of the game cycle \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_component_1_1_owner_afb16090797801a819858cf93f53e2113_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!on\+Update@{on\+Update}}
+\index{on\+Update@{on\+Update}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{on\+Update(float dt)}{onUpdate(float dt)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Component\+::\+Owner\+::on\+Update (
+\begin{DoxyParamCaption}
+\item[{float}]{dt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_component_1_1_owner_a5ab10cdba327e2cff3fd53eddbb094b8}{}\label{class_magnum_1_1_component_1_1_owner_a5ab10cdba327e2cff3fd53eddbb094b8}
+
+
+Handle Update Event of the \hyperlink{class_magnum_1_1_component}{Component}. 
+
+
+\begin{DoxyParams}{參數}
+{\em delta} & elapse of the game cycle \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_component_1_1_owner_a5ab10cdba327e2cff3fd53eddbb094b8_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(\+String, Name)}{PROPERTY(String, Name)}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Component\+::\+Owner\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{{\bf String}}]{, }
+\item[{Name}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_component_1_1_owner_a619164b31cc171b995af57a274582daa}{}\label{class_magnum_1_1_component_1_1_owner_a619164b31cc171b995af57a274582daa}
+
+
+Set the Name of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,\hyperlink{class_magnum_1_1_string}{String},the} & Name of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} Get the Name of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_string}{String}, the Name of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} 
+\end{DoxyReturn}
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(\+String, Tag)}{PROPERTY(String, Tag)}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Component\+::\+Owner\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{{\bf String}}]{, }
+\item[{Tag}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_component_1_1_owner_a207f8d1f1003f66cbcb74be31eab6fd1}{}\label{class_magnum_1_1_component_1_1_owner_a207f8d1f1003f66cbcb74be31eab6fd1}
+
+
+Set the Tag of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,\hyperlink{class_magnum_1_1_string}{String},the} & Tag of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} Get the Tag of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_string}{String}, the Tag of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} 
+\end{DoxyReturn}
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(unsigned int, Layer)}{PROPERTY(unsigned int, Layer)}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Component\+::\+Owner\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{int, }
+\item[{{\bf Layer}}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_component_1_1_owner_a0d185a08081f3426e5d92264ab240331}{}\label{class_magnum_1_1_component_1_1_owner_a0d185a08081f3426e5d92264ab240331}
+
+
+Set the \hyperlink{class_magnum_1_1_layer}{Layer} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, \hyperlink{class_magnum_1_1_layer}{Layer} value is used for Camera or \hyperlink{class_magnum_1_1_collision}{Collision} Filtering. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,unsigned} & int, the \hyperlink{class_magnum_1_1_layer}{Layer} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} Get the \hyperlink{class_magnum_1_1_layer}{Layer} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, \hyperlink{class_magnum_1_1_layer}{Layer} value is used for Camera or \hyperlink{class_magnum_1_1_collision}{Collision} Filtering \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+unsigned int, the \hyperlink{class_magnum_1_1_layer}{Layer} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} 
+\end{DoxyReturn}
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(bool, Active)}{PROPERTY(bool, Active)}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Component\+::\+Owner\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{bool}]{, }
+\item[{Active}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_component_1_1_owner_aec6c47111d6f1d92cfadd446e3a77f81}{}\label{class_magnum_1_1_component_1_1_owner_aec6c47111d6f1d92cfadd446e3a77f81}
+
+
+Set the Activation \hyperlink{class_magnum_1_1_state}{State} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, if the owner is not active, it become non functional as well as all of its component. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,bool,the} & Activation \hyperlink{class_magnum_1_1_state}{State} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} Get the Activation \hyperlink{class_magnum_1_1_state}{State} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, if the owner is not active, it become non functional as well as all of its component \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+bool, the Activation \hyperlink{class_magnum_1_1_state}{State} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} 
+\end{DoxyReturn}
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(bool, Static)}{PROPERTY(bool, Static)}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Component\+::\+Owner\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{bool}]{, }
+\item[{Static}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_component_1_1_owner_a2f21802f16d84f0458640ce87f8398df}{}\label{class_magnum_1_1_component_1_1_owner_a2f21802f16d84f0458640ce87f8398df}
+
+
+Set the Static \hyperlink{class_magnum_1_1_state}{State} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, if the component is not static, it will be optimized for physics. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,bool,the} & Static \hyperlink{class_magnum_1_1_state}{State} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} Get the Static \hyperlink{class_magnum_1_1_state}{State} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, if the component is not static, it will be optimized for physics \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+bool, the Static \hyperlink{class_magnum_1_1_state}{State} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} 
+\end{DoxyReturn}
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}}
+\index{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+N\+C(\+S\+R\+T\+Transform, Transform,\lcurly{}S\+R\+T\+Transform srt;const Matrix4 \&mat=get\+Local\+Transform();mat.\+To\+S\+R\+T(srt.\+S(), srt.\+R(), srt.\+T());return srt;\rcurly{},\lcurly{}Matrix4 mat;mat.\+From\+S\+R\+T(value.\+S(), value.\+R(), value.\+T());set\+Local\+Transform(mat);\rcurly{})}{PROPERTY_CUSTOM_FUNC(SRTTransform, Transform,\{SRTTransform srt;const Matrix4 &mat=getLocalTransform();mat.ToSRT(srt.S(), srt.R(), srt.T());return srt;\},\{Matrix4 mat;mat.FromSRT(value.S(), value.R(), value.T());setLocalTransform(mat);\})}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Component\+::\+Owner\+::\+P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC (
+\begin{DoxyParamCaption}
+\item[{{\bf S\+R\+T\+Transform}}]{, }
+\item[{{\bf Transform}}]{, }
+\item[{\{{\bf S\+R\+T\+Transform} srt;const {\bf Matrix4} \&mat={\bf get\+Local\+Transform}();mat.\+To\+S\+RT(srt.\+S(), srt.\+R(), srt.\+T());return srt;\}}]{, }
+\item[{\{{\bf Matrix4} mat;mat.\+From\+S\+RT(value.\+S(), value.\+R(), value.\+T());{\bf set\+Local\+Transform}(mat);\}}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_component_1_1_owner_a534bf399acb1fe6c2756aab7fc49d973}{}\label{class_magnum_1_1_component_1_1_owner_a534bf399acb1fe6c2756aab7fc49d973}
+
+
+Set the \hyperlink{class_magnum_1_1_transform}{Transform} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, the transform will shared across the owner and component. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,bool,the} & \hyperlink{class_magnum_1_1_transform}{Transform} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} Get the \hyperlink{class_magnum_1_1_transform}{Transform} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner}, the transform will shared across the owner and component \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+bool, the \hyperlink{class_magnum_1_1_transform}{Transform} of \hyperlink{class_magnum_1_1_component_1_1_owner}{Owner} 
+\end{DoxyReturn}
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!read@{read}}
+\index{read@{read}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{read(\+Input\+Stream \&is)}{read(InputStream &is)}}]{\setlength{\rightskip}{0pt plus 5cm}void Component\+::\+Owner\+::read (
+\begin{DoxyParamCaption}
+\item[{{\bf Input\+Stream} \&}]{is}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_component_1_1_owner_ad3a6cf325d63ebe6e67440f7c8688420}{}\label{class_magnum_1_1_component_1_1_owner_ad3a6cf325d63ebe6e67440f7c8688420}
+
+
+read method for Serialization 
+
+
+\begin{DoxyParams}{參數}
+{\em is,the} & \hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} for Serialization \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_component_1_1_owner_ad3a6cf325d63ebe6e67440f7c8688420_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_magnum_1_1_component_1_1_owner_ad3a6cf325d63ebe6e67440f7c8688420_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}!write@{write}}
+\index{write@{write}!Magnum\+::\+Component\+::\+Owner@{Magnum\+::\+Component\+::\+Owner}}
+\subsubsection[{\texorpdfstring{write(\+Output\+Stream \&os) const }{write(OutputStream &os) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Component\+::\+Owner\+::write (
+\begin{DoxyParamCaption}
+\item[{{\bf Output\+Stream} \&}]{os}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_component_1_1_owner_aa0aa90562a79de82adecd5b0451d3bd5}{}\label{class_magnum_1_1_component_1_1_owner_aa0aa90562a79de82adecd5b0451d3bd5}
+
+
+write method for Serialization 
+
+
+\begin{DoxyParams}{參數}
+{\em os,the} & \hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} for Serialization \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_magnum_1_1_component_1_1_owner_aa0aa90562a79de82adecd5b0451d3bd5_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_magnum_1_1_component_1_1_owner_aa0aa90562a79de82adecd5b0451d3bd5_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Component.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Component.\+cpp\end{DoxyCompactItemize}

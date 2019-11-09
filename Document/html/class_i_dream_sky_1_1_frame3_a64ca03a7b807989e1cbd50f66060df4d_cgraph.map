@@ -1,0 +1,5 @@
+<map id="IDreamSky::Frame3::setChild" name="IDreamSky::Frame3::setChild">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_frame3.html#a08c5e5cb5e2127e9c8a166005abda231" title="Get a the parent of this frame. " alt="" coords="395,29,541,70"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_frame3.html#a9bba1efc2cdadd1d11c1fdd3ac6e43bd" title="remove child at index_ " alt="" coords="200,25,347,66"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_frame3.html#abd28ece5e1c768a39c5786b233577a51" title="insert a child to this Frame3&#39;s at index_ " alt="" coords="200,90,347,132"/>
+</map>

@@ -1,0 +1,80 @@
+\hypertarget{class_magnum_1_1_polyhedron3}{}\section{Magnum\+:\+:Polyhedron3 類別 參考文件}
+\label{class_magnum_1_1_polyhedron3}\index{Magnum\+::\+Polyhedron3@{Magnum\+::\+Polyhedron3}}
+
+
+Magnum\+:\+:Polyhedron3的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{class_magnum_1_1_polyhedron3__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Polyhedron3} (int i\+V\+Quantity, \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$ak\+Vertex, int i\+T\+Quantity, int $\ast$ai\+Index, bool b\+Owner)\hypertarget{class_magnum_1_1_polyhedron3_a597b3c62411632b0b7ec097f187aedba}{}\label{class_magnum_1_1_polyhedron3_a597b3c62411632b0b7ec097f187aedba}
+
+\item 
+{\bfseries Polyhedron3} (const \hyperlink{class_magnum_1_1_polyhedron3}{Polyhedron3} \&rk\+Poly)\hypertarget{class_magnum_1_1_polyhedron3_adef375042667395797400f6aee73c576}{}\label{class_magnum_1_1_polyhedron3_adef375042667395797400f6aee73c576}
+
+\item 
+\hyperlink{class_magnum_1_1_polyhedron3}{Polyhedron3} \& {\bfseries operator=} (const \hyperlink{class_magnum_1_1_polyhedron3}{Polyhedron3} \&rk\+Poly)\hypertarget{class_magnum_1_1_polyhedron3_aa4ceab55c6b3b63dfed4a97dc95f670c}{}\label{class_magnum_1_1_polyhedron3_aa4ceab55c6b3b63dfed4a97dc95f670c}
+
+\item 
+int {\bfseries Get\+V\+Quantity} () const \hypertarget{class_magnum_1_1_polyhedron3_ad1b59fc9105e3780b4234ac37b2291d5}{}\label{class_magnum_1_1_polyhedron3_ad1b59fc9105e3780b4234ac37b2291d5}
+
+\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$ {\bfseries Get\+Vertices} () const \hypertarget{class_magnum_1_1_polyhedron3_a1d8c1ed8694ec07884d25cab99439da4}{}\label{class_magnum_1_1_polyhedron3_a1d8c1ed8694ec07884d25cab99439da4}
+
+\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} \& {\bfseries Get\+Vertex} (int i) const \hypertarget{class_magnum_1_1_polyhedron3_a20deb551ce84982c3beac83ecfe72c38}{}\label{class_magnum_1_1_polyhedron3_a20deb551ce84982c3beac83ecfe72c38}
+
+\item 
+int {\bfseries Get\+T\+Quantity} () const \hypertarget{class_magnum_1_1_polyhedron3_a3b8e25ad278c667643a6af0f7c143c81}{}\label{class_magnum_1_1_polyhedron3_a3b8e25ad278c667643a6af0f7c143c81}
+
+\item 
+const int $\ast$ {\bfseries Get\+Indices} () const \hypertarget{class_magnum_1_1_polyhedron3_a6d6de6e58a88b1c7259fab7583b493ea}{}\label{class_magnum_1_1_polyhedron3_a6d6de6e58a88b1c7259fab7583b493ea}
+
+\item 
+const int $\ast$ {\bfseries Get\+Triangle} (int i) const \hypertarget{class_magnum_1_1_polyhedron3_a635d4b5048eb1b4f3491255f17792ac4}{}\label{class_magnum_1_1_polyhedron3_a635d4b5048eb1b4f3491255f17792ac4}
+
+\item 
+virtual void {\bfseries Set\+Vertex} (int i, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&rkV)\hypertarget{class_magnum_1_1_polyhedron3_a3a7f7b6f4e555b09cf9f306dbe7e1476}{}\label{class_magnum_1_1_polyhedron3_a3a7f7b6f4e555b09cf9f306dbe7e1476}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$ {\bfseries Get\+Vertices} ()\hypertarget{class_magnum_1_1_polyhedron3_a3a74f04ddd370a0fdc92253342b51cf6}{}\label{class_magnum_1_1_polyhedron3_a3a74f04ddd370a0fdc92253342b51cf6}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Compute\+Vertex\+Average} () const \hypertarget{class_magnum_1_1_polyhedron3_a37060ae7b44c9e9381719d07671f7b22}{}\label{class_magnum_1_1_polyhedron3_a37060ae7b44c9e9381719d07671f7b22}
+
+\item 
+float {\bfseries Compute\+Surface\+Area} () const \hypertarget{class_magnum_1_1_polyhedron3_aa8d62476f4c1fc85c3226cd7dcc3c070}{}\label{class_magnum_1_1_polyhedron3_aa8d62476f4c1fc85c3226cd7dcc3c070}
+
+\item 
+float {\bfseries Compute\+Volume} () const \hypertarget{class_magnum_1_1_polyhedron3_ae82042eb13fc0c2c21eea19bad0d049e}{}\label{class_magnum_1_1_polyhedron3_ae82042eb13fc0c2c21eea19bad0d049e}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries m\+\_\+i\+V\+Quantity}\hypertarget{class_magnum_1_1_polyhedron3_aa923ba848c45a1814f713f51a6d543e7}{}\label{class_magnum_1_1_polyhedron3_aa923ba848c45a1814f713f51a6d543e7}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$ {\bfseries m\+\_\+ak\+Vertex}\hypertarget{class_magnum_1_1_polyhedron3_a1e4316ef1e357ab29e16859ec471e7b4}{}\label{class_magnum_1_1_polyhedron3_a1e4316ef1e357ab29e16859ec471e7b4}
+
+\item 
+int {\bfseries m\+\_\+i\+T\+Quantity}\hypertarget{class_magnum_1_1_polyhedron3_aa851b8f07120d159efb9b0cc1447d634}{}\label{class_magnum_1_1_polyhedron3_aa851b8f07120d159efb9b0cc1447d634}
+
+\item 
+int $\ast$ {\bfseries m\+\_\+ai\+Index}\hypertarget{class_magnum_1_1_polyhedron3_a9509cdd92c35da8c5a45255132e33618}{}\label{class_magnum_1_1_polyhedron3_a9509cdd92c35da8c5a45255132e33618}
+
+\item 
+bool {\bfseries m\+\_\+b\+Owner}\hypertarget{class_magnum_1_1_polyhedron3_a5153d2f3cbc67fed2bb6e6b74ff21119}{}\label{class_magnum_1_1_polyhedron3_a5153d2f3cbc67fed2bb6e6b74ff21119}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Polyhedron3.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Polyhedron3.\+inl\end{DoxyCompactItemize}

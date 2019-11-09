@@ -1,0 +1,55 @@
+\hypertarget{struct_magnum_1_1_audio_1_1_service}{}\section{Magnum\+:\+:Audio\+:\+:Service 結構 參考文件}
+\label{struct_magnum_1_1_audio_1_1_service}\index{Magnum\+::\+Audio\+::\+Service@{Magnum\+::\+Audio\+::\+Service}}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{struct_magnum_1_1_audio_1_1_service_a6ce71d0150696798d7b888c69658e926}{initiate} ()
+\begin{DoxyCompactList}\small\item\em Initiate the Services. \end{DoxyCompactList}\item 
+static void \hyperlink{struct_magnum_1_1_audio_1_1_service_a7e5b7e49e62d6efe5e09526ae0df3050}{process} ()\hypertarget{struct_magnum_1_1_audio_1_1_service_a7e5b7e49e62d6efe5e09526ae0df3050}{}\label{struct_magnum_1_1_audio_1_1_service_a7e5b7e49e62d6efe5e09526ae0df3050}
+
+\begin{DoxyCompactList}\small\item\em Update the Services. \end{DoxyCompactList}\item 
+static void \hyperlink{struct_magnum_1_1_audio_1_1_service_a24e8ff3eac10eb7e3a59f6d2820f8b6a}{pause} ()\hypertarget{struct_magnum_1_1_audio_1_1_service_a24e8ff3eac10eb7e3a59f6d2820f8b6a}{}\label{struct_magnum_1_1_audio_1_1_service_a24e8ff3eac10eb7e3a59f6d2820f8b6a}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is pause(e.\+g system bring the app to background, let the service to release resources) \end{DoxyCompactList}\item 
+static void \hyperlink{struct_magnum_1_1_audio_1_1_service_a04dc8b589057ee292ebc57b5d488b3aa}{resume} ()\hypertarget{struct_magnum_1_1_audio_1_1_service_a04dc8b589057ee292ebc57b5d488b3aa}{}\label{struct_magnum_1_1_audio_1_1_service_a04dc8b589057ee292ebc57b5d488b3aa}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is resume(e.\+g system bring back the app from background, let the service to reload resources) \end{DoxyCompactList}\item 
+static void \hyperlink{struct_magnum_1_1_audio_1_1_service_ae4a7ea2116f1c0d744a5c316d8ffba48}{terminate} ()\hypertarget{struct_magnum_1_1_audio_1_1_service_ae4a7ea2116f1c0d744a5c316d8ffba48}{}\label{struct_magnum_1_1_audio_1_1_service_ae4a7ea2116f1c0d744a5c316d8ffba48}
+
+\begin{DoxyCompactList}\small\item\em Terminate the Services, called when the app is terminate. \end{DoxyCompactList}\item 
+static void \hyperlink{struct_magnum_1_1_audio_1_1_service_a49f73edf351d39f75b57eaa7e81e2ebc}{clear} ()
+\begin{DoxyCompactList}\small\item\em Call when the services needed to be clean up, e.\+g. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Audio\+::\+Service@{Magnum\+::\+Audio\+::\+Service}!clear@{clear}}
+\index{clear@{clear}!Magnum\+::\+Audio\+::\+Service@{Magnum\+::\+Audio\+::\+Service}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}void Audio\+::\+Service\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_magnum_1_1_audio_1_1_service_a49f73edf351d39f75b57eaa7e81e2ebc}{}\label{struct_magnum_1_1_audio_1_1_service_a49f73edf351d39f75b57eaa7e81e2ebc}
+
+
+Call when the services needed to be clean up, e.\+g. 
+
+during scene transition. \index{Magnum\+::\+Audio\+::\+Service@{Magnum\+::\+Audio\+::\+Service}!initiate@{initiate}}
+\index{initiate@{initiate}!Magnum\+::\+Audio\+::\+Service@{Magnum\+::\+Audio\+::\+Service}}
+\subsubsection[{\texorpdfstring{initiate()}{initiate()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Audio\+::\+Service\+::initiate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_magnum_1_1_audio_1_1_service_a6ce71d0150696798d7b888c69658e926}{}\label{struct_magnum_1_1_audio_1_1_service_a6ce71d0150696798d7b888c69658e926}
+
+
+Initiate the Services. 
+
+\begin{DoxyReturn}{傳回值}
+true if success, false if failed 
+\end{DoxyReturn}
+
+
+此結構(structure) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Audio.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Audio.\+cpp\end{DoxyCompactItemize}

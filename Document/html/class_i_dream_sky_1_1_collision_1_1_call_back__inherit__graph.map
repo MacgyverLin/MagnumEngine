@@ -1,0 +1,5 @@
+<map id="IDreamSky::Collision::CallBack&lt; U &gt;" name="IDreamSky::Collision::CallBack&lt; U &gt;">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_delegate1.html" title="IDreamSky::Delegate1\l\&lt; U, ContactInfo \&gt;" alt="" coords="20,184,172,225"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_functor1.html" title="IDreamSky::Functor1\l\&lt; ContactInfo \&gt;" alt="" coords="23,95,169,136"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_link.html" title="IDreamSky::Link\&lt; Functor1\l\&lt; ContactInfo \&gt; \&gt;" alt="" coords="5,5,187,47"/>
+</map>

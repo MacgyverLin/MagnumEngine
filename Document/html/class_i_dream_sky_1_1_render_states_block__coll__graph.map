@@ -1,0 +1,10 @@
+<map id="IDreamSky::RenderStatesBlock" name="IDreamSky::RenderStatesBlock">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_g_x_color_mask.html" title="GXColorMask encapsulate a Color Mask for Color Buffer Writing Operation. " alt="" coords="23,11,196,37"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_g_x_stencil_op.html" title="GXStencilOp encapsulate Type of Stencil Operation. " alt="" coords="25,129,193,156"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_g_x_blend_mode.html" title="GXBlendMode encapsulate a Blending Mode Blending Equation: Add Cs * Fs + Cd * Fs Subtract Cs * Fs &#45; C..." alt="" coords="21,187,197,213"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_g_x_depth_test_mode.html" title="GXDepthTestMode encapsulate a Depth Test Mode. " alt="" coords="8,237,211,264"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_g_x_stencil_test_mode.html" title="GXStencilTestMode encapsulate Type of Uniform Variable of the Shader. " alt="" coords="5,295,213,321"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_g_x_image_rect.html" title="IDreamSky::GXImageRect" alt="" coords="23,355,196,381"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_g_x_blend_factor.html" title="GXBlendFactor encapsulate a Blend Factor Blending Equation: Add Cs * Fs + Cd * Fs Subtract Cs * Fs &#45; ..." alt="" coords="19,444,200,471"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_g_x_cull_mode.html" title="GXCullMode encapsulate a Culling Mode. " alt="" coords="27,495,192,521"/>
+</map>

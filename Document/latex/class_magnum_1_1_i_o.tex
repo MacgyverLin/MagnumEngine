@@ -1,0 +1,160 @@
+\hypertarget{class_magnum_1_1_i_o}{}\section{Magnum\+:\+:IO 類別 參考文件}
+\label{class_magnum_1_1_i_o}\index{Magnum\+::\+IO@{Magnum\+::\+IO}}
+
+
+類別\+Magnum\+:\+:I\+O的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{class_magnum_1_1_i_o__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:I\+O的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{class_magnum_1_1_i_o__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Seek\+Def} \{ {\bfseries B\+E\+G\+IN} = 0, 
+{\bfseries C\+U\+R\+R\+E\+NT}, 
+{\bfseries E\+ND}
+ \}\hypertarget{class_magnum_1_1_i_o_a1715ee3679da15f05a8014cea2b041c0}{}\label{class_magnum_1_1_i_o_a1715ee3679da15f05a8014cea2b041c0}
+
+\item 
+enum {\bfseries Access\+Mode} \{ {\bfseries R\+E\+AD} = 0x01, 
+{\bfseries W\+R\+I\+TE} = 0x02
+ \}\hypertarget{class_magnum_1_1_i_o_a132fd918819ada2eca610f3936e0f4cf}{}\label{class_magnum_1_1_i_o_a132fd918819ada2eca610f3936e0f4cf}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries IO} (const char $\ast$path\+\_\+)\hypertarget{class_magnum_1_1_i_o_aeb3f6781ea9a3fb77b7574261322c03c}{}\label{class_magnum_1_1_i_o_aeb3f6781ea9a3fb77b7574261322c03c}
+
+\item 
+virtual bool {\bfseries open} (Access\+Mode mode)\hypertarget{class_magnum_1_1_i_o_a807d034f0c46c1b4c20e58e927b6ea11}{}\label{class_magnum_1_1_i_o_a807d034f0c46c1b4c20e58e927b6ea11}
+
+\item 
+virtual bool {\bfseries open\+For\+Async} (Access\+Mode mode)\hypertarget{class_magnum_1_1_i_o_a0eeb59567195ac5ee74be22e090d7912}{}\label{class_magnum_1_1_i_o_a0eeb59567195ac5ee74be22e090d7912}
+
+\item 
+virtual bool {\bfseries is\+Async\+Finished} ()=0\hypertarget{class_magnum_1_1_i_o_a0e6f16ef56d19154a75e8abb6b5bed88}{}\label{class_magnum_1_1_i_o_a0e6f16ef56d19154a75e8abb6b5bed88}
+
+\item 
+virtual void {\bfseries wait\+Async\+Finished} ()=0\hypertarget{class_magnum_1_1_i_o_a805c99a5c402ee13817a9004acb280ea}{}\label{class_magnum_1_1_i_o_a805c99a5c402ee13817a9004acb280ea}
+
+\item 
+virtual bool {\bfseries close} ()=0\hypertarget{class_magnum_1_1_i_o_a6c3ae74d63747a252f04bead864fbe4e}{}\label{class_magnum_1_1_i_o_a6c3ae74d63747a252f04bead864fbe4e}
+
+\item 
+virtual bool {\bfseries live} () const  =0\hypertarget{class_magnum_1_1_i_o_a4b5f535b136f1c221e08be85faaee2b2}{}\label{class_magnum_1_1_i_o_a4b5f535b136f1c221e08be85faaee2b2}
+
+\item 
+virtual int {\bfseries tell} () const  =0\hypertarget{class_magnum_1_1_i_o_ac29de26a3fb170634c829b5d7e38ec5a}{}\label{class_magnum_1_1_i_o_ac29de26a3fb170634c829b5d7e38ec5a}
+
+\item 
+virtual int {\bfseries seek} (Seek\+Def from, int offset=0)=0\hypertarget{class_magnum_1_1_i_o_a1e732c2cf8b5222036135270abedd5e6}{}\label{class_magnum_1_1_i_o_a1e732c2cf8b5222036135270abedd5e6}
+
+\item 
+virtual int {\bfseries read} (void $\ast$buf, int size)=0\hypertarget{class_magnum_1_1_i_o_a7320a74ff4c436dae24151a95f264eed}{}\label{class_magnum_1_1_i_o_a7320a74ff4c436dae24151a95f264eed}
+
+\item 
+virtual int {\bfseries read} (unsigned char $\ast$uc)=0\hypertarget{class_magnum_1_1_i_o_a3d0cc3135cc3a0ad96ef49ab7818dd96}{}\label{class_magnum_1_1_i_o_a3d0cc3135cc3a0ad96ef49ab7818dd96}
+
+\item 
+virtual int {\bfseries read} (char $\ast$c)=0\hypertarget{class_magnum_1_1_i_o_a750ec13765e4aa7f4cd333cfb387a7e6}{}\label{class_magnum_1_1_i_o_a750ec13765e4aa7f4cd333cfb387a7e6}
+
+\item 
+virtual int {\bfseries read} (unsigned short $\ast$us)=0\hypertarget{class_magnum_1_1_i_o_a4da475d28e6e4c7e810a779427433b03}{}\label{class_magnum_1_1_i_o_a4da475d28e6e4c7e810a779427433b03}
+
+\item 
+virtual int {\bfseries read} (short $\ast$s)=0\hypertarget{class_magnum_1_1_i_o_ae9083b1e5e9383a0b8dde76779440659}{}\label{class_magnum_1_1_i_o_ae9083b1e5e9383a0b8dde76779440659}
+
+\item 
+virtual int {\bfseries read} (unsigned int $\ast$ui)=0\hypertarget{class_magnum_1_1_i_o_af15fa633db77bd72f4e5f27620a0de29}{}\label{class_magnum_1_1_i_o_af15fa633db77bd72f4e5f27620a0de29}
+
+\item 
+virtual int {\bfseries read} (int $\ast$i)=0\hypertarget{class_magnum_1_1_i_o_ad3484b2f7c2d114b025b90d88e71509d}{}\label{class_magnum_1_1_i_o_ad3484b2f7c2d114b025b90d88e71509d}
+
+\item 
+virtual int {\bfseries read} (unsigned long $\ast$ui)=0\hypertarget{class_magnum_1_1_i_o_a50530e1a48a8dfe121dfcf6701baf919}{}\label{class_magnum_1_1_i_o_a50530e1a48a8dfe121dfcf6701baf919}
+
+\item 
+virtual int {\bfseries read} (long $\ast$i)=0\hypertarget{class_magnum_1_1_i_o_a8bd041646af3fba3a5246ae7704f96bf}{}\label{class_magnum_1_1_i_o_a8bd041646af3fba3a5246ae7704f96bf}
+
+\item 
+virtual int {\bfseries read} (float $\ast$f)=0\hypertarget{class_magnum_1_1_i_o_a90e1cabbe06fff582aa845c889c25ab6}{}\label{class_magnum_1_1_i_o_a90e1cabbe06fff582aa845c889c25ab6}
+
+\item 
+virtual int {\bfseries read} (double $\ast$d)=0\hypertarget{class_magnum_1_1_i_o_a0840e51a406ffa4814eb4f71afd62729}{}\label{class_magnum_1_1_i_o_a0840e51a406ffa4814eb4f71afd62729}
+
+\item 
+virtual int {\bfseries write} (const void $\ast$buf, int size)=0\hypertarget{class_magnum_1_1_i_o_a854f43abfd629eca53f7058148ff0d77}{}\label{class_magnum_1_1_i_o_a854f43abfd629eca53f7058148ff0d77}
+
+\item 
+virtual int {\bfseries write} (const unsigned char $\ast$uc)=0\hypertarget{class_magnum_1_1_i_o_a0761fa4b4f5a318f4b42708af9dc7800}{}\label{class_magnum_1_1_i_o_a0761fa4b4f5a318f4b42708af9dc7800}
+
+\item 
+virtual int {\bfseries write} (const char $\ast$c)=0\hypertarget{class_magnum_1_1_i_o_a12911b88d8a8b854f9493aa9446ca6e4}{}\label{class_magnum_1_1_i_o_a12911b88d8a8b854f9493aa9446ca6e4}
+
+\item 
+virtual int {\bfseries write} (const unsigned short $\ast$us)=0\hypertarget{class_magnum_1_1_i_o_af8ce88266414865aea8e295068b3f13c}{}\label{class_magnum_1_1_i_o_af8ce88266414865aea8e295068b3f13c}
+
+\item 
+virtual int {\bfseries write} (const short $\ast$s)=0\hypertarget{class_magnum_1_1_i_o_a843adf1f8641cc0e3af5eaa035727112}{}\label{class_magnum_1_1_i_o_a843adf1f8641cc0e3af5eaa035727112}
+
+\item 
+virtual int {\bfseries write} (const unsigned int $\ast$ui)=0\hypertarget{class_magnum_1_1_i_o_ad1658d390bedd8b6139d05af9293bb3c}{}\label{class_magnum_1_1_i_o_ad1658d390bedd8b6139d05af9293bb3c}
+
+\item 
+virtual int {\bfseries write} (const int $\ast$i)=0\hypertarget{class_magnum_1_1_i_o_af90bf14dbc9fec9c892bb0a0958ce75b}{}\label{class_magnum_1_1_i_o_af90bf14dbc9fec9c892bb0a0958ce75b}
+
+\item 
+virtual int {\bfseries write} (const unsigned long $\ast$ui)=0\hypertarget{class_magnum_1_1_i_o_a9cfe3c38a801698a77d7f6ce49ea982e}{}\label{class_magnum_1_1_i_o_a9cfe3c38a801698a77d7f6ce49ea982e}
+
+\item 
+virtual int {\bfseries write} (const long $\ast$i)=0\hypertarget{class_magnum_1_1_i_o_af64debf74ad448177a213fcde8eb5b58}{}\label{class_magnum_1_1_i_o_af64debf74ad448177a213fcde8eb5b58}
+
+\item 
+virtual int {\bfseries write} (const float $\ast$f)=0\hypertarget{class_magnum_1_1_i_o_af181b157ad026ac385685ae4fd5eb8b2}{}\label{class_magnum_1_1_i_o_af181b157ad026ac385685ae4fd5eb8b2}
+
+\item 
+virtual int {\bfseries write} (const double $\ast$d)=0\hypertarget{class_magnum_1_1_i_o_a8a4a374b9aa321049cc50e7ab1f8b1c4}{}\label{class_magnum_1_1_i_o_a8a4a374b9aa321049cc50e7ab1f8b1c4}
+
+\item 
+virtual int {\bfseries length} () const  =0\hypertarget{class_magnum_1_1_i_o_a1968bc6c10bb3c2d984f638f64c48721}{}\label{class_magnum_1_1_i_o_a1968bc6c10bb3c2d984f638f64c48721}
+
+\item 
+bool {\bfseries is\+Read\+Enabled} () const \hypertarget{class_magnum_1_1_i_o_a9c3f4f8d7228777a1020307e254460d2}{}\label{class_magnum_1_1_i_o_a9c3f4f8d7228777a1020307e254460d2}
+
+\item 
+bool {\bfseries is\+Write\+Enabled} () const \hypertarget{class_magnum_1_1_i_o_ac3a9bd02f8d9e62d9524e2d887357d7f}{}\label{class_magnum_1_1_i_o_ac3a9bd02f8d9e62d9524e2d887357d7f}
+
+\item 
+const char $\ast$ {\bfseries get\+Path} () const \hypertarget{class_magnum_1_1_i_o_a9500060996c4b8077acd05bd40a926dc}{}\label{class_magnum_1_1_i_o_a9500060996c4b8077acd05bd40a926dc}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_string}{String} {\bfseries path}\hypertarget{class_magnum_1_1_i_o_a3520506712a671aae3e00b5038cfc789}{}\label{class_magnum_1_1_i_o_a3520506712a671aae3e00b5038cfc789}
+
+\item 
+Access\+Mode {\bfseries access\+Mode}\hypertarget{class_magnum_1_1_i_o_a85f2b61773cc49f36ad45e33e0ac75bd}{}\label{class_magnum_1_1_i_o_a85f2b61773cc49f36ad45e33e0ac75bd}
+
+\item 
+bool {\bfseries async\+Mode}\hypertarget{class_magnum_1_1_i_o_a28f8ad6c4dd3058b5cdd7f257f9c094b}{}\label{class_magnum_1_1_i_o_a28f8ad6c4dd3058b5cdd7f257f9c094b}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/I\+O.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/I\+O.\+cpp\end{DoxyCompactItemize}

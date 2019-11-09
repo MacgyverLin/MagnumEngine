@@ -1,0 +1,250 @@
+\hypertarget{class_magnum_1_1_texture_cube_file}{}\section{Magnum\+:\+:Texture\+Cube\+File 類別 參考文件}
+\label{class_magnum_1_1_texture_cube_file}\index{Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}}
+
+
+\hyperlink{class_magnum_1_1_texture_cube_file}{Texture\+Cube\+File}.  
+
+
+
+
+{\ttfamily \#include $<$Texture\+Cube\+File.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Texture\+Cube\+File的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_magnum_1_1_texture_cube_file__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Texture\+Cube\+File的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_magnum_1_1_texture_cube_file__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_texture_cube_file_1_1_data}{Data}
+\item 
+class \hyperlink{class_magnum_1_1_texture_cube_file_1_1_resource}{Resource}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_texture_cube_file_1_1_resource}{Texture\+Cube\+File\+::\+Resource}. \end{DoxyCompactList}\item 
+class \hyperlink{class_magnum_1_1_texture_cube_file_1_1_resource_importer}{Resource\+Importer}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_texture_cube_file_ac1f87db02753fa2e263421af7c9a976b}{Texture\+Cube\+File} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_texture_cube_file}{Texture\+Cube\+File} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_texture_cube_file_a3b88ee794b2b3725f68eccc3613e1596}{$\sim$\+Texture\+Cube\+File} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_texture_cube_file}{Texture\+Cube\+File} Constructor. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_texture_cube_file_a42be226eb1a851814e719c1598bc0b49}{construct} (const char $\ast$path\+\_\+)
+\begin{DoxyCompactList}\small\item\em construct the texture from a path and allocate texture resource \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_texture_cube_file_a1132d1610cae021b5f4e9a4061d11429}{destruct} ()\hypertarget{class_magnum_1_1_texture_cube_file_a1132d1610cae021b5f4e9a4061d11429}{}\label{class_magnum_1_1_texture_cube_file_a1132d1610cae021b5f4e9a4061d11429}
+
+\begin{DoxyCompactList}\small\item\em destruct the texture and release of texture resource \end{DoxyCompactList}\item 
+virtual void $\ast$ \hyperlink{class_magnum_1_1_texture_cube_file_ac6c9316cf89cdc14d30b97935f5db6a4}{get\+Handle} () const 
+\begin{DoxyCompactList}\small\item\em Get the Handle of the Texture. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_texture_cube_file_aee51b479c3fafdc26c22f37916e7b661}{get\+Width} () const 
+\begin{DoxyCompactList}\small\item\em Get the Width of the Texture. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_texture_cube_file_a3b52ec18a5e58a91d60e17cdeae87b76}{get\+Height} () const 
+\begin{DoxyCompactList}\small\item\em Get the Height of the Texture. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_texture_cube_file_a8462f84eb13011491a5c87763b77d034}{get\+Level\+Count} () const 
+\begin{DoxyCompactList}\small\item\em Get the Mipmap Level Count of the Texture. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_texture_cube_file_a2fd646d33cafd772cdb08455e9dd3c9c}{is\+Renderable} () const 
+\begin{DoxyCompactList}\small\item\em Check if texture is renderable. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_texture_cube_file_a6284e3adf45a424cf3b96b019e51a429}{is\+Power\+Of\+Two} () const 
+\begin{DoxyCompactList}\small\item\em Check if texture is power of 2 in both width and height. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_texture_cube_file}{Texture\+Cube\+File}. 
+
+This is the cubemap texture file class \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_texture_cube_file}{Texture\+Cube\+File} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}!Texture\+Cube\+File@{Texture\+Cube\+File}}
+\index{Texture\+Cube\+File@{Texture\+Cube\+File}!Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}}
+\subsubsection[{\texorpdfstring{Texture\+Cube\+File()}{TextureCubeFile()}}]{\setlength{\rightskip}{0pt plus 5cm}Texture\+Cube\+File\+::\+Texture\+Cube\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_texture_cube_file_ac1f87db02753fa2e263421af7c9a976b}{}\label{class_magnum_1_1_texture_cube_file_ac1f87db02753fa2e263421af7c9a976b}
+
+
+\hyperlink{class_magnum_1_1_texture_cube_file}{Texture\+Cube\+File} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_texture_cube_file}{Texture\+Cube\+File} \index{Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}!````~Texture\+Cube\+File@{$\sim$\+Texture\+Cube\+File}}
+\index{````~Texture\+Cube\+File@{$\sim$\+Texture\+Cube\+File}!Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}}
+\subsubsection[{\texorpdfstring{$\sim$\+Texture\+Cube\+File()}{~TextureCubeFile()}}]{\setlength{\rightskip}{0pt plus 5cm}Texture\+Cube\+File\+::$\sim$\+Texture\+Cube\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_texture_cube_file_a3b88ee794b2b3725f68eccc3613e1596}{}\label{class_magnum_1_1_texture_cube_file_a3b88ee794b2b3725f68eccc3613e1596}
+
+
+\hyperlink{class_magnum_1_1_texture_cube_file}{Texture\+Cube\+File} Constructor. 
+
+To Destruct the \hyperlink{class_magnum_1_1_texture_cube_file}{Texture\+Cube\+File} 
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_texture_cube_file_a3b88ee794b2b3725f68eccc3613e1596_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}!construct@{construct}}
+\index{construct@{construct}!Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}}
+\subsubsection[{\texorpdfstring{construct(const char $\ast$path\+\_\+)}{construct(const char *path_)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Texture\+Cube\+File\+::construct (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{path\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_texture_cube_file_a42be226eb1a851814e719c1598bc0b49}{}\label{class_magnum_1_1_texture_cube_file_a42be226eb1a851814e719c1598bc0b49}
+
+
+construct the texture from a path and allocate texture resource 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_texture_cube_file_a42be226eb1a851814e719c1598bc0b49_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}!get\+Handle@{get\+Handle}}
+\index{get\+Handle@{get\+Handle}!Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}}
+\subsubsection[{\texorpdfstring{get\+Handle() const }{getHandle() const }}]{\setlength{\rightskip}{0pt plus 5cm}void $\ast$ Texture\+Cube\+File\+::get\+Handle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_texture_cube_file_ac6c9316cf89cdc14d30b97935f5db6a4}{}\label{class_magnum_1_1_texture_cube_file_ac6c9316cf89cdc14d30b97935f5db6a4}
+
+
+Get the Handle of the Texture. 
+
+\begin{DoxyReturn}{傳回值}
+void $\ast$, handle of the texture 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a47ee419784cb12ca283f62deb2499b1e}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}!get\+Height@{get\+Height}}
+\index{get\+Height@{get\+Height}!Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}}
+\subsubsection[{\texorpdfstring{get\+Height() const }{getHeight() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Texture\+Cube\+File\+::get\+Height (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_texture_cube_file_a3b52ec18a5e58a91d60e17cdeae87b76}{}\label{class_magnum_1_1_texture_cube_file_a3b52ec18a5e58a91d60e17cdeae87b76}
+
+
+Get the Height of the Texture. 
+
+\begin{DoxyReturn}{傳回值}
+int, the Height of the Texture. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a1a75ad18ee40238b2d6fb2105c5ce786}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}!get\+Level\+Count@{get\+Level\+Count}}
+\index{get\+Level\+Count@{get\+Level\+Count}!Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}}
+\subsubsection[{\texorpdfstring{get\+Level\+Count() const }{getLevelCount() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Texture\+Cube\+File\+::get\+Level\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_texture_cube_file_a8462f84eb13011491a5c87763b77d034}{}\label{class_magnum_1_1_texture_cube_file_a8462f84eb13011491a5c87763b77d034}
+
+
+Get the Mipmap Level Count of the Texture. 
+
+\begin{DoxyReturn}{傳回值}
+int, the Mipmap Level Count of the Texture. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_af21b138bcc2a202a45551edbc9581022}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}!get\+Width@{get\+Width}}
+\index{get\+Width@{get\+Width}!Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}}
+\subsubsection[{\texorpdfstring{get\+Width() const }{getWidth() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Texture\+Cube\+File\+::get\+Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_texture_cube_file_aee51b479c3fafdc26c22f37916e7b661}{}\label{class_magnum_1_1_texture_cube_file_aee51b479c3fafdc26c22f37916e7b661}
+
+
+Get the Width of the Texture. 
+
+\begin{DoxyReturn}{傳回值}
+int, the Width of the Texture. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a51ea88554cb238b08ff6f79c5605a53b}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}!is\+Power\+Of\+Two@{is\+Power\+Of\+Two}}
+\index{is\+Power\+Of\+Two@{is\+Power\+Of\+Two}!Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}}
+\subsubsection[{\texorpdfstring{is\+Power\+Of\+Two() const }{isPowerOfTwo() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Texture\+Cube\+File\+::is\+Power\+Of\+Two (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_texture_cube_file_a6284e3adf45a424cf3b96b019e51a429}{}\label{class_magnum_1_1_texture_cube_file_a6284e3adf45a424cf3b96b019e51a429}
+
+
+Check if texture is power of 2 in both width and height. 
+
+\begin{DoxyReturn}{傳回值}
+true if the Texture is power of 2. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_ac9975783371f732b546ce5b2680f23e3}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}!is\+Renderable@{is\+Renderable}}
+\index{is\+Renderable@{is\+Renderable}!Magnum\+::\+Texture\+Cube\+File@{Magnum\+::\+Texture\+Cube\+File}}
+\subsubsection[{\texorpdfstring{is\+Renderable() const }{isRenderable() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Texture\+Cube\+File\+::is\+Renderable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_texture_cube_file_a2fd646d33cafd772cdb08455e9dd3c9c}{}\label{class_magnum_1_1_texture_cube_file_a2fd646d33cafd772cdb08455e9dd3c9c}
+
+
+Check if texture is renderable. 
+
+\begin{DoxyReturn}{傳回值}
+true if the Texture is Renderable. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a7e4d11ffd40d1a83e8838b5fc60cc4c2}{Magnum\+::\+Texture\+Base}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Texture\+Cube\+File.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Texture\+Cube\+File.\+cpp\end{DoxyCompactItemize}

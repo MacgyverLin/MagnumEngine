@@ -1,0 +1,138 @@
+\hypertarget{class_magnum_1_1_visual_effect}{}\section{Magnum\+:\+:Visual\+Effect 類別 參考文件}
+\label{class_magnum_1_1_visual_effect}\index{Magnum\+::\+Visual\+Effect@{Magnum\+::\+Visual\+Effect}}
+
+
+\hyperlink{class_magnum_1_1_visual_effect}{Visual\+Effect}.  
+
+
+
+
+{\ttfamily \#include $<$Visual\+Effect.\+h$>$}
+
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_visual_effect_1_1_data}{Data}
+\item 
+class \hyperlink{class_magnum_1_1_visual_effect_1_1_pass}{Pass}
+\item 
+class \hyperlink{class_magnum_1_1_visual_effect_1_1_resource}{Resource}
+\item 
+class \hyperlink{class_magnum_1_1_visual_effect_1_1_resource_importer}{Resource\+Importer}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries construct} (const char $\ast$path\+\_\+)\hypertarget{class_magnum_1_1_visual_effect_a5e2a540177bacc1d3f6c787bfd30871c}{}\label{class_magnum_1_1_visual_effect_a5e2a540177bacc1d3f6c787bfd30871c}
+
+\item 
+void {\bfseries destruct} ()\hypertarget{class_magnum_1_1_visual_effect_a5ee964eb71ea32b1102215ea829e1ef2}{}\label{class_magnum_1_1_visual_effect_a5ee964eb71ea32b1102215ea829e1ef2}
+
+\item 
+int {\bfseries get\+Version} () const \hypertarget{class_magnum_1_1_visual_effect_a0a40425cee2002bd62ad3de40e45ffa8}{}\label{class_magnum_1_1_visual_effect_a0a40425cee2002bd62ad3de40e45ffa8}
+
+\item 
+\hyperlink{class_magnum_1_1_platform}{Platform} {\bfseries get\+Platform} () const \hypertarget{class_magnum_1_1_visual_effect_a2dc0c7cbd7aa0872216f28c9b5f2dc9f}{}\label{class_magnum_1_1_visual_effect_a2dc0c7cbd7aa0872216f28c9b5f2dc9f}
+
+\item 
+int {\bfseries get\+Num\+Attributes} () const \hypertarget{class_magnum_1_1_visual_effect_afd5d7998b37431fbb54bd3e3f7262334}{}\label{class_magnum_1_1_visual_effect_afd5d7998b37431fbb54bd3e3f7262334}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_shader_attribute_type}{G\+X\+Shader\+Attribute\+Type} \& {\bfseries get\+Attribute\+Type} (int i) const \hypertarget{class_magnum_1_1_visual_effect_a06a192c01a6328ee2e22579347297fdf}{}\label{class_magnum_1_1_visual_effect_a06a192c01a6328ee2e22579347297fdf}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_vertex_stream_source}{G\+X\+Vertex\+Stream\+Source} \& {\bfseries get\+Vertex\+Stream\+Source} (int i) const \hypertarget{class_magnum_1_1_visual_effect_aae5a0f4d63258f2d999a584c07d1013e}{}\label{class_magnum_1_1_visual_effect_aae5a0f4d63258f2d999a584c07d1013e}
+
+\item 
+int {\bfseries get\+Num\+Uniforms} () const \hypertarget{class_magnum_1_1_visual_effect_a8f86ce863718c8e062a76a024b29140b}{}\label{class_magnum_1_1_visual_effect_a8f86ce863718c8e062a76a024b29140b}
+
+\item 
+bool {\bfseries is\+Uniform\+Semantic\+Exists} (Semantic semantic) const \hypertarget{class_magnum_1_1_visual_effect_a49f472caf85fc12e50f760351d88979e}{}\label{class_magnum_1_1_visual_effect_a49f472caf85fc12e50f760351d88979e}
+
+\item 
+int {\bfseries get\+Num\+Textures} () const \hypertarget{class_magnum_1_1_visual_effect_a121cbbb66895b72a28629018d3183135}{}\label{class_magnum_1_1_visual_effect_a121cbbb66895b72a28629018d3183135}
+
+\item 
+bool {\bfseries is\+Texture\+Semantic\+Exists} (Semantic semantic) const \hypertarget{class_magnum_1_1_visual_effect_a89217c847d6da54f695be16a5cd380e8}{}\label{class_magnum_1_1_visual_effect_a89217c847d6da54f695be16a5cd380e8}
+
+\item 
+int {\bfseries get\+Uniform\+Handle} (const char $\ast$name) const \hypertarget{class_magnum_1_1_visual_effect_a11c2a56182b50acc70e1439ed9762866}{}\label{class_magnum_1_1_visual_effect_a11c2a56182b50acc70e1439ed9762866}
+
+\item 
+int {\bfseries get\+Uniform\+Handle\+By\+Semantic} (const char $\ast$semantic) const \hypertarget{class_magnum_1_1_visual_effect_ad5d704d0d6c97d3cb1677f45ebfa6246}{}\label{class_magnum_1_1_visual_effect_ad5d704d0d6c97d3cb1677f45ebfa6246}
+
+\item 
+int {\bfseries get\+Uniform\+Handle\+By\+Semantic} (Semantic semantic) const \hypertarget{class_magnum_1_1_visual_effect_aca80cfbfe9edeb66f4a7081d0634ffd0}{}\label{class_magnum_1_1_visual_effect_aca80cfbfe9edeb66f4a7081d0634ffd0}
+
+\item 
+int {\bfseries get\+Texture\+Handle} (const char $\ast$name) const \hypertarget{class_magnum_1_1_visual_effect_a8ce776bb080171791598c271ca458bf5}{}\label{class_magnum_1_1_visual_effect_a8ce776bb080171791598c271ca458bf5}
+
+\item 
+int {\bfseries get\+Texture\+Handle\+By\+Semantic} (const char $\ast$semantic) const \hypertarget{class_magnum_1_1_visual_effect_a4c45b4ad5c6083c996e2f72d752a02a1}{}\label{class_magnum_1_1_visual_effect_a4c45b4ad5c6083c996e2f72d752a02a1}
+
+\item 
+int {\bfseries get\+Texture\+Handle\+By\+Semantic} (Semantic semantic) const \hypertarget{class_magnum_1_1_visual_effect_a8b78f057f6c0b24f3a1160884c0ff90a}{}\label{class_magnum_1_1_visual_effect_a8b78f057f6c0b24f3a1160884c0ff90a}
+
+\item 
+{\footnotesize template$<$class T $>$ }\\void {\bfseries set\+Value} (int handle, const T \&values\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{class_magnum_1_1_visual_effect_ad4d03ae34fea8f6d34fea817c57c280b}{}\label{class_magnum_1_1_visual_effect_ad4d03ae34fea8f6d34fea817c57c280b}
+
+\item 
+{\footnotesize template$<$class T $>$ }\\void {\bfseries get\+Value} (int handle, T \&values\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{class_magnum_1_1_visual_effect_a5b4ada9235ff1bfb43a572e1ecd096e0}{}\label{class_magnum_1_1_visual_effect_a5b4ada9235ff1bfb43a572e1ecd096e0}
+
+\item 
+void {\bfseries set\+Texture} (int handle, \hyperlink{class_magnum_1_1_texture_base}{Texture\+Base} $\ast$texture)\hypertarget{class_magnum_1_1_visual_effect_abbdecc24dc3c84049e637a9deb8bcf40}{}\label{class_magnum_1_1_visual_effect_abbdecc24dc3c84049e637a9deb8bcf40}
+
+\item 
+\hyperlink{class_magnum_1_1_texture_base}{Texture\+Base} $\ast$ {\bfseries get\+Texture} (int handle)\hypertarget{class_magnum_1_1_visual_effect_adec9955a42b03c51cc4c4c6001548d84}{}\label{class_magnum_1_1_visual_effect_adec9955a42b03c51cc4c4c6001548d84}
+
+\item 
+void {\bfseries begin\+Pass} (int i)\hypertarget{class_magnum_1_1_visual_effect_af84cafa2f98076d1cf21fc95db74d83e}{}\label{class_magnum_1_1_visual_effect_af84cafa2f98076d1cf21fc95db74d83e}
+
+\item 
+void {\bfseries end\+Pass} (int i)\hypertarget{class_magnum_1_1_visual_effect_ac13ed856d843c21114efc019eb34004f}{}\label{class_magnum_1_1_visual_effect_ac13ed856d843c21114efc019eb34004f}
+
+\item 
+void {\bfseries apply\+Shader} (int i)\hypertarget{class_magnum_1_1_visual_effect_a0a54bcd53c4f312ceb6ee9c847acd5c8}{}\label{class_magnum_1_1_visual_effect_a0a54bcd53c4f312ceb6ee9c847acd5c8}
+
+\item 
+void {\bfseries apply\+Texture} (int i)\hypertarget{class_magnum_1_1_visual_effect_a80ea4314d2da6aee5b70d2bc3e724b03}{}\label{class_magnum_1_1_visual_effect_a80ea4314d2da6aee5b70d2bc3e724b03}
+
+\item 
+void {\bfseries apply\+Render\+State} (int i)\hypertarget{class_magnum_1_1_visual_effect_a7bef80b351e051d564a8aa8bddf9cd37}{}\label{class_magnum_1_1_visual_effect_a7bef80b351e051d564a8aa8bddf9cd37}
+
+\item 
+void {\bfseries apply\+Shader\+Constant} (int i)\hypertarget{class_magnum_1_1_visual_effect_a791b73617b2864df46f358b5fb1c02a7}{}\label{class_magnum_1_1_visual_effect_a791b73617b2864df46f358b5fb1c02a7}
+
+\item 
+void {\bfseries restore\+Shader} (int i)\hypertarget{class_magnum_1_1_visual_effect_ae81bb7611c19c9388c6a0d687a7411bb}{}\label{class_magnum_1_1_visual_effect_ae81bb7611c19c9388c6a0d687a7411bb}
+
+\item 
+void {\bfseries restore\+Texture} (int i)\hypertarget{class_magnum_1_1_visual_effect_a858ea8dcae4f4ce2ff56eda666a8557e}{}\label{class_magnum_1_1_visual_effect_a858ea8dcae4f4ce2ff56eda666a8557e}
+
+\item 
+void {\bfseries restore\+Render\+State} (int i)\hypertarget{class_magnum_1_1_visual_effect_a8dc17a5f548d5402b5e057fa843a4389}{}\label{class_magnum_1_1_visual_effect_a8dc17a5f548d5402b5e057fa843a4389}
+
+\item 
+void {\bfseries restore\+Shader\+Constant} (int i)\hypertarget{class_magnum_1_1_visual_effect_a36d0f0c828a75f43a9fecef96af7d966}{}\label{class_magnum_1_1_visual_effect_a36d0f0c828a75f43a9fecef96af7d966}
+
+\item 
+int {\bfseries get\+Num\+Passes} () const \hypertarget{class_magnum_1_1_visual_effect_a94bb348914ee4838cd15e022fb939b3e}{}\label{class_magnum_1_1_visual_effect_a94bb348914ee4838cd15e022fb939b3e}
+
+\item 
+\hyperlink{class_magnum_1_1_visual_effect_1_1_pass}{Pass} \& {\bfseries get\+Pass} (int i)\hypertarget{class_magnum_1_1_visual_effect_a6c37ec66a28a4f03a3567ae855f36c55}{}\label{class_magnum_1_1_visual_effect_a6c37ec66a28a4f03a3567ae855f36c55}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_visual_effect}{Visual\+Effect}. 
+
+This is the Visual\+Effect(\+Material) for rendering effect \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_visual_effect}{Visual\+Effect} 
+\end{DoxySeeAlso}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Visual\+Effect.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Visual\+Effect.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fbad0f2d-faaa-4b0b-865c-583fac8ddcb1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{92f20462-242f-4a0c-883e-b3c33819b84b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ad6e765e-4300-41dc-b185-05b019286785}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{00635bc9-1e72-424a-869a-467d445be135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{acc1795b-2e9e-487a-94e6-fe668ee6f759}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EpicForceSkeletalAnimModelExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DllEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributesBlock.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GXDef.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GXUniform.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStatesBlock.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UniformsBlock.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="MAXRawIndex.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexIndexOptimizer.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxSkeletalAnimModelBuilder.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalAnimModel.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EpicForceSkeletalAnimModelExporter.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3dsmaxsdk_preinclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EpicForceSkeletalAnimModelExporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimModelVersion.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributesBlock.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="gl2.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="gl2ext.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="gl2platform.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GXDef.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GXUniform.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStatesBlock.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UniformsBlock.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="MAXRawIndex.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexIndexOptimizer.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxSkeletalAnimModelBuilder.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalAnimModel.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="afxres.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EpicForceSkeletalAnimModelExporter.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

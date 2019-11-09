@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Views">
+      <UniqueIdentifier>{cdad3b6c-b3ed-4c03-a07c-3f2958edae46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bitmaps">
+      <UniqueIdentifier>{6343fe33-54b1-41ad-8876-fd0938f60e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{766ca004-4da8-4e6d-8ed1-5c0b36e4aea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DragDrop">
+      <UniqueIdentifier>{f2c6b96a-b586-4a00-9e4c-cb52afe3e46e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widgets">
+      <UniqueIdentifier>{f834b685-36de-4bef-96d0-2d8150cd9f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widgets\Classes">
+      <UniqueIdentifier>{5fdc71b3-453a-407f-afa8-3ee086aeb5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widgets\ArrayClasses">
+      <UniqueIdentifier>{1278a490-976b-4cfc-b2df-ec65057f5dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widgets\Misc">
+      <UniqueIdentifier>{74ae97cf-f526-438c-8e13-2a251088a448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widgets\ReflectedClasses">
+      <UniqueIdentifier>{ba0f6c9e-bc05-4180-bbbe-292a49c75ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Panels">
+      <UniqueIdentifier>{2d1334eb-8786-4a56-b542-51f9d162ac75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\ToolBarMenuBar">
+      <UniqueIdentifier>{a8c0a2ab-dc4a-4f31-944f-6501a8484162}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapCreater.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Localization.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="EGLDriver20.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="InputData.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityCreatorsView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityDragDrop.cpp">
+      <Filter>Source Files\DragDrop</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceImportDragDrop.cpp">
+      <Filter>Source Files\DragDrop</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceImporterView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerTreeItemMap.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchyView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="InspectorView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="wxBoolCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxUIntSpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxColorDlg.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxColorRGBACtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxDoubleSpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxFloatSpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxIntSpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxIVector2SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxIVector3SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxIVector4SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxResourcePathCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxStringCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxVector2SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxVector3SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxVector4SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayBoolCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayColorRGBACtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayDoubleSpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayFloatSpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayIntSpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayIVector2SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayIVector3SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayIVector4SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayResourcePathCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayStringCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayUIntSpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayVector2SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayVector3SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayVector4SpinnerCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="wxCollapsePanelCtrl.cpp">
+      <Filter>Source Files\Widgets\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="wxLabelCtrl.cpp">
+      <Filter>Source Files\Widgets\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArrayLengthCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPanel.cpp">
+      <Filter>Source Files\Views\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectedClassPropertyPanel.cpp">
+      <Filter>Source Files\Widgets\ReflectedClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="OperationModeToolBarView.cpp">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClCompile>
+    <ClCompile Include="EditToolBarView.cpp">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClCompile>
+    <ClCompile Include="FileToolBarView.cpp">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayModeToolBarView.cpp">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildModeToolBarView.cpp">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClCompile>
+    <ClCompile Include="wxSRTTransformCtrl.cpp">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="wxArraySRTTRansformCtrl.cpp">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="wxProjectDlg.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscBToolBarView.cpp">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscAToolBarView.cpp">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="uparrow_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="downarrow_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="fov_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="imagpng.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="leftarrow_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="moveselected_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="orbit_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitselected_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="pan_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="pnghand.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="pngread.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="rightarrow_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="rotateselected_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="scaleselected_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="selection_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="zoom_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="zoomregion_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="zoomExtents_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="zoomExtentSelected_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="Localization.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapCreater.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="EGLDriver20.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="InputData.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="wxdef.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectView.h">
+      <Filter>Source Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityCreatorsView.h">
+      <Filter>Source Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityDragDrop.h">
+      <Filter>Source Files\DragDrop</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceImportDragDrop.h">
+      <Filter>Source Files\DragDrop</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugView.h">
+      <Filter>Source Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneView.h">
+      <Filter>Source Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceImporterView.h">
+      <Filter>Source Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerTreeItemMap.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyView.h">
+      <Filter>Source Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="InspectorView.h">
+      <Filter>Source Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="wxBoolCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxColorDlg.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxColorRGBACtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxDoubleSpinnerCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxFloatSpinnerCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxIntSpinnerCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxIVector2SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxIVector3SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxIVector4SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxResourcePathCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxStringCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxVector4SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxUIntSpinnerCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxVector2SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxVector3SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayVector4SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayBoolCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayColorRGBACtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayDoubleSpinnerCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayFloatSpinnerCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayIntSpinnerCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayIVector2SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayIVector3SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayIVector4SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayResourcePathCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayStringCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayUIntSpinnerCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayVector2SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayVector3SpinnerCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="wxLabelCtrl.h">
+      <Filter>Source Files\Widgets\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="wxCollapsePanelCtrl.h">
+      <Filter>Source Files\Widgets\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArrayLengthCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPanel.h">
+      <Filter>Source Files\Views\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectedClassPropertyPanel.h">
+      <Filter>Source Files\Widgets\ReflectedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="OperationModeToolBarView.h">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClInclude>
+    <ClInclude Include="EditToolBarView.h">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClInclude>
+    <ClInclude Include="FileToolBarView.h">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClInclude>
+    <ClInclude Include="playbutton_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="stepbutton_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="stopbutton_png.h">
+      <Filter>Source Files\bitmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayModeToolBarView.h">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildModeToolBarView.h">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClInclude>
+    <ClInclude Include="wxSRTTransformCtrl.h">
+      <Filter>Source Files\Widgets\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="wxArraySRTTransformCtrl.h">
+      <Filter>Source Files\Widgets\ArrayClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="wxProjectDlg.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscBToolBarView.h">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscAToolBarView.h">
+      <Filter>Source Files\Views\ToolBarMenuBar</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

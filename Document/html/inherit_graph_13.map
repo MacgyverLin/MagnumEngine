@@ -1,0 +1,8 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node2" href="$classagm_1_1reflection_1_1_illegal_access_error.html" title="Exception thrown when there is an illegal access error. " alt="" coords="178,5,326,47"/>
+<area shape="rect" id="node3" href="$classagm_1_1reflection_1_1_super_class_error.html" title="Exception thrown when there the superclass of a class was asked to be returned but there was no super..." alt="" coords="161,71,343,112"/>
+<area shape="rect" id="node4" href="$classagm_1_1reflection_1_1_type_mismatch_error.html" title="Exception thrown when there is a type mismatch. " alt="" coords="152,136,352,177"/>
+<area shape="rect" id="node5" href="$classagm_1_1reflection_1_1_unknown_field_error.html" title="Exception thrown when an unknown field has been requested. " alt="" coords="168,201,336,243"/>
+<area shape="rect" id="node6" href="$classagm_1_1reflection_1_1_unknown_method_error.html" title="Exception thrown when an unknown method has been requested. " alt="" coords="168,267,336,308"/>
+<area shape="rect" id="node7" href="$classagm_1_1reflection_1_1_unknown_property_error.html" title="Exception thrown when an unknown property has been requested. " alt="" coords="168,332,336,373"/>
+</map>

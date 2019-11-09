@@ -1,0 +1,168 @@
+\hypertarget{class_i_dream_sky_1_1_resource_access}{}\section{I\+Dream\+Sky\+:\+:Resource\+Access 類別 參考文件}
+\label{class_i_dream_sky_1_1_resource_access}\index{I\+Dream\+Sky\+::\+Resource\+Access@{I\+Dream\+Sky\+::\+Resource\+Access}}
+類別\+I\+Dream\+Sky\+:\+:Resource\+Access的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{class_i_dream_sky_1_1_resource_access}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_i_dream_sky_1_1_resource_access_1_1_creator}{Creator}
+\item 
+class \hyperlink{class_i_dream_sky_1_1_resource_access_1_1_factory}{Factory}
+\item 
+class \hyperlink{class_i_dream_sky_1_1_resource_access_1_1_i_creator}{I\+Creator}
+\item 
+struct \hyperlink{struct_i_dream_sky_1_1_resource_access_1_1_service}{Service}
+\end{DoxyCompactItemize}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ {\bfseries M\+A\+X\+\_\+\+C\+R\+E\+A\+T\+OR} = 50, 
+{\bfseries M\+A\+X\+\_\+\+N\+A\+ME} = 64
+ \}\hypertarget{class_i_dream_sky_1_1_resource_access_aacb6fd66793306373f7cd1f6d8586877}{}\label{class_i_dream_sky_1_1_resource_access_aacb6fd66793306373f7cd1f6d8586877}
+
+\item 
+enum {\bfseries State} \{ {\bfseries P\+E\+N\+D\+I\+NG} = 0, 
+{\bfseries L\+O\+A\+D\+I\+NG}, 
+{\bfseries F\+A\+I\+L\+ED}, 
+{\bfseries R\+E\+A\+DY}
+ \}\hypertarget{class_i_dream_sky_1_1_resource_access_a6a8025010c976368f7c8a235b6c50a64}{}\label{class_i_dream_sky_1_1_resource_access_a6a8025010c976368f7c8a235b6c50a64}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_resource_access_a4322947bdd4f7fb491daa02ac9a8c7d9}{Resource\+Access} (const char $\ast$name\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_resource_access}{Resource\+Access} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_resource_access_a7769800aa4f118eaccaa82a2cb9e02d1}{$\sim$\+Resource\+Access} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_resource_access}{Resource\+Access} Destructor. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_i_dream_sky_1_1_resource_access_aacebfe47ff62d9a3b23db0ad4c9c2767}{name} ()
+\begin{DoxyCompactList}\small\item\em Get the Name. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_resource_access_a93e9d2b61b19334c64ec762cb04a3220}{add\+Ref} ()\hypertarget{class_i_dream_sky_1_1_resource_access_a93e9d2b61b19334c64ec762cb04a3220}{}\label{class_i_dream_sky_1_1_resource_access_a93e9d2b61b19334c64ec762cb04a3220}
+
+\begin{DoxyCompactList}\small\item\em Increase Reference Count of the resource by 1 This function increase reference count to the resource and keep managed by the Resource Manager. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_resource_access_a5aeaaeb81a37dd6ceac1cc7251a480f5}{release} ()
+\begin{DoxyCompactList}\small\item\em Decrease Reference Count of the resource by 1 This function decrease reference count to the resource. \end{DoxyCompactList}\item 
+int \hyperlink{class_i_dream_sky_1_1_resource_access_a64e4a911f49d166c02b9cd1f6f8c4e90}{get\+Ref\+Count} () const 
+\begin{DoxyCompactList}\small\item\em Get the Reference Count of the resource. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_resource_access_aee67422c4295313158b2682cbc8a2d53}{is\+Loading} () const \hypertarget{class_i_dream_sky_1_1_resource_access_aee67422c4295313158b2682cbc8a2d53}{}\label{class_i_dream_sky_1_1_resource_access_aee67422c4295313158b2682cbc8a2d53}
+
+\begin{DoxyCompactList}\small\item\em Check if the Resource is Loading. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_resource_access_a8451cc6dd389b29bb16fa4575614ba9a}{is\+Ready} () const \hypertarget{class_i_dream_sky_1_1_resource_access_a8451cc6dd389b29bb16fa4575614ba9a}{}\label{class_i_dream_sky_1_1_resource_access_a8451cc6dd389b29bb16fa4575614ba9a}
+
+\begin{DoxyCompactList}\small\item\em Increase Reference Count of the resource by 1 This function increase reference count to the resource and keep managed by the Resource Manager. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_i_dream_sky_1_1_resource_access}{Resource\+Access} $\ast$ {\bfseries get} (const char $\ast$name\+\_\+, const char $\ast$extension\+\_\+, bool async\+Loading=false)\hypertarget{class_i_dream_sky_1_1_resource_access_acc0a1ddf8d12b7c80839a07ec87a6dd8}{}\label{class_i_dream_sky_1_1_resource_access_acc0a1ddf8d12b7c80839a07ec87a6dd8}
+
+\item 
+static void {\bfseries load} (const char $\ast$directory\+\_\+, const char $\ast$extension=\char`\"{}$\ast$\char`\"{})\hypertarget{class_i_dream_sky_1_1_resource_access_abce2fed1d16d29afba7651ed4ebc6d00}{}\label{class_i_dream_sky_1_1_resource_access_abce2fed1d16d29afba7651ed4ebc6d00}
+
+\item 
+static void {\bfseries unload} (const char $\ast$directory\+\_\+, const char $\ast$extension=\char`\"{}$\ast$\char`\"{})\hypertarget{class_i_dream_sky_1_1_resource_access_a78e1244ae000d9ecc092be8ab34cdb89}{}\label{class_i_dream_sky_1_1_resource_access_a78e1244ae000d9ecc092be8ab34cdb89}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual const char $\ast$ {\bfseries extension} () const  =0\hypertarget{class_i_dream_sky_1_1_resource_access_aa406856d5653ad3f5d7de80b0b990af2}{}\label{class_i_dream_sky_1_1_resource_access_aa406856d5653ad3f5d7de80b0b990af2}
+
+\item 
+virtual unsigned char $\ast$ {\bfseries on\+Create} (int length)=0\hypertarget{class_i_dream_sky_1_1_resource_access_a81e397bea4d71972c40e088c0bc773c9}{}\label{class_i_dream_sky_1_1_resource_access_a81e397bea4d71972c40e088c0bc773c9}
+
+\item 
+virtual void {\bfseries on\+Loaded} ()=0\hypertarget{class_i_dream_sky_1_1_resource_access_aa065a53f34f73405819f69379d231e4e}{}\label{class_i_dream_sky_1_1_resource_access_aa065a53f34f73405819f69379d231e4e}
+
+\item 
+virtual void {\bfseries on\+Destroy} ()=0\hypertarget{class_i_dream_sky_1_1_resource_access_a222af6ebcd7acdf471610f83e8dc79e7}{}\label{class_i_dream_sky_1_1_resource_access_a222af6ebcd7acdf471610f83e8dc79e7}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Factory}\hypertarget{class_i_dream_sky_1_1_resource_access_a328c093d609680cca505905c6d49901a}{}\label{class_i_dream_sky_1_1_resource_access_a328c093d609680cca505905c6d49901a}
+
+\item 
+class {\bfseries I\+Creator}\hypertarget{class_i_dream_sky_1_1_resource_access_a6d6e56ac47edfce9d2590e0757222ded}{}\label{class_i_dream_sky_1_1_resource_access_a6d6e56ac47edfce9d2590e0757222ded}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Resource\+Access@{I\+Dream\+Sky\+::\+Resource\+Access}!Resource\+Access@{Resource\+Access}}
+\index{Resource\+Access@{Resource\+Access}!I\+Dream\+Sky\+::\+Resource\+Access@{I\+Dream\+Sky\+::\+Resource\+Access}}
+\subsubsection[{\texorpdfstring{Resource\+Access(const char $\ast$name\+\_\+)}{ResourceAccess(const char *name_)}}]{\setlength{\rightskip}{0pt plus 5cm}Resource\+Access\+::\+Resource\+Access (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_resource_access_a4322947bdd4f7fb491daa02ac9a8c7d9}{}\label{class_i_dream_sky_1_1_resource_access_a4322947bdd4f7fb491daa02ac9a8c7d9}
+
+
+\hyperlink{class_i_dream_sky_1_1_resource_access}{Resource\+Access} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_resource_access}{Resource\+Access} for the owner. \index{I\+Dream\+Sky\+::\+Resource\+Access@{I\+Dream\+Sky\+::\+Resource\+Access}!````~Resource\+Access@{$\sim$\+Resource\+Access}}
+\index{````~Resource\+Access@{$\sim$\+Resource\+Access}!I\+Dream\+Sky\+::\+Resource\+Access@{I\+Dream\+Sky\+::\+Resource\+Access}}
+\subsubsection[{\texorpdfstring{$\sim$\+Resource\+Access()}{~ResourceAccess()}}]{\setlength{\rightskip}{0pt plus 5cm}Resource\+Access\+::$\sim$\+Resource\+Access (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_resource_access_a7769800aa4f118eaccaa82a2cb9e02d1}{}\label{class_i_dream_sky_1_1_resource_access_a7769800aa4f118eaccaa82a2cb9e02d1}
+
+
+\hyperlink{class_i_dream_sky_1_1_resource_access}{Resource\+Access} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_resource_access}{Resource\+Access} and remove from its owner. 
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Resource\+Access@{I\+Dream\+Sky\+::\+Resource\+Access}!get\+Ref\+Count@{get\+Ref\+Count}}
+\index{get\+Ref\+Count@{get\+Ref\+Count}!I\+Dream\+Sky\+::\+Resource\+Access@{I\+Dream\+Sky\+::\+Resource\+Access}}
+\subsubsection[{\texorpdfstring{get\+Ref\+Count() const }{getRefCount() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Resource\+Access\+::get\+Ref\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_resource_access_a64e4a911f49d166c02b9cd1f6f8c4e90}{}\label{class_i_dream_sky_1_1_resource_access_a64e4a911f49d166c02b9cd1f6f8c4e90}
+
+
+Get the Reference Count of the resource. 
+
+\begin{DoxyReturn}{傳回值}
+int, the how many time the resource is reference. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Resource\+Access@{I\+Dream\+Sky\+::\+Resource\+Access}!name@{name}}
+\index{name@{name}!I\+Dream\+Sky\+::\+Resource\+Access@{I\+Dream\+Sky\+::\+Resource\+Access}}
+\subsubsection[{\texorpdfstring{name()}{name()}}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Resource\+Access\+::name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_resource_access_aacebfe47ff62d9a3b23db0ad4c9c2767}{}\label{class_i_dream_sky_1_1_resource_access_aacebfe47ff62d9a3b23db0ad4c9c2767}
+
+
+Get the Name. 
+
+\begin{DoxyReturn}{傳回值}
+, const char $\ast$name of the resource. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Resource\+Access@{I\+Dream\+Sky\+::\+Resource\+Access}!release@{release}}
+\index{release@{release}!I\+Dream\+Sky\+::\+Resource\+Access@{I\+Dream\+Sky\+::\+Resource\+Access}}
+\subsubsection[{\texorpdfstring{release()}{release()}}]{\setlength{\rightskip}{0pt plus 5cm}void Resource\+Access\+::release (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_resource_access_a5aeaaeb81a37dd6ceac1cc7251a480f5}{}\label{class_i_dream_sky_1_1_resource_access_a5aeaaeb81a37dd6ceac1cc7251a480f5}
+
+
+Decrease Reference Count of the resource by 1 This function decrease reference count to the resource. 
+
+If the reference count reach zero, the resource will be release by Resource Services \begin{DoxySeeAlso}{參閱}
+add\+Reference 
+\end{DoxySeeAlso}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Resource\+Access.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Resource\+Access.\+cpp\end{DoxyCompactItemize}

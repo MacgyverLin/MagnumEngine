@@ -1,0 +1,6 @@
+<map id="IDreamSky::VehicleCollider::~VehicleCollider" name="IDreamSky::VehicleCollider::~VehicleCollider">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_physics3_1_1_vehicle.html#adaf45020b377932849cf5f991011a7be" title="Construct the RigidBody. " alt="" coords="233,5,428,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_physics3_1_1_vehicle.html#a91442ec4d9cc561010be809abba1a79d" title="Set the Transform of the RigidBody. " alt="" coords="253,71,409,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_physics3_1_1_vehicle.html#a8bf438c58a7ec85a9d5e700c47dfaeb5" title="Update the rigidbody and the owner. " alt="" coords="241,136,420,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_physics3_1_1_vehicle.html#a2f17e197c9754f87be7d71aca79388dd" title="Destruct the rigidbody. " alt="" coords="237,201,424,243"/>
+</map>

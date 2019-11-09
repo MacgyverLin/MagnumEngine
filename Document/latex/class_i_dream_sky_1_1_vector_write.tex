@@ -1,0 +1,85 @@
+\hypertarget{class_i_dream_sky_1_1_vector_write}{}\section{I\+Dream\+Sky\+:\+:Vector\+Write$<$ T $>$ 類別 樣版 參考文件}
+\label{class_i_dream_sky_1_1_vector_write}\index{I\+Dream\+Sky\+::\+Vector\+Write$<$ T $>$@{I\+Dream\+Sky\+::\+Vector\+Write$<$ T $>$}}
+
+
+\hyperlink{class_i_dream_sky_1_1_vector_write}{Vector\+Write}.  
+
+
+
+
+{\ttfamily \#include $<$Output\+Stream.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_vector_write_afc6ed3e4eaba5b87e57a639094e6ff07}{Vector\+Write} (const \hyperlink{class_i_dream_sky_1_1_vector}{Vector}$<$ T $>$ \&vector\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_vector_write}{Vector\+Write} Constructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_vector_write_a9a61c1e933edc0e092ba822c8bf671cd}{write} (\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} \&os) const 
+\begin{DoxyCompactList}\small\item\em write function. \end{DoxyCompactList}\item 
+int \hyperlink{class_i_dream_sky_1_1_vector_write_aa1e587a2ab58ed2ec6f6acecfdac3862}{get\+Size} () const 
+\begin{DoxyCompactList}\small\item\em get\+Size function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\subsubsection*{template$<$class T$>$\\*
+class I\+Dream\+Sky\+::\+Vector\+Write$<$ T $>$}
+
+\hyperlink{class_i_dream_sky_1_1_vector_write}{Vector\+Write}. 
+
+A template class for serialization of vector of Type T 
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Vector\+Write@{I\+Dream\+Sky\+::\+Vector\+Write}!Vector\+Write@{Vector\+Write}}
+\index{Vector\+Write@{Vector\+Write}!I\+Dream\+Sky\+::\+Vector\+Write@{I\+Dream\+Sky\+::\+Vector\+Write}}
+\subsubsection[{\texorpdfstring{Vector\+Write(const Vector$<$ T $>$ \&vector\+\_\+)}{VectorWrite(const Vector< T > &vector_)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ {\bf I\+Dream\+Sky\+::\+Vector\+Write}$<$ T $>$\+::{\bf Vector\+Write} (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector}$<$ T $>$ \&}]{vector\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_write_afc6ed3e4eaba5b87e57a639094e6ff07}{}\label{class_i_dream_sky_1_1_vector_write_afc6ed3e4eaba5b87e57a639094e6ff07}
+
+
+\hyperlink{class_i_dream_sky_1_1_vector_write}{Vector\+Write} Constructor. 
+
+To \hyperlink{class_i_dream_sky_1_1_vector_write}{Vector\+Write} the \hyperlink{class_i_dream_sky_1_1_vector_read}{Vector\+Read}. 
+\begin{DoxyParams}{參數}
+{\em vector\+\_\+,the} & vector of class T, the outputstream will fill up this vector\+\_\+ \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Vector\+Write@{I\+Dream\+Sky\+::\+Vector\+Write}!get\+Size@{get\+Size}}
+\index{get\+Size@{get\+Size}!I\+Dream\+Sky\+::\+Vector\+Write@{I\+Dream\+Sky\+::\+Vector\+Write}}
+\subsubsection[{\texorpdfstring{get\+Size() const }{getSize() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int {\bf I\+Dream\+Sky\+::\+Vector\+Write}$<$ T $>$\+::get\+Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_write_aa1e587a2ab58ed2ec6f6acecfdac3862}{}\label{class_i_dream_sky_1_1_vector_write_aa1e587a2ab58ed2ec6f6acecfdac3862}
+
+
+get\+Size function. 
+
+\begin{DoxyReturn}{傳回值}
+int, size of the vector 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Vector\+Write@{I\+Dream\+Sky\+::\+Vector\+Write}!write@{write}}
+\index{write@{write}!I\+Dream\+Sky\+::\+Vector\+Write@{I\+Dream\+Sky\+::\+Vector\+Write}}
+\subsubsection[{\texorpdfstring{write(\+Output\+Stream \&os) const }{write(OutputStream &os) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf I\+Dream\+Sky\+::\+Vector\+Write}$<$ T $>$\+::write (
+\begin{DoxyParamCaption}
+\item[{{\bf Output\+Stream} \&}]{os}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_write_a9a61c1e933edc0e092ba822c8bf671cd}{}\label{class_i_dream_sky_1_1_vector_write_a9a61c1e933edc0e092ba822c8bf671cd}
+
+
+write function. 
+
+\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} will call this function when \hyperlink{class_i_dream_sky_1_1_vector_write}{Vector\+Write} is serializing 
+\begin{DoxyParams}{參數}
+{\em os,the} & \hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream}, the \hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream}. \\
+\hline
+\end{DoxyParams}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Output\+Stream.\+h\end{DoxyCompactItemize}

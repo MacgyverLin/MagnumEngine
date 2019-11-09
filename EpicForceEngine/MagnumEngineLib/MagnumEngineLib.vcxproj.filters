@@ -1,0 +1,2973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MagnumCore">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MagnumCore\Math">
+      <UniqueIdentifier>{6e2c5d13-ab0d-4cd5-bae1-e313fa2486e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Math\Shape">
+      <UniqueIdentifier>{49700680-3995-4351-8e58-da55284a4412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Math\Curve">
+      <UniqueIdentifier>{094ed33e-2ccf-46df-8cb0-6096a149ab01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\System">
+      <UniqueIdentifier>{e308d844-bc0b-4c5d-b26d-0b8dda09da27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Services">
+      <UniqueIdentifier>{96f2445a-f843-48e0-97f0-43173bd397f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK">
+      <UniqueIdentifier>{4cd3717e-262a-41a3-95ae-74fc2232ec7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Box2D">
+      <UniqueIdentifier>{34302e62-ffb7-4f2b-b915-e3929a431d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Box2D\Collision">
+      <UniqueIdentifier>{00bb2277-f802-4e1f-b2ce-191285a00c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Box2D\Collision\Shapes">
+      <UniqueIdentifier>{bddceb45-c5ba-4e31-9ccc-f45dcd94bf9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Box2D\Common">
+      <UniqueIdentifier>{b8a7883a-becf-4bb9-8f53-798e44b1ea70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Box2D\Dynamics">
+      <UniqueIdentifier>{f8d4f8f9-57c2-47b7-95e0-350225e13218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Box2D\Dynamics\Contacts">
+      <UniqueIdentifier>{9f86ccd5-faa6-4a44-8e26-fa0e7693a3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Box2D\Dynamics\Joints">
+      <UniqueIdentifier>{0d0f7f84-7aa8-45ff-a7f3-c7defbc26b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Box2D\Rope">
+      <UniqueIdentifier>{485a521f-49b0-412f-afc4-22ccd69d8cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet">
+      <UniqueIdentifier>{9e2925a8-b108-4f30-a1f2-5c32b3272597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletCollision">
+      <UniqueIdentifier>{e6afbdde-072a-4d6a-8b0a-b8cf67e05a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletDynamics">
+      <UniqueIdentifier>{f97a8b9f-4101-42c7-a1bb-7da7fc5c737d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletSoftBody">
+      <UniqueIdentifier>{ccd9f982-c69f-446e-bb42-10847290b7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\LinearMath">
+      <UniqueIdentifier>{a609c894-18ee-462a-aaf1-ace148066113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision">
+      <UniqueIdentifier>{d58a8535-bc69-49df-a55e-7c56d777bfe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch">
+      <UniqueIdentifier>{40e8cc70-8f80-4ca0-b2a4-4680266ec566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes">
+      <UniqueIdentifier>{ae303afb-239e-4d41-b99e-448bf572b1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletCollision\Gimpact">
+      <UniqueIdentifier>{09de2bd5-747d-4ba6-ae8b-3153d8765545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision">
+      <UniqueIdentifier>{0fa5ba49-2cf4-414c-981c-35ffed11449a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletDynamics\Character">
+      <UniqueIdentifier>{be1a8b79-ae36-413f-9161-848202f6d074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver">
+      <UniqueIdentifier>{ea39577d-cd98-4ebb-b79f-e29dc599ae13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletDynamics\Dynamics">
+      <UniqueIdentifier>{a6b6890d-f37a-478c-9cdb-6e1d11189c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\Bullet\BulletDynamics\Vehicle">
+      <UniqueIdentifier>{ccdc337c-18e6-409b-8871-325a87f1c46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\unzip">
+      <UniqueIdentifier>{33413a93-aa2f-4c52-9e8d-f79bb212d2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\zlib">
+      <UniqueIdentifier>{52a30a63-17ef-4165-b081-366f4c49b61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Services\Video">
+      <UniqueIdentifier>{8c7cd75b-f85b-4861-9177-bd94b284ae3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\PVRTexLib">
+      <UniqueIdentifier>{49a812a6-ddaa-43e5-a11d-372f568f6b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Services\Input">
+      <UniqueIdentifier>{bb1f11bb-9dac-42ff-87dc-9c3806becc3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Services\Scene">
+      <UniqueIdentifier>{ca20958b-0771-4cea-845a-25dc1471c16c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Util">
+      <UniqueIdentifier>{2d02be13-fe1c-4432-a5c5-5506c7649d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Services\Video\GX">
+      <UniqueIdentifier>{933b52c4-37ed-4d46-b465-9845c883a611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Services\ResourceImport">
+      <UniqueIdentifier>{480d4975-5e0c-4c8e-aa3f-99524b760968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Services\Physics3">
+      <UniqueIdentifier>{2b6cad90-98e6-408d-b3bc-d351947eb3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Services\Audio">
+      <UniqueIdentifier>{d1794b57-4e43-418e-bff7-adc56ef1e4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Services\ResourceAccess">
+      <UniqueIdentifier>{71e1cf4c-b609-4286-95ac-30b1c6de175e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\System\reflection">
+      <UniqueIdentifier>{0cd65156-7bbd-4d39-8f6f-117589b57d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\System\reflection\EntityReadWrite">
+      <UniqueIdentifier>{4da2ffd4-61f2-42d8-8278-d27b1d2b8dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\System\StateMachine">
+      <UniqueIdentifier>{10635217-9cb9-4a72-809a-3c310b6a8088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\System\reflection\ReflectedClasses">
+      <UniqueIdentifier>{f175f562-b92f-4f6d-b231-b8ed77bcf01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Services\Selection3">
+      <UniqueIdentifier>{eefc76ff-2545-4a86-a042-3a0b43c1d578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components">
+      <UniqueIdentifier>{2634c79b-0aad-415c-9d6a-0c00bc5ac9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video">
+      <UniqueIdentifier>{d3d48310-e65f-49b7-a058-87a96cf5fb37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Camera">
+      <UniqueIdentifier>{854c51e8-e1af-4db9-a550-ea5abea1c68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Camera\Base">
+      <UniqueIdentifier>{81a1c42b-c5cc-4be8-8c90-ef4ffad4f29a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Camera\Camera">
+      <UniqueIdentifier>{638195df-ba3d-401e-a20e-e7b2044f0d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Shape">
+      <UniqueIdentifier>{195a453c-4c99-4d25-965c-dfcb2546ad51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Shape\SkeletalAnimModel">
+      <UniqueIdentifier>{8c61f8d3-7035-47c0-9751-abb6e7bf8a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Shape\SkeletalAnimModel\Animation">
+      <UniqueIdentifier>{39e800dc-486b-46bc-991f-fb8937529a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Shape\SkeletalAnimModel\Model">
+      <UniqueIdentifier>{0ee10bdb-4a13-4e80-9ddb-693c47cd7473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Shape\SimpleShapes">
+      <UniqueIdentifier>{8dc939f1-7381-41c8-be4c-74aa89ca5a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Shape\ParticleEmitter">
+      <UniqueIdentifier>{7f993757-8239-4ef1-8590-68390138b093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Shape\SkySphere">
+      <UniqueIdentifier>{2a97b53e-ff7a-42e5-bf8f-d90ac35e85f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Shape\Editor">
+      <UniqueIdentifier>{e5f98d38-e6fe-4908-b3f9-f087700c4196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Textures">
+      <UniqueIdentifier>{e17dd321-d691-46a6-9d72-3b21863424c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Textures\Base">
+      <UniqueIdentifier>{22b0083e-2ca0-4e99-81db-7dc1302bd750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\VisualEffect">
+      <UniqueIdentifier>{6665ab4b-ee73-4a00-9f4e-43034b032c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\VisualEffect\Data">
+      <UniqueIdentifier>{fcc47b9d-8a9d-419d-8644-c9e154e7b723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Renderers">
+      <UniqueIdentifier>{1569af1a-0ea3-45f7-a5fa-3ef48049334d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Renderers\Base">
+      <UniqueIdentifier>{1d9dfc31-1594-471e-bfb0-998b468e58a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Renderers\Editor">
+      <UniqueIdentifier>{1766a21a-a116-4ce2-80e3-48a4c47dcfb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Audio">
+      <UniqueIdentifier>{588f4dba-159d-4442-a986-c8b4881a2927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Audio\Source">
+      <UniqueIdentifier>{1d8619bb-52bd-44aa-9e45-3c1bfe599727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Audio\Base">
+      <UniqueIdentifier>{9e2deb6b-a9ad-4514-889f-41bb97baef71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Audio\Listener">
+      <UniqueIdentifier>{cf22a389-4c9c-4f73-b022-6c3726af25ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Physics">
+      <UniqueIdentifier>{108659a8-dfbb-42f3-8eeb-1a91a14e78a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Physics\Shapes">
+      <UniqueIdentifier>{d293fc9d-2da1-400f-95b3-67d68b4dc7af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Editor">
+      <UniqueIdentifier>{f4f1bd3c-8a0e-4606-87cf-0c8b3f358f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Select3">
+      <UniqueIdentifier>{2efa5479-82ea-43a5-abf2-f052012e4ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Select3\Shapes">
+      <UniqueIdentifier>{f843c8ba-f389-4493-a15d-1a9a25cbee68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Entity">
+      <UniqueIdentifier>{54b77f7c-2cd9-4877-839f-b6dd6251cba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Util\Video">
+      <UniqueIdentifier>{f61308a5-a495-49cf-af9f-9ab166df4d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\GameDesc">
+      <UniqueIdentifier>{30a574ca-ee16-4036-b670-3526c0c3e12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\SDK\XML">
+      <UniqueIdentifier>{831c4ef7-ea04-4b43-8e35-da86296ffa9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Shape\SpriteAnimation">
+      <UniqueIdentifier>{e814c09e-3a3a-4e9f-a782-f83ba9b0b3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Shape\FontAndText">
+      <UniqueIdentifier>{119b120d-7b0c-4051-9afc-cf215708887f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Services\Collision">
+      <UniqueIdentifier>{f4531aa2-a8dd-4b6c-b76e-7689b09f7615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MagnumCore\Components\Video\Shape\Base">
+      <UniqueIdentifier>{b90ada0d-5eed-4ff7-8c6f-eb699a20c209}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MagnumCore\BVector2.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BVector3.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BVector4.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ColorRGB.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ColorRGBA.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\EMath.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\IVector2.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\IVector3.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\IVector4.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Matrix2.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Matrix3.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Matrix4.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Quaternion.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Vector2.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Vector3.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Vector4.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Vector10.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\AABB2.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\AABB3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Arc2.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BezierCurve2.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BezierCurve3.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BSplineBasis.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BSplineCurve2.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BSplineCurve3.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Capsule3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Circle2.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Circle3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Cone3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Curve2.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Curve3.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Cylinder3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Line2.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Line3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Lozenge3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\MultipleCurve2.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\MultipleCurve3.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Polyhedron3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Quadratic2.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Quadratic3.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Plane3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Polynomial1.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Ray2.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Ray3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Rectangle3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Segment2.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Segment3.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SingleCurve2.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SingleCurve3.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Sphere3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\TCBSpline2.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\TCBSpline3.cpp">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Tetrahedron3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Triangle2.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Triangle3.cpp">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Delegate.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Frame3.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Service.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\b2BroadPhase.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\b2CollideCircle.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\b2CollideEdge.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\b2CollidePolygon.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\b2Collision.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\b2Distance.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\b2DynamicTree.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\b2TimeOfImpact.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Common\b2BlockAllocator.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Common\b2Draw.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Common\b2Math.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Common\b2Settings.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Common\b2StackAllocator.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Common\b2Timer.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\b2Body.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\b2ContactManager.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\b2Fixture.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\b2Island.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\b2World.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2Joint.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Box2D\Rope\b2Rope.cpp">
+      <Filter>MagnumCore\SDK\Box2D\Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\unzip\ioapi.c">
+      <Filter>MagnumCore\SDK\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\unzip\iowin32.c">
+      <Filter>MagnumCore\SDK\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\unzip\mztools.c">
+      <Filter>MagnumCore\SDK\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\unzip\unzip.c">
+      <Filter>MagnumCore\SDK\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\unzip\zip.c">
+      <Filter>MagnumCore\SDK\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\adler32.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\compress.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\crc32.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\deflate.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\infback.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\inffast.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\inflate.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\inftrees.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\trees.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\uncompr.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\zutil.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Input.cpp">
+      <Filter>MagnumCore\Services\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Scene.cpp">
+      <Filter>MagnumCore\Services\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\PVRTexLoad.cpp">
+      <Filter>MagnumCore\Util\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXColorBuffer.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXContext.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXDef.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXDepthBuffer.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXFrameBuffer.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXPixelBuffer.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXPrimitive.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXRenderTarget.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXShaderProgram.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXTexture.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXTexture2D.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXTextureCube.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXVertexBuffer.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Texture2DFile.cpp">
+      <Filter>MagnumCore\Components\Video\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Video.cpp">
+      <Filter>MagnumCore\Services\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Texture2DBase.cpp">
+      <Filter>MagnumCore\Components\Video\Textures\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\TextureCubeBase.cpp">
+      <Filter>MagnumCore\Components\Video\Textures\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\TextureBase.cpp">
+      <Filter>MagnumCore\Components\Video\Textures\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\PVRTexConvert.cpp">
+      <Filter>MagnumCore\Util\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ResourceAccess.cpp">
+      <Filter>MagnumCore\Services\ResourceAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ResourceImport.cpp">
+      <Filter>MagnumCore\Services\ResourceImport</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\TextureCubeFile.cpp">
+      <Filter>MagnumCore\Components\Video\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Font.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\FontAndText</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\EString.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ESystem.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\FileIO.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\InputStream.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\IO.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\OutputStream.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Platform.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Array.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\List.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Stage.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXIndexBuffer.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\VisualEffect.cpp">
+      <Filter>MagnumCore\Components\Video\VisualEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXAttribute.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXUniform.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXBlendState.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXDepthTestState.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXPolygonOffsetState.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXStencilTestState.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXStencilOpState.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXCullState.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\StagePCPlatformDepFunc.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXTextureFilterState.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXTextureWrapState.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\AnimBase.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SkeletalAnimBase.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SkeletalAnimBlender.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SkeletalAnimation.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Physics3.cpp">
+      <Filter>MagnumCore\Services\Physics3</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SphereShape3.cpp">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\HeightFieldShape3.cpp">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\CylinderShape3.cpp">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ConeShape3.cpp">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\CapsuleShape3.cpp">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BoxShape3.cpp">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Shape3.cpp">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\LinearMath\btAlignedAllocator.cpp">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\LinearMath\btConvexHull.cpp">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\LinearMath\btConvexHullComputer.cpp">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\LinearMath\btGeometryUtil.cpp">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\LinearMath\btQuickprof.cpp">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\LinearMath\btSerializer.cpp">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btDefaultSoftBodySolver.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftBody.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftBodyHelpers.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftRigidCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftRigidDynamicsWorld.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftSoftCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Character\btKinematicCharacterController.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btContactConstraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Dynamics\btRigidBody.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Dynamics\Bullet-C-API.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Vehicle\btRaycastVehicle.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Vehicle\btWheelInfo.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDbvt.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDispatcher.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionObject.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionWorld.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btGhostObject.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btManifoldResult.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btUnionFind.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btBox2dShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btBoxShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btCapsuleShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btCollisionShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btCompoundShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConcaveShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConeShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvex2dShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexHullShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexInternalShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btCylinderShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btEmptyShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btMultiSphereShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btOptimizedBvh.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btShapeHull.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btSphereShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTetrahedronShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleBuffer.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleCallback.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleMesh.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btUniformScalingShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btContactProcessing.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btGenericPoolAllocator.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactBvh.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactQuantizedBvh.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactShape.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btTriangleShapeEx.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\gim_box_set.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\gim_contact.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\gim_memory.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\gim_tri_collision.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\AudioComponent.cpp">
+      <Filter>MagnumCore\Components\Audio\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\AudioListenerBase.cpp">
+      <Filter>MagnumCore\Components\Audio\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\AudioSourceBase.cpp">
+      <Filter>MagnumCore\Components\Audio\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Audio.cpp">
+      <Filter>MagnumCore\Services\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\AudioListener.cpp">
+      <Filter>MagnumCore\Components\Audio\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\AudioClip.cpp">
+      <Filter>MagnumCore\Components\Audio\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\AudioStream.cpp">
+      <Filter>MagnumCore\Components\Audio\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SkeletalAnimModel.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Cube.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SimpleShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BillBoard.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SimpleShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\DiffuseMapCube.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SimpleShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\DiffuseMapSpecularMapCube.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SimpleShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SkySphere.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SkySphere</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ParticleEmitter.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\ParticleEmitter</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\gzclose.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\gzread.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\gzwrite.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\zlib\gzlib.c">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SRTTransform.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ClassIndexMap.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\EditorCameraComponent.cpp">
+      <Filter>MagnumCore\Components\Video\Camera\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ResourcePath.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GXDebugRenderer.cpp">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\AttributesBlock.cpp">
+      <Filter>MagnumCore\Components\Video\VisualEffect\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\RenderStatesBlock.cpp">
+      <Filter>MagnumCore\Components\Video\VisualEffect\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ShaderProgramBlock.cpp">
+      <Filter>MagnumCore\Components\Video\VisualEffect\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\TextureUniformsBlock.cpp">
+      <Filter>MagnumCore\Components\Video\VisualEffect\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\UniformsBlock.cpp">
+      <Filter>MagnumCore\Components\Video\VisualEffect\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SkeletalAnimModelComponent.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\HeightFieldCollider.cpp">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Cone3Collider.cpp">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Capsule3Collider.cpp">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Box3Collider.cpp">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Cylinder3Collider.cpp">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ProjectModelViewBase.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\reflection.cpp">
+      <Filter>MagnumCore\System\reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\EntityPropertyReader.cpp">
+      <Filter>MagnumCore\System\reflection\EntityReadWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\EntityPropertyWriter.cpp">
+      <Filter>MagnumCore\System\reflection\EntityReadWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\StateMachine.cpp">
+      <Filter>MagnumCore\System\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\State.cpp">
+      <Filter>MagnumCore\System\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\EntityFieldReader.cpp">
+      <Filter>MagnumCore\System\reflection\EntityReadWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\EntityFieldWriter.cpp">
+      <Filter>MagnumCore\System\reflection\EntityReadWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ReflectedClassPropertyWriter.cpp">
+      <Filter>MagnumCore\System\reflection\ReflectedClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ReflectedClassPropertyReader.cpp">
+      <Filter>MagnumCore\System\reflection\ReflectedClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ReflectedClassFieldReader.cpp">
+      <Filter>MagnumCore\System\reflection\ReflectedClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ReflectedClassFieldWriter.cpp">
+      <Filter>MagnumCore\System\reflection\ReflectedClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\IComponentDebugRenderer.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\RendererBase.cpp">
+      <Filter>MagnumCore\Components\Video\Renderers\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BillBoardRenderer.cpp">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\CubeRenderer.cpp">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\DiffuseMapCubeRenderer.cpp">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\DiffuseMapSpecularMapCubeRenderer.cpp">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ParticleEmitterRenderer.cpp">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SkeletalAnimModelRenderer.cpp">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SkySphereRenderer.cpp">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Transform.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\EditorGizmoRenderer.cpp">
+      <Filter>MagnumCore\Components\Video\Renderers\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\PerspectiveCameraComponent.cpp">
+      <Filter>MagnumCore\Components\Video\Camera\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\CameraComponent.cpp">
+      <Filter>MagnumCore\Components\Video\Camera\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\OrthographicCameraComponent.cpp">
+      <Filter>MagnumCore\Components\Video\Camera\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\EditorGizmo.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Entity.cpp">
+      <Filter>MagnumCore\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Selection3.cpp">
+      <Filter>MagnumCore\Services\Selection3</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Rectangle2.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SphereBound.cpp">
+      <Filter>MagnumCore\Components\Select3\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\CapsuleBound.cpp">
+      <Filter>MagnumCore\Components\Select3\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Component.cpp">
+      <Filter>MagnumCore\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\ZipFile.cpp">
+      <Filter>MagnumCore\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\tinystr.cpp">
+      <Filter>MagnumCore\SDK\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\tinyxml.cpp">
+      <Filter>MagnumCore\SDK\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\tinyxmlerror.cpp">
+      <Filter>MagnumCore\SDK\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\tinyxmlparser.cpp">
+      <Filter>MagnumCore\SDK\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\GameDescriptor.cpp">
+      <Filter>MagnumCore\GameDesc</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BaryCentric.cpp">
+      <Filter>MagnumCore\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BVHTriangleMeshShape3.cpp">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BVHTriangleMeshCollider.cpp">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Sphere3Collider.cpp">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\VehicleCollider.cpp">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\RaySphereCast.cpp">
+      <Filter>MagnumCore\Services\Physics3</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SpriteSheet.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\SpriteAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\SceneCollision.cpp">
+      <Filter>MagnumCore\Services\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Sphere3Collision.cpp">
+      <Filter>MagnumCore\Services\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Collision.cpp">
+      <Filter>MagnumCore\Services\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGearConstraint.cpp">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\LinearMath\btPolarDecomposition.cpp">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Bullet\LinearMath\btVector3.cpp">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\MagnumPrefab.cpp">
+      <Filter>MagnumCore\Components\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\MagnumScene.cpp">
+      <Filter>MagnumCore\Components\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\BasicScene.cpp">
+      <Filter>MagnumCore\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Graphics3Component.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MagnumCore\Graphics2Component.cpp">
+      <Filter>MagnumCore\Components\Video\Shape\Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MagnumCore\BVector2.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BVector3.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BVector4.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ColorRGB.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ColorRGBA.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\EMath.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\IVector2.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\IVector3.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\IVector4.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Matrix2.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Matrix3.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Matrix4.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Quaternion.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Vector2.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Vector3.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Vector4.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Vector10.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\AABB2.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\AABB3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Arc2.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BezierCurve3.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BezierCurve2.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BSplineBasis.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BSplineCurve2.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BSplineCurve3.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Capsule3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Circle2.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Circle3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Cone3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Curve3.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Curve2.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Cylinder3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Line2.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Line3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Lozenge3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\MultipleCurve3.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\MultipleCurve2.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Polyhedron3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Plane3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Quadratic2.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Quadratic3.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Polynomial1.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Ray2.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Ray3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Rectangle3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Segment2.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Segment3.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SingleCurve3.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SingleCurve2.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Sphere3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\TCBSpline3.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\TCBSpline2.h">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Tetrahedron3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Triangle2.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Triangle3.h">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Delegate.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Frame3.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Singleton.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Service.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Collision\b2BroadPhase.h">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Collision\b2Collision.h">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Collision\b2Distance.h">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Collision\b2DynamicTree.h">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Collision\b2TimeOfImpact.h">
+      <Filter>MagnumCore\SDK\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Collision\Shapes\b2ChainShape.h">
+      <Filter>MagnumCore\SDK\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Collision\Shapes\b2CircleShape.h">
+      <Filter>MagnumCore\SDK\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Collision\Shapes\b2EdgeShape.h">
+      <Filter>MagnumCore\SDK\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Collision\Shapes\b2PolygonShape.h">
+      <Filter>MagnumCore\SDK\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Collision\Shapes\b2Shape.h">
+      <Filter>MagnumCore\SDK\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Common\b2BlockAllocator.h">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Common\b2Draw.h">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Common\b2GrowableStack.h">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Common\b2Math.h">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Common\b2Settings.h">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Common\b2StackAllocator.h">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Common\b2Timer.h">
+      <Filter>MagnumCore\SDK\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\b2Body.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\b2ContactManager.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\b2Fixture.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\b2Island.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\b2TimeStep.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\b2World.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\b2WorldCallbacks.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2GearJoint.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2Joint.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2Contact.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>MagnumCore\SDK\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Rope\b2Rope.h">
+      <Filter>MagnumCore\SDK\Box2D\Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Box2D\Box2D.h">
+      <Filter>MagnumCore\SDK\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\unzip\crypt.h">
+      <Filter>MagnumCore\SDK\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\unzip\ioapi.h">
+      <Filter>MagnumCore\SDK\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\unzip\iowin32.h">
+      <Filter>MagnumCore\SDK\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\unzip\mztools.h">
+      <Filter>MagnumCore\SDK\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\unzip\unzip.h">
+      <Filter>MagnumCore\SDK\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\unzip\zip.h">
+      <Filter>MagnumCore\SDK\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\zlib\crc32.h">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\zlib\deflate.h">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\zlib\gzguts.h">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\zlib\inffast.h">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\zlib\inffixed.h">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\zlib\inflate.h">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\zlib\inftrees.h">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\zlib\trees.h">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\zlib\zconf.h">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\zlib\zlib.h">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\zlib\zutil.h">
+      <Filter>MagnumCore\SDK\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\MagnumEngine.h">
+      <Filter>MagnumCore</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PVRTexLib\include\CPVRTexture.h">
+      <Filter>MagnumCore\SDK\PVRTexLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PVRTexLib\include\CPVRTextureData.h">
+      <Filter>MagnumCore\SDK\PVRTexLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PVRTexLib\include\CPVRTextureHeader.h">
+      <Filter>MagnumCore\SDK\PVRTexLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PVRTexLib\include\Pixel.h">
+      <Filter>MagnumCore\SDK\PVRTexLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PVRTexLib\include\PVRException.h">
+      <Filter>MagnumCore\SDK\PVRTexLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PVRTexLib\include\PVRTexLib.h">
+      <Filter>MagnumCore\SDK\PVRTexLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PVRTexLib\include\PVRTexLibGlobals.h">
+      <Filter>MagnumCore\SDK\PVRTexLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PVRTexLib\include\PVRTexLibVersion.h">
+      <Filter>MagnumCore\SDK\PVRTexLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PVRTexLib\include\PVRTGlobal.h">
+      <Filter>MagnumCore\SDK\PVRTexLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Input.h">
+      <Filter>MagnumCore\Services\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Scene.h">
+      <Filter>MagnumCore\Services\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\PVRTexLoad.h">
+      <Filter>MagnumCore\Util\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXColorBuffer.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXContext.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXDef.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXDepthBuffer.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXFrameBuffer.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXPixelBuffer.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXPrimitive.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXRenderTarget.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXShaderProgram.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXTexture.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXTexture2D.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXTextureCube.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXVertexBuffer.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Texture2DFile.h">
+      <Filter>MagnumCore\Components\Video\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Video.h">
+      <Filter>MagnumCore\Services\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Texture2DBase.h">
+      <Filter>MagnumCore\Components\Video\Textures\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\TextureCubeBase.h">
+      <Filter>MagnumCore\Components\Video\Textures\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\TextureBase.h">
+      <Filter>MagnumCore\Components\Video\Textures\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\PVRTexConvert.h">
+      <Filter>MagnumCore\Util\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ResourceAccess.h">
+      <Filter>MagnumCore\Services\ResourceAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ResourceImport.h">
+      <Filter>MagnumCore\Services\ResourceImport</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\TextureCubeFile.h">
+      <Filter>MagnumCore\Components\Video\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Font.h">
+      <Filter>MagnumCore\Components\Video\Shape\FontAndText</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\EString.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ESystem.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\FileIO.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\InputStream.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\IO.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\OutputStream.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Platform.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Array.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\List.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Stage.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXIndexBuffer.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\VisualEffect.h">
+      <Filter>MagnumCore\Components\Video\VisualEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXAttribute.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXUniform.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXBlendState.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXDepthTestState.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXPolygonOffsetState.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXStencilTestState.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXStencilOpState.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXCullState.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXTextureFilterState.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXTextureWrapState.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\AnimBase.h">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SkeletalAnimBase.h">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SkeletalAnimBlender.h">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SkeletalAnimation.h">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Physics3.h">
+      <Filter>MagnumCore\Services\Physics3</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SphereShape3.h">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\CapsuleShape3.h">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ConeShape3.h">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\CylinderShape3.h">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\HeightFieldShape3.h">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BoxShape3.h">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Shape3.h">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btAabbUtil2.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btAlignedAllocator.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btAlignedObjectArray.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btConvexHull.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btConvexHullComputer.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btDefaultMotionState.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btGeometryUtil.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btGrahamScan2dConvexHull.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btHashMap.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btIDebugDraw.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btList.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btMatrix3x3.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btMinMax.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btMotionState.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btPoolAllocator.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btQuadWord.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btQuaternion.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btQuickprof.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btRandom.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btScalar.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btSerializer.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btStackAlloc.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btTransform.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btTransformUtil.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btVector3.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btDefaultSoftBodySolver.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBody.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodyData.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodyHelpers.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodyInternals.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodySolvers.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodySolverVertexBuffer.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftRigidCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftRigidDynamicsWorld.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftSoftCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSparseSDF.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Character\btCharacterControllerInterface.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Character\btKinematicCharacterController.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btConstraintSolver.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btContactConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btContactSolverInfo.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btHinge2Constraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btHingeConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btJacobianEntry.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSliderConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSolverBody.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSolverConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btTypedConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btUniversalConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Dynamics\btActionInterface.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Dynamics\btDynamicsWorld.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Dynamics\btRigidBody.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Dynamics\btSimpleDynamicsWorld.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Vehicle\btRaycastVehicle.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Vehicle\btVehicleRaycaster.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Vehicle\btWheelInfo.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btAxisSweep3.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btBroadphaseInterface.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btBroadphaseProxy.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDbvt.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDbvtBroadphase.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDispatcher.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCache.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCallback.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btQuantizedBvh.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btSimpleBroadphase.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBoxBoxDetector.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionConfiguration.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionCreateFunc.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionDispatcher.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionObject.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionWorld.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btGhostObject.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btInternalEdgeUtility.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btManifoldResult.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSimulationIslandManager.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btUnionFind.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\SphereTriangleDetector.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btBox2dShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btBoxShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btCapsuleShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btCollisionMargin.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btCollisionShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btCompoundShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConcaveShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConeShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvex2dShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexHullShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexInternalShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexPointCloudShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexPolyhedron.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btCylinderShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btEmptyShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btMaterial.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btMinkowskiSumShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btMultiSphereShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btOptimizedBvh.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btPolyhedralConvexShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btShapeHull.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btSphereShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btStaticPlaneShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btStridingMeshInterface.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTetrahedronShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleBuffer.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleCallback.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleInfoMap.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleMesh.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleMeshShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btUniformScalingShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btBoxCollision.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btClipPolygon.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btContactProcessing.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGenericPoolAllocator.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGeometryOperations.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactBvh.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactMassUtil.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactQuantizedBvh.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactShape.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btQuantization.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btTriangleShapeEx.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_array.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_basic_geometry_operations.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_bitset.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_box_collision.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_box_set.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_clip_polygon.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_contact.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_geom_types.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_geometry.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_hash_table.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_linear_math.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_math.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_memory.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_radixsort.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_tri_collision.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btConvexCast.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btConvexPenetrationDepthSolver.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btDiscreteCollisionDetectorInterface.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa2.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btManifoldPoint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btPersistentManifold.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btPointCollector.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btRaycastCallback.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btSimplexSolverInterface.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\btBulletCollisionCommon.h">
+      <Filter>MagnumCore\SDK\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\btBulletDynamicsCommon.h">
+      <Filter>MagnumCore\SDK\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\Bullet-C-Api.h">
+      <Filter>MagnumCore\SDK\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\AudioComponent.h">
+      <Filter>MagnumCore\Components\Audio\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\AudioListenerBase.h">
+      <Filter>MagnumCore\Components\Audio\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\AudioSourceBase.h">
+      <Filter>MagnumCore\Components\Audio\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Audio.h">
+      <Filter>MagnumCore\Services\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\AudioListener.h">
+      <Filter>MagnumCore\Components\Audio\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\AudioClip.h">
+      <Filter>MagnumCore\Components\Audio\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\AudioStream.h">
+      <Filter>MagnumCore\Components\Audio\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SkeletalAnimModel.h">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Cube.h">
+      <Filter>MagnumCore\Components\Video\Shape\SimpleShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BillBoard.h">
+      <Filter>MagnumCore\Components\Video\Shape\SimpleShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\DiffuseMapSpecularMapCube.h">
+      <Filter>MagnumCore\Components\Video\Shape\SimpleShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\DiffuseMapCube.h">
+      <Filter>MagnumCore\Components\Video\Shape\SimpleShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SkySphere.h">
+      <Filter>MagnumCore\Components\Video\Shape\SkySphere</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ParticleEmitter.h">
+      <Filter>MagnumCore\Components\Video\Shape\ParticleEmitter</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SRTTransform.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ClassIndexMap.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\EditorCameraComponent.h">
+      <Filter>MagnumCore\Components\Video\Camera\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ResourcePath.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GXDebugRenderer.h">
+      <Filter>MagnumCore\Services\Video\GX</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\UniformsBlock.h">
+      <Filter>MagnumCore\Components\Video\VisualEffect\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\AttributesBlock.h">
+      <Filter>MagnumCore\Components\Video\VisualEffect\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\RenderStatesBlock.h">
+      <Filter>MagnumCore\Components\Video\VisualEffect\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Semantic.h">
+      <Filter>MagnumCore\Components\Video\VisualEffect\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ShaderProgramBlock.h">
+      <Filter>MagnumCore\Components\Video\VisualEffect\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\TextureUniformsBlock.h">
+      <Filter>MagnumCore\Components\Video\VisualEffect\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SkeletalAnimModelComponent.h">
+      <Filter>MagnumCore\Components\Video\Shape\SkeletalAnimModel</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\HeightFieldCollider.h">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Cone3Collider.h">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Capsule3Collider.h">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Box3Collider.h">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Cylinder3Collider.h">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\gldef.h">
+      <Filter>MagnumCore\Services\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ProjectModelViewBase.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\reflection.h">
+      <Filter>MagnumCore\System\reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\EntityPropertyWriter.h">
+      <Filter>MagnumCore\System\reflection\EntityReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\EntityPropertyReader.h">
+      <Filter>MagnumCore\System\reflection\EntityReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\StateMachine.h">
+      <Filter>MagnumCore\System\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\State.h">
+      <Filter>MagnumCore\System\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\EntityFieldWriter.h">
+      <Filter>MagnumCore\System\reflection\EntityReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\EntityFieldReader.h">
+      <Filter>MagnumCore\System\reflection\EntityReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ReflectedClassPropertyWriter.h">
+      <Filter>MagnumCore\System\reflection\ReflectedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ReflectedClassPropertyReader.h">
+      <Filter>MagnumCore\System\reflection\ReflectedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ReflectedClassFieldReader.h">
+      <Filter>MagnumCore\System\reflection\ReflectedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ReflectedClassFieldWriter.h">
+      <Filter>MagnumCore\System\reflection\ReflectedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\IComponentDebugRenderer.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\RendererBase.h">
+      <Filter>MagnumCore\Components\Video\Renderers\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BillBoardRenderer.h">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\CubeRenderer.h">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\DiffuseMapCubeRenderer.h">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\DiffuseMapSpecularMapCubeRenderer.h">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ParticleEmitterRenderer.h">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SkeletalAnimModelRenderer.h">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SkySphereRenderer.h">
+      <Filter>MagnumCore\Components\Video\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Transform.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\EditorGizmoRenderer.h">
+      <Filter>MagnumCore\Components\Video\Renderers\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\PerspectiveCameraComponent.h">
+      <Filter>MagnumCore\Components\Video\Camera\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\CameraComponent.h">
+      <Filter>MagnumCore\Components\Video\Camera\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\OrthographicCameraComponent.h">
+      <Filter>MagnumCore\Components\Video\Camera\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\EditorGizmo.h">
+      <Filter>MagnumCore\Components\Video\Shape\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Entity.h">
+      <Filter>MagnumCore\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Selection3.h">
+      <Filter>MagnumCore\Services\Selection3</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Rectangle2.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SphereBound.h">
+      <Filter>MagnumCore\Components\Select3\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\CapsuleBound.h">
+      <Filter>MagnumCore\Components\Select3\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Component.h">
+      <Filter>MagnumCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\ZipFile.h">
+      <Filter>MagnumCore\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\tinystr.h">
+      <Filter>MagnumCore\SDK\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\tinyxml.h">
+      <Filter>MagnumCore\SDK\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\GameDescriptor.h">
+      <Filter>MagnumCore\GameDesc</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BaryCentric.h">
+      <Filter>MagnumCore\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BVHTriangleMeshShape3.h">
+      <Filter>MagnumCore\Components\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BVHTriangleMeshCollider.h">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Sphere3Collider.h">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\VehicleCollider.h">
+      <Filter>MagnumCore\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\RaySphereCast.h">
+      <Filter>MagnumCore\Services\Physics3</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SpriteSheet.h">
+      <Filter>MagnumCore\Components\Video\Shape\SpriteAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\SceneCollision.h">
+      <Filter>MagnumCore\Services\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Collision.h">
+      <Filter>MagnumCore\Services\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Sphere3Collision.h">
+      <Filter>MagnumCore\Services\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionObjectWrapper.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGearConstraint.h">
+      <Filter>MagnumCore\SDK\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Bullet\LinearMath\btPolarDecomposition.h">
+      <Filter>MagnumCore\SDK\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\MagnumPrefab.h">
+      <Filter>MagnumCore\Components\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\MagnumScene.h">
+      <Filter>MagnumCore\Components\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\BasicScene.h">
+      <Filter>MagnumCore\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Graphics3Component.h">
+      <Filter>MagnumCore\Components\Video\Shape\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MagnumCore\Graphics2Component.h">
+      <Filter>MagnumCore\Components\Video\Shape\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MagnumCore\EMath.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\Matrix2.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\Matrix3.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\Matrix4.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\Quaternion.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\Vector2.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\Vector3.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\Vector4.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\AABB2.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\AABB3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Arc2.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Capsule3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Circle3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Circle2.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Cone3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Cylinder3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Line3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Line2.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Lozenge3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Polyhedron3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Plane3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Quadratic3.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\Quadratic2.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\Polynomial1.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\Ray3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Ray2.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Rectangle3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Segment3.inl">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </None>
+    <None Include="MagnumCore\Segment2.inl">
+      <Filter>MagnumCore\Math\Curve</Filter>
+    </None>
+    <None Include="MagnumCore\Sphere3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Triangle3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Tetrahedron3.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\Triangle2.inl">
+      <Filter>MagnumCore\Math\Shape</Filter>
+    </None>
+    <None Include="MagnumCore\IVector2.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\IVector4.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\IVector3.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\BVector2.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\BVector3.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\BVector4.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+    <None Include="MagnumCore\Rectangle2.inl">
+      <Filter>MagnumCore\Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>

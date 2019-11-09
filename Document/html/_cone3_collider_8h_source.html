@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/Cone3Collider.h 原始程式檔</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li><a href="annotated.html"><span>類別</span></a></li>
+      <li class="current"><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>檔案列表</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_3b299f3d84239cc10925a78cf20e9b48.html">innovation</a></li><li class="navelem"><a class="el" href="dir_4d4d197ad34ec1dfe298c9d993c7bc0e.html">GovernmentEngine</a></li><li class="navelem"><a class="el" href="dir_1e0d49b1eb313e118d98e24098e2f6a7.html">EpicForceEngine</a></li><li class="navelem"><a class="el" href="dir_a7d5f72d102c9e84652ad636ce8313e7.html">MagnumEngineLib</a></li><li class="navelem"><a class="el" href="dir_66b0301f98c392f3cfc1bcb6a7aee577.html">MagnumCore</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Cone3Collider.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright(c) 2016, Lin Koon Wing Macgyver, macgyvercct@yahoo.com.hk           //</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//                                                                               //</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Author : Mac Lin                                                              //</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Module : DreamEngine v1.0.0                                               //</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Date   : 14/Jun/2016                                                          //</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//                                                                               //</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"></span><span class="preprocessor">#ifndef _Cone3Collider_h_</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define _Cone3Collider_h_</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;Stage.h&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;Physics3.h&quot;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;ConeShape3.h&quot;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespace_i_dream_sky.html">IDreamSky</a>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_i_dream_sky.html">IDreamSky</a></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_i_dream_sky_1_1_cone3_collider.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_i_dream_sky_1_1_cone3_collider.html">Cone3Collider</a> : <span class="keyword">public</span> <a class="code" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html">Physics3::RigidBody</a></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_cone3_collider.html#aabfb5ab06a1f03e6835f6cef119b2376">Cone3Collider</a>(<a class="code" href="class_i_dream_sky_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_cone3_collider.html#a5907a81bd67777d53b2c9c7fb75a7619">~Cone3Collider</a>();</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    DECLARE_COMPONENT(<a class="code" href="class_i_dream_sky_1_1_cone3_collider.html">Cone3Collider</a>, <a class="code" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html">Physics3::RigidBody</a>, <span class="keyword">false</span>)</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_i_dream_sky_1_1_cone3_collider.html#a03db780d77b35b5b84e921f57753a91b">   45</a></span>&#160;    <a class="code" href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8a970d66442558ce0a3ce7b8009c14fa">Physics3::RigidBody::Type</a>   <a class="code" href="class_i_dream_sky_1_1_cone3_collider.html#a03db780d77b35b5b84e921f57753a91b">type</a>;                   </div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_i_dream_sky_1_1_cone3_collider.html#a81c66f6665f4f43600211137ef46696f">   46</a></span>&#160;    <a class="code" href="class_i_dream_sky_1_1_physics3_1_1_material.html">Physics3::Material</a>          <a class="code" href="class_i_dream_sky_1_1_cone3_collider.html#a81c66f6665f4f43600211137ef46696f">material</a>;               </div><div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="class_i_dream_sky_1_1_cone3_collider.html#a49b3fd8b7545b67f399369f6d357db2b">   47</a></span>&#160;    <a class="code" href="class_i_dream_sky_1_1_physics3_1_1_collision_filter.html">Physics3::CollisionFilter</a>   <a class="code" href="class_i_dream_sky_1_1_cone3_collider.html#a49b3fd8b7545b67f399369f6d357db2b">collisionFilter</a>;        </div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_cone3_collider.html#a108405162a1c16d285fbfde5efebe23c">PROPERTY</a>(<span class="keywordtype">bool</span>, Kinematic);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_cone3_collider.html#a108405162a1c16d285fbfde5efebe23c">PROPERTY</a>(<span class="keywordtype">float</span>, Radius);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_cone3_collider.html#a108405162a1c16d285fbfde5efebe23c">PROPERTY</a>(<span class="keywordtype">float</span>, Height);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onConstruct();</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onStart();</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onUpdate(<span class="keywordtype">float</span> dt);</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onPause();</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onResume();</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onStop();</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDestruct();</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDebugRender(<a class="code" href="class_i_dream_sky_1_1_i_component_debug_renderer.html">IComponentDebugRenderer</a> &amp;debugRenderer);</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_cone_shape3.html">ConeShape3</a> coneShape3;</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;};</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;};</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="class_i_dream_sky_1_1_cone3_collider_html"><div class="ttname"><a href="class_i_dream_sky_1_1_cone3_collider.html">IDreamSky::Cone3Collider</a></div><div class="ttdoc">Cone3Collider Component. </div><div class="ttdef"><b>Definition:</b> Cone3Collider.h:25</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_physics3_1_1_material_html"><div class="ttname"><a href="class_i_dream_sky_1_1_physics3_1_1_material.html">IDreamSky::Physics3::Material</a></div><div class="ttdoc">Material. </div><div class="ttdef"><b>Definition:</b> Physics3.h:73</div></div>
+<div class="ttc" id="namespace_i_dream_sky_html"><div class="ttname"><a href="namespace_i_dream_sky.html">IDreamSky</a></div><div class="ttdef"><b>Definition:</b> AABB2.h:18</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cone3_collider_html_a49b3fd8b7545b67f399369f6d357db2b"><div class="ttname"><a href="class_i_dream_sky_1_1_cone3_collider.html#a49b3fd8b7545b67f399369f6d357db2b">IDreamSky::Cone3Collider::collisionFilter</a></div><div class="ttdeci">Physics3::CollisionFilter collisionFilter</div><div class="ttdoc">Static Physics3::CollisionFilter collisionFilter. </div><div class="ttdef"><b>Definition:</b> Cone3Collider.h:47</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cone3_collider_html_a81c66f6665f4f43600211137ef46696f"><div class="ttname"><a href="class_i_dream_sky_1_1_cone3_collider.html#a81c66f6665f4f43600211137ef46696f">IDreamSky::Cone3Collider::material</a></div><div class="ttdeci">Physics3::Material material</div><div class="ttdoc">Static Physics3::Material material. </div><div class="ttdef"><b>Definition:</b> Cone3Collider.h:46</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_physics3_1_1_rigid_body_html"><div class="ttname"><a href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html">IDreamSky::Physics3::RigidBody</a></div><div class="ttdoc">RigidBody Component. </div><div class="ttdef"><b>Definition:</b> Physics3.h:101</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_physics3_1_1_rigid_body_html_a8a970d66442558ce0a3ce7b8009c14fa"><div class="ttname"><a href="class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a8a970d66442558ce0a3ce7b8009c14fa">IDreamSky::Physics3::RigidBody::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> Physics3.h:106</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_i_component_debug_renderer_html"><div class="ttname"><a href="class_i_dream_sky_1_1_i_component_debug_renderer.html">IDreamSky::IComponentDebugRenderer</a></div><div class="ttdef"><b>Definition:</b> IComponentDebugRenderer.h:24</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cone_shape3_html"><div class="ttname"><a href="class_i_dream_sky_1_1_cone_shape3.html">IDreamSky::ConeShape3</a></div><div class="ttdoc">ConeShape3. </div><div class="ttdef"><b>Definition:</b> ConeShape3.h:25</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_physics3_1_1_collision_filter_html"><div class="ttname"><a href="class_i_dream_sky_1_1_physics3_1_1_collision_filter.html">IDreamSky::Physics3::CollisionFilter</a></div><div class="ttdoc">CollisionFilter. </div><div class="ttdef"><b>Definition:</b> Physics3.h:50</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cone3_collider_html_a5907a81bd67777d53b2c9c7fb75a7619"><div class="ttname"><a href="class_i_dream_sky_1_1_cone3_collider.html#a5907a81bd67777d53b2c9c7fb75a7619">IDreamSky::Cone3Collider::~Cone3Collider</a></div><div class="ttdeci">~Cone3Collider()</div><div class="ttdoc">Cone3Collider Destructor. </div><div class="ttdef"><b>Definition:</b> Cone3Collider.cpp:22</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cone3_collider_html_a03db780d77b35b5b84e921f57753a91b"><div class="ttname"><a href="class_i_dream_sky_1_1_cone3_collider.html#a03db780d77b35b5b84e921f57753a91b">IDreamSky::Cone3Collider::type</a></div><div class="ttdeci">Physics3::RigidBody::Type type</div><div class="ttdoc">Static Physics3::RigidBody::Type type. </div><div class="ttdef"><b>Definition:</b> Cone3Collider.h:45</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cone3_collider_html_aabfb5ab06a1f03e6835f6cef119b2376"><div class="ttname"><a href="class_i_dream_sky_1_1_cone3_collider.html#aabfb5ab06a1f03e6835f6cef119b2376">IDreamSky::Cone3Collider::Cone3Collider</a></div><div class="ttdeci">Cone3Collider(Component::Owner &amp;owner_)</div><div class="ttdoc">Cone3Collider Constructor. </div><div class="ttdef"><b>Definition:</b> Cone3Collider.cpp:12</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cone3_collider_html_a108405162a1c16d285fbfde5efebe23c"><div class="ttname"><a href="class_i_dream_sky_1_1_cone3_collider.html#a108405162a1c16d285fbfde5efebe23c">IDreamSky::Cone3Collider::PROPERTY</a></div><div class="ttdeci">PROPERTY(bool, Kinematic)</div><div class="ttdoc">Set if the Collider is Kinematic RigidBody. </div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_component_1_1_owner_html"><div class="ttname"><a href="class_i_dream_sky_1_1_component_1_1_owner.html">IDreamSky::Component::Owner</a></div><div class="ttdoc">Owner. </div><div class="ttdef"><b>Definition:</b> Component.h:48</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

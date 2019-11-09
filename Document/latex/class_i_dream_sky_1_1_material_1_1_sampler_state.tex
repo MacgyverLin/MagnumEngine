@@ -1,0 +1,170 @@
+\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state}{}\section{I\+Dream\+Sky\+:\+:Material\+:\+:Sampler\+State 類別 參考文件}
+\label{class_i_dream_sky_1_1_material_1_1_sampler_state}\index{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State}.  
+
+
+
+
+{\ttfamily \#include $<$Material.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state_a983a567b70e790865bfedfb8547b51d5}{Sampler\+State} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state_a616ede01faa3bb0f3d87cf92f8e36f3f}{$\sim$\+Sampler\+State} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state_a5746f28f616efc0af967afbda6a52a5d}{Sampler\+State} (\hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Material\+::\+Sampler\+State} \&other)
+\begin{DoxyCompactList}\small\item\em Copy Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Material\+::\+Sampler\+State} \& \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state_ab8f367f7ff72c553fc817dce20f1a0b0}{operator=} (const \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Material\+::\+Sampler\+State} \&other)
+\begin{DoxyCompactList}\small\item\em Assigned operator. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state_a735b8048ed883a4b48582bf7e7d87cd9}{get\+Name} () const 
+\begin{DoxyCompactList}\small\item\em Get the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state_a3dc1f90e1be84f7e1aaa68aec15e2c0e}{set\+Texture} (\hyperlink{class_i_dream_sky_1_1_texture_base}{Texture\+Base} $\ast$texture)
+\begin{DoxyCompactList}\small\item\em Set the texture of this \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State}. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_texture_base}{Texture\+Base} $\ast$ \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state_a2f3591af293e42bff7ee97cd5b66607f}{get\+Texture} ()
+\begin{DoxyCompactList}\small\item\em Get the texture of this \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state_a911ad0ef9f7cf8dbc7425652ecf89359}{apply} (int texture\+Idx, \hyperlink{class_i_dream_sky_1_1_g_x_shader_program}{G\+X\+Shader\+Program} \&shader\+Program)\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_a911ad0ef9f7cf8dbc7425652ecf89359}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_a911ad0ef9f7cf8dbc7425652ecf89359}
+
+\begin{DoxyCompactList}\small\item\em apply the R\+Ender\+State, \hyperlink{class_i_dream_sky_1_1_material_1_1_shader_state}{Shader\+State} of the \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state_ab86b3a3a8483abe566a9bfe05d29f856}{restore} (int texture\+Idx, \hyperlink{class_i_dream_sky_1_1_g_x_shader_program}{G\+X\+Shader\+Program} \&shader\+Program)\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_ab86b3a3a8483abe566a9bfe05d29f856}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_ab86b3a3a8483abe566a9bfe05d29f856}
+
+\begin{DoxyCompactList}\small\item\em restore any \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State}, \hyperlink{class_i_dream_sky_1_1_material_1_1_shader_state}{Shader\+State} changed by this \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} \end{DoxyCompactList}\item 
+void {\bfseries read} (\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_a93a8ab16558f205122744cf587d3f423}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_a93a8ab16558f205122744cf587d3f423}
+
+\item 
+void {\bfseries write} (\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_abeab7142d4b1b5757d7d9d69ee984210}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_abeab7142d4b1b5757d7d9d69ee984210}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Material}\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_aa1212b6e372a0f45d2c01f3cd203af77}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_aa1212b6e372a0f45d2c01f3cd203af77}
+
+\item 
+class {\bfseries Material\+::\+Resource}\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_a6a002bcee6c883089769545352e9ccbd}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_a6a002bcee6c883089769545352e9ccbd}
+
+\item 
+class {\bfseries Material\+::\+Resource\+Importer}\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_a941a71e735085112a8496c27836506ee}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_a941a71e735085112a8496c27836506ee}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State}. 
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State}. This is the Sampler Information of this Sampler \hyperlink{class_i_dream_sky_1_1_state}{State} \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}!Sampler\+State@{Sampler\+State}}
+\index{Sampler\+State@{Sampler\+State}!I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}}
+\subsubsection[{\texorpdfstring{Sampler\+State()}{SamplerState()}}]{\setlength{\rightskip}{0pt plus 5cm}Material\+::\+Sampler\+State\+::\+Sampler\+State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_a983a567b70e790865bfedfb8547b51d5}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_a983a567b70e790865bfedfb8547b51d5}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State} for the \hyperlink{class_i_dream_sky_1_1_material}{Material}. \index{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}!````~Sampler\+State@{$\sim$\+Sampler\+State}}
+\index{````~Sampler\+State@{$\sim$\+Sampler\+State}!I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}}
+\subsubsection[{\texorpdfstring{$\sim$\+Sampler\+State()}{~SamplerState()}}]{\setlength{\rightskip}{0pt plus 5cm}Material\+::\+Sampler\+State\+::$\sim$\+Sampler\+State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_a616ede01faa3bb0f3d87cf92f8e36f3f}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_a616ede01faa3bb0f3d87cf92f8e36f3f}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State}. \index{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}!Sampler\+State@{Sampler\+State}}
+\index{Sampler\+State@{Sampler\+State}!I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}}
+\subsubsection[{\texorpdfstring{Sampler\+State(\+Material\+::\+Sampler\+State \&other)}{SamplerState(Material::SamplerState &other)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State\+::\+Sampler\+State (
+\begin{DoxyParamCaption}
+\item[{{\bf Material\+::\+Sampler\+State} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_a5746f28f616efc0af967afbda6a52a5d}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_a5746f28f616efc0af967afbda6a52a5d}
+
+
+Copy Constructor. 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}}
+\subsubsection[{\texorpdfstring{get\+Name() const }{getName() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State\+::get\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_a735b8048ed883a4b48582bf7e7d87cd9}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_a735b8048ed883a4b48582bf7e7d87cd9}
+
+
+Get the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State}. 
+
+\begin{DoxyReturn}{傳回值}
+, const char $\ast$, the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}!get\+Texture@{get\+Texture}}
+\index{get\+Texture@{get\+Texture}!I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}}
+\subsubsection[{\texorpdfstring{get\+Texture()}{getTexture()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Texture\+Base} $\ast$ Material\+::\+Sampler\+State\+::get\+Texture (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_a2f3591af293e42bff7ee97cd5b66607f}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_a2f3591af293e42bff7ee97cd5b66607f}
+
+
+Get the texture of this \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State}. 
+
+\begin{DoxyReturn}{傳回值}
+, Texture\+Base$\ast$, the pointer to textre of this \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}!operator=@{operator=}}
+\index{operator=@{operator=}!I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}}
+\subsubsection[{\texorpdfstring{operator=(const Material\+::\+Sampler\+State \&other)}{operator=(const Material::SamplerState &other)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Material\+::\+Sampler\+State} \& Material\+::\+Sampler\+State\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Material\+::\+Sampler\+State} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_ab8f367f7ff72c553fc817dce20f1a0b0}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_ab8f367f7ff72c553fc817dce20f1a0b0}
+
+
+Assigned operator. 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}!set\+Texture@{set\+Texture}}
+\index{set\+Texture@{set\+Texture}!I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State@{I\+Dream\+Sky\+::\+Material\+::\+Sampler\+State}}
+\subsubsection[{\texorpdfstring{set\+Texture(\+Texture\+Base $\ast$texture)}{setTexture(TextureBase *texture)}}]{\setlength{\rightskip}{0pt plus 5cm}void Material\+::\+Sampler\+State\+::set\+Texture (
+\begin{DoxyParamCaption}
+\item[{{\bf Texture\+Base} $\ast$}]{texture}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_sampler_state_a3dc1f90e1be84f7e1aaa68aec15e2c0e}{}\label{class_i_dream_sky_1_1_material_1_1_sampler_state_a3dc1f90e1be84f7e1aaa68aec15e2c0e}
+
+
+Set the texture of this \hyperlink{class_i_dream_sky_1_1_material_1_1_sampler_state}{Sampler\+State}. 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Material.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Material.\+cpp\end{DoxyCompactItemize}

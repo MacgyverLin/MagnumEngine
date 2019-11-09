@@ -1,0 +1,11 @@
+<map id="IDreamSky::TextureCubeFile::Resource::~Resource" name="IDreamSky::TextureCubeFile::Resource::~Resource">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_vector.html#aee1b78ffb3522750babb05a1ef96f027" title="resize the Vector to length_ " alt="" coords="269,5,409,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_vector.html#ac4d19b6d0c51f31abb9fa1e976ba98fe" title="Get the length of the Vector. " alt="" coords="269,71,409,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_file_input_stream.html#aea79616a783d74553e6adb2a524f1a3f" title="Check if the stream is opened. " alt="" coords="247,136,432,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_file_input_stream.html#a5ca686c3e5ec27ce9c5cec39bae10cdb" title="read function buffer data " alt="" coords="247,201,432,243"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_file_input_stream.html#a20d195e941f8dd8d65d7cb3e49828dae" title="skip data from buffer " alt="" coords="247,267,432,308"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_file_output_stream.html#afcb041ab2dd146a2ba38dd0fb1b53f37" title="Check if the stream is opened. " alt="" coords="241,332,437,373"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_file_output_stream.html#ab3d24c893812e35318b3a535880465fb" title="write function buffer data " alt="" coords="241,397,437,439"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_file_output_stream.html#a8ea8902dfc78e6c48a171ef6d9a5ef25" title="skip data from buffer " alt="" coords="241,463,437,504"/>
+<area shape="rect" id="node10" href="$class_i_dream_sky_1_1_file_output_stream.html#a1d0294f4ece89e18dc9d9e7535b5a9cc" title="Tell the current read position. " alt="" coords="241,528,437,569"/>
+</map>

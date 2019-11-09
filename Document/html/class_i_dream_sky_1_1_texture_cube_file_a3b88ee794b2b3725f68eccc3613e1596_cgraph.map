@@ -1,0 +1,4 @@
+<map id="IDreamSky::TextureCubeFile::~TextureCubeFile" name="IDreamSky::TextureCubeFile::~TextureCubeFile">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_texture_cube_file.html#a1132d1610cae021b5f4e9a4061d11429" title="destruct the texture and release of texture resource " alt="" coords="241,5,429,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_resource_access.html#a5aeaaeb81a37dd6ceac1cc7251a480f5" title="Decrease Reference Count of the resource by 1 This function decrease reference count to the resource..." alt="" coords="477,5,671,47"/>
+</map>

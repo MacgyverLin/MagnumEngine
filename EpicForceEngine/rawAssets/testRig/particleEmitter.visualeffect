@@ -1,0 +1,100 @@
+<VisualEffect>
+	<Attributes>
+		<Attribute type="vec4" format="ubyte4n" name="startFrameUV" semantic="POSITION0" />
+		<Attribute type="vec4" format="float4"  name="initialPositionCurrentTime" semantic="POSITION0" />
+		<Attribute type="vec3" format="float3"  name="initialVelocity" semantic="POSITION0" />
+		<Attribute type="vec3" format="float3"  name="acceleration" semantic="POSITION0" />
+		<Attribute type="vec4" format="float4"  name="startSizeEndSize" semantic="POSITION0" />
+		<Attribute type="vec4" format="ubyte4n" name="startColor" semantic="POSITION0" />
+		<Attribute type="vec4" format="ubyte4n" name="endColor" semantic="POSITION0" />
+	</Attributes>
+	<Uniforms>
+		<Uniform precision="" format="mat4" name="worldTransform" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="mat4" name="projViewTransform" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="float" name="currentTime" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="float" name="invDuration" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="vec2" name="invTextureRowColumn" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="float" name="framesPerSecond" arraysize="1" semantic="" initializer=""/>
+		<Uniform precision="" format="sampler2D" name="texture" arraysize="1" semantic="" initializer=""/>
+	</Uniforms>
+	<Technique name="Test">
+		<Pass name="P0">
+			<RenderStates>
+				<RenderState type="blendenable" value="true"/>						
+				<RenderState type="blendmode" value="add"/>						
+				<RenderState type="blendsrcfactor" value="srcalpha"/>					
+				<RenderState type="blenddstfactor" value="one"/>
+
+				<RenderState type="cullenable" value="false"/>
+				<RenderState type="cullmode" value="cw"/>							
+
+				<RenderState type="depthtestenable" value="true"/>					
+				<RenderState type="depthwriteenable" value="false"/>
+			</RenderStates>
+			<VertexShader>
+				attribute vec4 startFrameUV;
+				attribute vec4 initialPositionCurrentTime;
+				attribute vec3 initialVelocity;
+				attribute vec3 acceleration;
+				attribute vec4 startSizeEndSize;
+				attribute vec4 startColor;
+				attribute vec4 endColor;
+
+				varying lowp vec4 colorVarying;
+				varying lowp vec2 texCoordVarying;
+
+				uniform mat4 worldTransform;
+				uniform mat4 projViewTransform;
+				uniform float currentTime;
+				uniform float invDuration;
+				uniform vec2 invTextureRowColumn;
+				uniform float framesPerSecond;
+
+				void main()
+				{
+					float startTime  = initialPositionCurrentTime.w;
+					float deltaTime  = currentTime - startTime;
+					deltaTime = max(deltaTime, 0.0);
+					/*if(deltaTime>1.0/invDuration)
+						deltaTime=1.0/invDuration;*/
+						
+					/* calculate position */
+					vec2 size		 =  startSizeEndSize.xy +
+										(startSizeEndSize.zw - startSizeEndSize.xy) * invDuration * deltaTime;					
+
+					/* calculate position */
+					vec4 billboardpos=	vec4(startFrameUV.xy * 0.5 * size.xy, 0.0, 0.0) * worldTransform;
+					
+					vec3 pos		 =	billboardpos.xyz +
+										initialPositionCurrentTime.xyz +
+										initialVelocity * deltaTime +
+										0.5 * acceleration * deltaTime * deltaTime;
+					gl_Position      = vec4(pos, 1.0) * projViewTransform;
+
+					/* calculate color */
+					colorVarying	 = startColor +
+										(endColor - startColor) * invDuration * deltaTime;
+
+					/* calculate texcoord */
+					float frame		 = floor(startFrameUV.z * 255.0 + framesPerSecond * deltaTime) * invTextureRowColumn.x;
+					float du		 = frame;
+					float dv		 = floor(frame) * invTextureRowColumn.y;
+					
+					texCoordVarying  = startFrameUV.xy * invTextureRowColumn + vec2(du, dv);
+				}
+			</VertexShader>
+			<PixelShader>
+				varying lowp vec4 colorVarying;
+				varying lowp vec2 texCoordVarying;
+				uniform sampler2D texture;
+
+				void main()
+				{
+					lowp vec4 texcol = texture2D(texture, texCoordVarying);
+
+					gl_FragColor = colorVarying * texcol;
+				}
+			</PixelShader>
+		</Pass>
+	</Technique>
+</VisualEffect>

@@ -1,0 +1,84 @@
+<VisualEffect order="1">
+	<Attributes>
+		<Attribute type="vec3" format="float3" name="inputPosition"	semantic="POSITION0" />
+	</Attributes>
+	<Uniforms>
+		<Uniform precision="" format="mat4" name="worldMat" arraysize="1" semantic="WORLD" initializer=""/>
+		<Uniform precision="" format="mat4" name="worldViewProjMat" arraysize="1" semantic="WORLDVIEWPROJ" initializer=""/>
+		<Uniform precision="" format="vec3" name="localBBoxMin" arraysize="1" semantic="LOCALBBOXMIN" initializer=""/>
+		<Uniform precision="" format="vec3" name="localBBoxMax" arraysize="1" semantic="LOCALBBOXMAX" initializer=""/>
+		<Uniform precision="" format="float" name="texture1RepeatCountX" arraysize="1" initializer="100"/>
+		<Uniform precision="" format="float" name="texture1RepeatCountY" arraysize="1" initializer="100"/>
+		<Uniform precision="" format="float" name="texture2RepeatCountX" arraysize="1" initializer="100"/>
+		<Uniform precision="" format="float" name="texture2RepeatCountY" arraysize="1" initializer="100"/>
+		<Uniform precision="" format="sampler2D" name="layer1MapSampler" arraysize="1" semantic="DIFFUSEMAP" minfilter="linearmipmapnearest" magfilter="linear" wraps="repeat" wrapt="repeat"/>
+		<Uniform precision="" format="sampler2D" name="layer2MapSampler" arraysize="1" semantic="SPECULARMAP" minfilter="linearmipmapnearest" magfilter="linear" wraps="repeat" wrapt="repeat"/>
+		<Uniform precision="" format="sampler2D" name="splatMapSampler" arraysize="1" semantic="OPACITYMAP" minfilter="linearmipmapnearest" magfilter="linear" wraps="repeat" wrapt="repeat"/>
+	</Uniforms>
+	<Technique name="Default">
+		<Pass name="P0">
+			<RenderStates>
+				<RenderState type="cullenable" value="true"/>
+				<RenderState type="cullmode" value="cw"/>
+
+				<RenderState type="blendEnable" value="false"/>
+				<RenderState type="blendMode" value="add"/>
+				<RenderState type="blendSrcFactor" value="srcalpha"/>
+				<RenderState type="blendDstFactor" value="oneminussrcalpha"/>
+
+				<RenderState type="depthtestenable" value="true"/>
+				<RenderState type="depthwriteenable" value="true"/>
+			</RenderStates>
+			<VertexShader>
+				attribute vec3 inputPosition;
+
+				varying vec2 varyingTexCoord0;
+				varying vec2 varyingTexCoord1;
+				varying vec2 varyingTexCoord2;
+
+				uniform mat4 worldMat;
+				uniform mat4 worldViewProjMat;
+				uniform vec3 localBBoxMin;
+				uniform vec3 localBBoxMax;
+				uniform float texture1RepeatCountX;
+				uniform float texture1RepeatCountY;
+				uniform float texture2RepeatCountX;
+				uniform float texture2RepeatCountY;
+
+				void main()
+				{
+					gl_Position			            = vec4(inputPosition, 1.00000) * worldViewProjMat;
+
+					vec4 texcoord					= vec4(inputPosition, 1.00000) * worldMat;
+					vec3 bBoxSize					= localBBoxMax - localBBoxMin;
+					vec2 invSplatTextureSize		= 1.0 / bBoxSize.xz;
+					vec2 invColorTexture1Size		= vec2(texture1RepeatCountX, texture1RepeatCountY) * invSplatTextureSize;
+					vec2 invColorTexture2Size		= vec2(texture2RepeatCountX, texture2RepeatCountY) * invSplatTextureSize;
+
+					varyingTexCoord0				= texcoord.xz * invColorTexture1Size;
+					varyingTexCoord1				= texcoord.xz * invColorTexture2Size;
+					varyingTexCoord2				= vec2(texcoord.x - localBBoxMin.x, texcoord.z-localBBoxMin.z) * invSplatTextureSize;
+				}
+			</VertexShader>
+			<PixelShader>
+				varying vec2 varyingTexCoord0;
+				varying vec2 varyingTexCoord1;
+				varying vec2 varyingTexCoord2;
+
+				uniform sampler2D layer1MapSampler;
+				uniform sampler2D layer2MapSampler;
+				uniform sampler2D splatMapSampler;
+
+				void main()
+				{
+					vec4 diffuseColor1	= texture2D(layer1MapSampler, varyingTexCoord0);
+					vec4 diffuseColor2	= texture2D(layer2MapSampler, varyingTexCoord1);
+					vec4 splatColor		= texture2D(splatMapSampler , varyingTexCoord2);
+
+					gl_FragData[0]		= vec4((diffuseColor1.rgb * (1.0-splatColor.a) + diffuseColor2.rgb * splatColor.a) * splatColor.rgb , 1);
+				}
+			</PixelShader>
+		</Pass>
+	</Technique>
+
+</VisualEffect>

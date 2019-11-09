@@ -1,0 +1,101 @@
+\hypertarget{class_magnum_1_1_scene}{}\section{Magnum\+:\+:Scene 類別 參考文件}
+\label{class_magnum_1_1_scene}\index{Magnum\+::\+Scene@{Magnum\+::\+Scene}}
+
+
+類別\+Magnum\+:\+:Scene的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{class_magnum_1_1_scene__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_scene_1_1_creator}{Creator}
+\item 
+class \hyperlink{class_magnum_1_1_scene_1_1_factory}{Factory}
+\item 
+class \hyperlink{class_magnum_1_1_scene_1_1_i_creator}{I\+Creator}
+\item 
+struct \hyperlink{struct_magnum_1_1_scene_1_1_service}{Service}
+\end{DoxyCompactItemize}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Transition\+Mode} \{ {\bfseries N\+O\+NE}, 
+{\bfseries E\+X\+I\+T\+I\+NG}, 
+{\bfseries E\+N\+T\+E\+R\+I\+NG}
+ \}\hypertarget{class_magnum_1_1_scene_a3f1b88665163c1c26df9a98de69ef986}{}\label{class_magnum_1_1_scene_a3f1b88665163c1c26df9a98de69ef986}
+
+\item 
+enum \{ {\bfseries M\+A\+X\+\_\+\+N\+U\+M\+\_\+\+S\+C\+E\+N\+ES} = 150
+ \}\hypertarget{class_magnum_1_1_scene_a2ff0d3bea512911e9e74a49877c4a0e0}{}\label{class_magnum_1_1_scene_a2ff0d3bea512911e9e74a49877c4a0e0}
+
+\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static bool {\bfseries is} (const char $\ast$name)\hypertarget{class_magnum_1_1_scene_abba8220ceeba7f7c538d41790fdba5a2}{}\label{class_magnum_1_1_scene_abba8220ceeba7f7c538d41790fdba5a2}
+
+\item 
+static const char $\ast$ {\bfseries next} ()\hypertarget{class_magnum_1_1_scene_aa17bd125efa10de89ebc2347671266f4}{}\label{class_magnum_1_1_scene_aa17bd125efa10de89ebc2347671266f4}
+
+\item 
+static const char $\ast$ {\bfseries name} ()\hypertarget{class_magnum_1_1_scene_a975521adb8286d36f13e057be12fc82c}{}\label{class_magnum_1_1_scene_a975521adb8286d36f13e057be12fc82c}
+
+\item 
+static void {\bfseries transit} (const char $\ast$name)\hypertarget{class_magnum_1_1_scene_aee8cb98ffd2787777af844a0aeff79f9}{}\label{class_magnum_1_1_scene_aee8cb98ffd2787777af844a0aeff79f9}
+
+\item 
+static void {\bfseries push\+Transit} (const char $\ast$name)\hypertarget{class_magnum_1_1_scene_a0b83fc266a2403c20ee666debc19a195}{}\label{class_magnum_1_1_scene_a0b83fc266a2403c20ee666debc19a195}
+
+\item 
+static void {\bfseries pop\+Transit} ()\hypertarget{class_magnum_1_1_scene_aee63f3ffbca6fbbec69612ba5ebbc48a}{}\label{class_magnum_1_1_scene_aee63f3ffbca6fbbec69612ba5ebbc48a}
+
+\item 
+static bool {\bfseries transitioning} ()\hypertarget{class_magnum_1_1_scene_a75d802e3bb17fe1d3323a296e0b4ef2f}{}\label{class_magnum_1_1_scene_a75d802e3bb17fe1d3323a296e0b4ef2f}
+
+\item 
+static bool {\bfseries running} ()\hypertarget{class_magnum_1_1_scene_a3ad03236a6b2d2b5257b57f9d94eb849}{}\label{class_magnum_1_1_scene_a3ad03236a6b2d2b5257b57f9d94eb849}
+
+\item 
+static bool {\bfseries loaded} ()\hypertarget{class_magnum_1_1_scene_add6836105b3b0846010632b831b3114a}{}\label{class_magnum_1_1_scene_add6836105b3b0846010632b831b3114a}
+
+\end{DoxyCompactItemize}
+\subsection*{靜態公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+static int {\bfseries counter} = 0\hypertarget{class_magnum_1_1_scene_a8a0ac630a1cbd25aa67d1956418f7b1a}{}\label{class_magnum_1_1_scene_a8a0ac630a1cbd25aa67d1956418f7b1a}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries on\+Construct} ()\hypertarget{class_magnum_1_1_scene_a12971ac654728ff57d88d21d94f26e6b}{}\label{class_magnum_1_1_scene_a12971ac654728ff57d88d21d94f26e6b}
+
+\item 
+virtual void {\bfseries on\+Enter} ()\hypertarget{class_magnum_1_1_scene_a6ffdd410632cb9a58a77b21ab0b54b93}{}\label{class_magnum_1_1_scene_a6ffdd410632cb9a58a77b21ab0b54b93}
+
+\item 
+virtual void {\bfseries on\+Exit} ()\hypertarget{class_magnum_1_1_scene_a41f133617b2298d01f1925306909fefc}{}\label{class_magnum_1_1_scene_a41f133617b2298d01f1925306909fefc}
+
+\item 
+virtual void {\bfseries on\+Update} (float dt)\hypertarget{class_magnum_1_1_scene_ade05fe1ee246f4da8fb35770be5e97f6}{}\label{class_magnum_1_1_scene_ade05fe1ee246f4da8fb35770be5e97f6}
+
+\item 
+virtual void {\bfseries on\+Pause} ()\hypertarget{class_magnum_1_1_scene_ad0b1d9259cb148277401ccd88850ad1f}{}\label{class_magnum_1_1_scene_ad0b1d9259cb148277401ccd88850ad1f}
+
+\item 
+virtual void {\bfseries on\+Resume} ()\hypertarget{class_magnum_1_1_scene_ab81499e895fbc5601910e7b214edb151}{}\label{class_magnum_1_1_scene_ab81499e895fbc5601910e7b214edb151}
+
+\item 
+virtual bool {\bfseries on\+Transition} (Transition\+Mode)\hypertarget{class_magnum_1_1_scene_ac1fe7a1a20b9e66abe6181f98efac68e}{}\label{class_magnum_1_1_scene_ac1fe7a1a20b9e66abe6181f98efac68e}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Scene.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Scene.\+cpp\end{DoxyCompactItemize}

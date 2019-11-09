@@ -1,0 +1,159 @@
+\hypertarget{class_magnum_1_1_g_z_mem_output_stream}{}\section{Magnum\+:\+:G\+Z\+Mem\+Output\+Stream 類別 參考文件}
+\label{class_magnum_1_1_g_z_mem_output_stream}\index{Magnum\+::\+G\+Z\+Mem\+Output\+Stream@{Magnum\+::\+G\+Z\+Mem\+Output\+Stream}}
+
+
+類別\+Magnum\+:\+:G\+Z\+Mem\+Output\+Stream的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{class_magnum_1_1_g_z_mem_output_stream__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:G\+Z\+Mem\+Output\+Stream的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{class_magnum_1_1_g_z_mem_output_stream__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ {\bfseries E\+X\+P\+A\+N\+D\+\_\+\+S\+I\+ZE} = 2048
+ \}\hypertarget{class_magnum_1_1_g_z_mem_output_stream_a6d0ab598b7601e34a92050b8efe9f0c9}{}\label{class_magnum_1_1_g_z_mem_output_stream_a6d0ab598b7601e34a92050b8efe9f0c9}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+Z\+Mem\+Output\+Stream} (\hyperlink{class_magnum_1_1_vector}{Vector}$<$ char $>$ \&buffer\+\_\+)\hypertarget{class_magnum_1_1_g_z_mem_output_stream_aafed9fa86232478cef5d2bb6b95334e0}{}\label{class_magnum_1_1_g_z_mem_output_stream_aafed9fa86232478cef5d2bb6b95334e0}
+
+\item 
+virtual void \hyperlink{class_magnum_1_1_g_z_mem_output_stream_a0b8b2f415c3a52209e3cb3785c20246d}{writeX} (const void $\ast$src\+\_\+, int size, bool reverse\+Order=false)
+\begin{DoxyCompactList}\small\item\em write function buffer data \end{DoxyCompactList}\item 
+virtual unsigned int \hyperlink{class_magnum_1_1_g_z_mem_output_stream_ac7fcdc506e49c9a9b6dd353b54823328}{tell} () const 
+\begin{DoxyCompactList}\small\item\em Tell the current read position. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_g_z_mem_output_stream_a70d1d6cc3b11e7d8d0ed8979d25e7afb}{skip} (int size)
+\begin{DoxyCompactList}\small\item\em skip data from buffer \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_g_z_mem_output_stream_a6a9bd2d089206b1f9cf4aee0bc10befa}{opened} () const 
+\begin{DoxyCompactList}\small\item\em Check if the stream is opened. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_g_z_mem_output_stream_ae02a0dafad76687486fbf97173de0861}{rewind} ()
+\begin{DoxyCompactList}\small\item\em Rewind the stream, the stream current read position will be reset to 0 by this function. \end{DoxyCompactList}\item 
+void {\bfseries set\+Compression\+Level} (int level=-\/1)\hypertarget{class_magnum_1_1_g_z_mem_output_stream_aa43fbcf7419e5abffe2e1943acfb2c7f}{}\label{class_magnum_1_1_g_z_mem_output_stream_aa43fbcf7419e5abffe2e1943acfb2c7f}
+
+\item 
+int {\bfseries get\+Compression\+Level} () const \hypertarget{class_magnum_1_1_g_z_mem_output_stream_ae0667f7d8d8cc1662192bb4cbf475918}{}\label{class_magnum_1_1_g_z_mem_output_stream_ae0667f7d8d8cc1662192bb4cbf475918}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+G\+Z\+Mem\+Output\+Stream@{Magnum\+::\+G\+Z\+Mem\+Output\+Stream}!opened@{opened}}
+\index{opened@{opened}!Magnum\+::\+G\+Z\+Mem\+Output\+Stream@{Magnum\+::\+G\+Z\+Mem\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{opened() const }{opened() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool G\+Z\+Mem\+Output\+Stream\+::opened (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_mem_output_stream_a6a9bd2d089206b1f9cf4aee0bc10befa}{}\label{class_magnum_1_1_g_z_mem_output_stream_a6a9bd2d089206b1f9cf4aee0bc10befa}
+
+
+Check if the stream is opened. 
+
+\begin{DoxyReturn}{傳回值}
+true, stream is opened, else stream is closed 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_output_stream_aeb681f1259802b4bb7ce9bc95ac4ffbe}{Magnum\+::\+Output\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+Mem\+Output\+Stream@{Magnum\+::\+G\+Z\+Mem\+Output\+Stream}!rewind@{rewind}}
+\index{rewind@{rewind}!Magnum\+::\+G\+Z\+Mem\+Output\+Stream@{Magnum\+::\+G\+Z\+Mem\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{rewind()}{rewind()}}]{\setlength{\rightskip}{0pt plus 5cm}void G\+Z\+Mem\+Output\+Stream\+::rewind (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_mem_output_stream_ae02a0dafad76687486fbf97173de0861}{}\label{class_magnum_1_1_g_z_mem_output_stream_ae02a0dafad76687486fbf97173de0861}
+
+
+Rewind the stream, the stream current read position will be reset to 0 by this function. 
+
+\begin{DoxyReturn}{傳回值}
+true, stream is opened, else stream is closed 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_output_stream_a4d8021ad1c9c3b7d3e2f643ec12ba7bb}{Magnum\+::\+Output\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+Mem\+Output\+Stream@{Magnum\+::\+G\+Z\+Mem\+Output\+Stream}!skip@{skip}}
+\index{skip@{skip}!Magnum\+::\+G\+Z\+Mem\+Output\+Stream@{Magnum\+::\+G\+Z\+Mem\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{skip(int size)}{skip(int size)}}]{\setlength{\rightskip}{0pt plus 5cm}void G\+Z\+Mem\+Output\+Stream\+::skip (
+\begin{DoxyParamCaption}
+\item[{int}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_mem_output_stream_a70d1d6cc3b11e7d8d0ed8979d25e7afb}{}\label{class_magnum_1_1_g_z_mem_output_stream_a70d1d6cc3b11e7d8d0ed8979d25e7afb}
+
+
+skip data from buffer 
+
+
+\begin{DoxyParams}{參數}
+{\em size,int,the} & number of byte to be skipped \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_output_stream_ac7f8dbf68335a3dc58d8f66ed26f864d}{Magnum\+::\+Output\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+Mem\+Output\+Stream@{Magnum\+::\+G\+Z\+Mem\+Output\+Stream}!tell@{tell}}
+\index{tell@{tell}!Magnum\+::\+G\+Z\+Mem\+Output\+Stream@{Magnum\+::\+G\+Z\+Mem\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{tell() const }{tell() const }}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int G\+Z\+Mem\+Output\+Stream\+::tell (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_mem_output_stream_ac7fcdc506e49c9a9b6dd353b54823328}{}\label{class_magnum_1_1_g_z_mem_output_stream_ac7fcdc506e49c9a9b6dd353b54823328}
+
+
+Tell the current read position. 
+
+\begin{DoxyReturn}{傳回值}
+unsigned int, the current read position 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_output_stream_aa987bce83e1a721a48981a75270c9e55}{Magnum\+::\+Output\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+Mem\+Output\+Stream@{Magnum\+::\+G\+Z\+Mem\+Output\+Stream}!writeX@{writeX}}
+\index{writeX@{writeX}!Magnum\+::\+G\+Z\+Mem\+Output\+Stream@{Magnum\+::\+G\+Z\+Mem\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{write\+X(const void $\ast$src\+\_\+, int size, bool reverse\+Order=false)}{writeX(const void *src_, int size, bool reverseOrder=false)}}]{\setlength{\rightskip}{0pt plus 5cm}void G\+Z\+Mem\+Output\+Stream\+::writeX (
+\begin{DoxyParamCaption}
+\item[{const void $\ast$}]{src\+\_\+, }
+\item[{int}]{size, }
+\item[{bool}]{reverse\+Order = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_mem_output_stream_a0b8b2f415c3a52209e3cb3785c20246d}{}\label{class_magnum_1_1_g_z_mem_output_stream_a0b8b2f415c3a52209e3cb3785c20246d}
+
+
+write function buffer data 
+
+
+\begin{DoxyParams}{參數}
+{\em buffer,void} & $\ast$, the data will be written to the stream. \\
+\hline
+{\em size,int,the} & number of byte to be write to the stream \\
+\hline
+{\em reverse\+Order,true,for} & big endian system false, for little endian system \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_output_stream_a6fee68b5bf33dab5c2674b2ff8e850be}{Magnum\+::\+Output\+Stream}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Output\+Stream.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Output\+Stream.\+cpp\end{DoxyCompactItemize}

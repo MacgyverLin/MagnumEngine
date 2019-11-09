@@ -1,0 +1,146 @@
+\hypertarget{classi_dream_sky_1_1_g_x_shader_program2}{}\section{i\+Dream\+Sky\+:\+:G\+X\+Shader\+Program2 類別 參考文件}
+\label{classi_dream_sky_1_1_g_x_shader_program2}\index{i\+Dream\+Sky\+::\+G\+X\+Shader\+Program2@{i\+Dream\+Sky\+::\+G\+X\+Shader\+Program2}}
+
+
+\hyperlink{classi_dream_sky_1_1_g_x_shader_program2}{G\+X\+Shader\+Program2} encapsulate a Shader Program of Graphics Device.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Shader\+Program2.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+X\+Shader\+Program2} (const \hyperlink{classi_dream_sky_1_1_g_x_shader_program2}{G\+X\+Shader\+Program2} \&gx\+Shader\+Program\+\_\+)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_aea25cf1843e68bd0f000681dcb5144fb}{}\label{classi_dream_sky_1_1_g_x_shader_program2_aea25cf1843e68bd0f000681dcb5144fb}
+
+\item 
+\hyperlink{classi_dream_sky_1_1_g_x_shader_program2}{G\+X\+Shader\+Program2} \& {\bfseries operator=} (const \hyperlink{classi_dream_sky_1_1_g_x_shader_program2}{G\+X\+Shader\+Program2} \&gx\+Shader\+Program\+\_\+)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a942008262fd243cfc09fb760dbb1ae47}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a942008262fd243cfc09fb760dbb1ae47}
+
+\item 
+bool {\bfseries construct} (const char $\ast$vp\+File\+Name\+\_\+, const char $\ast$fp\+File\+Name\+\_\+)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_adc070bb7ca8faf42fc27c41df8a88243}{}\label{classi_dream_sky_1_1_g_x_shader_program2_adc070bb7ca8faf42fc27c41df8a88243}
+
+\item 
+bool {\bfseries construct} (const char $\ast$vp\+File\+Image\+\_\+, unsigned int vp\+File\+Imagelength\+\_\+, const char $\ast$fp\+File\+Image\+\_\+, unsigned int fp\+File\+Imagelength\+\_\+)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a9d6f8ab1c5721be57dd8e4c0e87cf191}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a9d6f8ab1c5721be57dd8e4c0e87cf191}
+
+\item 
+int {\bfseries get\+Attribute\+Count} () const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a7811891f53d130dc09090d28ac54b392}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a7811891f53d130dc09090d28ac54b392}
+
+\item 
+int {\bfseries get\+Attribute\+Idx} (const char $\ast$name\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_af901470273c7e2cc253beae3219d28b9}{}\label{classi_dream_sky_1_1_g_x_shader_program2_af901470273c7e2cc253beae3219d28b9}
+
+\item 
+int {\bfseries get\+Attribute\+Location} (int i\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a22b34097eeb1426574dae03b58ecd7ff}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a22b34097eeb1426574dae03b58ecd7ff}
+
+\item 
+const \hyperlink{class_i_dream_sky_1_1_g_x_shader_attribute_type}{G\+X\+Shader\+Attribute\+Type} \& {\bfseries get\+Attribute\+Type} (int i\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a28811180f81630492ed3ac21fa9422f8}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a28811180f81630492ed3ac21fa9422f8}
+
+\item 
+const char $\ast$ {\bfseries get\+Attribute\+Name} (int i\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_aa0132e08b46d7fa41729a3dccf97d2d5}{}\label{classi_dream_sky_1_1_g_x_shader_program2_aa0132e08b46d7fa41729a3dccf97d2d5}
+
+\item 
+const char $\ast$ {\bfseries get\+Attribute\+Semantic} (int i\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_ad866dbb0d448fbbf8925d7dded4da26a}{}\label{classi_dream_sky_1_1_g_x_shader_program2_ad866dbb0d448fbbf8925d7dded4da26a}
+
+\item 
+int {\bfseries get\+Attribute\+Array\+Size} (int i\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_abc2b7773da0db17b941c5c4c93697b2f}{}\label{classi_dream_sky_1_1_g_x_shader_program2_abc2b7773da0db17b941c5c4c93697b2f}
+
+\item 
+int {\bfseries get\+Uniform\+Count} () const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_ad9e24327983527f765ede635e67c405f}{}\label{classi_dream_sky_1_1_g_x_shader_program2_ad9e24327983527f765ede635e67c405f}
+
+\item 
+int {\bfseries get\+Uniform\+Idx} (const char $\ast$name\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_af15aad2120bb37366dc955664752f334}{}\label{classi_dream_sky_1_1_g_x_shader_program2_af15aad2120bb37366dc955664752f334}
+
+\item 
+int {\bfseries get\+Uniform\+Location} (int i\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a2b429491f4e9d8e963f7a5253239bb01}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a2b429491f4e9d8e963f7a5253239bb01}
+
+\item 
+const \hyperlink{class_i_dream_sky_1_1_g_x_shader_uniform_type}{G\+X\+Shader\+Uniform\+Type} \& {\bfseries get\+Uniform\+Type} (int i\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a527514a220f4c0c2afaec5d54a4a5a3f}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a527514a220f4c0c2afaec5d54a4a5a3f}
+
+\item 
+const char $\ast$ {\bfseries get\+Uniform\+Name} (int i\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a454b126f5daf9bd97fc3822991a1c6d6}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a454b126f5daf9bd97fc3822991a1c6d6}
+
+\item 
+const char $\ast$ {\bfseries get\+Uniform\+Semantic} (int i\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a09f04f84642a99ff74c3b457cc0fab1e}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a09f04f84642a99ff74c3b457cc0fab1e}
+
+\item 
+int {\bfseries get\+Uniform\+Array\+Size} (int i\+\_\+) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a3db9a9520270ee52fe5b08880e5b2783}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a3db9a9520270ee52fe5b08880e5b2783}
+
+\item 
+void {\bfseries copy\+Uniform\+Value} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_g_x_uniform}{G\+X\+Uniform} \&other)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a2d04c72c09f936055b40b7b539c10be1}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a2d04c72c09f936055b40b7b539c10be1}
+
+\item 
+void {\bfseries set\+Uniform\+Boolean} (int i\+\_\+, const bool \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a83a65d01b40239e75ef0a67301205f8a}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a83a65d01b40239e75ef0a67301205f8a}
+
+\item 
+void {\bfseries set\+Uniform\+B\+Vector2} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_b_vector2}{B\+Vector2} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a553bae339766290bb77358415f21c3fb}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a553bae339766290bb77358415f21c3fb}
+
+\item 
+void {\bfseries set\+Uniform\+B\+Vector3} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_b_vector3}{B\+Vector3} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a744e826c7d85a2a5700ac9dfc7ecd9a8}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a744e826c7d85a2a5700ac9dfc7ecd9a8}
+
+\item 
+void {\bfseries set\+Uniform\+B\+Vector4} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_b_vector4}{B\+Vector4} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a35c6dd10f6a664a7f4b873b7502a2e81}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a35c6dd10f6a664a7f4b873b7502a2e81}
+
+\item 
+void {\bfseries set\+Uniform\+Int} (int i\+\_\+, const int \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a7872808e22d3f0efdf71c22db57e505f}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a7872808e22d3f0efdf71c22db57e505f}
+
+\item 
+void {\bfseries set\+Uniform\+I\+Vector2} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_i_vector2}{I\+Vector2} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a0688e00687528aebb657bdabc537b11e}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a0688e00687528aebb657bdabc537b11e}
+
+\item 
+void {\bfseries set\+Uniform\+I\+Vector3} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_i_vector3}{I\+Vector3} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_aae96c144d318b2e92ce2911b143e4326}{}\label{classi_dream_sky_1_1_g_x_shader_program2_aae96c144d318b2e92ce2911b143e4326}
+
+\item 
+void {\bfseries set\+Uniform\+I\+Vector4} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_i_vector4}{I\+Vector4} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a16fdbeb33a2621625efde3828afe2dfc}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a16fdbeb33a2621625efde3828afe2dfc}
+
+\item 
+void {\bfseries set\+Uniform\+Float} (int i\+\_\+, const float \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a19ae9fd4d3edadbddefb89ce9e39221e}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a19ae9fd4d3edadbddefb89ce9e39221e}
+
+\item 
+void {\bfseries set\+Uniform\+Vector2} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a990159f73e56720f7342e0c7febed829}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a990159f73e56720f7342e0c7febed829}
+
+\item 
+void {\bfseries set\+Uniform\+Vector3} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a2fa99105a74fada4315ea57acccfe67b}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a2fa99105a74fada4315ea57acccfe67b}
+
+\item 
+void {\bfseries set\+Uniform\+Vector4} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a148e53c01a29d23a410589091e39a79c}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a148e53c01a29d23a410589091e39a79c}
+
+\item 
+void {\bfseries set\+Uniform\+Matrix2} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_matrix2}{Matrix2} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a1224559a33528cd9541e93a9b7a50c90}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a1224559a33528cd9541e93a9b7a50c90}
+
+\item 
+void {\bfseries set\+Uniform\+Matrix3} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_matrix3}{Matrix3} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_afd4427a09a6859895aac0f0aeb711f4f}{}\label{classi_dream_sky_1_1_g_x_shader_program2_afd4427a09a6859895aac0f0aeb711f4f}
+
+\item 
+void {\bfseries set\+Uniform\+Matrix4} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a169444cd669a21a68ab7cb23ca8b81e5}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a169444cd669a21a68ab7cb23ca8b81e5}
+
+\item 
+void {\bfseries set\+Uniform\+Texture} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_g_x_texture}{G\+X\+Texture} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_af8000444944f0f25985cc114d986d97f}{}\label{classi_dream_sky_1_1_g_x_shader_program2_af8000444944f0f25985cc114d986d97f}
+
+\item 
+void {\bfseries set\+Uniform\+Texture2D} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_g_x_texture2_d}{G\+X\+Texture2D} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a6970d66b8928b7d089c0f6cde5c2cb8a}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a6970d66b8928b7d089c0f6cde5c2cb8a}
+
+\item 
+void {\bfseries set\+Uniform\+Texture\+Cube} (int i\+\_\+, const \hyperlink{class_i_dream_sky_1_1_g_x_texture_cube}{G\+X\+Texture\+Cube} \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a81e11573791045aa4c4a2f4feb53ec18}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a81e11573791045aa4c4a2f4feb53ec18}
+
+\item 
+void {\bfseries read} (\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_aec1ae6026468cbfc6a7c0215f0f2a336}{}\label{classi_dream_sky_1_1_g_x_shader_program2_aec1ae6026468cbfc6a7c0215f0f2a336}
+
+\item 
+void {\bfseries write} (\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a212b7c960a7688a77be12b9766d31e56}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a212b7c960a7688a77be12b9766d31e56}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries G\+X\+Context}\hypertarget{classi_dream_sky_1_1_g_x_shader_program2_a2c36d7f8865080802bbad88cd73d871c}{}\label{classi_dream_sky_1_1_g_x_shader_program2_a2c36d7f8865080802bbad88cd73d871c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{classi_dream_sky_1_1_g_x_shader_program2}{G\+X\+Shader\+Program2} encapsulate a Shader Program of Graphics Device. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Shader\+Program2.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Shader\+Program2.\+cpp\end{DoxyCompactItemize}

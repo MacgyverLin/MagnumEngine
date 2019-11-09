@@ -1,0 +1,10 @@
+<map id="TiXmlNode::Clone" name="TiXmlNode::Clone">
+<area shape="rect" id="node2" href="$class_ti_xml_node.html#af287a913ce46d8dbf7ef24fec69bbaf0" title="Add a new node related to this. " alt="" coords="185,5,359,32"/>
+<area shape="rect" id="node4" href="$class_ti_xml_node.html#a71e54e393336382bc9875f64aab5cb15" title="Add a new node related to this. " alt="" coords="177,56,367,83"/>
+<area shape="rect" id="node5" href="$class_ti_xml_node.html#a274db3292218202805c093f66a964cb5" title="Add a new node related to this. " alt="" coords="183,107,361,133"/>
+<area shape="rect" id="node6" href="$class_ti_xml_node.html#a543208c2c801c84a213529541e904b9f" title="Replace a child of this node. " alt="" coords="189,157,355,184"/>
+<area shape="rect" id="node7" href="$class_ti_xml_element.html#ad9d0c008866982ab8d9aafae7e14d692" title="All TinyXml classes can print themselves to a filestream or the string class (TiXmlString in non&#45;STL ..." alt="" coords="204,208,340,235"/>
+<area shape="rect" id="node9" href="$class_ti_xml_document.html#acf1672b4538c6d1d441f9f108aea2bf4" title="Save a file using the given FILE*. Returns true if successful. " alt="" coords="187,259,357,285"/>
+<area shape="rect" id="node3" href="$class_ti_xml_node.html#abad5bf1059c48127b958711ef89e8e5d" title="The last child of this node matching &#39;value&#39;. Will be null if there are no children. " alt="" coords="415,81,560,108"/>
+<area shape="rect" id="node8" href="$class_ti_xml_text.html#af659e77c6b87d684827f35a8f4895960" title="Constructor for text element. " alt="" coords="416,208,559,235"/>
+</map>

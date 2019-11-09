@@ -1,0 +1,6 @@
+<map id="IDreamSky::Component::Owner::onConstruct" name="IDreamSky::Component::Owner::onConstruct">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_component_1_1_owner.html#a6878b12a1f8e8119da43305d175bf522" title="Construct the Component, it do construct for itself by calling onConstruct method and also call the c..." alt="" coords="213,5,373,47"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_component_1_1_owner.html#aa0aa90562a79de82adecd5b0451d3bd5" title="write method for Serialization " alt="" coords="213,71,373,112"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_entity.html#a23b08d85a88f3346ca1833ebd8a48b61" title="Create the Entity by specifying a class path and provide a name as identifier. " alt="" coords="421,5,557,47"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_entity.html#a10741436b8c23a174df4918577ad593c" title="write method for Serialization " alt="" coords="421,71,557,112"/>
+</map>

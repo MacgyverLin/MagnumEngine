@@ -1,0 +1,13 @@
+<map id="IDreamSky::Box3Collider::~Box3Collider" name="IDreamSky::Box3Collider::~Box3Collider">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_box_shape3.html#afcb880918c47623a4487a353b3ee6de9" title="construct the BoxShape3. " alt="" coords="245,5,406,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a5d62d5520cf4790b254e0d81a5f2d2bd" title="Construct the RigidBody. " alt="" coords="220,71,431,112"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a7d5e274aad11227be7f7bb64d76b9528" title="Set the Transform of the RigidBody. " alt="" coords="239,136,411,177"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a4b74946c58d83988424072399cb265c2" title="Update the rigidbody and the owner. " alt="" coords="228,201,423,243"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_box_shape3.html#a647ee110dbb44329caf171b7e9aed417" title="destruct BoxShape3 and release memory its used " alt="" coords="245,267,406,308"/>
+<area shape="rect" id="node10" href="$class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#a476e3fa127c84f6a645647dd68013be1" title="Destruct the rigidbody. " alt="" coords="224,332,427,373"/>
+<area shape="rect" id="node12" href="$class_i_dream_sky_1_1_shape3.html#a5704ab3fe88257e1f842720fe87cd201" title="Get the Bounding Box of this Shape;. " alt="" coords="252,397,399,439"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_frame3.html#a57a2f755811f485d9602103609c78d68" title="Get the Frame3&#39;s global transform. " alt="" coords="491,71,638,112"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#aa4aadcf4a7c9d546b99168890e808aba" title="Get the Transform of the RigidBody. " alt="" coords="479,169,651,211"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_frame3.html#a83afcd522b770d9f91539a5edd120b71" title="Set the Frame3&#39;s local transform by directly setting the Local Transform Matrix. " alt="" coords="491,235,638,276"/>
+<area shape="rect" id="node11" href="$class_i_dream_sky_1_1_shape3.html#a069195b24c37ae47e01a6b195faf84e0" title="To calculate the mass and moment of inertia according to the shape and density. " alt="" coords="491,332,638,373"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Magnum::SkeletalAnimBlender::addAnimation" name="Magnum::SkeletalAnimBlender::addAnimation">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_base.html#aa54468093c1c4013120edeedb328c108" title="This function get the Number of Bones in the animation data. " alt="" coords="264,5,451,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_weights.html#a0ae3c60c195a0a28d32bec4e0c4b1b4d" title="Get the Animation to blend. " alt="" coords="255,71,460,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_anim_weights.html#acf543d1c9d22b95b3c541990fa24af4f" title="Set the Animation to blend. " alt="" coords="255,136,460,177"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_skeletal_anim_weights.html#ae5324bf6dc58ecf310bdb31174d2a21e" title="Set the num of blend weights, this usually the same as the number of bone in Animation. " alt="" coords="255,201,460,243"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_skeletal_anim_weights.html#a2b3c92b93523ecc42483644362ed2a5b" title="Set the weight of the all bone of animation. " alt="" coords="255,267,460,308"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_vector.html#a05c838dd9a909c2cc729dfbaa3e22fdb" title="resize the Vector to length_ " alt="" coords="508,209,669,235"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_vector.html#a0350766ba61f29a27692e9a7f3e2e61d" title="Get the length of the Vector. " alt="" coords="508,274,669,301"/>
+</map>

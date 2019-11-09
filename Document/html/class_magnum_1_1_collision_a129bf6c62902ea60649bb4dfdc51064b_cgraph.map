@@ -1,0 +1,7 @@
+<map id="Magnum::Collision::isInside" name="Magnum::Collision::isInside">
+<area shape="rect" id="node2" href="$class_magnum_1_1_collision.html#a3add6ba3c46ce3a728b3f27ddefd81d2" title="preform default Response when this Instance collide with other " alt="" coords="191,100,357,141"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_collision.html#a8b7a7fb7066629e41fdc8c72a009b94f" title="set the Position of this Instance of Collision. " alt="" coords="416,5,553,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_collision.html#a87ca313908483a7ea68d0f5e22242567" title="get the Attribute of this Collision Instance " alt="" coords="416,71,553,112"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_collision.html#aaea103ce5b2bc5930ab754e4d2b6247b" title="This is a pure virtual function. " alt="" coords="405,137,564,163"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_collision_1_1_contact_info.html#a87a3e37fd31e63563ffba3b2e6f88296" title="Reverse the information contained in ContactInfo. " alt="" coords="416,188,553,229"/>
+</map>

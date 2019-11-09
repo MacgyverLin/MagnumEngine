@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: IDreamSky::SkeletalAnimationModel::Mesh::Fragment  類別 參考文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li class="current"><a href="annotated.html"><span>類別</span></a></li>
+      <li><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>複合列表</span></a></li>
+      <li><a href="classes.html"><span>複合索引</span></a></li>
+      <li><a href="hierarchy.html"><span>類別階層</span></a></li>
+      <li><a href="functions.html"><span>複合成員</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>IDreamSky</b></li><li class="navelem"><a class="el" href="class_i_dream_sky_1_1_skeletal_animation_model.html">SkeletalAnimationModel</a></li><li class="navelem"><a class="el" href="class_i_dream_sky_1_1_skeletal_animation_model_1_1_mesh.html">Mesh</a></li><li class="navelem"><a class="el" href="class_i_dream_sky_1_1_skeletal_animation_model_1_1_mesh_1_1_fragment.html">Fragment</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">公開型態</a> &#124;
+<a href="#pub-methods">公開方法(Public Methods)</a> &#124;
+<a href="#pro-methods">保護方法(Protected Methods)</a> &#124;
+<a href="#friends">類別朋友(Friends)</a> &#124;
+<a href="class_i_dream_sky_1_1_skeletal_animation_model_1_1_mesh_1_1_fragment-members.html">全部成員列表</a>  </div>
+  <div class="headertitle">
+<div class="title">IDreamSky::SkeletalAnimationModel::Mesh::Fragment 類別 參考文件</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+公開型態</h2></td></tr>
+<tr class="memitem:a2f596e38a86925284742a74a24d4fc36"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f596e38a86925284742a74a24d4fc36"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>VertexFormat</b> { <br />
+&#160;&#160;<b>POSITION</b> = 0x00000001, 
+<b>NORMAL</b> = 0x00000002, 
+<b>TANGENT</b> = 0x00000004, 
+<b>BINORMAL</b> = 0x00000008, 
+<br />
+&#160;&#160;<b>VERTEX_COLOR_0</b> = 0x00000010, 
+<b>VERTEX_COLOR_1</b> = 0x00000020, 
+<b>VERTEX_COLOR_2</b> = 0x00000040, 
+<b>VERTEX_COLOR_3</b> = 0x00000080, 
+<br />
+&#160;&#160;<b>UV_0</b> = 0x00001000, 
+<b>UV_1</b> = 0x00002000, 
+<b>UV_2</b> = 0x00004000, 
+<b>UV_3</b> = 0x00008000, 
+<br />
+&#160;&#160;<b>UV_4</b> = 0x00010000, 
+<b>UV_5</b> = 0x00020000, 
+<b>UV_6</b> = 0x00040000, 
+<b>UV_7</b> = 0x00080000, 
+<br />
+&#160;&#160;<b>BONE_WEIGHT_0</b> = 0x00100000, 
+<b>BONE_WEIGHT_1</b> = 0x00200000, 
+<b>BONE_WEIGHT_2</b> = 0x00400000, 
+<b>BONE_WEIGHT_3</b> = 0x00800000, 
+<br />
+&#160;&#160;<b>BONE_INDEX_0</b> = 0x01000000, 
+<b>BONE_INDEX_1</b> = 0x02000000, 
+<b>BONE_INDEX_2</b> = 0x04000000, 
+<b>BONE_INDEX_3</b> = 0x08000000
+<br />
+ }</td></tr>
+<tr class="separator:a2f596e38a86925284742a74a24d4fc36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開方法(Public Methods)</h2></td></tr>
+<tr class="memitem:a77960166b40c57b4ce36fe748e15edc6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77960166b40c57b4ce36fe748e15edc6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getVertexFormat</b> () const </td></tr>
+<tr class="separator:a77960166b40c57b4ce36fe748e15edc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a183c5cfc176a75ca16e520070a622ff7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a183c5cfc176a75ca16e520070a622ff7"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getStride</b> () const </td></tr>
+<tr class="separator:a183c5cfc176a75ca16e520070a622ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a201ce1d2c325282173725ef8a574c9ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a201ce1d2c325282173725ef8a574c9ff"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumVertices</b> () const </td></tr>
+<tr class="separator:a201ce1d2c325282173725ef8a574c9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49eb8913e1f15a84f7b49b587c7f7ba7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49eb8913e1f15a84f7b49b587c7f7ba7"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getPositionOffset</b> () const </td></tr>
+<tr class="separator:a49eb8913e1f15a84f7b49b587c7f7ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0e21cde43f94bb5f058b6411204e028"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0e21cde43f94bb5f058b6411204e028"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setPosition</b> (int idx, const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;v)</td></tr>
+<tr class="separator:ab0e21cde43f94bb5f058b6411204e028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78004c4477136c42d91ad8a1dfc5cd12"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78004c4477136c42d91ad8a1dfc5cd12"></a>
+const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getPosition</b> (int idx) const </td></tr>
+<tr class="separator:a78004c4477136c42d91ad8a1dfc5cd12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd780914d36c96060306dc7ed10915e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd780914d36c96060306dc7ed10915e9"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getNormalOffset</b> () const </td></tr>
+<tr class="separator:abd780914d36c96060306dc7ed10915e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdf407dc6ea0590a47728cf59965b388"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afdf407dc6ea0590a47728cf59965b388"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setNormal</b> (int idx, const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;v)</td></tr>
+<tr class="separator:afdf407dc6ea0590a47728cf59965b388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab09423c99313fa31593156f0da6bb1e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab09423c99313fa31593156f0da6bb1e4"></a>
+const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getNormal</b> (int idx) const </td></tr>
+<tr class="separator:ab09423c99313fa31593156f0da6bb1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6348b69f385e903f0fb9f467e27fe015"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6348b69f385e903f0fb9f467e27fe015"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getTangentOffset</b> () const </td></tr>
+<tr class="separator:a6348b69f385e903f0fb9f467e27fe015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f0297167334acc484482178d8841b56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f0297167334acc484482178d8841b56"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setTangent</b> (int idx, const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;v)</td></tr>
+<tr class="separator:a5f0297167334acc484482178d8841b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebadb43f821212e6d9f78161b750a8b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebadb43f821212e6d9f78161b750a8b3"></a>
+const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getTangent</b> (int idx) const </td></tr>
+<tr class="separator:aebadb43f821212e6d9f78161b750a8b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4fdf9987d93bbfad5adf7db27ccbcda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4fdf9987d93bbfad5adf7db27ccbcda"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getBinormalOffset</b> () const </td></tr>
+<tr class="separator:ae4fdf9987d93bbfad5adf7db27ccbcda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7da83adc5e55c77c32b214937ce12f9d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7da83adc5e55c77c32b214937ce12f9d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setBinormal</b> (int idx, const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;v)</td></tr>
+<tr class="separator:a7da83adc5e55c77c32b214937ce12f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b468cd42a2f985957ad8e3a373a6f60"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b468cd42a2f985957ad8e3a373a6f60"></a>
+const <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getBinormal</b> (int idx) const </td></tr>
+<tr class="separator:a7b468cd42a2f985957ad8e3a373a6f60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4beee1ab28f2df7fb15c9e0121540cf3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4beee1ab28f2df7fb15c9e0121540cf3"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumVertexColorLayers</b> () const </td></tr>
+<tr class="separator:a4beee1ab28f2df7fb15c9e0121540cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57208a722d70b28e1e392130b03de8c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57208a722d70b28e1e392130b03de8c8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getVertexColorOffset</b> (int layer) const </td></tr>
+<tr class="separator:a57208a722d70b28e1e392130b03de8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab119ce9db5c32454b225cbeb9218f957"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab119ce9db5c32454b225cbeb9218f957"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setVertexColor</b> (int layer, int idx, const <a class="el" href="class_i_dream_sky_1_1_color_r_g_b_a.html">ColorRGBA</a> &amp;v)</td></tr>
+<tr class="separator:ab119ce9db5c32454b225cbeb9218f957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a053b4a2ff480075235d4f700e99a1a6b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a053b4a2ff480075235d4f700e99a1a6b"></a>
+const <a class="el" href="class_i_dream_sky_1_1_color_r_g_b_a.html">ColorRGBA</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getVertexColor</b> (int layer, int idx) const </td></tr>
+<tr class="separator:a053b4a2ff480075235d4f700e99a1a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3651e1f33b370c33d2d8934db76c0ddd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3651e1f33b370c33d2d8934db76c0ddd"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumUVLayers</b> () const </td></tr>
+<tr class="separator:a3651e1f33b370c33d2d8934db76c0ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8faeefe94fdc4f6b5c43c08927c35271"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8faeefe94fdc4f6b5c43c08927c35271"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getUVOffset</b> (int layer) const </td></tr>
+<tr class="separator:a8faeefe94fdc4f6b5c43c08927c35271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae58b7d6cef779a60890d003231cb8322"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae58b7d6cef779a60890d003231cb8322"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setUV</b> (int layer, int idx, const <a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a> &amp;v)</td></tr>
+<tr class="separator:ae58b7d6cef779a60890d003231cb8322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a495bc4cddbb49e05dfea7fdf9253deb1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a495bc4cddbb49e05dfea7fdf9253deb1"></a>
+const <a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getUV</b> (int layer, int idx) const </td></tr>
+<tr class="separator:a495bc4cddbb49e05dfea7fdf9253deb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be5cfc33bd09321dd0f0551325be51d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7be5cfc33bd09321dd0f0551325be51d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumBones</b> () const </td></tr>
+<tr class="separator:a7be5cfc33bd09321dd0f0551325be51d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cc887f1a6867eeb91f54f08841e590f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5cc887f1a6867eeb91f54f08841e590f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getBoneWeightOffset</b> (int layer) const </td></tr>
+<tr class="separator:a5cc887f1a6867eeb91f54f08841e590f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5d217c2ef4a4938893f625e07ebcb2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab5d217c2ef4a4938893f625e07ebcb2d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setBoneWeight</b> (int layer, int idx, const float &amp;v)</td></tr>
+<tr class="separator:ab5d217c2ef4a4938893f625e07ebcb2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2411c9c72eb3058f4439e358db6a11b7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2411c9c72eb3058f4439e358db6a11b7"></a>
+const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getBoneWeight</b> (int layer, int idx) const </td></tr>
+<tr class="separator:a2411c9c72eb3058f4439e358db6a11b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a590a7d61abfffc39921b93cde245eb39"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a590a7d61abfffc39921b93cde245eb39"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getBoneIndexOffset</b> (int layer) const </td></tr>
+<tr class="separator:a590a7d61abfffc39921b93cde245eb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc90a5c772de5008b18db45ad766dad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacc90a5c772de5008b18db45ad766dad"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setBoneIndex</b> (int layer, int idx, const float &amp;v)</td></tr>
+<tr class="separator:aacc90a5c772de5008b18db45ad766dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf6d4837f5c203b9a3f97305631ee049"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf6d4837f5c203b9a3f97305631ee049"></a>
+const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getBoneIndex</b> (int layer, int idx) const </td></tr>
+<tr class="separator:abf6d4837f5c203b9a3f97305631ee049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec8f121859c94a18fdd9516f4ec4d20f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec8f121859c94a18fdd9516f4ec4d20f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumIndices</b> () const </td></tr>
+<tr class="separator:aec8f121859c94a18fdd9516f4ec4d20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93dc1a155a609d2187a8369660ed6fa4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93dc1a155a609d2187a8369660ed6fa4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getIndex</b> (int i) const </td></tr>
+<tr class="separator:a93dc1a155a609d2187a8369660ed6fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceedf2b8a1e9ffc5b075f062e60597cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aceedf2b8a1e9ffc5b075f062e60597cb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (<a class="el" href="class_i_dream_sky_1_1_input_stream.html">InputStream</a> &amp;is)</td></tr>
+<tr class="separator:aceedf2b8a1e9ffc5b075f062e60597cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81610d96b2691910fff39b5d3c76841c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81610d96b2691910fff39b5d3c76841c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (<a class="el" href="class_i_dream_sky_1_1_output_stream.html">OutputStream</a> &amp;os) const </td></tr>
+<tr class="separator:a81610d96b2691910fff39b5d3c76841c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6bdfb85becf5a32409c4a208b1d02ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6bdfb85becf5a32409c4a208b1d02ac"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>debugPrint</b> (int tabCount) const </td></tr>
+<tr class="separator:af6bdfb85becf5a32409c4a208b1d02ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+保護方法(Protected Methods)</h2></td></tr>
+<tr class="memitem:aec47e044a695a321288297a644c65269"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec47e044a695a321288297a644c65269"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>getPointer</b> (int offset, int size)</td></tr>
+<tr class="separator:aec47e044a695a321288297a644c65269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5597853aa5ee632a43c19893b623fcbb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5597853aa5ee632a43c19893b623fcbb"></a>
+const void *&#160;</td><td class="memItemRight" valign="bottom"><b>getPointer</b> (int offset, int size) const </td></tr>
+<tr class="separator:a5597853aa5ee632a43c19893b623fcbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade777ed9eb637936acfe8346564bfb5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade777ed9eb637936acfe8346564bfb5e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setFormat</b> (VertexFormat format_)</td></tr>
+<tr class="separator:ade777ed9eb637936acfe8346564bfb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+類別朋友(Friends)</h2></td></tr>
+<tr class="memitem:a14bd27cfabbcaeaa0eccce0e2968a6a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14bd27cfabbcaeaa0eccce0e2968a6a1"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>SkeletalAnimationModelSkeletonParser</b></td></tr>
+<tr class="separator:a14bd27cfabbcaeaa0eccce0e2968a6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85398ce1e5e5023cd13165515f7cfbfa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85398ce1e5e5023cd13165515f7cfbfa"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>SkeletalAnimationModelMeshParser</b></td></tr>
+<tr class="separator:a85398ce1e5e5023cd13165515f7cfbfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade6e25226df119aaa0de3f45d908a551"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade6e25226df119aaa0de3f45d908a551"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>SkeletalAnimationModelAnimationParser</b></td></tr>
+<tr class="separator:ade6e25226df119aaa0de3f45d908a551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11930f7450c30641e8526b073100f760"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a11930f7450c30641e8526b073100f760"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>SkeletalAnimationModelParserBase</b></td></tr>
+<tr class="separator:a11930f7450c30641e8526b073100f760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472cd974e223ab8bf1063fc39c8a7d43"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a472cd974e223ab8bf1063fc39c8a7d43"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>SkeletalAnimationModelParser</b></td></tr>
+<tr class="separator:a472cd974e223ab8bf1063fc39c8a7d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40c4f607e5b71602c57777a29d5b4d31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40c4f607e5b71602c57777a29d5b4d31"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>SkeletalAnimationModel</b></td></tr>
+<tr class="separator:a40c4f607e5b71602c57777a29d5b4d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a80d2b83f1f7bd922df78f21ee526db"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a80d2b83f1f7bd922df78f21ee526db"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>SkeletalAnimationModelRenderer</b></td></tr>
+<tr class="separator:a9a80d2b83f1f7bd922df78f21ee526db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>此類別(class) 文件是由下列檔案中產生:<ul>
+<li>C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/<a class="el" href="_skeletal_animation_model_8h_source.html">SkeletalAnimationModel.h</a></li>
+<li>C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/SkeletalAnimationModel.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

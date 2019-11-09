@@ -1,0 +1,68 @@
+﻿Build started 1/19/2015 10:19:08 PM.
+     1>Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Game.unsuccessfulbuild".
+       PreBuildEvent:
+         prebuilt Game.vcxproj
+         :VCEnd
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\Game.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\ /LIBPATH:../MagnumEngineLib/SDK/GLEW/Lib /LIBPATH:../MagnumEngineLib/SDK/OpenGLES/GL2/Lib MagnumEngineLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\Game.lib" /MACHINE:X86 /SAFESEH /DLL Release\MacDemoAudioListenerEntity.obj
+         Release\MacDemoAudioSourceEntity.obj
+         Release\MacDemoCameraEntity.obj
+         Release\MacDemoBGMEntity.obj
+         Release\EditorEntity.obj
+         Release\MacDemoLevelEntity.obj
+         Release\MacDemoPlaneEntity.obj
+         Release\MacDemoParticleEmitterEntity.obj
+         Release\MacDemoPhysics3SkeletalAnimModelEntity.obj
+         Release\ReflectEntity.obj
+         Release\MacDemoSkySphereEntity.obj
+         Release\MacDemoBillBoardEntity.obj
+         Release\MacDemoCubeEntity.obj
+         Release\MacDemoDiffuseMapCubeEntity.obj
+         Release\MacDemoDiffuseMapSpecularMapCubeEntity.obj
+         Release\MagnumGame.obj
+         Release\BuildMenuState.obj
+         Release\GlobalState.obj
+         Release\DebugMenuState.obj
+         Release\EditMenuState.obj
+         Release\FileMenuState.obj
+         Release\HelpMenuState.obj
+         Release\MacDemoScene.obj
+         Release\ModelViewEditorScene.obj
+         Release\OperationMenuState.obj
+         Release\PlayModeScene.obj
+         Release\UpdateAssetsState.obj
+         Release\ProjectModelFSM.obj
+         Release\ProjectModel.obj
+         Release\StartState.obj
+     1>MagnumEngineLib.lib(unzip.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(unzip.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(fbxfilesdk_memory.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(fbxfilesdk_memory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(ioapi.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(ioapi.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(crc32.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(crc32.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(inflate.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(inflate.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(kdebug.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(kdebug.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(zutil.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(zutil.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(inffast.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(inffast.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(inftrees.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(inftrees.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(adler32.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in MacDemoAudioListenerEntity.obj
+     1>MagnumEngineLib.lib(adler32.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in MacDemoAudioListenerEntity.obj
+            Creating library C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\Game.lib and object C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\Game.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\Game.dll : fatal error LNK1319: 20 mismatches detected
+     1>Done Building Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Game\Game.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:23.90

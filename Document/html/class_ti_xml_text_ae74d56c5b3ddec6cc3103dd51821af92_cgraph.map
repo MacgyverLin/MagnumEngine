@@ -1,0 +1,5 @@
+<map id="TiXmlText::Print" name="TiXmlText::Print">
+<area shape="rect" id="node2" href="$class_ti_xml_base.html#a32ed202562b58de64c7d799ca3c9db98" title="Expands entities in a string. " alt="" coords="167,5,336,32"/>
+<area shape="rect" id="node3" href="$class_ti_xml_node.html#a2a38329ca5d3f28f98ce932b8299ae90" title="Changes the value of the node. " alt="" coords="384,5,528,32"/>
+<area shape="rect" id="node4" href="$class_ti_xml_node.html#a708e7f953df61d4d2d12f73171550a4b" title="Delete all the children of this node. Does not affect &#39;this&#39;. " alt="" coords="576,5,697,32"/>
+</map>

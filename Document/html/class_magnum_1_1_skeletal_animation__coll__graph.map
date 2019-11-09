@@ -1,0 +1,7 @@
+<map id="Magnum::SkeletalAnimation" name="Magnum::SkeletalAnimation">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_key_frame_animation.html" title="Base class For all type of Skeletal KeyFrame Animation. " alt="" coords="9,352,195,393"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_base.html" title="Base class For all type of Skeletal Animation. " alt="" coords="9,276,195,303"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_anim_base.html" title="Base class For all type of Skeletal Animation. " alt="" coords="32,200,172,227"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_functor1.html" title="Magnum::Functor1\&lt; Magnum\l::AnimBase * \&gt;" alt="" coords="5,96,199,137"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_link.html" title="Magnum::Link\&lt; Functor1\l\&lt; Magnum::AnimBase * \&gt; \&gt;" alt="" coords="9,5,195,47"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Magnum::BVHTriangleMeshCollider::~BVHTriangleMeshCollider" name="Magnum::BVHTriangleMeshCollider::~BVHTriangleMeshCollider">
+<area shape="rect" id="node2" href="$class_magnum_1_1_b_v_h_triangle_mesh_shape3.html#aad17f2c23b7601f7b9443b9a40a73595" title="construct the BVHTriangleMeshShape3. " alt="" coords="280,5,508,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_physics3_1_1_rigid_body.html#a8e1f6c5d8575dbac5b444ce04041ff27" title="Construct the RigidBody. " alt="" coords="293,71,495,112"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_b_v_h_triangle_mesh_shape3.html#a8a810bc16558b9a6bdd1d506122a8db6" title="destruct BVHTriangleMeshShape3 and release memory its used " alt="" coords="280,136,508,177"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_physics3_1_1_rigid_body.html#aa20303aecff93264de0d7ee53524eebd" title="Destruct the rigidbody. " alt="" coords="293,201,495,243"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_resource_access.html#a6da5b8b50b4a52190a0215eedaa1d0e6" title="Increase Reference Count of the resource by 1 This function increase reference count to the resource ..." alt="" coords="571,5,750,47"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_resource_access.html#a5aeaaeb81a37dd6ceac1cc7251a480f5" title="Decrease Reference Count of the resource by 1 This function decrease reference count to the resource..." alt="" coords="571,136,750,177"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_shape3.html#a5d586c69e4a4b59b8386c3fbb8568984" title="To calculate the mass and moment of inertia according to the shape and density. " alt="" coords="556,209,765,235"/>
+</map>

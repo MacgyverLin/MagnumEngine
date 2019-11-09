@@ -1,0 +1,4 @@
+<map id="IDreamSky::CameraComponent::setProjectionPlanes" name="IDreamSky::CameraComponent::setProjectionPlanes">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_camera_component.html#a84bbd217e6201fd89894e6f8a81e03a9" title="mark the member variable projectTransformValid is invalide and should be update before next render ..." alt="" coords="259,5,464,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_camera_component.html#af788dca88e621066fe0700108ae4e856" title="This is a pure virtual function. " alt="" coords="512,5,719,47"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Magnum::OutputStream::OutputStream" name="Magnum::OutputStream::OutputStream">
+<area shape="rect" id="node2" href="$class_magnum_1_1_output_stream.html#a0e63481676582adb93cae5970d16d37a" title="OutputStream Destructor. " alt="" coords="215,5,376,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_output_stream.html#a6df894c65be4c31bc8b22d7156c8e2ea" title="read function for bool data " alt="" coords="215,71,376,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_output_stream.html#a6fee68b5bf33dab5c2674b2ff8e850be" title="write function buffer data " alt="" coords="215,136,376,177"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_output_stream.html#ac7f8dbf68335a3dc58d8f66ed26f864d" title="skip data from buffer " alt="" coords="215,201,376,243"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_output_stream.html#aa987bce83e1a721a48981a75270c9e55" title="Tell the current read position. " alt="" coords="215,267,376,308"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_output_stream.html#aeb681f1259802b4bb7ce9bc95ac4ffbe" title="Check if the stream is opened. " alt="" coords="215,332,376,373"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_output_stream.html#a4d8021ad1c9c3b7d3e2f643ec12ba7bb" title="Rewind the stream, the stream current read position will be reset to 0 by this function. " alt="" coords="215,397,376,439"/>
+</map>

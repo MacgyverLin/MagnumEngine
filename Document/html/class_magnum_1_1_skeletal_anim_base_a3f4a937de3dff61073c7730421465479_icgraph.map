@@ -1,0 +1,4 @@
+<map id="Magnum::SkeletalAnimBase::getBoneParentIndex" name="Magnum::SkeletalAnimBase::getBoneParentIndex">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_base.html#abfba256c345b07790b774d0f0b9cc54f" title="This function get the global Transform of of the i&#45;th bone. " alt="" coords="247,5,434,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_blender.html#a3d2e38f445866341384f1b97368152dc" title="This function initialized the blender with the information of the animation. " alt="" coords="240,71,441,112"/>
+</map>

@@ -1,0 +1,395 @@
+\hypertarget{class_magnum_1_1_perspective_camera_component}{}\section{Magnum\+:\+:Perspective\+Camera\+Component 類別 參考文件}
+\label{class_magnum_1_1_perspective_camera_component}\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+
+
+\hyperlink{class_magnum_1_1_perspective_camera_component}{Perspective\+Camera\+Component}.  
+
+
+
+
+{\ttfamily \#include $<$Perspective\+Camera\+Component.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Perspective\+Camera\+Component的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{class_magnum_1_1_perspective_camera_component__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Perspective\+Camera\+Component的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{class_magnum_1_1_perspective_camera_component__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_perspective_camera_component_a63c001a1398786823ee01bdf7bf38cb9}{Perspective\+Camera\+Component} (\hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} \&owner\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_perspective_camera_component}{Perspective\+Camera\+Component} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_perspective_camera_component_a7fb684b3fb2c9e3e19ee017acac84327}{$\sim$\+Perspective\+Camera\+Component} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_perspective_camera_component}{Perspective\+Camera\+Component} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_perspective_camera_component_a99142167f7e11bfad569261314c990d5}{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT} (\hyperlink{class_magnum_1_1_perspective_camera_component}{Perspective\+Camera\+Component}, \hyperlink{class_magnum_1_1_camera_component}{Camera\+Component}, false)   \hyperlink{class_magnum_1_1_perspective_camera_component_a917ebee85b2f26f9d368b91cab1901ee}{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}(float
+\begin{DoxyCompactList}\small\item\em Set the Field of View in Y Direction of the camera. \end{DoxyCompactList}\item 
+{\bfseries get\+Projection} (fovy, aspect, near\+Plane, far\+Plane)\hypertarget{class_magnum_1_1_perspective_camera_component_ae37fa307bc036ec43269fd58198889aa}{}\label{class_magnum_1_1_perspective_camera_component_ae37fa307bc036ec43269fd58198889aa}
+
+\item 
+{\bfseries get\+Projection} (fovy, aspect, near\+Plane, far\+Plane)\hypertarget{class_magnum_1_1_perspective_camera_component_ae37fa307bc036ec43269fd58198889aa}{}\label{class_magnum_1_1_perspective_camera_component_ae37fa307bc036ec43269fd58198889aa}
+
+\item 
+{\bfseries set\+Projection} (value $\ast$Math\+::\+D\+E\+G\+\_\+2\+\_\+\+R\+AD, aspect, near\+Plane, far\+Plane)\hypertarget{class_magnum_1_1_perspective_camera_component_ae73c4ec5199a3952d78d8a9b9c5686f2}{}\label{class_magnum_1_1_perspective_camera_component_ae73c4ec5199a3952d78d8a9b9c5686f2}
+
+\item 
+\hyperlink{class_magnum_1_1_perspective_camera_component_a917ebee85b2f26f9d368b91cab1901ee}{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC} (float, Aspect,\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return aspect;\},\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, value, near\+Plane, far\+Plane);\})
+\begin{DoxyCompactList}\small\item\em Set the Aspect Ratio of the camera. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_perspective_camera_component_af93a29865e82c2b3f525cd2f60742058}{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC} (float, Near\+Plane,\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return near\+Plane;\},\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, aspect, value, far\+Plane);\})
+\begin{DoxyCompactList}\small\item\em Set the Near Plane of the camera. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_perspective_camera_component_a28d77a10a74dcd21143691b0599f4b56}{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC} (float, Far\+Plane,\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return far\+Plane;\},\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, aspect, near\+Plane, value);\})
+\begin{DoxyCompactList}\small\item\em Set the Far Plane of the camera. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_perspective_camera_component_a6b49a13999f7fb6593ca845c10579795}{set\+Projection} (float left\+\_\+, float right\+\_\+, float bottom\+\_\+, float top\+\_\+, float near\+Plane\+\_\+, float far\+Plane\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the coordinate of project plane of at the near plane of camera. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_perspective_camera_component_a4a3cc80a282ec870cb1343952b391940}{set\+Projection} (float fovy\+\_\+, float aspect\+\_\+, float near\+Plane\+\_\+, float far\+Plane\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the coordinate of project plane of at the near plane of camera. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{get\+Projection} (float \&left\+\_\+, float \&right\+\_\+, float \&bottom\+\_\+, float \&top\+\_\+, float \&near\+Plane\+\_\+, float \&far\+Plane\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the coordinate of project plane of at the near plane of camera. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_perspective_camera_component_a29352b75b672da73782d19fcc2e7b382}{get\+Projection} (float \&fovy\+\_\+, float \&aspect\+\_\+, float \&near\+Plane\+\_\+, float \&far\+Plane\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the coordinate of project plane of at the near plane of camera. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Fovy}\hypertarget{class_magnum_1_1_perspective_camera_component_add7ad722032bc2c028c0b44547bac1fb}{}\label{class_magnum_1_1_perspective_camera_component_add7ad722032bc2c028c0b44547bac1fb}
+
+\item 
+float {\bfseries aspect}
+\item 
+float {\bfseries near\+Plane}\hypertarget{class_magnum_1_1_perspective_camera_component_a8ff3fc991657ed8b2c436279fd12dafd}{}\label{class_magnum_1_1_perspective_camera_component_a8ff3fc991657ed8b2c436279fd12dafd}
+
+\item 
+float {\bfseries far\+Plane}\hypertarget{class_magnum_1_1_perspective_camera_component_ab6670e5653ddfc379facbd0c82746bad}{}\label{class_magnum_1_1_perspective_camera_component_ab6670e5653ddfc379facbd0c82746bad}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_magnum_1_1_perspective_camera_component_a83b864b187b8b5244eb9d23eeef02b5c}{on\+Debug\+Render} (\hyperlink{class_magnum_1_1_i_component_debug_renderer}{I\+Component\+Debug\+Renderer} \&debug\+Renderer)\hypertarget{class_magnum_1_1_perspective_camera_component_a83b864b187b8b5244eb9d23eeef02b5c}{}\label{class_magnum_1_1_perspective_camera_component_a83b864b187b8b5244eb9d23eeef02b5c}
+
+\begin{DoxyCompactList}\small\item\em Handle Debuger Rendering Event of the \hyperlink{class_magnum_1_1_component}{Component}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_perspective_camera_component}{Perspective\+Camera\+Component}. 
+
+\hyperlink{class_magnum_1_1_perspective_camera_component}{Perspective\+Camera\+Component} is a base class for all Orthographic Camera \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_camera_component}{Camera\+Component} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{Perspective\+Camera\+Component(\+Component\+::\+Owner \&owner\+\_\+)}{PerspectiveCameraComponent(Component::Owner &owner_)}}]{\setlength{\rightskip}{0pt plus 5cm}Perspective\+Camera\+Component\+::\+Perspective\+Camera\+Component (
+\begin{DoxyParamCaption}
+\item[{{\bf Component\+::\+Owner} \&}]{owner\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_perspective_camera_component_a63c001a1398786823ee01bdf7bf38cb9}{}\label{class_magnum_1_1_perspective_camera_component_a63c001a1398786823ee01bdf7bf38cb9}
+
+
+\hyperlink{class_magnum_1_1_perspective_camera_component}{Perspective\+Camera\+Component} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_perspective_camera_component}{Perspective\+Camera\+Component} for the owner. 
+\begin{DoxyParams}{參數}
+{\em owner\+\_\+,the} & \hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} which owns this component. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}!````~Perspective\+Camera\+Component@{$\sim$\+Perspective\+Camera\+Component}}
+\index{````~Perspective\+Camera\+Component@{$\sim$\+Perspective\+Camera\+Component}!Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{$\sim$\+Perspective\+Camera\+Component()}{~PerspectiveCameraComponent()}}]{\setlength{\rightskip}{0pt plus 5cm}Perspective\+Camera\+Component\+::$\sim$\+Perspective\+Camera\+Component (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_perspective_camera_component_a7fb684b3fb2c9e3e19ee017acac84327}{}\label{class_magnum_1_1_perspective_camera_component_a7fb684b3fb2c9e3e19ee017acac84327}
+
+
+\hyperlink{class_magnum_1_1_perspective_camera_component}{Perspective\+Camera\+Component} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_perspective_camera_component}{Perspective\+Camera\+Component} and remove from its owner. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}!D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT@{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT}}
+\index{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT@{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT}!Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+N\+T(\+Perspective\+Camera\+Component, Camera\+Component, false)   P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+N\+C(float}{DECLARE_COMPONENT(PerspectiveCameraComponent, CameraComponent, false)   PROPERTY_CUSTOM_FUNC(float}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Perspective\+Camera\+Component\+::\+D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT (
+\begin{DoxyParamCaption}
+\item[{{\bf Perspective\+Camera\+Component}}]{, }
+\item[{{\bf Camera\+Component}}]{, }
+\item[{false}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_perspective_camera_component_a99142167f7e11bfad569261314c990d5}{}\label{class_magnum_1_1_perspective_camera_component_a99142167f7e11bfad569261314c990d5}
+
+
+Set the Field of View in Y Direction of the camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,float,the} & Field of View in Y Direction of the camera Get the Field of View in Y Direction of the camera \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+float, the Field of View in Y Direction of the camera 
+\end{DoxyReturn}
+\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}!get\+Projection@{get\+Projection}}
+\index{get\+Projection@{get\+Projection}!Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{get\+Projection(float \&left\+\_\+, float \&right\+\_\+, float \&bottom\+\_\+, float \&top\+\_\+, float \&near\+Plane\+\_\+, float \&far\+Plane\+\_\+) const }{getProjection(float &left_, float &right_, float &bottom_, float &top_, float &nearPlane_, float &farPlane_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Perspective\+Camera\+Component\+::get\+Projection (
+\begin{DoxyParamCaption}
+\item[{float \&}]{left\+\_\+, }
+\item[{float \&}]{right\+\_\+, }
+\item[{float \&}]{bottom\+\_\+, }
+\item[{float \&}]{top\+\_\+, }
+\item[{float \&}]{near\+Plane\+\_\+, }
+\item[{float \&}]{far\+Plane\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{}\label{class_magnum_1_1_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}
+
+
+Get the coordinate of project plane of at the near plane of camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em left\+\_\+,float,return} & the left side frustum x coordinate in this camera space \\
+\hline
+{\em right\+\_\+,float,return} & the right side frustum x coordinate in this camera space \\
+\hline
+{\em bottom\+\_\+,float,return} & the bottom side frustum y coordinate in this camera space \\
+\hline
+{\em top\+\_\+,float,return} & the top side frustum y coordinate in this camera space \\
+\hline
+{\em near\+Plane\+\_\+,float,return} & the near side frustum z coordinate in this camera space \\
+\hline
+{\em far\+Plane\+\_\+,float,return} & the far side frustum z coordinate in this camera space \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+Redbook of Open\+GL Bible for detail of definition of Projection \hyperlink{class_magnum_1_1_transform}{Transform} 
+\end{DoxySeeAlso}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}!get\+Projection@{get\+Projection}}
+\index{get\+Projection@{get\+Projection}!Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{get\+Projection(float \&fovy\+\_\+, float \&aspect\+\_\+, float \&near\+Plane\+\_\+, float \&far\+Plane\+\_\+) const }{getProjection(float &fovy_, float &aspect_, float &nearPlane_, float &farPlane_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Perspective\+Camera\+Component\+::get\+Projection (
+\begin{DoxyParamCaption}
+\item[{float \&}]{fovy\+\_\+, }
+\item[{float \&}]{aspect\+\_\+, }
+\item[{float \&}]{near\+Plane\+\_\+, }
+\item[{float \&}]{far\+Plane\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_perspective_camera_component_a29352b75b672da73782d19fcc2e7b382}{}\label{class_magnum_1_1_perspective_camera_component_a29352b75b672da73782d19fcc2e7b382}
+
+
+Get the coordinate of project plane of at the near plane of camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em fovy\+\_\+,float,return} & the field of view in y direction of the camera \\
+\hline
+{\em aspect\+\_\+,float,return} & the aspect ratio of the camera \\
+\hline
+{\em near\+Plane\+\_\+,float,return} & the near side frustum z coordinate in this camera space \\
+\hline
+{\em far\+Plane\+\_\+,float,return} & the far side frustum z coordinate in this camera space \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+Redbook of Open\+GL Bible for detail of definition of Projection \hyperlink{class_magnum_1_1_transform}{Transform} 
+\end{DoxySeeAlso}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_perspective_camera_component_a29352b75b672da73782d19fcc2e7b382_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}!P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}}
+\index{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}!Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+N\+C(float, Aspect,\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return aspect;\rcurly{},\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, value, near\+Plane, far\+Plane);\rcurly{})}{PROPERTY_CUSTOM_FUNC(float, Aspect,\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);return aspect;\},\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);setProjection(fovy, value, nearPlane, farPlane);\})}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Perspective\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC (
+\begin{DoxyParamCaption}
+\item[{float}]{, }
+\item[{Aspect}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return aspect;\}}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, value, near\+Plane, far\+Plane);\}}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_perspective_camera_component_a917ebee85b2f26f9d368b91cab1901ee}{}\label{class_magnum_1_1_perspective_camera_component_a917ebee85b2f26f9d368b91cab1901ee}
+
+
+Set the Aspect Ratio of the camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,float,the} & Aspect Ratio of the camera Get the Aspect Ratio of the camera \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+float, the Aspect Ratio of the camera 
+\end{DoxyReturn}
+\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}!P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}}
+\index{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}!Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+N\+C(float, Near\+Plane,\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return near\+Plane;\rcurly{},\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, aspect, value, far\+Plane);\rcurly{})}{PROPERTY_CUSTOM_FUNC(float, NearPlane,\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);return nearPlane;\},\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);setProjection(fovy, aspect, value, farPlane);\})}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Perspective\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC (
+\begin{DoxyParamCaption}
+\item[{float}]{, }
+\item[{Near\+Plane}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return near\+Plane;\}}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, aspect, value, far\+Plane);\}}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_perspective_camera_component_af93a29865e82c2b3f525cd2f60742058}{}\label{class_magnum_1_1_perspective_camera_component_af93a29865e82c2b3f525cd2f60742058}
+
+
+Set the Near Plane of the camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,float,the} & Near Plane of the camera Get the Near Plane of the camera \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+float, the Near Plane of the camera 
+\end{DoxyReturn}
+\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}!P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}}
+\index{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}!Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+N\+C(float, Far\+Plane,\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return far\+Plane;\rcurly{},\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, aspect, near\+Plane, value);\rcurly{})}{PROPERTY_CUSTOM_FUNC(float, FarPlane,\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);return farPlane;\},\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);setProjection(fovy, aspect, nearPlane, value);\})}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Perspective\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC (
+\begin{DoxyParamCaption}
+\item[{float}]{, }
+\item[{Far\+Plane}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return far\+Plane;\}}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, aspect, near\+Plane, value);\}}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_perspective_camera_component_a28d77a10a74dcd21143691b0599f4b56}{}\label{class_magnum_1_1_perspective_camera_component_a28d77a10a74dcd21143691b0599f4b56}
+
+
+Set the Far Plane of the camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,float,the} & Far Plane of the camera Get the Far Plane of the camera \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+float, the Far Plane of the camera 
+\end{DoxyReturn}
+\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}!set\+Projection@{set\+Projection}}
+\index{set\+Projection@{set\+Projection}!Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{set\+Projection(float left\+\_\+, float right\+\_\+, float bottom\+\_\+, float top\+\_\+, float near\+Plane\+\_\+, float far\+Plane\+\_\+)}{setProjection(float left_, float right_, float bottom_, float top_, float nearPlane_, float farPlane_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Perspective\+Camera\+Component\+::set\+Projection (
+\begin{DoxyParamCaption}
+\item[{float}]{left\+\_\+, }
+\item[{float}]{right\+\_\+, }
+\item[{float}]{bottom\+\_\+, }
+\item[{float}]{top\+\_\+, }
+\item[{float}]{near\+Plane\+\_\+, }
+\item[{float}]{far\+Plane\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_perspective_camera_component_a6b49a13999f7fb6593ca845c10579795}{}\label{class_magnum_1_1_perspective_camera_component_a6b49a13999f7fb6593ca845c10579795}
+
+
+Set the coordinate of project plane of at the near plane of camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em left\+\_\+,float,the} & left side frustum x coordinate in this camera space \\
+\hline
+{\em right\+\_\+,float,the} & right side frustum x coordinate in this camera space \\
+\hline
+{\em bottom\+\_\+,float,the} & bottom side frustum y coordinate in this camera space \\
+\hline
+{\em top\+\_\+,float,the} & top side frustum y coordinate in this camera space \\
+\hline
+{\em near\+Plane\+\_\+,float,the} & near side frustum z coordinate in this camera space \\
+\hline
+{\em far\+Plane\+\_\+,float,the} & far side frustum z coordinate in this camera space \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+Redbook of Open\+GL Bible for detail of definition of Projection \hyperlink{class_magnum_1_1_transform}{Transform} 
+\end{DoxySeeAlso}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_perspective_camera_component_a6b49a13999f7fb6593ca845c10579795_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}!set\+Projection@{set\+Projection}}
+\index{set\+Projection@{set\+Projection}!Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{set\+Projection(float fovy\+\_\+, float aspect\+\_\+, float near\+Plane\+\_\+, float far\+Plane\+\_\+)}{setProjection(float fovy_, float aspect_, float nearPlane_, float farPlane_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Perspective\+Camera\+Component\+::set\+Projection (
+\begin{DoxyParamCaption}
+\item[{float}]{fovy\+\_\+, }
+\item[{float}]{aspect\+\_\+, }
+\item[{float}]{near\+Plane\+\_\+, }
+\item[{float}]{far\+Plane\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_perspective_camera_component_a4a3cc80a282ec870cb1343952b391940}{}\label{class_magnum_1_1_perspective_camera_component_a4a3cc80a282ec870cb1343952b391940}
+
+
+Set the coordinate of project plane of at the near plane of camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em fovy\+\_\+,float,the} & field of view in y direction of the camera \\
+\hline
+{\em aspect\+\_\+,float,the} & aspect ratio of the camera \\
+\hline
+{\em near\+Plane\+\_\+,float,the} & near side frustum z coordinate in this camera space \\
+\hline
+{\em far\+Plane\+\_\+,float,the} & far side frustum z coordinate in this camera space \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+Redbook of Open\+GL Bible for detail of definition of Projection \hyperlink{class_magnum_1_1_transform}{Transform} 
+\end{DoxySeeAlso}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_perspective_camera_component_a4a3cc80a282ec870cb1343952b391940_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{資料成員說明文件}
+\index{Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}!aspect@{aspect}}
+\index{aspect@{aspect}!Magnum\+::\+Perspective\+Camera\+Component@{Magnum\+::\+Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{aspect}{aspect}}]{\setlength{\rightskip}{0pt plus 5cm}float Magnum\+::\+Perspective\+Camera\+Component\+::aspect}\hypertarget{class_magnum_1_1_perspective_camera_component_a51c41ab2aa5d147f0dbee655dad87da2}{}\label{class_magnum_1_1_perspective_camera_component_a51c41ab2aa5d147f0dbee655dad87da2}
+{\bfseries 初值\+:}
+\begin{DoxyCode}
+\{
+            \textcolor{keywordtype}{float} fovy
+\end{DoxyCode}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Perspective\+Camera\+Component.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Perspective\+Camera\+Component.\+cpp\end{DoxyCompactItemize}

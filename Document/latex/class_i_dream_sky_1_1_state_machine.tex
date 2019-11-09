@@ -1,0 +1,58 @@
+\hypertarget{class_i_dream_sky_1_1_state_machine}{}\section{I\+Dream\+Sky\+:\+:State\+Machine$<$ Actor $>$ 類別 樣版 參考文件}
+\label{class_i_dream_sky_1_1_state_machine}\index{I\+Dream\+Sky\+::\+State\+Machine$<$ Actor $>$@{I\+Dream\+Sky\+::\+State\+Machine$<$ Actor $>$}}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries State\+Machine} (Actor \&actor\+\_\+)\hypertarget{class_i_dream_sky_1_1_state_machine_ab14492c1dfaa3aaaed63f3d0e71e6461}{}\label{class_i_dream_sky_1_1_state_machine_ab14492c1dfaa3aaaed63f3d0e71e6461}
+
+\item 
+void {\bfseries on\+Update} (Actor \&actor, float dt)\hypertarget{class_i_dream_sky_1_1_state_machine_ad4101769f714dbba99e50e7a4a011780}{}\label{class_i_dream_sky_1_1_state_machine_ad4101769f714dbba99e50e7a4a011780}
+
+\item 
+void {\bfseries on\+Pause} ()\hypertarget{class_i_dream_sky_1_1_state_machine_a7151524da1852a45dd32bb4ca6fb768a}{}\label{class_i_dream_sky_1_1_state_machine_a7151524da1852a45dd32bb4ca6fb768a}
+
+\item 
+void {\bfseries on\+Resume} ()\hypertarget{class_i_dream_sky_1_1_state_machine_adde8d38bdd8dd4363a16d424d50146ae}{}\label{class_i_dream_sky_1_1_state_machine_adde8d38bdd8dd4363a16d424d50146ae}
+
+\item 
+void {\bfseries on\+Touchpad} (Actor \&actor, const \hyperlink{class_i_dream_sky_1_1_input_1_1_touchpad_event}{Input\+::\+Touchpad\+Event} \&evt)\hypertarget{class_i_dream_sky_1_1_state_machine_a838d84feebecdb87c59ab1873f357e22}{}\label{class_i_dream_sky_1_1_state_machine_a838d84feebecdb87c59ab1873f357e22}
+
+\item 
+void {\bfseries on\+Keypad} (Actor \&actor, const \hyperlink{class_i_dream_sky_1_1_input_1_1_gamepad_event}{Input\+::\+Gamepad\+Event} \&evt)\hypertarget{class_i_dream_sky_1_1_state_machine_a275d8d47019b57ef3eb1527b4c652db3}{}\label{class_i_dream_sky_1_1_state_machine_a275d8d47019b57ef3eb1527b4c652db3}
+
+\item 
+void {\bfseries on\+Accelerator} (Actor \&actor, const \hyperlink{class_i_dream_sky_1_1_input_1_1_accelerator_event}{Input\+::\+Accelerator\+Event} \&evt)\hypertarget{class_i_dream_sky_1_1_state_machine_a6435a0b74118f262cbd0eab4536665dc}{}\label{class_i_dream_sky_1_1_state_machine_a6435a0b74118f262cbd0eab4536665dc}
+
+\item 
+void {\bfseries on\+G\+UI} (Actor \&actor, const \hyperlink{class_i_dream_sky_1_1_input_1_1_g_u_i_event}{Input\+::\+G\+U\+I\+Event} \&evt)\hypertarget{class_i_dream_sky_1_1_state_machine_ae49bbbcaf5cb2fcc9068781213594136}{}\label{class_i_dream_sky_1_1_state_machine_ae49bbbcaf5cb2fcc9068781213594136}
+
+\item 
+void {\bfseries change\+State} (const char $\ast$name)\hypertarget{class_i_dream_sky_1_1_state_machine_a3a3a8567592fecf7707182d43102dee4}{}\label{class_i_dream_sky_1_1_state_machine_a3a3a8567592fecf7707182d43102dee4}
+
+\item 
+void {\bfseries revert\+To\+Previous\+State} ()\hypertarget{class_i_dream_sky_1_1_state_machine_acb37ac35b4ed5a73e2c9f8f44c8e78e4}{}\label{class_i_dream_sky_1_1_state_machine_acb37ac35b4ed5a73e2c9f8f44c8e78e4}
+
+\item 
+const \hyperlink{class_i_dream_sky_1_1_string}{String} \& {\bfseries get\+Current\+State} () const \hypertarget{class_i_dream_sky_1_1_state_machine_ab6025b1e38b03b6e12b02e6d2888f340}{}\label{class_i_dream_sky_1_1_state_machine_ab6025b1e38b03b6e12b02e6d2888f340}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+Global\+State} (\hyperlink{class_i_dream_sky_1_1_state}{State}$<$ Actor $>$ $\ast$state)\hypertarget{class_i_dream_sky_1_1_state_machine_ab890f12b8bd1dc2f3d5bd25d19a380b6}{}\label{class_i_dream_sky_1_1_state_machine_ab890f12b8bd1dc2f3d5bd25d19a380b6}
+
+\item 
+void {\bfseries add\+State} (const char $\ast$name, \hyperlink{class_i_dream_sky_1_1_state}{State}$<$ Actor $>$ $\ast$state)\hypertarget{class_i_dream_sky_1_1_state_machine_a370493ff8caa61008b11f879c9f0f9bf}{}\label{class_i_dream_sky_1_1_state_machine_a370493ff8caa61008b11f879c9f0f9bf}
+
+\item 
+void {\bfseries remove\+State} (const char $\ast$name)\hypertarget{class_i_dream_sky_1_1_state_machine_afedbf4ab7789d196f11213555c241d27}{}\label{class_i_dream_sky_1_1_state_machine_afedbf4ab7789d196f11213555c241d27}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_state}{State}$<$ Actor $>$ $\ast$ {\bfseries get\+State} (const char $\ast$name)\hypertarget{class_i_dream_sky_1_1_state_machine_a41c926288fa6abbe554f0761d87b4ed6}{}\label{class_i_dream_sky_1_1_state_machine_a41c926288fa6abbe554f0761d87b4ed6}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/State\+Machine.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="TiXmlElement::SetDoubleAttribute" name="TiXmlElement::SetDoubleAttribute">
+<area shape="rect" id="node2" href="$class_ti_xml_attribute.html#a0316da31373496c4368ad549bf711394" title="Set the value from a double. " alt="" coords="272,5,443,47"/>
+<area shape="rect" id="node3" href="$class_ti_xml_node.html#a2a38329ca5d3f28f98ce932b8299ae90" title="Changes the value of the node. " alt="" coords="491,13,635,39"/>
+<area shape="rect" id="node4" href="$class_ti_xml_node.html#a708e7f953df61d4d2d12f73171550a4b" title="Delete all the children of this node. Does not affect &#39;this&#39;. " alt="" coords="683,13,804,39"/>
+</map>

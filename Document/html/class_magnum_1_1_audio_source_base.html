@@ -1,0 +1,1290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: Magnum::AudioSourceBase  類別 參考文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li class="current"><a href="annotated.html"><span>類別</span></a></li>
+      <li><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>複合列表</span></a></li>
+      <li><a href="classes.html"><span>複合索引</span></a></li>
+      <li><a href="inherits.html"><span>類別階層</span></a></li>
+      <li><a href="functions.html"><span>複合成員</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>Magnum</b></li><li class="navelem"><a class="el" href="class_magnum_1_1_audio_source_base.html">AudioSourceBase</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">公開型態</a> &#124;
+<a href="#pub-methods">公開方法(Public Methods)</a> &#124;
+<a href="#pro-methods">保護方法(Protected Methods)</a> &#124;
+<a href="#pro-attribs">保護屬性</a> &#124;
+<a href="#friends">類別朋友(Friends)</a> &#124;
+<a href="class_magnum_1_1_audio_source_base-members.html">全部成員列表</a>  </div>
+  <div class="headertitle">
+<div class="title">Magnum::AudioSourceBase 類別 參考文件<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><a class="el" href="class_magnum_1_1_audio_source_base.html" title="AudioSourceBase. ">AudioSourceBase</a>.  
+ <a href="class_magnum_1_1_audio_source_base.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_audio_source_base_8h_source.html">AudioSourceBase.h</a>&gt;</code></p>
+<div class="dynheader">
+類別Magnum::AudioSourceBase的繼承圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base__inherit__graph.png" border="0" usemap="#_magnum_1_1_audio_source_base_inherit__map" alt="Inheritance graph"/></div>
+<map name="_magnum_1_1_audio_source_base_inherit__map" id="_magnum_1_1_audio_source_base_inherit__map">
+<area shape="rect" id="node4" href="class_magnum_1_1_audio_clip.html" title="AudioClip. " alt="" coords="5,229,140,256"/>
+<area shape="rect" id="node5" href="class_magnum_1_1_audio_stream.html" title="AudioStream. " alt="" coords="165,229,319,256"/>
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html" title="AudioComponent. " alt="" coords="67,80,246,107"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_component.html" title="Component. " alt="" coords="83,5,230,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">圖示</a>]</span></center></div>
+<div class="dynheader">
+Magnum::AudioSourceBase的合作圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base__coll__graph.png" border="0" usemap="#_magnum_1_1_audio_source_base_coll__map" alt="Collaboration graph"/></div>
+<map name="_magnum_1_1_audio_source_base_coll__map" id="_magnum_1_1_audio_source_base_coll__map">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html" title="AudioComponent. " alt="" coords="8,80,187,107"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_component.html" title="Component. " alt="" coords="24,5,171,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">圖示</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+公開型態</h2></td></tr>
+<tr class="memitem:ab34de5e5b3170a8f0fce85ac723577c9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#ab34de5e5b3170a8f0fce85ac723577c9">DecayMode</a> { <a class="el" href="class_magnum_1_1_audio_source_base.html#ab34de5e5b3170a8f0fce85ac723577c9a7ee33a72cfd53d68f22368795e4e9ef2">LogorithmRollOff</a> = 0x00, 
+<a class="el" href="class_magnum_1_1_audio_source_base.html#ab34de5e5b3170a8f0fce85ac723577c9a0ca9b0bbcd84ae70ccac071fcb4da366">LinearRollOff</a> = 0x01, 
+<a class="el" href="class_magnum_1_1_audio_source_base.html#ab34de5e5b3170a8f0fce85ac723577c9ab735e1ed4e8adb0637680f123d3ce646">Custom</a> = 0x02
+ }</td></tr>
+<tr class="separator:ab34de5e5b3170a8f0fce85ac723577c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開方法(Public Methods)</h2></td></tr>
+<tr class="memitem:a8accbc06cfd3fcfc040d43c65ebf5b88"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a8accbc06cfd3fcfc040d43c65ebf5b88">AudioSourceBase</a> (<a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_)</td></tr>
+<tr class="memdesc:a8accbc06cfd3fcfc040d43c65ebf5b88"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_magnum_1_1_audio_source_base.html" title="AudioSourceBase. ">AudioSourceBase</a> Constructor.  <a href="#a8accbc06cfd3fcfc040d43c65ebf5b88">更多...</a><br /></td></tr>
+<tr class="separator:a8accbc06cfd3fcfc040d43c65ebf5b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd15e698595d7592b9affe4cfbe747a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#aebd15e698595d7592b9affe4cfbe747a">~AudioSourceBase</a> ()</td></tr>
+<tr class="memdesc:aebd15e698595d7592b9affe4cfbe747a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_magnum_1_1_audio_source_base.html" title="AudioSourceBase. ">AudioSourceBase</a> Destructor.  <a href="#aebd15e698595d7592b9affe4cfbe747a">更多...</a><br /></td></tr>
+<tr class="separator:aebd15e698595d7592b9affe4cfbe747a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aed201755910a3f876895ff284796d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a1aed201755910a3f876895ff284796d1">DECLARE_COMPONENT</a> (<a class="el" href="class_magnum_1_1_audio_source_base.html">AudioSourceBase</a>, <a class="el" href="class_magnum_1_1_audio_component.html">AudioComponent</a>, false)   virtual bool play(bool loop)=0</td></tr>
+<tr class="memdesc:a1aed201755910a3f876895ff284796d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start playing the audio.  <a href="#a1aed201755910a3f876895ff284796d1">更多...</a><br /></td></tr>
+<tr class="separator:a1aed201755910a3f876895ff284796d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67549138116b6c4d7824fa38c8a856e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67549138116b6c4d7824fa38c8a856e2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a67549138116b6c4d7824fa38c8a856e2">stop</a> ()</td></tr>
+<tr class="memdesc:a67549138116b6c4d7824fa38c8a856e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop playing the audio. <br /></td></tr>
+<tr class="separator:a67549138116b6c4d7824fa38c8a856e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade617910f4a1eb964516aa68c705f471"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade617910f4a1eb964516aa68c705f471"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#ade617910f4a1eb964516aa68c705f471">pause</a> ()</td></tr>
+<tr class="memdesc:ade617910f4a1eb964516aa68c705f471"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause the audio. <br /></td></tr>
+<tr class="separator:ade617910f4a1eb964516aa68c705f471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee8840f1895eb802d25cc6b494ce9891"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee8840f1895eb802d25cc6b494ce9891"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#aee8840f1895eb802d25cc6b494ce9891">resume</a> ()</td></tr>
+<tr class="memdesc:aee8840f1895eb802d25cc6b494ce9891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resume the audio. <br /></td></tr>
+<tr class="separator:aee8840f1895eb802d25cc6b494ce9891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fbb95d5277c3a5e4eb73fb0d7a0edf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a5fbb95d5277c3a5e4eb73fb0d7a0edf5">setMuteEnable</a> (bool muteEnable_)</td></tr>
+<tr class="memdesc:a5fbb95d5277c3a5e4eb73fb0d7a0edf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mute/Unmute the audio Source.  <a href="#a5fbb95d5277c3a5e4eb73fb0d7a0edf5">更多...</a><br /></td></tr>
+<tr class="separator:a5fbb95d5277c3a5e4eb73fb0d7a0edf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27f6acecda8f7960b3c79b99e8473ce8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a27f6acecda8f7960b3c79b99e8473ce8">setBypassEffectsEnable</a> (bool bypassEffectsEnable_)</td></tr>
+<tr class="memdesc:a27f6acecda8f7960b3c79b99e8473ce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/Disable Effect.  <a href="#a27f6acecda8f7960b3c79b99e8473ce8">更多...</a><br /></td></tr>
+<tr class="separator:a27f6acecda8f7960b3c79b99e8473ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a223d20c8d7d0147479775e38f08872a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a223d20c8d7d0147479775e38f08872a6">setLoopEnable</a> (bool loopEnable_)</td></tr>
+<tr class="memdesc:a223d20c8d7d0147479775e38f08872a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/Disable the looping.  <a href="#a223d20c8d7d0147479775e38f08872a6">更多...</a><br /></td></tr>
+<tr class="separator:a223d20c8d7d0147479775e38f08872a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5030b2f2e0d0000d9a640f17801514c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a5030b2f2e0d0000d9a640f17801514c7">setPriority</a> (int priority_)</td></tr>
+<tr class="memdesc:a5030b2f2e0d0000d9a640f17801514c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the priority of the audio.  <a href="#a5030b2f2e0d0000d9a640f17801514c7">更多...</a><br /></td></tr>
+<tr class="separator:a5030b2f2e0d0000d9a640f17801514c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0115bbd05b13cc7b53a4561adf532782"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a0115bbd05b13cc7b53a4561adf532782">setVolume</a> (float volume_)</td></tr>
+<tr class="memdesc:a0115bbd05b13cc7b53a4561adf532782"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the volume of the audio source, from 0 to 1.  <a href="#a0115bbd05b13cc7b53a4561adf532782">更多...</a><br /></td></tr>
+<tr class="separator:a0115bbd05b13cc7b53a4561adf532782"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad958e4a0a91d537faca4a9c9f79fe4f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#ad958e4a0a91d537faca4a9c9f79fe4f4">setPitch</a> (float pitch_)</td></tr>
+<tr class="memdesc:ad958e4a0a91d537faca4a9c9f79fe4f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the pitch of the audio source.  <a href="#ad958e4a0a91d537faca4a9c9f79fe4f4">更多...</a><br /></td></tr>
+<tr class="separator:ad958e4a0a91d537faca4a9c9f79fe4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20381f23a8f187123e8815a9deafb4b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a20381f23a8f187123e8815a9deafb4b9">set3DDopplerLevel</a> (float dopplerLevel_)</td></tr>
+<tr class="memdesc:a20381f23a8f187123e8815a9deafb4b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the doppler Level.  <a href="#a20381f23a8f187123e8815a9deafb4b9">更多...</a><br /></td></tr>
+<tr class="separator:a20381f23a8f187123e8815a9deafb4b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a437afc1a3cb83b3c8780f895cf9673bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a437afc1a3cb83b3c8780f895cf9673bf">set3DVolumeDecayMode</a> (<a class="el" href="class_magnum_1_1_audio_source_base.html#ab34de5e5b3170a8f0fce85ac723577c9">AudioSourceBase::DecayMode</a> volumeDecayMode_)</td></tr>
+<tr class="memdesc:a437afc1a3cb83b3c8780f895cf9673bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the volume Decay Mode.  <a href="#a437afc1a3cb83b3c8780f895cf9673bf">更多...</a><br /></td></tr>
+<tr class="separator:a437afc1a3cb83b3c8780f895cf9673bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43cbb2cf46f47a800924a8017e910f88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a43cbb2cf46f47a800924a8017e910f88">set3DMinDistance</a> (float minDistance_)</td></tr>
+<tr class="memdesc:a43cbb2cf46f47a800924a8017e910f88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the min Distance.  <a href="#a43cbb2cf46f47a800924a8017e910f88">更多...</a><br /></td></tr>
+<tr class="separator:a43cbb2cf46f47a800924a8017e910f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696c65f2d5d7c0924e74689859d95082"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a696c65f2d5d7c0924e74689859d95082">set3DPanLevel</a> (float panLevel_)</td></tr>
+<tr class="memdesc:a696c65f2d5d7c0924e74689859d95082"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the pan Level.  <a href="#a696c65f2d5d7c0924e74689859d95082">更多...</a><br /></td></tr>
+<tr class="separator:a696c65f2d5d7c0924e74689859d95082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34d62e931fbeeda21cc96d4a75107012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a34d62e931fbeeda21cc96d4a75107012">set3DSpread</a> (float spread_)</td></tr>
+<tr class="memdesc:a34d62e931fbeeda21cc96d4a75107012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the spread.  <a href="#a34d62e931fbeeda21cc96d4a75107012">更多...</a><br /></td></tr>
+<tr class="separator:a34d62e931fbeeda21cc96d4a75107012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46615a70206de19f97f07c6d56542c09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a46615a70206de19f97f07c6d56542c09">set3DMaxDistance</a> (float maxDistance_)</td></tr>
+<tr class="memdesc:a46615a70206de19f97f07c6d56542c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the max Distance.  <a href="#a46615a70206de19f97f07c6d56542c09">更多...</a><br /></td></tr>
+<tr class="separator:a46615a70206de19f97f07c6d56542c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea802686d2ca8cc4491cebbf165d1f81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#aea802686d2ca8cc4491cebbf165d1f81">isPaused</a> () const </td></tr>
+<tr class="memdesc:aea802686d2ca8cc4491cebbf165d1f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check of audio is Paused.  <a href="#aea802686d2ca8cc4491cebbf165d1f81">更多...</a><br /></td></tr>
+<tr class="separator:aea802686d2ca8cc4491cebbf165d1f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a621c2d2081d06980314cfd0cbca47abb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a621c2d2081d06980314cfd0cbca47abb">isMuteEnabled</a> () const </td></tr>
+<tr class="memdesc:a621c2d2081d06980314cfd0cbca47abb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check of audio is Muted.  <a href="#a621c2d2081d06980314cfd0cbca47abb">更多...</a><br /></td></tr>
+<tr class="separator:a621c2d2081d06980314cfd0cbca47abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac88502844fe48dee7fcecb82bc784b15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#ac88502844fe48dee7fcecb82bc784b15">isBypassEffectsEnabled</a> () const </td></tr>
+<tr class="memdesc:ac88502844fe48dee7fcecb82bc784b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check of audio effect is bypassed.  <a href="#ac88502844fe48dee7fcecb82bc784b15">更多...</a><br /></td></tr>
+<tr class="separator:ac88502844fe48dee7fcecb82bc784b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bc651b14d433eeb38b170a35f8065d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a3bc651b14d433eeb38b170a35f8065d2">isLoopEnabled</a> () const </td></tr>
+<tr class="memdesc:a3bc651b14d433eeb38b170a35f8065d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check of audio is looped.  <a href="#a3bc651b14d433eeb38b170a35f8065d2">更多...</a><br /></td></tr>
+<tr class="separator:a3bc651b14d433eeb38b170a35f8065d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92c0b80da27c9767a3f5cffb2d269533"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a92c0b80da27c9767a3f5cffb2d269533">getPriority</a> () const </td></tr>
+<tr class="memdesc:a92c0b80da27c9767a3f5cffb2d269533"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the priority of the audio.  <a href="#a92c0b80da27c9767a3f5cffb2d269533">更多...</a><br /></td></tr>
+<tr class="separator:a92c0b80da27c9767a3f5cffb2d269533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6109b9701bcccd30cf12384f3ee74264"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a6109b9701bcccd30cf12384f3ee74264">getVolume</a> () const </td></tr>
+<tr class="memdesc:a6109b9701bcccd30cf12384f3ee74264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the volume of the audio source, from 0 to 1.  <a href="#a6109b9701bcccd30cf12384f3ee74264">更多...</a><br /></td></tr>
+<tr class="separator:a6109b9701bcccd30cf12384f3ee74264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55b153ae8bf8b5a6130fd3dd703d3b77"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a55b153ae8bf8b5a6130fd3dd703d3b77">getPitch</a> () const </td></tr>
+<tr class="memdesc:a55b153ae8bf8b5a6130fd3dd703d3b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pitch of the audio source.  <a href="#a55b153ae8bf8b5a6130fd3dd703d3b77">更多...</a><br /></td></tr>
+<tr class="separator:a55b153ae8bf8b5a6130fd3dd703d3b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41b350acdf0d86b4770e2ad82d38c940"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a41b350acdf0d86b4770e2ad82d38c940">get3DDopplerLevel</a> () const </td></tr>
+<tr class="memdesc:a41b350acdf0d86b4770e2ad82d38c940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the doppler Level.  <a href="#a41b350acdf0d86b4770e2ad82d38c940">更多...</a><br /></td></tr>
+<tr class="separator:a41b350acdf0d86b4770e2ad82d38c940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af391e91a553bed39946da51541652b57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_magnum_1_1_audio_source_base.html#ab34de5e5b3170a8f0fce85ac723577c9">DecayMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#af391e91a553bed39946da51541652b57">get3DVolumeDecayMode</a> () const </td></tr>
+<tr class="memdesc:af391e91a553bed39946da51541652b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the volume Decay Mode.  <a href="#af391e91a553bed39946da51541652b57">更多...</a><br /></td></tr>
+<tr class="separator:af391e91a553bed39946da51541652b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a873f65d66feee4c6a815f55ebbc7b7c9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a873f65d66feee4c6a815f55ebbc7b7c9">get3DMinDistance</a> () const </td></tr>
+<tr class="memdesc:a873f65d66feee4c6a815f55ebbc7b7c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the min Distance.  <a href="#a873f65d66feee4c6a815f55ebbc7b7c9">更多...</a><br /></td></tr>
+<tr class="separator:a873f65d66feee4c6a815f55ebbc7b7c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b1fadd8c7e23e796e048d18a689e0ec"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a5b1fadd8c7e23e796e048d18a689e0ec">get3DPanLevel</a> () const </td></tr>
+<tr class="memdesc:a5b1fadd8c7e23e796e048d18a689e0ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pan Level.  <a href="#a5b1fadd8c7e23e796e048d18a689e0ec">更多...</a><br /></td></tr>
+<tr class="separator:a5b1fadd8c7e23e796e048d18a689e0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a43e00bad4fcc571fc76d59c9b337a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#a63a43e00bad4fcc571fc76d59c9b337a">get3DSpread</a> () const </td></tr>
+<tr class="memdesc:a63a43e00bad4fcc571fc76d59c9b337a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the spread.  <a href="#a63a43e00bad4fcc571fc76d59c9b337a">更多...</a><br /></td></tr>
+<tr class="separator:a63a43e00bad4fcc571fc76d59c9b337a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d27b8b1ba879ba722719b1c6ea5eca"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_source_base.html#aa6d27b8b1ba879ba722719b1c6ea5eca">get3DMaxDistance</a> () const </td></tr>
+<tr class="memdesc:aa6d27b8b1ba879ba722719b1c6ea5eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the max Distance.  <a href="#aa6d27b8b1ba879ba722719b1c6ea5eca">更多...</a><br /></td></tr>
+<tr class="separator:aa6d27b8b1ba879ba722719b1c6ea5eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_magnum_1_1_audio_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_magnum_1_1_audio_component')"><img src="closed.png" alt="-"/>&#160;公開方法(Public Methods) 繼承自 <a class="el" href="class_magnum_1_1_audio_component.html">Magnum::AudioComponent</a></td></tr>
+<tr class="memitem:a45436b6739b5a0d6bedd8cbb9318a3c6 inherit pub_methods_class_magnum_1_1_audio_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_component.html#a45436b6739b5a0d6bedd8cbb9318a3c6">AudioComponent</a> (<a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_)</td></tr>
+<tr class="memdesc:a45436b6739b5a0d6bedd8cbb9318a3c6 inherit pub_methods_class_magnum_1_1_audio_component"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_magnum_1_1_audio_component.html" title="AudioComponent. ">AudioComponent</a> Constructor.  <a href="#a45436b6739b5a0d6bedd8cbb9318a3c6">更多...</a><br /></td></tr>
+<tr class="separator:a45436b6739b5a0d6bedd8cbb9318a3c6 inherit pub_methods_class_magnum_1_1_audio_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68bf2351458d61601aad7abeb3f58588 inherit pub_methods_class_magnum_1_1_audio_component"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_component.html#a68bf2351458d61601aad7abeb3f58588">~AudioComponent</a> ()</td></tr>
+<tr class="memdesc:a68bf2351458d61601aad7abeb3f58588 inherit pub_methods_class_magnum_1_1_audio_component"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_magnum_1_1_audio_component.html" title="AudioComponent. ">AudioComponent</a> Destructor.  <a href="#a68bf2351458d61601aad7abeb3f58588">更多...</a><br /></td></tr>
+<tr class="separator:a68bf2351458d61601aad7abeb3f58588 inherit pub_methods_class_magnum_1_1_audio_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c2a36f6dde86cd50f889cbc5825da17 inherit pub_methods_class_magnum_1_1_audio_component"><td class="memItemLeft" align="right" valign="top">DECLARE_COMPONENT(<a class="el" href="class_magnum_1_1_audio_component.html">AudioComponent</a>, <a class="el" href="class_magnum_1_1_component.html">Component</a>, false) protected void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_component.html#a0c2a36f6dde86cd50f889cbc5825da17">getSFXChannelGroupHandle</a> ()</td></tr>
+<tr class="memdesc:a0c2a36f6dde86cd50f889cbc5825da17 inherit pub_methods_class_magnum_1_1_audio_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the handle for BGM Channel Group.  <a href="#a0c2a36f6dde86cd50f889cbc5825da17">更多...</a><br /></td></tr>
+<tr class="separator:a0c2a36f6dde86cd50f889cbc5825da17 inherit pub_methods_class_magnum_1_1_audio_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66fcbd1e83043254ed81220d82c0c565 inherit pub_methods_class_magnum_1_1_audio_component"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565">getSystemHandle</a> ()</td></tr>
+<tr class="memdesc:a66fcbd1e83043254ed81220d82c0c565 inherit pub_methods_class_magnum_1_1_audio_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the handle for audio system.  <a href="#a66fcbd1e83043254ed81220d82c0c565">更多...</a><br /></td></tr>
+<tr class="separator:a66fcbd1e83043254ed81220d82c0c565 inherit pub_methods_class_magnum_1_1_audio_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_magnum_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_magnum_1_1_component')"><img src="closed.png" alt="-"/>&#160;公開方法(Public Methods) 繼承自 <a class="el" href="class_magnum_1_1_component.html">Magnum::Component</a></td></tr>
+<tr class="memitem:a756ac15f5ce6fa021d35c6115b8fe64b inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a756ac15f5ce6fa021d35c6115b8fe64b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> (<a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_)</td></tr>
+<tr class="separator:a756ac15f5ce6fa021d35c6115b8fe64b inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276a002fa6647f9dcf6420966fb9c8ff inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a276a002fa6647f9dcf6420966fb9c8ff"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CLASS</b> (<a class="el" href="class_magnum_1_1_component.html">Component</a>, <a class="el" href="classagm_1_1reflection_1_1_null_class.html">agm::reflection::NullClass</a>)</td></tr>
+<tr class="separator:a276a002fa6647f9dcf6420966fb9c8ff inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30a9f5cf6e5c94519c752f30ac3c6013 inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_component.html#a30a9f5cf6e5c94519c752f30ac3c6013">PROPERTY</a> (bool, Enabled)</td></tr>
+<tr class="memdesc:a30a9f5cf6e5c94519c752f30ac3c6013 inherit pub_methods_class_magnum_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Enabled <a class="el" href="class_magnum_1_1_state.html">State</a> of <a class="el" href="class_magnum_1_1_component_1_1_owner.html" title="Owner. ">Owner</a>, if the component is not active, it become non functional.  <a href="#a30a9f5cf6e5c94519c752f30ac3c6013">更多...</a><br /></td></tr>
+<tr class="separator:a30a9f5cf6e5c94519c752f30ac3c6013 inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424ef8b2bc22e3742619ead43c8e255e inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_magnum_1_1_component.html#a424ef8b2bc22e3742619ead43c8e255e">PROPERTY</a> (<a class="el" href="class_magnum_1_1_string.html">String</a>, Name)</td></tr>
+<tr class="memdesc:a424ef8b2bc22e3742619ead43c8e255e inherit pub_methods_class_magnum_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Name of <a class="el" href="class_magnum_1_1_component_1_1_owner.html" title="Owner. ">Owner</a>.  <a href="#a424ef8b2bc22e3742619ead43c8e255e">更多...</a><br /></td></tr>
+<tr class="separator:a424ef8b2bc22e3742619ead43c8e255e inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296debc61f8cccc361ef8db6debcb5c8 inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a296debc61f8cccc361ef8db6debcb5c8"></a>
+<a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getOwner</b> ()</td></tr>
+<tr class="separator:a296debc61f8cccc361ef8db6debcb5c8 inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa736314b74d00201729f97bb40c0f7dc inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa736314b74d00201729f97bb40c0f7dc"></a>
+const <a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getOwner</b> () const </td></tr>
+<tr class="separator:aa736314b74d00201729f97bb40c0f7dc inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d812328a0e5406be71bc2b2f04a9e96 inherit pub_methods_class_magnum_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d812328a0e5406be71bc2b2f04a9e96"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isEditorModeActive</b> () const  =0</td></tr>
+<tr class="separator:a9d812328a0e5406be71bc2b2f04a9e96 inherit pub_methods_class_magnum_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+保護方法(Protected Methods)</h2></td></tr>
+<tr class="memitem:a4354d0b3dbd51c1e934bbae6f5d1fecd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4354d0b3dbd51c1e934bbae6f5d1fecd"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>getChannelHandle</b> ()</td></tr>
+<tr class="separator:a4354d0b3dbd51c1e934bbae6f5d1fecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+保護屬性</h2></td></tr>
+<tr class="memitem:a699d212dc17d35476990ff6b7900bc70"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a699d212dc17d35476990ff6b7900bc70"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>channelHandle</b></td></tr>
+<tr class="separator:a699d212dc17d35476990ff6b7900bc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+類別朋友(Friends)</h2></td></tr>
+<tr class="memitem:a3ad7b469f47b268897de410969c1c7cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ad7b469f47b268897de410969c1c7cd"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>Audio::Manager</b></td></tr>
+<tr class="separator:a3ad7b469f47b268897de410969c1c7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳細描述</h2>
+<div class="textblock"><p><a class="el" href="class_magnum_1_1_audio_source_base.html" title="AudioSourceBase. ">AudioSourceBase</a>. </p>
+<p><a class="el" href="class_magnum_1_1_audio_source_base.html" title="AudioSourceBase. ">AudioSourceBase</a> is the base class of all AudioSource component. </p><dl class="section see"><dt>參閱</dt><dd><a class="el" href="class_magnum_1_1_audio_component.html" title="AudioComponent. ">AudioComponent</a> </dd></dl>
+</div><h2 class="groupheader">列舉型態成員說明文件</h2>
+<a class="anchor" id="ab34de5e5b3170a8f0fce85ac723577c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_magnum_1_1_audio_source_base.html#ab34de5e5b3170a8f0fce85ac723577c9">Magnum::AudioSourceBase::DecayMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">列舉值</th></tr><tr><td class="fieldname"><a class="anchor" id="ab34de5e5b3170a8f0fce85ac723577c9a7ee33a72cfd53d68f22368795e4e9ef2"></a>LogorithmRollOff&#160;</td><td class="fielddoc">
+<p>Static <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Level Fall off Logorithmatically. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab34de5e5b3170a8f0fce85ac723577c9a0ca9b0bbcd84ae70ccac071fcb4da366"></a>LinearRollOff&#160;</td><td class="fielddoc">
+<p>Static <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Level Fall off Linearly. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab34de5e5b3170a8f0fce85ac723577c9ab735e1ed4e8adb0637680f123d3ce646"></a>Custom&#160;</td><td class="fielddoc">
+<p>Static <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Level Fall off Custom define. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">建構子與解構子說明文件</h2>
+<a class="anchor" id="a8accbc06cfd3fcfc040d43c65ebf5b88"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AudioSourceBase::AudioSourceBase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;&#160;</td>
+          <td class="paramname"><em>owner_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_magnum_1_1_audio_source_base.html" title="AudioSourceBase. ">AudioSourceBase</a> Constructor. </p>
+<p>To Construct the <a class="el" href="class_magnum_1_1_audio_source_base.html" title="AudioSourceBase. ">AudioSourceBase</a> for the owner. </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">owner_,the</td><td><a class="el" href="class_magnum_1_1_component_1_1_owner.html" title="Owner. ">Component::Owner</a> which owns this component. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aebd15e698595d7592b9affe4cfbe747a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AudioSourceBase::~AudioSourceBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_magnum_1_1_audio_source_base.html" title="AudioSourceBase. ">AudioSourceBase</a> Destructor. </p>
+<p>To Destruct <a class="el" href="class_magnum_1_1_audio_source_base.html" title="AudioSourceBase. ">AudioSourceBase</a> and remove from its owner. </p>
+
+</div>
+</div>
+<h2 class="groupheader">函式成員說明文件</h2>
+<a class="anchor" id="a1aed201755910a3f876895ff284796d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Magnum::AudioSourceBase::DECLARE_COMPONENT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_audio_source_base.html">AudioSourceBase</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_audio_component.html">AudioComponent</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">false&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start playing the audio. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">loop,if</td><td>true the audio will rewind to beginning. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a41b350acdf0d86b4770e2ad82d38c940"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AudioSourceBase::get3DDopplerLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the doppler Level. </p>
+<dl class="section return"><dt>傳回值</dt><dd>float, the dopplerLevel of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. Adjust the dopper level will scale the effect of velocity </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a41b350acdf0d86b4770e2ad82d38c940_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a41b350acdf0d86b4770e2ad82d38c940_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a41b350acdf0d86b4770e2ad82d38c940_icgraph" id="class_magnum_1_1_audio_source_base_a41b350acdf0d86b4770e2ad82d38c940_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6d27b8b1ba879ba722719b1c6ea5eca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AudioSourceBase::get3DMaxDistance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the max Distance. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, the maxDistance of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. It is the maximun distance, that the audio can be heard </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_aa6d27b8b1ba879ba722719b1c6ea5eca_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_aa6d27b8b1ba879ba722719b1c6ea5eca_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_aa6d27b8b1ba879ba722719b1c6ea5eca_icgraph" id="class_magnum_1_1_audio_source_base_aa6d27b8b1ba879ba722719b1c6ea5eca_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a873f65d66feee4c6a815f55ebbc7b7c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AudioSourceBase::get3DMinDistance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the min Distance. </p>
+<dl class="section return"><dt>傳回值</dt><dd>float, the minDistance of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. It is the minimun distance, that the audio can be heard </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a873f65d66feee4c6a815f55ebbc7b7c9_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a873f65d66feee4c6a815f55ebbc7b7c9_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a873f65d66feee4c6a815f55ebbc7b7c9_icgraph" id="class_magnum_1_1_audio_source_base_a873f65d66feee4c6a815f55ebbc7b7c9_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b1fadd8c7e23e796e048d18a689e0ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AudioSourceBase::get3DPanLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the pan Level. </p>
+<dl class="section return"><dt>傳回值</dt><dd>float, the panLevel of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. From -1 to 1, -1 being left, 1 being right </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a5b1fadd8c7e23e796e048d18a689e0ec_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a5b1fadd8c7e23e796e048d18a689e0ec_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a5b1fadd8c7e23e796e048d18a689e0ec_icgraph" id="class_magnum_1_1_audio_source_base_a5b1fadd8c7e23e796e048d18a689e0ec_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a63a43e00bad4fcc571fc76d59c9b337a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AudioSourceBase::get3DSpread </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the spread. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, the spread of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. From -1 to 1, -1 being left, 1 being right </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a63a43e00bad4fcc571fc76d59c9b337a_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a63a43e00bad4fcc571fc76d59c9b337a_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a63a43e00bad4fcc571fc76d59c9b337a_icgraph" id="class_magnum_1_1_audio_source_base_a63a43e00bad4fcc571fc76d59c9b337a_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af391e91a553bed39946da51541652b57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_magnum_1_1_audio_source_base.html#ab34de5e5b3170a8f0fce85ac723577c9">AudioSourceBase::DecayMode</a> AudioSourceBase::get3DVolumeDecayMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the volume Decay Mode. </p>
+<dl class="section return"><dt>傳回值</dt><dd>float, the volumeDecayMode of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. either LogorithmRollOff, LinearRollOff or Custom. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a55b153ae8bf8b5a6130fd3dd703d3b77"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AudioSourceBase::getPitch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the pitch of the audio source. </p>
+<dl class="section return"><dt>傳回值</dt><dd>float, the pitch of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. the frequency of the audio will be scale by the this parameter </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a55b153ae8bf8b5a6130fd3dd703d3b77_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a55b153ae8bf8b5a6130fd3dd703d3b77_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a55b153ae8bf8b5a6130fd3dd703d3b77_icgraph" id="class_magnum_1_1_audio_source_base_a55b153ae8bf8b5a6130fd3dd703d3b77_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a92c0b80da27c9767a3f5cffb2d269533"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AudioSourceBase::getPriority </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the priority of the audio. </p>
+<p>If all audio channels are fully occupied, lower priority will be ignored. </p><dl class="section return"><dt>傳回值</dt><dd>int, the priority of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a92c0b80da27c9767a3f5cffb2d269533_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a92c0b80da27c9767a3f5cffb2d269533_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a92c0b80da27c9767a3f5cffb2d269533_icgraph" id="class_magnum_1_1_audio_source_base_a92c0b80da27c9767a3f5cffb2d269533_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6109b9701bcccd30cf12384f3ee74264"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AudioSourceBase::getVolume </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the volume of the audio source, from 0 to 1. </p>
+<dl class="section return"><dt>傳回值</dt><dd>float, the volume of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a6109b9701bcccd30cf12384f3ee74264_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a6109b9701bcccd30cf12384f3ee74264_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a6109b9701bcccd30cf12384f3ee74264_icgraph" id="class_magnum_1_1_audio_source_base_a6109b9701bcccd30cf12384f3ee74264_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac88502844fe48dee7fcecb82bc784b15"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AudioSourceBase::isBypassEffectsEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check of audio effect is bypassed. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, bool, true if audio effect is bypassed, false if audio effect is not bypassed. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3bc651b14d433eeb38b170a35f8065d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AudioSourceBase::isLoopEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check of audio is looped. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, bool, true if audio is being muted, false if audio is not being muted </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a621c2d2081d06980314cfd0cbca47abb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AudioSourceBase::isMuteEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check of audio is Muted. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, bool, true if audio is being muted, false if audio is not being muted </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a621c2d2081d06980314cfd0cbca47abb_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a621c2d2081d06980314cfd0cbca47abb_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a621c2d2081d06980314cfd0cbca47abb_icgraph" id="class_magnum_1_1_audio_source_base_a621c2d2081d06980314cfd0cbca47abb_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aea802686d2ca8cc4491cebbf165d1f81"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AudioSourceBase::isPaused </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check of audio is Paused. </p>
+<dl class="section return"><dt>傳回值</dt><dd>, bool, true if audio is being paused, false if audio is not being paused </dd></dl>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_aea802686d2ca8cc4491cebbf165d1f81_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_aea802686d2ca8cc4491cebbf165d1f81_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_aea802686d2ca8cc4491cebbf165d1f81_icgraph" id="class_magnum_1_1_audio_source_base_aea802686d2ca8cc4491cebbf165d1f81_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a20381f23a8f187123e8815a9deafb4b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::set3DDopplerLevel </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dopplerLevel_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the doppler Level. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dopplerLevel_,the</td><td>dopplerLevel of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. Adjust the dopper level will scale the effect of velocity </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9_cgraph" id="class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9_icgraph" id="class_magnum_1_1_audio_source_base_a20381f23a8f187123e8815a9deafb4b9_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a46615a70206de19f97f07c6d56542c09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::set3DMaxDistance </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxDistance_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the max Distance. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maxDistance_,the</td><td>maxDistance of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. It is the maximun distance, that the audio can be heard </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09_cgraph" id="class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09_icgraph" id="class_magnum_1_1_audio_source_base_a46615a70206de19f97f07c6d56542c09_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a43cbb2cf46f47a800924a8017e910f88"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::set3DMinDistance </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minDistance_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the min Distance. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">minDistance_,the</td><td>minDistance of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. It is the minimun distance, that the audio can be heard </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88_cgraph" id="class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88_icgraph" id="class_magnum_1_1_audio_source_base_a43cbb2cf46f47a800924a8017e910f88_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a696c65f2d5d7c0924e74689859d95082"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::set3DPanLevel </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>panLevel_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the pan Level. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">panLevel_,the</td><td>panLevel of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. From -1 to 1, -1 being left, 1 being right </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082_cgraph" id="class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082_icgraph" id="class_magnum_1_1_audio_source_base_a696c65f2d5d7c0924e74689859d95082_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a34d62e931fbeeda21cc96d4a75107012"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::set3DSpread </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>spread_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the spread. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spread_,the</td><td>spread of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. From -1 to 1, -1 being left, 1 being right </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012_cgraph" id="class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012_icgraph" id="class_magnum_1_1_audio_source_base_a34d62e931fbeeda21cc96d4a75107012_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a437afc1a3cb83b3c8780f895cf9673bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::set3DVolumeDecayMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_magnum_1_1_audio_source_base.html#ab34de5e5b3170a8f0fce85ac723577c9">AudioSourceBase::DecayMode</a>&#160;</td>
+          <td class="paramname"><em>volumeDecayMode_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the volume Decay Mode. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">volumeDecayMode_,the</td><td>volumeDecayMode of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. either LogorithmRollOff, LinearRollOff or Custom. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a437afc1a3cb83b3c8780f895cf9673bf_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a437afc1a3cb83b3c8780f895cf9673bf_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a437afc1a3cb83b3c8780f895cf9673bf_cgraph" id="class_magnum_1_1_audio_source_base_a437afc1a3cb83b3c8780f895cf9673bf_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a27f6acecda8f7960b3c79b99e8473ce8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::setBypassEffectsEnable </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bypassEffectsEnable_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable/Disable Effect. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bypassEffectsEnable_,if</td><td>true Disable the audio Effect, else Enable audio effect </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a27f6acecda8f7960b3c79b99e8473ce8_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a27f6acecda8f7960b3c79b99e8473ce8_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a27f6acecda8f7960b3c79b99e8473ce8_cgraph" id="class_magnum_1_1_audio_source_base_a27f6acecda8f7960b3c79b99e8473ce8_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a223d20c8d7d0147479775e38f08872a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::setLoopEnable </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>loopEnable_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable/Disable the looping. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">loopEnable_,if</td><td>true loop the audio, else unloop </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6_cgraph" id="class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6_icgraph" id="class_magnum_1_1_audio_source_base_a223d20c8d7d0147479775e38f08872a6_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5fbb95d5277c3a5e4eb73fb0d7a0edf5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::setMuteEnable </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>muteEnable_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mute/Unmute the audio Source. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">muteEnable_,if</td><td>true mute the audio, else unmute </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5_cgraph" id="class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5_icgraph" id="class_magnum_1_1_audio_source_base_a5fbb95d5277c3a5e4eb73fb0d7a0edf5_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad958e4a0a91d537faca4a9c9f79fe4f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::setPitch </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>pitch_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the pitch of the audio source. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pitch_,the</td><td>pitch of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. the frequency of the audio will be scale by the this parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4_cgraph" id="class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4_icgraph" id="class_magnum_1_1_audio_source_base_ad958e4a0a91d537faca4a9c9f79fe4f4_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5030b2f2e0d0000d9a640f17801514c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::setPriority </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>priority_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the priority of the audio. </p>
+<p>If all audio channels are fully occupied, lower priority will be ignored. </p><dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">priority_,the</td><td>priority of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7_cgraph" id="class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7_icgraph" id="class_magnum_1_1_audio_source_base_a5030b2f2e0d0000d9a640f17801514c7_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0115bbd05b13cc7b53a4561adf532782"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioSourceBase::setVolume </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>volume_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the volume of the audio source, from 0 to 1. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">volume_,the</td><td>volume of the <a class="el" href="class_magnum_1_1_audio.html" title="Audio Services. ">Audio</a> Source. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div class="dynheader">
+這是此函數的引用函數圖:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782_cgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782_cgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782_cgraph" id="class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782_cgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_component.html#a66fcbd1e83043254ed81220d82c0c565" title="Get the handle for audio system. " alt="" coords="237,5,416,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+呼叫此函數的函數列表:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782_icgraph.png" border="0" usemap="#class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782_icgraph" alt=""/></div>
+<map name="class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782_icgraph" id="class_magnum_1_1_audio_source_base_a0115bbd05b13cc7b53a4561adf532782_icgraph">
+<area shape="rect" id="node2" href="class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="237,5,404,32"/>
+<area shape="rect" id="node3" href="class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="243,57,398,98"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>此類別(class) 文件是由下列檔案中產生:<ul>
+<li>C:/EpicForceBackup/EpicForceEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/<a class="el" href="_audio_source_base_8h_source.html">AudioSourceBase.h</a></li>
+<li>C:/EpicForceBackup/EpicForceEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/AudioSourceBase.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

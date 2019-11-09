@@ -1,0 +1,249 @@
+\hypertarget{class_ti_xml_element}{}\section{Ti\+Xml\+Element 類別 參考文件}
+\label{class_ti_xml_element}\index{Ti\+Xml\+Element@{Ti\+Xml\+Element}}
+
+
+The element is a container class.  
+
+
+
+
+{\ttfamily \#include $<$tinyxml.\+h$>$}
+
+類別\+Ti\+Xml\+Element的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_ti_xml_element}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_ti_xml_element_a01bc3ab372d35da08efcbbe65ad90c60}{Ti\+Xml\+Element} (const char $\ast$in\+\_\+value)\hypertarget{class_ti_xml_element_a01bc3ab372d35da08efcbbe65ad90c60}{}\label{class_ti_xml_element_a01bc3ab372d35da08efcbbe65ad90c60}
+
+\begin{DoxyCompactList}\small\item\em Construct an element. \end{DoxyCompactList}\item 
+{\bfseries Ti\+Xml\+Element} (const \hyperlink{class_ti_xml_element}{Ti\+Xml\+Element} \&)\hypertarget{class_ti_xml_element_a1ca4465f3c2eac6a60e641cd7f1d9f7e}{}\label{class_ti_xml_element_a1ca4465f3c2eac6a60e641cd7f1d9f7e}
+
+\item 
+\hyperlink{class_ti_xml_element}{Ti\+Xml\+Element} \& {\bfseries operator=} (const \hyperlink{class_ti_xml_element}{Ti\+Xml\+Element} \&base)\hypertarget{class_ti_xml_element_ad58d300f4cfc0016ffa6861ebb718a0b}{}\label{class_ti_xml_element_ad58d300f4cfc0016ffa6861ebb718a0b}
+
+\item 
+const char $\ast$ \hyperlink{class_ti_xml_element_ac1e4691e9375ba4e665dce7e46a50a9c}{Attribute} (const char $\ast$name) const \hypertarget{class_ti_xml_element_ac1e4691e9375ba4e665dce7e46a50a9c}{}\label{class_ti_xml_element_ac1e4691e9375ba4e665dce7e46a50a9c}
+
+\begin{DoxyCompactList}\small\item\em Given an attribute name, \hyperlink{class_ti_xml_element_ac1e4691e9375ba4e665dce7e46a50a9c}{Attribute()} returns the value for the attribute of that name, or null if none exists. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_ti_xml_element_aa9192e80567b5042dbded80b78c44339}{Attribute} (const char $\ast$name, int $\ast$i) const 
+\begin{DoxyCompactList}\small\item\em Given an attribute name, \hyperlink{class_ti_xml_element_ac1e4691e9375ba4e665dce7e46a50a9c}{Attribute()} returns the value for the attribute of that name, or null if none exists. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_ti_xml_element_aec4f727f8aa49b51248d80125d173136}{Attribute} (const char $\ast$name, double $\ast$d) const 
+\begin{DoxyCompactList}\small\item\em Given an attribute name, \hyperlink{class_ti_xml_element_ac1e4691e9375ba4e665dce7e46a50a9c}{Attribute()} returns the value for the attribute of that name, or null if none exists. \end{DoxyCompactList}\item 
+int \hyperlink{class_ti_xml_element_aea0bfe471380f281c5945770ddbf52b9}{Query\+Int\+Attribute} (const char $\ast$name, int $\ast$\+\_\+value) const 
+\begin{DoxyCompactList}\small\item\em Query\+Int\+Attribute examines the attribute -\/ it is an alternative to the \hyperlink{class_ti_xml_element_ac1e4691e9375ba4e665dce7e46a50a9c}{Attribute()} method with richer error checking. \end{DoxyCompactList}\item 
+int \hyperlink{class_ti_xml_element_ae48df644f890ab86fa19839ac401f00d}{Query\+Unsigned\+Attribute} (const char $\ast$name, unsigned $\ast$\+\_\+value) const \hypertarget{class_ti_xml_element_ae48df644f890ab86fa19839ac401f00d}{}\label{class_ti_xml_element_ae48df644f890ab86fa19839ac401f00d}
+
+\begin{DoxyCompactList}\small\item\em Query\+Unsigned\+Attribute examines the attribute -\/ see \hyperlink{class_ti_xml_element_aea0bfe471380f281c5945770ddbf52b9}{Query\+Int\+Attribute()}. \end{DoxyCompactList}\item 
+int \hyperlink{class_ti_xml_element_af4a1d3f88c28eb0f3115dc39ebd83fff}{Query\+Bool\+Attribute} (const char $\ast$name, bool $\ast$\+\_\+value) const 
+\begin{DoxyCompactList}\small\item\em Query\+Bool\+Attribute examines the attribute -\/ see \hyperlink{class_ti_xml_element_aea0bfe471380f281c5945770ddbf52b9}{Query\+Int\+Attribute()}. \end{DoxyCompactList}\item 
+int \hyperlink{class_ti_xml_element_a898d7730ecc341f0bffc7a9dadbf1ce7}{Query\+Double\+Attribute} (const char $\ast$name, double $\ast$\+\_\+value) const \hypertarget{class_ti_xml_element_a898d7730ecc341f0bffc7a9dadbf1ce7}{}\label{class_ti_xml_element_a898d7730ecc341f0bffc7a9dadbf1ce7}
+
+\begin{DoxyCompactList}\small\item\em Query\+Double\+Attribute examines the attribute -\/ see \hyperlink{class_ti_xml_element_aea0bfe471380f281c5945770ddbf52b9}{Query\+Int\+Attribute()}. \end{DoxyCompactList}\item 
+int \hyperlink{class_ti_xml_element_aa04d3af11601ef5a5f88295203a843be}{Query\+Float\+Attribute} (const char $\ast$name, float $\ast$\+\_\+value) const \hypertarget{class_ti_xml_element_aa04d3af11601ef5a5f88295203a843be}{}\label{class_ti_xml_element_aa04d3af11601ef5a5f88295203a843be}
+
+\begin{DoxyCompactList}\small\item\em Query\+Float\+Attribute examines the attribute -\/ see \hyperlink{class_ti_xml_element_aea0bfe471380f281c5945770ddbf52b9}{Query\+Int\+Attribute()}. \end{DoxyCompactList}\item 
+void \hyperlink{class_ti_xml_element_abf0b3bd7f0e4c746a89ec6e7f101fc32}{Set\+Attribute} (const char $\ast$name, const char $\ast$\+\_\+value)
+\begin{DoxyCompactList}\small\item\em Sets an attribute of name to a given value. \end{DoxyCompactList}\item 
+void \hyperlink{class_ti_xml_element_ace6f4be75e373726d4774073d666d1a7}{Set\+Attribute} (const char $\ast$name, int value)
+\begin{DoxyCompactList}\small\item\em Sets an attribute of name to a given value. \end{DoxyCompactList}\item 
+void \hyperlink{class_ti_xml_element_a0d1dd975d75496778177e35abfe0ec0b}{Set\+Double\+Attribute} (const char $\ast$name, double value)
+\begin{DoxyCompactList}\small\item\em Sets an attribute of name to a given value. \end{DoxyCompactList}\item 
+void \hyperlink{class_ti_xml_element_a56979767deca794376b1dfa69a525b2a}{Remove\+Attribute} (const char $\ast$name)\hypertarget{class_ti_xml_element_a56979767deca794376b1dfa69a525b2a}{}\label{class_ti_xml_element_a56979767deca794376b1dfa69a525b2a}
+
+\begin{DoxyCompactList}\small\item\em Deletes an attribute with the given name. \end{DoxyCompactList}\item 
+const \hyperlink{class_ti_xml_attribute}{Ti\+Xml\+Attribute} $\ast$ \hyperlink{class_ti_xml_element_a516054c9073647d6cb29b6abe9fa0592}{First\+Attribute} () const \hypertarget{class_ti_xml_element_a516054c9073647d6cb29b6abe9fa0592}{}\label{class_ti_xml_element_a516054c9073647d6cb29b6abe9fa0592}
+
+\begin{DoxyCompactList}\small\item\em Access the first attribute in this element. \end{DoxyCompactList}\item 
+\hyperlink{class_ti_xml_attribute}{Ti\+Xml\+Attribute} $\ast$ {\bfseries First\+Attribute} ()\hypertarget{class_ti_xml_element_a4b33780fc565d38d6b54f640e0cf1737}{}\label{class_ti_xml_element_a4b33780fc565d38d6b54f640e0cf1737}
+
+\item 
+const \hyperlink{class_ti_xml_attribute}{Ti\+Xml\+Attribute} $\ast$ \hyperlink{class_ti_xml_element_a86191b49f9177be132b85b14655f1381}{Last\+Attribute} () const \hypertarget{class_ti_xml_element_a86191b49f9177be132b85b14655f1381}{}\label{class_ti_xml_element_a86191b49f9177be132b85b14655f1381}
+
+\begin{DoxyCompactList}\small\item\em Access the last attribute in this element. \end{DoxyCompactList}\item 
+\hyperlink{class_ti_xml_attribute}{Ti\+Xml\+Attribute} $\ast$ {\bfseries Last\+Attribute} ()\hypertarget{class_ti_xml_element_a222f81cf06155cd108f2a68d4d176004}{}\label{class_ti_xml_element_a222f81cf06155cd108f2a68d4d176004}
+
+\item 
+const char $\ast$ \hyperlink{class_ti_xml_element_aa6dedd8a146acf3b1bc0903deb2d411a}{Get\+Text} () const 
+\begin{DoxyCompactList}\small\item\em Convenience function for easy access to the text inside an element. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_ti_xml_node}{Ti\+Xml\+Node} $\ast$ \hyperlink{class_ti_xml_element_a13f6df105ebb1e8dc636e75cc883be32}{Clone} () const \hypertarget{class_ti_xml_element_a13f6df105ebb1e8dc636e75cc883be32}{}\label{class_ti_xml_element_a13f6df105ebb1e8dc636e75cc883be32}
+
+\begin{DoxyCompactList}\small\item\em Creates a new Element and returns it -\/ the returned element is a copy. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ti_xml_element_ad9d0c008866982ab8d9aafae7e14d692}{Print} (F\+I\+LE $\ast$cfile, int depth) const 
+\begin{DoxyCompactList}\small\item\em All Tiny\+Xml classes can print themselves to a filestream or the string class (\hyperlink{class_ti_xml_string}{Ti\+Xml\+String} in non-\/\+S\+TL mode, std\+::string in S\+TL mode.) Either or both cfile and str can be null. \end{DoxyCompactList}\item 
+virtual const char $\ast$ {\bfseries Parse} (const char $\ast$p, \hyperlink{class_ti_xml_parsing_data}{Ti\+Xml\+Parsing\+Data} $\ast$data, Ti\+Xml\+Encoding encoding)\hypertarget{class_ti_xml_element_af95c9165159fd9dfdcc5b894a3fcf85b}{}\label{class_ti_xml_element_af95c9165159fd9dfdcc5b894a3fcf85b}
+
+\item 
+virtual const \hyperlink{class_ti_xml_element}{Ti\+Xml\+Element} $\ast$ \hyperlink{class_ti_xml_element_ac5b8d0e25fa23fd9acbb6d146082901c}{To\+Element} () const \hypertarget{class_ti_xml_element_ac5b8d0e25fa23fd9acbb6d146082901c}{}\label{class_ti_xml_element_ac5b8d0e25fa23fd9acbb6d146082901c}
+
+\begin{DoxyCompactList}\small\item\em Cast to a more defined type. Will return null not of the requested type. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_ti_xml_element}{Ti\+Xml\+Element} $\ast$ \hyperlink{class_ti_xml_element_a9def86337ea7a755eb41cac980f60c7a}{To\+Element} ()\hypertarget{class_ti_xml_element_a9def86337ea7a755eb41cac980f60c7a}{}\label{class_ti_xml_element_a9def86337ea7a755eb41cac980f60c7a}
+
+\begin{DoxyCompactList}\small\item\em Cast to a more defined type. Will return null not of the requested type. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_element_a31ab28cc3b892a69254391d6bbe08df3}{Accept} (\hyperlink{class_ti_xml_visitor}{Ti\+Xml\+Visitor} $\ast$visitor) const \hypertarget{class_ti_xml_element_a31ab28cc3b892a69254391d6bbe08df3}{}\label{class_ti_xml_element_a31ab28cc3b892a69254391d6bbe08df3}
+
+\begin{DoxyCompactList}\small\item\em Walk the X\+ML tree visiting this node and all of its children. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Copy\+To} (\hyperlink{class_ti_xml_element}{Ti\+Xml\+Element} $\ast$target) const \hypertarget{class_ti_xml_element_a9e0c1983b840de4134f1f6bf7af00b0f}{}\label{class_ti_xml_element_a9e0c1983b840de4134f1f6bf7af00b0f}
+
+\item 
+void {\bfseries Clear\+This} ()\hypertarget{class_ti_xml_element_a5670933ec2d7d9763b9891acc05d7f7d}{}\label{class_ti_xml_element_a5670933ec2d7d9763b9891acc05d7f7d}
+
+\item 
+const char $\ast$ {\bfseries Read\+Value} (const char $\ast$in, \hyperlink{class_ti_xml_parsing_data}{Ti\+Xml\+Parsing\+Data} $\ast$prev\+Data, Ti\+Xml\+Encoding encoding)\hypertarget{class_ti_xml_element_ac786bce103042d3837c4cc2ff6967d41}{}\label{class_ti_xml_element_ac786bce103042d3837c4cc2ff6967d41}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+The element is a container class. 
+
+It has a value, the element name, and can contain other elements, text, comments, and unknowns. Elements also contain an arbitrary number of attributes. 
+
+\subsection{函式成員說明文件}
+\index{Ti\+Xml\+Element@{Ti\+Xml\+Element}!Attribute@{Attribute}}
+\index{Attribute@{Attribute}!Ti\+Xml\+Element@{Ti\+Xml\+Element}}
+\subsubsection[{\texorpdfstring{Attribute(const char $\ast$name, int $\ast$i) const }{Attribute(const char *name, int *i) const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Ti\+Xml\+Element\+::\+Attribute (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{int $\ast$}]{i}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_ti_xml_element_aa9192e80567b5042dbded80b78c44339}{}\label{class_ti_xml_element_aa9192e80567b5042dbded80b78c44339}
+
+
+Given an attribute name, \hyperlink{class_ti_xml_element_ac1e4691e9375ba4e665dce7e46a50a9c}{Attribute()} returns the value for the attribute of that name, or null if none exists. 
+
+If the attribute exists and can be converted to an integer, the integer value will be put in the return \textquotesingle{}i\textquotesingle{}, if \textquotesingle{}i\textquotesingle{} is non-\/null. \index{Ti\+Xml\+Element@{Ti\+Xml\+Element}!Attribute@{Attribute}}
+\index{Attribute@{Attribute}!Ti\+Xml\+Element@{Ti\+Xml\+Element}}
+\subsubsection[{\texorpdfstring{Attribute(const char $\ast$name, double $\ast$d) const }{Attribute(const char *name, double *d) const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Ti\+Xml\+Element\+::\+Attribute (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{double $\ast$}]{d}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_ti_xml_element_aec4f727f8aa49b51248d80125d173136}{}\label{class_ti_xml_element_aec4f727f8aa49b51248d80125d173136}
+
+
+Given an attribute name, \hyperlink{class_ti_xml_element_ac1e4691e9375ba4e665dce7e46a50a9c}{Attribute()} returns the value for the attribute of that name, or null if none exists. 
+
+If the attribute exists and can be converted to an double, the double value will be put in the return \textquotesingle{}d\textquotesingle{}, if \textquotesingle{}d\textquotesingle{} is non-\/null. \index{Ti\+Xml\+Element@{Ti\+Xml\+Element}!Get\+Text@{Get\+Text}}
+\index{Get\+Text@{Get\+Text}!Ti\+Xml\+Element@{Ti\+Xml\+Element}}
+\subsubsection[{\texorpdfstring{Get\+Text() const }{GetText() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Ti\+Xml\+Element\+::\+Get\+Text (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_ti_xml_element_aa6dedd8a146acf3b1bc0903deb2d411a}{}\label{class_ti_xml_element_aa6dedd8a146acf3b1bc0903deb2d411a}
+
+
+Convenience function for easy access to the text inside an element. 
+
+Although easy and concise, \hyperlink{class_ti_xml_element_aa6dedd8a146acf3b1bc0903deb2d411a}{Get\+Text()} is limited compared to getting the \hyperlink{class_ti_xml_text}{Ti\+Xml\+Text} child and accessing it directly.
+
+If the first child of \textquotesingle{}this\textquotesingle{} is a \hyperlink{class_ti_xml_text}{Ti\+Xml\+Text}, the \hyperlink{class_ti_xml_element_aa6dedd8a146acf3b1bc0903deb2d411a}{Get\+Text()} returns the character string of the Text node, else null is returned.
+
+This is a convenient method for getting the text of simple contained text\+: \begin{DoxyVerb}<foo>This is text</foo>
+const char* str = fooElement->GetText();
+\end{DoxyVerb}
+
+
+\textquotesingle{}str\textquotesingle{} will be a pointer to \char`\"{}\+This is text\char`\"{}.
+
+Note that this function can be misleading. If the element foo was created from this X\+ML\+: \begin{DoxyVerb}<foo><b>This is text</b></foo> 
+\end{DoxyVerb}
+
+
+then the value of str would be null. The first child node isn\textquotesingle{}t a text node, it is another element. From this X\+ML\+: \begin{DoxyVerb}<foo>This is <b>text</b></foo> 
+\end{DoxyVerb}
+ \hyperlink{class_ti_xml_element_aa6dedd8a146acf3b1bc0903deb2d411a}{Get\+Text()} will return \char`\"{}\+This is \char`\"{}.
+
+W\+A\+R\+N\+I\+NG\+: \hyperlink{class_ti_xml_element_aa6dedd8a146acf3b1bc0903deb2d411a}{Get\+Text()} accesses a child node -\/ don\textquotesingle{}t become confused with the similarly named \hyperlink{class_ti_xml_handle_a9fc739c8a18d160006f82572fc143d13}{Ti\+Xml\+Handle\+::\+Text()} and \hyperlink{class_ti_xml_node_a3ddfbcac78fbea041fad57e5c6d60a03}{Ti\+Xml\+Node\+::\+To\+Text()} which are safe type casts on the referenced node. \index{Ti\+Xml\+Element@{Ti\+Xml\+Element}!Print@{Print}}
+\index{Print@{Print}!Ti\+Xml\+Element@{Ti\+Xml\+Element}}
+\subsubsection[{\texorpdfstring{Print(\+F\+I\+L\+E $\ast$cfile, int depth) const }{Print(FILE *cfile, int depth) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Ti\+Xml\+Element\+::\+Print (
+\begin{DoxyParamCaption}
+\item[{F\+I\+LE $\ast$}]{cfile, }
+\item[{int}]{depth}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_ti_xml_element_ad9d0c008866982ab8d9aafae7e14d692}{}\label{class_ti_xml_element_ad9d0c008866982ab8d9aafae7e14d692}
+
+
+All Tiny\+Xml classes can print themselves to a filestream or the string class (\hyperlink{class_ti_xml_string}{Ti\+Xml\+String} in non-\/\+S\+TL mode, std\+::string in S\+TL mode.) Either or both cfile and str can be null. 
+
+This is a formatted print, and will insert tabs and newlines.
+
+(For an unformatted stream, use the $<$$<$ operator.) 
+
+實作 \hyperlink{class_ti_xml_base_aaea3e75b489fc3c937f3a7ef096069e7}{Ti\+Xml\+Base}.
+
+\index{Ti\+Xml\+Element@{Ti\+Xml\+Element}!Query\+Bool\+Attribute@{Query\+Bool\+Attribute}}
+\index{Query\+Bool\+Attribute@{Query\+Bool\+Attribute}!Ti\+Xml\+Element@{Ti\+Xml\+Element}}
+\subsubsection[{\texorpdfstring{Query\+Bool\+Attribute(const char $\ast$name, bool $\ast$\+\_\+value) const }{QueryBoolAttribute(const char *name, bool *_value) const }}]{\setlength{\rightskip}{0pt plus 5cm}int Ti\+Xml\+Element\+::\+Query\+Bool\+Attribute (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{bool $\ast$}]{\+\_\+value}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_ti_xml_element_af4a1d3f88c28eb0f3115dc39ebd83fff}{}\label{class_ti_xml_element_af4a1d3f88c28eb0f3115dc39ebd83fff}
+
+
+Query\+Bool\+Attribute examines the attribute -\/ see \hyperlink{class_ti_xml_element_aea0bfe471380f281c5945770ddbf52b9}{Query\+Int\+Attribute()}. 
+
+Note that \textquotesingle{}1\textquotesingle{}, \textquotesingle{}true\textquotesingle{}, or \textquotesingle{}yes\textquotesingle{} are considered true, while \textquotesingle{}0\textquotesingle{}, \textquotesingle{}false\textquotesingle{} and \textquotesingle{}no\textquotesingle{} are considered false. \index{Ti\+Xml\+Element@{Ti\+Xml\+Element}!Query\+Int\+Attribute@{Query\+Int\+Attribute}}
+\index{Query\+Int\+Attribute@{Query\+Int\+Attribute}!Ti\+Xml\+Element@{Ti\+Xml\+Element}}
+\subsubsection[{\texorpdfstring{Query\+Int\+Attribute(const char $\ast$name, int $\ast$\+\_\+value) const }{QueryIntAttribute(const char *name, int *_value) const }}]{\setlength{\rightskip}{0pt plus 5cm}int Ti\+Xml\+Element\+::\+Query\+Int\+Attribute (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{int $\ast$}]{\+\_\+value}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_ti_xml_element_aea0bfe471380f281c5945770ddbf52b9}{}\label{class_ti_xml_element_aea0bfe471380f281c5945770ddbf52b9}
+
+
+Query\+Int\+Attribute examines the attribute -\/ it is an alternative to the \hyperlink{class_ti_xml_element_ac1e4691e9375ba4e665dce7e46a50a9c}{Attribute()} method with richer error checking. 
+
+If the attribute is an integer, it is stored in \textquotesingle{}value\textquotesingle{} and the call returns T\+I\+X\+M\+L\+\_\+\+S\+U\+C\+C\+E\+SS. If it is not an integer, it returns T\+I\+X\+M\+L\+\_\+\+W\+R\+O\+N\+G\+\_\+\+T\+Y\+PE. If the attribute does not exist, then T\+I\+X\+M\+L\+\_\+\+N\+O\+\_\+\+A\+T\+T\+R\+I\+B\+U\+TE is returned. \index{Ti\+Xml\+Element@{Ti\+Xml\+Element}!Set\+Attribute@{Set\+Attribute}}
+\index{Set\+Attribute@{Set\+Attribute}!Ti\+Xml\+Element@{Ti\+Xml\+Element}}
+\subsubsection[{\texorpdfstring{Set\+Attribute(const char $\ast$name, const char $\ast$\+\_\+value)}{SetAttribute(const char *name, const char *_value)}}]{\setlength{\rightskip}{0pt plus 5cm}void Ti\+Xml\+Element\+::\+Set\+Attribute (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{const char $\ast$}]{\+\_\+value}
+\end{DoxyParamCaption}
+)}\hypertarget{class_ti_xml_element_abf0b3bd7f0e4c746a89ec6e7f101fc32}{}\label{class_ti_xml_element_abf0b3bd7f0e4c746a89ec6e7f101fc32}
+
+
+Sets an attribute of name to a given value. 
+
+The attribute will be created if it does not exist, or changed if it does. \index{Ti\+Xml\+Element@{Ti\+Xml\+Element}!Set\+Attribute@{Set\+Attribute}}
+\index{Set\+Attribute@{Set\+Attribute}!Ti\+Xml\+Element@{Ti\+Xml\+Element}}
+\subsubsection[{\texorpdfstring{Set\+Attribute(const char $\ast$name, int value)}{SetAttribute(const char *name, int value)}}]{\setlength{\rightskip}{0pt plus 5cm}void Ti\+Xml\+Element\+::\+Set\+Attribute (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}\hypertarget{class_ti_xml_element_ace6f4be75e373726d4774073d666d1a7}{}\label{class_ti_xml_element_ace6f4be75e373726d4774073d666d1a7}
+
+
+Sets an attribute of name to a given value. 
+
+The attribute will be created if it does not exist, or changed if it does. \index{Ti\+Xml\+Element@{Ti\+Xml\+Element}!Set\+Double\+Attribute@{Set\+Double\+Attribute}}
+\index{Set\+Double\+Attribute@{Set\+Double\+Attribute}!Ti\+Xml\+Element@{Ti\+Xml\+Element}}
+\subsubsection[{\texorpdfstring{Set\+Double\+Attribute(const char $\ast$name, double value)}{SetDoubleAttribute(const char *name, double value)}}]{\setlength{\rightskip}{0pt plus 5cm}void Ti\+Xml\+Element\+::\+Set\+Double\+Attribute (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}\hypertarget{class_ti_xml_element_a0d1dd975d75496778177e35abfe0ec0b}{}\label{class_ti_xml_element_a0d1dd975d75496778177e35abfe0ec0b}
+
+
+Sets an attribute of name to a given value. 
+
+The attribute will be created if it does not exist, or changed if it does. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/tinyxml.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/tinyxml.\+cpp\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/tinyxmlparser.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+<map id="Magnum::InputStream" name="Magnum::InputStream">
+<area shape="rect" id="node2" href="$class_magnum_1_1_file_input_stream.html" title="FileInputStream. " alt="" coords="217,5,387,32"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_g_z_file_input_stream.html" title="Magnum::GZFileInputStream" alt="" coords="208,56,396,83"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_g_z_mem_input_stream.html" title="Magnum::GZMemInputStream" alt="" coords="204,107,400,133"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_mem_input_stream.html" title="InputStream. " alt="" coords="213,157,391,184"/>
+</map>

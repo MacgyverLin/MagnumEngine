@@ -1,0 +1,15 @@
+<map id="IDreamSky::Vector::resize" name="IDreamSky::Vector::resize">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_audio_clip_1_1_resource.html#a31c5abfb8dc85cb158798e99d1400c7a" title="AudioClip Resource Destructor. " alt="" coords="225,5,381,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_compressed_texture2_d_file_1_1_resource.html#a0d912cc9dc6c2709174faaac248eddfa" title="CompressedTexture2DFile::Resource Destructor. " alt="" coords="194,71,411,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_compressed_texture_cube_file_1_1_resource.html#aac2b5e1e1a4c3f47af472996b9bde573" title="CompressedTextureCubeFile::Resource Destructor. " alt="" coords="197,136,408,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_font_1_1_resource.html#aa85f09b7439ed4282cc04260f5fa25cd" title="bool chec if the texture is PowerOfTwo " alt="" coords="211,201,394,243"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_mem_output_stream.html#ad55c8d9ab626c7813d4e462058f373e4" title="write function buffer data " alt="" coords="201,267,405,308"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_mem_output_stream.html#a4c9a681b50dc976a0750705319659553" title="Tell the current read position. " alt="" coords="201,332,405,373"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_physics3_1_1_world.html#a8edc4321eb301a4c8b887b589cc08d7d" title="Ray&#45;cast the World2 for all fixtures in the path of the ray. " alt="" coords="229,397,377,439"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_skeletal_animation_model_1_1_resource.html#a3cc030aab705211f7508024793a92984" title="SkeletalAnimationModel::Resource Destructor. " alt="" coords="203,463,402,504"/>
+<area shape="rect" id="node10" href="$class_i_dream_sky_1_1_skeletal_anim_blender.html#a261d22fd30ce53a3b4eba0c74cb8d36e" title="This function get the weights of bones specified by boneIndices_ of animIdx_&#45;th animation. " alt="" coords="195,528,410,569"/>
+<area shape="rect" id="node11" href="$class_i_dream_sky_1_1_skeletal_anim_weights.html#a5e8c78f606d253b62a33e61b04784740" title="Set the num of blend weights, this usually the same as the number of bone in Animation. " alt="" coords="193,593,412,635"/>
+<area shape="rect" id="node13" href="$class_i_dream_sky_1_1_texture2_d_file_1_1_resource.html#ad4893c973464e2f9db32a3952e137d2b" title="Texture2DFile::Resource Destructor. " alt="" coords="215,659,390,700"/>
+<area shape="rect" id="node14" href="$class_i_dream_sky_1_1_texture_cube_file_1_1_resource.html#abfc12309eb2f37daa741009cd5b22657" title="TextureCubeFile::Resource Destructor. " alt="" coords="209,724,397,765"/>
+<area shape="rect" id="node12" href="$class_i_dream_sky_1_1_skeletal_anim_blender.html#ab63b9cb4b608b6fdb46b288aea6b8d3a" title="This function add animation as child of this blender. " alt="" coords="460,593,675,635"/>
+</map>

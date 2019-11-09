@@ -1,0 +1,4 @@
+<map id="IDreamSky::SkeletalAnimBlender::rewind" name="IDreamSky::SkeletalAnimBlender::rewind">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_skeletal_anim_weights.html#a0205e45e096f3adef5d921e94fff88b0" title="Get the Animation to blend. " alt="" coords="268,5,487,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_skeletal_anim_base.html#a8e37498b115718b94072d6bf5c374a31" title="This function rewind the Animation (to its first frame), clears time. " alt="" coords="277,71,478,112"/>
+</map>

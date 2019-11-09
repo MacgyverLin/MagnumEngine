@@ -1,0 +1,18 @@
+﻿Build started 1/19/2015 10:19:07 PM.
+     1>Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\MagnumEngineLib\MagnumEngineLib.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\MagnumEngineLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         MagnumEngineLib.vcxproj -> C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Release\MagnumEngineLib.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\MagnumEngineLib.unsuccessfulbuild".
+         Touching "Release\MagnumEngineLib.lastbuildstate".
+     1>Done Building Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\MagnumEngineLib\MagnumEngineLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.08

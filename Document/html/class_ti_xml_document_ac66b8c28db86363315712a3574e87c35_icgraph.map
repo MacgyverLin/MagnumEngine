@@ -1,0 +1,8 @@
+<map id="TiXmlDocument::ClearError" name="TiXmlDocument::ClearError">
+<area shape="rect" id="node2" href="$class_ti_xml_document.html#a9f5e84335708fde98400230f9f12659c" title="Create an empty document, that has no name. " alt="" coords="232,56,443,83"/>
+<area shape="rect" id="node5" href="$class_ti_xml_document.html#a789ad2f06f93d52bdb5570b2f3670289" title="Parse the given null terminated block of xml data. " alt="" coords="260,107,415,133"/>
+<area shape="rect" id="node3" href="$class_ti_xml_document.html#ae4508b452d0c3061db085f3db27b8396" title="Create a document with a name. The name of the document is also the filename of the xml..." alt="" coords="491,5,701,32"/>
+<area shape="rect" id="node4" href="$class_ti_xml_document.html#ac9e8f09b23454d953b32d1b65cd1409e" title="Create an exact duplicate of this node and return it. " alt="" coords="519,56,673,83"/>
+<area shape="rect" id="node6" href="$class_ti_xml_document.html#a41f6fe7200864d1dca663d230caf8db6" title="Load a file using the given FILE*. " alt="" coords="511,107,681,133"/>
+<area shape="rect" id="node7" href="$class_ti_xml_base.html#ad0120210e4680ef2088601753ce0ede4" title="Get a pointer to arbitrary user data. " alt="" coords="513,157,679,184"/>
+</map>

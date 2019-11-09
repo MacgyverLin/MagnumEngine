@@ -1,0 +1,67 @@
+\hypertarget{class_magnum_1_1_system}{}\section{Magnum\+:\+:System 類別 參考文件}
+\label{class_magnum_1_1_system}\index{Magnum\+::\+System@{Magnum\+::\+System}}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_system_1_1_file}{File}
+\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static char $\ast$ {\bfseries strcpy} (char $\ast$dest, const char $\ast$src)\hypertarget{class_magnum_1_1_system_a3e63cd6d0d2e3e76cc7fc5a7876560d5}{}\label{class_magnum_1_1_system_a3e63cd6d0d2e3e76cc7fc5a7876560d5}
+
+\item 
+static char $\ast$ {\bfseries strncpy} (char $\ast$dest, const char $\ast$src, int count)\hypertarget{class_magnum_1_1_system_ad7b84bec292c7b5597817426c3960aa7}{}\label{class_magnum_1_1_system_ad7b84bec292c7b5597817426c3960aa7}
+
+\item 
+static int {\bfseries strcmp} (const char $\ast$str1, const char $\ast$str2)\hypertarget{class_magnum_1_1_system_a6bd49b730b534ad7f38a7d1fd2fc0ea1}{}\label{class_magnum_1_1_system_a6bd49b730b534ad7f38a7d1fd2fc0ea1}
+
+\item 
+static int {\bfseries stricmp} (const char $\ast$str1, const char $\ast$str2)\hypertarget{class_magnum_1_1_system_af2a9ec0778c2ec4f275fdbf589c941ac}{}\label{class_magnum_1_1_system_af2a9ec0778c2ec4f275fdbf589c941ac}
+
+\item 
+static int {\bfseries strncmp} (const char $\ast$str1, const char $\ast$str2, int maxcount)\hypertarget{class_magnum_1_1_system_a33cc1034ebfb3bff7bbe2a8964ce1d12}{}\label{class_magnum_1_1_system_a33cc1034ebfb3bff7bbe2a8964ce1d12}
+
+\item 
+static int {\bfseries strnicmp} (const char $\ast$str1, const char $\ast$str2, int maxcount)\hypertarget{class_magnum_1_1_system_af492a62687c5ee5b22f0b3998ae3ccef}{}\label{class_magnum_1_1_system_af492a62687c5ee5b22f0b3998ae3ccef}
+
+\item 
+static void {\bfseries memset} (void $\ast$dst, int val, int size)\hypertarget{class_magnum_1_1_system_a21d5c35e2d6339008b7ba8ac7f771153}{}\label{class_magnum_1_1_system_a21d5c35e2d6339008b7ba8ac7f771153}
+
+\item 
+static void {\bfseries memcpy} (void $\ast$dst, const void $\ast$src, int size)\hypertarget{class_magnum_1_1_system_ab15ca31db328a20ebdae3604b43273d0}{}\label{class_magnum_1_1_system_ab15ca31db328a20ebdae3604b43273d0}
+
+\item 
+static int {\bfseries memcmp} (const void $\ast$s1, const void $\ast$s2, int size)\hypertarget{class_magnum_1_1_system_a427eeddcacbeb63ee4f82544a56dfd3f}{}\label{class_magnum_1_1_system_a427eeddcacbeb63ee4f82544a56dfd3f}
+
+\item 
+static \hyperlink{class_magnum_1_1_string}{String} {\bfseries get\+Directory} (const char $\ast$full\+Path)\hypertarget{class_magnum_1_1_system_abd846b013a800d9fcd8a4f916e2026f2}{}\label{class_magnum_1_1_system_abd846b013a800d9fcd8a4f916e2026f2}
+
+\item 
+static \hyperlink{class_magnum_1_1_string}{String} {\bfseries get\+File\+Name} (const char $\ast$full\+Path)\hypertarget{class_magnum_1_1_system_aa7fb6455a059789dd5e4bb333327f139}{}\label{class_magnum_1_1_system_aa7fb6455a059789dd5e4bb333327f139}
+
+\item 
+static \hyperlink{class_magnum_1_1_string}{String} {\bfseries get\+Extension} (const char $\ast$full\+Path)\hypertarget{class_magnum_1_1_system_a7dac7fcbbaff6b6e16e68209eaf25c05}{}\label{class_magnum_1_1_system_a7dac7fcbbaff6b6e16e68209eaf25c05}
+
+\item 
+static bool {\bfseries is\+Directory} (const char $\ast$name\+\_\+)\hypertarget{class_magnum_1_1_system_aed72765800d117c178ff3c846abd813b}{}\label{class_magnum_1_1_system_aed72765800d117c178ff3c846abd813b}
+
+\item 
+static bool {\bfseries make\+Directory} (const char $\ast$dir\+\_\+)\hypertarget{class_magnum_1_1_system_abfc5bc6c40fc568b79008fc4bf64fa54}{}\label{class_magnum_1_1_system_abfc5bc6c40fc568b79008fc4bf64fa54}
+
+\item 
+static bool {\bfseries list\+Directories} (const \hyperlink{class_magnum_1_1_string}{String} \&path, \hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_string}{String} $>$ \&directories)\hypertarget{class_magnum_1_1_system_abd7aed6e3777db04a46045adb9333771}{}\label{class_magnum_1_1_system_abd7aed6e3777db04a46045adb9333771}
+
+\item 
+static bool {\bfseries list\+Files} (const char $\ast$root\+Dir, const \hyperlink{class_magnum_1_1_string}{String} \&path, const char $\ast$extension, \hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_system_1_1_file}{System\+::\+File} $>$ \&files)\hypertarget{class_magnum_1_1_system_a26f078a49a4369626fb039ddc781fb9e}{}\label{class_magnum_1_1_system_a26f078a49a4369626fb039ddc781fb9e}
+
+\item 
+static bool {\bfseries list\+Assets} (const char $\ast$root\+Dir, const char $\ast$extension, \hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_system_1_1_file}{System\+::\+File} $>$ \&files)\hypertarget{class_magnum_1_1_system_a580d87e327d337b9bf696bb3ab6176cb}{}\label{class_magnum_1_1_system_a580d87e327d337b9bf696bb3ab6176cb}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/E\+System.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/E\+System.\+cpp\end{DoxyCompactItemize}

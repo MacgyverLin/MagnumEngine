@@ -1,0 +1,9 @@
+<map id="Magnum::SkeletalAnimModelRenderer::remove" name="Magnum::SkeletalAnimModelRenderer::remove">
+<area shape="rect" id="node2" href="$class_magnum_1_1_camera_component.html#a38e7ee545e4981d3285df17f89561c24" title="Check if the parameter layer matches TargetLayer to this camera. " alt="" coords="263,5,454,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_model_component.html#a33c9ffacdfd2ec26187c448cc98269fa" title="Get the SkeletalAnimModel* of the SkeletalAnimModelComponent. " alt="" coords="245,71,472,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_vector.html#a05c838dd9a909c2cc729dfbaa3e22fdb" title="resize the Vector to length_ " alt="" coords="278,137,439,163"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_skeletal_anim_model_component.html#ac350d91ecf51b46a0b19173f29a176f1" title="Get the SkeletalAnimBase* of the SkeletalAnimModelComponent. " alt="" coords="263,188,455,229"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_skeletal_anim_base.html#a4349fe8f84e7c7ac3324ac163e0fe727" title="This function get the Vector10 (scale, rotation and translation) of the i&#45;th bone. " alt="" coords="265,253,452,295"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_frame3.html#a57a2f755811f485d9602103609c78d68" title="Get the Frame3&#39;s global transform. " alt="" coords="265,319,452,360"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_skeletal_anim_model_component.html#a9ef9c3a84c2b8487326eb0976c7a7795" title="Get the i&#45;th Visual Effect(Material) of the Animation Model. " alt="" coords="263,384,455,425"/>
+</map>

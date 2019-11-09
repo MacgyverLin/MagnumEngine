@@ -1,0 +1,89 @@
+\hypertarget{struct_all_hits_ray_cast_c_b}{}\section{All\+Hits\+Ray\+Cast\+CB Struct Reference}
+\label{struct_all_hits_ray_cast_c_b}\index{All\+Hits\+Ray\+Cast\+CB@{All\+Hits\+Ray\+Cast\+CB}}
+
+
+\hyperlink{struct_all_hits_ray_cast_c_b}{All\+Hits\+Ray\+Cast\+CB}.  
+
+
+
+
+{\ttfamily \#include $<$Ray\+Sphere\+Cast.\+h$>$}
+
+Inheritance diagram for All\+Hits\+Ray\+Cast\+CB\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{struct_all_hits_ray_cast_c_b}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_all_hits_ray_cast_c_b_ae11a45ede9786742d1bda104784a611b}{All\+Hits\+Ray\+Cast\+CB} (\hyperlink{class_magnum_1_1_physics3_1_1_ray_cast_result}{Physics3\+::\+Ray\+Cast\+Result} \&result\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&ray\+From\+World\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&ray\+To\+World\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{struct_all_hits_ray_cast_c_b}{All\+Hits\+Ray\+Cast\+CB} Constructor. \end{DoxyCompactList}\item 
+virtual bt\+Scalar \hyperlink{struct_all_hits_ray_cast_c_b_a5e045ff69c21d4fa3c61b16097fa8e8b}{add\+Single\+Result} (bt\+Collision\+World\+::\+Local\+Ray\+Result \&ray\+Result, bool normal\+In\+World\+Space)
+\begin{DoxyCompactList}\small\item\em The callback function for \hyperlink{struct_all_hits_ray_cast_c_b}{All\+Hits\+Ray\+Cast\+CB}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_physics3_1_1_ray_cast_result}{Physics3\+::\+Ray\+Cast\+Result} \& {\bfseries result}\hypertarget{struct_all_hits_ray_cast_c_b_a93f72f40db4ede8c43ce40cca361a801}{}\label{struct_all_hits_ray_cast_c_b_a93f72f40db4ede8c43ce40cca361a801}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{struct_all_hits_ray_cast_c_b}{All\+Hits\+Ray\+Cast\+CB}. 
+
+\hyperlink{struct_all_hits_ray_cast_c_b}{All\+Hits\+Ray\+Cast\+CB} defines the call back structure used for \hyperlink{struct_all_hits_ray_cast_c_b}{All\+Hits\+Ray\+Cast\+CB}. \hyperlink{struct_all_hits_ray_cast_c_b}{All\+Hits\+Ray\+Cast\+CB} returns the all intersection point of the raycasting 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{All\+Hits\+Ray\+Cast\+CB@{All\+Hits\+Ray\+Cast\+CB}!All\+Hits\+Ray\+Cast\+CB@{All\+Hits\+Ray\+Cast\+CB}}
+\index{All\+Hits\+Ray\+Cast\+CB@{All\+Hits\+Ray\+Cast\+CB}!All\+Hits\+Ray\+Cast\+CB@{All\+Hits\+Ray\+Cast\+CB}}
+\subsubsection[{\texorpdfstring{All\+Hits\+Ray\+Cast\+C\+B(\+Physics3\+::\+Ray\+Cast\+Result \&result\+\_\+, const Vector3 \&ray\+From\+World\+\_\+, const Vector3 \&ray\+To\+World\+\_\+)}{AllHitsRayCastCB(Physics3::RayCastResult &result_, const Vector3 &rayFromWorld_, const Vector3 &rayToWorld_)}}]{\setlength{\rightskip}{0pt plus 5cm}All\+Hits\+Ray\+Cast\+C\+B\+::\+All\+Hits\+Ray\+Cast\+CB (
+\begin{DoxyParamCaption}
+\item[{{\bf Physics3\+::\+Ray\+Cast\+Result} \&}]{result\+\_\+, }
+\item[{const {\bf Vector3} \&}]{ray\+From\+World\+\_\+, }
+\item[{const {\bf Vector3} \&}]{ray\+To\+World\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{struct_all_hits_ray_cast_c_b_ae11a45ede9786742d1bda104784a611b}{}\label{struct_all_hits_ray_cast_c_b_ae11a45ede9786742d1bda104784a611b}
+
+
+\hyperlink{struct_all_hits_ray_cast_c_b}{All\+Hits\+Ray\+Cast\+CB} Constructor. 
+
+To Construct the \hyperlink{struct_all_hits_ray_cast_c_b}{All\+Hits\+Ray\+Cast\+CB} 
+\begin{DoxyParams}{Parameters}
+{\em result\+\_\+,Physics3\+::\+Ray\+Cast\+Result,the} & result of ray casting casting is return in this parameter \\
+\hline
+{\em ray\+From\+World\+\_\+,Vector3,the} & Ray cast starting point \\
+\hline
+{\em ray\+To\+World\+\_\+,Vector3,the} & Ray cast starting point \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{All\+Hits\+Ray\+Cast\+CB@{All\+Hits\+Ray\+Cast\+CB}!add\+Single\+Result@{add\+Single\+Result}}
+\index{add\+Single\+Result@{add\+Single\+Result}!All\+Hits\+Ray\+Cast\+CB@{All\+Hits\+Ray\+Cast\+CB}}
+\subsubsection[{\texorpdfstring{add\+Single\+Result(bt\+Collision\+World\+::\+Local\+Ray\+Result \&ray\+Result, bool normal\+In\+World\+Space)}{addSingleResult(btCollisionWorld::LocalRayResult &rayResult, bool normalInWorldSpace)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bt\+Scalar All\+Hits\+Ray\+Cast\+C\+B\+::add\+Single\+Result (
+\begin{DoxyParamCaption}
+\item[{bt\+Collision\+World\+::\+Local\+Ray\+Result \&}]{ray\+Result, }
+\item[{bool}]{normal\+In\+World\+Space}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{struct_all_hits_ray_cast_c_b_a5e045ff69c21d4fa3c61b16097fa8e8b}{}\label{struct_all_hits_ray_cast_c_b_a5e045ff69c21d4fa3c61b16097fa8e8b}
+
+
+The callback function for \hyperlink{struct_all_hits_ray_cast_c_b}{All\+Hits\+Ray\+Cast\+CB}. 
+
+This function is called by the Physics3 Service when it detect an intesection between ray and certain Shape in the physics world 
+\begin{DoxyParams}{Parameters}
+{\em convex\+Result,Physics3\+::\+Local\+Convex\+Result,the} & result of convex casting is return in this parameter \\
+\hline
+{\em normal\+In\+World\+Space,if} & true the normal is return in world space, otherwise return in object local space \\
+\hline
+{\em float,the} & fraction of the ray closest intersection. \\
+\hline
+\end{DoxyParams}
+need to transform normal into worldspace 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Ray\+Sphere\+Cast.\+h\end{DoxyCompactItemize}

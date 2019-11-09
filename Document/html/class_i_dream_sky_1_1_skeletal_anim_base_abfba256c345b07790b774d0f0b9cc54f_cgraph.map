@@ -1,0 +1,5 @@
+<map id="IDreamSky::SkeletalAnimBase::getSystemTransform" name="IDreamSky::SkeletalAnimBase::getSystemTransform">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_skeletal_anim_base.html#a4335e1a6e463f36b8530564576d531a8" title="This function get the Vector10 (scale, rotation and translation) of the i&#45;th bone. " alt="" coords="255,5,456,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_skeletal_anim_base.html#a3071b818530589de7f3b28c1300e6135" title="This function get the local Transform of of the i&#45;th bone. " alt="" coords="255,71,456,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_skeletal_anim_base.html#a05885a42d51027337a98841e929af057" title="This function get the Vector10 (scale, rotation and translation) of the i&#45;th bone. " alt="" coords="504,71,705,112"/>
+</map>

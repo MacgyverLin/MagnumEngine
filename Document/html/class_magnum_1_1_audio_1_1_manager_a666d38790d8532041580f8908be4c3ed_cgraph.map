@@ -1,0 +1,5 @@
+<map id="Magnum::Audio::Manager::getSystemHandle" name="Magnum::Audio::Manager::getSystemHandle">
+<area shape="rect" id="node2" href="$class_magnum_1_1_frame3.html#a02ef2b5e486c10f94fdf13885c37ebc6" title="Get the Frame3&#39;s global position. " alt="" coords="224,5,411,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_frame3.html#a34cb4c58d842bc9dc2622bdb7690446f" title="Get the Frame3&#39;s local z axis. " alt="" coords="224,71,411,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_frame3.html#a0692e3724e53edf06e828470e74833cd" title="Get the Frame3&#39;s local y axis. " alt="" coords="224,136,411,177"/>
+</map>

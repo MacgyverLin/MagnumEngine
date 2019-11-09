@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/CylinderShape3.h 原始程式檔</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li><a href="annotated.html"><span>類別</span></a></li>
+      <li class="current"><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>檔案列表</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_3b299f3d84239cc10925a78cf20e9b48.html">innovation</a></li><li class="navelem"><a class="el" href="dir_4d4d197ad34ec1dfe298c9d993c7bc0e.html">GovernmentEngine</a></li><li class="navelem"><a class="el" href="dir_1e0d49b1eb313e118d98e24098e2f6a7.html">EpicForceEngine</a></li><li class="navelem"><a class="el" href="dir_a7d5f72d102c9e84652ad636ce8313e7.html">MagnumEngineLib</a></li><li class="navelem"><a class="el" href="dir_66b0301f98c392f3cfc1bcb6a7aee577.html">MagnumCore</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">CylinderShape3.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright(c) 2016, Lin Koon Wing Macgyver, macgyvercct@yahoo.com.hk           //</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//                                                                               //</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Author : Mac Lin                                                              //</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Module : DreamEngine v1.0.0                                               //</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Date   : 14/Jun/2016                                                          //</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//                                                                               //</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"></span><span class="preprocessor">#ifndef _CylinderShape3_h_</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define _CylinderShape3_h_</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;Stage.h&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;Vector3.h&quot;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;Shape3.h&quot;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespace_i_dream_sky.html">IDreamSky</a>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_i_dream_sky.html">IDreamSky</a></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_i_dream_sky_1_1_cylinder_shape3.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_i_dream_sky_1_1_cylinder_shape3.html">CylinderShape3</a> : <span class="keyword">public</span> <a class="code" href="class_i_dream_sky_1_1_convex_shape3.html">ConvexShape3</a></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4">   28</a></span>&#160;    <span class="keyword">enum</span> <a class="code" href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4">AxisDirection</a></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4a951c488eff3ac127c35745ef2bf420bb">   30</a></span>&#160;        <a class="code" href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4a951c488eff3ac127c35745ef2bf420bb">X_AXIS</a>,     </div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4af467d35181826740bd9052cd12e0e0ac">   31</a></span>&#160;        <a class="code" href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4af467d35181826740bd9052cd12e0e0ac">Y_AXIS</a>,     </div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4acee80b4c4fc6d3e5419957085517e27a">   32</a></span>&#160;        <a class="code" href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4acee80b4c4fc6d3e5419957085517e27a">Z_AXIS</a>      </div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    };</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_cylinder_shape3.html#a32c651f4bb77e70ddf6c2728b1b84bd8">CylinderShape3</a>();</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_cylinder_shape3.html#a71e40d19f4a4069fdc7dba140bd661e2">~CylinderShape3</a>();</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_i_dream_sky_1_1_cylinder_shape3.html#a32cf0f886433891007464cb5ff6e4fd4">construct</a>(<a class="code" href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4">CylinderShape3::AxisDirection</a> axisDir_, <span class="keywordtype">float</span> radius_, <span class="keywordtype">float</span> height_);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_i_dream_sky_1_1_cylinder_shape3.html#a9166cef1017d172e8769a9d54e947660">destruct</a>();</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_i_dream_sky_1_1_cylinder_shape3.html#ac34f1b50e44652be4bb1752c0fe8bff9">getMassProp</a>(<span class="keywordtype">float</span> density, <span class="keywordtype">float</span> &amp;mass, <a class="code" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;localInertia) <span class="keyword">const</span>;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">//virtual int32 GetChildCount() const = 0;</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">//virtual bool TestPoint(const b2Transform&amp; xf, const b2Vec2&amp; p) const = 0;</span></div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment">//virtual bool RayCast(b2RayCastOutput* output, const b2RayCastInput&amp; input, const b2Transform&amp; transform, int32 childIndex) const = 0;</span></div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">//virtual void ComputeAABB(b2AABB* aabb, const b2Transform&amp; xf, int32 childIndex) const = 0;</span></div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">//virtual void ComputeMass(b2MassData* massData, float32 density) const = 0;</span></div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;};</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;};</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="class_i_dream_sky_1_1_cylinder_shape3_html_ad077fbb709c7e56e615ce7349be523e4a951c488eff3ac127c35745ef2bf420bb"><div class="ttname"><a href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4a951c488eff3ac127c35745ef2bf420bb">IDreamSky::CylinderShape3::X_AXIS</a></div><div class="ttdoc">Height Align to XAxis. </div><div class="ttdef"><b>Definition:</b> CylinderShape3.h:30</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_convex_shape3_html"><div class="ttname"><a href="class_i_dream_sky_1_1_convex_shape3.html">IDreamSky::ConvexShape3</a></div><div class="ttdoc">ConvexShape3. </div><div class="ttdef"><b>Definition:</b> Shape3.h:144</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cylinder_shape3_html_a9166cef1017d172e8769a9d54e947660"><div class="ttname"><a href="class_i_dream_sky_1_1_cylinder_shape3.html#a9166cef1017d172e8769a9d54e947660">IDreamSky::CylinderShape3::destruct</a></div><div class="ttdeci">void destruct()</div><div class="ttdoc">destruct CylinderShape3 and release memory its used </div><div class="ttdef"><b>Definition:</b> CylinderShape3.cpp:59</div></div>
+<div class="ttc" id="namespace_i_dream_sky_html"><div class="ttname"><a href="namespace_i_dream_sky.html">IDreamSky</a></div><div class="ttdef"><b>Definition:</b> AABB2.h:18</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cylinder_shape3_html_ad077fbb709c7e56e615ce7349be523e4af467d35181826740bd9052cd12e0e0ac"><div class="ttname"><a href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4af467d35181826740bd9052cd12e0e0ac">IDreamSky::CylinderShape3::Y_AXIS</a></div><div class="ttdoc">Height Align to YAxis. </div><div class="ttdef"><b>Definition:</b> CylinderShape3.h:31</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cylinder_shape3_html_a32cf0f886433891007464cb5ff6e4fd4"><div class="ttname"><a href="class_i_dream_sky_1_1_cylinder_shape3.html#a32cf0f886433891007464cb5ff6e4fd4">IDreamSky::CylinderShape3::construct</a></div><div class="ttdeci">bool construct(CylinderShape3::AxisDirection axisDir_, float radius_, float height_)</div><div class="ttdoc">construct the CylinderShape3. </div><div class="ttdef"><b>Definition:</b> CylinderShape3.cpp:25</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cylinder_shape3_html"><div class="ttname"><a href="class_i_dream_sky_1_1_cylinder_shape3.html">IDreamSky::CylinderShape3</a></div><div class="ttdoc">CylinderShape3. </div><div class="ttdef"><b>Definition:</b> CylinderShape3.h:25</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cylinder_shape3_html_ad077fbb709c7e56e615ce7349be523e4"><div class="ttname"><a href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4">IDreamSky::CylinderShape3::AxisDirection</a></div><div class="ttdeci">AxisDirection</div><div class="ttdef"><b>Definition:</b> CylinderShape3.h:28</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_vector3_html"><div class="ttname"><a href="class_i_dream_sky_1_1_vector3.html">IDreamSky::Vector3</a></div><div class="ttdef"><b>Definition:</b> Vector3.h:20</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cylinder_shape3_html_ad077fbb709c7e56e615ce7349be523e4acee80b4c4fc6d3e5419957085517e27a"><div class="ttname"><a href="class_i_dream_sky_1_1_cylinder_shape3.html#ad077fbb709c7e56e615ce7349be523e4acee80b4c4fc6d3e5419957085517e27a">IDreamSky::CylinderShape3::Z_AXIS</a></div><div class="ttdoc">Height Align to ZAxis. </div><div class="ttdef"><b>Definition:</b> CylinderShape3.h:32</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cylinder_shape3_html_ac34f1b50e44652be4bb1752c0fe8bff9"><div class="ttname"><a href="class_i_dream_sky_1_1_cylinder_shape3.html#ac34f1b50e44652be4bb1752c0fe8bff9">IDreamSky::CylinderShape3::getMassProp</a></div><div class="ttdeci">virtual void getMassProp(float density, float &amp;mass, Vector3 &amp;localInertia) const </div><div class="ttdoc">calculate the mass and moment of inertia according to the shape and density </div><div class="ttdef"><b>Definition:</b> CylinderShape3.cpp:68</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cylinder_shape3_html_a32c651f4bb77e70ddf6c2728b1b84bd8"><div class="ttname"><a href="class_i_dream_sky_1_1_cylinder_shape3.html#a32c651f4bb77e70ddf6c2728b1b84bd8">IDreamSky::CylinderShape3::CylinderShape3</a></div><div class="ttdeci">CylinderShape3()</div><div class="ttdoc">CylinderShape3 Constructor. </div><div class="ttdef"><b>Definition:</b> CylinderShape3.cpp:15</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_cylinder_shape3_html_a71e40d19f4a4069fdc7dba140bd661e2"><div class="ttname"><a href="class_i_dream_sky_1_1_cylinder_shape3.html#a71e40d19f4a4069fdc7dba140bd661e2">IDreamSky::CylinderShape3::~CylinderShape3</a></div><div class="ttdeci">~CylinderShape3()</div><div class="ttdoc">CylinderShape3 Destructor. </div><div class="ttdef"><b>Definition:</b> CylinderShape3.cpp:20</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

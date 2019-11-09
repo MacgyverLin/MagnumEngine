@@ -1,0 +1,288 @@
+\hypertarget{class_magnum_1_1_matrix4}{}\section{Magnum\+:\+:Matrix4 類別 參考文件}
+\label{class_magnum_1_1_matrix4}\index{Magnum\+::\+Matrix4@{Magnum\+::\+Matrix4}}
+
+
+Magnum\+:\+:Matrix4的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{class_magnum_1_1_matrix4__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Matrix4} (bool b\+Zero=true)\hypertarget{class_magnum_1_1_matrix4_a758e71e11639ef13818caead34b5900e}{}\label{class_magnum_1_1_matrix4_a758e71e11639ef13818caead34b5900e}
+
+\item 
+{\bfseries Matrix4} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM)\hypertarget{class_magnum_1_1_matrix4_a683597bd69debd5661fbf58f9c302396}{}\label{class_magnum_1_1_matrix4_a683597bd69debd5661fbf58f9c302396}
+
+\item 
+{\bfseries Matrix4} (float f\+M00, float f\+M01, float f\+M02, float f\+M03, float f\+M10, float f\+M11, float f\+M12, float f\+M13, float f\+M20, float f\+M21, float f\+M22, float f\+M23, float f\+M30, float f\+M31, float f\+M32, float f\+M33)\hypertarget{class_magnum_1_1_matrix4_a0e89c088261cbe866cdb0037e8f35b40}{}\label{class_magnum_1_1_matrix4_a0e89c088261cbe866cdb0037e8f35b40}
+
+\item 
+{\bfseries Matrix4} (const float af\+Entry\mbox{[}16\mbox{]}, bool b\+Row\+Major=true)\hypertarget{class_magnum_1_1_matrix4_a197ec84f2795c21b7e2a518b9cb52324}{}\label{class_magnum_1_1_matrix4_a197ec84f2795c21b7e2a518b9cb52324}
+
+\item 
+void {\bfseries Set} (float f\+M00, float f\+M01, float f\+M02, float f\+M03, float f\+M10, float f\+M11, float f\+M12, float f\+M13, float f\+M20, float f\+M21, float f\+M22, float f\+M23, float f\+M30, float f\+M31, float f\+M32, float f\+M33)\hypertarget{class_magnum_1_1_matrix4_a3d2d1deed5482507a82f2ab29ad17127}{}\label{class_magnum_1_1_matrix4_a3d2d1deed5482507a82f2ab29ad17127}
+
+\item 
+void {\bfseries init\+Zero} ()\hypertarget{class_magnum_1_1_matrix4_a9c2ab42da4629ad979319e7e76be36c1}{}\label{class_magnum_1_1_matrix4_a9c2ab42da4629ad979319e7e76be36c1}
+
+\item 
+void {\bfseries init\+Identity} ()\hypertarget{class_magnum_1_1_matrix4_a507568577193f5f6ffc02cfffce34f5a}{}\label{class_magnum_1_1_matrix4_a507568577193f5f6ffc02cfffce34f5a}
+
+\item 
+void {\bfseries init\+Translate} (float x, float y, float z)\hypertarget{class_magnum_1_1_matrix4_a3cbafa8546b9bb40b4e3fefad2060c8a}{}\label{class_magnum_1_1_matrix4_a3cbafa8546b9bb40b4e3fefad2060c8a}
+
+\item 
+void {\bfseries init\+RotateX} (float radian)\hypertarget{class_magnum_1_1_matrix4_a1602b73786b183d98d22beead9e79e7e}{}\label{class_magnum_1_1_matrix4_a1602b73786b183d98d22beead9e79e7e}
+
+\item 
+void {\bfseries init\+RotateY} (float radian)\hypertarget{class_magnum_1_1_matrix4_afd3bc6faacc5f0fc2cfa1e04e28d1d32}{}\label{class_magnum_1_1_matrix4_afd3bc6faacc5f0fc2cfa1e04e28d1d32}
+
+\item 
+void {\bfseries init\+RotateZ} (float radian)\hypertarget{class_magnum_1_1_matrix4_a1e963dca05feed815ecf66d8c8346a58}{}\label{class_magnum_1_1_matrix4_a1e963dca05feed815ecf66d8c8346a58}
+
+\item 
+void {\bfseries init\+Rotate\+Z\+XY} (float z, float x, float y)\hypertarget{class_magnum_1_1_matrix4_a1bd6a04e7e99aad7557a35d6383a7405}{}\label{class_magnum_1_1_matrix4_a1bd6a04e7e99aad7557a35d6383a7405}
+
+\item 
+void {\bfseries init\+Rotate\+Z\+YX} (float z, float y, float x)\hypertarget{class_magnum_1_1_matrix4_add4020087add92cb19c2d09dffd4d923}{}\label{class_magnum_1_1_matrix4_add4020087add92cb19c2d09dffd4d923}
+
+\item 
+void {\bfseries init\+Rotate\+Axis\+Angle} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&axis, float radian)\hypertarget{class_magnum_1_1_matrix4_a25d3cfdfd2bfa0162c4508c72b95f5d2}{}\label{class_magnum_1_1_matrix4_a25d3cfdfd2bfa0162c4508c72b95f5d2}
+
+\item 
+void {\bfseries init\+Scale} (float scale)\hypertarget{class_magnum_1_1_matrix4_a9234a8bdc30fc6f45986cb8e06d2c755}{}\label{class_magnum_1_1_matrix4_a9234a8bdc30fc6f45986cb8e06d2c755}
+
+\item 
+void {\bfseries init\+Scale} (float x, float y, float z)\hypertarget{class_magnum_1_1_matrix4_a2191a5c0773e1f012ff997a8289da8a3}{}\label{class_magnum_1_1_matrix4_a2191a5c0773e1f012ff997a8289da8a3}
+
+\item 
+void {\bfseries init\+Translate\+Rot\+Z\+X\+Y\+Scale} (float tx, float ty, float tz, float rz, float rx, float ry, float scale)\hypertarget{class_magnum_1_1_matrix4_a1d5797189e531ef8bb9cb7cdeb0ad6a4}{}\label{class_magnum_1_1_matrix4_a1d5797189e531ef8bb9cb7cdeb0ad6a4}
+
+\item 
+void {\bfseries init\+Translate\+Rot\+Z\+Y\+X\+Scale} (float tx, float ty, float tz, float rz, float ry, float rx, float scale)\hypertarget{class_magnum_1_1_matrix4_aec4cbc0ec773a4ec9da6480dc988b676}{}\label{class_magnum_1_1_matrix4_aec4cbc0ec773a4ec9da6480dc988b676}
+
+\item 
+void {\bfseries init\+Translate\+Rot\+Z\+Y\+X\+Scale} (float tx, float ty, float tz, float rx, float ry, float rz, float sx, float sy, float sz)\hypertarget{class_magnum_1_1_matrix4_a14d34a2948b84214a91064ba24f0a3e2}{}\label{class_magnum_1_1_matrix4_a14d34a2948b84214a91064ba24f0a3e2}
+
+\item 
+void {\bfseries init\+Translate\+Rot\+Axis\+Angle\+Scale} (float tx, float ty, float tz, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&axis, const float radian, float scale)\hypertarget{class_magnum_1_1_matrix4_a3491767885ba86e1b520210d5f232dff}{}\label{class_magnum_1_1_matrix4_a3491767885ba86e1b520210d5f232dff}
+
+\item 
+void {\bfseries init\+Translate\+Scale} (float tx, float ty, float tz, float scale)\hypertarget{class_magnum_1_1_matrix4_ac1ef352277828ef1bc8ad04b6632a1f0}{}\label{class_magnum_1_1_matrix4_ac1ef352277828ef1bc8ad04b6632a1f0}
+
+\item 
+void {\bfseries init\+Look\+At} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&position, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&objective, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&up)\hypertarget{class_magnum_1_1_matrix4_ac4acd38c64bb1cdfc15c20ade6a5cf44}{}\label{class_magnum_1_1_matrix4_ac4acd38c64bb1cdfc15c20ade6a5cf44}
+
+\item 
+void {\bfseries init\+Look\+At\+Scale} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&position, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&objective, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&up, float scale)\hypertarget{class_magnum_1_1_matrix4_abbea4957a07629a5d75fa29f0cc4210a}{}\label{class_magnum_1_1_matrix4_abbea4957a07629a5d75fa29f0cc4210a}
+
+\item 
+void {\bfseries init\+Stand\+On} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&position, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&objective, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&up)\hypertarget{class_magnum_1_1_matrix4_ac9483e5bc7832192d38516bc71f1cb3f}{}\label{class_magnum_1_1_matrix4_ac9483e5bc7832192d38516bc71f1cb3f}
+
+\item 
+void {\bfseries init\+Stand\+On\+Scale} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&position, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&objective, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&up, float scale)\hypertarget{class_magnum_1_1_matrix4_ad0db72aeef56e1da5cab10ec8bc94274}{}\label{class_magnum_1_1_matrix4_ad0db72aeef56e1da5cab10ec8bc94274}
+
+\item 
+void {\bfseries init\+Perspective} (float w, float h, float n, float f)\hypertarget{class_magnum_1_1_matrix4_a76f94c959ebcbc421711c26746540ed3}{}\label{class_magnum_1_1_matrix4_a76f94c959ebcbc421711c26746540ed3}
+
+\item 
+void {\bfseries init\+Perspective\+Fov} (float fovY, float aspect, float n, float f)\hypertarget{class_magnum_1_1_matrix4_a23af89991107c39bfd587e920dd288ed}{}\label{class_magnum_1_1_matrix4_a23af89991107c39bfd587e920dd288ed}
+
+\item 
+void {\bfseries init\+Perspective\+Off\+Center} (float l, float r, float b, float t, float n, float f)\hypertarget{class_magnum_1_1_matrix4_ae3372ce8c2e9085d9268e6b210f101da}{}\label{class_magnum_1_1_matrix4_ae3372ce8c2e9085d9268e6b210f101da}
+
+\item 
+void {\bfseries init\+Orthogonal} (float w, float h, float n, float f)\hypertarget{class_magnum_1_1_matrix4_af9e39fd6de51edc9b7dc678d9e7572a1}{}\label{class_magnum_1_1_matrix4_af9e39fd6de51edc9b7dc678d9e7572a1}
+
+\item 
+void {\bfseries init\+Orthogonal\+Off\+Center} (float l, float r, float b, float t, float n, float f)\hypertarget{class_magnum_1_1_matrix4_aa7389bb46ea86c4c009b51c77e66279c}{}\label{class_magnum_1_1_matrix4_aa7389bb46ea86c4c009b51c77e66279c}
+
+\item 
+void {\bfseries orthonormalize} ()\hypertarget{class_magnum_1_1_matrix4_a9dff1a4cbaab68ab4d0ccaf5c8bf313e}{}\label{class_magnum_1_1_matrix4_a9dff1a4cbaab68ab4d0ccaf5c8bf313e}
+
+\item 
+{\bfseries operator const float $\ast$} () const \hypertarget{class_magnum_1_1_matrix4_ab21fc1e54677109e5b25e530fdac2b83}{}\label{class_magnum_1_1_matrix4_ab21fc1e54677109e5b25e530fdac2b83}
+
+\item 
+{\bfseries operator float $\ast$} ()\hypertarget{class_magnum_1_1_matrix4_a0ffdcf73a5b8cc15fcc7960c28e902d6}{}\label{class_magnum_1_1_matrix4_a0ffdcf73a5b8cc15fcc7960c28e902d6}
+
+\item 
+const float $\ast$ {\bfseries operator\mbox{[}$\,$\mbox{]}} (int i\+Row) const \hypertarget{class_magnum_1_1_matrix4_a60ccb2b80fe88539f7d0c2f7f1233682}{}\label{class_magnum_1_1_matrix4_a60ccb2b80fe88539f7d0c2f7f1233682}
+
+\item 
+float $\ast$ {\bfseries operator\mbox{[}$\,$\mbox{]}} (int i\+Row)\hypertarget{class_magnum_1_1_matrix4_ad9ad690248b8ec51c13b5ace9ffca01a}{}\label{class_magnum_1_1_matrix4_ad9ad690248b8ec51c13b5ace9ffca01a}
+
+\item 
+float {\bfseries operator()} (int i\+Row, int i\+Col) const \hypertarget{class_magnum_1_1_matrix4_afa85ffc2c6a8ca047d051572d2a7cd77}{}\label{class_magnum_1_1_matrix4_afa85ffc2c6a8ca047d051572d2a7cd77}
+
+\item 
+float \& {\bfseries operator()} (int i\+Row, int i\+Col)\hypertarget{class_magnum_1_1_matrix4_a9ab67fec57241894809c7c36b2afbc68}{}\label{class_magnum_1_1_matrix4_a9ab67fec57241894809c7c36b2afbc68}
+
+\item 
+void {\bfseries Set\+Row} (int i\+Row, const \hyperlink{class_magnum_1_1_vector4}{Vector4} \&rkV)\hypertarget{class_magnum_1_1_matrix4_a4a28820472af64fa1dcdb3f22be5707e}{}\label{class_magnum_1_1_matrix4_a4a28820472af64fa1dcdb3f22be5707e}
+
+\item 
+\hyperlink{class_magnum_1_1_vector4}{Vector4} {\bfseries Get\+Row} (int i\+Row) const \hypertarget{class_magnum_1_1_matrix4_a4a7262bbb9eee69d446ececacbd78333}{}\label{class_magnum_1_1_matrix4_a4a7262bbb9eee69d446ececacbd78333}
+
+\item 
+void {\bfseries Set\+Column} (int i\+Col, const \hyperlink{class_magnum_1_1_vector4}{Vector4} \&rkV)\hypertarget{class_magnum_1_1_matrix4_ad35623b08bee909fb0bd2eb02ebf73f9}{}\label{class_magnum_1_1_matrix4_ad35623b08bee909fb0bd2eb02ebf73f9}
+
+\item 
+\hyperlink{class_magnum_1_1_vector4}{Vector4} {\bfseries Get\+Column} (int i\+Col) const \hypertarget{class_magnum_1_1_matrix4_a64ea8704f5073e8485747656df9bc2d1}{}\label{class_magnum_1_1_matrix4_a64ea8704f5073e8485747656df9bc2d1}
+
+\item 
+void {\bfseries Get\+Column\+Major} (float $\ast$af\+C\+Major) const \hypertarget{class_magnum_1_1_matrix4_a1f4ff54fb879f9235eeb7e7986a5d1fd}{}\label{class_magnum_1_1_matrix4_a1f4ff54fb879f9235eeb7e7986a5d1fd}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries operator=} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM)\hypertarget{class_magnum_1_1_matrix4_ab72e8a074c71b97edcd41f06d1ef480e}{}\label{class_magnum_1_1_matrix4_ab72e8a074c71b97edcd41f06d1ef480e}
+
+\item 
+bool {\bfseries operator==} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM) const \hypertarget{class_magnum_1_1_matrix4_a1895d2734a4c980c821fc41e25f158e6}{}\label{class_magnum_1_1_matrix4_a1895d2734a4c980c821fc41e25f158e6}
+
+\item 
+bool {\bfseries operator!=} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM) const \hypertarget{class_magnum_1_1_matrix4_a318930659a67f97214f4777e91248d1f}{}\label{class_magnum_1_1_matrix4_a318930659a67f97214f4777e91248d1f}
+
+\item 
+bool {\bfseries operator$<$} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM) const \hypertarget{class_magnum_1_1_matrix4_a55fb8e1b6b81b59437b29f623bdbd224}{}\label{class_magnum_1_1_matrix4_a55fb8e1b6b81b59437b29f623bdbd224}
+
+\item 
+bool {\bfseries operator$<$=} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM) const \hypertarget{class_magnum_1_1_matrix4_a1a75198535a74468f9bc1740287449c0}{}\label{class_magnum_1_1_matrix4_a1a75198535a74468f9bc1740287449c0}
+
+\item 
+bool {\bfseries operator$>$} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM) const \hypertarget{class_magnum_1_1_matrix4_acd91bc96d2c5278eae052b171e55451d}{}\label{class_magnum_1_1_matrix4_acd91bc96d2c5278eae052b171e55451d}
+
+\item 
+bool {\bfseries operator$>$=} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM) const \hypertarget{class_magnum_1_1_matrix4_af8b9937428704a049351bf1bb856ddf2}{}\label{class_magnum_1_1_matrix4_af8b9937428704a049351bf1bb856ddf2}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries operator+} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM) const \hypertarget{class_magnum_1_1_matrix4_a596c640bb8823d661d6140f4c2eee122}{}\label{class_magnum_1_1_matrix4_a596c640bb8823d661d6140f4c2eee122}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries operator-\/} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM) const \hypertarget{class_magnum_1_1_matrix4_a9391528b654468d041077b7a0738b77a}{}\label{class_magnum_1_1_matrix4_a9391528b654468d041077b7a0738b77a}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries operator$\ast$} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM) const \hypertarget{class_magnum_1_1_matrix4_a951bef7fe1b016f7ad58e9d57c9e9655}{}\label{class_magnum_1_1_matrix4_a951bef7fe1b016f7ad58e9d57c9e9655}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries operator$\ast$} (float f\+Scalar) const \hypertarget{class_magnum_1_1_matrix4_ace255f7d912d841c6a959540504c51ac}{}\label{class_magnum_1_1_matrix4_ace255f7d912d841c6a959540504c51ac}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries operator/} (float f\+Scalar) const \hypertarget{class_magnum_1_1_matrix4_a33ecccac15ee019d7d7fe5b84d7b08a4}{}\label{class_magnum_1_1_matrix4_a33ecccac15ee019d7d7fe5b84d7b08a4}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries operator-\/} () const \hypertarget{class_magnum_1_1_matrix4_a57f7bcf60562ef1cc6ad08a661015b7c}{}\label{class_magnum_1_1_matrix4_a57f7bcf60562ef1cc6ad08a661015b7c}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries operator+=} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM)\hypertarget{class_magnum_1_1_matrix4_af2bdda40347806b155cd48c174fd0b45}{}\label{class_magnum_1_1_matrix4_af2bdda40347806b155cd48c174fd0b45}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries operator-\/=} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM)\hypertarget{class_magnum_1_1_matrix4_a6f46a5f42197d0bef00b45daca77144b}{}\label{class_magnum_1_1_matrix4_a6f46a5f42197d0bef00b45daca77144b}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries operator$\ast$=} (float f\+Scalar)\hypertarget{class_magnum_1_1_matrix4_aeaeb55ed937028af54b68233a55cdd98}{}\label{class_magnum_1_1_matrix4_aeaeb55ed937028af54b68233a55cdd98}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries operator/=} (float f\+Scalar)\hypertarget{class_magnum_1_1_matrix4_af7c213fe9a076377e62ddd43897d94d9}{}\label{class_magnum_1_1_matrix4_af7c213fe9a076377e62ddd43897d94d9}
+
+\item 
+\hyperlink{class_magnum_1_1_vector4}{Vector4} {\bfseries operator$\ast$} (const \hyperlink{class_magnum_1_1_vector4}{Vector4} \&rkV) const \hypertarget{class_magnum_1_1_matrix4_a78c81080cbe24362a4aa8f6dc75354fa}{}\label{class_magnum_1_1_matrix4_a78c81080cbe24362a4aa8f6dc75354fa}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries operator$\ast$} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&rkV) const \hypertarget{class_magnum_1_1_matrix4_ac3a43a3d5495a694001244b2e25e306b}{}\label{class_magnum_1_1_matrix4_ac3a43a3d5495a694001244b2e25e306b}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Times\+Position\+Vector} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&rkV) const \hypertarget{class_magnum_1_1_matrix4_abb9aebd961a7112ba726a738a8a6dfc1}{}\label{class_magnum_1_1_matrix4_abb9aebd961a7112ba726a738a8a6dfc1}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Times\+Direction\+Vector} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&rkV) const \hypertarget{class_magnum_1_1_matrix4_abe60305d059b01bd482def7052a3c741}{}\label{class_magnum_1_1_matrix4_abe60305d059b01bd482def7052a3c741}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries Transpose} () const \hypertarget{class_magnum_1_1_matrix4_a9ce6921bf72832ec72b9a5252507f802}{}\label{class_magnum_1_1_matrix4_a9ce6921bf72832ec72b9a5252507f802}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries Transpose\+Times} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM) const \hypertarget{class_magnum_1_1_matrix4_a04b0a88cc6bb3bfeaf93679475ff4eb9}{}\label{class_magnum_1_1_matrix4_a04b0a88cc6bb3bfeaf93679475ff4eb9}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries Times\+Transpose} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&rkM) const \hypertarget{class_magnum_1_1_matrix4_a72fa72a5e2547df9820400b94ba43c25}{}\label{class_magnum_1_1_matrix4_a72fa72a5e2547df9820400b94ba43c25}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries Inverse} () const \hypertarget{class_magnum_1_1_matrix4_a4f3281840519451dfac286f69a04e1ba}{}\label{class_magnum_1_1_matrix4_a4f3281840519451dfac286f69a04e1ba}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries Adjoint} () const \hypertarget{class_magnum_1_1_matrix4_a836971803f020fe9cb250826af2a68f2}{}\label{class_magnum_1_1_matrix4_a836971803f020fe9cb250826af2a68f2}
+
+\item 
+float {\bfseries Determinant} () const \hypertarget{class_magnum_1_1_matrix4_a341cc74b1f7c47d55646aadaeff4de38}{}\label{class_magnum_1_1_matrix4_a341cc74b1f7c47d55646aadaeff4de38}
+
+\item 
+float {\bfseries Q\+Form} (const \hyperlink{class_magnum_1_1_vector4}{Vector4} \&rkU, const \hyperlink{class_magnum_1_1_vector4}{Vector4} \&rkV) const \hypertarget{class_magnum_1_1_matrix4_a99ec5ea725aec8ba4dde74b1d984b13f}{}\label{class_magnum_1_1_matrix4_a99ec5ea725aec8ba4dde74b1d984b13f}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries From\+Euler\+Angles\+X\+YZ} (float f\+Y\+Angle, float f\+P\+Angle, float f\+R\+Angle)\hypertarget{class_magnum_1_1_matrix4_a2b811ae8a9c103a213326e1e64672d24}{}\label{class_magnum_1_1_matrix4_a2b811ae8a9c103a213326e1e64672d24}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries From\+Euler\+Angles\+X\+ZY} (float f\+Y\+Angle, float f\+P\+Angle, float f\+R\+Angle)\hypertarget{class_magnum_1_1_matrix4_ab696474e2545f9ca7b15d68a833d56fa}{}\label{class_magnum_1_1_matrix4_ab696474e2545f9ca7b15d68a833d56fa}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries From\+Euler\+Angles\+Y\+XZ} (float f\+Y\+Angle, float f\+P\+Angle, float f\+R\+Angle)\hypertarget{class_magnum_1_1_matrix4_ab2ada8981b89b0cf64e0e7721d47aa9e}{}\label{class_magnum_1_1_matrix4_ab2ada8981b89b0cf64e0e7721d47aa9e}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries From\+Euler\+Angles\+Y\+ZX} (float f\+Y\+Angle, float f\+P\+Angle, float f\+R\+Angle)\hypertarget{class_magnum_1_1_matrix4_a6769cea7981a4b03bae6dc870401c7f2}{}\label{class_magnum_1_1_matrix4_a6769cea7981a4b03bae6dc870401c7f2}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries From\+Euler\+Angles\+Z\+XY} (float f\+Y\+Angle, float f\+P\+Angle, float f\+R\+Angle)\hypertarget{class_magnum_1_1_matrix4_abf22c094184a056bdf83c85238cd429a}{}\label{class_magnum_1_1_matrix4_abf22c094184a056bdf83c85238cd429a}
+
+\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& {\bfseries From\+Euler\+Angles\+Z\+YX} (float f\+Y\+Angle, float f\+P\+Angle, float f\+R\+Angle)\hypertarget{class_magnum_1_1_matrix4_a07090401f6c515b925399c259b71183b}{}\label{class_magnum_1_1_matrix4_a07090401f6c515b925399c259b71183b}
+
+\item 
+bool {\bfseries To\+Euler\+Angles\+X\+YZ} (float \&rf\+Y\+Angle, float \&rf\+P\+Angle, float \&rf\+R\+Angle) const \hypertarget{class_magnum_1_1_matrix4_ac5f051b68d33eb88c7657c5525089962}{}\label{class_magnum_1_1_matrix4_ac5f051b68d33eb88c7657c5525089962}
+
+\item 
+bool {\bfseries To\+Euler\+Angles\+X\+ZY} (float \&rf\+Y\+Angle, float \&rf\+P\+Angle, float \&rf\+R\+Angle) const \hypertarget{class_magnum_1_1_matrix4_a52358a67ff4c6a29d705a6c51aa125e1}{}\label{class_magnum_1_1_matrix4_a52358a67ff4c6a29d705a6c51aa125e1}
+
+\item 
+bool {\bfseries To\+Euler\+Angles\+Y\+XZ} (float \&rf\+Y\+Angle, float \&rf\+P\+Angle, float \&rf\+R\+Angle) const \hypertarget{class_magnum_1_1_matrix4_aa420cd2a91484f166562ad207889d320}{}\label{class_magnum_1_1_matrix4_aa420cd2a91484f166562ad207889d320}
+
+\item 
+bool {\bfseries To\+Euler\+Angles\+Y\+ZX} (float \&rf\+Y\+Angle, float \&rf\+P\+Angle, float \&rf\+R\+Angle) const \hypertarget{class_magnum_1_1_matrix4_aed734e6432be26a67eeed45f7719bc3c}{}\label{class_magnum_1_1_matrix4_aed734e6432be26a67eeed45f7719bc3c}
+
+\item 
+bool {\bfseries To\+Euler\+Angles\+Z\+XY} (float \&rf\+Y\+Angle, float \&rf\+P\+Angle, float \&rf\+R\+Angle) const \hypertarget{class_magnum_1_1_matrix4_ac2e7d3aaf03386a1d659728a5452a09b}{}\label{class_magnum_1_1_matrix4_ac2e7d3aaf03386a1d659728a5452a09b}
+
+\item 
+bool {\bfseries To\+Euler\+Angles\+Z\+YX} (float \&rf\+Y\+Angle, float \&rf\+P\+Angle, float \&rf\+R\+Angle) const \hypertarget{class_magnum_1_1_matrix4_aba5b2e72ed288640b742bb015811df87}{}\label{class_magnum_1_1_matrix4_aba5b2e72ed288640b742bb015811df87}
+
+\item 
+void {\bfseries From\+S\+RT} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&s, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&r, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&t)\hypertarget{class_magnum_1_1_matrix4_a87b8546e10d6885b8bb7eb373549a870}{}\label{class_magnum_1_1_matrix4_a87b8546e10d6885b8bb7eb373549a870}
+
+\item 
+void {\bfseries To\+S\+RT} (\hyperlink{class_magnum_1_1_vector3}{Vector3} \&s, \hyperlink{class_magnum_1_1_vector3}{Vector3} \&r, \hyperlink{class_magnum_1_1_vector3}{Vector3} \&t) const \hypertarget{class_magnum_1_1_matrix4_af3c33a1a568cfb1e33e39a83c02b1ac1}{}\label{class_magnum_1_1_matrix4_af3c33a1a568cfb1e33e39a83c02b1ac1}
+
+\item 
+void {\bfseries read} (\hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_magnum_1_1_matrix4_aa02a6219594ef7c2b74971de8e4443f6}{}\label{class_magnum_1_1_matrix4_aa02a6219594ef7c2b74971de8e4443f6}
+
+\item 
+void {\bfseries write} (\hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_magnum_1_1_matrix4_ae08c1f9c8c00ea850fef62ecc57af955}{}\label{class_magnum_1_1_matrix4_ae08c1f9c8c00ea850fef62ecc57af955}
+
+\end{DoxyCompactItemize}
+\subsection*{靜態公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+static const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries Z\+E\+RO}\hypertarget{class_magnum_1_1_matrix4_ab3067f8422c53a0d46ddd196f8eb0f1c}{}\label{class_magnum_1_1_matrix4_ab3067f8422c53a0d46ddd196f8eb0f1c}
+
+\item 
+static const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} {\bfseries I\+D\+E\+N\+T\+I\+TY}\hypertarget{class_magnum_1_1_matrix4_af1a8bbab0eb73a6c499b16385ad6d75d}{}\label{class_magnum_1_1_matrix4_af1a8bbab0eb73a6c499b16385ad6d75d}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Matrix4.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Matrix4.\+cpp\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Matrix4.\+inl\end{DoxyCompactItemize}

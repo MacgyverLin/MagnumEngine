@@ -1,0 +1,770 @@
+\hypertarget{class_i_dream_sky_1_1_key_value_pairs}{}\section{I\+Dream\+Sky\+:\+:Key\+Value\+Pairs 類別 參考文件}
+\label{class_i_dream_sky_1_1_key_value_pairs}\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a58bfd40015fc806fd3835c50b75ed179}{Type} \{ \\*
+{\bfseries N\+O\+NE}, 
+{\bfseries S\+T\+R\+I\+NG}, 
+{\bfseries N\+U\+M\+B\+ER}, 
+{\bfseries V\+E\+C\+T\+O\+R2}, 
+\\*
+{\bfseries V\+E\+C\+T\+O\+R3}, 
+{\bfseries V\+E\+C\+T\+O\+R4}, 
+{\bfseries M\+A\+T\+R\+I\+X3}, 
+{\bfseries M\+A\+T\+R\+I\+X4}
+ \}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a58bfd40015fc806fd3835c50b75ed179}{}\label{class_i_dream_sky_1_1_key_value_pairs_a58bfd40015fc806fd3835c50b75ed179}
+\begin{DoxyCompactList}\small\item\em Data types supported by the properties class. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_key_value_pairs_ac93689fe5daef2cb4bb6483773afcda5}{$\sim$\+Key\+Value\+Pairs} ()\hypertarget{class_i_dream_sky_1_1_key_value_pairs_ac93689fe5daef2cb4bb6483773afcda5}{}\label{class_i_dream_sky_1_1_key_value_pairs_ac93689fe5daef2cb4bb6483773afcda5}
+
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a27b208b167c0c7c45f22b8f38b34a116}{get\+Next\+Property} ()
+\begin{DoxyCompactList}\small\item\em Get the name of the next property. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_key_value_pairs}{Key\+Value\+Pairs} $\ast$ \hyperlink{class_i_dream_sky_1_1_key_value_pairs_abfb1c165f165bf9ff0fee62d252b38f1}{get\+Next\+Namespace} ()\hypertarget{class_i_dream_sky_1_1_key_value_pairs_abfb1c165f165bf9ff0fee62d252b38f1}{}\label{class_i_dream_sky_1_1_key_value_pairs_abfb1c165f165bf9ff0fee62d252b38f1}
+
+\begin{DoxyCompactList}\small\item\em Get the next namespace. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a9fcddec93fdeb506d5eafc96a01e10fc}{rewind} ()\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a9fcddec93fdeb506d5eafc96a01e10fc}{}\label{class_i_dream_sky_1_1_key_value_pairs_a9fcddec93fdeb506d5eafc96a01e10fc}
+
+\begin{DoxyCompactList}\small\item\em Rewind the \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a27b208b167c0c7c45f22b8f38b34a116}{get\+Next\+Property()} and \hyperlink{class_i_dream_sky_1_1_key_value_pairs_abfb1c165f165bf9ff0fee62d252b38f1}{get\+Next\+Namespace()} iterators to the beginning of the file. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_key_value_pairs}{Key\+Value\+Pairs} $\ast$ \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a8999585186aefb8bd86516c94ceb6bf7}{get\+Namespace} (const char $\ast$id, bool search\+Names=false, bool recurse=true) const 
+\begin{DoxyCompactList}\small\item\em Get a specific namespace by ID or name. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a52cdab2e216fc3b1450c629c325193df}{get\+Namespace} () const 
+\begin{DoxyCompactList}\small\item\em Get the name of this Property\textquotesingle{}s namespace. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a9d64d0e8159d647d2590db2e313cbac9}{get\+Id} () const 
+\begin{DoxyCompactList}\small\item\em Get the ID of this Property\textquotesingle{}s namespace. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_ae1d8a4e41ad5c5e9290caf3fb684e1ac}{exists} (const char $\ast$name) const 
+\begin{DoxyCompactList}\small\item\em Check if a property with the given name is specified in this \hyperlink{class_i_dream_sky_1_1_key_value_pairs}{Key\+Value\+Pairs} object. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_key_value_pairs_a58bfd40015fc806fd3835c50b75ed179}{Type} \hyperlink{class_i_dream_sky_1_1_key_value_pairs_ac7b2f095c6c60629b4fd288e4d91fbbe}{get\+Type} (const char $\ast$name=N\+U\+LL) const 
+\begin{DoxyCompactList}\small\item\em Returns the type of a property. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a93d003ece662c4f4cb231d855f64e20d}{get\+String} (const char $\ast$name=N\+U\+LL, const char $\ast$default\+Value=N\+U\+LL) const 
+\begin{DoxyCompactList}\small\item\em Get the value of the given property as a string. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_aa28812b5b1ec5199b4bb856a8c2cb903}{set\+String} (const char $\ast$name, const char $\ast$value)
+\begin{DoxyCompactList}\small\item\em Sets the value of the property with the specified name. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a37a28ad2cea38770b2dcd326ff104594}{get\+Bool} (const char $\ast$name=N\+U\+LL, bool default\+Value=false) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as a boolean. \end{DoxyCompactList}\item 
+int \hyperlink{class_i_dream_sky_1_1_key_value_pairs_adbd43ef0a19fbbbea5346ad21d110a75}{get\+Int} (const char $\ast$name=N\+U\+LL) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as an integer. \end{DoxyCompactList}\item 
+float \hyperlink{class_i_dream_sky_1_1_key_value_pairs_ac9afd08c687b02afd7d745d126528bd1}{get\+Float} (const char $\ast$name=N\+U\+LL) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as a floating-\/point number. \end{DoxyCompactList}\item 
+long \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a998c2a98a559dbfe44d60970f5107e30}{get\+Long} (const char $\ast$name=N\+U\+LL) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as a long integer. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a1875267e815563e0b174ac64b1f7af4c}{get\+Matrix3} (const char $\ast$name, \hyperlink{class_i_dream_sky_1_1_matrix3}{Matrix3} $\ast$out) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as a Matrix. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a9b098803c46bfeb1c350d83bd0ecc64f}{get\+Matrix4} (const char $\ast$name, \hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} $\ast$out) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as a Matrix. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a2546be8e374f1776394ba79b9a75965e}{get\+Vector2} (const char $\ast$name, \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} $\ast$out) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as a \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a82975cd03f56b99980347c02266889a9}{get\+Vector3} (const char $\ast$name, \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} $\ast$out) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as a \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_aa47ea3ccd89e858fef1e0775bad25d40}{get\+Vector4} (const char $\ast$name, \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4} $\ast$out) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as a \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a04430ffbbe4489521d042e2a34cd6077}{get\+Quaternion\+From\+Axis\+Angle} (const char $\ast$name, \hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion} $\ast$out) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as a \hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion} specified as an axis angle. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_ad54e68bed44956b71f165aea3b1bd9d0}{get\+Color} (const char $\ast$name, \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} $\ast$out) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as an R\+GB color in hex and write this color to a \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a3952197b070d4d96f043e5d652525c06}{get\+Color} (const char $\ast$name, \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4} $\ast$out) const 
+\begin{DoxyCompactList}\small\item\em Interpret the value of the given property as an R\+G\+BA color in hex and write this color to a \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a048353f33da9f6d2b78c63bc3a20ce51}{get\+Path} (const char $\ast$name, std\+::string $\ast$path) const 
+\begin{DoxyCompactList}\small\item\em Gets the file path for the given property if the file exists. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a214e9b3cd15a4a9d0b81819c64c5636e}{get\+Variable} (const char $\ast$name, const char $\ast$default\+Value=N\+U\+LL) const 
+\begin{DoxyCompactList}\small\item\em Returns the value of a variable that is set in this \hyperlink{class_i_dream_sky_1_1_key_value_pairs}{Key\+Value\+Pairs} object. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a82da83815362b6432b19af8b61e4bc26}{set\+Variable} (const char $\ast$name, const char $\ast$value)
+\begin{DoxyCompactList}\small\item\em Sets the value of the specified variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_i_dream_sky_1_1_key_value_pairs}{Key\+Value\+Pairs} $\ast$ \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a6ac99641f6d730b5a80934abe6077ad0}{create} (const std\+::string \&url)
+\begin{DoxyCompactList}\small\item\em Creates a \hyperlink{class_i_dream_sky_1_1_key_value_pairs}{Key\+Value\+Pairs} runtime settings from the specified U\+RL, where the U\+RL is of the format \char`\"{}$<$file-\/path$>$.$<$extension$>$\#$<$namespace-\/id$>$/$<$namespace-\/id$>$/.../$<$namespace-\/id$>$\char`\"{} (and \char`\"{}\#$<$namespace-\/id$>$/$<$namespace-\/id$>$/.../$<$namespace-\/id$>$\char`\"{} is optional). \end{DoxyCompactList}\item 
+static bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a45f1bca8fca83de948d2fc663084b4b3}{parse\+Vector2} (const char $\ast$str, \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} $\ast$out)
+\begin{DoxyCompactList}\small\item\em Attempts to parse the specified string as a \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} value. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a0d290c8ffbc8e7d4ab585eecc4b5b850}{parse\+Vector3} (const char $\ast$str, \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} $\ast$out)
+\begin{DoxyCompactList}\small\item\em Attempts to parse the specified string as a \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} value. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a4d02aaafbb0e74914fbb6ff8b8777397}{parse\+Vector4} (const char $\ast$str, \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4} $\ast$out)
+\begin{DoxyCompactList}\small\item\em Attempts to parse the specified string as a \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4} value. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_ab0ec02d5d4f5457f44091e6639ec5fb9}{parse\+Axis\+Angle} (const char $\ast$str, \hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion} $\ast$out)
+\begin{DoxyCompactList}\small\item\em Attempts to parse the specified string as an axis-\/angle value. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a0257c22fccc3ea28f85f51319256c37b}{parse\+Color} (const char $\ast$str, \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} $\ast$out)
+\begin{DoxyCompactList}\small\item\em Attempts to parse the specified string as an R\+GB color value. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_i_dream_sky_1_1_key_value_pairs_a7ae944254fb5563005dbd6fcf393cfe9}{parse\+Color} (const char $\ast$str, \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4} $\ast$out)
+\begin{DoxyCompactList}\small\item\em Attempts to parse the specified string as an R\+G\+BA color value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Game}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_aa2fab026580d6f14280c2ffb8063a314}{}\label{class_i_dream_sky_1_1_key_value_pairs_aa2fab026580d6f14280c2ffb8063a314}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!create@{create}}
+\index{create@{create}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{create(const std\+::string \&url)}{create(const std::string &url)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Key\+Value\+Pairs} $\ast$ I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::create (
+\begin{DoxyParamCaption}
+\item[{const std\+::string \&}]{url}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a6ac99641f6d730b5a80934abe6077ad0}{}\label{class_i_dream_sky_1_1_key_value_pairs_a6ac99641f6d730b5a80934abe6077ad0}
+
+
+Creates a \hyperlink{class_i_dream_sky_1_1_key_value_pairs}{Key\+Value\+Pairs} runtime settings from the specified U\+RL, where the U\+RL is of the format \char`\"{}$<$file-\/path$>$.$<$extension$>$\#$<$namespace-\/id$>$/$<$namespace-\/id$>$/.../$<$namespace-\/id$>$\char`\"{} (and \char`\"{}\#$<$namespace-\/id$>$/$<$namespace-\/id$>$/.../$<$namespace-\/id$>$\char`\"{} is optional). 
+
+
+\begin{DoxyParams}{參數}
+{\em url} & The U\+RL to create the properties from.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+The created \hyperlink{class_i_dream_sky_1_1_key_value_pairs}{Key\+Value\+Pairs} or N\+U\+LL if there was an error. \{create\} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!exists@{exists}}
+\index{exists@{exists}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{exists(const char $\ast$name) const }{exists(const char *name) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::exists (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_ae1d8a4e41ad5c5e9290caf3fb684e1ac}{}\label{class_i_dream_sky_1_1_key_value_pairs_ae1d8a4e41ad5c5e9290caf3fb684e1ac}
+
+
+Check if a property with the given name is specified in this \hyperlink{class_i_dream_sky_1_1_key_value_pairs}{Key\+Value\+Pairs} object. 
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to query.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True if the property exists, false otherwise. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Bool@{get\+Bool}}
+\index{get\+Bool@{get\+Bool}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Bool(const char $\ast$name=\+N\+U\+L\+L, bool default\+Value=false) const }{getBool(const char *name=NULL, bool defaultValue=false) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Bool (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name = {\ttfamily NULL}, }
+\item[{bool}]{default\+Value = {\ttfamily false}}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a37a28ad2cea38770b2dcd326ff104594}{}\label{class_i_dream_sky_1_1_key_value_pairs_a37a28ad2cea38770b2dcd326ff104594}
+
+
+Interpret the value of the given property as a boolean. 
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value. \\
+\hline
+{\em default\+Value} & the default value to return if the specified property does not exist within the properties file.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if the property exists and its value is \char`\"{}true\char`\"{}, otherwise false. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Color@{get\+Color}}
+\index{get\+Color@{get\+Color}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Color(const char $\ast$name, Vector3 $\ast$out) const }{getColor(const char *name, Vector3 *out) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Color (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{{\bf Vector3} $\ast$}]{out}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_ad54e68bed44956b71f165aea3b1bd9d0}{}\label{class_i_dream_sky_1_1_key_value_pairs_ad54e68bed44956b71f165aea3b1bd9d0}
+
+
+Interpret the value of the given property as an R\+GB color in hex and write this color to a \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}. 
+
+E.\+g. 0xff0000 represents red and sets the vector to (1, 0, 0). If the property does not exist, out will be set to \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}(0.\+0f, 0.\+0f, 0.\+0f). If the property exists but could not be scanned, an error will be logged and out will be set to \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}(0.\+0f, 0.\+0f, 0.\+0f).
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value. \\
+\hline
+{\em out} & The vector to set to this property\textquotesingle{}s interpreted value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True on success, false if the property does not exist or could not be scanned. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Color@{get\+Color}}
+\index{get\+Color@{get\+Color}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Color(const char $\ast$name, Vector4 $\ast$out) const }{getColor(const char *name, Vector4 *out) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Color (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{{\bf Vector4} $\ast$}]{out}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a3952197b070d4d96f043e5d652525c06}{}\label{class_i_dream_sky_1_1_key_value_pairs_a3952197b070d4d96f043e5d652525c06}
+
+
+Interpret the value of the given property as an R\+G\+BA color in hex and write this color to a \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4}. 
+
+E.\+g. 0xff0000ff represents opaque red and sets the vector to (1, 0, 0, 1). If the property does not exist, out will be set to \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4}(0.\+0f, 0.\+0f, 0.\+0f, 0.\+0f). If the property exists but could not be scanned, an error will be logged and out will be set to \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4}(0.\+0f, 0.\+0f, 0.\+0f, 0.\+0f).
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value. \\
+\hline
+{\em out} & The vector to set to this property\textquotesingle{}s interpreted value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True on success, false if the property does not exist or could not be scanned. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Float@{get\+Float}}
+\index{get\+Float@{get\+Float}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Float(const char $\ast$name=\+N\+U\+L\+L) const }{getFloat(const char *name=NULL) const }}]{\setlength{\rightskip}{0pt plus 5cm}float I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Float (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_ac9afd08c687b02afd7d745d126528bd1}{}\label{class_i_dream_sky_1_1_key_value_pairs_ac9afd08c687b02afd7d745d126528bd1}
+
+
+Interpret the value of the given property as a floating-\/point number. 
+
+If the property does not exist, zero will be returned. If the property exists but could not be scanned, an error will be logged and zero will be returned.
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+The value of the given property interpreted as a float. Zero if the property does not exist or could not be scanned. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Id@{get\+Id}}
+\index{get\+Id@{get\+Id}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Id() const }{getId() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a9d64d0e8159d647d2590db2e313cbac9}{}\label{class_i_dream_sky_1_1_key_value_pairs_a9d64d0e8159d647d2590db2e313cbac9}
+
+
+Get the ID of this Property\textquotesingle{}s namespace. 
+
+The ID should be a unique identifier, but its uniqueness is not enforced.
+
+\begin{DoxyReturn}{傳回值}
+The ID of this Property\textquotesingle{}s namespace. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Int@{get\+Int}}
+\index{get\+Int@{get\+Int}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Int(const char $\ast$name=\+N\+U\+L\+L) const }{getInt(const char *name=NULL) const }}]{\setlength{\rightskip}{0pt plus 5cm}int I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Int (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_adbd43ef0a19fbbbea5346ad21d110a75}{}\label{class_i_dream_sky_1_1_key_value_pairs_adbd43ef0a19fbbbea5346ad21d110a75}
+
+
+Interpret the value of the given property as an integer. 
+
+If the property does not exist, zero will be returned. If the property exists but could not be scanned, an error will be logged and zero will be returned.
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+The value of the given property interpreted as an integer. Zero if the property does not exist or could not be scanned. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Long@{get\+Long}}
+\index{get\+Long@{get\+Long}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Long(const char $\ast$name=\+N\+U\+L\+L) const }{getLong(const char *name=NULL) const }}]{\setlength{\rightskip}{0pt plus 5cm}long I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Long (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a998c2a98a559dbfe44d60970f5107e30}{}\label{class_i_dream_sky_1_1_key_value_pairs_a998c2a98a559dbfe44d60970f5107e30}
+
+
+Interpret the value of the given property as a long integer. 
+
+If the property does not exist, zero will be returned. If the property exists but could not be scanned, an error will be logged and zero will be returned.
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+The value of the given property interpreted as a long. Zero if the property does not exist or could not be scanned. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Matrix3@{get\+Matrix3}}
+\index{get\+Matrix3@{get\+Matrix3}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Matrix3(const char $\ast$name, Matrix3 $\ast$out) const }{getMatrix3(const char *name, Matrix3 *out) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Matrix3 (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{{\bf Matrix3} $\ast$}]{out}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a1875267e815563e0b174ac64b1f7af4c}{}\label{class_i_dream_sky_1_1_key_value_pairs_a1875267e815563e0b174ac64b1f7af4c}
+
+
+Interpret the value of the given property as a Matrix. 
+
+If the property does not exist, out will be set to the identity matrix. If the property exists but could not be scanned, an error will be logged and out will be set to the identity matrix.
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value. \\
+\hline
+{\em out} & The matrix to set to this property\textquotesingle{}s interpreted value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True on success, false if the property does not exist or could not be scanned. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Matrix4@{get\+Matrix4}}
+\index{get\+Matrix4@{get\+Matrix4}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Matrix4(const char $\ast$name, Matrix4 $\ast$out) const }{getMatrix4(const char *name, Matrix4 *out) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Matrix4 (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{{\bf Matrix4} $\ast$}]{out}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a9b098803c46bfeb1c350d83bd0ecc64f}{}\label{class_i_dream_sky_1_1_key_value_pairs_a9b098803c46bfeb1c350d83bd0ecc64f}
+
+
+Interpret the value of the given property as a Matrix. 
+
+If the property does not exist, out will be set to the identity matrix. If the property exists but could not be scanned, an error will be logged and out will be set to the identity matrix.
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value. \\
+\hline
+{\em out} & The matrix to set to this property\textquotesingle{}s interpreted value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True on success, false if the property does not exist or could not be scanned. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Namespace@{get\+Namespace}}
+\index{get\+Namespace@{get\+Namespace}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Namespace(const char $\ast$id, bool search\+Names=false, bool recurse=true) const }{getNamespace(const char *id, bool searchNames=false, bool recurse=true) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Key\+Value\+Pairs} $\ast$ I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Namespace (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{id, }
+\item[{bool}]{search\+Names = {\ttfamily false}, }
+\item[{bool}]{recurse = {\ttfamily true}}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a8999585186aefb8bd86516c94ceb6bf7}{}\label{class_i_dream_sky_1_1_key_value_pairs_a8999585186aefb8bd86516c94ceb6bf7}
+
+
+Get a specific namespace by ID or name. 
+
+This method will optionally perform a depth-\/first search on all namespaces and inner namespaces within this Property.
+
+
+\begin{DoxyParams}{參數}
+{\em id} & The ID or name of the namespace to find. \\
+\hline
+{\em search\+Names} & If true, namespace names are used in the search, instead of namespace I\+Ds. By default this parameter is false and namespace I\+Ds are searched. \\
+\hline
+{\em recurse} & If true, perform a depth-\/first search, otherwise search only the immediate child namespaces.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+A properties object with the given ID or name. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Namespace@{get\+Namespace}}
+\index{get\+Namespace@{get\+Namespace}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Namespace() const }{getNamespace() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Namespace (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a52cdab2e216fc3b1450c629c325193df}{}\label{class_i_dream_sky_1_1_key_value_pairs_a52cdab2e216fc3b1450c629c325193df}
+
+
+Get the name of this Property\textquotesingle{}s namespace. 
+
+\begin{DoxyReturn}{傳回值}
+The name of this Property\textquotesingle{}s namespace. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Next\+Property@{get\+Next\+Property}}
+\index{get\+Next\+Property@{get\+Next\+Property}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Next\+Property()}{getNextProperty()}}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Next\+Property (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a27b208b167c0c7c45f22b8f38b34a116}{}\label{class_i_dream_sky_1_1_key_value_pairs_a27b208b167c0c7c45f22b8f38b34a116}
+
+
+Get the name of the next property. 
+
+If a valid next property is returned, the value of the property can be retrieved using any of the get methods in this class, passing N\+U\+LL for the property name. \begin{DoxyVerb}   @return The name of the next property, or NULL if there are no properties remaining.\end{DoxyVerb}
+ \index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Path@{get\+Path}}
+\index{get\+Path@{get\+Path}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Path(const char $\ast$name, std\+::string $\ast$path) const }{getPath(const char *name, std::string *path) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Path (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{std\+::string $\ast$}]{path}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a048353f33da9f6d2b78c63bc3a20ce51}{}\label{class_i_dream_sky_1_1_key_value_pairs_a048353f33da9f6d2b78c63bc3a20ce51}
+
+
+Gets the file path for the given property if the file exists. 
+
+This method will first search for the file relative to the working directory. If the file is not found then it will search relative to the directory the bundle file is in.
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property. \\
+\hline
+{\em path} & The string to copy the path to if the file exists.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True if the property exists and the file exists, false otherwise.
+\end{DoxyReturn}
+\{ignore\} \index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Quaternion\+From\+Axis\+Angle@{get\+Quaternion\+From\+Axis\+Angle}}
+\index{get\+Quaternion\+From\+Axis\+Angle@{get\+Quaternion\+From\+Axis\+Angle}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Quaternion\+From\+Axis\+Angle(const char $\ast$name, Quaternion $\ast$out) const }{getQuaternionFromAxisAngle(const char *name, Quaternion *out) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Quaternion\+From\+Axis\+Angle (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{{\bf Quaternion} $\ast$}]{out}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a04430ffbbe4489521d042e2a34cd6077}{}\label{class_i_dream_sky_1_1_key_value_pairs_a04430ffbbe4489521d042e2a34cd6077}
+
+
+Interpret the value of the given property as a \hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion} specified as an axis angle. 
+
+If the property does not exist, out will be set to Quaternion(). If the property exists but could not be scanned, an error will be logged and out will be set to Quaternion().
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value. \\
+\hline
+{\em out} & The quaternion to set to this property\textquotesingle{}s interpreted value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True on success, false if the property does not exist or could not be scanned. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+String@{get\+String}}
+\index{get\+String@{get\+String}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+String(const char $\ast$name=\+N\+U\+L\+L, const char $\ast$default\+Value=\+N\+U\+L\+L) const }{getString(const char *name=NULL, const char *defaultValue=NULL) const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+String (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name = {\ttfamily NULL}, }
+\item[{const char $\ast$}]{default\+Value = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a93d003ece662c4f4cb231d855f64e20d}{}\label{class_i_dream_sky_1_1_key_value_pairs_a93d003ece662c4f4cb231d855f64e20d}
+
+
+Get the value of the given property as a string. 
+
+This can always be retrieved, whatever the intended type of the property.
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value. \\
+\hline
+{\em default\+Value} & The default value to return if the specified property does not exist.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+The value of the given property as a string, or the empty string if no property with that name exists. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Type(const char $\ast$name=\+N\+U\+L\+L) const }{getType(const char *name=NULL) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Key\+Value\+Pairs\+::\+Type} I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Type (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_ac7b2f095c6c60629b4fd288e4d91fbbe}{}\label{class_i_dream_sky_1_1_key_value_pairs_ac7b2f095c6c60629b4fd288e4d91fbbe}
+
+
+Returns the type of a property. 
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s type.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+The type of the property. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Variable@{get\+Variable}}
+\index{get\+Variable@{get\+Variable}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Variable(const char $\ast$name, const char $\ast$default\+Value=\+N\+U\+L\+L) const }{getVariable(const char *name, const char *defaultValue=NULL) const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Variable (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{const char $\ast$}]{default\+Value = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a214e9b3cd15a4a9d0b81819c64c5636e}{}\label{class_i_dream_sky_1_1_key_value_pairs_a214e9b3cd15a4a9d0b81819c64c5636e}
+
+
+Returns the value of a variable that is set in this \hyperlink{class_i_dream_sky_1_1_key_value_pairs}{Key\+Value\+Pairs} object. 
+
+Variables take on the format \$\{name\} and are inherited from parent Property objects.
+
+
+\begin{DoxyParams}{參數}
+{\em name} & Name of the variable to get. \\
+\hline
+{\em default\+Value} & Value to return if the variable is not found.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+The value of the specified variable, or default\+Value if not found. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Vector2@{get\+Vector2}}
+\index{get\+Vector2@{get\+Vector2}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Vector2(const char $\ast$name, Vector2 $\ast$out) const }{getVector2(const char *name, Vector2 *out) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Vector2 (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{{\bf Vector2} $\ast$}]{out}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a2546be8e374f1776394ba79b9a75965e}{}\label{class_i_dream_sky_1_1_key_value_pairs_a2546be8e374f1776394ba79b9a75965e}
+
+
+Interpret the value of the given property as a \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2}. 
+
+If the property does not exist, out will be set to \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2}(0.\+0f, 0.\+0f). If the property exists but could not be scanned, an error will be logged and out will be set to \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2}(0.\+0f, 0.\+0f).
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value. \\
+\hline
+{\em out} & The vector to set to this property\textquotesingle{}s interpreted value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True on success, false if the property does not exist or could not be scanned. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Vector3@{get\+Vector3}}
+\index{get\+Vector3@{get\+Vector3}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Vector3(const char $\ast$name, Vector3 $\ast$out) const }{getVector3(const char *name, Vector3 *out) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Vector3 (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{{\bf Vector3} $\ast$}]{out}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a82975cd03f56b99980347c02266889a9}{}\label{class_i_dream_sky_1_1_key_value_pairs_a82975cd03f56b99980347c02266889a9}
+
+
+Interpret the value of the given property as a \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}. 
+
+If the property does not exist, out will be set to \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}(0.\+0f, 0.\+0f, 0.\+0f). If the property exists but could not be scanned, an error will be logged and out will be set to \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3}(0.\+0f, 0.\+0f, 0.\+0f).
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value. \\
+\hline
+{\em out} & The vector to set to this property\textquotesingle{}s interpreted value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True on success, false if the property does not exist or could not be scanned. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!get\+Vector4@{get\+Vector4}}
+\index{get\+Vector4@{get\+Vector4}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{get\+Vector4(const char $\ast$name, Vector4 $\ast$out) const }{getVector4(const char *name, Vector4 *out) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::get\+Vector4 (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{{\bf Vector4} $\ast$}]{out}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_aa47ea3ccd89e858fef1e0775bad25d40}{}\label{class_i_dream_sky_1_1_key_value_pairs_aa47ea3ccd89e858fef1e0775bad25d40}
+
+
+Interpret the value of the given property as a \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4}. 
+
+If the property does not exist, out will be set to \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4}(0.\+0f, 0.\+0f, 0.\+0f, 0.\+0f). If the property exists but could not be scanned, an error will be logged and out will be set to \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4}(0.\+0f, 0.\+0f, 0.\+0f, 0.\+0f).
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to interpret, or N\+U\+LL to return the current property\textquotesingle{}s value. \\
+\hline
+{\em out} & The vector to set to this property\textquotesingle{}s interpreted value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True on success, false if the property does not exist or could not be scanned. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!parse\+Axis\+Angle@{parse\+Axis\+Angle}}
+\index{parse\+Axis\+Angle@{parse\+Axis\+Angle}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{parse\+Axis\+Angle(const char $\ast$str, Quaternion $\ast$out)}{parseAxisAngle(const char *str, Quaternion *out)}}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::parse\+Axis\+Angle (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{str, }
+\item[{{\bf Quaternion} $\ast$}]{out}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_ab0ec02d5d4f5457f44091e6639ec5fb9}{}\label{class_i_dream_sky_1_1_key_value_pairs_ab0ec02d5d4f5457f44091e6639ec5fb9}
+
+
+Attempts to parse the specified string as an axis-\/angle value. 
+
+The specified string is expected to contain four comma-\/separated values, where the first three values represents the axis and the fourth value represents the angle, in degrees.
+
+On error, false is returned and the output is set to all zero values.
+
+
+\begin{DoxyParams}{參數}
+{\em str} & The string to parse. \\
+\hline
+{\em out} & A \hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion} populated with the orientation of the axis-\/angle, if successful.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True if a valid axis-\/angle was parsed, false otherwise. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!parse\+Color@{parse\+Color}}
+\index{parse\+Color@{parse\+Color}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{parse\+Color(const char $\ast$str, Vector3 $\ast$out)}{parseColor(const char *str, Vector3 *out)}}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::parse\+Color (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{str, }
+\item[{{\bf Vector3} $\ast$}]{out}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a0257c22fccc3ea28f85f51319256c37b}{}\label{class_i_dream_sky_1_1_key_value_pairs_a0257c22fccc3ea28f85f51319256c37b}
+
+
+Attempts to parse the specified string as an R\+GB color value. 
+
+
+\begin{DoxyParams}{參數}
+{\em str} & The string to parse. \\
+\hline
+{\em out} & The value to populate if successful.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True if a valid R\+GB color was parsed, false otherwise. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!parse\+Color@{parse\+Color}}
+\index{parse\+Color@{parse\+Color}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{parse\+Color(const char $\ast$str, Vector4 $\ast$out)}{parseColor(const char *str, Vector4 *out)}}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::parse\+Color (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{str, }
+\item[{{\bf Vector4} $\ast$}]{out}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a7ae944254fb5563005dbd6fcf393cfe9}{}\label{class_i_dream_sky_1_1_key_value_pairs_a7ae944254fb5563005dbd6fcf393cfe9}
+
+
+Attempts to parse the specified string as an R\+G\+BA color value. 
+
+
+\begin{DoxyParams}{參數}
+{\em str} & The string to parse. \\
+\hline
+{\em out} & The value to populate if successful.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True if a valid R\+G\+BA color was parsed, false otherwise. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!parse\+Vector2@{parse\+Vector2}}
+\index{parse\+Vector2@{parse\+Vector2}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{parse\+Vector2(const char $\ast$str, Vector2 $\ast$out)}{parseVector2(const char *str, Vector2 *out)}}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::parse\+Vector2 (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{str, }
+\item[{{\bf Vector2} $\ast$}]{out}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a45f1bca8fca83de948d2fc663084b4b3}{}\label{class_i_dream_sky_1_1_key_value_pairs_a45f1bca8fca83de948d2fc663084b4b3}
+
+
+Attempts to parse the specified string as a \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} value. 
+
+On error, false is returned and the output is set to all zero values.
+
+
+\begin{DoxyParams}{參數}
+{\em str} & The string to parse. \\
+\hline
+{\em out} & The value to populate if successful.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True if a valid \hyperlink{class_i_dream_sky_1_1_vector2}{Vector2} was parsed, false otherwise. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!parse\+Vector3@{parse\+Vector3}}
+\index{parse\+Vector3@{parse\+Vector3}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{parse\+Vector3(const char $\ast$str, Vector3 $\ast$out)}{parseVector3(const char *str, Vector3 *out)}}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::parse\+Vector3 (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{str, }
+\item[{{\bf Vector3} $\ast$}]{out}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a0d290c8ffbc8e7d4ab585eecc4b5b850}{}\label{class_i_dream_sky_1_1_key_value_pairs_a0d290c8ffbc8e7d4ab585eecc4b5b850}
+
+
+Attempts to parse the specified string as a \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} value. 
+
+On error, false is returned and the output is set to all zero values.
+
+
+\begin{DoxyParams}{參數}
+{\em str} & The string to parse. \\
+\hline
+{\em out} & The value to populate if successful.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True if a valid \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} was parsed, false otherwise. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!parse\+Vector4@{parse\+Vector4}}
+\index{parse\+Vector4@{parse\+Vector4}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{parse\+Vector4(const char $\ast$str, Vector4 $\ast$out)}{parseVector4(const char *str, Vector4 *out)}}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::parse\+Vector4 (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{str, }
+\item[{{\bf Vector4} $\ast$}]{out}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a4d02aaafbb0e74914fbb6ff8b8777397}{}\label{class_i_dream_sky_1_1_key_value_pairs_a4d02aaafbb0e74914fbb6ff8b8777397}
+
+
+Attempts to parse the specified string as a \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4} value. 
+
+On error, false is returned and the output is set to all zero values.
+
+
+\begin{DoxyParams}{參數}
+{\em str} & The string to parse. \\
+\hline
+{\em out} & The value to populate if successful.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True if a valid \hyperlink{class_i_dream_sky_1_1_vector4}{Vector4} was parsed, false otherwise. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!set\+String@{set\+String}}
+\index{set\+String@{set\+String}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{set\+String(const char $\ast$name, const char $\ast$value)}{setString(const char *name, const char *value)}}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::set\+String (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{const char $\ast$}]{value}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_aa28812b5b1ec5199b4bb856a8c2cb903}{}\label{class_i_dream_sky_1_1_key_value_pairs_aa28812b5b1ec5199b4bb856a8c2cb903}
+
+
+Sets the value of the property with the specified name. 
+
+If there is no property in this namespace with the current name, one is added. Otherwise, the value of the first property with the specified name is updated.
+
+If name is N\+U\+LL, the value current property (see get\+Next\+Property) is set, unless there is no current property, in which case false is returned.
+
+
+\begin{DoxyParams}{參數}
+{\em name} & The name of the property to set. \\
+\hline
+{\em value} & The property value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+True if the property was set, false otherwise. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}!set\+Variable@{set\+Variable}}
+\index{set\+Variable@{set\+Variable}!I\+Dream\+Sky\+::\+Key\+Value\+Pairs@{I\+Dream\+Sky\+::\+Key\+Value\+Pairs}}
+\subsubsection[{\texorpdfstring{set\+Variable(const char $\ast$name, const char $\ast$value)}{setVariable(const char *name, const char *value)}}]{\setlength{\rightskip}{0pt plus 5cm}void I\+Dream\+Sky\+::\+Key\+Value\+Pairs\+::set\+Variable (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{const char $\ast$}]{value}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_key_value_pairs_a82da83815362b6432b19af8b61e4bc26}{}\label{class_i_dream_sky_1_1_key_value_pairs_a82da83815362b6432b19af8b61e4bc26}
+
+
+Sets the value of the specified variable. 
+
+
+\begin{DoxyParams}{參數}
+{\em name} & Name of the variable to set. \\
+\hline
+{\em value} & The value to set. \\
+\hline
+\end{DoxyParams}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Key\+Value\+Pairs.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Key\+Value\+Pairs.\+cpp\end{DoxyCompactItemize}

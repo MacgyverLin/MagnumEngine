@@ -1,0 +1,7 @@
+<map id="Magnum::BillBoard::setRotationPivot" name="Magnum::BillBoard::setRotationPivot">
+<area shape="rect" id="node2" href="$class_magnum_1_1_frame3.html#a02ef2b5e486c10f94fdf13885c37ebc6" title="Get the Frame3&#39;s global position. " alt="" coords="193,5,380,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_texture2_d_file.html#a8799d191824e368b8bf6a1eeec3ea578" title="construct the texture from a path and allocate texture resource " alt="" coords="207,71,367,112"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_texture2_d_file.html#af4b329a7880543fb2802e44e7f1ba933" title="destruct the texture and release of texture resource " alt="" coords="207,136,367,177"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_resource_access.html#a6da5b8b50b4a52190a0215eedaa1d0e6" title="Increase Reference Count of the resource by 1 This function increase reference count to the resource ..." alt="" coords="428,71,607,112"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_resource_access.html#a5aeaaeb81a37dd6ceac1cc7251a480f5" title="Decrease Reference Count of the resource by 1 This function decrease reference count to the resource..." alt="" coords="428,136,607,177"/>
+</map>

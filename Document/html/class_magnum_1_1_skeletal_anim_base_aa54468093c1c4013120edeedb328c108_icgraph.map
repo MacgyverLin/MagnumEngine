@@ -1,0 +1,4 @@
+<map id="Magnum::SkeletalAnimBase::getNumBones" name="Magnum::SkeletalAnimBase::getNumBones">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_blender.html#a3d2e38f445866341384f1b97368152dc" title="This function initialized the blender with the information of the animation. " alt="" coords="240,5,441,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_blender.html#ab63b9cb4b608b6fdb46b288aea6b8d3a" title="This function add animation as child of this blender. " alt="" coords="240,71,441,112"/>
+</map>

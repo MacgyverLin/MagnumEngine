@@ -1,0 +1,99 @@
+\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node}{}\section{I\+Dream\+Sky\+:\+:Skeletal\+Animation\+Model\+:\+:Node 類別 參考文件}
+\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node}\index{I\+Dream\+Sky\+::\+Skeletal\+Animation\+Model\+::\+Node@{I\+Dream\+Sky\+::\+Skeletal\+Animation\+Model\+::\+Node}}
+類別\+I\+Dream\+Sky\+:\+:Skeletal\+Animation\+Model\+:\+:Node的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=8.750000cm]{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Type} \{ \\*
+{\bfseries Unknown} = 0, 
+{\bfseries Null}, 
+{\bfseries Marker}, 
+{\bfseries Skeleton}, 
+\\*
+{\bfseries Mesh}, 
+{\bfseries Nurbs}, 
+{\bfseries Patch}, 
+{\bfseries Camera}, 
+\\*
+{\bfseries Camera\+Stereo}, 
+{\bfseries Camera\+Switcher}, 
+{\bfseries Light}, 
+{\bfseries Optical\+Reference}, 
+\\*
+{\bfseries Optical\+Marker}, 
+{\bfseries Nurbs\+Curve}, 
+{\bfseries Trim\+Nurbs\+Surface}, 
+{\bfseries Boundary}, 
+\\*
+{\bfseries Nurbs\+Surface}, 
+{\bfseries Shape}, 
+{\bfseries L\+O\+D\+Group}, 
+{\bfseries Sub\+Div}, 
+\\*
+{\bfseries Cached\+Effect}, 
+{\bfseries Line}
+ \}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_ace78de6d902e11aae6079441abfdc657}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_ace78de6d902e11aae6079441abfdc657}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+const char $\ast$ {\bfseries get\+Name} () const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_ae5b12445263d85d8189d4154ccb93d95}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_ae5b12445263d85d8189d4154ccb93d95}
+
+\item 
+int {\bfseries get\+Parent\+Index} () const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a77d06fd159adfd8180f3c66751732f35}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a77d06fd159adfd8180f3c66751732f35}
+
+\item 
+bool {\bfseries is\+Visible} () const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_af3e05d2fb4792c9a16fb6eba58d04b84}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_af3e05d2fb4792c9a16fb6eba58d04b84}
+
+\item 
+Type {\bfseries get\+Type} () const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_ac0fc46ae1ef59bcde410ff54c5cc7e96}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_ac0fc46ae1ef59bcde410ff54c5cc7e96}
+
+\item 
+const \hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \& {\bfseries get\+Local\+Transform} () const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a3076cef596d7fee3f808c04aaf7006fa}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a3076cef596d7fee3f808c04aaf7006fa}
+
+\item 
+void {\bfseries read} (\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_af15c07759c55462fa2469fdaf3714daa}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_af15c07759c55462fa2469fdaf3714daa}
+
+\item 
+void {\bfseries write} (\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_aeac4c6bb9447fc7dd85c73a8ed18b88c}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_aeac4c6bb9447fc7dd85c73a8ed18b88c}
+
+\item 
+void {\bfseries debug\+Print} (int tab\+Count) const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a850f84a7e6941c0e3de6a043ce955e03}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a850f84a7e6941c0e3de6a043ce955e03}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Skeleton\+Parser}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a14bd27cfabbcaeaa0eccce0e2968a6a1}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a14bd27cfabbcaeaa0eccce0e2968a6a1}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Mesh\+Parser}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a85398ce1e5e5023cd13165515f7cfbfa}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a85398ce1e5e5023cd13165515f7cfbfa}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Animation\+Parser}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_ade6e25226df119aaa0de3f45d908a551}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_ade6e25226df119aaa0de3f45d908a551}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Parser\+Base}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a11930f7450c30641e8526b073100f760}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a11930f7450c30641e8526b073100f760}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Parser}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a472cd974e223ab8bf1063fc39c8a7d43}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a472cd974e223ab8bf1063fc39c8a7d43}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a40c4f607e5b71602c57777a29d5b4d31}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a40c4f607e5b71602c57777a29d5b4d31}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Renderer}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a9a80d2b83f1f7bd922df78f21ee526db}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_node_a9a80d2b83f1f7bd922df78f21ee526db}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Skeletal\+Animation\+Model.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Skeletal\+Animation\+Model.\+cpp\end{DoxyCompactItemize}

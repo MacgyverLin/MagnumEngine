@@ -1,0 +1,371 @@
+\hypertarget{class_magnum_1_1_string}{}\section{Magnum\+:\+:String 類別 參考文件}
+\label{class_magnum_1_1_string}\index{Magnum\+::\+String@{Magnum\+::\+String}}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+typedef char {\bfseries Char\+Type}\hypertarget{class_magnum_1_1_string_ab39c04776fa4c79bf180ae35d9c790be}{}\label{class_magnum_1_1_string_ab39c04776fa4c79bf180ae35d9c790be}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries length} () const \hypertarget{class_magnum_1_1_string_a95e2c755f8c52acb806208bd6d8b4ad1}{}\label{class_magnum_1_1_string_a95e2c755f8c52acb806208bd6d8b4ad1}
+
+\item 
+int {\bfseries capacity} () const \hypertarget{class_magnum_1_1_string_a13bda33c5eb12f7439825e1a487bb33c}{}\label{class_magnum_1_1_string_a13bda33c5eb12f7439825e1a487bb33c}
+
+\item 
+const char $\ast$ {\bfseries text} (int off=0) const \hypertarget{class_magnum_1_1_string_a7f8ee81d4cfb09a1712c4983dc017f04}{}\label{class_magnum_1_1_string_a7f8ee81d4cfb09a1712c4983dc017f04}
+
+\item 
+char {\bfseries back} () const \hypertarget{class_magnum_1_1_string_adb00060f2043c5efab6df3d1a964f9ad}{}\label{class_magnum_1_1_string_adb00060f2043c5efab6df3d1a964f9ad}
+
+\item 
+char \& {\bfseries back} ()\hypertarget{class_magnum_1_1_string_abb80e1189595b12b7466d7e38bde3b7c}{}\label{class_magnum_1_1_string_abb80e1189595b12b7466d7e38bde3b7c}
+
+\item 
+void {\bfseries release} ()\hypertarget{class_magnum_1_1_string_a43f7872d2ca7c8cd9c324660afd515d3}{}\label{class_magnum_1_1_string_a43f7872d2ca7c8cd9c324660afd515d3}
+
+\item 
+char $\ast$ {\bfseries allocate} (int len)\hypertarget{class_magnum_1_1_string_a0df26a4f4cb9975ce4b5d8a478964359}{}\label{class_magnum_1_1_string_a0df26a4f4cb9975ce4b5d8a478964359}
+
+\item 
+char $\ast$ {\bfseries buffer} ()\hypertarget{class_magnum_1_1_string_ae93ccdf5a30ab8437472ff754427e6dd}{}\label{class_magnum_1_1_string_ae93ccdf5a30ab8437472ff754427e6dd}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries attach} (char $\ast$buffer)\hypertarget{class_magnum_1_1_string_a9cc5f31feb19a3b9813926a769d1da99}{}\label{class_magnum_1_1_string_a9cc5f31feb19a3b9813926a769d1da99}
+
+\item 
+char $\ast$ {\bfseries detach} ()\hypertarget{class_magnum_1_1_string_a7c68bda3f739e0b745b5159d9c5d1558}{}\label{class_magnum_1_1_string_a7c68bda3f739e0b745b5159d9c5d1558}
+
+\item 
+int {\bfseries reset} ()\hypertarget{class_magnum_1_1_string_aaefe2fc5f3e73afa944208e0bcc1dd85}{}\label{class_magnum_1_1_string_aaefe2fc5f3e73afa944208e0bcc1dd85}
+
+\item 
+int {\bfseries reset} (int len)\hypertarget{class_magnum_1_1_string_ad811a45729246dd144d64bb7ff8fb8de}{}\label{class_magnum_1_1_string_ad811a45729246dd144d64bb7ff8fb8de}
+
+\item 
+bool {\bfseries dirty} ()\hypertarget{class_magnum_1_1_string_a1505bb251fd7c272601a15cf202d840e}{}\label{class_magnum_1_1_string_a1505bb251fd7c272601a15cf202d840e}
+
+\item 
+void {\bfseries dirty} (bool set)\hypertarget{class_magnum_1_1_string_a393769f89bf0e30e089aa06358eb1b46}{}\label{class_magnum_1_1_string_a393769f89bf0e30e089aa06358eb1b46}
+
+\item 
+void {\bfseries empty} ()\hypertarget{class_magnum_1_1_string_a815d15beb4344c84cdd68217af601620}{}\label{class_magnum_1_1_string_a815d15beb4344c84cdd68217af601620}
+
+\item 
+bool {\bfseries grow} (int len=0)\hypertarget{class_magnum_1_1_string_a0a12d4fc0976cb9b213c4adb2ffb3982}{}\label{class_magnum_1_1_string_a0a12d4fc0976cb9b213c4adb2ffb3982}
+
+\item 
+const char $\ast$ {\bfseries copy} (const char $\ast$buffer\+\_\+, int length\+\_\+=0)\hypertarget{class_magnum_1_1_string_a4b4f700f0696c51158db7f4b2a481e0a}{}\label{class_magnum_1_1_string_a4b4f700f0696c51158db7f4b2a481e0a}
+
+\item 
+const char $\ast$ {\bfseries line} (const char $\ast$text, int max\+\_\+=400)\hypertarget{class_magnum_1_1_string_a66702a146802fb481930b0d36c20059f}{}\label{class_magnum_1_1_string_a66702a146802fb481930b0d36c20059f}
+
+\item 
+int {\bfseries trim} (int direction=0)\hypertarget{class_magnum_1_1_string_a9e2f7ef48df311be8e1f5787d86cc7d2}{}\label{class_magnum_1_1_string_a9e2f7ef48df311be8e1f5787d86cc7d2}
+
+\item 
+int {\bfseries strip} (const char $\ast$token)\hypertarget{class_magnum_1_1_string_a01e5aecb52fad20d5b133a27fe90a137}{}\label{class_magnum_1_1_string_a01e5aecb52fad20d5b133a27fe90a137}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries pad} (int length\+\_\+)\hypertarget{class_magnum_1_1_string_ab24d5e16ba6c6a90552ae20cc66e7ca8}{}\label{class_magnum_1_1_string_ab24d5e16ba6c6a90552ae20cc66e7ca8}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries move} (int from, int to, int len)\hypertarget{class_magnum_1_1_string_a916bb8384ff18a2de12bdc52ec11d0ea}{}\label{class_magnum_1_1_string_a916bb8384ff18a2de12bdc52ec11d0ea}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries erase} (int index)\hypertarget{class_magnum_1_1_string_a101eb25a2ddffc7a9bbec46f2056f08c}{}\label{class_magnum_1_1_string_a101eb25a2ddffc7a9bbec46f2056f08c}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries erase} (int from, int to)\hypertarget{class_magnum_1_1_string_aef9a6c14407799ca0d555f537be3d12a}{}\label{class_magnum_1_1_string_aef9a6c14407799ca0d555f537be3d12a}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries insert} (char ch, int off=0)\hypertarget{class_magnum_1_1_string_ad0d8d5a03dc5f16f4014d8cbd9116f66}{}\label{class_magnum_1_1_string_ad0d8d5a03dc5f16f4014d8cbd9116f66}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries insert} (const char $\ast$str, int at=0, int len=0)\hypertarget{class_magnum_1_1_string_ad03a688bf13d2d12b82d270cccc1acde}{}\label{class_magnum_1_1_string_ad03a688bf13d2d12b82d270cccc1acde}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries cat} (const char $\ast$str, int len=0)\hypertarget{class_magnum_1_1_string_a92c99d95ed95eca91b3ee2088a7d5d33}{}\label{class_magnum_1_1_string_a92c99d95ed95eca91b3ee2088a7d5d33}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries cat} (const \hyperlink{class_magnum_1_1_string}{String} \&str)\hypertarget{class_magnum_1_1_string_a0342215812afeedc2f8e19a66be169dd}{}\label{class_magnum_1_1_string_a0342215812afeedc2f8e19a66be169dd}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries cat} (char c)\hypertarget{class_magnum_1_1_string_a1f4b1070baccafddb48b7a029f769bba}{}\label{class_magnum_1_1_string_a1f4b1070baccafddb48b7a029f769bba}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries trunc} (int off=1)\hypertarget{class_magnum_1_1_string_a7e48f91ae905fa129fd869b36a5bdc53}{}\label{class_magnum_1_1_string_a7e48f91ae905fa129fd869b36a5bdc53}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries chop} (int at)\hypertarget{class_magnum_1_1_string_a907e01bb6f391110e37e8980f2d7637e}{}\label{class_magnum_1_1_string_a907e01bb6f391110e37e8980f2d7637e}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries replace} (char from, char to)\hypertarget{class_magnum_1_1_string_a43c204ca9944133bbab6b560c9a927c5}{}\label{class_magnum_1_1_string_a43c204ca9944133bbab6b560c9a927c5}
+
+\item 
+char {\bfseries get} (int at) const \hypertarget{class_magnum_1_1_string_a2acfd79d2ba5e050462b6ed6f1a66f18}{}\label{class_magnum_1_1_string_a2acfd79d2ba5e050462b6ed6f1a66f18}
+
+\item 
+char {\bfseries put} (int at, char ch)\hypertarget{class_magnum_1_1_string_a4df966e12d7795108d1f52a00efdac92}{}\label{class_magnum_1_1_string_a4df966e12d7795108d1f52a00efdac92}
+
+\item 
+char {\bfseries operator\mbox{[}$\,$\mbox{]}} (int at) const \hypertarget{class_magnum_1_1_string_a08cc5dab5cb04d3160403fb1a741d1c4}{}\label{class_magnum_1_1_string_a08cc5dab5cb04d3160403fb1a741d1c4}
+
+\item 
+char \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (int at)\hypertarget{class_magnum_1_1_string_acbaf74e05c768b42138585d5902a9d9e}{}\label{class_magnum_1_1_string_acbaf74e05c768b42138585d5902a9d9e}
+
+\item 
+double {\bfseries to\+Double} () const \hypertarget{class_magnum_1_1_string_a8e644922a19608d6c8b932c5a570f5dc}{}\label{class_magnum_1_1_string_a8e644922a19608d6c8b932c5a570f5dc}
+
+\item 
+float {\bfseries to\+Float} () const \hypertarget{class_magnum_1_1_string_a6cc1383c3abe7a079b87ca274e1da3df}{}\label{class_magnum_1_1_string_a6cc1383c3abe7a079b87ca274e1da3df}
+
+\item 
+long {\bfseries to\+Long} () const \hypertarget{class_magnum_1_1_string_aa051f585ad33f01d9052700e0069edc1}{}\label{class_magnum_1_1_string_aa051f585ad33f01d9052700e0069edc1}
+
+\item 
+unsigned long {\bfseries to\+D\+Word} () const \hypertarget{class_magnum_1_1_string_af314fb70f5dc48bc0dcfeb16457cff5a}{}\label{class_magnum_1_1_string_af314fb70f5dc48bc0dcfeb16457cff5a}
+
+\item 
+int {\bfseries to\+Integer} () const \hypertarget{class_magnum_1_1_string_a4abb1b4ce63882b781e00902868f4791}{}\label{class_magnum_1_1_string_a4abb1b4ce63882b781e00902868f4791}
+
+\item 
+short {\bfseries to\+Short} () const \hypertarget{class_magnum_1_1_string_a2d5b13806bad343a1e029ec47b6d707b}{}\label{class_magnum_1_1_string_a2d5b13806bad343a1e029ec47b6d707b}
+
+\item 
+unsigned short {\bfseries to\+Word} () const \hypertarget{class_magnum_1_1_string_a9b607f2d9d1480d0538627e50dc716e0}{}\label{class_magnum_1_1_string_a9b607f2d9d1480d0538627e50dc716e0}
+
+\item 
+char {\bfseries to\+Char} () const \hypertarget{class_magnum_1_1_string_a504acc9030e3d91624c2a56bbfce5f39}{}\label{class_magnum_1_1_string_a504acc9030e3d91624c2a56bbfce5f39}
+
+\item 
+unsigned char {\bfseries to\+Byte} () const \hypertarget{class_magnum_1_1_string_ae7448d8371fd6f52aa48bb0dec1d7f94}{}\label{class_magnum_1_1_string_ae7448d8371fd6f52aa48bb0dec1d7f94}
+
+\item 
+bool {\bfseries to\+Bool} () const \hypertarget{class_magnum_1_1_string_a510c851f8f614fc96273eb37ebc6eed0}{}\label{class_magnum_1_1_string_a510c851f8f614fc96273eb37ebc6eed0}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from} (double f)\hypertarget{class_magnum_1_1_string_a15e2552683e485c1f0e289eba4a5b770}{}\label{class_magnum_1_1_string_a15e2552683e485c1f0e289eba4a5b770}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from} (float f)\hypertarget{class_magnum_1_1_string_a7a3acf2315747d4df35c1f1a65753665}{}\label{class_magnum_1_1_string_a7a3acf2315747d4df35c1f1a65753665}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from} (long n)\hypertarget{class_magnum_1_1_string_acb9bbb168adb4a8919bd67392f22d029}{}\label{class_magnum_1_1_string_acb9bbb168adb4a8919bd67392f22d029}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from} (unsigned d)\hypertarget{class_magnum_1_1_string_a7afcfe345c33ae1ab54ed12c001a535a}{}\label{class_magnum_1_1_string_a7afcfe345c33ae1ab54ed12c001a535a}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from} (unsigned long d)\hypertarget{class_magnum_1_1_string_adce097cc8670d355deaf7f66ad6c6e20}{}\label{class_magnum_1_1_string_adce097cc8670d355deaf7f66ad6c6e20}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from} (int d)\hypertarget{class_magnum_1_1_string_a4145cdb1e806f460392357dfc3ca9146}{}\label{class_magnum_1_1_string_a4145cdb1e806f460392357dfc3ca9146}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from} (short d)\hypertarget{class_magnum_1_1_string_a680e7644e194e5282c425f7912346558}{}\label{class_magnum_1_1_string_a680e7644e194e5282c425f7912346558}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from} (unsigned short d)\hypertarget{class_magnum_1_1_string_aec60153f801d72c98e8c9f6dfc171a4f}{}\label{class_magnum_1_1_string_aec60153f801d72c98e8c9f6dfc171a4f}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from} (char c)\hypertarget{class_magnum_1_1_string_ab381984fab3e29c89f0e493f80fa3c26}{}\label{class_magnum_1_1_string_ab381984fab3e29c89f0e493f80fa3c26}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from} (unsigned char d)\hypertarget{class_magnum_1_1_string_aab77b7836ca4bec86df3eab89db64e25}{}\label{class_magnum_1_1_string_aab77b7836ca4bec86df3eab89db64e25}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from} (bool b)\hypertarget{class_magnum_1_1_string_a2fc7c5a0e9d08a0da256abe330d00599}{}\label{class_magnum_1_1_string_a2fc7c5a0e9d08a0da256abe330d00599}
+
+\item 
+int {\bfseries to\+Money} () const \hypertarget{class_magnum_1_1_string_a7332f0ba42395204a4ce804803ebfe65}{}\label{class_magnum_1_1_string_a7332f0ba42395204a4ce804803ebfe65}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries from\+Money} (int money)\hypertarget{class_magnum_1_1_string_afe83963fde21d97a5d14b73f6e1ae3dd}{}\label{class_magnum_1_1_string_afe83963fde21d97a5d14b73f6e1ae3dd}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries to\+Lower} ()\hypertarget{class_magnum_1_1_string_aa88d793b2c2d0b898344a921ffc5a1c9}{}\label{class_magnum_1_1_string_aa88d793b2c2d0b898344a921ffc5a1c9}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries to\+Upper} ()\hypertarget{class_magnum_1_1_string_a5a0151191f5690d728bca9e1b35505fd}{}\label{class_magnum_1_1_string_a5a0151191f5690d728bca9e1b35505fd}
+
+\item 
+int {\bfseries valid} (int index) const \hypertarget{class_magnum_1_1_string_a588730ad258b8b624344d0dae1faac80}{}\label{class_magnum_1_1_string_a588730ad258b8b624344d0dae1faac80}
+
+\item 
+bool {\bfseries is\+Space} (int index) const \hypertarget{class_magnum_1_1_string_ab106633ce2f8eb28c674b2cef6309eee}{}\label{class_magnum_1_1_string_ab106633ce2f8eb28c674b2cef6309eee}
+
+\item 
+bool {\bfseries is\+Number\+Space} (int index) const \hypertarget{class_magnum_1_1_string_a1ba159ea195994894144fef0e20b9b40}{}\label{class_magnum_1_1_string_a1ba159ea195994894144fef0e20b9b40}
+
+\item 
+bool {\bfseries is\+Integer} () const \hypertarget{class_magnum_1_1_string_a956eb4638bd6a25d647d3d12f9a69e02}{}\label{class_magnum_1_1_string_a956eb4638bd6a25d647d3d12f9a69e02}
+
+\item 
+int {\bfseries is\+Blank} () const \hypertarget{class_magnum_1_1_string_a31a2aaab0d0d76c7cf15e59d218919c5}{}\label{class_magnum_1_1_string_a31a2aaab0d0d76c7cf15e59d218919c5}
+
+\item 
+int {\bfseries token} (const char $\ast$list, int start=0) const \hypertarget{class_magnum_1_1_string_a4f075eafcc39eb6ffbf279bae833383f}{}\label{class_magnum_1_1_string_a4f075eafcc39eb6ffbf279bae833383f}
+
+\item 
+int {\bfseries find} (const char $\ast$str, int start=0) const \hypertarget{class_magnum_1_1_string_ad11db2fc5996f6b68236df74a36c1c76}{}\label{class_magnum_1_1_string_ad11db2fc5996f6b68236df74a36c1c76}
+
+\item 
+int {\bfseries find} (char ch, int start=0, int index=0) const \hypertarget{class_magnum_1_1_string_a9de1993500994518282e3687b44c047b}{}\label{class_magnum_1_1_string_a9de1993500994518282e3687b44c047b}
+
+\item 
+int {\bfseries rfind} (char ch, int start=0, int index=0) const \hypertarget{class_magnum_1_1_string_a077a73453dd8f542cc9a0de99325f1e5}{}\label{class_magnum_1_1_string_a077a73453dd8f542cc9a0de99325f1e5}
+
+\item 
+int {\bfseries count} (char ch) const \hypertarget{class_magnum_1_1_string_acc631ddb1797928109f7c23054e9b3f2}{}\label{class_magnum_1_1_string_acc631ddb1797928109f7c23054e9b3f2}
+
+\item 
+int {\bfseries count\+Sequence} (char ch, int start=0) const \hypertarget{class_magnum_1_1_string_adc3572a0f62de9520902f7e1d131a6f8}{}\label{class_magnum_1_1_string_adc3572a0f62de9520902f7e1d131a6f8}
+
+\item 
+int {\bfseries compare} (char ch) const \hypertarget{class_magnum_1_1_string_a810f7c45be1c5f8c089c7bec0f2fe788}{}\label{class_magnum_1_1_string_a810f7c45be1c5f8c089c7bec0f2fe788}
+
+\item 
+int {\bfseries compare} (const char $\ast$other, int stop=0) const \hypertarget{class_magnum_1_1_string_a0c853af6c68ebd59ff53ccc251609183}{}\label{class_magnum_1_1_string_a0c853af6c68ebd59ff53ccc251609183}
+
+\item 
+int {\bfseries compare} (const \hyperlink{class_magnum_1_1_string}{String} \&other, int stop=0) const \hypertarget{class_magnum_1_1_string_a27e247ad23cf915516ac101daf1e3913}{}\label{class_magnum_1_1_string_a27e247ad23cf915516ac101daf1e3913}
+
+\item 
+int {\bfseries compare\+Case} (const char $\ast$other, int stop=0) const \hypertarget{class_magnum_1_1_string_a8103f52cb90824a0b8d78dce4af90b03}{}\label{class_magnum_1_1_string_a8103f52cb90824a0b8d78dce4af90b03}
+
+\item 
+int {\bfseries compare\+Case} (const \hyperlink{class_magnum_1_1_string}{String} \&other, int stop=0) const \hypertarget{class_magnum_1_1_string_ae18c6713484406646b276db8210af175}{}\label{class_magnum_1_1_string_ae18c6713484406646b276db8210af175}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} {\bfseries word} (char delim, int position=0) const \hypertarget{class_magnum_1_1_string_ab67587968bb2f254426b4a6891d51f58}{}\label{class_magnum_1_1_string_ab67587968bb2f254426b4a6891d51f58}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} {\bfseries extract} (int from, int length=0) const \hypertarget{class_magnum_1_1_string_a803b8fbb45479ff426534714f162dc65}{}\label{class_magnum_1_1_string_a803b8fbb45479ff426534714f162dc65}
+
+\item 
+{\bfseries operator const char $\ast$} () const \hypertarget{class_magnum_1_1_string_a052462069a3e139a69b88116bc8b9460}{}\label{class_magnum_1_1_string_a052462069a3e139a69b88116bc8b9460}
+
+\item 
+bool {\bfseries operator==} (const \hyperlink{class_magnum_1_1_string}{String} \&other) const \hypertarget{class_magnum_1_1_string_abc87daa85235a1fa0334d5aad76af032}{}\label{class_magnum_1_1_string_abc87daa85235a1fa0334d5aad76af032}
+
+\item 
+bool {\bfseries operator==} (const char $\ast$str) const \hypertarget{class_magnum_1_1_string_a34c0178e265b8eeff20a750c3a1d8190}{}\label{class_magnum_1_1_string_a34c0178e265b8eeff20a750c3a1d8190}
+
+\item 
+bool {\bfseries operator==} (char ch) const \hypertarget{class_magnum_1_1_string_a67f96b903219a03aa5d6715720cfbf02}{}\label{class_magnum_1_1_string_a67f96b903219a03aa5d6715720cfbf02}
+
+\item 
+bool {\bfseries operator!=} (const \hyperlink{class_magnum_1_1_string}{String} \&other) const \hypertarget{class_magnum_1_1_string_a3f789d339d7e6be1edaeb1e3b7e9e420}{}\label{class_magnum_1_1_string_a3f789d339d7e6be1edaeb1e3b7e9e420}
+
+\item 
+bool {\bfseries operator!=} (const char $\ast$str) const \hypertarget{class_magnum_1_1_string_aea4ab7ca79d652e0509a3b033260036e}{}\label{class_magnum_1_1_string_aea4ab7ca79d652e0509a3b033260036e}
+
+\item 
+bool {\bfseries operator!=} (char ch) const \hypertarget{class_magnum_1_1_string_aa6fdba16b89655141d10efefba951cf3}{}\label{class_magnum_1_1_string_aa6fdba16b89655141d10efefba951cf3}
+
+\item 
+bool {\bfseries operator$>$} (const \hyperlink{class_magnum_1_1_string}{String} \&other) const \hypertarget{class_magnum_1_1_string_affb11a14c67f2a4d8410570ed28e2142}{}\label{class_magnum_1_1_string_affb11a14c67f2a4d8410570ed28e2142}
+
+\item 
+bool {\bfseries operator$>$} (const char $\ast$str) const \hypertarget{class_magnum_1_1_string_a46d2142a357356e810580f21ff2fa41c}{}\label{class_magnum_1_1_string_a46d2142a357356e810580f21ff2fa41c}
+
+\item 
+bool {\bfseries operator$>$} (char ch) const \hypertarget{class_magnum_1_1_string_a6a82a0438d18b403db8c6e5b68514faf}{}\label{class_magnum_1_1_string_a6a82a0438d18b403db8c6e5b68514faf}
+
+\item 
+bool {\bfseries operator$>$=} (const \hyperlink{class_magnum_1_1_string}{String} \&other) const \hypertarget{class_magnum_1_1_string_addd919a9c900c73946eb94a76502e206}{}\label{class_magnum_1_1_string_addd919a9c900c73946eb94a76502e206}
+
+\item 
+bool {\bfseries operator$>$=} (const char $\ast$str) const \hypertarget{class_magnum_1_1_string_a476cbccf3a24f438eba775ba62def703}{}\label{class_magnum_1_1_string_a476cbccf3a24f438eba775ba62def703}
+
+\item 
+bool {\bfseries operator$>$=} (char ch) const \hypertarget{class_magnum_1_1_string_ad531f1466e24d0390297b141fa6c1c0b}{}\label{class_magnum_1_1_string_ad531f1466e24d0390297b141fa6c1c0b}
+
+\item 
+bool {\bfseries operator$<$} (const \hyperlink{class_magnum_1_1_string}{String} \&other) const \hypertarget{class_magnum_1_1_string_acf7a352ad07ba7d279e20dde37d53efd}{}\label{class_magnum_1_1_string_acf7a352ad07ba7d279e20dde37d53efd}
+
+\item 
+bool {\bfseries operator$<$} (const char $\ast$str) const \hypertarget{class_magnum_1_1_string_adf6784d370f985a04157b3c6a5cc8ffd}{}\label{class_magnum_1_1_string_adf6784d370f985a04157b3c6a5cc8ffd}
+
+\item 
+bool {\bfseries operator$<$} (char ch) const \hypertarget{class_magnum_1_1_string_a0975336b0477616434b711b329fed597}{}\label{class_magnum_1_1_string_a0975336b0477616434b711b329fed597}
+
+\item 
+bool {\bfseries operator$<$=} (const \hyperlink{class_magnum_1_1_string}{String} \&other) const \hypertarget{class_magnum_1_1_string_aae248d7192c033e1d76222e8426a9c2d}{}\label{class_magnum_1_1_string_aae248d7192c033e1d76222e8426a9c2d}
+
+\item 
+bool {\bfseries operator$<$=} (const char $\ast$str) const \hypertarget{class_magnum_1_1_string_af37d77f163036825eda1e0f06177fffc}{}\label{class_magnum_1_1_string_af37d77f163036825eda1e0f06177fffc}
+
+\item 
+bool {\bfseries operator$<$=} (char ch) const \hypertarget{class_magnum_1_1_string_af2e30e4c40fb66ac9d4ea63b9cd7bdd2}{}\label{class_magnum_1_1_string_af2e30e4c40fb66ac9d4ea63b9cd7bdd2}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries operator=} (const \hyperlink{class_magnum_1_1_string}{String} \&src)\hypertarget{class_magnum_1_1_string_acce613fd3507ef70daa78f02ec276439}{}\label{class_magnum_1_1_string_acce613fd3507ef70daa78f02ec276439}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries operator=} (const char $\ast$str)\hypertarget{class_magnum_1_1_string_ac86762e58f690b9000fa7eb03dc3b36c}{}\label{class_magnum_1_1_string_ac86762e58f690b9000fa7eb03dc3b36c}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries operator=} (char c)\hypertarget{class_magnum_1_1_string_a5458fb013d658834ef861424e0cac276}{}\label{class_magnum_1_1_string_a5458fb013d658834ef861424e0cac276}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries operator+=} (const \hyperlink{class_magnum_1_1_string}{String} \&str)\hypertarget{class_magnum_1_1_string_a7bbde274af9955d36e807425e38b77ca}{}\label{class_magnum_1_1_string_a7bbde274af9955d36e807425e38b77ca}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries operator+=} (char ch)\hypertarget{class_magnum_1_1_string_a5b53bfbaebe69d7ea434b8ce8380d3b1}{}\label{class_magnum_1_1_string_a5b53bfbaebe69d7ea434b8ce8380d3b1}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries operator+=} (const char $\ast$str)\hypertarget{class_magnum_1_1_string_a64de9ab1af5df9397f8fbd8c79d5f4b6}{}\label{class_magnum_1_1_string_a64de9ab1af5df9397f8fbd8c79d5f4b6}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} {\bfseries operator+} (const \hyperlink{class_magnum_1_1_string}{String} \&right) const \hypertarget{class_magnum_1_1_string_ab4b5d40915b0b6bfdf9e3b0199d22349}{}\label{class_magnum_1_1_string_ab4b5d40915b0b6bfdf9e3b0199d22349}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} {\bfseries operator+} (const char $\ast$right) const \hypertarget{class_magnum_1_1_string_aa9fbb620cb43be6cf5ce86828e993408}{}\label{class_magnum_1_1_string_aa9fbb620cb43be6cf5ce86828e993408}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} {\bfseries operator+} (char right) const \hypertarget{class_magnum_1_1_string_a6f52b678c1e86d1cf43cbf867c4b7e92}{}\label{class_magnum_1_1_string_a6f52b678c1e86d1cf43cbf867c4b7e92}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries format} (const char $\ast$fmt,...)\hypertarget{class_magnum_1_1_string_ac09d36d444bd4599aa3ecf2a2e516101}{}\label{class_magnum_1_1_string_ac09d36d444bd4599aa3ecf2a2e516101}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} \& {\bfseries vformat} (const char $\ast$fmt, va\+\_\+list var)\hypertarget{class_magnum_1_1_string_a2ba4eb439b9456e7adab21d85833fa4e}{}\label{class_magnum_1_1_string_a2ba4eb439b9456e7adab21d85833fa4e}
+
+\item 
+{\bfseries String} (char ch)\hypertarget{class_magnum_1_1_string_a62a77180f8df2547e8be1313654abcee}{}\label{class_magnum_1_1_string_a62a77180f8df2547e8be1313654abcee}
+
+\item 
+{\bfseries String} (const \hyperlink{class_magnum_1_1_string}{String} \&str)\hypertarget{class_magnum_1_1_string_a5774bcd4a4c232a8aec5a3ec6d01a157}{}\label{class_magnum_1_1_string_a5774bcd4a4c232a8aec5a3ec6d01a157}
+
+\item 
+{\bfseries String} (int size)\hypertarget{class_magnum_1_1_string_a8cc4dd2dabcd4c53d3c75ce1dba9c600}{}\label{class_magnum_1_1_string_a8cc4dd2dabcd4c53d3c75ce1dba9c600}
+
+\item 
+{\bfseries String} (const char $\ast$str, int size=0)\hypertarget{class_magnum_1_1_string_af0850e7bc24f82b3227360b14cf66881}{}\label{class_magnum_1_1_string_af0850e7bc24f82b3227360b14cf66881}
+
+\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static int {\bfseries length} (const char $\ast$s)\hypertarget{class_magnum_1_1_string_a2b61a3d36b40be3414c0028ffb52bc0b}{}\label{class_magnum_1_1_string_a2b61a3d36b40be3414c0028ffb52bc0b}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_string}{String} {\bfseries operator+} (const char $\ast$left, const \hyperlink{class_magnum_1_1_string}{String} \&right)\hypertarget{class_magnum_1_1_string_a1781d316e3efc3a1f7501d377498c74b}{}\label{class_magnum_1_1_string_a1781d316e3efc3a1f7501d377498c74b}
+
+\item 
+\hyperlink{class_magnum_1_1_string}{String} {\bfseries operator+} (char left, const \hyperlink{class_magnum_1_1_string}{String} \&right)\hypertarget{class_magnum_1_1_string_a024271b21b78cd1e9f7b8005955567f2}{}\label{class_magnum_1_1_string_a024271b21b78cd1e9f7b8005955567f2}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/E\+String.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/E\+String.\+cpp\end{DoxyCompactItemize}

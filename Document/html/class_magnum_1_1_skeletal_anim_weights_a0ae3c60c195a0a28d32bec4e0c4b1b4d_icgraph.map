@@ -1,0 +1,19 @@
+<map id="Magnum::SkeletalAnimWeights::getAnimation" name="Magnum::SkeletalAnimWeights::getAnimation">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_blender.html#ab80c1e90799256b2bef9da9610e79b04" title="This function initialized the blender with the information of the animation. " alt="" coords="259,5,460,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_blender.html#afaf5a75b6f24eb070c692075207564d4" title="This function set the animation play back speed. " alt="" coords="259,71,460,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_anim_blender.html#a8535d7b72b50b66dbdf9178adb6d84bc" title="This function set the loop behaviour. " alt="" coords="259,136,460,177"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_skeletal_anim_blender.html#ab63b9cb4b608b6fdb46b288aea6b8d3a" title="This function add animation as child of this blender. " alt="" coords="259,201,460,243"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_skeletal_anim_blender.html#acf0e3d7c7210cc049495cdc1748bcbf0" title="This function remove animation from the child animation list. " alt="" coords="259,267,460,308"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_skeletal_anim_blender.html#a1c35d25c9c59c8d867271004a36be82a" title="This function get the animation time. " alt="" coords="259,332,460,373"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_skeletal_anim_blender.html#a1a5fb941a66118b46991c41e7a77d6ad" title="This function get the animation play back speed. " alt="" coords="259,397,460,439"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_skeletal_anim_blender.html#a1f09f358071ec980a3783db1cc63c609" title="This function get the loop behaviour of animation. " alt="" coords="259,463,460,504"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_skeletal_anim_blender.html#a9632809b4b59659cdd5ff4c02371229e" title="This function get the duration of the animation data. " alt="" coords="259,528,460,569"/>
+<area shape="rect" id="node11" href="$class_magnum_1_1_skeletal_anim_blender.html#afdffb9f35a47376519e1f76320617a65" title="This function try to find the position of animation in this blender. " alt="" coords="259,593,460,635"/>
+<area shape="rect" id="node12" href="$class_magnum_1_1_skeletal_anim_blender.html#ad648bb5f97296b7e5ac203967c32a66b" title="This function is implemented thing need to do in each cycle of animation. " alt="" coords="259,659,460,700"/>
+<area shape="rect" id="node13" href="$class_magnum_1_1_skeletal_anim_blender.html#a937aa755ef6e880e7779b3a67afb3ca1" title="This function get the playing status of the Animation. " alt="" coords="259,724,460,765"/>
+<area shape="rect" id="node14" href="$class_magnum_1_1_skeletal_anim_blender.html#a1cecc3b4cb9a378ff1fac5583cbf7f89" title="This function start or resume the Animation. " alt="" coords="259,789,460,831"/>
+<area shape="rect" id="node15" href="$class_magnum_1_1_skeletal_anim_blender.html#a061b003b7492b5c91e19e4c9aca1621a" title="This function stop the Animation. " alt="" coords="259,855,460,896"/>
+<area shape="rect" id="node16" href="$class_magnum_1_1_skeletal_anim_blender.html#a3adb5a40905ac4f395af18890215e249" title="This function pause the Animation. " alt="" coords="259,920,460,961"/>
+<area shape="rect" id="node17" href="$class_magnum_1_1_skeletal_anim_blender.html#ad53119fea64b7fc6a1b1ba838d39b7cc" title="This function rewind the Animation (to its first frame), clears time. " alt="" coords="259,985,460,1027"/>
+<area shape="rect" id="node18" href="$class_magnum_1_1_skeletal_anim_blender.html#a5ff4ad32c8af11867829515046d835d0" title="This function get the pause status of the Animation. " alt="" coords="259,1051,460,1092"/>
+</map>

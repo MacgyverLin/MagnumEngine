@@ -1,0 +1,5 @@
+<map id="Magnum::SkeletalAnimModel::Resource::getNumBones" name="Magnum::SkeletalAnimModel::Resource::getNumBones">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_animation.html#aae3d05536af25e2bde8736e4f37235e8" title="This function get the Number of Bones in the animation data. " alt="" coords="249,5,434,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_model.html#a866c8a140763de07aaeb01e7fac0b783" title="Get the i&#45;th Bone in the Skeletal Anim Model. " alt="" coords="245,71,437,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_anim_model_renderer.html#a138ac08d14815bdc63a73b2d0722f52f" title="remove SkeletalAnimModelComponent from the Renderer. " alt="" coords="485,71,677,112"/>
+</map>

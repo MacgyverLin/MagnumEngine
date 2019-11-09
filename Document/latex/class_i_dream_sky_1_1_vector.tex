@@ -1,0 +1,417 @@
+\hypertarget{class_i_dream_sky_1_1_vector}{}\section{I\+Dream\+Sky\+:\+:Vector$<$ T $>$ 類別 樣版 參考文件}
+\label{class_i_dream_sky_1_1_vector}\index{I\+Dream\+Sky\+::\+Vector$<$ T $>$@{I\+Dream\+Sky\+::\+Vector$<$ T $>$}}
+
+
+\hyperlink{class_i_dream_sky_1_1_vector}{Vector} class for a bound protected array class with variable size.  
+
+
+
+
+{\ttfamily \#include $<$Array.\+h$>$}
+
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+typedef int($\ast$ {\bfseries Compare}) (const void $\ast$left, const void $\ast$right)\hypertarget{class_i_dream_sky_1_1_vector_a6a7a2702845d28ffae640b7596e983ee}{}\label{class_i_dream_sky_1_1_vector_a6a7a2702845d28ffae640b7596e983ee}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_i_dream_sky_1_1_vector_ac4d19b6d0c51f31abb9fa1e976ba98fe}{length} () const 
+\begin{DoxyCompactList}\small\item\em Get the length of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+int \hyperlink{class_i_dream_sky_1_1_vector_aaa042b05af8040fa6ab9e7b6d3b17892}{capacity} () const 
+\begin{DoxyCompactList}\small\item\em Get the capacity of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+void $\ast$ {\bfseries get} (int i)\hypertarget{class_i_dream_sky_1_1_vector_afe49d66bcf2e49879bfb426596f2831e}{}\label{class_i_dream_sky_1_1_vector_afe49d66bcf2e49879bfb426596f2831e}
+
+\item 
+T \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (int i)\hypertarget{class_i_dream_sky_1_1_vector_a8245119bf31c510928386dae9ccff922}{}\label{class_i_dream_sky_1_1_vector_a8245119bf31c510928386dae9ccff922}
+
+\item 
+const T \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (int i) const \hypertarget{class_i_dream_sky_1_1_vector_a3c60a975638374e24f1875674bdf3e3b}{}\label{class_i_dream_sky_1_1_vector_a3c60a975638374e24f1875674bdf3e3b}
+
+\item 
+T \& \hyperlink{class_i_dream_sky_1_1_vector_a12b1b598f7e96440dc154413c6dbd2b7}{back} ()
+\begin{DoxyCompactList}\small\item\em Get last element of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+const T \& \hyperlink{class_i_dream_sky_1_1_vector_a7502a4ddcb6dfb75dbb8e05948a23392}{back} () const 
+\begin{DoxyCompactList}\small\item\em Get last element of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_vector_ad61c3b9566674b3abee71fe5e7ca4e12}{full} () const 
+\begin{DoxyCompactList}\small\item\em Check if the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} is full. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_vector_a38f9a4d39f1e959701a7c977b3c92365}{clear} ()
+\begin{DoxyCompactList}\small\item\em Clear the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_vector_a84d9249d4a61f7141f1c7391eae15e2c}{empty} () const 
+\begin{DoxyCompactList}\small\item\em Check if the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} is empty. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_vector_affd72df325d6419ffb4f63ad1ac17f53}{valid} (int i) const 
+\begin{DoxyCompactList}\small\item\em Check if the index is with the range of \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. \end{DoxyCompactList}\item 
+void {\bfseries destroy} ()\hypertarget{class_i_dream_sky_1_1_vector_af0630f0908a8bdf024e8104f7a28526c}{}\label{class_i_dream_sky_1_1_vector_af0630f0908a8bdf024e8104f7a28526c}
+
+\item 
+void \hyperlink{class_i_dream_sky_1_1_vector_aee1b78ffb3522750babb05a1ef96f027}{resize} (int length\+\_\+)
+\begin{DoxyCompactList}\small\item\em resize the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} to length\+\_\+ \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_vector_a0f3310762a1ae0eb95e040caeaa7db85}{allocate} (int length\+\_\+)
+\begin{DoxyCompactList}\small\item\em allocate buffer the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} to length\+\_\+. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_vector_af0a2ae2d86855fbab5376e1391c56a91}{expand} (int new\+\_\+capacity)
+\begin{DoxyCompactList}\small\item\em expand the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}\textquotesingle{}s capacity to new\+\_\+capacity. \end{DoxyCompactList}\item 
+T \& \hyperlink{class_i_dream_sky_1_1_vector_a0db13e0805dd3c7ae673dedc58f7a046}{insert} (int at)
+\begin{DoxyCompactList}\small\item\em insert an element at i-\/th position of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \end{DoxyCompactList}\item 
+T \& \hyperlink{class_i_dream_sky_1_1_vector_a2b6c89314177de6f83ff31ade0247a6a}{insert} ()
+\begin{DoxyCompactList}\small\item\em This function behave same as \hyperlink{class_i_dream_sky_1_1_vector_a12b1b598f7e96440dc154413c6dbd2b7}{back()} \end{DoxyCompactList}\item 
+int {\bfseries binary\+Search} (const T \&item, Compare method) const \hypertarget{class_i_dream_sky_1_1_vector_a6f82569f15b8563e4768c95137f186c1}{}\label{class_i_dream_sky_1_1_vector_a6f82569f15b8563e4768c95137f186c1}
+
+\item 
+int \hyperlink{class_i_dream_sky_1_1_vector_a070bf8c6fede9ef23308a989d2f119be}{search} (const T \&item) const 
+\begin{DoxyCompactList}\small\item\em search for an element and return its position index \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_vector_aeceea0510aa63871e34986bf20fbfe0a}{remove} (int index)
+\begin{DoxyCompactList}\small\item\em remove the i-\/th element from the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \end{DoxyCompactList}\item 
+T \& \hyperlink{class_i_dream_sky_1_1_vector_afc6fb1459f439462705a4da35903ff46}{push} ()
+\begin{DoxyCompactList}\small\item\em append an element at the end of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \end{DoxyCompactList}\item 
+T \& \hyperlink{class_i_dream_sky_1_1_vector_a4ab4981cd45eb47bd055ab5b8b08dd4c}{pop} ()
+\begin{DoxyCompactList}\small\item\em remove an element at the end of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_vector_a23f69fbe1049987fdea11fcc29a342b5}{sort} (Compare method)
+\begin{DoxyCompactList}\small\item\em sort the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_vector_a6040d207a97d2dd7109972af45a6da7c}{Vector} (int capacity\+\_\+=0, int length\+\_\+=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_vector}{Vector} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_vector}{Vector} \& {\bfseries operator=} (const \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \&other)\hypertarget{class_i_dream_sky_1_1_vector_a94aa19b15daafc6c0d2cf7e4c59d9ab4}{}\label{class_i_dream_sky_1_1_vector_a94aa19b15daafc6c0d2cf7e4c59d9ab4}
+
+\item 
+T $\ast$ \hyperlink{class_i_dream_sky_1_1_vector_ae999b0d68ca72cd776a3d6e596cff2f4}{get\+Type} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_vector}{Vector} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_vector_a703e0349978b3368f06bca486ad40317}{Vector} (const \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \&other)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_vector}{Vector} Copy Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_vector_ad18c91d2a0b3673b2b43d6f16bb01efc}{$\sim$\+Vector} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_vector}{Vector} Destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\subsubsection*{template$<$class T$>$\\*
+class I\+Dream\+Sky\+::\+Vector$<$ T $>$}
+
+\hyperlink{class_i_dream_sky_1_1_vector}{Vector} class for a bound protected array class with variable size. 
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!Vector@{Vector}}
+\index{Vector@{Vector}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{Vector(int capacity\+\_\+=0, int length\+\_\+=0)}{Vector(int capacity_=0, int length_=0)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::{\bf Vector} (
+\begin{DoxyParamCaption}
+\item[{int}]{capacity\+\_\+ = {\ttfamily 0}, }
+\item[{int}]{length\+\_\+ = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a6040d207a97d2dd7109972af45a6da7c}{}\label{class_i_dream_sky_1_1_vector_a6040d207a97d2dd7109972af45a6da7c}
+
+
+\hyperlink{class_i_dream_sky_1_1_vector}{Vector} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} 
+\begin{DoxyParams}{參數}
+{\em capacity\+\_\+,the} & capcity of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \\
+\hline
+{\em length\+\_\+,the} & optional parameter, the length of \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!Vector@{Vector}}
+\index{Vector@{Vector}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{Vector(const Vector \&other)}{Vector(const Vector &other)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::{\bf Vector} (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector}$<$ T $>$ \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a703e0349978b3368f06bca486ad40317}{}\label{class_i_dream_sky_1_1_vector_a703e0349978b3368f06bca486ad40317}
+
+
+\hyperlink{class_i_dream_sky_1_1_vector}{Vector} Copy Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} by copying the other \hyperlink{class_i_dream_sky_1_1_vector}{Vector} 
+\begin{DoxyParams}{參數}
+{\em other,the} & other \hyperlink{class_i_dream_sky_1_1_vector}{Vector} to be copied \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!````~Vector@{$\sim$\+Vector}}
+\index{````~Vector@{$\sim$\+Vector}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{$\sim$\+Vector()}{~Vector()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::$\sim${\bf Vector} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_ad18c91d2a0b3673b2b43d6f16bb01efc}{}\label{class_i_dream_sky_1_1_vector_ad18c91d2a0b3673b2b43d6f16bb01efc}
+
+
+\hyperlink{class_i_dream_sky_1_1_vector}{Vector} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_vector}{Vector} 
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!allocate@{allocate}}
+\index{allocate@{allocate}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{allocate(int length\+\_\+)}{allocate(int length_)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::allocate (
+\begin{DoxyParamCaption}
+\item[{int}]{length\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a0f3310762a1ae0eb95e040caeaa7db85}{}\label{class_i_dream_sky_1_1_vector_a0f3310762a1ae0eb95e040caeaa7db85}
+
+
+allocate buffer the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} to length\+\_\+. 
+
+Therefore, both capacity and length\+\_\+ of \hyperlink{class_i_dream_sky_1_1_vector}{Vector} will be adjusted 
+\begin{DoxyParams}{參數}
+{\em length\+\_\+,the} & new length and new capacity of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!back@{back}}
+\index{back@{back}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{back()}{back()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a12b1b598f7e96440dc154413c6dbd2b7}{}\label{class_i_dream_sky_1_1_vector_a12b1b598f7e96440dc154413c6dbd2b7}
+
+
+Get last element of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of last element 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!back@{back}}
+\index{back@{back}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{back() const }{back() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ const T\& {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a7502a4ddcb6dfb75dbb8e05948a23392}{}\label{class_i_dream_sky_1_1_vector_a7502a4ddcb6dfb75dbb8e05948a23392}
+
+
+Get last element of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. 
+
+\begin{DoxyReturn}{傳回值}
+, const T\&, the const reference of last element 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!capacity@{capacity}}
+\index{capacity@{capacity}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{capacity() const }{capacity() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::capacity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_aaa042b05af8040fa6ab9e7b6d3b17892}{}\label{class_i_dream_sky_1_1_vector_aaa042b05af8040fa6ab9e7b6d3b17892}
+
+
+Get the capacity of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. 
+
+Capacity is number \hyperlink{class_i_dream_sky_1_1_vector}{Vector} element that is actually allocated. \begin{DoxyReturn}{傳回值}
+, int, the length of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!clear@{clear}}
+\index{clear@{clear}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a38f9a4d39f1e959701a7c977b3c92365}{}\label{class_i_dream_sky_1_1_vector_a38f9a4d39f1e959701a7c977b3c92365}
+
+
+Clear the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. 
+
+Reset the Length of \hyperlink{class_i_dream_sky_1_1_vector}{Vector} to zero \index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!empty@{empty}}
+\index{empty@{empty}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{empty() const }{empty() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a84d9249d4a61f7141f1c7391eae15e2c}{}\label{class_i_dream_sky_1_1_vector_a84d9249d4a61f7141f1c7391eae15e2c}
+
+
+Check if the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} is empty. 
+
+\begin{DoxyReturn}{傳回值}
+, true if length is equal to 0 else return false 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!expand@{expand}}
+\index{expand@{expand}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{expand(int new\+\_\+capacity)}{expand(int new_capacity)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::expand (
+\begin{DoxyParamCaption}
+\item[{int}]{new\+\_\+capacity}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_af0a2ae2d86855fbab5376e1391c56a91}{}\label{class_i_dream_sky_1_1_vector_af0a2ae2d86855fbab5376e1391c56a91}
+
+
+expand the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}\textquotesingle{}s capacity to new\+\_\+capacity. 
+
+
+\begin{DoxyParams}{參數}
+{\em new\+\_\+capacity,the} & new capacity of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!full@{full}}
+\index{full@{full}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{full() const }{full() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::full (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_ad61c3b9566674b3abee71fe5e7ca4e12}{}\label{class_i_dream_sky_1_1_vector_ad61c3b9566674b3abee71fe5e7ca4e12}
+
+
+Check if the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} is full. 
+
+\begin{DoxyReturn}{傳回值}
+, true if length is equal to capacity else return false 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{get\+Type()}{getType()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T$\ast$ {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_ae999b0d68ca72cd776a3d6e596cff2f4}{}\label{class_i_dream_sky_1_1_vector_ae999b0d68ca72cd776a3d6e596cff2f4}
+
+
+\hyperlink{class_i_dream_sky_1_1_vector}{Vector} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!insert@{insert}}
+\index{insert@{insert}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{insert(int at)}{insert(int at)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::insert (
+\begin{DoxyParamCaption}
+\item[{int}]{at}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a0db13e0805dd3c7ae673dedc58f7a046}{}\label{class_i_dream_sky_1_1_vector_a0db13e0805dd3c7ae673dedc58f7a046}
+
+
+insert an element at i-\/th position of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of newly inserted i-\/th element 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!insert@{insert}}
+\index{insert@{insert}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{insert()}{insert()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::insert (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a2b6c89314177de6f83ff31ade0247a6a}{}\label{class_i_dream_sky_1_1_vector_a2b6c89314177de6f83ff31ade0247a6a}
+
+
+This function behave same as \hyperlink{class_i_dream_sky_1_1_vector_a12b1b598f7e96440dc154413c6dbd2b7}{back()} 
+
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_vector_a12b1b598f7e96440dc154413c6dbd2b7}{back()} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!length@{length}}
+\index{length@{length}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{length() const }{length() const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_ac4d19b6d0c51f31abb9fa1e976ba98fe}{}\label{class_i_dream_sky_1_1_vector_ac4d19b6d0c51f31abb9fa1e976ba98fe}
+
+
+Get the length of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. 
+
+\begin{DoxyReturn}{傳回值}
+, int, the length of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!pop@{pop}}
+\index{pop@{pop}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{pop()}{pop()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a4ab4981cd45eb47bd055ab5b8b08dd4c}{}\label{class_i_dream_sky_1_1_vector_a4ab4981cd45eb47bd055ab5b8b08dd4c}
+
+
+remove an element at the end of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of last element 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!push@{push}}
+\index{push@{push}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{push()}{push()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ T\& {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::push (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_afc6fb1459f439462705a4da35903ff46}{}\label{class_i_dream_sky_1_1_vector_afc6fb1459f439462705a4da35903ff46}
+
+
+append an element at the end of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} 
+
+\begin{DoxyReturn}{傳回值}
+, T\&, the reference of last element 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!remove@{remove}}
+\index{remove@{remove}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{remove(int index)}{remove(int index)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::remove (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_aeceea0510aa63871e34986bf20fbfe0a}{}\label{class_i_dream_sky_1_1_vector_aeceea0510aa63871e34986bf20fbfe0a}
+
+
+remove the i-\/th element from the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!resize@{resize}}
+\index{resize@{resize}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{resize(int length\+\_\+)}{resize(int length_)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::resize (
+\begin{DoxyParamCaption}
+\item[{int}]{length\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_aee1b78ffb3522750babb05a1ef96f027}{}\label{class_i_dream_sky_1_1_vector_aee1b78ffb3522750babb05a1ef96f027}
+
+
+resize the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} to length\+\_\+ 
+
+
+\begin{DoxyParams}{參數}
+{\em length\+\_\+,the} & new length of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!search@{search}}
+\index{search@{search}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{search(const T \&item) const }{search(const T &item) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ int {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::search (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{item}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a070bf8c6fede9ef23308a989d2f119be}{}\label{class_i_dream_sky_1_1_vector_a070bf8c6fede9ef23308a989d2f119be}
+
+
+search for an element and return its position index 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!sort@{sort}}
+\index{sort@{sort}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{sort(\+Compare method)}{sort(Compare method)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::sort (
+\begin{DoxyParamCaption}
+\item[{Compare}]{method}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_a23f69fbe1049987fdea11fcc29a342b5}{}\label{class_i_dream_sky_1_1_vector_a23f69fbe1049987fdea11fcc29a342b5}
+
+
+sort the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} 
+
+
+\begin{DoxyParams}{參數}
+{\em method,the} & Compare method of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}!valid@{valid}}
+\index{valid@{valid}!I\+Dream\+Sky\+::\+Vector@{I\+Dream\+Sky\+::\+Vector}}
+\subsubsection[{\texorpdfstring{valid(int i) const }{valid(int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ bool {\bf I\+Dream\+Sky\+::\+Vector}$<$ T $>$\+::valid (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_vector_affd72df325d6419ffb4f63ad1ac17f53}{}\label{class_i_dream_sky_1_1_vector_affd72df325d6419ffb4f63ad1ac17f53}
+
+
+Check if the index is with the range of \hyperlink{class_i_dream_sky_1_1_vector}{Vector}. 
+
+\begin{DoxyReturn}{傳回值}
+, true if i is within the length of the \hyperlink{class_i_dream_sky_1_1_vector}{Vector} 
+\end{DoxyReturn}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Array.\+h\end{DoxyCompactItemize}

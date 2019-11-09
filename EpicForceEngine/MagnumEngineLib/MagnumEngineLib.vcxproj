@@ -1,0 +1,1031 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Final|Win32">
+      <Configuration>Final</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MagnumCore\AABB2.cpp" />
+    <ClCompile Include="MagnumCore\AABB3.cpp" />
+    <ClCompile Include="MagnumCore\AnimBase.cpp" />
+    <ClCompile Include="MagnumCore\Audio.cpp" />
+    <ClCompile Include="MagnumCore\AudioClip.cpp" />
+    <ClCompile Include="MagnumCore\AudioComponent.cpp" />
+    <ClCompile Include="MagnumCore\AudioListener.cpp" />
+    <ClCompile Include="MagnumCore\AudioListenerBase.cpp" />
+    <ClCompile Include="MagnumCore\AudioSourceBase.cpp" />
+    <ClCompile Include="MagnumCore\AudioStream.cpp" />
+    <ClCompile Include="MagnumCore\BaryCentric.cpp" />
+    <ClCompile Include="MagnumCore\BasicScene.cpp" />
+    <ClCompile Include="MagnumCore\Box3Collider.cpp" />
+    <ClCompile Include="MagnumCore\BVHTriangleMeshCollider.cpp" />
+    <ClCompile Include="MagnumCore\BVHTriangleMeshShape3.cpp" />
+    <ClCompile Include="MagnumCore\CapsuleBound.cpp" />
+    <ClCompile Include="MagnumCore\Collision.cpp" />
+    <ClCompile Include="MagnumCore\EditorGizmo.cpp" />
+    <ClCompile Include="MagnumCore\GameDescriptor.cpp" />
+    <ClCompile Include="MagnumCore\Graphics2Component.cpp" />
+    <ClCompile Include="MagnumCore\Graphics3Component.cpp" />
+    <ClCompile Include="MagnumCore\MagnumPrefab.cpp" />
+    <ClCompile Include="MagnumCore\MagnumScene.cpp" />
+    <ClCompile Include="MagnumCore\OrthographicCameraComponent.cpp" />
+    <ClCompile Include="MagnumCore\PerspectiveCameraComponent.cpp" />
+    <ClCompile Include="MagnumCore\Capsule3Collider.cpp" />
+    <ClCompile Include="MagnumCore\ClassIndexMap.cpp" />
+    <ClCompile Include="MagnumCore\Cone3Collider.cpp" />
+    <ClCompile Include="MagnumCore\Cylinder3Collider.cpp" />
+    <ClCompile Include="MagnumCore\EditorCameraComponent.cpp" />
+    <ClCompile Include="MagnumCore\EntityFieldReader.cpp" />
+    <ClCompile Include="MagnumCore\EntityFieldWriter.cpp" />
+    <ClCompile Include="MagnumCore\EntityPropertyReader.cpp" />
+    <ClCompile Include="MagnumCore\EntityPropertyWriter.cpp" />
+    <ClCompile Include="MagnumCore\EditorGizmoRenderer.cpp" />
+    <ClCompile Include="MagnumCore\GXDebugRenderer.cpp" />
+    <ClCompile Include="MagnumCore\HeightFieldCollider.cpp" />
+    <ClCompile Include="MagnumCore\IComponentDebugRenderer.cpp" />
+    <ClCompile Include="MagnumCore\ParticleEmitter.cpp" />
+    <ClCompile Include="MagnumCore\ParticleEmitterRenderer.cpp" />
+    <ClCompile Include="MagnumCore\RaySphereCast.cpp" />
+    <ClCompile Include="MagnumCore\Rectangle2.cpp" />
+    <ClCompile Include="MagnumCore\SceneCollision.cpp" />
+    <ClCompile Include="MagnumCore\Selection3.cpp" />
+    <ClCompile Include="MagnumCore\ProjectModelViewBase.cpp" />
+    <ClCompile Include="MagnumCore\ReflectedClassFieldReader.cpp" />
+    <ClCompile Include="MagnumCore\ReflectedClassFieldWriter.cpp" />
+    <ClCompile Include="MagnumCore\ReflectedClassPropertyReader.cpp" />
+    <ClCompile Include="MagnumCore\ReflectedClassPropertyWriter.cpp" />
+    <ClCompile Include="MagnumCore\reflection.cpp" />
+    <ClCompile Include="MagnumCore\ResourcePath.cpp" />
+    <ClCompile Include="MagnumCore\Shape3.cpp" />
+    <ClCompile Include="MagnumCore\BoxShape3.cpp" />
+    <ClCompile Include="MagnumCore\CapsuleShape3.cpp" />
+    <ClCompile Include="MagnumCore\ConeShape3.cpp" />
+    <ClCompile Include="MagnumCore\CylinderShape3.cpp" />
+    <ClCompile Include="MagnumCore\HeightFieldShape3.cpp" />
+    <ClCompile Include="MagnumCore\Physics3.cpp" />
+    <ClCompile Include="MagnumCore\SkeletalAnimation.cpp" />
+    <ClCompile Include="MagnumCore\SkeletalAnimModel.cpp" />
+    <ClCompile Include="MagnumCore\SkeletalAnimModelComponent.cpp" />
+    <ClCompile Include="MagnumCore\SkeletalAnimModelRenderer.cpp" />
+    <ClCompile Include="MagnumCore\Arc2.cpp" />
+    <ClCompile Include="MagnumCore\Array.cpp" />
+    <ClCompile Include="MagnumCore\AttributesBlock.cpp" />
+    <ClCompile Include="MagnumCore\BillBoard.cpp" />
+    <ClCompile Include="MagnumCore\BillBoardRenderer.cpp" />
+    <ClCompile Include="MagnumCore\CameraComponent.cpp" />
+    <ClCompile Include="MagnumCore\Component.cpp" />
+    <ClCompile Include="MagnumCore\Cube.cpp" />
+    <ClCompile Include="MagnumCore\CubeRenderer.cpp" />
+    <ClCompile Include="MagnumCore\DiffuseMapCube.cpp" />
+    <ClCompile Include="MagnumCore\DiffuseMapCubeRenderer.cpp" />
+    <ClCompile Include="MagnumCore\DiffuseMapSpecularMapCube.cpp" />
+    <ClCompile Include="MagnumCore\DiffuseMapSpecularMapCubeRenderer.cpp" />
+    <ClCompile Include="MagnumCore\EString.cpp" />
+    <ClCompile Include="MagnumCore\ESystem.cpp" />
+    <ClCompile Include="MagnumCore\FileIO.cpp" />
+    <ClCompile Include="MagnumCore\Font.cpp" />
+    <ClCompile Include="MagnumCore\GXAttribute.cpp" />
+    <ClCompile Include="MagnumCore\GXBlendState.cpp" />
+    <ClCompile Include="MagnumCore\GXColorBuffer.cpp" />
+    <ClCompile Include="MagnumCore\GXContext.cpp" />
+    <ClCompile Include="MagnumCore\GXCullState.cpp" />
+    <ClCompile Include="MagnumCore\GXDef.cpp" />
+    <ClCompile Include="MagnumCore\GXDepthBuffer.cpp" />
+    <ClCompile Include="MagnumCore\GXDepthTestState.cpp" />
+    <ClCompile Include="MagnumCore\GXFrameBuffer.cpp" />
+    <ClCompile Include="MagnumCore\GXIndexBuffer.cpp" />
+    <ClCompile Include="MagnumCore\GXPixelBuffer.cpp" />
+    <ClCompile Include="MagnumCore\GXPolygonOffsetState.cpp" />
+    <ClCompile Include="MagnumCore\GXPrimitive.cpp" />
+    <ClCompile Include="MagnumCore\GXRenderTarget.cpp" />
+    <ClCompile Include="MagnumCore\GXShaderProgram.cpp" />
+    <ClCompile Include="MagnumCore\GXStencilTestState.cpp" />
+    <ClCompile Include="MagnumCore\GXStencilOpState.cpp" />
+    <ClCompile Include="MagnumCore\GXTexture.cpp" />
+    <ClCompile Include="MagnumCore\GXTexture2D.cpp" />
+    <ClCompile Include="MagnumCore\GXTextureCube.cpp" />
+    <ClCompile Include="MagnumCore\GXTextureFilterState.cpp" />
+    <ClCompile Include="MagnumCore\GXTextureWrapState.cpp" />
+    <ClCompile Include="MagnumCore\GXUniform.cpp" />
+    <ClCompile Include="MagnumCore\GXVertexBuffer.cpp" />
+    <ClCompile Include="MagnumCore\InputStream.cpp" />
+    <ClCompile Include="MagnumCore\IO.cpp" />
+    <ClCompile Include="MagnumCore\List.cpp" />
+    <ClCompile Include="MagnumCore\OutputStream.cpp" />
+    <ClCompile Include="MagnumCore\Platform.cpp" />
+    <ClCompile Include="MagnumCore\PVRTexConvert.cpp" />
+    <ClCompile Include="MagnumCore\PVRTexLoad.cpp" />
+    <ClCompile Include="MagnumCore\BezierCurve2.cpp" />
+    <ClCompile Include="MagnumCore\BezierCurve3.cpp" />
+    <ClCompile Include="MagnumCore\BSplineBasis.cpp" />
+    <ClCompile Include="MagnumCore\BSplineCurve2.cpp" />
+    <ClCompile Include="MagnumCore\BSplineCurve3.cpp" />
+    <ClCompile Include="MagnumCore\BVector2.cpp" />
+    <ClCompile Include="MagnumCore\BVector3.cpp" />
+    <ClCompile Include="MagnumCore\BVector4.cpp" />
+    <ClCompile Include="MagnumCore\Capsule3.cpp" />
+    <ClCompile Include="MagnumCore\Circle2.cpp" />
+    <ClCompile Include="MagnumCore\Circle3.cpp" />
+    <ClCompile Include="MagnumCore\ColorRGB.cpp" />
+    <ClCompile Include="MagnumCore\ColorRGBA.cpp" />
+    <ClCompile Include="MagnumCore\Cone3.cpp" />
+    <ClCompile Include="MagnumCore\Curve2.cpp" />
+    <ClCompile Include="MagnumCore\Curve3.cpp" />
+    <ClCompile Include="MagnumCore\Cylinder3.cpp" />
+    <ClCompile Include="MagnumCore\Delegate.cpp" />
+    <ClCompile Include="MagnumCore\EMath.cpp" />
+    <ClCompile Include="MagnumCore\Entity.cpp" />
+    <ClCompile Include="MagnumCore\Frame3.cpp" />
+    <ClCompile Include="MagnumCore\Input.cpp" />
+    <ClCompile Include="MagnumCore\IVector2.cpp" />
+    <ClCompile Include="MagnumCore\IVector3.cpp" />
+    <ClCompile Include="MagnumCore\IVector4.cpp" />
+    <ClCompile Include="MagnumCore\Line2.cpp" />
+    <ClCompile Include="MagnumCore\Line3.cpp" />
+    <ClCompile Include="MagnumCore\Lozenge3.cpp" />
+    <ClCompile Include="MagnumCore\Matrix2.cpp" />
+    <ClCompile Include="MagnumCore\Matrix3.cpp" />
+    <ClCompile Include="MagnumCore\Matrix4.cpp" />
+    <ClCompile Include="MagnumCore\MultipleCurve2.cpp" />
+    <ClCompile Include="MagnumCore\MultipleCurve3.cpp" />
+    <ClCompile Include="MagnumCore\Plane3.cpp" />
+    <ClCompile Include="MagnumCore\Polyhedron3.cpp" />
+    <ClCompile Include="MagnumCore\Polynomial1.cpp" />
+    <ClCompile Include="MagnumCore\Quadratic2.cpp" />
+    <ClCompile Include="MagnumCore\Quadratic3.cpp" />
+    <ClCompile Include="MagnumCore\Quaternion.cpp" />
+    <ClCompile Include="MagnumCore\Ray2.cpp" />
+    <ClCompile Include="MagnumCore\Ray3.cpp" />
+    <ClCompile Include="MagnumCore\Rectangle3.cpp" />
+    <ClCompile Include="MagnumCore\RendererBase.cpp" />
+    <ClCompile Include="MagnumCore\RenderStatesBlock.cpp" />
+    <ClCompile Include="MagnumCore\ResourceAccess.cpp" />
+    <ClCompile Include="MagnumCore\ResourceImport.cpp" />
+    <ClCompile Include="MagnumCore\Scene.cpp" />
+    <ClCompile Include="MagnumCore\Segment2.cpp" />
+    <ClCompile Include="MagnumCore\Segment3.cpp" />
+    <ClCompile Include="MagnumCore\Service.cpp" />
+    <ClCompile Include="MagnumCore\ShaderProgramBlock.cpp" />
+    <ClCompile Include="MagnumCore\SingleCurve2.cpp" />
+    <ClCompile Include="MagnumCore\SingleCurve3.cpp" />
+    <ClCompile Include="MagnumCore\SkeletalAnimBase.cpp" />
+    <ClCompile Include="MagnumCore\SkeletalAnimBlender.cpp" />
+    <ClCompile Include="MagnumCore\SkySphere.cpp" />
+    <ClCompile Include="MagnumCore\SkySphereRenderer.cpp" />
+    <ClCompile Include="MagnumCore\Sphere3.cpp" />
+    <ClCompile Include="MagnumCore\Sphere3Collision.cpp" />
+    <ClCompile Include="MagnumCore\SphereBound.cpp" />
+    <ClCompile Include="MagnumCore\Sphere3Collider.cpp" />
+    <ClCompile Include="MagnumCore\SphereShape3.cpp" />
+    <ClCompile Include="MagnumCore\SpriteSheet.cpp" />
+    <ClCompile Include="MagnumCore\Stage.cpp" />
+    <ClCompile Include="MagnumCore\StagePCPlatformDepFunc.cpp" />
+    <ClCompile Include="MagnumCore\State.cpp" />
+    <ClCompile Include="MagnumCore\StateMachine.cpp" />
+    <ClCompile Include="MagnumCore\TCBSpline2.cpp" />
+    <ClCompile Include="MagnumCore\TCBSpline3.cpp" />
+    <ClCompile Include="MagnumCore\Tetrahedron3.cpp" />
+    <ClCompile Include="MagnumCore\Texture2DBase.cpp" />
+    <ClCompile Include="MagnumCore\Texture2DFile.cpp" />
+    <ClCompile Include="MagnumCore\TextureBase.cpp" />
+    <ClCompile Include="MagnumCore\TextureCubeBase.cpp" />
+    <ClCompile Include="MagnumCore\TextureCubeFile.cpp" />
+    <ClCompile Include="MagnumCore\TextureUniformsBlock.cpp" />
+    <ClCompile Include="MagnumCore\tinystr.cpp" />
+    <ClCompile Include="MagnumCore\tinyxml.cpp" />
+    <ClCompile Include="MagnumCore\tinyxmlerror.cpp" />
+    <ClCompile Include="MagnumCore\tinyxmlparser.cpp" />
+    <ClCompile Include="MagnumCore\Transform.cpp" />
+    <ClCompile Include="MagnumCore\Triangle2.cpp" />
+    <ClCompile Include="MagnumCore\Triangle3.cpp" />
+    <ClCompile Include="MagnumCore\UniformsBlock.cpp" />
+    <ClCompile Include="MagnumCore\Vector10.cpp" />
+    <ClCompile Include="MagnumCore\Vector2.cpp" />
+    <ClCompile Include="MagnumCore\Vector3.cpp" />
+    <ClCompile Include="MagnumCore\Vector4.cpp" />
+    <ClCompile Include="MagnumCore\SRTTransform.cpp" />
+    <ClCompile Include="MagnumCore\VehicleCollider.cpp" />
+    <ClCompile Include="MagnumCore\Video.cpp" />
+    <ClCompile Include="MagnumCore\VisualEffect.cpp" />
+    <ClCompile Include="MagnumCore\ZipFile.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\b2BroadPhase.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\b2CollideCircle.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\b2CollideEdge.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\b2CollidePolygon.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\b2Collision.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\b2Distance.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\b2DynamicTree.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\b2TimeOfImpact.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\Shapes\b2ChainShape.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\Shapes\b2CircleShape.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\Shapes\b2EdgeShape.cpp" />
+    <ClCompile Include="SDK\Box2D\Collision\Shapes\b2PolygonShape.cpp" />
+    <ClCompile Include="SDK\Box2D\Common\b2BlockAllocator.cpp" />
+    <ClCompile Include="SDK\Box2D\Common\b2Draw.cpp" />
+    <ClCompile Include="SDK\Box2D\Common\b2Math.cpp" />
+    <ClCompile Include="SDK\Box2D\Common\b2Settings.cpp" />
+    <ClCompile Include="SDK\Box2D\Common\b2StackAllocator.cpp" />
+    <ClCompile Include="SDK\Box2D\Common\b2Timer.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\b2Body.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\b2ContactManager.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\b2Fixture.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\b2Island.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\b2World.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\b2WorldCallbacks.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2CircleContact.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2Contact.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2ContactSolver.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Contacts\b2PolygonContact.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2DistanceJoint.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2FrictionJoint.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2GearJoint.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2Joint.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2MouseJoint.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2PulleyJoint.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2RopeJoint.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2WeldJoint.cpp" />
+    <ClCompile Include="SDK\Box2D\Dynamics\Joints\b2WheelJoint.cpp" />
+    <ClCompile Include="SDK\Box2D\Rope\b2Rope.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDbvt.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDispatcher.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionObject.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionWorld.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btGhostObject.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btManifoldResult.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\btUnionFind.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btBox2dShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btBoxShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btCapsuleShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btCollisionShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btCompoundShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConcaveShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConeShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvex2dShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexHullShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexInternalShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btCylinderShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btEmptyShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btMultiSphereShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btOptimizedBvh.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btShapeHull.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btSphereShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTetrahedronShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleBuffer.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleCallback.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleMesh.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\CollisionShapes\btUniformScalingShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btContactProcessing.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btGenericPoolAllocator.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactBvh.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactQuantizedBvh.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactShape.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\btTriangleShapeEx.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\gim_box_set.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\gim_contact.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\gim_memory.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\Gimpact\gim_tri_collision.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Character\btKinematicCharacterController.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btContactConstraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGearConstraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Dynamics\btRigidBody.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Dynamics\Bullet-C-API.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Vehicle\btRaycastVehicle.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletDynamics\Vehicle\btWheelInfo.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btDefaultSoftBodySolver.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftBody.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftBodyHelpers.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftRigidCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftRigidDynamicsWorld.cpp" />
+    <ClCompile Include="SDK\Bullet\BulletSoftBody\btSoftSoftCollisionAlgorithm.cpp" />
+    <ClCompile Include="SDK\Bullet\LinearMath\btAlignedAllocator.cpp" />
+    <ClCompile Include="SDK\Bullet\LinearMath\btConvexHull.cpp" />
+    <ClCompile Include="SDK\Bullet\LinearMath\btConvexHullComputer.cpp" />
+    <ClCompile Include="SDK\Bullet\LinearMath\btGeometryUtil.cpp" />
+    <ClCompile Include="SDK\Bullet\LinearMath\btPolarDecomposition.cpp" />
+    <ClCompile Include="SDK\Bullet\LinearMath\btQuickprof.cpp" />
+    <ClCompile Include="SDK\Bullet\LinearMath\btSerializer.cpp" />
+    <ClCompile Include="SDK\Bullet\LinearMath\btVector3.cpp" />
+    <ClCompile Include="SDK\unzip\ioapi.c" />
+    <ClCompile Include="SDK\unzip\iowin32.c" />
+    <ClCompile Include="SDK\unzip\mztools.c" />
+    <ClCompile Include="SDK\unzip\unzip.c" />
+    <ClCompile Include="SDK\unzip\zip.c" />
+    <ClCompile Include="SDK\zlib\adler32.c" />
+    <ClCompile Include="SDK\zlib\compress.c" />
+    <ClCompile Include="SDK\zlib\crc32.c" />
+    <ClCompile Include="SDK\zlib\deflate.c" />
+    <ClCompile Include="SDK\zlib\gzclose.c" />
+    <ClCompile Include="SDK\zlib\gzlib.c" />
+    <ClCompile Include="SDK\zlib\gzread.c" />
+    <ClCompile Include="SDK\zlib\gzwrite.c" />
+    <ClCompile Include="SDK\zlib\infback.c" />
+    <ClCompile Include="SDK\zlib\inffast.c" />
+    <ClCompile Include="SDK\zlib\inflate.c" />
+    <ClCompile Include="SDK\zlib\inftrees.c" />
+    <ClCompile Include="SDK\zlib\trees.c" />
+    <ClCompile Include="SDK\zlib\uncompr.c" />
+    <ClCompile Include="SDK\zlib\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MagnumCore\AABB2.h" />
+    <ClInclude Include="MagnumCore\AABB3.h" />
+    <ClInclude Include="MagnumCore\AnimBase.h" />
+    <ClInclude Include="MagnumCore\Audio.h" />
+    <ClInclude Include="MagnumCore\AudioClip.h" />
+    <ClInclude Include="MagnumCore\AudioComponent.h" />
+    <ClInclude Include="MagnumCore\AudioListener.h" />
+    <ClInclude Include="MagnumCore\AudioListenerBase.h" />
+    <ClInclude Include="MagnumCore\AudioSourceBase.h" />
+    <ClInclude Include="MagnumCore\AudioStream.h" />
+    <ClInclude Include="MagnumCore\BaryCentric.h" />
+    <ClInclude Include="MagnumCore\BasicScene.h" />
+    <ClInclude Include="MagnumCore\Box3Collider.h" />
+    <ClInclude Include="MagnumCore\BVHTriangleMeshCollider.h" />
+    <ClInclude Include="MagnumCore\BVHTriangleMeshShape3.h" />
+    <ClInclude Include="MagnumCore\CapsuleBound.h" />
+    <ClInclude Include="MagnumCore\Collision.h" />
+    <ClInclude Include="MagnumCore\EditorGizmo.h" />
+    <ClInclude Include="MagnumCore\GameDescriptor.h" />
+    <ClInclude Include="MagnumCore\Graphics2Component.h" />
+    <ClInclude Include="MagnumCore\Graphics3Component.h" />
+    <ClInclude Include="MagnumCore\MagnumPrefab.h" />
+    <ClInclude Include="MagnumCore\MagnumScene.h" />
+    <ClInclude Include="MagnumCore\OrthographicCameraComponent.h" />
+    <ClInclude Include="MagnumCore\PerspectiveCameraComponent.h" />
+    <ClInclude Include="MagnumCore\Capsule3Collider.h" />
+    <ClInclude Include="MagnumCore\ClassIndexMap.h" />
+    <ClInclude Include="MagnumCore\Cone3Collider.h" />
+    <ClInclude Include="MagnumCore\Cylinder3Collider.h" />
+    <ClInclude Include="MagnumCore\EditorCameraComponent.h" />
+    <ClInclude Include="MagnumCore\EntityFieldReader.h" />
+    <ClInclude Include="MagnumCore\EntityFieldWriter.h" />
+    <ClInclude Include="MagnumCore\EntityPropertyReader.h" />
+    <ClInclude Include="MagnumCore\EntityPropertyWriter.h" />
+    <ClInclude Include="MagnumCore\EditorGizmoRenderer.h" />
+    <ClInclude Include="MagnumCore\gldef.h" />
+    <ClInclude Include="MagnumCore\GXDebugRenderer.h" />
+    <ClInclude Include="MagnumCore\HeightFieldCollider.h" />
+    <ClInclude Include="MagnumCore\IComponentDebugRenderer.h" />
+    <ClInclude Include="MagnumCore\ParticleEmitter.h" />
+    <ClInclude Include="MagnumCore\ParticleEmitterRenderer.h" />
+    <ClInclude Include="MagnumCore\RaySphereCast.h" />
+    <ClInclude Include="MagnumCore\Rectangle2.h" />
+    <ClInclude Include="MagnumCore\SceneCollision.h" />
+    <ClInclude Include="MagnumCore\Selection3.h" />
+    <ClInclude Include="MagnumCore\ProjectModelViewBase.h" />
+    <ClInclude Include="MagnumCore\ReflectedClassFieldReader.h" />
+    <ClInclude Include="MagnumCore\ReflectedClassFieldWriter.h" />
+    <ClInclude Include="MagnumCore\ReflectedClassPropertyReader.h" />
+    <ClInclude Include="MagnumCore\ReflectedClassPropertyWriter.h" />
+    <ClInclude Include="MagnumCore\ResourcePath.h" />
+    <ClInclude Include="MagnumCore\Shape3.h" />
+    <ClInclude Include="MagnumCore\BoxShape3.h" />
+    <ClInclude Include="MagnumCore\CapsuleShape3.h" />
+    <ClInclude Include="MagnumCore\ConeShape3.h" />
+    <ClInclude Include="MagnumCore\CylinderShape3.h" />
+    <ClInclude Include="MagnumCore\HeightFieldShape3.h" />
+    <ClInclude Include="MagnumCore\Physics3.h" />
+    <ClInclude Include="MagnumCore\reflection.h" />
+    <ClInclude Include="MagnumCore\Semantic.h" />
+    <ClInclude Include="MagnumCore\SkeletalAnimation.h" />
+    <ClInclude Include="MagnumCore\SkeletalAnimModel.h" />
+    <ClInclude Include="MagnumCore\SkeletalAnimModelComponent.h" />
+    <ClInclude Include="MagnumCore\SkeletalAnimModelRenderer.h" />
+    <ClInclude Include="MagnumCore\Arc2.h" />
+    <ClInclude Include="MagnumCore\Array.h" />
+    <ClInclude Include="MagnumCore\AttributesBlock.h" />
+    <ClInclude Include="MagnumCore\BillBoard.h" />
+    <ClInclude Include="MagnumCore\BillBoardRenderer.h" />
+    <ClInclude Include="MagnumCore\CameraComponent.h" />
+    <ClInclude Include="MagnumCore\Component.h" />
+    <ClInclude Include="MagnumCore\Cube.h" />
+    <ClInclude Include="MagnumCore\CubeRenderer.h" />
+    <ClInclude Include="MagnumCore\DiffuseMapCube.h" />
+    <ClInclude Include="MagnumCore\DiffuseMapCubeRenderer.h" />
+    <ClInclude Include="MagnumCore\DiffuseMapSpecularMapCube.h" />
+    <ClInclude Include="MagnumCore\DiffuseMapSpecularMapCubeRenderer.h" />
+    <ClInclude Include="MagnumCore\EString.h" />
+    <ClInclude Include="MagnumCore\ESystem.h" />
+    <ClInclude Include="MagnumCore\FileIO.h" />
+    <ClInclude Include="MagnumCore\Font.h" />
+    <ClInclude Include="MagnumCore\GXAttribute.h" />
+    <ClInclude Include="MagnumCore\GXBlendState.h" />
+    <ClInclude Include="MagnumCore\GXColorBuffer.h" />
+    <ClInclude Include="MagnumCore\GXContext.h" />
+    <ClInclude Include="MagnumCore\GXCullState.h" />
+    <ClInclude Include="MagnumCore\GXDef.h" />
+    <ClInclude Include="MagnumCore\GXDepthBuffer.h" />
+    <ClInclude Include="MagnumCore\GXDepthTestState.h" />
+    <ClInclude Include="MagnumCore\GXFrameBuffer.h" />
+    <ClInclude Include="MagnumCore\GXIndexBuffer.h" />
+    <ClInclude Include="MagnumCore\GXPixelBuffer.h" />
+    <ClInclude Include="MagnumCore\GXPolygonOffsetState.h" />
+    <ClInclude Include="MagnumCore\GXPrimitive.h" />
+    <ClInclude Include="MagnumCore\GXRenderTarget.h" />
+    <ClInclude Include="MagnumCore\GXShaderProgram.h" />
+    <ClInclude Include="MagnumCore\GXStencilTestState.h" />
+    <ClInclude Include="MagnumCore\GXStencilOpState.h" />
+    <ClInclude Include="MagnumCore\GXTexture.h" />
+    <ClInclude Include="MagnumCore\GXTexture2D.h" />
+    <ClInclude Include="MagnumCore\GXTextureCube.h" />
+    <ClInclude Include="MagnumCore\GXTextureFilterState.h" />
+    <ClInclude Include="MagnumCore\GXTextureWrapState.h" />
+    <ClInclude Include="MagnumCore\GXUniform.h" />
+    <ClInclude Include="MagnumCore\GXVertexBuffer.h" />
+    <ClInclude Include="MagnumCore\InputStream.h" />
+    <ClInclude Include="MagnumCore\IO.h" />
+    <ClInclude Include="MagnumCore\List.h" />
+    <ClInclude Include="MagnumCore\OutputStream.h" />
+    <ClInclude Include="MagnumCore\Platform.h" />
+    <ClInclude Include="MagnumCore\PVRTexConvert.h" />
+    <ClInclude Include="MagnumCore\PVRTexLoad.h" />
+    <ClInclude Include="MagnumCore\BezierCurve2.h" />
+    <ClInclude Include="MagnumCore\BezierCurve3.h" />
+    <ClInclude Include="MagnumCore\BSplineBasis.h" />
+    <ClInclude Include="MagnumCore\BSplineCurve2.h" />
+    <ClInclude Include="MagnumCore\BSplineCurve3.h" />
+    <ClInclude Include="MagnumCore\BVector2.h" />
+    <ClInclude Include="MagnumCore\BVector3.h" />
+    <ClInclude Include="MagnumCore\BVector4.h" />
+    <ClInclude Include="MagnumCore\Capsule3.h" />
+    <ClInclude Include="MagnumCore\Circle2.h" />
+    <ClInclude Include="MagnumCore\Circle3.h" />
+    <ClInclude Include="MagnumCore\ColorRGB.h" />
+    <ClInclude Include="MagnumCore\ColorRGBA.h" />
+    <ClInclude Include="MagnumCore\Cone3.h" />
+    <ClInclude Include="MagnumCore\Curve2.h" />
+    <ClInclude Include="MagnumCore\Curve3.h" />
+    <ClInclude Include="MagnumCore\Cylinder3.h" />
+    <ClInclude Include="MagnumCore\Delegate.h" />
+    <ClInclude Include="MagnumCore\EMath.h" />
+    <ClInclude Include="MagnumCore\Entity.h" />
+    <ClInclude Include="MagnumCore\MagnumEngine.h" />
+    <ClInclude Include="MagnumCore\Frame3.h" />
+    <ClInclude Include="MagnumCore\Input.h" />
+    <ClInclude Include="MagnumCore\IVector2.h" />
+    <ClInclude Include="MagnumCore\IVector3.h" />
+    <ClInclude Include="MagnumCore\IVector4.h" />
+    <ClInclude Include="MagnumCore\Line2.h" />
+    <ClInclude Include="MagnumCore\Line3.h" />
+    <ClInclude Include="MagnumCore\Lozenge3.h" />
+    <ClInclude Include="MagnumCore\Matrix2.h" />
+    <ClInclude Include="MagnumCore\Matrix3.h" />
+    <ClInclude Include="MagnumCore\Matrix4.h" />
+    <ClInclude Include="MagnumCore\MultipleCurve2.h" />
+    <ClInclude Include="MagnumCore\MultipleCurve3.h" />
+    <ClInclude Include="MagnumCore\Plane3.h" />
+    <ClInclude Include="MagnumCore\Polyhedron3.h" />
+    <ClInclude Include="MagnumCore\Polynomial1.h" />
+    <ClInclude Include="MagnumCore\Quadratic2.h" />
+    <ClInclude Include="MagnumCore\Quadratic3.h" />
+    <ClInclude Include="MagnumCore\Quaternion.h" />
+    <ClInclude Include="MagnumCore\Ray2.h" />
+    <ClInclude Include="MagnumCore\Ray3.h" />
+    <ClInclude Include="MagnumCore\Rectangle3.h" />
+    <ClInclude Include="MagnumCore\RendererBase.h" />
+    <ClInclude Include="MagnumCore\RenderStatesBlock.h" />
+    <ClInclude Include="MagnumCore\ResourceAccess.h" />
+    <ClInclude Include="MagnumCore\ResourceImport.h" />
+    <ClInclude Include="MagnumCore\Scene.h" />
+    <ClInclude Include="MagnumCore\Segment2.h" />
+    <ClInclude Include="MagnumCore\Segment3.h" />
+    <ClInclude Include="MagnumCore\Service.h" />
+    <ClInclude Include="MagnumCore\ShaderProgramBlock.h" />
+    <ClInclude Include="MagnumCore\SingleCurve2.h" />
+    <ClInclude Include="MagnumCore\SingleCurve3.h" />
+    <ClInclude Include="MagnumCore\Singleton.h" />
+    <ClInclude Include="MagnumCore\SkeletalAnimBase.h" />
+    <ClInclude Include="MagnumCore\SkeletalAnimBlender.h" />
+    <ClInclude Include="MagnumCore\SkySphere.h" />
+    <ClInclude Include="MagnumCore\SkySphereRenderer.h" />
+    <ClInclude Include="MagnumCore\Sphere3.h" />
+    <ClInclude Include="MagnumCore\Sphere3Collision.h" />
+    <ClInclude Include="MagnumCore\SphereBound.h" />
+    <ClInclude Include="MagnumCore\Sphere3Collider.h" />
+    <ClInclude Include="MagnumCore\SphereShape3.h" />
+    <ClInclude Include="MagnumCore\SpriteSheet.h" />
+    <ClInclude Include="MagnumCore\Stage.h" />
+    <ClInclude Include="MagnumCore\State.h" />
+    <ClInclude Include="MagnumCore\StateMachine.h" />
+    <ClInclude Include="MagnumCore\TCBSpline2.h" />
+    <ClInclude Include="MagnumCore\TCBSpline3.h" />
+    <ClInclude Include="MagnumCore\Tetrahedron3.h" />
+    <ClInclude Include="MagnumCore\Texture2DBase.h" />
+    <ClInclude Include="MagnumCore\Texture2DFile.h" />
+    <ClInclude Include="MagnumCore\TextureBase.h" />
+    <ClInclude Include="MagnumCore\TextureCubeBase.h" />
+    <ClInclude Include="MagnumCore\TextureCubeFile.h" />
+    <ClInclude Include="MagnumCore\TextureUniformsBlock.h" />
+    <ClInclude Include="MagnumCore\tinystr.h" />
+    <ClInclude Include="MagnumCore\tinyxml.h" />
+    <ClInclude Include="MagnumCore\Transform.h" />
+    <ClInclude Include="MagnumCore\Triangle2.h" />
+    <ClInclude Include="MagnumCore\Triangle3.h" />
+    <ClInclude Include="MagnumCore\UniformsBlock.h" />
+    <ClInclude Include="MagnumCore\Vector10.h" />
+    <ClInclude Include="MagnumCore\Vector2.h" />
+    <ClInclude Include="MagnumCore\Vector3.h" />
+    <ClInclude Include="MagnumCore\Vector4.h" />
+    <ClInclude Include="MagnumCore\SRTTransform.h" />
+    <ClInclude Include="MagnumCore\VehicleCollider.h" />
+    <ClInclude Include="MagnumCore\Video.h" />
+    <ClInclude Include="MagnumCore\VisualEffect.h" />
+    <ClInclude Include="MagnumCore\ZipFile.h" />
+    <ClInclude Include="SDK\Box2D\Box2D.h" />
+    <ClInclude Include="SDK\Box2D\Collision\b2BroadPhase.h" />
+    <ClInclude Include="SDK\Box2D\Collision\b2Collision.h" />
+    <ClInclude Include="SDK\Box2D\Collision\b2Distance.h" />
+    <ClInclude Include="SDK\Box2D\Collision\b2DynamicTree.h" />
+    <ClInclude Include="SDK\Box2D\Collision\b2TimeOfImpact.h" />
+    <ClInclude Include="SDK\Box2D\Collision\Shapes\b2ChainShape.h" />
+    <ClInclude Include="SDK\Box2D\Collision\Shapes\b2CircleShape.h" />
+    <ClInclude Include="SDK\Box2D\Collision\Shapes\b2EdgeShape.h" />
+    <ClInclude Include="SDK\Box2D\Collision\Shapes\b2PolygonShape.h" />
+    <ClInclude Include="SDK\Box2D\Collision\Shapes\b2Shape.h" />
+    <ClInclude Include="SDK\Box2D\Common\b2BlockAllocator.h" />
+    <ClInclude Include="SDK\Box2D\Common\b2Draw.h" />
+    <ClInclude Include="SDK\Box2D\Common\b2GrowableStack.h" />
+    <ClInclude Include="SDK\Box2D\Common\b2Math.h" />
+    <ClInclude Include="SDK\Box2D\Common\b2Settings.h" />
+    <ClInclude Include="SDK\Box2D\Common\b2StackAllocator.h" />
+    <ClInclude Include="SDK\Box2D\Common\b2Timer.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\b2Body.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\b2ContactManager.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\b2Fixture.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\b2Island.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\b2TimeStep.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\b2World.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\b2WorldCallbacks.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2CircleContact.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2Contact.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2ContactSolver.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Contacts\b2PolygonContact.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2DistanceJoint.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2FrictionJoint.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2GearJoint.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2Joint.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2MouseJoint.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2PrismaticJoint.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2PulleyJoint.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2RevoluteJoint.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2RopeJoint.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2WeldJoint.h" />
+    <ClInclude Include="SDK\Box2D\Dynamics\Joints\b2WheelJoint.h" />
+    <ClInclude Include="SDK\Box2D\Rope\b2Rope.h" />
+    <ClInclude Include="SDK\Bullet\btBulletCollisionCommon.h" />
+    <ClInclude Include="SDK\Bullet\btBulletDynamicsCommon.h" />
+    <ClInclude Include="SDK\Bullet\Bullet-C-Api.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btAxisSweep3.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btBroadphaseInterface.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btBroadphaseProxy.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDbvt.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDbvtBroadphase.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btDispatcher.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCache.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCallback.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btQuantizedBvh.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\BroadphaseCollision\btSimpleBroadphase.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btBoxBoxDetector.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionConfiguration.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionCreateFunc.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionDispatcher.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionObject.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionObjectWrapper.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCollisionWorld.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btGhostObject.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btInternalEdgeUtility.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btManifoldResult.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSimulationIslandManager.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\btUnionFind.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionDispatch\SphereTriangleDetector.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btBox2dShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btBoxShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btCapsuleShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btCollisionMargin.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btCollisionShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btCompoundShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConcaveShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConeShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvex2dShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexHullShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexInternalShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexPointCloudShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexPolyhedron.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btCylinderShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btEmptyShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btMaterial.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btMinkowskiSumShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btMultiSphereShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btOptimizedBvh.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btPolyhedralConvexShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btShapeHull.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btSphereShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btStaticPlaneShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btStridingMeshInterface.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTetrahedronShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleBuffer.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleCallback.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleInfoMap.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleMesh.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleMeshShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btTriangleShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\CollisionShapes\btUniformScalingShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btBoxCollision.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btClipPolygon.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btContactProcessing.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGenericPoolAllocator.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGeometryOperations.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactBvh.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactMassUtil.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactQuantizedBvh.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btGImpactShape.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btQuantization.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\btTriangleShapeEx.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_array.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_basic_geometry_operations.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_bitset.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_box_collision.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_box_set.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_clip_polygon.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_contact.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_geometry.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_geom_types.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_hash_table.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_linear_math.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_math.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_memory.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_radixsort.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\Gimpact\gim_tri_collision.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btConvexCast.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btConvexPenetrationDepthSolver.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btDiscreteCollisionDetectorInterface.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa2.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btManifoldPoint.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btPersistentManifold.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btPointCollector.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btRaycastCallback.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btSimplexSolverInterface.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.h" />
+    <ClInclude Include="SDK\Bullet\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Character\btCharacterControllerInterface.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Character\btKinematicCharacterController.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btConstraintSolver.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btContactConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btContactSolverInfo.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGearConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btHinge2Constraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btHingeConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btJacobianEntry.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSliderConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSolverBody.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btSolverConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btTypedConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\ConstraintSolver\btUniversalConstraint.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Dynamics\btActionInterface.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Dynamics\btDynamicsWorld.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Dynamics\btRigidBody.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Dynamics\btSimpleDynamicsWorld.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Vehicle\btRaycastVehicle.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Vehicle\btVehicleRaycaster.h" />
+    <ClInclude Include="SDK\Bullet\BulletDynamics\Vehicle\btWheelInfo.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btDefaultSoftBodySolver.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBody.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodyData.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodyHelpers.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodyInternals.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodySolvers.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftBodySolverVertexBuffer.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftRigidCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftRigidDynamicsWorld.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSoftSoftCollisionAlgorithm.h" />
+    <ClInclude Include="SDK\Bullet\BulletSoftBody\btSparseSDF.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btAabbUtil2.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btAlignedAllocator.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btAlignedObjectArray.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btConvexHull.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btConvexHullComputer.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btDefaultMotionState.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btGeometryUtil.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btGrahamScan2dConvexHull.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btHashMap.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btIDebugDraw.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btList.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btMatrix3x3.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btMinMax.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btMotionState.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btPolarDecomposition.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btPoolAllocator.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btQuadWord.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btQuaternion.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btQuickprof.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btRandom.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btScalar.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btSerializer.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btStackAlloc.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btTransform.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btTransformUtil.h" />
+    <ClInclude Include="SDK\Bullet\LinearMath\btVector3.h" />
+    <ClInclude Include="SDK\PVRTexLib\include\CPVRTexture.h" />
+    <ClInclude Include="SDK\PVRTexLib\include\CPVRTextureData.h" />
+    <ClInclude Include="SDK\PVRTexLib\include\CPVRTextureHeader.h" />
+    <ClInclude Include="SDK\PVRTexLib\include\Pixel.h" />
+    <ClInclude Include="SDK\PVRTexLib\include\PVRException.h" />
+    <ClInclude Include="SDK\PVRTexLib\include\PVRTexLib.h" />
+    <ClInclude Include="SDK\PVRTexLib\include\PVRTexLibGlobals.h" />
+    <ClInclude Include="SDK\PVRTexLib\include\PVRTexLibVersion.h" />
+    <ClInclude Include="SDK\PVRTexLib\include\PVRTGlobal.h" />
+    <ClInclude Include="SDK\unzip\crypt.h" />
+    <ClInclude Include="SDK\unzip\ioapi.h" />
+    <ClInclude Include="SDK\unzip\iowin32.h" />
+    <ClInclude Include="SDK\unzip\mztools.h" />
+    <ClInclude Include="SDK\unzip\unzip.h" />
+    <ClInclude Include="SDK\unzip\zip.h" />
+    <ClInclude Include="SDK\zlib\crc32.h" />
+    <ClInclude Include="SDK\zlib\deflate.h" />
+    <ClInclude Include="SDK\zlib\gzguts.h" />
+    <ClInclude Include="SDK\zlib\inffast.h" />
+    <ClInclude Include="SDK\zlib\inffixed.h" />
+    <ClInclude Include="SDK\zlib\inflate.h" />
+    <ClInclude Include="SDK\zlib\inftrees.h" />
+    <ClInclude Include="SDK\zlib\trees.h" />
+    <ClInclude Include="SDK\zlib\zconf.h" />
+    <ClInclude Include="SDK\zlib\zlib.h" />
+    <ClInclude Include="SDK\zlib\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MagnumCore\AABB2.inl" />
+    <None Include="MagnumCore\AABB3.inl" />
+    <None Include="MagnumCore\Arc2.inl" />
+    <None Include="MagnumCore\BVector2.inl" />
+    <None Include="MagnumCore\BVector3.inl" />
+    <None Include="MagnumCore\BVector4.inl" />
+    <None Include="MagnumCore\Capsule3.inl" />
+    <None Include="MagnumCore\Circle2.inl" />
+    <None Include="MagnumCore\Circle3.inl" />
+    <None Include="MagnumCore\Cone3.inl" />
+    <None Include="MagnumCore\Cylinder3.inl" />
+    <None Include="MagnumCore\EMath.inl" />
+    <None Include="MagnumCore\IVector2.inl" />
+    <None Include="MagnumCore\IVector3.inl" />
+    <None Include="MagnumCore\IVector4.inl" />
+    <None Include="MagnumCore\Line2.inl" />
+    <None Include="MagnumCore\Line3.inl" />
+    <None Include="MagnumCore\Lozenge3.inl" />
+    <None Include="MagnumCore\Matrix2.inl" />
+    <None Include="MagnumCore\Matrix3.inl" />
+    <None Include="MagnumCore\Matrix4.inl" />
+    <None Include="MagnumCore\Plane3.inl" />
+    <None Include="MagnumCore\Polyhedron3.inl" />
+    <None Include="MagnumCore\Polynomial1.inl" />
+    <None Include="MagnumCore\Quadratic2.inl" />
+    <None Include="MagnumCore\Quadratic3.inl" />
+    <None Include="MagnumCore\Quaternion.inl" />
+    <None Include="MagnumCore\Ray2.inl" />
+    <None Include="MagnumCore\Ray3.inl" />
+    <None Include="MagnumCore\Rectangle2.inl" />
+    <None Include="MagnumCore\Rectangle3.inl" />
+    <None Include="MagnumCore\Segment2.inl" />
+    <None Include="MagnumCore\Segment3.inl" />
+    <None Include="MagnumCore\Sphere3.inl" />
+    <None Include="MagnumCore\Tetrahedron3.inl" />
+    <None Include="MagnumCore\Triangle2.inl" />
+    <None Include="MagnumCore\Triangle3.inl" />
+    <None Include="MagnumCore\Vector2.inl" />
+    <None Include="MagnumCore\Vector3.inl" />
+    <None Include="MagnumCore\Vector4.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{69556AFE-0570-4861-B729-9B713D7C14BD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MagnumEngineLib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MFC_OVERRIDES_NEW;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./SDK; ./SDK/FMOD/Win32/inc; ./SDK/Box2D; ./SDK/Bullet; ./SDK/Bullet/BulletCollision; ./SDK/Bullet/BulletDynamics; ./SDK/Bullet/BulletSoftBody; ./SDK/Bullet/LinearMath; ./SDK/DevIL/include; ./sdk/freetype/include; ./sdk/freetype/include/freetype2; ./SDK/OpenGLES/GL2/Include; ./SDK/GLEW/Include/GL; ./SDK/PVRTexLib/include; ./SDK/XML; ./SDK/unzip; ./SDK/zlib;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>winmm.lib; fmodex_vc.lib; freetype.lib; PVRTexLib.lib; DevIL.lib; ILU.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir); ./SDK/FMOD/Win32/lib;  ./SDK/GLEW/Lib; ./SDK/OpenGLES/GL2/Lib; ./SDK/PVRTexLib/lib; ./SDK/DevIL/lib; ./SDK/freetype/lib; ./SDK/fbx/lib/vs2010/x86</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MFC_OVERRIDES_NEW;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../commonlib; ./SDK; ./SDK/FMOD/Win32/inc; ./SDK/Box2D; ./SDK/Bullet; ./SDK/Bullet/BulletCollision; ./SDK/Bullet/BulletDynamics; ./SDK/Bullet/BulletSoftBody; ./SDK/Bullet/LinearMath; ./SDK/DevIL/include; ./sdk/freetype/include; ./sdk/freetype/include/freetype2; ./SDK/OpenGLES/GL2/Include; ./SDK/GLEW/Include/GL; ./SDK/PVRTexLib/include; ./SDK/XML; ./SDK/unzip; ./SDK/zlib;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>winmm.lib; fmodex_vc.lib; freetype.lib; PVRTexLib.lib; DevIL.lib; ILU.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir); ./SDK/FMOD/Win32/lib;  ./SDK/GLEW/Lib; ./SDK/OpenGLES/GL2/Lib; ./SDK/PVRTexLib/lib; ./SDK/DevIL/lib; ./SDK/freetype/lib; ./SDK/fbx/lib/vs2010/x86</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MFC_OVERRIDES_NEW;FINAL;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../commonlib; ./SDK; ./SDK/FMOD/Win32/inc; ./SDK/Box2D; ./SDK/Bullet; ./SDK/Bullet/BulletCollision; ./SDK/Bullet/BulletDynamics; ./SDK/Bullet/BulletSoftBody; ./SDK/Bullet/LinearMath; ./SDK/DevIL/include; ./sdk/freetype/include; ./sdk/freetype/include/freetype2; ./SDK/OpenGLES/GL2/Include; ./SDK/GLEW/Include/GL; ./SDK/PVRTexLib/include; ./SDK/XML; ./SDK/unzip; ./SDK/zlib;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>winmm.lib; fmodex_vc.lib; freetype.lib; PVRTexLib.lib; DevIL.lib; ILU.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir); ./SDK/FMOD/Win32/lib;  ./SDK/GLEW/Lib; ./SDK/OpenGLES/GL2/Lib; ./SDK/PVRTexLib/lib; ./SDK/DevIL/lib; ./SDK/freetype/lib; ./SDK/fbx/lib/vs2010/x86</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

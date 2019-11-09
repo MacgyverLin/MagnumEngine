@@ -1,0 +1,168 @@
+\hypertarget{class_i_dream_sky_1_1_material_1_1_pass}{}\section{I\+Dream\+Sky\+:\+:Material\+:\+:Pass 類別 參考文件}
+\label{class_i_dream_sky_1_1_material_1_1_pass}\index{I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}.  
+
+
+
+
+{\ttfamily \#include $<$Material.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_pass_acb73e4580b0eeec0d51c144ab33b7616}{Pass} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_material_1_1_pass_a8c351b64488af5bd772601b6e69d14fd}{$\sim$\+Pass} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_pass_a235855b54aa05362e3d622681af51104}{Pass} (\hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Material\+::\+Pass} \&other)
+\begin{DoxyCompactList}\small\item\em Copy Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Material\+::\+Pass} \& \hyperlink{class_i_dream_sky_1_1_material_1_1_pass_a34cc97c15834661bb7266c3147265f7d}{operator=} (const \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Material\+::\+Pass} \&other)
+\begin{DoxyCompactList}\small\item\em Assigned operator. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_i_dream_sky_1_1_material_1_1_pass_a56a4219ed3f8d2a1cc6f4ecb6e28c691}{get\+Name} () const 
+\begin{DoxyCompactList}\small\item\em Get the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Material\+::\+Render\+State} \& \hyperlink{class_i_dream_sky_1_1_material_1_1_pass_a4a412323035eacfe58026b5073d0f8b4}{get\+Render\+State} ()
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} of this \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_material_1_1_shader_state}{Material\+::\+Shader\+State} \& \hyperlink{class_i_dream_sky_1_1_material_1_1_pass_a264601abd6e2243c0e734d67ed95b8c6}{get\+Shader\+State} ()
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_i_dream_sky_1_1_material_1_1_shader_state}{Shader\+State} of this \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_material_1_1_pass_a0a060b8be5270104743fdb8efe5fa348}{apply} ()\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_a0a060b8be5270104743fdb8efe5fa348}{}\label{class_i_dream_sky_1_1_material_1_1_pass_a0a060b8be5270104743fdb8efe5fa348}
+
+\begin{DoxyCompactList}\small\item\em apply the R\+Ender\+State, \hyperlink{class_i_dream_sky_1_1_material_1_1_shader_state}{Shader\+State} of the \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_material_1_1_pass_afb19c57c57e99824bee63fded7c4cb50}{restore} ()\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_afb19c57c57e99824bee63fded7c4cb50}{}\label{class_i_dream_sky_1_1_material_1_1_pass_afb19c57c57e99824bee63fded7c4cb50}
+
+\begin{DoxyCompactList}\small\item\em restore any \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State}, \hyperlink{class_i_dream_sky_1_1_material_1_1_shader_state}{Shader\+State} changed by this \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} \end{DoxyCompactList}\item 
+void {\bfseries read} (\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_a5630ce4c5ed58e481429dcd49a73309b}{}\label{class_i_dream_sky_1_1_material_1_1_pass_a5630ce4c5ed58e481429dcd49a73309b}
+
+\item 
+void {\bfseries write} (\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_i_dream_sky_1_1_material_1_1_pass_a828c2f82220231c8b1a5aa7140a1e3bc}{}\label{class_i_dream_sky_1_1_material_1_1_pass_a828c2f82220231c8b1a5aa7140a1e3bc}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Material}\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_aa1212b6e372a0f45d2c01f3cd203af77}{}\label{class_i_dream_sky_1_1_material_1_1_pass_aa1212b6e372a0f45d2c01f3cd203af77}
+
+\item 
+class {\bfseries Material\+::\+Resource}\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_a6a002bcee6c883089769545352e9ccbd}{}\label{class_i_dream_sky_1_1_material_1_1_pass_a6a002bcee6c883089769545352e9ccbd}
+
+\item 
+class {\bfseries Material\+::\+Resource\+Importer}\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_a941a71e735085112a8496c27836506ee}{}\label{class_i_dream_sky_1_1_material_1_1_pass_a941a71e735085112a8496c27836506ee}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}. 
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}. This is the \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}, contains \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} Shader \hyperlink{class_i_dream_sky_1_1_state}{State} and Sampler \hyperlink{class_i_dream_sky_1_1_state}{State} of this \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}!Pass@{Pass}}
+\index{Pass@{Pass}!I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}}
+\subsubsection[{\texorpdfstring{Pass()}{Pass()}}]{\setlength{\rightskip}{0pt plus 5cm}Material\+::\+Pass\+::\+Pass (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_acb73e4580b0eeec0d51c144ab33b7616}{}\label{class_i_dream_sky_1_1_material_1_1_pass_acb73e4580b0eeec0d51c144ab33b7616}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} for the \hyperlink{class_i_dream_sky_1_1_material}{Material}. \index{I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}!````~Pass@{$\sim$\+Pass}}
+\index{````~Pass@{$\sim$\+Pass}!I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}}
+\subsubsection[{\texorpdfstring{$\sim$\+Pass()}{~Pass()}}]{\setlength{\rightskip}{0pt plus 5cm}Material\+::\+Pass\+::$\sim$\+Pass (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_a8c351b64488af5bd772601b6e69d14fd}{}\label{class_i_dream_sky_1_1_material_1_1_pass_a8c351b64488af5bd772601b6e69d14fd}
+
+
+\hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}. \index{I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}!Pass@{Pass}}
+\index{Pass@{Pass}!I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}}
+\subsubsection[{\texorpdfstring{Pass(\+Material\+::\+Pass \&other)}{Pass(Material::Pass &other)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Material\+::\+Pass\+::\+Pass (
+\begin{DoxyParamCaption}
+\item[{{\bf Material\+::\+Pass} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_a235855b54aa05362e3d622681af51104}{}\label{class_i_dream_sky_1_1_material_1_1_pass_a235855b54aa05362e3d622681af51104}
+
+
+Copy Constructor. 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}}
+\subsubsection[{\texorpdfstring{get\+Name() const }{getName() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Material\+::\+Pass\+::get\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_a56a4219ed3f8d2a1cc6f4ecb6e28c691}{}\label{class_i_dream_sky_1_1_material_1_1_pass_a56a4219ed3f8d2a1cc6f4ecb6e28c691}
+
+
+Get the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}. 
+
+\begin{DoxyReturn}{傳回值}
+, const char $\ast$, the name of this \hyperlink{class_i_dream_sky_1_1_material}{Material} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}!get\+Render\+State@{get\+Render\+State}}
+\index{get\+Render\+State@{get\+Render\+State}!I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}}
+\subsubsection[{\texorpdfstring{get\+Render\+State()}{getRenderState()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Material\+::\+Render\+State} \& Material\+::\+Pass\+::get\+Render\+State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_a4a412323035eacfe58026b5073d0f8b4}{}\label{class_i_dream_sky_1_1_material_1_1_pass_a4a412323035eacfe58026b5073d0f8b4}
+
+
+Get the \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} of this \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}. 
+
+\begin{DoxyReturn}{傳回值}
+, \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Material\+::\+Render\+State}\&, the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_render_state}{Render\+State} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}!get\+Shader\+State@{get\+Shader\+State}}
+\index{get\+Shader\+State@{get\+Shader\+State}!I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}}
+\subsubsection[{\texorpdfstring{get\+Shader\+State()}{getShaderState()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Material\+::\+Shader\+State} \& Material\+::\+Pass\+::get\+Shader\+State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_a264601abd6e2243c0e734d67ed95b8c6}{}\label{class_i_dream_sky_1_1_material_1_1_pass_a264601abd6e2243c0e734d67ed95b8c6}
+
+
+Get the \hyperlink{class_i_dream_sky_1_1_material_1_1_shader_state}{Shader\+State} of this \hyperlink{class_i_dream_sky_1_1_material_1_1_pass}{Pass}. 
+
+\begin{DoxyReturn}{傳回值}
+, \hyperlink{class_i_dream_sky_1_1_material_1_1_shader_state}{Material\+::\+Shader\+State}\&, the name of this \hyperlink{class_i_dream_sky_1_1_material_1_1_shader_state}{Shader\+State} 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}!operator=@{operator=}}
+\index{operator=@{operator=}!I\+Dream\+Sky\+::\+Material\+::\+Pass@{I\+Dream\+Sky\+::\+Material\+::\+Pass}}
+\subsubsection[{\texorpdfstring{operator=(const Material\+::\+Pass \&other)}{operator=(const Material::Pass &other)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Material\+::\+Pass} \& Material\+::\+Pass\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Material\+::\+Pass} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_material_1_1_pass_a34cc97c15834661bb7266c3147265f7d}{}\label{class_i_dream_sky_1_1_material_1_1_pass_a34cc97c15834661bb7266c3147265f7d}
+
+
+Assigned operator. 
+
+
+\begin{DoxyParams}{參數}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Material.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Material.\+cpp\end{DoxyCompactItemize}

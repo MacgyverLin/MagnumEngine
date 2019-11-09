@@ -1,0 +1,4 @@
+<map id="Magnum::Collision::getVelocity" name="Magnum::Collision::getVelocity">
+<area shape="rect" id="node2" href="$class_magnum_1_1_sphere3_collision.html#a412a102d642fd2e0d55cbeb882ff83a3" title="This function test for collision with Scene. " alt="" coords="191,5,368,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_sphere3_collision.html#a401bddbc02cbbe9aeb8ab9b536aba7fb" title="This function test for collision in general, if other_ is sphere it will call testWithSphere3. " alt="" coords="416,5,593,47"/>
+</map>

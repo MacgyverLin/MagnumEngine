@@ -1,0 +1,170 @@
+\hypertarget{class_magnum_1_1_g_x_shader_program}{}\section{Magnum\+:\+:G\+X\+Shader\+Program 類別 參考文件}
+\label{class_magnum_1_1_g_x_shader_program}\index{Magnum\+::\+G\+X\+Shader\+Program@{Magnum\+::\+G\+X\+Shader\+Program}}
+
+
+\hyperlink{class_magnum_1_1_g_x_primitive}{G\+X\+Primitive} encapsulate a Shader Program of Graphics Device.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Shader\+Program.\+h$>$}
+
+
+
+Magnum\+:\+:G\+X\+Shader\+Program的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_g_x_shader_program__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+X\+Shader\+Program} (const char $\ast$vp\+File\+Name\+\_\+, const char $\ast$fp\+File\+Name\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_string}{String} $>$ \&attribute\+Names\+\_\+)\hypertarget{class_magnum_1_1_g_x_shader_program_a67726e0d94a7e540b10aca1f9f8319c2}{}\label{class_magnum_1_1_g_x_shader_program_a67726e0d94a7e540b10aca1f9f8319c2}
+
+\item 
+{\bfseries G\+X\+Shader\+Program} (const char $\ast$vp\+File\+Image\+\_\+, unsigned int vp\+File\+Imagelength\+\_\+, const char $\ast$fp\+File\+Image\+\_\+, unsigned int fp\+File\+Imagelength\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_string}{String} $>$ \&attribute\+Names\+\_\+)\hypertarget{class_magnum_1_1_g_x_shader_program_aa676157808779825e737571decc41110}{}\label{class_magnum_1_1_g_x_shader_program_aa676157808779825e737571decc41110}
+
+\item 
+int {\bfseries get\+Uniform\+Array\+Size} (int i\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_a8d21004ff17f6e5685c4ea527dcffe04}{}\label{class_magnum_1_1_g_x_shader_program_a8d21004ff17f6e5685c4ea527dcffe04}
+
+\item 
+int {\bfseries get\+Attribute\+Count} () const \hypertarget{class_magnum_1_1_g_x_shader_program_afdae36e0a1cbc7e56cc837309c50ba84}{}\label{class_magnum_1_1_g_x_shader_program_afdae36e0a1cbc7e56cc837309c50ba84}
+
+\item 
+int {\bfseries get\+Attribute\+Idx} (const char $\ast$name\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_ab1b85ed737b8471a2d954212295759f7}{}\label{class_magnum_1_1_g_x_shader_program_ab1b85ed737b8471a2d954212295759f7}
+
+\item 
+int {\bfseries get\+Attribute\+Location} (int i\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_ae9f2d5d93fb75a00ca8849d5c3217176}{}\label{class_magnum_1_1_g_x_shader_program_ae9f2d5d93fb75a00ca8849d5c3217176}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_shader_attribute_type}{G\+X\+Shader\+Attribute\+Type} \& {\bfseries get\+Attribute\+Type} (int i\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_af8f26063bfd202b43acab94952febeeb}{}\label{class_magnum_1_1_g_x_shader_program_af8f26063bfd202b43acab94952febeeb}
+
+\item 
+const char $\ast$ {\bfseries get\+Attribute\+Name} (int i\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_ac7736f1b763e137093a34e927ab459e4}{}\label{class_magnum_1_1_g_x_shader_program_ac7736f1b763e137093a34e927ab459e4}
+
+\item 
+const char $\ast$ {\bfseries get\+Attribute\+Semantic} (int i\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_a69f1d823710011652793671fc834ac6a}{}\label{class_magnum_1_1_g_x_shader_program_a69f1d823710011652793671fc834ac6a}
+
+\item 
+int {\bfseries get\+Attribute\+Array\+Size} (int i\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_afb1d474ba89c64773dc9f2428ae5901c}{}\label{class_magnum_1_1_g_x_shader_program_afb1d474ba89c64773dc9f2428ae5901c}
+
+\item 
+int {\bfseries get\+Uniform\+Count} () const \hypertarget{class_magnum_1_1_g_x_shader_program_a7c4c8cfc18671c0d1a37a7b77909aa01}{}\label{class_magnum_1_1_g_x_shader_program_a7c4c8cfc18671c0d1a37a7b77909aa01}
+
+\item 
+int {\bfseries get\+Uniform\+Idx} (const char $\ast$name\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_a43a4db63f482c23fea3325b561ab871b}{}\label{class_magnum_1_1_g_x_shader_program_a43a4db63f482c23fea3325b561ab871b}
+
+\item 
+int {\bfseries get\+Uniform\+Location} (int i\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_a1ff7ad0c9212570616455d7f5a5ca280}{}\label{class_magnum_1_1_g_x_shader_program_a1ff7ad0c9212570616455d7f5a5ca280}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_shader_uniform_type}{G\+X\+Shader\+Uniform\+Type} \& {\bfseries get\+Uniform\+Type} (int i\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_add392032da9ad36aab05bd3c3f8137ed}{}\label{class_magnum_1_1_g_x_shader_program_add392032da9ad36aab05bd3c3f8137ed}
+
+\item 
+const char $\ast$ {\bfseries get\+Uniform\+Name} (int i\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_a5367332348b0c753d390a3f0c8940f14}{}\label{class_magnum_1_1_g_x_shader_program_a5367332348b0c753d390a3f0c8940f14}
+
+\item 
+const char $\ast$ {\bfseries get\+Uniform\+Semantic} (int i\+\_\+) const \hypertarget{class_magnum_1_1_g_x_shader_program_a556be1ab7deaab781c9b0050255cfce1}{}\label{class_magnum_1_1_g_x_shader_program_a556be1ab7deaab781c9b0050255cfce1}
+
+\item 
+void {\bfseries copy\+Uniform\+Value} (int i\+\_\+, const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&other)\hypertarget{class_magnum_1_1_g_x_shader_program_a5a091c98c4803ab0379fc559352f33ab}{}\label{class_magnum_1_1_g_x_shader_program_a5a091c98c4803ab0379fc559352f33ab}
+
+\item 
+{\footnotesize template$<$class T $>$ }\\void {\bfseries set\+Uniform\+Value} (int i\+\_\+, const T \&value\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{class_magnum_1_1_g_x_shader_program_a64288e06c6eae510897efebd8643fc36}{}\label{class_magnum_1_1_g_x_shader_program_a64288e06c6eae510897efebd8643fc36}
+
+\item 
+void {\bfseries update} ()\hypertarget{class_magnum_1_1_g_x_shader_program_a971588492c3a1afb99e3844def5d7d24}{}\label{class_magnum_1_1_g_x_shader_program_a971588492c3a1afb99e3844def5d7d24}
+
+\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bfseries uniform\+Bool} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_a38cef979c750ab0f12540852cb5afae2}{}\label{class_magnum_1_1_g_x_shader_program_a38cef979c750ab0f12540852cb5afae2}
+
+\item 
+static void {\bfseries uniform\+B\+Vec2} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_a4488386156d0c60d25d4c912d7a149ba}{}\label{class_magnum_1_1_g_x_shader_program_a4488386156d0c60d25d4c912d7a149ba}
+
+\item 
+static void {\bfseries uniform\+B\+Vec3} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_a935ee5a17d53700c577516cb4b24bc59}{}\label{class_magnum_1_1_g_x_shader_program_a935ee5a17d53700c577516cb4b24bc59}
+
+\item 
+static void {\bfseries uniform\+B\+Vec4} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_ad97944af86322788301972e01ca0322e}{}\label{class_magnum_1_1_g_x_shader_program_ad97944af86322788301972e01ca0322e}
+
+\item 
+static void {\bfseries uniform\+Int} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_a2f816f97a6f1394678250c67cf7f134e}{}\label{class_magnum_1_1_g_x_shader_program_a2f816f97a6f1394678250c67cf7f134e}
+
+\item 
+static void {\bfseries uniform\+I\+Vec2} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_a856251f0b36f652156e66da0da3d3b6d}{}\label{class_magnum_1_1_g_x_shader_program_a856251f0b36f652156e66da0da3d3b6d}
+
+\item 
+static void {\bfseries uniform\+I\+Vec3} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_ae389a4f0e8337ac02be6c002a420b965}{}\label{class_magnum_1_1_g_x_shader_program_ae389a4f0e8337ac02be6c002a420b965}
+
+\item 
+static void {\bfseries uniform\+I\+Vec4} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_ab068bb62f01075a6aa504c14b67bb301}{}\label{class_magnum_1_1_g_x_shader_program_ab068bb62f01075a6aa504c14b67bb301}
+
+\item 
+static void {\bfseries uniform\+Float} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_acb0709738dd76c277d573dfb55188126}{}\label{class_magnum_1_1_g_x_shader_program_acb0709738dd76c277d573dfb55188126}
+
+\item 
+static void {\bfseries uniform\+Vec2} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_ab7beddc5b3271d1ee2d3964cb13b52e8}{}\label{class_magnum_1_1_g_x_shader_program_ab7beddc5b3271d1ee2d3964cb13b52e8}
+
+\item 
+static void {\bfseries uniform\+Vec3} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_af7df4e7d12d0cbbe55e435ff318d3d95}{}\label{class_magnum_1_1_g_x_shader_program_af7df4e7d12d0cbbe55e435ff318d3d95}
+
+\item 
+static void {\bfseries uniform\+Vec4} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_a55fcd26b2073dfef776b0130f79b0f77}{}\label{class_magnum_1_1_g_x_shader_program_a55fcd26b2073dfef776b0130f79b0f77}
+
+\item 
+static void {\bfseries uniform\+Mat2} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_ada5efef1d737d4428e82093e3aff3acc}{}\label{class_magnum_1_1_g_x_shader_program_ada5efef1d737d4428e82093e3aff3acc}
+
+\item 
+static void {\bfseries uniform\+Mat3} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_a5340fd7b265d3b77fa2cf57c4ffc1ff2}{}\label{class_magnum_1_1_g_x_shader_program_a5340fd7b265d3b77fa2cf57c4ffc1ff2}
+
+\item 
+static void {\bfseries uniform\+Mat4} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_ac5d55f612255b10f2709efcc96cf328f}{}\label{class_magnum_1_1_g_x_shader_program_ac5d55f612255b10f2709efcc96cf328f}
+
+\item 
+static void {\bfseries uniform\+Sampler2D} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_ad30afdebc64f8c9f1a491958a4ce7802}{}\label{class_magnum_1_1_g_x_shader_program_ad30afdebc64f8c9f1a491958a4ce7802}
+
+\item 
+static void {\bfseries uniform\+Sampler\+Cube} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&uniform)\hypertarget{class_magnum_1_1_g_x_shader_program_a7cb6015dfabd087bf817cc59d25d29cf}{}\label{class_magnum_1_1_g_x_shader_program_a7cb6015dfabd087bf817cc59d25d29cf}
+
+\end{DoxyCompactItemize}
+\subsection*{公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries invalid}\hypertarget{class_magnum_1_1_g_x_shader_program_ab56c81415f470575902d917417586341}{}\label{class_magnum_1_1_g_x_shader_program_ab56c81415f470575902d917417586341}
+
+\item 
+unsigned int {\bfseries handle}\hypertarget{class_magnum_1_1_g_x_shader_program_aef6a93e9a70d80def6a378d368865d85}{}\label{class_magnum_1_1_g_x_shader_program_aef6a93e9a70d80def6a378d368865d85}
+
+\item 
+unsigned int {\bfseries vertex\+Shader\+Handle}\hypertarget{class_magnum_1_1_g_x_shader_program_af4fd047c707d39a3cae4e123e706e383}{}\label{class_magnum_1_1_g_x_shader_program_af4fd047c707d39a3cae4e123e706e383}
+
+\item 
+unsigned int {\bfseries pixel\+Shader\+Handle}\hypertarget{class_magnum_1_1_g_x_shader_program_ac1f268f183a1b29b57635c521a179e59}{}\label{class_magnum_1_1_g_x_shader_program_ac1f268f183a1b29b57635c521a179e59}
+
+\item 
+\hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_g_x_attribute}{G\+X\+Attribute} $>$ {\bfseries attributes}\hypertarget{class_magnum_1_1_g_x_shader_program_a93438c710ee4daf080fd99ab7f25fa64}{}\label{class_magnum_1_1_g_x_shader_program_a93438c710ee4daf080fd99ab7f25fa64}
+
+\item 
+\hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} $>$ {\bfseries uniforms}\hypertarget{class_magnum_1_1_g_x_shader_program_a7193785a170c1d97d5f5e5ef9951e3f2}{}\label{class_magnum_1_1_g_x_shader_program_a7193785a170c1d97d5f5e5ef9951e3f2}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries G\+X\+Context}\hypertarget{class_magnum_1_1_g_x_shader_program_a2c36d7f8865080802bbad88cd73d871c}{}\label{class_magnum_1_1_g_x_shader_program_a2c36d7f8865080802bbad88cd73d871c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_g_x_primitive}{G\+X\+Primitive} encapsulate a Shader Program of Graphics Device. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Shader\+Program.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Shader\+Program.\+cpp\end{DoxyCompactItemize}

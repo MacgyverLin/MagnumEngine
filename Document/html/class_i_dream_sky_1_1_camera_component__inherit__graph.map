@@ -1,0 +1,6 @@
+<map id="IDreamSky::CameraComponent" name="IDreamSky::CameraComponent">
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_orthographic_camera_component.html" title="OrthographicCameraComponent. " alt="" coords="5,155,219,196"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_perspective_camera_component.html" title="PerspectiveCameraComponent. " alt="" coords="243,155,450,196"/>
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_component.html" title="Component. " alt="" coords="149,5,309,32"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_editor_camera_component.html" title="EditorCameraComponent. " alt="" coords="227,244,466,271"/>
+</map>

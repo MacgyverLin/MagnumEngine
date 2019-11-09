@@ -1,0 +1,140 @@
+\hypertarget{classagm_1_1reflection_1_1_property_desc}{}\section{agm\+:\+:reflection\+:\+:Property\+Desc 類別 參考文件}
+\label{classagm_1_1reflection_1_1_property_desc}\index{agm\+::reflection\+::\+Property\+Desc@{agm\+::reflection\+::\+Property\+Desc}}
+
+
+The \hyperlink{classagm_1_1reflection_1_1_property_desc}{Property\+Desc} class holds information about an object\textquotesingle{}s property.  
+
+
+
+
+{\ttfamily \#include $<$reflection.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classagm_1_1reflection_1_1_property_desc_a18a7c3e57cad5d8f4b27f45844507917}{$\sim$\+Property\+Desc} ()\hypertarget{classagm_1_1reflection_1_1_property_desc_a18a7c3e57cad5d8f4b27f45844507917}{}\label{classagm_1_1reflection_1_1_property_desc_a18a7c3e57cad5d8f4b27f45844507917}
+
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_class_desc}{Class\+Desc} \& \hyperlink{classagm_1_1reflection_1_1_property_desc_ab2ff1ec704c1829923bef22922ed0b48}{get\+Class} () const 
+\begin{DoxyCompactList}\small\item\em returns the class that the member is declared into. \end{DoxyCompactList}\item 
+int \hyperlink{classagm_1_1reflection_1_1_property_desc_a60cbb96f310c7451ffa40506df9b7f85}{get\+Class\+Index} () const 
+\begin{DoxyCompactList}\small\item\em returns the property\textquotesingle{}s type. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classagm_1_1reflection_1_1_property_desc_a7dde8343b63b7ef45dfbfc13b0619c6e}{get\+Name} () const 
+\begin{DoxyCompactList}\small\item\em returns the property\textquotesingle{}s name. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class Object , class Value $>$ }\\void \hyperlink{classagm_1_1reflection_1_1_property_desc_a3928087de7378bf00e83a5f9987423d6}{get} (Value \&result, const Object $\ast$object) const 
+\begin{DoxyCompactList}\small\item\em returns the value of the property \end{DoxyCompactList}\item 
+{\footnotesize template$<$class Object , class Value $>$ }\\void \hyperlink{classagm_1_1reflection_1_1_property_desc_afcc0d7574d11ab2145ff089803901fce}{set} (Object $\ast$object, const Value \&value) const 
+\begin{DoxyCompactList}\small\item\em sets the property\textquotesingle{}s value \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Class\+Base}\hypertarget{classagm_1_1reflection_1_1_property_desc_a8fd6f16406e60843f1216df9334d572d}{}\label{classagm_1_1reflection_1_1_property_desc_a8fd6f16406e60843f1216df9334d572d}
+
+\item 
+class {\bfseries Class\+Desc}\hypertarget{classagm_1_1reflection_1_1_property_desc_a0b395f500ac0508158cc81e407724cbe}{}\label{classagm_1_1reflection_1_1_property_desc_a0b395f500ac0508158cc81e407724cbe}
+
+\item 
+struct {\bfseries \+\_\+\+\_\+register\+\_\+property\+\_\+\+\_\+}\hypertarget{classagm_1_1reflection_1_1_property_desc_a7bcea237c71f0fdf9bfa42b3450575dd}{}\label{classagm_1_1reflection_1_1_property_desc_a7bcea237c71f0fdf9bfa42b3450575dd}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+The \hyperlink{classagm_1_1reflection_1_1_property_desc}{Property\+Desc} class holds information about an object\textquotesingle{}s property. 
+
+\subsection{函式成員說明文件}
+\index{agm\+::reflection\+::\+Property\+Desc@{agm\+::reflection\+::\+Property\+Desc}!get@{get}}
+\index{get@{get}!agm\+::reflection\+::\+Property\+Desc@{agm\+::reflection\+::\+Property\+Desc}}
+\subsubsection[{\texorpdfstring{get(\+Value \&result, const Object $\ast$object) const }{get(Value &result, const Object *object) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object , class Value $>$ void agm\+::reflection\+::\+Property\+Desc\+::get (
+\begin{DoxyParamCaption}
+\item[{Value \&}]{result, }
+\item[{const Object $\ast$}]{object}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_property_desc_a3928087de7378bf00e83a5f9987423d6}{}\label{classagm_1_1reflection_1_1_property_desc_a3928087de7378bf00e83a5f9987423d6}
+
+
+returns the value of the property 
+
+
+\begin{DoxyParams}{參數}
+{\em result} & result to store the value to \\
+\hline
+{\em object} & object to get the property of \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_type_mismatch_error}{Type\+Mismatch\+Error}} & thrown if there is a type mismatch \\
+\hline
+\end{DoxyExceptions}
+\index{agm\+::reflection\+::\+Property\+Desc@{agm\+::reflection\+::\+Property\+Desc}!get\+Class@{get\+Class}}
+\index{get\+Class@{get\+Class}!agm\+::reflection\+::\+Property\+Desc@{agm\+::reflection\+::\+Property\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Class() const }{getClass() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Class\+Desc}\& agm\+::reflection\+::\+Property\+Desc\+::get\+Class (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_property_desc_ab2ff1ec704c1829923bef22922ed0b48}{}\label{classagm_1_1reflection_1_1_property_desc_ab2ff1ec704c1829923bef22922ed0b48}
+
+
+returns the class that the member is declared into. 
+
+\begin{DoxyReturn}{傳回值}
+the class that the member is declared into. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Property\+Desc@{agm\+::reflection\+::\+Property\+Desc}!get\+Class\+Index@{get\+Class\+Index}}
+\index{get\+Class\+Index@{get\+Class\+Index}!agm\+::reflection\+::\+Property\+Desc@{agm\+::reflection\+::\+Property\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Class\+Index() const }{getClassIndex() const }}]{\setlength{\rightskip}{0pt plus 5cm}int agm\+::reflection\+::\+Property\+Desc\+::get\+Class\+Index (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_property_desc_a60cbb96f310c7451ffa40506df9b7f85}{}\label{classagm_1_1reflection_1_1_property_desc_a60cbb96f310c7451ffa40506df9b7f85}
+
+
+returns the property\textquotesingle{}s type. 
+
+\begin{DoxyReturn}{傳回值}
+the property\textquotesingle{}s type. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Property\+Desc@{agm\+::reflection\+::\+Property\+Desc}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!agm\+::reflection\+::\+Property\+Desc@{agm\+::reflection\+::\+Property\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Name() const }{getName() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ agm\+::reflection\+::\+Property\+Desc\+::get\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_property_desc_a7dde8343b63b7ef45dfbfc13b0619c6e}{}\label{classagm_1_1reflection_1_1_property_desc_a7dde8343b63b7ef45dfbfc13b0619c6e}
+
+
+returns the property\textquotesingle{}s name. 
+
+\begin{DoxyReturn}{傳回值}
+the property\textquotesingle{}s name. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Property\+Desc@{agm\+::reflection\+::\+Property\+Desc}!set@{set}}
+\index{set@{set}!agm\+::reflection\+::\+Property\+Desc@{agm\+::reflection\+::\+Property\+Desc}}
+\subsubsection[{\texorpdfstring{set(\+Object $\ast$object, const Value \&value) const }{set(Object *object, const Value &value) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object , class Value $>$ void agm\+::reflection\+::\+Property\+Desc\+::set (
+\begin{DoxyParamCaption}
+\item[{Object $\ast$}]{object, }
+\item[{const Value \&}]{value}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_property_desc_afcc0d7574d11ab2145ff089803901fce}{}\label{classagm_1_1reflection_1_1_property_desc_afcc0d7574d11ab2145ff089803901fce}
+
+
+sets the property\textquotesingle{}s value 
+
+
+\begin{DoxyParams}{參數}
+{\em object} & object to set the property of \\
+\hline
+{\em value} & value of the object \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_type_mismatch_error}{Type\+Mismatch\+Error}} & thrown if there is a type mismatch \\
+\hline
+\end{DoxyExceptions}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/reflection.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="Magnum::Capsule3Collider" name="Magnum::Capsule3Collider">
+<area shape="rect" id="node2" href="$class_magnum_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. " alt="" coords="5,89,207,115"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_component.html" title="Component. " alt="" coords="33,5,179,32"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. " alt="" coords="231,81,421,123"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Magnum::EditorGizmo::getRefTransform" name="Magnum::EditorGizmo::getRefTransform">
+<area shape="rect" id="node2" href="$class_magnum_1_1_entity.html#a6f25a85b01d260b79b2d9f4950bf8cc0" title="Get the currently selected Entity. " alt="" coords="205,13,396,39"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_frame3.html#a02ef2b5e486c10f94fdf13885c37ebc6" title="Get the Frame3&#39;s global position. " alt="" coords="207,64,394,105"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_frame3.html#a08c5e5cb5e2127e9c8a166005abda231" title="Get a the parent of this frame. " alt="" coords="207,130,395,157"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_frame3.html#a57a2f755811f485d9602103609c78d68" title="Get the Frame3&#39;s global transform. " alt="" coords="207,181,394,223"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_editor_gizmo.html#a985277780cbf46f6a7f0c9e822b0c47a" title="Get the Gizmo Coordinate System. " alt="" coords="225,247,377,288"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_component_1_1_owner.html#a4bcd81179c5e4ce113f88c6925149ef4" title="call by Editor Service for Debug Rendering " alt="" coords="223,312,378,353"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_component_1_1_owner.html#a0235cf8f0a39af071d264c93fe83f959" title="Get the SELECTED Owner. " alt="" coords="459,5,614,47"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_component_1_1_owner.html#aae44f2e891f2cb1a1fd4e4fa59e37289" title="Handle the Debug Rendering Event. " alt="" coords="457,247,616,288"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_component_1_1_owner.html#a936488a8c0a2e5eca370ca4112be7f11" title="Get the Number of Components,. " alt="" coords="444,312,629,353"/>
+<area shape="rect" id="node11" href="$class_magnum_1_1_component_1_1_owner.html#abed74294c87ac3b84663441feb20f5a7" title="Get the Components at index i. " alt="" coords="459,377,614,419"/>
+</map>

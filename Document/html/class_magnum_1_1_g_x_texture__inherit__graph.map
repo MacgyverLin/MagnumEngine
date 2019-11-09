@@ -1,0 +1,5 @@
+<map id="Magnum::GXTexture" name="Magnum::GXTexture">
+<area shape="rect" id="node3" href="$class_magnum_1_1_g_x_texture2_d.html" title="GXTexture2D encapsulate a 2D Texture of Graphics Device. " alt="" coords="5,155,161,181"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_g_x_texture_cube.html" title="GXTextureCube encapsulate a Cube Map Texture of Graphics Device. " alt="" coords="186,155,357,181"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_g_x_pixel_buffer.html" title="GXPixelBuffer is the base class of all Buffer of Graphics Devices. " alt="" coords="97,5,256,32"/>
+</map>

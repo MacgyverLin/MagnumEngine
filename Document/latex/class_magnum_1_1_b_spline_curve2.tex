@@ -1,0 +1,108 @@
+\hypertarget{class_magnum_1_1_b_spline_curve2}{}\section{Magnum\+:\+:B\+Spline\+Curve2 類別 參考文件}
+\label{class_magnum_1_1_b_spline_curve2}\index{Magnum\+::\+B\+Spline\+Curve2@{Magnum\+::\+B\+Spline\+Curve2}}
+
+
+類別\+Magnum\+:\+:B\+Spline\+Curve2的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{class_magnum_1_1_b_spline_curve2__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:B\+Spline\+Curve2的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_b_spline_curve2__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries B\+Spline\+Curve2} (int i\+Num\+Ctrl\+Points, const \hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$ak\+Ctrl\+Point, int i\+Degree, bool b\+Loop, bool b\+Open)\hypertarget{class_magnum_1_1_b_spline_curve2_abb4791ad1c089a13ffb8fcb146b183be}{}\label{class_magnum_1_1_b_spline_curve2_abb4791ad1c089a13ffb8fcb146b183be}
+
+\item 
+{\bfseries B\+Spline\+Curve2} (int i\+Num\+Ctrl\+Points, const \hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$ak\+Ctrl\+Point, int i\+Degree, bool b\+Loop, const float $\ast$af\+Knot)\hypertarget{class_magnum_1_1_b_spline_curve2_aed7b4f416b57c5f6907e53eb8c702efd}{}\label{class_magnum_1_1_b_spline_curve2_aed7b4f416b57c5f6907e53eb8c702efd}
+
+\item 
+int {\bfseries Get\+Num\+Ctrl\+Points} () const \hypertarget{class_magnum_1_1_b_spline_curve2_aedea12e5c9a5103806a11dee9ab06ec9}{}\label{class_magnum_1_1_b_spline_curve2_aedea12e5c9a5103806a11dee9ab06ec9}
+
+\item 
+int {\bfseries Get\+Degree} () const \hypertarget{class_magnum_1_1_b_spline_curve2_a51881d017cd8c1a1543fb0d31e92be3d}{}\label{class_magnum_1_1_b_spline_curve2_a51881d017cd8c1a1543fb0d31e92be3d}
+
+\item 
+bool {\bfseries Is\+Open} () const \hypertarget{class_magnum_1_1_b_spline_curve2_a669313bdc592f08856cac16f5284e043}{}\label{class_magnum_1_1_b_spline_curve2_a669313bdc592f08856cac16f5284e043}
+
+\item 
+bool {\bfseries Is\+Uniform} () const \hypertarget{class_magnum_1_1_b_spline_curve2_a54b7775949532dac5baa641039dcb378}{}\label{class_magnum_1_1_b_spline_curve2_a54b7775949532dac5baa641039dcb378}
+
+\item 
+bool {\bfseries Is\+Loop} () const \hypertarget{class_magnum_1_1_b_spline_curve2_aa24bddc305d3cb662c36099b17c313fb}{}\label{class_magnum_1_1_b_spline_curve2_aa24bddc305d3cb662c36099b17c313fb}
+
+\item 
+void {\bfseries Set\+Control\+Point} (int i, const \hyperlink{class_magnum_1_1_vector2}{Vector2} \&rk\+Ctrl)\hypertarget{class_magnum_1_1_b_spline_curve2_ae3ffe88b82b8d2ce07edc20e0b5421d5}{}\label{class_magnum_1_1_b_spline_curve2_ae3ffe88b82b8d2ce07edc20e0b5421d5}
+
+\item 
+\hyperlink{class_magnum_1_1_vector2}{Vector2} {\bfseries Get\+Control\+Point} (int i) const \hypertarget{class_magnum_1_1_b_spline_curve2_a50b68a972a943ab8121f105da4f59b31}{}\label{class_magnum_1_1_b_spline_curve2_a50b68a972a943ab8121f105da4f59b31}
+
+\item 
+void {\bfseries Set\+Knot} (int i, float f\+Knot)\hypertarget{class_magnum_1_1_b_spline_curve2_abf5268c13852a9fa13578d97c434f832}{}\label{class_magnum_1_1_b_spline_curve2_abf5268c13852a9fa13578d97c434f832}
+
+\item 
+float {\bfseries Get\+Knot} (int i) const \hypertarget{class_magnum_1_1_b_spline_curve2_ac087bc8aff809be0addfdbc01b53c685}{}\label{class_magnum_1_1_b_spline_curve2_ac087bc8aff809be0addfdbc01b53c685}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector2}{Vector2} {\bfseries Get\+Position} (float f\+Time) const \hypertarget{class_magnum_1_1_b_spline_curve2_a613fab21c58e31d934d4c5eafc45e09d}{}\label{class_magnum_1_1_b_spline_curve2_a613fab21c58e31d934d4c5eafc45e09d}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector2}{Vector2} {\bfseries Get\+First\+Derivative} (float f\+Time) const \hypertarget{class_magnum_1_1_b_spline_curve2_a88ad63755648345bf903e9a685718fde}{}\label{class_magnum_1_1_b_spline_curve2_a88ad63755648345bf903e9a685718fde}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector2}{Vector2} {\bfseries Get\+Second\+Derivative} (float f\+Time) const \hypertarget{class_magnum_1_1_b_spline_curve2_a31b80bd0186efed4856e4099a73169df}{}\label{class_magnum_1_1_b_spline_curve2_a31b80bd0186efed4856e4099a73169df}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector2}{Vector2} {\bfseries Get\+Third\+Derivative} (float f\+Time) const \hypertarget{class_magnum_1_1_b_spline_curve2_a042ce1937935c0d0c31879afe073ca71}{}\label{class_magnum_1_1_b_spline_curve2_a042ce1937935c0d0c31879afe073ca71}
+
+\item 
+void {\bfseries Get} (float f\+Time, \hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$pk\+Pos, \hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$pk\+Der1, \hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$pk\+Der2, \hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$pk\+Der3) const \hypertarget{class_magnum_1_1_b_spline_curve2_a93cfacd94e8173eced9958ae829cc3fe}{}\label{class_magnum_1_1_b_spline_curve2_a93cfacd94e8173eced9958ae829cc3fe}
+
+\item 
+\hyperlink{class_magnum_1_1_b_spline_basis}{B\+Spline\+Basis} \& {\bfseries Get\+Basis} ()\hypertarget{class_magnum_1_1_b_spline_curve2_adf9d5d3ca178dcd86cff68e78e52e052}{}\label{class_magnum_1_1_b_spline_curve2_adf9d5d3ca178dcd86cff68e78e52e052}
+
+\item 
+virtual float {\bfseries Get\+Variation} (float f\+T0, float f\+T1, const \hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$pk\+P0=0, const \hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$pk\+P1=0) const \hypertarget{class_magnum_1_1_b_spline_curve2_ac38da24ec71ae568d5603c6824a1c8b0}{}\label{class_magnum_1_1_b_spline_curve2_ac38da24ec71ae568d5603c6824a1c8b0}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Create\+Control} (const \hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$ak\+Ctrl\+Point)\hypertarget{class_magnum_1_1_b_spline_curve2_abb1225d7a35fd571a64de82e6826e3cb}{}\label{class_magnum_1_1_b_spline_curve2_abb1225d7a35fd571a64de82e6826e3cb}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries m\+\_\+i\+Num\+Ctrl\+Points}\hypertarget{class_magnum_1_1_b_spline_curve2_a5d9b1893c39fec130604f43c8ed85fd1}{}\label{class_magnum_1_1_b_spline_curve2_a5d9b1893c39fec130604f43c8ed85fd1}
+
+\item 
+\hyperlink{class_magnum_1_1_vector2}{Vector2} $\ast$ {\bfseries m\+\_\+ak\+Ctrl\+Point}\hypertarget{class_magnum_1_1_b_spline_curve2_af208ddd441b9e1c67e7adc4b4dd7cd5c}{}\label{class_magnum_1_1_b_spline_curve2_af208ddd441b9e1c67e7adc4b4dd7cd5c}
+
+\item 
+bool {\bfseries m\+\_\+b\+Loop}\hypertarget{class_magnum_1_1_b_spline_curve2_ad1ed971a10a006d8fc23d577d0526ca6}{}\label{class_magnum_1_1_b_spline_curve2_ad1ed971a10a006d8fc23d577d0526ca6}
+
+\item 
+\hyperlink{class_magnum_1_1_b_spline_basis}{B\+Spline\+Basis} {\bfseries m\+\_\+k\+Basis}\hypertarget{class_magnum_1_1_b_spline_curve2_a79c8b5e7826dee9af5e300bfe995bf92}{}\label{class_magnum_1_1_b_spline_curve2_a79c8b5e7826dee9af5e300bfe995bf92}
+
+\item 
+int {\bfseries m\+\_\+i\+Replicate}\hypertarget{class_magnum_1_1_b_spline_curve2_ae968f24cd822ca16a1e85567cc954dab}{}\label{class_magnum_1_1_b_spline_curve2_ae968f24cd822ca16a1e85567cc954dab}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/B\+Spline\+Curve2.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/B\+Spline\+Curve2.\+cpp\end{DoxyCompactItemize}

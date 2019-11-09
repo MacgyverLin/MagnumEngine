@@ -1,0 +1,11 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node1" href="$class_i_dream_sky_1_1_texture_base.html" title="TextureBase. " alt="" coords="5,177,172,203"/>
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_texture2_d_base.html" title="TextureBase. " alt="" coords="227,122,410,149"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_texture_cube_base.html" title="TextureCubeBase. " alt="" coords="220,231,417,258"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_compressed_texture2_d_file.html" title="CompressedTexture2DFile. " alt="" coords="465,5,683,47"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_font.html" title="Font Graphics Object. " alt="" coords="514,71,634,98"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_sprite_sheet.html" title="IDreamSky::SpriteSheet" alt="" coords="493,122,655,149"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_texture2_d_file.html" title="Texture2DFile. " alt="" coords="487,173,661,199"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_compressed_texture_cube_file.html" title="CompressedTextureCubeFile. " alt="" coords="469,224,679,265"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_texture_cube_file.html" title="TextureCubeFile. " alt="" coords="480,290,668,317"/>
+</map>

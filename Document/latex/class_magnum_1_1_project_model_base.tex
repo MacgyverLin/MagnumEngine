@@ -1,0 +1,199 @@
+\hypertarget{class_magnum_1_1_project_model_base}{}\section{Magnum\+:\+:Project\+Model\+Base 類別 參考文件}
+\label{class_magnum_1_1_project_model_base}\index{Magnum\+::\+Project\+Model\+Base@{Magnum\+::\+Project\+Model\+Base}}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Coord\+Sys} \{ {\bfseries L\+O\+C\+AL} = 0, 
+{\bfseries P\+A\+R\+E\+NT} = 1, 
+{\bfseries W\+O\+R\+LD} = 2, 
+{\bfseries V\+I\+EW} = 3
+ \}\hypertarget{class_magnum_1_1_project_model_base_a7bf06b0c18d27789df63873207385b9a}{}\label{class_magnum_1_1_project_model_base_a7bf06b0c18d27789df63873207385b9a}
+
+\item 
+enum {\bfseries Change\+Flag} \{ \\*
+{\bfseries N\+O\+NE} = 0x00000000, 
+{\bfseries S\+C\+E\+N\+E\+\_\+\+C\+H\+A\+N\+G\+ED} = 0x00000001, 
+{\bfseries S\+T\+A\+T\+E\+\_\+\+C\+H\+A\+N\+G\+ED} = 0x00000002, 
+{\bfseries C\+L\+A\+S\+S\+I\+D\+X\+M\+AP} = 0x00000004, 
+\\*
+{\bfseries E\+N\+T\+I\+T\+I\+Y\+\_\+\+C\+R\+E\+A\+T\+O\+RS} = 0x00000008, 
+{\bfseries R\+E\+S\+O\+U\+R\+C\+E\+\_\+\+I\+M\+P\+O\+R\+T\+E\+RS} = 0x00000010, 
+{\bfseries H\+I\+E\+R\+A\+R\+C\+H\+Y\+\_\+\+S\+E\+L\+E\+C\+T\+I\+O\+N\+\_\+\+C\+H\+A\+N\+G\+ED} = 0x00000020, 
+{\bfseries H\+I\+E\+R\+A\+R\+C\+H\+Y\+\_\+\+V\+I\+EW} = 0x00000040, 
+\\*
+{\bfseries S\+E\+L\+E\+C\+T\+E\+D\+\_\+\+E\+N\+T\+I\+T\+Y\+\_\+\+N\+A\+M\+E\+\_\+\+C\+H\+A\+N\+G\+ED} = 0x00000080, 
+{\bfseries S\+E\+L\+E\+C\+T\+E\+D\+\_\+\+E\+N\+T\+I\+T\+Y\+\_\+\+T\+R\+A\+N\+S\+F\+O\+R\+M\+\_\+\+C\+H\+A\+N\+G\+ED} = 0x00000100, 
+{\bfseries S\+E\+L\+E\+C\+T\+E\+D\+\_\+\+E\+N\+T\+I\+T\+Y\+\_\+\+P\+R\+O\+P\+E\+R\+T\+I\+E\+S\+\_\+\+C\+H\+A\+N\+G\+ED} = 0x00000200, 
+{\bfseries R\+E\+S\+O\+U\+R\+C\+E\+I\+M\+P\+O\+R\+T\+\_\+\+S\+E\+L\+E\+C\+T\+I\+O\+N\+\_\+\+C\+H\+A\+N\+G\+ED} = 0x00000400, 
+\\*
+{\bfseries C\+O\+O\+R\+D\+S\+Y\+S\+\_\+\+C\+H\+A\+N\+G\+ED} = 0x00000800, 
+{\bfseries P\+R\+O\+J\+E\+C\+T\+\_\+\+D\+I\+A\+L\+OG} = 0x00001000, 
+{\bfseries A\+LL} = 0xffffffff
+ \}\hypertarget{class_magnum_1_1_project_model_base_a6fc78ca583ec2b573e7e4d17ec6b4a3e}{}\label{class_magnum_1_1_project_model_base_a6fc78ca583ec2b573e7e4d17ec6b4a3e}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries init\+Class\+Index\+Map} ()=0\hypertarget{class_magnum_1_1_project_model_base_affc8cc4e19cb09b3672babdc4f93460e}{}\label{class_magnum_1_1_project_model_base_affc8cc4e19cb09b3672babdc4f93460e}
+
+\item 
+virtual int {\bfseries get\+Num\+Class\+Indices} ()=0\hypertarget{class_magnum_1_1_project_model_base_a0fd9614ebb05316e4931435311b77ee2}{}\label{class_magnum_1_1_project_model_base_a0fd9614ebb05316e4931435311b77ee2}
+
+\item 
+virtual const char $\ast$ {\bfseries get\+Class} (int i)=0\hypertarget{class_magnum_1_1_project_model_base_a58c6a93aa720119d2b0e1d3c9f0e8d99}{}\label{class_magnum_1_1_project_model_base_a58c6a93aa720119d2b0e1d3c9f0e8d99}
+
+\item 
+virtual void {\bfseries init\+Entity\+Creators} ()=0\hypertarget{class_magnum_1_1_project_model_base_a438879cbcef0965391985208697670f6}{}\label{class_magnum_1_1_project_model_base_a438879cbcef0965391985208697670f6}
+
+\item 
+virtual int {\bfseries get\+Num\+Entity\+Creators} (bool include\+Editor\+Active)=0\hypertarget{class_magnum_1_1_project_model_base_aa70e07efeff4f5a8ebb0c1d498b21a34}{}\label{class_magnum_1_1_project_model_base_aa70e07efeff4f5a8ebb0c1d498b21a34}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_entity_1_1_i_creator}{Entity\+::\+I\+Creator} $\ast$ {\bfseries get\+Entity\+Creators} (int i)=0\hypertarget{class_magnum_1_1_project_model_base_ac41ebc8922d628e0e297df4f16e9bc74}{}\label{class_magnum_1_1_project_model_base_ac41ebc8922d628e0e297df4f16e9bc74}
+
+\item 
+virtual void {\bfseries begin\+Check\+Raw\+Assets} ()=0\hypertarget{class_magnum_1_1_project_model_base_a8e2296e8900b95fc76e92703629aebd8}{}\label{class_magnum_1_1_project_model_base_a8e2296e8900b95fc76e92703629aebd8}
+
+\item 
+virtual bool {\bfseries is\+Checking\+Raw\+Assets} ()=0\hypertarget{class_magnum_1_1_project_model_base_ab76683843d41e5ab9e80f3e2ece7ea12}{}\label{class_magnum_1_1_project_model_base_ab76683843d41e5ab9e80f3e2ece7ea12}
+
+\item 
+virtual void {\bfseries begin\+Update\+Resources} ()=0\hypertarget{class_magnum_1_1_project_model_base_a36f50ea9a891c73149a3cf81edc87412}{}\label{class_magnum_1_1_project_model_base_a36f50ea9a891c73149a3cf81edc87412}
+
+\item 
+virtual bool {\bfseries is\+Updating\+Resources} ()=0\hypertarget{class_magnum_1_1_project_model_base_aa5b2e93a3fdf7637d91cefd2cbe365bf}{}\label{class_magnum_1_1_project_model_base_aa5b2e93a3fdf7637d91cefd2cbe365bf}
+
+\item 
+virtual void {\bfseries begin\+Update\+Entities} ()=0\hypertarget{class_magnum_1_1_project_model_base_ab17b06b43ba987c072d0725a8207a192}{}\label{class_magnum_1_1_project_model_base_ab17b06b43ba987c072d0725a8207a192}
+
+\item 
+virtual bool {\bfseries is\+Updating\+Entities} ()=0\hypertarget{class_magnum_1_1_project_model_base_a7b7be07814c6385ee6318e4ee1d571ac}{}\label{class_magnum_1_1_project_model_base_a7b7be07814c6385ee6318e4ee1d571ac}
+
+\item 
+virtual void {\bfseries update\+Resource\+Importers} ()=0\hypertarget{class_magnum_1_1_project_model_base_a05745d163734f5e11fa477f8cb53aa0e}{}\label{class_magnum_1_1_project_model_base_a05745d163734f5e11fa477f8cb53aa0e}
+
+\item 
+virtual int {\bfseries get\+Num\+Resource\+Creators} ()=0\hypertarget{class_magnum_1_1_project_model_base_a731f7532fa605f906b42533e6884ef8b}{}\label{class_magnum_1_1_project_model_base_a731f7532fa605f906b42533e6884ef8b}
+
+\item 
+virtual const \hyperlink{class_magnum_1_1_resource_import_1_1_i_creator}{Resource\+Import\+::\+I\+Creator} $\ast$ {\bfseries get\+Resource\+Creators} (int i) const  =0\hypertarget{class_magnum_1_1_project_model_base_aa37e1cc5dda041e4c16d33e2b76ec3ca}{}\label{class_magnum_1_1_project_model_base_aa37e1cc5dda041e4c16d33e2b76ec3ca}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_resource_import_1_1_i_creator}{Resource\+Import\+::\+I\+Creator} $\ast$ {\bfseries get\+Resource\+Creators} (int i)=0\hypertarget{class_magnum_1_1_project_model_base_a54e7deac9de8668cf32865b0119aba0d}{}\label{class_magnum_1_1_project_model_base_a54e7deac9de8668cf32865b0119aba0d}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ {\bfseries create\+Entity} (const char $\ast$class\+Path, const char $\ast$name, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&position)=0\hypertarget{class_magnum_1_1_project_model_base_a6762fd884fcfa5b5feefd979c32dbc2e}{}\label{class_magnum_1_1_project_model_base_a6762fd884fcfa5b5feefd979c32dbc2e}
+
+\item 
+virtual void {\bfseries add\+Child} (\hyperlink{class_magnum_1_1_entity}{Entity} $\ast$new\+Parent, \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$child)=0\hypertarget{class_magnum_1_1_project_model_base_a9f8b0862b042a3a13e01ef8c755b5400}{}\label{class_magnum_1_1_project_model_base_a9f8b0862b042a3a13e01ef8c755b5400}
+
+\item 
+virtual void {\bfseries remove\+Child} (\hyperlink{class_magnum_1_1_entity}{Entity} $\ast$old\+Parent, \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$child)=0\hypertarget{class_magnum_1_1_project_model_base_a677c55aa7d43fa463bf5d632edf32039}{}\label{class_magnum_1_1_project_model_base_a677c55aa7d43fa463bf5d632edf32039}
+
+\item 
+virtual void {\bfseries change\+Parent} (\hyperlink{class_magnum_1_1_entity}{Entity} $\ast$new\+Parent, \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$old\+Parent, \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$child)=0\hypertarget{class_magnum_1_1_project_model_base_aa8e21b949c0a063d197262c91a69e3a8}{}\label{class_magnum_1_1_project_model_base_aa8e21b949c0a063d197262c91a69e3a8}
+
+\item 
+virtual void {\bfseries set\+Entity\+Name} (\hyperlink{class_magnum_1_1_entity}{Entity} $\ast$entity, const char $\ast$name)=0\hypertarget{class_magnum_1_1_project_model_base_ae75fa9e67bf7037fec401d295166246a}{}\label{class_magnum_1_1_project_model_base_ae75fa9e67bf7037fec401d295166246a}
+
+\item 
+virtual void {\bfseries release\+Entity} (\hyperlink{class_magnum_1_1_entity}{Entity} $\ast$entity, bool update\+Views=true)=0\hypertarget{class_magnum_1_1_project_model_base_abc92526a2f1558491191eda6accddbe9}{}\label{class_magnum_1_1_project_model_base_abc92526a2f1558491191eda6accddbe9}
+
+\item 
+virtual void {\bfseries release\+All\+Entity} ()=0\hypertarget{class_magnum_1_1_project_model_base_ab461f12bacfc2f0e6b7693e94b6d37cd}{}\label{class_magnum_1_1_project_model_base_ab461f12bacfc2f0e6b7693e94b6d37cd}
+
+\item 
+virtual void {\bfseries select\+Entity} (\hyperlink{class_magnum_1_1_entity}{Entity} $\ast$entity)=0\hypertarget{class_magnum_1_1_project_model_base_a98b0b3ff07fdda04ef4f5ee46e99e311}{}\label{class_magnum_1_1_project_model_base_a98b0b3ff07fdda04ef4f5ee46e99e311}
+
+\item 
+virtual void {\bfseries update\+Selected\+Entity\+Name} ()=0\hypertarget{class_magnum_1_1_project_model_base_a10763b51ecb9df3131a1bb7e90a0a735}{}\label{class_magnum_1_1_project_model_base_a10763b51ecb9df3131a1bb7e90a0a735}
+
+\item 
+virtual void {\bfseries update\+Selected\+Entity\+Transform} ()=0\hypertarget{class_magnum_1_1_project_model_base_aff5628dd4c644535a034b070959a67d9}{}\label{class_magnum_1_1_project_model_base_aff5628dd4c644535a034b070959a67d9}
+
+\item 
+virtual void {\bfseries update\+Selected\+Entity\+Value} ()=0\hypertarget{class_magnum_1_1_project_model_base_ad935878f5564a4e6747007c596e8db02}{}\label{class_magnum_1_1_project_model_base_ad935878f5564a4e6747007c596e8db02}
+
+\item 
+virtual void {\bfseries collect\+Top\+Level\+Entity} (\hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ $>$ \&top\+Level\+Entities, bool include\+Editor\+Entity=false)=0\hypertarget{class_magnum_1_1_project_model_base_a5043ded189109785511924837d4ba400}{}\label{class_magnum_1_1_project_model_base_a5043ded189109785511924837d4ba400}
+
+\item 
+virtual void {\bfseries collect\+Entities\+Recursive} (\hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ $>$ \&entities, \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$top\+Level\+Entity, bool include\+Editor\+Entity=false)=0\hypertarget{class_magnum_1_1_project_model_base_ad9d1c5cf5dba4f073b55ae2a917ae3cc}{}\label{class_magnum_1_1_project_model_base_ad9d1c5cf5dba4f073b55ae2a917ae3cc}
+
+\item 
+virtual void {\bfseries collect\+All\+Entities} (\hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ $>$ \&entities, bool include\+Editor\+Entity=false)=0\hypertarget{class_magnum_1_1_project_model_base_aa7eb0d4a724603bd0786cc51a2d7b7ac}{}\label{class_magnum_1_1_project_model_base_aa7eb0d4a724603bd0786cc51a2d7b7ac}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ {\bfseries get\+Selected\+Entity} ()=0\hypertarget{class_magnum_1_1_project_model_base_a0172ce944425c14d0ff49c2a7ef4550b}{}\label{class_magnum_1_1_project_model_base_a0172ce944425c14d0ff49c2a7ef4550b}
+
+\item 
+virtual const char $\ast$ {\bfseries get\+Current\+Project\+Path} ()=0\hypertarget{class_magnum_1_1_project_model_base_a15fa5d5a3af0b7def64a8a0c1c2b26e1}{}\label{class_magnum_1_1_project_model_base_a15fa5d5a3af0b7def64a8a0c1c2b26e1}
+
+\item 
+virtual bool {\bfseries get\+Open\+Flag} ()=0\hypertarget{class_magnum_1_1_project_model_base_a4f5b1f8d3a32264b02ae9037d8019309}{}\label{class_magnum_1_1_project_model_base_a4f5b1f8d3a32264b02ae9037d8019309}
+
+\item 
+virtual void {\bfseries set\+Current\+Project\+Path} (const char $\ast$current\+Project\+Path\+\_\+, bool open)=0\hypertarget{class_magnum_1_1_project_model_base_a68e6aac4cc9a2668bac361e7147f51a1}{}\label{class_magnum_1_1_project_model_base_a68e6aac4cc9a2668bac361e7147f51a1}
+
+\item 
+virtual const char $\ast$ {\bfseries get\+Current\+Scene\+File\+Name} ()=0\hypertarget{class_magnum_1_1_project_model_base_a39eef830f14a7b52528ad76d6e394c3d}{}\label{class_magnum_1_1_project_model_base_a39eef830f14a7b52528ad76d6e394c3d}
+
+\item 
+virtual void {\bfseries set\+Current\+Scene\+File\+Name} (const char $\ast$current\+Scene\+File\+Name\+\_\+)=0\hypertarget{class_magnum_1_1_project_model_base_ae3e40090f7fa0dd2a4c363e756aad43a}{}\label{class_magnum_1_1_project_model_base_ae3e40090f7fa0dd2a4c363e756aad43a}
+
+\item 
+virtual const char $\ast$ {\bfseries get\+Prefab\+File\+Name} ()=0\hypertarget{class_magnum_1_1_project_model_base_a28c1e55f19c2c99eb2701842839cbf12}{}\label{class_magnum_1_1_project_model_base_a28c1e55f19c2c99eb2701842839cbf12}
+
+\item 
+virtual void {\bfseries set\+Prefab\+File\+Name} (const char $\ast$prefab\+File\+Name\+\_\+)=0\hypertarget{class_magnum_1_1_project_model_base_a60c6ac6e14672ad2acf7d6f4d107adc1}{}\label{class_magnum_1_1_project_model_base_a60c6ac6e14672ad2acf7d6f4d107adc1}
+
+\item 
+virtual void {\bfseries set\+Coordinate\+System} (Coord\+Sys coordsys)=0\hypertarget{class_magnum_1_1_project_model_base_a14b212990c54553d4611e2e08864bc60}{}\label{class_magnum_1_1_project_model_base_a14b212990c54553d4611e2e08864bc60}
+
+\item 
+virtual Coord\+Sys {\bfseries get\+Coordinate\+System} ()=0\hypertarget{class_magnum_1_1_project_model_base_a2bd893f2380c5ddbdd51585eb2cec4bd}{}\label{class_magnum_1_1_project_model_base_a2bd893f2380c5ddbdd51585eb2cec4bd}
+
+\item 
+virtual void {\bfseries change\+State} (const char $\ast$name)=0\hypertarget{class_magnum_1_1_project_model_base_a3820026dbe018d0fa5638a61373386b2}{}\label{class_magnum_1_1_project_model_base_a3820026dbe018d0fa5638a61373386b2}
+
+\item 
+virtual void {\bfseries revert\+To\+Previous\+State} ()=0\hypertarget{class_magnum_1_1_project_model_base_aca11dcade7fdee6991a46acb75262850}{}\label{class_magnum_1_1_project_model_base_aca11dcade7fdee6991a46acb75262850}
+
+\item 
+virtual const \hyperlink{class_magnum_1_1_string}{String} \& {\bfseries get\+Current\+State} ()=0\hypertarget{class_magnum_1_1_project_model_base_a2faaed29af474ab75cfb3282d04309ba}{}\label{class_magnum_1_1_project_model_base_a2faaed29af474ab75cfb3282d04309ba}
+
+\item 
+void {\bfseries add\+View} (\hyperlink{class_magnum_1_1_project_view_base}{Project\+View\+Base} $\ast$view)\hypertarget{class_magnum_1_1_project_model_base_a6863c1d00474cde3bbb3fa921aea26a6}{}\label{class_magnum_1_1_project_model_base_a6863c1d00474cde3bbb3fa921aea26a6}
+
+\item 
+int {\bfseries get\+Num\+Views} () const \hypertarget{class_magnum_1_1_project_model_base_a3059d1e347cd6589b7b26f0db1d11535}{}\label{class_magnum_1_1_project_model_base_a3059d1e347cd6589b7b26f0db1d11535}
+
+\item 
+void {\bfseries remove\+View} (\hyperlink{class_magnum_1_1_project_view_base}{Project\+View\+Base} $\ast$view)\hypertarget{class_magnum_1_1_project_model_base_a12e2441ef5ec4b9a8e88e233a764f676}{}\label{class_magnum_1_1_project_model_base_a12e2441ef5ec4b9a8e88e233a764f676}
+
+\item 
+bool {\bfseries has\+Changed} (int flags)\hypertarget{class_magnum_1_1_project_model_base_aa4fdc80657bbe4d08c2c23b88c63f08b}{}\label{class_magnum_1_1_project_model_base_aa4fdc80657bbe4d08c2c23b88c63f08b}
+
+\item 
+void {\bfseries notify\+Views} ()\hypertarget{class_magnum_1_1_project_model_base_ad3b29e9234ca1edc42800d7ef39f3d98}{}\label{class_magnum_1_1_project_model_base_ad3b29e9234ca1edc42800d7ef39f3d98}
+
+\item 
+void {\bfseries notify\+Views} (const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&buffer)\hypertarget{class_magnum_1_1_project_model_base_a9826681909bde255cb574835109daaef}{}\label{class_magnum_1_1_project_model_base_a9826681909bde255cb574835109daaef}
+
+\item 
+void {\bfseries set\+Changed} (int flags)\hypertarget{class_magnum_1_1_project_model_base_ad877bb466e847bd27837b16c53a789a5}{}\label{class_magnum_1_1_project_model_base_ad877bb466e847bd27837b16c53a789a5}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries clear\+Changed} (int flags)\hypertarget{class_magnum_1_1_project_model_base_af1d4f342ffb3ce23af48b4446c1569a9}{}\label{class_magnum_1_1_project_model_base_af1d4f342ffb3ce23af48b4446c1569a9}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Project\+Model\+View\+Base.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Project\+Model\+View\+Base.\+cpp\end{DoxyCompactItemize}

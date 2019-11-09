@@ -1,0 +1,317 @@
+\hypertarget{class_magnum_1_1_physics3_1_1_world}{}\section{Magnum\+:\+:Physics3\+:\+:World 類別 參考文件}
+\label{class_magnum_1_1_physics3_1_1_world}\index{Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_a162a944743334f77ae2e34d9b843d93e}{process} (float dt)
+\begin{DoxyCompactList}\small\item\em Register a destruction listener. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_ad23594074920bd2423ead71297ca7b48}{clear\+Forces} ()
+\begin{DoxyCompactList}\small\item\em Manually clear the force buffer on all bodies. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_a5bdd90a3f4186d46f042a3c4e550fd67}{draw\+Debug\+Data} ()\hypertarget{class_magnum_1_1_physics3_1_1_world_a5bdd90a3f4186d46f042a3c4e550fd67}{}\label{class_magnum_1_1_physics3_1_1_world_a5bdd90a3f4186d46f042a3c4e550fd67}
+
+\begin{DoxyCompactList}\small\item\em Call this to draw shapes and other debug draw data. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_a27698db9854f7fe8042f5ae15ba1ff40}{test\+Point} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&p, unsigned short group, unsigned short mask, \hyperlink{class_magnum_1_1_physics3_1_1_ray_cast_result}{Physics3\+::\+Ray\+Cast\+Result} \&result, bool closest\+Only) const 
+\begin{DoxyCompactList}\small\item\em Query the World2 for all fixtures that potentially overlap the provided A\+A\+BB. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_a01af519ec2b235107662dab201d3c78a}{test\+Ray\+Cast} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&p, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&direction, unsigned short group, unsigned short mask, \hyperlink{class_magnum_1_1_physics3_1_1_ray_cast_result}{Physics3\+::\+Ray\+Cast\+Result} \&result, bool closest\+Only) const 
+\begin{DoxyCompactList}\small\item\em Ray-\/cast the World2 for all fixtures in the path of the ray. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_a8d08af43db8b7d66112af02e894ca40e}{test\+Sphere} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&p, float radius, unsigned short group, unsigned short mask, \hyperlink{class_magnum_1_1_physics3_1_1_convex_cast_result}{Physics3\+::\+Convex\+Cast\+Result} \&result, bool closest\+Only) const 
+\begin{DoxyCompactList}\small\item\em Ray-\/cast the World2 for all fixtures in the path of the ray. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_ad482e19245dd876fce45f127264ab862}{test\+Sphere\+Cast} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&p, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&direction, float radius, unsigned short group, unsigned short mask, \hyperlink{class_magnum_1_1_physics3_1_1_convex_cast_result}{Physics3\+::\+Convex\+Cast\+Result} \&result, bool closest\+Only) const 
+\begin{DoxyCompactList}\small\item\em Ray-\/cast the World2 for all fixtures in the path of the ray. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_ab1bd5b99186bd33631630172ecb58b2a}{set\+Allow\+Sleeping\+Enable} (bool flag)
+\begin{DoxyCompactList}\small\item\em Get the World2 joint list. \end{DoxyCompactList}\item 
+bool {\bfseries is\+Allow\+Sleeping\+Enabled} () const \hypertarget{class_magnum_1_1_physics3_1_1_world_abc60cff9f8aa01e044692a8231e87b77}{}\label{class_magnum_1_1_physics3_1_1_world_abc60cff9f8aa01e044692a8231e87b77}
+
+\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_ae8ed295bce3af9cc6b9e0d2635400378}{set\+Warm\+Starting\+Enable} (bool flag)\hypertarget{class_magnum_1_1_physics3_1_1_world_ae8ed295bce3af9cc6b9e0d2635400378}{}\label{class_magnum_1_1_physics3_1_1_world_ae8ed295bce3af9cc6b9e0d2635400378}
+
+\begin{DoxyCompactList}\small\item\em Enable/disable warm starting. For testing. \end{DoxyCompactList}\item 
+bool {\bfseries is\+Warm\+Starting\+Enabled} () const \hypertarget{class_magnum_1_1_physics3_1_1_world_a3c0bfde3b0197e8f8aaf586036d74862}{}\label{class_magnum_1_1_physics3_1_1_world_a3c0bfde3b0197e8f8aaf586036d74862}
+
+\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_ae69f3f481b2eb12b4c2b33e7baa1b289}{set\+Continuous\+Physics\+Enable} (bool flag)\hypertarget{class_magnum_1_1_physics3_1_1_world_ae69f3f481b2eb12b4c2b33e7baa1b289}{}\label{class_magnum_1_1_physics3_1_1_world_ae69f3f481b2eb12b4c2b33e7baa1b289}
+
+\begin{DoxyCompactList}\small\item\em Enable/disable continuous physics. For testing. \end{DoxyCompactList}\item 
+bool {\bfseries is\+Continuous\+Physics\+Enabled} () const \hypertarget{class_magnum_1_1_physics3_1_1_world_a4e1f095e3aa01bf72fd85ac4a83a1afb}{}\label{class_magnum_1_1_physics3_1_1_world_a4e1f095e3aa01bf72fd85ac4a83a1afb}
+
+\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_a45468d5bb39cd67597fb72f156a96627}{set\+Auto\+Clear\+Forces\+Enable} (bool flag)\hypertarget{class_magnum_1_1_physics3_1_1_world_a45468d5bb39cd67597fb72f156a96627}{}\label{class_magnum_1_1_physics3_1_1_world_a45468d5bb39cd67597fb72f156a96627}
+
+\begin{DoxyCompactList}\small\item\em Set flag to control automatic clearing of forces after each time step. \end{DoxyCompactList}\item 
+bool {\bfseries is\+Auto\+Clear\+Forces\+Enabled} () const \hypertarget{class_magnum_1_1_physics3_1_1_world_a543d96826067f46ed0e5e73ca22852dd}{}\label{class_magnum_1_1_physics3_1_1_world_a543d96826067f46ed0e5e73ca22852dd}
+
+\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_ab36a7906645a127d6cf13138055d5151}{set\+Sub\+Stepping\+Enable} (bool flag)\hypertarget{class_magnum_1_1_physics3_1_1_world_ab36a7906645a127d6cf13138055d5151}{}\label{class_magnum_1_1_physics3_1_1_world_ab36a7906645a127d6cf13138055d5151}
+
+\begin{DoxyCompactList}\small\item\em Enable/disable single stepped continuous physics. For testing. \end{DoxyCompactList}\item 
+bool {\bfseries is\+Sub\+Stepping\+Enabled} () const \hypertarget{class_magnum_1_1_physics3_1_1_world_ad3392f5442111b16ddd4eed5e9eebf0b}{}\label{class_magnum_1_1_physics3_1_1_world_ad3392f5442111b16ddd4eed5e9eebf0b}
+
+\item 
+int \hyperlink{class_magnum_1_1_physics3_1_1_world_af5990543d265f5e16af391c4ece55887}{get\+Proxy\+Count} () const \hypertarget{class_magnum_1_1_physics3_1_1_world_af5990543d265f5e16af391c4ece55887}{}\label{class_magnum_1_1_physics3_1_1_world_af5990543d265f5e16af391c4ece55887}
+
+\begin{DoxyCompactList}\small\item\em Get the number of broad-\/phase proxies. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_physics3_1_1_world_a607ed82ab3bd5b08aa1512f75ecec981}{get\+Body\+Count} () const \hypertarget{class_magnum_1_1_physics3_1_1_world_a607ed82ab3bd5b08aa1512f75ecec981}{}\label{class_magnum_1_1_physics3_1_1_world_a607ed82ab3bd5b08aa1512f75ecec981}
+
+\begin{DoxyCompactList}\small\item\em Get the number of bodies. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_physics3_1_1_world_ad8c5ea8131526b040e2bd167747761a8}{get\+Joint\+Count} () const \hypertarget{class_magnum_1_1_physics3_1_1_world_ad8c5ea8131526b040e2bd167747761a8}{}\label{class_magnum_1_1_physics3_1_1_world_ad8c5ea8131526b040e2bd167747761a8}
+
+\begin{DoxyCompactList}\small\item\em Get the number of joints. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_physics3_1_1_world_a58e1f8dc1f9aa610c83e5e39db2bc3d1}{get\+Contact\+Count} () const \hypertarget{class_magnum_1_1_physics3_1_1_world_a58e1f8dc1f9aa610c83e5e39db2bc3d1}{}\label{class_magnum_1_1_physics3_1_1_world_a58e1f8dc1f9aa610c83e5e39db2bc3d1}
+
+\begin{DoxyCompactList}\small\item\em Get the number of contacts (each may have 0 or more contact points). \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_physics3_1_1_world_ac0cb0202bd388d2d2e32425300f72067}{get\+Optimization\+Quality} () const 
+\begin{DoxyCompactList}\small\item\em Get the quality metric of the dynamic tree. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_world_afe2d44b456f0fe71a4287c1bd6030cde}{set\+Gravity} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&gravity)\hypertarget{class_magnum_1_1_physics3_1_1_world_afe2d44b456f0fe71a4287c1bd6030cde}{}\label{class_magnum_1_1_physics3_1_1_world_afe2d44b456f0fe71a4287c1bd6030cde}
+
+\begin{DoxyCompactList}\small\item\em Change the global gravity vector. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_physics3_1_1_world_ae8d4141a1a7606c3135375dfea5b55e3}{get\+Gravity} () const \hypertarget{class_magnum_1_1_physics3_1_1_world_ae8d4141a1a7606c3135375dfea5b55e3}{}\label{class_magnum_1_1_physics3_1_1_world_ae8d4141a1a7606c3135375dfea5b55e3}
+
+\begin{DoxyCompactList}\small\item\em Get the global gravity vector. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{class_magnum_1_1_physics3_1_1_world_a6596e23476b04ec4a2f47d6e95adf50e}{get\+Handle} ()
+\begin{DoxyCompactList}\small\item\em Is the World2 locked (in the middle of a time step). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Rigid\+Body}\hypertarget{class_magnum_1_1_physics3_1_1_world_abb8b03bec6b0a8e0834c8358c93039d2}{}\label{class_magnum_1_1_physics3_1_1_world_abb8b03bec6b0a8e0834c8358c93039d2}
+
+\item 
+class {\bfseries Vehicle}\hypertarget{class_magnum_1_1_physics3_1_1_world_a74c93d9d035fcad5381bfb57de0426a1}{}\label{class_magnum_1_1_physics3_1_1_world_a74c93d9d035fcad5381bfb57de0426a1}
+
+\item 
+class {\bfseries Manager}\hypertarget{class_magnum_1_1_physics3_1_1_world_adddd5c43ff870a047aa66db4edf82a7e}{}\label{class_magnum_1_1_physics3_1_1_world_adddd5c43ff870a047aa66db4edf82a7e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}!clear\+Forces@{clear\+Forces}}
+\index{clear\+Forces@{clear\+Forces}!Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}}
+\subsubsection[{\texorpdfstring{clear\+Forces()}{clearForces()}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+World\+::clear\+Forces (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_world_ad23594074920bd2423ead71297ca7b48}{}\label{class_magnum_1_1_physics3_1_1_world_ad23594074920bd2423ead71297ca7b48}
+
+
+Manually clear the force buffer on all bodies. 
+
+Register a destruction listener.
+
+By default, forces are cleared automatically after each call to Step. The default behavior is modified by calling Set\+Auto\+Clear\+Forces. The purpose of this function is to support sub-\/stepping. Sub-\/stepping is often used to maintain a fixed sized time step under a variable frame-\/rate. When you perform sub-\/stepping you will disable auto clearing of forces and instead call Clear\+Forces after all sub-\/steps are complete in one pass of your game loop. \begin{DoxySeeAlso}{參閱}
+Set\+Auto\+Clear\+Forces
+\end{DoxySeeAlso}
+The listener is owned by you and must remain in scope. Register a contact filter to provide specific control over collision. Otherwise the default filter is used (b2\+\_\+default\+Filter). The listener is owned by you and must remain in scope. Register a contact event listener. The listener is owned by you and must remain in scope. Register a routine for debug drawing. The debug draw functions are called inside with b2\+World2\+::\+Draw\+Debug\+Data method. The debug draw object is owned by you and must remain in scope. Manually clear the force buffer on all bodies. By default, forces are cleared automatically after each call to Step. The default behavior is modified by calling Set\+Auto\+Clear\+Forces. The purpose of this function is to support sub-\/stepping. Sub-\/stepping is often used to maintain a fixed sized time step under a variable frame-\/rate. When you perform sub-\/stepping you will disable auto clearing of forces and instead call Clear\+Forces after all sub-\/steps are complete in one pass of your game loop. \begin{DoxySeeAlso}{參閱}
+Set\+Auto\+Clear\+Forces 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}!get\+Handle@{get\+Handle}}
+\index{get\+Handle@{get\+Handle}!Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}}
+\subsubsection[{\texorpdfstring{get\+Handle()}{getHandle()}}]{\setlength{\rightskip}{0pt plus 5cm}void $\ast$ Magnum\+::\+Physics3\+::\+World\+::get\+Handle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_world_a6596e23476b04ec4a2f47d6e95adf50e}{}\label{class_magnum_1_1_physics3_1_1_world_a6596e23476b04ec4a2f47d6e95adf50e}
+
+
+Is the World2 locked (in the middle of a time step). 
+
+Get the contact manager for testing. Get the current profile. Dump the World2 into the log file. \begin{DoxyWarning}{警告}
+this should be called outside of a time step. 
+\end{DoxyWarning}
+\index{Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}!get\+Optimization\+Quality@{get\+Optimization\+Quality}}
+\index{get\+Optimization\+Quality@{get\+Optimization\+Quality}!Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}}
+\subsubsection[{\texorpdfstring{get\+Optimization\+Quality() const }{getOptimizationQuality() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Magnum\+::\+Physics3\+::\+World\+::get\+Optimization\+Quality (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_world_ac0cb0202bd388d2d2e32425300f72067}{}\label{class_magnum_1_1_physics3_1_1_world_ac0cb0202bd388d2d2e32425300f72067}
+
+
+Get the quality metric of the dynamic tree. 
+
+The smaller the better. The minimum is 1. \index{Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}!process@{process}}
+\index{process@{process}!Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}}
+\subsubsection[{\texorpdfstring{process(float dt)}{process(float dt)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+World\+::process (
+\begin{DoxyParamCaption}
+\item[{float}]{dt}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_world_a162a944743334f77ae2e34d9b843d93e}{}\label{class_magnum_1_1_physics3_1_1_world_a162a944743334f77ae2e34d9b843d93e}
+
+
+Register a destruction listener. 
+
+The listener is owned by you and must remain in scope. Register a contact filter to provide specific control over collision. Otherwise the default filter is used (b2\+\_\+default\+Filter). The listener is owned by you and must remain in scope. Register a contact event listener. The listener is owned by you and must remain in scope. Register a routine for debug drawing. The debug draw functions are called inside with b2\+World2\+::\+Draw\+Debug\+Data method. The debug draw object is owned by you and must remain in scope. Take a time step. This performs collision detection, integration, and constraint solution. 
+\begin{DoxyParams}{參數}
+{\em time\+Step} & the amount of time to simulate, this should not vary. \\
+\hline
+{\em velocity\+Iterations} & for the velocity constraint solver. \\
+\hline
+{\em position\+Iterations} & for the position constraint solver. \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{class_magnum_1_1_physics3_1_1_world_a162a944743334f77ae2e34d9b843d93e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{class_magnum_1_1_physics3_1_1_world_a162a944743334f77ae2e34d9b843d93e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}!set\+Allow\+Sleeping\+Enable@{set\+Allow\+Sleeping\+Enable}}
+\index{set\+Allow\+Sleeping\+Enable@{set\+Allow\+Sleeping\+Enable}!Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}}
+\subsubsection[{\texorpdfstring{set\+Allow\+Sleeping\+Enable(bool flag)}{setAllowSleepingEnable(bool flag)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+World\+::set\+Allow\+Sleeping\+Enable (
+\begin{DoxyParamCaption}
+\item[{bool}]{flag}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_world_ab1bd5b99186bd33631630172ecb58b2a}{}\label{class_magnum_1_1_physics3_1_1_world_ab1bd5b99186bd33631630172ecb58b2a}
+
+
+Get the World2 joint list. 
+
+With the returned joint, use b2\+Joint\+::\+Get\+Next to get the next joint in the World2 list. A N\+U\+LL joint indicates the end of the list. \begin{DoxyReturn}{傳回值}
+the head of the World2 joint list. Get the World2 contact list. With the returned contact, use b2\+Contact\+::\+Get\+Next to get the next contact in the World2 list. A N\+U\+LL contact indicates the end of the list. 
+
+the head of the World2 contact list. 
+\end{DoxyReturn}
+\begin{DoxyWarning}{警告}
+contacts are created and destroyed in the middle of a time step. Use b2\+Contact\+Listener to avoid missing contacts. Enable/disable sleep. 
+\end{DoxyWarning}
+\index{Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}!test\+Point@{test\+Point}}
+\index{test\+Point@{test\+Point}!Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}}
+\subsubsection[{\texorpdfstring{test\+Point(const Vector3 \&p, unsigned short group, unsigned short mask, Physics3\+::\+Ray\+Cast\+Result \&result, bool closest\+Only) const }{testPoint(const Vector3 &p, unsigned short group, unsigned short mask, Physics3::RayCastResult &result, bool closestOnly) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+World\+::test\+Point (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{p, }
+\item[{unsigned short}]{group, }
+\item[{unsigned short}]{mask, }
+\item[{{\bf Physics3\+::\+Ray\+Cast\+Result} \&}]{result, }
+\item[{bool}]{closest\+Only}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_world_a27698db9854f7fe8042f5ae15ba1ff40}{}\label{class_magnum_1_1_physics3_1_1_world_a27698db9854f7fe8042f5ae15ba1ff40}
+
+
+Query the World2 for all fixtures that potentially overlap the provided A\+A\+BB. 
+
+
+\begin{DoxyParams}{參數}
+{\em callback} & a user implemented callback class. \\
+\hline
+{\em aabb} & the query box. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}!test\+Ray\+Cast@{test\+Ray\+Cast}}
+\index{test\+Ray\+Cast@{test\+Ray\+Cast}!Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}}
+\subsubsection[{\texorpdfstring{test\+Ray\+Cast(const Vector3 \&p, const Vector3 \&direction, unsigned short group, unsigned short mask, Physics3\+::\+Ray\+Cast\+Result \&result, bool closest\+Only) const }{testRayCast(const Vector3 &p, const Vector3 &direction, unsigned short group, unsigned short mask, Physics3::RayCastResult &result, bool closestOnly) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+World\+::test\+Ray\+Cast (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{p, }
+\item[{const {\bf Vector3} \&}]{direction, }
+\item[{unsigned short}]{group, }
+\item[{unsigned short}]{mask, }
+\item[{{\bf Physics3\+::\+Ray\+Cast\+Result} \&}]{result, }
+\item[{bool}]{closest\+Only}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_world_a01af519ec2b235107662dab201d3c78a}{}\label{class_magnum_1_1_physics3_1_1_world_a01af519ec2b235107662dab201d3c78a}
+
+
+Ray-\/cast the World2 for all fixtures in the path of the ray. 
+
+Your callback controls whether you get the closest point, any point, or n-\/points. The ray-\/cast ignores shapes that contain the starting point. 
+\begin{DoxyParams}{參數}
+{\em callback} & a user implemented callback class. \\
+\hline
+{\em point1} & the ray starting point \\
+\hline
+{\em point2} & the ray ending point \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_physics3_1_1_world_a01af519ec2b235107662dab201d3c78a_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}!test\+Sphere@{test\+Sphere}}
+\index{test\+Sphere@{test\+Sphere}!Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}}
+\subsubsection[{\texorpdfstring{test\+Sphere(const Vector3 \&p, float radius, unsigned short group, unsigned short mask, Physics3\+::\+Convex\+Cast\+Result \&result, bool closest\+Only) const }{testSphere(const Vector3 &p, float radius, unsigned short group, unsigned short mask, Physics3::ConvexCastResult &result, bool closestOnly) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+World\+::test\+Sphere (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{p, }
+\item[{float}]{radius, }
+\item[{unsigned short}]{group, }
+\item[{unsigned short}]{mask, }
+\item[{{\bf Physics3\+::\+Convex\+Cast\+Result} \&}]{result, }
+\item[{bool}]{closest\+Only}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_world_a8d08af43db8b7d66112af02e894ca40e}{}\label{class_magnum_1_1_physics3_1_1_world_a8d08af43db8b7d66112af02e894ca40e}
+
+
+Ray-\/cast the World2 for all fixtures in the path of the ray. 
+
+Your callback controls whether you get the closest point, any point, or n-\/points. The ray-\/cast ignores shapes that contain the starting point. 
+\begin{DoxyParams}{參數}
+{\em callback} & a user implemented callback class. \\
+\hline
+{\em point1} & the ray starting point \\
+\hline
+{\em point2} & the ray ending point \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}!test\+Sphere\+Cast@{test\+Sphere\+Cast}}
+\index{test\+Sphere\+Cast@{test\+Sphere\+Cast}!Magnum\+::\+Physics3\+::\+World@{Magnum\+::\+Physics3\+::\+World}}
+\subsubsection[{\texorpdfstring{test\+Sphere\+Cast(const Vector3 \&p, const Vector3 \&direction, float radius, unsigned short group, unsigned short mask, Physics3\+::\+Convex\+Cast\+Result \&result, bool closest\+Only) const }{testSphereCast(const Vector3 &p, const Vector3 &direction, float radius, unsigned short group, unsigned short mask, Physics3::ConvexCastResult &result, bool closestOnly) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+World\+::test\+Sphere\+Cast (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{p, }
+\item[{const {\bf Vector3} \&}]{direction, }
+\item[{float}]{radius, }
+\item[{unsigned short}]{group, }
+\item[{unsigned short}]{mask, }
+\item[{{\bf Physics3\+::\+Convex\+Cast\+Result} \&}]{result, }
+\item[{bool}]{closest\+Only}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_world_ad482e19245dd876fce45f127264ab862}{}\label{class_magnum_1_1_physics3_1_1_world_ad482e19245dd876fce45f127264ab862}
+
+
+Ray-\/cast the World2 for all fixtures in the path of the ray. 
+
+Your callback controls whether you get the closest point, any point, or n-\/points. The ray-\/cast ignores shapes that contain the starting point. 
+\begin{DoxyParams}{參數}
+{\em callback} & a user implemented callback class. \\
+\hline
+{\em point1} & the ray starting point \\
+\hline
+{\em point2} & the ray ending point \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_physics3_1_1_world_ad482e19245dd876fce45f127264ab862_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Physics3.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Physics3.\+cpp\end{DoxyCompactItemize}

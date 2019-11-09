@@ -1,0 +1,67 @@
+\hypertarget{class_ti_xml_visitor}{}\section{Ti\+Xml\+Visitor 類別 參考文件}
+\label{class_ti_xml_visitor}\index{Ti\+Xml\+Visitor@{Ti\+Xml\+Visitor}}
+
+
+Implements the interface to the \char`\"{}\+Visitor pattern\char`\"{} (see the Accept() method.) If you call the Accept() method, it requires being passed a \hyperlink{class_ti_xml_visitor}{Ti\+Xml\+Visitor} class to handle callbacks.  
+
+
+
+
+{\ttfamily \#include $<$tinyxml.\+h$>$}
+
+類別\+Ti\+Xml\+Visitor的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_ti_xml_visitor}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \hyperlink{class_ti_xml_visitor_a07baecb52dd7d8716ae2a48ad0956ee0}{Visit\+Enter} (const \hyperlink{class_ti_xml_document}{Ti\+Xml\+Document} \&)\hypertarget{class_ti_xml_visitor_a07baecb52dd7d8716ae2a48ad0956ee0}{}\label{class_ti_xml_visitor_a07baecb52dd7d8716ae2a48ad0956ee0}
+
+\begin{DoxyCompactList}\small\item\em Visit a document. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_visitor_aa0ade4f27087447e93974e975c3246ad}{Visit\+Exit} (const \hyperlink{class_ti_xml_document}{Ti\+Xml\+Document} \&)\hypertarget{class_ti_xml_visitor_aa0ade4f27087447e93974e975c3246ad}{}\label{class_ti_xml_visitor_aa0ade4f27087447e93974e975c3246ad}
+
+\begin{DoxyCompactList}\small\item\em Visit a document. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_visitor_af6c6178ffa517bbdba95d70490875fff}{Visit\+Enter} (const \hyperlink{class_ti_xml_element}{Ti\+Xml\+Element} \&, const \hyperlink{class_ti_xml_attribute}{Ti\+Xml\+Attribute} $\ast$)\hypertarget{class_ti_xml_visitor_af6c6178ffa517bbdba95d70490875fff}{}\label{class_ti_xml_visitor_af6c6178ffa517bbdba95d70490875fff}
+
+\begin{DoxyCompactList}\small\item\em Visit an element. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_visitor_aec2b1f8116226d52f3a1b95dafd3a32c}{Visit\+Exit} (const \hyperlink{class_ti_xml_element}{Ti\+Xml\+Element} \&)\hypertarget{class_ti_xml_visitor_aec2b1f8116226d52f3a1b95dafd3a32c}{}\label{class_ti_xml_visitor_aec2b1f8116226d52f3a1b95dafd3a32c}
+
+\begin{DoxyCompactList}\small\item\em Visit an element. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_visitor_afad71c71ce6473fb9b4b64cd92de4a19}{Visit} (const \hyperlink{class_ti_xml_declaration}{Ti\+Xml\+Declaration} \&)\hypertarget{class_ti_xml_visitor_afad71c71ce6473fb9b4b64cd92de4a19}{}\label{class_ti_xml_visitor_afad71c71ce6473fb9b4b64cd92de4a19}
+
+\begin{DoxyCompactList}\small\item\em Visit a declaration. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_visitor_a399b8ebca5cd14664974a32d2ce029e5}{Visit} (const \hyperlink{class_ti_xml_text}{Ti\+Xml\+Text} \&)\hypertarget{class_ti_xml_visitor_a399b8ebca5cd14664974a32d2ce029e5}{}\label{class_ti_xml_visitor_a399b8ebca5cd14664974a32d2ce029e5}
+
+\begin{DoxyCompactList}\small\item\em Visit a text node. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_visitor_a53a60e7a528627b31af3161972cc7fa2}{Visit} (const \hyperlink{class_ti_xml_comment}{Ti\+Xml\+Comment} \&)\hypertarget{class_ti_xml_visitor_a53a60e7a528627b31af3161972cc7fa2}{}\label{class_ti_xml_visitor_a53a60e7a528627b31af3161972cc7fa2}
+
+\begin{DoxyCompactList}\small\item\em Visit a comment node. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_visitor_a7e284d607d275c51dac1adb58159ce28}{Visit} (const \hyperlink{class_ti_xml_unknown}{Ti\+Xml\+Unknown} \&)\hypertarget{class_ti_xml_visitor_a7e284d607d275c51dac1adb58159ce28}{}\label{class_ti_xml_visitor_a7e284d607d275c51dac1adb58159ce28}
+
+\begin{DoxyCompactList}\small\item\em Visit an unknown node. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+Implements the interface to the \char`\"{}\+Visitor pattern\char`\"{} (see the Accept() method.) If you call the Accept() method, it requires being passed a \hyperlink{class_ti_xml_visitor}{Ti\+Xml\+Visitor} class to handle callbacks. 
+
+For nodes that contain other nodes (Document, Element) you will get called with a Visit\+Enter/\+Visit\+Exit pair. Nodes that are always leaves are simply called with \hyperlink{class_ti_xml_visitor_afad71c71ce6473fb9b4b64cd92de4a19}{Visit()}.
+
+If you return \textquotesingle{}true\textquotesingle{} from a Visit method, recursive parsing will continue. If you return false, {\bfseries no children of this node or its sibilings} will be Visited.
+
+All flavors of Visit methods have a default implementation that returns \textquotesingle{}true\textquotesingle{} (continue visiting). You need to only override methods that are interesting to you.
+
+Generally Accept() is called on the \hyperlink{class_ti_xml_document}{Ti\+Xml\+Document}, although all nodes suppert Visiting.
+
+You should never change the document from a callback.
+
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_ti_xml_node_adb1f7da895f8c9e945e6bd406fe34c78}{Ti\+Xml\+Node\+::\+Accept()} 
+\end{DoxySeeAlso}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/tinyxml.\+h\end{DoxyCompactItemize}

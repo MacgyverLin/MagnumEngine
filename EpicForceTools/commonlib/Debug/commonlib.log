@@ -1,0 +1,16 @@
+﻿Build started 3/15/2013 12:02:41 AM.
+     1>Project "C:\EpicForceEngine\EpicForceTools\commonlib\commonlib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\commonlib.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /Gm /EHsc /RTC1 /MDd /Zp1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BVHTriangleMeshShape3.cpp HeightFieldShape3.cpp
+         HeightFieldShape3.cpp
+     1>c:\epicforceengine\epicforcetools\commonlib\heightfieldshape3.h(17): fatal error C1083: Cannot open include file: 'ResourceAccess.h': No such file or directory
+         BVHTriangleMeshShape3.cpp
+     1>c:\epicforceengine\epicforcetools\commonlib\bvhtrianglemeshshape3.h(17): fatal error C1083: Cannot open include file: 'ResourceAccess.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\EpicForceEngine\EpicForceTools\commonlib\commonlib.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.30

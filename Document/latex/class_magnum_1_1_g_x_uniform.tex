@@ -1,0 +1,65 @@
+\hypertarget{class_magnum_1_1_g_x_uniform}{}\section{Magnum\+:\+:G\+X\+Uniform 類別 參考文件}
+\label{class_magnum_1_1_g_x_uniform}\index{Magnum\+::\+G\+X\+Uniform@{Magnum\+::\+G\+X\+Uniform}}
+
+
+\hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} encapsulate a Shader U\+Niform of Graphics Device.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Uniform.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \& {\bfseries operator=} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&other)\hypertarget{class_magnum_1_1_g_x_uniform_a36985cccca56d88875ad101823e7179b}{}\label{class_magnum_1_1_g_x_uniform_a36985cccca56d88875ad101823e7179b}
+
+\item 
+void {\bfseries construct} (int location\+\_\+, const \hyperlink{class_magnum_1_1_g_x_shader_uniform_type}{G\+X\+Shader\+Uniform\+Type} \&type\+\_\+, const char $\ast$name\+\_\+, int array\+Size\+\_\+, const char $\ast$semantic\+\_\+)\hypertarget{class_magnum_1_1_g_x_uniform_a02ce24bbc2b6c6cecf9251e621e141a2}{}\label{class_magnum_1_1_g_x_uniform_a02ce24bbc2b6c6cecf9251e621e141a2}
+
+\item 
+void {\bfseries copy\+Value} (const \hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} \&other)\hypertarget{class_magnum_1_1_g_x_uniform_a7bd36eba67f47a0ab30c449309106834}{}\label{class_magnum_1_1_g_x_uniform_a7bd36eba67f47a0ab30c449309106834}
+
+\item 
+{\footnotesize template$<$class T $>$ }\\void {\bfseries set\+Value} (const T \&values\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{class_magnum_1_1_g_x_uniform_a96b993e6adff19edf76921869de798bd}{}\label{class_magnum_1_1_g_x_uniform_a96b993e6adff19edf76921869de798bd}
+
+\item 
+{\footnotesize template$<$class T $>$ }\\void {\bfseries get\+Value} (T \&values\+\_\+, int count\+\_\+=1, int offset\+\_\+=0)\hypertarget{class_magnum_1_1_g_x_uniform_a66f66e793cd709654b9aa0d553e4dccf}{}\label{class_magnum_1_1_g_x_uniform_a66f66e793cd709654b9aa0d553e4dccf}
+
+\item 
+int {\bfseries get\+Location} () const \hypertarget{class_magnum_1_1_g_x_uniform_a2210193704566baea9a7238427a80fa6}{}\label{class_magnum_1_1_g_x_uniform_a2210193704566baea9a7238427a80fa6}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_shader_uniform_type}{G\+X\+Shader\+Uniform\+Type} \& {\bfseries get\+Type} () const \hypertarget{class_magnum_1_1_g_x_uniform_ab20b6c510f128968eede2a79f1793307}{}\label{class_magnum_1_1_g_x_uniform_ab20b6c510f128968eede2a79f1793307}
+
+\item 
+const char $\ast$ {\bfseries get\+Name} () const \hypertarget{class_magnum_1_1_g_x_uniform_aa9191ea4a2e3942f0167f1d415804352}{}\label{class_magnum_1_1_g_x_uniform_aa9191ea4a2e3942f0167f1d415804352}
+
+\item 
+int {\bfseries get\+Array\+Size} () const \hypertarget{class_magnum_1_1_g_x_uniform_a710c2a0c3976b393fd2889874d7fba6a}{}\label{class_magnum_1_1_g_x_uniform_a710c2a0c3976b393fd2889874d7fba6a}
+
+\item 
+const char $\ast$ {\bfseries get\+Semantic} () const \hypertarget{class_magnum_1_1_g_x_uniform_afb33ee50a874ec6d6dbe5bc022b28349}{}\label{class_magnum_1_1_g_x_uniform_afb33ee50a874ec6d6dbe5bc022b28349}
+
+\item 
+void {\bfseries read} (\hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_magnum_1_1_g_x_uniform_af9feed7e9cf196e98b432cfc3419208d}{}\label{class_magnum_1_1_g_x_uniform_af9feed7e9cf196e98b432cfc3419208d}
+
+\item 
+void {\bfseries write} (\hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_magnum_1_1_g_x_uniform_a962751706993617a55fd2c9cc08caa09}{}\label{class_magnum_1_1_g_x_uniform_a962751706993617a55fd2c9cc08caa09}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries G\+X\+Shader\+Program}\hypertarget{class_magnum_1_1_g_x_uniform_a4a6e107978c21d22d7e96be0f48962d2}{}\label{class_magnum_1_1_g_x_uniform_a4a6e107978c21d22d7e96be0f48962d2}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_g_x_uniform}{G\+X\+Uniform} encapsulate a Shader U\+Niform of Graphics Device. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Uniform.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Uniform.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,86 @@
+\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator}{}\section{Magnum\+:\+:Resource\+Import\+:\+:I\+Creator 類別 參考文件}
+\label{class_magnum_1_1_resource_import_1_1_i_creator}\index{Magnum\+::\+Resource\+Import\+::\+I\+Creator@{Magnum\+::\+Resource\+Import\+::\+I\+Creator}}
+
+
+類別\+Magnum\+:\+:Resource\+Import\+:\+:I\+Creator的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{class_magnum_1_1_resource_import_1_1_i_creator__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Resource\+Import\+:\+:I\+Creator的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{class_magnum_1_1_resource_import_1_1_i_creator__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries I\+Creator} (const char $\ast$raw\+Extension\+\_\+, const char $\ast$exp\+Extension\+\_\+)\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_a2ddaf334082ce35802483c9435e52c7c}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_a2ddaf334082ce35802483c9435e52c7c}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_resource_import}{Resource\+Import} $\ast$ {\bfseries create} (const char $\ast$name\+\_\+)=0\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_a2bd9c93b0f056aad8bee9ae4c096e6f5}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_a2bd9c93b0f056aad8bee9ae4c096e6f5}
+
+\item 
+int {\bfseries get\+Num\+Resource\+Importers} () const \hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_abbe2a2dc74645a1cbf6fc22525278476}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_abbe2a2dc74645a1cbf6fc22525278476}
+
+\item 
+const \hyperlink{class_magnum_1_1_resource_import}{Resource\+Import} $\ast$ {\bfseries get\+Resource\+Importers} (int i) const \hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_a08495a2123c94bc5dbcadf3154b01c4e}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_a08495a2123c94bc5dbcadf3154b01c4e}
+
+\item 
+\hyperlink{class_magnum_1_1_resource_import}{Resource\+Import} $\ast$ {\bfseries get\+Resource\+Importers} (int i)\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_ab83009f25d489718ce7bce7dba22e691}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_ab83009f25d489718ce7bce7dba22e691}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool {\bfseries initiate} ()=0\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_ae117b56cd493ab8a74397e69aec0dace}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_ae117b56cd493ab8a74397e69aec0dace}
+
+\item 
+virtual void {\bfseries process} (\hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_system_1_1_file}{System\+::\+File} $>$ \&new\+Files, \hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_system_1_1_file}{System\+::\+File} $>$ \&reload\+Files, \hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_system_1_1_file}{System\+::\+File} $>$ \&delete\+Files)\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_a2452fd5415e67d860991de3272015241}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_a2452fd5415e67d860991de3272015241}
+
+\item 
+virtual void {\bfseries pause} ()\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_a7904d424241347df90c2aa5e69d4057b}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_a7904d424241347df90c2aa5e69d4057b}
+
+\item 
+virtual void {\bfseries resume} ()\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_a86c78834d1511371555689140f6f1807}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_a86c78834d1511371555689140f6f1807}
+
+\item 
+virtual void {\bfseries terminate} ()=0\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_afc65c84c36b1644f94b3f935e1092914}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_afc65c84c36b1644f94b3f935e1092914}
+
+\item 
+virtual void {\bfseries clear} ()\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_a1dd6ced6744a0ca738a39d960a936ed2}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_a1dd6ced6744a0ca738a39d960a936ed2}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_resource_import}{Resource\+Import} $\ast$ $>$ {\bfseries resource\+Importers}\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_a14d0e5bc72b0d62f3fe7ef17f59b9b9b}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_a14d0e5bc72b0d62f3fe7ef17f59b9b9b}
+
+\item 
+char {\bfseries raw\+Extension} \mbox{[}27+1\mbox{]}\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_a26a52ae377306cacb18e10d3469fe384}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_a26a52ae377306cacb18e10d3469fe384}
+
+\item 
+char {\bfseries exp\+Extension} \mbox{[}27+1\mbox{]}\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_ab6d09f6bcf4526601bd4f574913b1552}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_ab6d09f6bcf4526601bd4f574913b1552}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Factory}\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_a328c093d609680cca505905c6d49901a}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_a328c093d609680cca505905c6d49901a}
+
+\item 
+class {\bfseries Resource\+Import}\hypertarget{class_magnum_1_1_resource_import_1_1_i_creator_a886ab3c64485d3e65d51d9b87a500080}{}\label{class_magnum_1_1_resource_import_1_1_i_creator_a886ab3c64485d3e65d51d9b87a500080}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Resource\+Import.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Resource\+Import.\+cpp\end{DoxyCompactItemize}

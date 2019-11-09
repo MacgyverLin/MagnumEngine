@@ -1,0 +1,104 @@
+\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer}{}\section{I\+Dream\+Sky\+:\+:G\+X\+Pixel\+Buffer 類別 參考文件}
+\label{class_i_dream_sky_1_1_g_x_pixel_buffer}\index{I\+Dream\+Sky\+::\+G\+X\+Pixel\+Buffer@{I\+Dream\+Sky\+::\+G\+X\+Pixel\+Buffer}}
+
+
+\hyperlink{class_i_dream_sky_1_1_g_x_pixel_buffer}{G\+X\+Pixel\+Buffer} is the base class of all Buffer of Graphics Devices.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Pixel\+Buffer.\+h$>$}
+
+類別\+I\+Dream\+Sky\+:\+:G\+X\+Pixel\+Buffer的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.372881cm]{class_i_dream_sky_1_1_g_x_pixel_buffer}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+X\+Pixel\+Buffer} (const \hyperlink{class_i_dream_sky_1_1_g_x_pixel_buffer_type}{G\+X\+Pixel\+Buffer\+Type} \&type\+\_\+, int width\+\_\+, int height\+\_\+, const \hyperlink{class_i_dream_sky_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \&format\+\_\+, const \hyperlink{class_i_dream_sky_1_1_g_x_pixel_buffer_option}{G\+X\+Pixel\+Buffer\+Option} \&option\+\_\+)\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_aaf2ebfeaef2659e1a3f81cc44cef3199}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_aaf2ebfeaef2659e1a3f81cc44cef3199}
+
+\item 
+const \hyperlink{class_i_dream_sky_1_1_g_x_pixel_buffer_type}{G\+X\+Pixel\+Buffer\+Type} \& {\bfseries get\+Type} () const \hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_a8d95a028756c418ff3a99ef67ab04839}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_a8d95a028756c418ff3a99ef67ab04839}
+
+\item 
+const \hyperlink{class_i_dream_sky_1_1_g_x_pixel_buffer_option}{G\+X\+Pixel\+Buffer\+Option} \& {\bfseries get\+Option} () const \hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_a0cde52dfc5bee23517ca5957ebd6a6d2}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_a0cde52dfc5bee23517ca5957ebd6a6d2}
+
+\item 
+const \hyperlink{class_i_dream_sky_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \& {\bfseries get\+Format} () const \hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_a8703eaa304411a6ab9a40ffd15eb0e45}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_a8703eaa304411a6ab9a40ffd15eb0e45}
+
+\item 
+int {\bfseries get\+Width} () const \hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_a88b4915874de8547342cb9ffef2a4bdc}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_a88b4915874de8547342cb9ffef2a4bdc}
+
+\item 
+int {\bfseries get\+Height} () const \hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_a04717159dcea08fd0e25b2ce30d3ae68}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_a04717159dcea08fd0e25b2ce30d3ae68}
+
+\item 
+int {\bfseries get\+Level\+Count} () const \hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_ae192558fa477758a511381bb338a724b}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_ae192558fa477758a511381bb338a724b}
+
+\item 
+unsigned int {\bfseries get\+Handle} () const \hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_af22085ae79f9d3cfdff5c4d6e0852d45}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_af22085ae79f9d3cfdff5c4d6e0852d45}
+
+\item 
+bool {\bfseries is\+Renderable} () const \hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_aa85b6f66faa63184cc9af1f2dc9b749e}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_aa85b6f66faa63184cc9af1f2dc9b749e}
+
+\item 
+bool {\bfseries is\+Power\+Of\+Two} () const \hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_a513632836291cb6f09be4e7796cf4379}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_a513632836291cb6f09be4e7796cf4379}
+
+\item 
+int {\bfseries get\+Mipmap\+Width} (int level\+\_\+) const \hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_aeadca3a1498815c2c8d26e94d0332148}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_aeadca3a1498815c2c8d26e94d0332148}
+
+\item 
+int {\bfseries get\+Mipmap\+Height} (int level\+\_\+) const \hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_ae43c6cebb2fc3550de05569ceb386a91}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_ae43c6cebb2fc3550de05569ceb386a91}
+
+\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static int {\bfseries get\+Mipmap\+Size} (int level\+\_\+, int level\+Count\+\_\+, int base\+Size\+\_\+)\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_a17f4c1d28e605361c15408d761a12793}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_a17f4c1d28e605361c15408d761a12793}
+
+\item 
+static bool {\bfseries is\+Power\+Of\+Two} (int num\+\_\+)\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_aeab8fc2017d4417251ac874f2e43a1c9}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_aeab8fc2017d4417251ac874f2e43a1c9}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_g_x_pixel_buffer_type}{G\+X\+Pixel\+Buffer\+Type} {\bfseries type}\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_ad5320790d931d0f7ed5f980df104d9ec}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_ad5320790d931d0f7ed5f980df104d9ec}
+
+\item 
+int {\bfseries width}\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_adf0ee0fe6abdbd9a358e7ff418e7d220}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_adf0ee0fe6abdbd9a358e7ff418e7d220}
+
+\item 
+int {\bfseries height}\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_a8f440483491ed63dd86d3160fb12bd09}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_a8f440483491ed63dd86d3160fb12bd09}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} {\bfseries format}\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_ae0faf017126e0b3b0237950f54e05b6c}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_ae0faf017126e0b3b0237950f54e05b6c}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_g_x_pixel_buffer_option}{G\+X\+Pixel\+Buffer\+Option} {\bfseries option}\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_a626b11bf04c829332cd6b1848b32d1d4}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_a626b11bf04c829332cd6b1848b32d1d4}
+
+\item 
+int {\bfseries level\+Count}\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_adee854641869cf3bb66237e0deb95487}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_adee854641869cf3bb66237e0deb95487}
+
+\item 
+unsigned int {\bfseries handle}\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_a409a9bf1558ce4733fab6535889f2c38}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_a409a9bf1558ce4733fab6535889f2c38}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries G\+X\+Context}\hypertarget{class_i_dream_sky_1_1_g_x_pixel_buffer_a2c36d7f8865080802bbad88cd73d871c}{}\label{class_i_dream_sky_1_1_g_x_pixel_buffer_a2c36d7f8865080802bbad88cd73d871c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_g_x_pixel_buffer}{G\+X\+Pixel\+Buffer} is the base class of all Buffer of Graphics Devices. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Pixel\+Buffer.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Pixel\+Buffer.\+cpp\end{DoxyCompactItemize}

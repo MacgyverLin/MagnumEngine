@@ -1,0 +1,9 @@
+<map id="TiXmlNode" name="TiXmlNode">
+<area shape="rect" id="node3" href="$class_ti_xml_comment.html" title="An XML comment. " alt="" coords="5,155,115,181"/>
+<area shape="rect" id="node4" href="$class_ti_xml_declaration.html" title="In correct XML the declaration is the first entry in the file. " alt="" coords="139,155,258,181"/>
+<area shape="rect" id="node5" href="$class_ti_xml_document.html" title="Always the top level node. " alt="" coords="283,155,395,181"/>
+<area shape="rect" id="node6" href="$class_ti_xml_element.html" title="The element is a container class. " alt="" coords="419,155,520,181"/>
+<area shape="rect" id="node7" href="$class_ti_xml_text.html" title="XML text. " alt="" coords="545,155,623,181"/>
+<area shape="rect" id="node8" href="$class_ti_xml_unknown.html" title="Any tag that tinyXml doesn&#39;t recognize is saved as an unknown. " alt="" coords="648,155,755,181"/>
+<area shape="rect" id="node2" href="$class_ti_xml_base.html" title="TiXmlBase is a base class for every class in TinyXml. " alt="" coords="363,5,445,32"/>
+</map>

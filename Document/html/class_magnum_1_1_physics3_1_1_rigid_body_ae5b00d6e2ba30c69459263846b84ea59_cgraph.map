@@ -1,0 +1,6 @@
+<map id="Magnum::Physics3::RigidBody::updateRigidBody" name="Magnum::Physics3::RigidBody::updateRigidBody">
+<area shape="rect" id="node2" href="$class_magnum_1_1_physics3_1_1_rigid_body.html#af2e7f7ab84a226d14baa80afe0b7bec2" title="Set the Transform of the RigidBody. " alt="" coords="255,5,456,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_frame3.html#a7e8615aa5b044ecc068c0ac2ecf1d764" title="Set the Frame3&#39;s local transform by directly setting the a Global Transform Matrix. " alt="" coords="262,71,449,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_frame3.html#a08c5e5cb5e2127e9c8a166005abda231" title="Get a the parent of this frame. " alt="" coords="504,49,692,75"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_frame3.html#a57a2f755811f485d9602103609c78d68" title="Get the Frame3&#39;s global transform. " alt="" coords="505,100,691,141"/>
+</map>

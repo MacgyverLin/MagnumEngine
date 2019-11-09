@@ -1,0 +1,5 @@
+<map id="IDreamSky::SkeletalAnimationModel::Resource::~Resource" name="IDreamSky::SkeletalAnimationModel::Resource::~Resource">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_vector.html#aee1b78ffb3522750babb05a1ef96f027" title="resize the Vector to length_ " alt="" coords="280,5,420,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_vector.html#ac4d19b6d0c51f31abb9fa1e976ba98fe" title="Get the length of the Vector. " alt="" coords="280,71,420,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_file_output_stream.html#afcb041ab2dd146a2ba38dd0fb1b53f37" title="Check if the stream is opened. " alt="" coords="252,136,448,177"/>
+</map>

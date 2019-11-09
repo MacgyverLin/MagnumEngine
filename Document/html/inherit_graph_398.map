@@ -1,0 +1,11 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node1" href="$class_ti_xml_base.html" title="TiXmlBase is a base class for every class in TinyXml. " alt="" coords="5,107,88,133"/>
+<area shape="rect" id="node2" href="$class_ti_xml_attribute.html" title="An attribute is a name&#45;value pair. " alt="" coords="136,81,239,108"/>
+<area shape="rect" id="node3" href="$class_ti_xml_node.html" title="The parent class for everything in the Document Object Model. " alt="" coords="146,132,229,159"/>
+<area shape="rect" id="node4" href="$class_ti_xml_comment.html" title="An XML comment. " alt="" coords="291,5,401,32"/>
+<area shape="rect" id="node5" href="$class_ti_xml_declaration.html" title="In correct XML the declaration is the first entry in the file. " alt="" coords="287,56,405,83"/>
+<area shape="rect" id="node6" href="$class_ti_xml_document.html" title="Always the top level node. " alt="" coords="290,107,402,133"/>
+<area shape="rect" id="node7" href="$class_ti_xml_element.html" title="The element is a container class. " alt="" coords="295,157,397,184"/>
+<area shape="rect" id="node8" href="$class_ti_xml_text.html" title="XML text. " alt="" coords="307,208,385,235"/>
+<area shape="rect" id="node9" href="$class_ti_xml_unknown.html" title="Any tag that tinyXml doesn&#39;t recognize is saved as an unknown. " alt="" coords="293,259,399,285"/>
+</map>

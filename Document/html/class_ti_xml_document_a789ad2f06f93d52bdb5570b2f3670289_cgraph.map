@@ -1,0 +1,13 @@
+<map id="TiXmlDocument::Parse" name="TiXmlDocument::Parse">
+<area shape="rect" id="node2" href="$class_ti_xml_document.html#ac66b8c28db86363315712a3574e87c35" title="If you have handled the error, it can be reset with this call. " alt="" coords="237,5,416,32"/>
+<area shape="rect" id="node3" href="$class_ti_xml_node.html#a1a881212554b759865f6cac79a851d38" title="Add a new node related to this. " alt="" coords="243,56,410,83"/>
+<area shape="rect" id="node4" href="$class_ti_xml_node.html#aa66f4ebcd175204a168ed7c2d7b43071" title="Return a pointer to the Document this node lives in. " alt="" coords="660,56,831,83"/>
+<area shape="rect" id="node7" href="$class_ti_xml_node.html#a9f43e6984fc7d4afd6eb32714c6b7b72" title="Cast to a more defined type. Will return null if not of the requested type. " alt="" coords="241,157,412,184"/>
+<area shape="rect" id="node8" href="$class_ti_xml_declaration.html#a5d974231f9e9a2f0542f15f3a46cdb76" title="Encoding. Will return an empty string if none was found. " alt="" coords="237,208,417,235"/>
+<area shape="rect" id="node9" href="$class_ti_xml_text.html#acb17ff7c5d09b2c839393445a3de5ea9" title="Turns on or off a CDATA representation of text. " alt="" coords="252,259,401,285"/>
+<area shape="rect" id="node10" href="$class_ti_xml_attribute.html#a298a57287d305904ba6bd96ae6f78d3d" title="Return the name of this attribute. " alt="" coords="255,309,399,336"/>
+<area shape="rect" id="node11" href="$class_ti_xml_base.html#ad4b1472531c647a25b1840a87ae42438" title="Return the current white space setting. " alt="" coords="208,360,445,387"/>
+<area shape="rect" id="node12" href="$class_ti_xml_attribute.html#a0f874490eac8ca00ee0070765d0e97e3" title="Return the value of this attribute. " alt="" coords="255,411,398,437"/>
+<area shape="rect" id="node6" href="$class_ti_xml_node.html#a57b99d5c97d67a42b9752f5210a1ba5e" title="Query the type (as an enumerated value, above) of this node. " alt="" coords="493,56,612,83"/>
+<area shape="rect" id="node5" href="$class_ti_xml_node.html#a8a4cda4b15c29f64cff419309aebed08" title="Cast to a more defined type. Will return null if not of the requested type. " alt="" coords="879,56,1043,83"/>
+</map>

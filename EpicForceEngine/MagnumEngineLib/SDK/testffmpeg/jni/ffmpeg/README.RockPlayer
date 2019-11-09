@@ -1,0 +1,34 @@
+RockPlayer:
+-----------
+
+RockPlayer is a feature rich high performance video player for Android platform created by Redirect Intelligence (http://www.redirectin.com). RockPlayer supports a lot of formats by using FFmpeg as decoding engine, it also supports OpenCore built-in in Android to make most of the hardware and system in system player mode, system player mode has better battery performance but supports much fewer video format.
+
+RockPlayer does not use or refer MPlayer for video playing, instead it uses a  homebrew video rendering engine special designed for Android platform.
+
+
+Copyright:
+-----------
+
+RockPlayer uses LGPLed splitters and decoders from FFmpeg project (Copyright (c) 2000-2010 Fabrice Bellard, et al.). 
+
+FFmpeg is a free software licensed under the GNU Lesser General Public License (LGPL), version 2.1 or later.
+
+FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
+
+Original Source code for FFmpeg can be found on the FFmpeg web site (http://www.ffmpeg.org).
+
+This source package contains full copy of sourced code of FFmpeg, which is used by RockPlayer to create its ffmpeg.so .
+
+
+Modification and updates:
+------------------------
+
+We removed configure script and replaced it by Android.mk, which is easier to work together with Google Android NDK. Please put the whole source structure into your NDK application and refer this Android.mk as any NDK application.
+
+The interface and implementation of FFmpeg is not changed. But we removed all files other than three components interested by RockPlayer: libavformat, libavcodec, libavutil for easy maintain and less confusion.
+
+If you are interesting in use different version of FFmpeg, just try to replace the corresponding files. But we are only sure this project compiles as it provided with NDK 1.6. 
+
+But be careful if you are going to modify the Android.mk contained in this package, especially when adding more files, some files use GPL instead of LGPL which may cause the derived product doesn't apply LGPL any longer. Please check LICENSE from FFmpeg project for details.
+
+RockPlayer's website is http://www.anplayer.com, where you may find latest version of this source package.

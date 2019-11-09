@@ -1,0 +1,8 @@
+<map id="Magnum::Texture2DFile::construct" name="Magnum::Texture2DFile::construct">
+<area shape="rect" id="node2" href="$class_magnum_1_1_bill_board.html#adf4d1c65adcbf8b3ad6767aaa0b18fb5" title="Set the Rotation Pivot of the Particle of the ParticleEmitter. " alt="" coords="275,5,415,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_cube.html#aa814e979cecb8c451fdb332ded2cea1e" title="Cube Destructor. " alt="" coords="267,71,423,98"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_diffuse_map_cube.html#af7de4ae795858e54bc969b29e48872ed" title="DiffuseMapCube Destructor. " alt="" coords="257,123,432,164"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_diffuse_map_specular_map_cube.html#a723855f16958025f5fefdb679df736d1" title="DiffuseMapSpecularMapCube Destructor. " alt="" coords="213,188,476,229"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_particle_emitter.html#a4332986f229caea5ba4c5dfe29d97a93" title="Handle Construct Event of the Component. " alt="" coords="261,253,428,295"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_sky_sphere.html#a4747bb606783031db88b2e622184e6d0" title="SkySphere Destructor. " alt="" coords="269,319,421,360"/>
+</map>

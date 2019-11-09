@@ -1,0 +1,4 @@
+<map id="Magnum::SkeletalAnimModel::Resource::getNumMeshes" name="Magnum::SkeletalAnimModel::Resource::getNumMeshes">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_model.html#afb7a254923080709050676115f23998f" title="Get the i&#45;th Mesh in the Skeletal Anim Model. " alt="" coords="245,5,437,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_model_renderer.html#a138ac08d14815bdc63a73b2d0722f52f" title="remove SkeletalAnimModelComponent from the Renderer. " alt="" coords="485,5,677,47"/>
+</map>

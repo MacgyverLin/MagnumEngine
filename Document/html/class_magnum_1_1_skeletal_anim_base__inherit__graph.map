@@ -1,0 +1,7 @@
+<map id="Magnum::SkeletalAnimBase" name="Magnum::SkeletalAnimBase">
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_key_frame_animation.html" title="Base class For all type of Skeletal KeyFrame Animation. " alt="" coords="6,155,193,196"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_skeletal_procedural_animation.html" title="Base class For all type of Skeletal Procedural Animation. " alt="" coords="219,155,409,196"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_anim_base.html" title="Base class For all type of Skeletal Animation. " alt="" coords="135,5,275,32"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_animation.html" title="TCB Spline data driven Animation. " alt="" coords="5,244,191,271"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_skeletal_anim_blender.html" title="Animation blender. " alt="" coords="215,244,416,271"/>
+</map>

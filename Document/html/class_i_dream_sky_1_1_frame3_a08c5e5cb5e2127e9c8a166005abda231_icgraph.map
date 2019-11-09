@@ -1,0 +1,10 @@
+<map id="IDreamSky::Frame3::getParent" name="IDreamSky::Frame3::getParent">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_editor_gizmo.html#a79d96c8cb5b98f708c5a1c39f7f5b7e4" title="Render reference Transform. " alt="" coords="204,5,371,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_entity.html#adf6d3f7cb1b2ba029b6b048a395cc8ae" title="Entity Destructor To Destructor the Entity. " alt="" coords="219,71,355,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_frame3.html#a7e8615aa5b044ecc068c0ac2ecf1d764" title="Set the Frame3&#39;s local transform by directly setting the a Global Transform Matrix. " alt="" coords="214,136,361,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_frame3.html#a6b3168f32b01c1cc8b12eebaf5c24c68" title="Set the Frame3&#39;s local transform by directly setting the a Global Position. " alt="" coords="214,201,361,243"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_frame3.html#a2d7bf4c7bedfcdecfe8e4bc4210dd55a" title="Get the Frame3&#39;s inverse transform. " alt="" coords="200,267,375,308"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_frame3.html#ae27f7e1f937aa8e7c753a5fbb29edb6a" title="add a child to this Frame3&#39;s children list " alt="" coords="214,332,361,373"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_frame3.html#a64ca03a7b807989e1cbd50f66060df4d" title="set i&#45;th child for this Frame3&#39;s " alt="" coords="423,420,569,461"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_frame3.html#abd28ece5e1c768a39c5786b233577a51" title="insert a child to this Frame3&#39;s at index_ " alt="" coords="214,449,361,491"/>
+</map>

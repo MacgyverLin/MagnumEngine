@@ -1,0 +1,5 @@
+<map id="TiXmlNode::LinkEndChild" name="TiXmlNode::LinkEndChild">
+<area shape="rect" id="node2" href="$class_ti_xml_node.html#aa66f4ebcd175204a168ed7c2d7b43071" title="Return a pointer to the Document this node lives in. " alt="" coords="387,5,557,32"/>
+<area shape="rect" id="node4" href="$class_ti_xml_node.html#a57b99d5c97d67a42b9752f5210a1ba5e" title="Query the type (as an enumerated value, above) of this node. " alt="" coords="220,31,339,57"/>
+<area shape="rect" id="node3" href="$class_ti_xml_node.html#a8a4cda4b15c29f64cff419309aebed08" title="Cast to a more defined type. Will return null if not of the requested type. " alt="" coords="605,5,769,32"/>
+</map>

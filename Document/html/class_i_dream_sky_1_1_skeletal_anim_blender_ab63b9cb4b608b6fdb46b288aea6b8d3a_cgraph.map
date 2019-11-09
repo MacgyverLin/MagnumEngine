@@ -1,0 +1,9 @@
+<map id="IDreamSky::SkeletalAnimBlender::addAnimation" name="IDreamSky::SkeletalAnimBlender::addAnimation">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_skeletal_anim_base.html#a91f5c38d6cb9220dd2353366f09a7664" title="This function get the Number of Bones in the animation data. " alt="" coords="277,5,478,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_skeletal_anim_weights.html#a0205e45e096f3adef5d921e94fff88b0" title="Get the Animation to blend. " alt="" coords="268,71,487,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_skeletal_anim_weights.html#ac9ecdbb912592e207c38ad84c5530868" title="Set the Animation to blend. " alt="" coords="268,136,487,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_skeletal_anim_weights.html#a5e8c78f606d253b62a33e61b04784740" title="Set the num of blend weights, this usually the same as the number of bone in Animation. " alt="" coords="268,201,487,243"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_skeletal_anim_weights.html#a5013bf4b4feafa599d3e5474448c7da8" title="Set the weight of the all bone of animation. " alt="" coords="268,267,487,308"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_vector.html#aee1b78ffb3522750babb05a1ef96f027" title="resize the Vector to length_ " alt="" coords="535,201,675,243"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_vector.html#ac4d19b6d0c51f31abb9fa1e976ba98fe" title="Get the length of the Vector. " alt="" coords="535,267,675,308"/>
+</map>

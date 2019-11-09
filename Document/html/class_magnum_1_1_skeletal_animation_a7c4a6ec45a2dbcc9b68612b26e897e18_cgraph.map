@@ -1,0 +1,6 @@
+<map id="Magnum::SkeletalAnimation::getVector10" name="Magnum::SkeletalAnimation::getVector10">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_model_1_1_resource.html#a19030df08b1b4e27e738f43c44eb11c5" title="Get the position, rotation, scale of the i&#45;th bone at time. " alt="" coords="239,49,431,90"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_vector.html#a05c838dd9a909c2cc729dfbaa3e22fdb" title="resize the Vector to length_ " alt="" coords="487,5,649,32"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_vector.html#a0350766ba61f29a27692e9a7f3e2e61d" title="Get the length of the Vector. " alt="" coords="487,56,649,83"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_resource_access.html#aacebfe47ff62d9a3b23db0ad4c9c2767" title="Get the Name. " alt="" coords="479,107,657,149"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Magnum::Physics3::Vehicle" name="Magnum::Physics3::Vehicle">
+<area shape="rect" id="node3" href="$class_magnum_1_1_vehicle_collider.html" title="VehicleCollider Component. " alt="" coords="15,155,181,181"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_component.html" title="Component. " alt="" coords="25,5,171,32"/>
+</map>

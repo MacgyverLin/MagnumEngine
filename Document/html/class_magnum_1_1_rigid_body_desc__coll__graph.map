@@ -1,0 +1,9 @@
+<map id="Magnum::RigidBodyDesc" name="Magnum::RigidBodyDesc">
+<area shape="rect" id="node2" href="$class_magnum_1_1_physics3_1_1_material.html" title="Material. " alt="" coords="505,5,693,32"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_physics3_1_1_collision_filter.html" title="CollisionFilter. " alt="" coords="504,57,695,98"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_functor.html" title="Magnum::Functor" alt="" coords="537,123,661,149"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_link.html" title="Magnum::Link\&lt; Functor \&gt;" alt="" coords="204,123,376,149"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_shape3.html" title="Shape3. " alt="" coords="537,224,661,251"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_a_a_b_b3.html" title="Magnum::AABB3" alt="" coords="229,224,351,251"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_vector3.html" title="Magnum::Vector3" alt="" coords="5,199,131,225"/>
+</map>

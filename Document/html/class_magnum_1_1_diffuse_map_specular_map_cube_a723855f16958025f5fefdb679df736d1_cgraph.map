@@ -1,0 +1,6 @@
+<map id="Magnum::DiffuseMapSpecularMapCube::~DiffuseMapSpecularMapCube" name="Magnum::DiffuseMapSpecularMapCube::~DiffuseMapSpecularMapCube">
+<area shape="rect" id="node2" href="$class_magnum_1_1_texture2_d_file.html#a8799d191824e368b8bf6a1eeec3ea578" title="construct the texture from a path and allocate texture resource " alt="" coords="316,5,476,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_texture2_d_file.html#af4b329a7880543fb2802e44e7f1ba933" title="destruct the texture and release of texture resource " alt="" coords="316,71,476,112"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_resource_access.html#a6da5b8b50b4a52190a0215eedaa1d0e6" title="Increase Reference Count of the resource by 1 This function increase reference count to the resource ..." alt="" coords="524,5,703,47"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_resource_access.html#a5aeaaeb81a37dd6ceac1cc7251a480f5" title="Decrease Reference Count of the resource by 1 This function decrease reference count to the resource..." alt="" coords="524,71,703,112"/>
+</map>

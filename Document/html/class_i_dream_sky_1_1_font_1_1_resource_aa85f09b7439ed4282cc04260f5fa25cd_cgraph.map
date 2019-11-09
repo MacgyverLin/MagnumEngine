@@ -1,0 +1,9 @@
+<map id="IDreamSky::Font::Resource::isPowerOfTwo" name="IDreamSky::Font::Resource::isPowerOfTwo">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_mem_input_stream.html#a533bcf2b8e5b63c080656824fae97aa9" title="Tell the current read position. " alt="" coords="237,5,431,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_vector.html#aee1b78ffb3522750babb05a1ef96f027" title="resize the Vector to length_ " alt="" coords="264,71,404,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_vector.html#ac4d19b6d0c51f31abb9fa1e976ba98fe" title="Get the length of the Vector. " alt="" coords="264,136,404,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_file_output_stream.html#afcb041ab2dd146a2ba38dd0fb1b53f37" title="Check if the stream is opened. " alt="" coords="236,201,432,243"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_file_output_stream.html#ab3d24c893812e35318b3a535880465fb" title="write function buffer data " alt="" coords="236,267,432,308"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_file_output_stream.html#a8ea8902dfc78e6c48a171ef6d9a5ef25" title="skip data from buffer " alt="" coords="236,332,432,373"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_file_output_stream.html#a1d0294f4ece89e18dc9d9e7535b5a9cc" title="Tell the current read position. " alt="" coords="236,397,432,439"/>
+</map>

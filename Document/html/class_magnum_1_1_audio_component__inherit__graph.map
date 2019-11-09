@@ -1,0 +1,8 @@
+<map id="Magnum::AudioComponent" name="Magnum::AudioComponent">
+<area shape="rect" id="node3" href="$class_magnum_1_1_audio_listener_base.html" title="AudioListenerBase. " alt="" coords="5,155,195,181"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_audio_source_base.html" title="AudioSourceBase. " alt="" coords="219,155,403,181"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_component.html" title="Component. " alt="" coords="132,5,279,32"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_audio_listener.html" title="AudioListener. " alt="" coords="21,229,179,256"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_audio_clip.html" title="AudioClip. " alt="" coords="223,229,358,256"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_audio_stream.html" title="AudioStream. " alt="" coords="383,229,537,256"/>
+</map>

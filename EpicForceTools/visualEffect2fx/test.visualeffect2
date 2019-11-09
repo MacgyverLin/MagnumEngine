@@ -1,0 +1,384 @@
+﻿<VisualEffect>
+	<VertexDesc>
+		<Desc source="Position"		format="float3"/>
+		<Desc source="Normal"		format="float3"/>
+		<Desc source="TexCoord0"	format="float2"/>
+	</VertexDesc>
+	<UniformVariables>
+		<General type="float4"		name="ambientLightColor" default="0.2, 0.2, 0.2, 1.0" sematic="" annotation="string UIName = &quot;Ambient Light Color&quot;;"/>
+		<General type="float4"		name="k_s" default="1.0, 1.0, 1.0, 1.0" sematic="" annotation="string UIName = &quot;Specular&quot;;"/>
+		<General type="int"			name="p" default="15" sematic="" annotation="string UIName = &quot;Specular Power&quot;;	string UIType = &quot;IntSpinner&quot;;	float UIMin = 0.0;	float UIMax = 50.0;"/>
+		<General type="float"		name="envMapAmt" default="0.4" sematic="" annotation="string UIName = &quot;Environment Texture Amount&quot;;"/>
+		<General type="float4x4"	name="worldMat" sematic="WORLD"/>
+		<General type="float4x4"	name="viewMat" sematic="VIEW"/>
+		<General type="float4x4"	name="projectionMat" sematic="PROJECTION"/>
+		<General type="float4x4"	name="worldViewMat" sematic="WORLDVIEW"/>
+		<General type="float4x4"	name="worldViewProjMat" sematic="WORLDVIEWPROJ"/>
+		<General type="float4x4"	name="worldInvMat" sematic="WORLDI"/>
+		<General type="float4x4"	name="viewInvMat" sematic="VIEWI"/>
+		<General type="float4x4"	name="projectionInvMat" sematic="PROJECTIONI"/>
+		<General type="float4x4"	name="worldViewInvMat" sematic="WORLDVIEWI"/>
+		<General type="float4x4"	name="worldViewProjInvMat" sematic="WORLDVIEWPROJI"/>
+		<General type="float3"		name="worldCameraPosition" sematic="WORLDCAMERAPOSITION"/>
+		<General type="float3"		name="localBoxMin" sematic="LOCALBBOXMIN"/>
+		<General type="float3"		name="localBoxMax" sematic="LOCALBBOXMAX"/>
+		<General type="float3"		name="localBoxSize" sematic="LOCALBBOXSIZE"/>
+		<Light type="directional"	name="directionLight" color="1, 0, 0, 1" direction="1, 1, 1" sematic="LIGHT0"/>
+		<Light type="omni"			name="omniLight0" color="0, 1, 0, 1" position=" 5, 5, 5" atteunation="1, 10, 100, 200" sematic="LIGHT1"/>
+		<Light type="omni"			name="omniLight1" color="0, 0, 1, 1" position="-5, 5, 5" atteunation="1, 10, 100, 200" sematic="LIGHT2"/>
+		<Light type="spot"			name="spotLight1" color="1, 1, 1, 1" position="-5, -5, 1" atteunation="1, 10, 100, 200" hotspot="10" falloff="40" sematic="LIGHT3"/>
+		<Sampler2D name="diffuseMap" texcoord="0" minfilter="Linear" magfilter="Linear" mipfilter="Linear" wraps="Wrap" wrapt="Wrap" sematic = "DIFFUSEMAP"/>
+		<Sampler2D name="glossMap"   texcoord="0" minfilter="Linear" magfilter="Linear" mipfilter="Linear" wraps="Wrap" wrapt="Wrap" sematic = "SPECULARMAP"/>
+		<SamplerCube name="envMap"   minfilter="Linear" magfilter="Linear" mipfilter="Linear" sematic = "REFLECTIONMAP"/>
+	</UniformVariables>
+	<Technique name="DiffuseMap">
+		<Pass name="p0">
+			<RenderStatesBlock>
+				<RenderState type="cullmode" 			value= "ccw"/>;
+				<RenderState type="alphablendenable"	value= "true"/>;
+				<RenderState type="blendop"				value= "add"/>;
+				<RenderState type="colorwriteenable"	value= "red | green | blue| alpha "/>;
+				<RenderState type="destblend"			value= "zero"/>;
+				<RenderState type="fillmode"			value= "solid"/>;
+				<RenderState type="shademode"			value= "gouraud"/>;
+				<RenderState type="srcblend"			value= "one"/>;
+				<RenderState type="stencilenable"		value= "false"/>;
+				<RenderState type="stencilfail"			value= "keep"/>;
+				<RenderState type="stencilfunc"			value= "always"/>;
+				<RenderState type="stencilmask"			value= "0xffffffff"/>;
+				<RenderState type="stencilpass"			value= "keep"/>;
+				<RenderState type="stencilref"			value= "0"/>;
+				<RenderState type="stencilwritemask"	value= "0xffffffff"/>;
+				<RenderState type="stencilzfail"		value= "keep"/>;
+				<RenderState type="zenable"				value= "true"/>;
+				<RenderState type="zfunc"				value= "lessequal"/>;
+				<RenderState type="zwriteenable"		value= "true"/>;
+			</RenderStatesBlock>
+			<HLSL>
+				<VertexShader entrypoint="VS">
+					float3 convertWorldToView(float3 dir)
+					{
+						return normalize(mul(dir, (float3x3)viewMat)); /* from max : dirLightDir is worldspace */
+					}
+
+					float3 convertWorldToObj(float3 dir)
+					{
+						return normalize(mul(dir, (float3x3)worldInvMat)); /* from max : dirLightDir is worldspace */
+					}
+
+					float3 blinnDiffuse(float3 L, float3 N)
+					{
+						return max(0, dot(N, L)); /* diffuse */
+					}
+
+					float3 blinnSpecular(float3 H, float3 N, int p)
+					{
+						return pow(max(0, dot(N, H)), p); /* specular */
+					}
+
+					/* PerVertex Lighting Shader */
+					struct VSInput
+						{
+					float3 position : POSITION; float3 normal : NORMAL; float2 texCoord0 : TEXCOORD0;
+					};
+
+					struct VSOutput
+					{
+						float4 position : POSITION;
+						float3 normal : NORMAL;
+						float4 color0 : COLOR0;
+						float4 color1 : COLOR1;
+						float2 texCoord0 : TEXCOORD0;
+					};
+
+					VSOutput VS(VSInput input)
+					{
+					VSOutput output = (VSOutput)0;
+					float3 N = normalize(mul(input.normal,(float3x3)worldViewMat)); 	/* normal (view space) */
+					float3 L = convertWorldToView(directionLightDirection); 			/* light (view space) */
+					float3 V = float3(0, 0, -1);										/* view direction */
+					float3 H = normalize(L + V);										/* half vector */
+
+					output.position		= mul(float4(input.position, 1), worldViewProjMat);
+					output.normal		= N;
+					output.color0		= float4(ambientLightColor + directionLightColor * blinnDiffuse (L, N), 1); /* ambient + diffuse Lighting */
+					output.color1		= float4(directionLightColor * k_s * blinnSpecular(H, N, p), 1);			/* specular color */
+					output.texCoord0	= input.texCoord0;
+
+					return output;
+					}
+				</VertexShader>
+				<PixelShader entrypoint="PS">
+					struct PSInput
+					{
+						float4 position		: POSITION;
+						float3 normal		: NORMAL;
+						float4 color0		: COLOR0;
+						float4 color1		: COLOR1;
+						float2 texCoord0	: TEXCOORD0;
+					};
+
+					struct PSOutput
+					{
+						float4 color		: COLOR;
+					};
+
+					PSOutput PS(PSInput input)
+					{
+						PSOutput output = (PSOutput)0;
+
+						float3 diffuseColor = tex2D(diffuseMapSampler , input.texCoord0);
+						float3 envColor = texCUBE(envMapSampler, reflect(float3(0, 0, -1), input.normal) ) * envMapAmt;
+						output.color = float4(input.color0 * diffuseColor + (float3)input.color1 + envColor, 1);
+
+						return output;
+					}
+				</PixelShader>
+			</HLSL>
+			<GLSL>
+				<VertexShader name="main">
+					precision highp float;
+					/*
+					Translator library functions
+					*/
+
+					mat3 xlat_lib_constructMat3( mat4 m) 
+					{
+						return mat3( vec3( m[0]), vec3( m[1]), vec3( m[2]));
+					}
+
+					/*
+					Structure definitions
+					*/
+
+					struct VSOutput 
+					{
+						vec4 position;
+						vec3 normal;
+						vec4 color0;
+						vec4 color1;
+						vec2 texCoord0;
+					};
+
+					struct VSInput 
+					{
+						vec3 position;
+						vec3 normal;
+						vec2 texCoord0;
+					};
+
+					struct PSOutput 
+					{
+						vec4 color;
+					};
+
+					struct PSInput 
+					{
+						vec4 position;
+						vec3 normal;
+						vec4 color0;
+						vec4 color1;
+						vec2 texCoord0;
+					};
+
+
+					/*
+					Global variable definitions
+					*/
+
+					uniform vec4 ambientLightColor;
+					uniform vec4 directionLightColor;
+					uniform vec3 directionLightDirection;
+					uniform vec4 k_s;
+					uniform int p;
+					uniform mat4 viewMat;
+					uniform mat4 worldViewMat;
+					uniform mat4 worldViewProjMat;
+
+					/*
+					Function declarations
+					*/
+
+					vec3 convertWorldToView( in vec3 dir );
+					vec3 blinnDiffuse( in vec3 L, in vec3 N );
+					vec3 blinnSpecular( in vec3 H, in vec3 N, in int p );
+					VSOutput VS( in VSInput xlat_var_input );
+
+					/*
+					Function definitions
+					*/
+
+					vec3 convertWorldToView( in vec3 dir )
+					{
+						return normalize( ( dir * xlat_lib_constructMat3( viewMat) ) );
+					}
+
+
+					vec3 blinnDiffuse( in vec3 L, in vec3 N ) 
+					{
+						return vec3( max( 0.000000, dot( N, L)));
+					}
+
+
+					vec3 blinnSpecular( in vec3 H, in vec3 N, in int p ) 
+					{
+						return vec3( pow( max( 0.000000, dot( N, H)), float( p )));
+					}
+
+
+					VSOutput VS( in VSInput xlat_var_input ) 
+					{
+						VSOutput xlat_var_output;
+						vec3 N;
+						vec3 L;
+						vec3 V = vec3( 0.000000, 0.000000, -1.00000);
+						vec3 H;
+
+						xlat_var_output = VSOutput( vec4( 0.000000, 0.000000, 0.000000, 0.000000), vec3( 0.000000, 0.000000, 0.000000), vec4( 0.000000, 0.000000, 0.000000, 0.000000), vec4( 0.000000, 0.000000, 0.000000, 0.000000), vec2( 0.000000, 0.000000));
+						N = normalize( ( xlat_var_input.normal * xlat_lib_constructMat3( worldViewMat) ) );
+						L = convertWorldToView( directionLightDirection);
+						H = normalize( (L + V) );
+						xlat_var_output.position = ( vec4( xlat_var_input.position, 1.00000) * worldViewProjMat );
+						xlat_var_output.normal = N;
+						xlat_var_output.color0 = vec4( (vec3( ambientLightColor) + (vec3( directionLightColor) * blinnDiffuse( L, N))), 1.00000);
+						xlat_var_output.color1 = vec4( (vec3( (directionLightColor * k_s)) * blinnSpecular( H, N, p)), 1.00000);
+						xlat_var_output.texCoord0 = xlat_var_input.texCoord0;
+						return xlat_var_output;
+					}
+
+
+					/*
+					Attributes
+					*/
+					attribute vec3 POSITION;
+					attribute vec3 NORMAL;
+					attribute vec2 TEXCOORD0;
+
+					/*
+					User varying
+					*/
+					varying vec4 xlat_varying_NORMAL;
+					varying vec4 xlat_varying_COLOR0;
+					varying vec4 xlat_varying_COLOR1;
+					varying vec4 xlat_varying_TEXCOORD0;
+
+					/*
+					Translator's entry point
+					*/
+					void main() 
+					{
+						VSOutput xlat_retVal;
+						VSInput xlat_temp_xlat_var_input;
+						xlat_temp_xlat_var_input.position = vec3( POSITION);
+						xlat_temp_xlat_var_input.normal = vec3( NORMAL);
+						xlat_temp_xlat_var_input.texCoord0 = vec2( TEXCOORD0);
+
+						xlat_retVal = VS( xlat_temp_xlat_var_input);
+
+						gl_Position = vec4( xlat_retVal.position);
+						xlat_varying_NORMAL = vec4( xlat_retVal.normal, 0.0);
+						xlat_varying_COLOR0 = vec4( xlat_retVal.color0);
+						xlat_varying_COLOR1 = vec4( xlat_retVal.color1);
+						xlat_varying_TEXCOORD0 = vec4( xlat_retVal.texCoord0, 0.0, 0.0);
+					}
+				</VertexShader>
+				<PixelShader name="main">
+					precision highp float;
+					/*
+					Structure definitions
+					*/
+
+					struct VSOutput 
+					{
+						vec4 position;
+						vec3 normal;
+						vec4 color0;
+						vec4 color1;
+						vec2 texCoord0;
+					};
+
+					struct VSInput 
+					{
+						vec3 position;
+						vec3 normal;
+						vec2 texCoord0;
+					};
+
+					struct PSOutput 
+					{
+						vec4 color;
+					};
+
+					struct PSInput 
+					{
+						vec4 position;
+						vec3 normal;
+						vec4 color0;
+						vec4 color1;
+						vec2 texCoord0;
+					};
+
+
+					/*
+					Global variable definitions
+					*/
+
+					uniform sampler2D diffuseMapSampler;
+					uniform float envMapAmt;
+					uniform samplerCube envMapSampler;
+
+					/*
+					Function declarations
+					*/
+
+					PSOutput PS( in PSInput xlat_var_input );
+
+					/*
+					Function definitions
+					*/
+
+					PSOutput PS( in PSInput xlat_var_input )
+					{
+						PSOutput xlat_var_output;
+						vec3 diffuseColor;
+						vec3 envColor;
+						xlat_var_output = PSOutput( vec4( 0.000000, 0.000000, 0.000000, 0.000000));
+						
+						diffuseColor = vec3( texture2D( diffuseMapSampler, xlat_var_input.texCoord0));
+						envColor = vec3( (textureCube( envMapSampler, reflect( vec3( 0.000000, 0.000000, -1.00000), xlat_var_input.normal)) * envMapAmt));
+						xlat_var_output.color = vec4( (((vec3( xlat_var_input.color0) * diffuseColor) + vec3( xlat_var_input.color1)) + envColor), 1.00000);
+						return xlat_var_output;
+					}
+
+
+					/*
+					User varying
+					*/
+					varying vec4 xlat_varying_POSITION;
+					varying vec4 xlat_varying_NORMAL;
+					varying vec4 xlat_varying_COLOR0;
+					varying vec4 xlat_varying_COLOR1;
+					varying vec4 xlat_varying_TEXCOORD0;
+
+					/*
+					Translator's entry point
+					*/
+					void main()
+					{
+						PSOutput xlat_retVal;
+						PSInput xlat_temp_xlat_var_input;
+						xlat_temp_xlat_var_input.position = vec4( xlat_varying_POSITION);
+						xlat_temp_xlat_var_input.normal = vec3( xlat_varying_NORMAL);
+						xlat_temp_xlat_var_input.color0 = vec4( xlat_varying_COLOR0);
+						xlat_temp_xlat_var_input.color1 = vec4( xlat_varying_COLOR1);
+						xlat_temp_xlat_var_input.texCoord0 = vec2( xlat_varying_TEXCOORD0);
+
+						xlat_retVal = PS( xlat_temp_xlat_var_input);
+
+						gl_FragData[0] = vec4( xlat_retVal.color);
+					}
+				</PixelShader>
+			</GLSL>
+		</Pass>
+	</Technique>
+</VisualEffect>	

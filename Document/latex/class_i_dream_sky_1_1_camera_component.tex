@@ -1,0 +1,466 @@
+\hypertarget{class_i_dream_sky_1_1_camera_component}{}\section{I\+Dream\+Sky\+:\+:Camera\+Component 類別 參考文件}
+\label{class_i_dream_sky_1_1_camera_component}\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+
+
+\hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component}.  
+
+
+
+
+{\ttfamily \#include $<$Camera\+Component.\+h$>$}
+
+類別\+I\+Dream\+Sky\+:\+:Camera\+Component的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_i_dream_sky_1_1_camera_component}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70}{Clear\+Flag} \{ \\*
+\hyperlink{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70a466fc0a2fd4571d4d8c9b37761f2d6c3}{C\+L\+E\+A\+R\+\_\+\+N\+O\+NE} = 0x00, 
+\hyperlink{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70aa7c0a8816a5fc94eaf9571808ba9af09}{C\+L\+E\+A\+R\+\_\+\+C\+O\+L\+OR} = 0x01, 
+\hyperlink{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70a7942b6e2e17139226d420a6e58ee4219}{C\+L\+E\+A\+R\+\_\+\+D\+E\+P\+TH} = 0x02, 
+\hyperlink{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70ac2cacba4456290b43dc83822d7606f0a}{C\+L\+E\+A\+R\+\_\+\+S\+T\+E\+N\+C\+IL} = 0x04, 
+\\*
+\hyperlink{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70a8475f6b036f1ed93eef58cea18315480}{C\+L\+E\+A\+R\+\_\+\+S\+K\+Y\+B\+OX} = 0x08
+ \}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_camera_component_ab6a56dfe932d9ddad1df9c0ffe0a329f}{Camera\+Component} (\hyperlink{class_i_dream_sky_1_1_component_1_1_owner}{Component\+::\+Owner} \&owner\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_camera_component_a977e080c45152719c5e6335cfb0698fc}{$\sim$\+Camera\+Component} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_camera_component_aff63c658ccd2a68476b97079b8ce1390}{P\+R\+O\+P\+E\+R\+TY} (int, Order)
+\begin{DoxyCompactList}\small\item\em Set the Rendering Order of this Camera. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_camera_component_a772135f28ad4c626a2d83ded89cba672}{P\+R\+O\+P\+E\+R\+TY} (unsigned int, Target\+Layer)
+\begin{DoxyCompactList}\small\item\em Set the value of the Target\+Layer of this Camera. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_camera_component_aeb3558e5c4cbb8928e164a36a47b2d91}{P\+R\+O\+P\+E\+R\+TY} (int, Clear\+Flags)
+\begin{DoxyCompactList}\small\item\em Set the Clearing Flags of this Camera. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_camera_component_a05f48baa4acd86d534827d0de914e7e5}{P\+R\+O\+P\+E\+R\+TY} (\hyperlink{class_i_dream_sky_1_1_color_r_g_b_a}{Color\+R\+G\+BA}, Clear\+Color)
+\begin{DoxyCompactList}\small\item\em Set the Clear Color of this Camera. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_camera_component_ad3d2a0d318c6e4e9b695349b935e6be7}{P\+R\+O\+P\+E\+R\+TY} (float, Clear\+Depth)
+\begin{DoxyCompactList}\small\item\em Set the Clear Depth of this Camera. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_camera_component_ad7ea7ab816ff20c21855fef0ced97e12}{P\+R\+O\+P\+E\+R\+TY} (unsigned int, Clear\+Stencil)
+\begin{DoxyCompactList}\small\item\em Set the Clear Stencil of this Camera. \end{DoxyCompactList}\item 
+\hyperlink{class_i_dream_sky_1_1_camera_component_abca9ce5b34ac81afcf615fd919ac32fa}{P\+R\+O\+P\+E\+R\+TY} (\hyperlink{class_i_dream_sky_1_1_vector4}{Vector4}, Viewport)
+\begin{DoxyCompactList}\small\item\em Set the Viewport of this Camera. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_camera_component_ab50fcc345c5beb14317b4bb74f6c2b2e}{set\+Projection\+Planes} (float left\+\_\+, float right\+\_\+, float bottom\+\_\+, float top\+\_\+, float near\+Plane\+\_\+, float far\+Plane\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the coordinate of project plane of at the near plane of camera. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_camera_component_af5d94dcadd4011e3a0dad972c8eadd9b}{get\+Projection\+Planes} (float \&left\+\_\+, float \&right\+\_\+, float \&bottom\+\_\+, float \&top\+\_\+, float \&near\+Plane\+\_\+, float \&far\+Plane\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the coordinate of project plane of at the near plane of camera. \end{DoxyCompactList}\item 
+const \hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \& \hyperlink{class_i_dream_sky_1_1_camera_component_aa7d6a7f6379dc17af5eec17fd91843af}{get\+Projection\+Transform} ()
+\begin{DoxyCompactList}\small\item\em Get the project transform of this camera. \end{DoxyCompactList}\item 
+bool \hyperlink{class_i_dream_sky_1_1_camera_component_a38e7ee545e4981d3285df17f89561c24}{is\+Layer\+Matched} (unsigned int layer) const 
+\begin{DoxyCompactList}\small\item\em Check if the parameter layer matches Target\+Layer to this camera. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static int {\bfseries compare} (const void $\ast$left, const void $\ast$right)\hypertarget{class_i_dream_sky_1_1_camera_component_a01e3c4027e51ef82206627057d824a18}{}\label{class_i_dream_sky_1_1_camera_component_a01e3c4027e51ef82206627057d824a18}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \hyperlink{class_i_dream_sky_1_1_camera_component_ac7ea89b8cd16133d963a5cc54942f22f}{on\+Construct} ()
+\begin{DoxyCompactList}\small\item\em Handle Construct Event of the \hyperlink{class_i_dream_sky_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_camera_component_ae4ee1cdff7b10f4d275d4db47e7f2c55}{on\+Start} ()\hypertarget{class_i_dream_sky_1_1_camera_component_ae4ee1cdff7b10f4d275d4db47e7f2c55}{}\label{class_i_dream_sky_1_1_camera_component_ae4ee1cdff7b10f4d275d4db47e7f2c55}
+
+\begin{DoxyCompactList}\small\item\em Handle Start Event of the \hyperlink{class_i_dream_sky_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_camera_component_aaf42005f7bc8c4f93b609c8666d65a30}{on\+Update} (float dt)
+\begin{DoxyCompactList}\small\item\em Handle Update Event of the \hyperlink{class_i_dream_sky_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_camera_component_af22f1839001c7eea5c4de87fd5901212}{on\+Pause} ()\hypertarget{class_i_dream_sky_1_1_camera_component_af22f1839001c7eea5c4de87fd5901212}{}\label{class_i_dream_sky_1_1_camera_component_af22f1839001c7eea5c4de87fd5901212}
+
+\begin{DoxyCompactList}\small\item\em Handle Pause Event of the \hyperlink{class_i_dream_sky_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_camera_component_a5808958ab0c9cd496bf419b15a9bab1f}{on\+Resume} ()\hypertarget{class_i_dream_sky_1_1_camera_component_a5808958ab0c9cd496bf419b15a9bab1f}{}\label{class_i_dream_sky_1_1_camera_component_a5808958ab0c9cd496bf419b15a9bab1f}
+
+\begin{DoxyCompactList}\small\item\em Handle Resume Event of the \hyperlink{class_i_dream_sky_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_camera_component_a8c624bffc5605a56fb0fa2eb82c256ba}{on\+Stop} ()\hypertarget{class_i_dream_sky_1_1_camera_component_a8c624bffc5605a56fb0fa2eb82c256ba}{}\label{class_i_dream_sky_1_1_camera_component_a8c624bffc5605a56fb0fa2eb82c256ba}
+
+\begin{DoxyCompactList}\small\item\em Handle Stop Event of the \hyperlink{class_i_dream_sky_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_camera_component_aea23765a5cf05c750e92a01e42a5a3b1}{on\+Destruct} ()\hypertarget{class_i_dream_sky_1_1_camera_component_aea23765a5cf05c750e92a01e42a5a3b1}{}\label{class_i_dream_sky_1_1_camera_component_aea23765a5cf05c750e92a01e42a5a3b1}
+
+\begin{DoxyCompactList}\small\item\em Handle Destruct Event of the \hyperlink{class_i_dream_sky_1_1_component}{Component}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_camera_component_af33eea6a8c6ac26b05cca24336627695}{on\+Debug\+Render} (\hyperlink{class_i_dream_sky_1_1_i_component_debug_renderer}{I\+Component\+Debug\+Renderer} \&debug\+Renderer)=0\hypertarget{class_i_dream_sky_1_1_camera_component_af33eea6a8c6ac26b05cca24336627695}{}\label{class_i_dream_sky_1_1_camera_component_af33eea6a8c6ac26b05cca24336627695}
+
+\begin{DoxyCompactList}\small\item\em Handle Debuger Rendering Event of the \hyperlink{class_i_dream_sky_1_1_component}{Component}. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_camera_component_a84bbd217e6201fd89894e6f8a81e03a9}{in\+Validate\+Projection\+Transform} ()\hypertarget{class_i_dream_sky_1_1_camera_component_a84bbd217e6201fd89894e6f8a81e03a9}{}\label{class_i_dream_sky_1_1_camera_component_a84bbd217e6201fd89894e6f8a81e03a9}
+
+\begin{DoxyCompactList}\small\item\em mark the member variable project\+Transform\+Valid is invalide and should be update before next render \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_camera_component_af788dca88e621066fe0700108ae4e856}{on\+Validate\+Projection\+Transform} (\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4} \&project\+Transform) const  =0
+\begin{DoxyCompactList}\small\item\em This is a pure virtual function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Video\+::\+Manager}\hypertarget{class_i_dream_sky_1_1_camera_component_a96cc6acb288ad905825c71c3a22a9c9f}{}\label{class_i_dream_sky_1_1_camera_component_a96cc6acb288ad905825c71c3a22a9c9f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component}. 
+
+\hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component} is the base class of all \hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component} component. \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_component}{Component} 
+\end{DoxySeeAlso}
+
+
+\subsection{列舉型態成員說明文件}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!Clear\+Flag@{Clear\+Flag}}
+\index{Clear\+Flag@{Clear\+Flag}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{Clear\+Flag}{ClearFlag}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf I\+Dream\+Sky\+::\+Camera\+Component\+::\+Clear\+Flag}}\hypertarget{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70}{}\label{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{C\+L\+E\+A\+R\+\_\+\+N\+O\+NE@{C\+L\+E\+A\+R\+\_\+\+N\+O\+NE}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!C\+L\+E\+A\+R\+\_\+\+N\+O\+NE@{C\+L\+E\+A\+R\+\_\+\+N\+O\+NE}}\item[{\em 
+C\+L\+E\+A\+R\+\_\+\+N\+O\+NE\hypertarget{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70a466fc0a2fd4571d4d8c9b37761f2d6c3}{}\label{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70a466fc0a2fd4571d4d8c9b37761f2d6c3}
+}]do not clear \index{C\+L\+E\+A\+R\+\_\+\+C\+O\+L\+OR@{C\+L\+E\+A\+R\+\_\+\+C\+O\+L\+OR}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!C\+L\+E\+A\+R\+\_\+\+C\+O\+L\+OR@{C\+L\+E\+A\+R\+\_\+\+C\+O\+L\+OR}}\item[{\em 
+C\+L\+E\+A\+R\+\_\+\+C\+O\+L\+OR\hypertarget{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70aa7c0a8816a5fc94eaf9571808ba9af09}{}\label{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70aa7c0a8816a5fc94eaf9571808ba9af09}
+}]clear color buffer at each frame by Clear\+Color \index{C\+L\+E\+A\+R\+\_\+\+D\+E\+P\+TH@{C\+L\+E\+A\+R\+\_\+\+D\+E\+P\+TH}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!C\+L\+E\+A\+R\+\_\+\+D\+E\+P\+TH@{C\+L\+E\+A\+R\+\_\+\+D\+E\+P\+TH}}\item[{\em 
+C\+L\+E\+A\+R\+\_\+\+D\+E\+P\+TH\hypertarget{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70a7942b6e2e17139226d420a6e58ee4219}{}\label{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70a7942b6e2e17139226d420a6e58ee4219}
+}]clear depth buffer at each frame by Clear\+Depth \index{C\+L\+E\+A\+R\+\_\+\+S\+T\+E\+N\+C\+IL@{C\+L\+E\+A\+R\+\_\+\+S\+T\+E\+N\+C\+IL}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!C\+L\+E\+A\+R\+\_\+\+S\+T\+E\+N\+C\+IL@{C\+L\+E\+A\+R\+\_\+\+S\+T\+E\+N\+C\+IL}}\item[{\em 
+C\+L\+E\+A\+R\+\_\+\+S\+T\+E\+N\+C\+IL\hypertarget{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70ac2cacba4456290b43dc83822d7606f0a}{}\label{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70ac2cacba4456290b43dc83822d7606f0a}
+}]clear stencil buffer at each frame by Clear\+Stencil \index{C\+L\+E\+A\+R\+\_\+\+S\+K\+Y\+B\+OX@{C\+L\+E\+A\+R\+\_\+\+S\+K\+Y\+B\+OX}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!C\+L\+E\+A\+R\+\_\+\+S\+K\+Y\+B\+OX@{C\+L\+E\+A\+R\+\_\+\+S\+K\+Y\+B\+OX}}\item[{\em 
+C\+L\+E\+A\+R\+\_\+\+S\+K\+Y\+B\+OX\hypertarget{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70a8475f6b036f1ed93eef58cea18315480}{}\label{class_i_dream_sky_1_1_camera_component_ad5078bb9ef911389860f13234c35fc70a8475f6b036f1ed93eef58cea18315480}
+}]clear color buffer at each frame by Sky\+Box \end{description}
+\end{Desc}
+
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!Camera\+Component@{Camera\+Component}}
+\index{Camera\+Component@{Camera\+Component}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{Camera\+Component(\+Component\+::\+Owner \&owner\+\_\+)}{CameraComponent(Component::Owner &owner_)}}]{\setlength{\rightskip}{0pt plus 5cm}Camera\+Component\+::\+Camera\+Component (
+\begin{DoxyParamCaption}
+\item[{{\bf Component\+::\+Owner} \&}]{owner\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_camera_component_ab6a56dfe932d9ddad1df9c0ffe0a329f}{}\label{class_i_dream_sky_1_1_camera_component_ab6a56dfe932d9ddad1df9c0ffe0a329f}
+
+
+\hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component} for the owner. 
+\begin{DoxyParams}{參數}
+{\em owner\+\_\+,the} & \hyperlink{class_i_dream_sky_1_1_component_1_1_owner}{Component\+::\+Owner} which owns this component. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!````~Camera\+Component@{$\sim$\+Camera\+Component}}
+\index{````~Camera\+Component@{$\sim$\+Camera\+Component}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{$\sim$\+Camera\+Component()}{~CameraComponent()}}]{\setlength{\rightskip}{0pt plus 5cm}Camera\+Component\+::$\sim$\+Camera\+Component (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_camera_component_a977e080c45152719c5e6335cfb0698fc}{}\label{class_i_dream_sky_1_1_camera_component_a977e080c45152719c5e6335cfb0698fc}
+
+
+\hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_camera_component}{Camera\+Component} and remove from its owner. 
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!get\+Projection\+Planes@{get\+Projection\+Planes}}
+\index{get\+Projection\+Planes@{get\+Projection\+Planes}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{get\+Projection\+Planes(float \&left\+\_\+, float \&right\+\_\+, float \&bottom\+\_\+, float \&top\+\_\+, float \&near\+Plane\+\_\+, float \&far\+Plane\+\_\+) const }{getProjectionPlanes(float &left_, float &right_, float &bottom_, float &top_, float &nearPlane_, float &farPlane_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\+Component\+::get\+Projection\+Planes (
+\begin{DoxyParamCaption}
+\item[{float \&}]{left\+\_\+, }
+\item[{float \&}]{right\+\_\+, }
+\item[{float \&}]{bottom\+\_\+, }
+\item[{float \&}]{top\+\_\+, }
+\item[{float \&}]{near\+Plane\+\_\+, }
+\item[{float \&}]{far\+Plane\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_camera_component_af5d94dcadd4011e3a0dad972c8eadd9b}{}\label{class_i_dream_sky_1_1_camera_component_af5d94dcadd4011e3a0dad972c8eadd9b}
+
+
+Get the coordinate of project plane of at the near plane of camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em left\+\_\+,float,the} & left side frustum x coordinate in this camera space is returned thru this parameter \\
+\hline
+{\em right\+\_\+,float,the} & right side frustum x coordinate in this camera space is returned thru this parameter \\
+\hline
+{\em bottom\+\_\+,float,the} & bottom side frustum y coordinate in this camera space is returned thru this parameter \\
+\hline
+{\em top\+\_\+,float,the} & top side frustum y coordinate in this camera space is returned thru this parameter \\
+\hline
+{\em near\+Plane\+\_\+,float,the} & near side frustum z coordinate in this camera space is returned thru this parameter \\
+\hline
+{\em far\+Plane\+\_\+,float,the} & far side frustum z coordinate in this camera space is returned thru this parameter \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+Redbook of Open\+GL Bible for detail of definition of Projection \hyperlink{class_i_dream_sky_1_1_transform}{Transform} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!get\+Projection\+Transform@{get\+Projection\+Transform}}
+\index{get\+Projection\+Transform@{get\+Projection\+Transform}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{get\+Projection\+Transform()}{getProjectionTransform()}}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Matrix4} \& Camera\+Component\+::get\+Projection\+Transform (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_camera_component_aa7d6a7f6379dc17af5eec17fd91843af}{}\label{class_i_dream_sky_1_1_camera_component_aa7d6a7f6379dc17af5eec17fd91843af}
+
+
+Get the project transform of this camera. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4}, the projection transform of this camera. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+Redbook of Open\+GL Bible for detail of definition of Projection \hyperlink{class_i_dream_sky_1_1_transform}{Transform} 
+\end{DoxySeeAlso}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!is\+Layer\+Matched@{is\+Layer\+Matched}}
+\index{is\+Layer\+Matched@{is\+Layer\+Matched}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{is\+Layer\+Matched(unsigned int layer) const }{isLayerMatched(unsigned int layer) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Camera\+Component\+::is\+Layer\+Matched (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{layer}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_i_dream_sky_1_1_camera_component_a38e7ee545e4981d3285df17f89561c24}{}\label{class_i_dream_sky_1_1_camera_component_a38e7ee545e4981d3285df17f89561c24}
+
+
+Check if the parameter layer matches Target\+Layer to this camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em layer,unsigned} & int, the layer to be check \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true\+: layer matches this camera Target\+Layer 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!on\+Construct@{on\+Construct}}
+\index{on\+Construct@{on\+Construct}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{on\+Construct()}{onConstruct()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Camera\+Component\+::on\+Construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_camera_component_ac7ea89b8cd16133d963a5cc54942f22f}{}\label{class_i_dream_sky_1_1_camera_component_ac7ea89b8cd16133d963a5cc54942f22f}
+
+
+Handle Construct Event of the \hyperlink{class_i_dream_sky_1_1_component}{Component}. 
+
+\begin{DoxyReturn}{傳回值}
+true if construction is success, return false if fail 
+\end{DoxyReturn}
+
+
+依據\hyperlink{class_i_dream_sky_1_1_component}{I\+Dream\+Sky\+::\+Component}重新實作.
+
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!on\+Update@{on\+Update}}
+\index{on\+Update@{on\+Update}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{on\+Update(float dt)}{onUpdate(float dt)}}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\+Component\+::on\+Update (
+\begin{DoxyParamCaption}
+\item[{float}]{dt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_camera_component_aaf42005f7bc8c4f93b609c8666d65a30}{}\label{class_i_dream_sky_1_1_camera_component_aaf42005f7bc8c4f93b609c8666d65a30}
+
+
+Handle Update Event of the \hyperlink{class_i_dream_sky_1_1_component}{Component}. 
+
+
+\begin{DoxyParams}{參數}
+{\em delta} & elapse of the game cycle \\
+\hline
+\end{DoxyParams}
+
+
+依據\hyperlink{class_i_dream_sky_1_1_component}{I\+Dream\+Sky\+::\+Component}重新實作.
+
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!on\+Validate\+Projection\+Transform@{on\+Validate\+Projection\+Transform}}
+\index{on\+Validate\+Projection\+Transform@{on\+Validate\+Projection\+Transform}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{on\+Validate\+Projection\+Transform(\+Matrix4 \&project\+Transform) const  =0}{onValidateProjectionTransform(Matrix4 &projectTransform) const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Camera\+Component\+::on\+Validate\+Projection\+Transform (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix4} \&}]{project\+Transform}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_camera_component_af788dca88e621066fe0700108ae4e856}{}\label{class_i_dream_sky_1_1_camera_component_af788dca88e621066fe0700108ae4e856}
+
+
+This is a pure virtual function. 
+
+all sub class should implement this function for their own version of project transform. 
+\begin{DoxyParams}{參數}
+{\em project\+Transform,\hyperlink{class_i_dream_sky_1_1_matrix4}{Matrix4},the} & layer to be check. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(int, Order)}{PROPERTY(int, Order)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{int}]{, }
+\item[{Order}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_camera_component_aff63c658ccd2a68476b97079b8ce1390}{}\label{class_i_dream_sky_1_1_camera_component_aff63c658ccd2a68476b97079b8ce1390}
+
+
+Set the Rendering Order of this Camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,int,the} & Rendering Order of this Camera Get the Rendering Order of this Camera \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+the Rendering Order of this Camera 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(unsigned int, Target\+Layer)}{PROPERTY(unsigned int, TargetLayer)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{int, }
+\item[{Target\+Layer}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_camera_component_a772135f28ad4c626a2d83ded89cba672}{}\label{class_i_dream_sky_1_1_camera_component_a772135f28ad4c626a2d83ded89cba672}
+
+
+Set the value of the Target\+Layer of this Camera. 
+
+This camera will only render those Entities with the \hyperlink{class_i_dream_sky_1_1_layer}{Layer} equal to camera\textquotesingle{}s Target\+Layer. 
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,unsigned} & int, the value of the Target\+Layer of this Camera Get the Target\+Layer of this Camera \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+the Target\+Layer of this Camera 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(int, Clear\+Flags)}{PROPERTY(int, ClearFlags)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{int}]{, }
+\item[{Clear\+Flags}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_camera_component_aeb3558e5c4cbb8928e164a36a47b2d91}{}\label{class_i_dream_sky_1_1_camera_component_aeb3558e5c4cbb8928e164a36a47b2d91}
+
+
+Set the Clearing Flags of this Camera. 
+
+Clear\+Flag can be any one of those specified in Camera\+Component\+::\+Clearing Flags 
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,int,the} & Clearing Flags of this Camera. Get the Clearing Flags of this Camera. Clear\+Flag can be any one of those specified in Camera\+Component\+::\+Clearing Flags \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+int, the Clearing Flags of this Camera. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(\+Color\+R\+G\+B\+A, Clear\+Color)}{PROPERTY(ColorRGBA, ClearColor)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{{\bf Color\+R\+G\+BA}}]{, }
+\item[{Clear\+Color}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_camera_component_a05f48baa4acd86d534827d0de914e7e5}{}\label{class_i_dream_sky_1_1_camera_component_a05f48baa4acd86d534827d0de914e7e5}
+
+
+Set the Clear Color of this Camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,\hyperlink{class_i_dream_sky_1_1_color_r_g_b_a}{Color\+R\+G\+BA},the} & Claring Color of this Camera. Get the Clear Color of this Camera. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_color_r_g_b_a}{Color\+R\+G\+BA}, the Clearing Color of this Camera. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(float, Clear\+Depth)}{PROPERTY(float, ClearDepth)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{float}]{, }
+\item[{Clear\+Depth}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_camera_component_ad3d2a0d318c6e4e9b695349b935e6be7}{}\label{class_i_dream_sky_1_1_camera_component_ad3d2a0d318c6e4e9b695349b935e6be7}
+
+
+Set the Clear Depth of this Camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,float,the} & Clear Depth of this Camera. Get the Clear Depth of this Camera. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+float, the Clear Depth of this Camera. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(unsigned int, Clear\+Stencil)}{PROPERTY(unsigned int, ClearStencil)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{int, }
+\item[{Clear\+Stencil}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_camera_component_ad7ea7ab816ff20c21855fef0ced97e12}{}\label{class_i_dream_sky_1_1_camera_component_ad7ea7ab816ff20c21855fef0ced97e12}
+
+
+Set the Clear Stencil of this Camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,unsigned} & int, the Clear Stencil of this Camera. Get the Clear Stencil of this Camera. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+unsigned int, the Clear Stencil of this Camera. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}}
+\index{P\+R\+O\+P\+E\+R\+TY@{P\+R\+O\+P\+E\+R\+TY}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y(\+Vector4, Viewport)}{PROPERTY(Vector4, Viewport)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+TY (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector4}}]{, }
+\item[{Viewport}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_camera_component_abca9ce5b34ac81afcf615fd919ac32fa}{}\label{class_i_dream_sky_1_1_camera_component_abca9ce5b34ac81afcf615fd919ac32fa}
+
+
+Set the Viewport of this Camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,\hyperlink{class_i_dream_sky_1_1_vector4}{Vector4},the} & x, y, width, height of the view port in screen coordinate. Get the Viewport of this Camera. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_i_dream_sky_1_1_vector4}{Vector4}, the x, y, width, height of the view port in screen coordinate. 
+\end{DoxyReturn}
+\index{I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}!set\+Projection\+Planes@{set\+Projection\+Planes}}
+\index{set\+Projection\+Planes@{set\+Projection\+Planes}!I\+Dream\+Sky\+::\+Camera\+Component@{I\+Dream\+Sky\+::\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{set\+Projection\+Planes(float left\+\_\+, float right\+\_\+, float bottom\+\_\+, float top\+\_\+, float near\+Plane\+\_\+, float far\+Plane\+\_\+)}{setProjectionPlanes(float left_, float right_, float bottom_, float top_, float nearPlane_, float farPlane_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\+Component\+::set\+Projection\+Planes (
+\begin{DoxyParamCaption}
+\item[{float}]{left\+\_\+, }
+\item[{float}]{right\+\_\+, }
+\item[{float}]{bottom\+\_\+, }
+\item[{float}]{top\+\_\+, }
+\item[{float}]{near\+Plane\+\_\+, }
+\item[{float}]{far\+Plane\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_camera_component_ab50fcc345c5beb14317b4bb74f6c2b2e}{}\label{class_i_dream_sky_1_1_camera_component_ab50fcc345c5beb14317b4bb74f6c2b2e}
+
+
+Set the coordinate of project plane of at the near plane of camera. 
+
+
+\begin{DoxyParams}{參數}
+{\em left\+\_\+,float,the} & left side frustum x coordinate in this camera space \\
+\hline
+{\em right\+\_\+,float,the} & right side frustum x coordinate in this camera space \\
+\hline
+{\em bottom\+\_\+,float,the} & bottom side frustum y coordinate in this camera space \\
+\hline
+{\em top\+\_\+,float,the} & top side frustum y coordinate in this camera space \\
+\hline
+{\em near\+Plane\+\_\+,float,the} & near side frustum z coordinate in this camera space \\
+\hline
+{\em far\+Plane\+\_\+,float,the} & far side frustum z coordinate in this camera space \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+Redbook of Open\+GL Bible for detail of definition of Projection \hyperlink{class_i_dream_sky_1_1_transform}{Transform} 
+\end{DoxySeeAlso}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Camera\+Component.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Camera\+Component.\+cpp\end{DoxyCompactItemize}

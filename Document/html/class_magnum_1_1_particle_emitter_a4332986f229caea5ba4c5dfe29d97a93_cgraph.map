@@ -1,0 +1,5 @@
+<map id="Magnum::ParticleEmitter::onConstruct" name="Magnum::ParticleEmitter::onConstruct">
+<area shape="rect" id="node2" href="$class_magnum_1_1_texture2_d_file.html#a8799d191824e368b8bf6a1eeec3ea578" title="construct the texture from a path and allocate texture resource " alt="" coords="220,5,380,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_vector.html#af1b172b31bf8b09d5cde611cbf6c1cfd" title="append an element at the end of the Vector " alt="" coords="223,71,377,98"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_resource_access.html#a6da5b8b50b4a52190a0215eedaa1d0e6" title="Increase Reference Count of the resource by 1 This function increase reference count to the resource ..." alt="" coords="428,5,607,47"/>
+</map>

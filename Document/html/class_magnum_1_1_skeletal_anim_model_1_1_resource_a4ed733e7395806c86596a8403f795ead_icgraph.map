@@ -1,0 +1,6 @@
+<map id="Magnum::SkeletalAnimModel::Resource::getDuration" name="Magnum::SkeletalAnimModel::Resource::getDuration">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_animation.html#ab66c2e42b4c6f8fec606286d26f6999c" title="This function set the animation time. " alt="" coords="245,5,431,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_animation.html#ac2b3b3ded7fc4100e44390fda80b243d" title="This function get the duration in frame of the animation data. " alt="" coords="245,71,431,112"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_animation.html#ae5a6fd75843795a5910da79f786da17c" title="This function start or resume the Animation. " alt="" coords="479,5,664,47"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_skeletal_animation.html#a2770fe6c5215d7ba5a28df07ac926ae5" title="This function is implemented thing need to do in each cycle of animation. " alt="" coords="479,71,664,112"/>
+</map>

@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/DiffuseMapCube.h 原始程式檔</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li><a href="annotated.html"><span>類別</span></a></li>
+      <li class="current"><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>檔案列表</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_3b299f3d84239cc10925a78cf20e9b48.html">innovation</a></li><li class="navelem"><a class="el" href="dir_4d4d197ad34ec1dfe298c9d993c7bc0e.html">GovernmentEngine</a></li><li class="navelem"><a class="el" href="dir_1e0d49b1eb313e118d98e24098e2f6a7.html">EpicForceEngine</a></li><li class="navelem"><a class="el" href="dir_a7d5f72d102c9e84652ad636ce8313e7.html">MagnumEngineLib</a></li><li class="navelem"><a class="el" href="dir_66b0301f98c392f3cfc1bcb6a7aee577.html">MagnumCore</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">DiffuseMapCube.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright(c) 2016, Lin Koon Wing Macgyver, macgyvercct@yahoo.com.hk           //</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//                                                                               //</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Author : Mac Lin                                                              //</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Module : DreamEngine v1.0.0                                               //</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Date   : 14/Jun/2016                                                          //</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//                                                                               //</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"></span><span class="preprocessor">#ifndef _DiffuseMapCube_h_</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define _DiffuseMapCube_h_</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;Stage.h&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;Graphics3Component.h&quot;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;Vector2.h&quot;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;Texture2DFile.h&quot;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;Material.h&quot;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;ResourcePath.h&quot;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespace_i_dream_sky.html">IDreamSky</a>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_i_dream_sky.html">IDreamSky</a></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_i_dream_sky_1_1_diffuse_map_cube.html">   27</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_i_dream_sky_1_1_diffuse_map_cube.html">DiffuseMapCube</a> : <span class="keyword">public</span> <a class="code" href="class_i_dream_sky_1_1_graphics3_component.html">Graphics3Component</a></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_i_dream_sky_1_1_diffuse_map_cube_renderer.html">DiffuseMapCubeRenderer</a>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="struct_i_dream_sky_1_1_diffuse_map_cube_1_1_vertex.html">   31</a></span>&#160;    <span class="keyword">typedef</span> <span class="keyword">struct</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">float</span> px, py, pz;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">float</span> nx, ny, nz;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">float</span> u0, v0;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }<a class="code" href="struct_i_dream_sky_1_1_diffuse_map_cube_1_1_vertex.html">Vertex</a>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_diffuse_map_cube.html#a97484ad39262a4c9f0405a08a53c5d5a">DiffuseMapCube</a>(<a class="code" href="class_i_dream_sky_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_i_dream_sky_1_1_diffuse_map_cube.html#af7de4ae795858e54bc969b29e48872ed">~DiffuseMapCube</a>();</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    DECLARE_COMPONENT(<a class="code" href="class_i_dream_sky_1_1_diffuse_map_cube.html">DiffuseMapCube</a>, <a class="code" href="class_i_dream_sky_1_1_graphics3_component.html">Graphics3Component</a>, <span class="keyword">false</span>)</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_diffuse_map_cube.html#aee5348c4d885e1eb0f0601fc02a6a91d">PROPERTY</a>(<a class="code" href="class_i_dream_sky_1_1_resource_path.html">ResourcePath</a>,  ShaderPath);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_diffuse_map_cube.html#aee5348c4d885e1eb0f0601fc02a6a91d">PROPERTY</a>(<a class="code" href="class_i_dream_sky_1_1_resource_path.html">ResourcePath</a>,  Texture0Path);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_diffuse_map_cube.html#aee5348c4d885e1eb0f0601fc02a6a91d">PROPERTY</a>(<a class="code" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>     ,  Extent);</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onConstruct();</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onStart();</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onUpdate(<span class="keywordtype">float</span> dt);</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onPause();</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onResume();</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onStop();</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDestruct();</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDebugRender(<a class="code" href="class_i_dream_sky_1_1_i_component_debug_renderer.html">IComponentDebugRenderer</a> &amp;debugRenderer);</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="comment">//VisualEffect          visualEffect;</span></div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_material.html">Material</a>                material;</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_texture2_d_file.html">Texture2DFile</a>           texture0;</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_g_x_vertex_buffer.html">GXVertexBuffer</a>          *vertexBuffer;</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_g_x_index_buffer.html">GXIndexBuffer</a>           *indexBuffer;</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;};</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;};</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="class_i_dream_sky_1_1_graphics3_component_html"><div class="ttname"><a href="class_i_dream_sky_1_1_graphics3_component.html">IDreamSky::Graphics3Component</a></div><div class="ttdoc">Graphics3Component. </div><div class="ttdef"><b>Definition:</b> Graphics3Component.h:26</div></div>
+<div class="ttc" id="namespace_i_dream_sky_html"><div class="ttname"><a href="namespace_i_dream_sky.html">IDreamSky</a></div><div class="ttdef"><b>Definition:</b> AABB2.h:18</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_texture2_d_file_html"><div class="ttname"><a href="class_i_dream_sky_1_1_texture2_d_file.html">IDreamSky::Texture2DFile</a></div><div class="ttdoc">Texture2DFile. </div><div class="ttdef"><b>Definition:</b> Texture2DFile.h:32</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_diffuse_map_cube_html_af7de4ae795858e54bc969b29e48872ed"><div class="ttname"><a href="class_i_dream_sky_1_1_diffuse_map_cube.html#af7de4ae795858e54bc969b29e48872ed">IDreamSky::DiffuseMapCube::~DiffuseMapCube</a></div><div class="ttdeci">virtual ~DiffuseMapCube()</div><div class="ttdoc">DiffuseMapCube Destructor. </div><div class="ttdef"><b>Definition:</b> DiffuseMapCube.cpp:69</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_i_component_debug_renderer_html"><div class="ttname"><a href="class_i_dream_sky_1_1_i_component_debug_renderer.html">IDreamSky::IComponentDebugRenderer</a></div><div class="ttdef"><b>Definition:</b> IComponentDebugRenderer.h:24</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_diffuse_map_cube_html_aee5348c4d885e1eb0f0601fc02a6a91d"><div class="ttname"><a href="class_i_dream_sky_1_1_diffuse_map_cube.html#aee5348c4d885e1eb0f0601fc02a6a91d">IDreamSky::DiffuseMapCube::PROPERTY</a></div><div class="ttdeci">PROPERTY(ResourcePath, ShaderPath)</div><div class="ttdoc">Set the Path of Shader of the DiffuseMapCube. </div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_vector3_html"><div class="ttname"><a href="class_i_dream_sky_1_1_vector3.html">IDreamSky::Vector3</a></div><div class="ttdef"><b>Definition:</b> Vector3.h:20</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_diffuse_map_cube_html"><div class="ttname"><a href="class_i_dream_sky_1_1_diffuse_map_cube.html">IDreamSky::DiffuseMapCube</a></div><div class="ttdoc">DiffuseMapCube Rendering Test Graphics Component. </div><div class="ttdef"><b>Definition:</b> DiffuseMapCube.h:27</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_material_html"><div class="ttname"><a href="class_i_dream_sky_1_1_material.html">IDreamSky::Material</a></div><div class="ttdoc">Material. </div><div class="ttdef"><b>Definition:</b> Material.h:49</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_resource_path_html"><div class="ttname"><a href="class_i_dream_sky_1_1_resource_path.html">IDreamSky::ResourcePath</a></div><div class="ttdoc">ResourcePath. </div><div class="ttdef"><b>Definition:</b> ResourcePath.h:24</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_g_x_index_buffer_html"><div class="ttname"><a href="class_i_dream_sky_1_1_g_x_index_buffer.html">IDreamSky::GXIndexBuffer</a></div><div class="ttdoc">GXIndexBuffer encapsulate a the Index Buffer of Graphics Device. </div><div class="ttdef"><b>Definition:</b> GXIndexBuffer.h:12</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_diffuse_map_cube_html_a97484ad39262a4c9f0405a08a53c5d5a"><div class="ttname"><a href="class_i_dream_sky_1_1_diffuse_map_cube.html#a97484ad39262a4c9f0405a08a53c5d5a">IDreamSky::DiffuseMapCube::DiffuseMapCube</a></div><div class="ttdeci">DiffuseMapCube(Component::Owner &amp;owner)</div><div class="ttdoc">DiffuseMapCube Constructor. </div><div class="ttdef"><b>Definition:</b> DiffuseMapCube.cpp:47</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_g_x_vertex_buffer_html"><div class="ttname"><a href="class_i_dream_sky_1_1_g_x_vertex_buffer.html">IDreamSky::GXVertexBuffer</a></div><div class="ttdoc">GXVertexBuffer encapsulate a the Index Buffer of Graphics Device. </div><div class="ttdef"><b>Definition:</b> GXVertexBuffer.h:13</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_diffuse_map_cube_renderer_html"><div class="ttname"><a href="class_i_dream_sky_1_1_diffuse_map_cube_renderer.html">IDreamSky::DiffuseMapCubeRenderer</a></div><div class="ttdoc">DiffuseMapCubeRenderer. </div><div class="ttdef"><b>Definition:</b> DiffuseMapCubeRenderer.h:26</div></div>
+<div class="ttc" id="struct_i_dream_sky_1_1_diffuse_map_cube_1_1_vertex_html"><div class="ttname"><a href="struct_i_dream_sky_1_1_diffuse_map_cube_1_1_vertex.html">IDreamSky::DiffuseMapCube::Vertex</a></div><div class="ttdef"><b>Definition:</b> DiffuseMapCube.h:31</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_component_1_1_owner_html"><div class="ttname"><a href="class_i_dream_sky_1_1_component_1_1_owner.html">IDreamSky::Component::Owner</a></div><div class="ttdoc">Owner. </div><div class="ttdef"><b>Definition:</b> Component.h:48</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

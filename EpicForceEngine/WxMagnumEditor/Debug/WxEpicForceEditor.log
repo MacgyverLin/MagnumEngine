@@ -1,0 +1,78 @@
+﻿Build started 1/19/2015 4:07:15 PM.
+     1>Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\WxEpicForceEditor\WxEpicForceEditor.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\WxEpicForceEditor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../EpicForceEngineLib/SDK/Bullet /I../EpicForceEngineLib/EpicForceCore /I../EpicForceEngineLib/SDK/OpenGLES/GL2/Include /I../EpicForceEngineLib/SDK/GLEW/Include/GL /I../EpicForceEngineLib/SDK/unzip /Iwx\lib\vc_lib\mswud /Iwx\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt wxProjectDlg.cpp
+         wxProjectDlg.cpp
+     1>c:\epicforcebackup\epicforceengine\epicforceengine\wxepicforceeditor\wxprojectdlg.cpp(161): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Debug\WxEpicForceEditor.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Debug\ /LIBPATH:wx/lib/vc_lib /LIBPATH:../EpicForceEngineLib/SDK/GLEW/Lib /LIBPATH:../EpicForceEngineLib/SDK/OpenGLES/GL2/Lib EpicForceEngineLib.lib wxmsw30ud_aui.lib wxmsw30ud_html.lib wxmsw30ud_adv.lib wxmsw30ud_core.lib wxbase30ud_xml.lib wxbase30ud.lib wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexud.lib wxexpatd.lib winmm.lib comctl32.lib rpcrt4.lib wsock32.lib wininet.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Debug\WxEpicForceEditor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Debug\WxEpicForceEditor.lib" /MACHINE:X86 Debug\BitmapCreater.obj
+         Debug\BuildModeToolBarView.obj
+         Debug\Config.obj
+         Debug\EditToolBarView.obj
+         Debug\FileToolBarView.obj
+         Debug\MiscBToolBarView.obj
+         Debug\MiscAToolBarView.obj
+         Debug\OperationModeToolBarView.obj
+         Debug\PlayModeToolBarView.obj
+         Debug\ReflectedClassPropertyPanel.obj
+         Debug\DebugView.obj
+         Debug\EGLDriver20.obj
+         Debug\EntityCreatorsView.obj
+         Debug\EntityDragDrop.obj
+         Debug\EntityPanel.obj
+         Debug\HierarchyView.obj
+         Debug\InputData.obj
+         Debug\InspectorView.obj
+         Debug\Localization.obj
+         Debug\main.obj
+         Debug\PointerTreeItemMap.obj
+         Debug\ProjectView.obj
+         Debug\ResourceImportDragDrop.obj
+         Debug\ResourceImporterView.obj
+         Debug\SceneView.obj
+         Debug\wxArrayBoolCtrl.obj
+         Debug\wxArrayColorRGBACtrl.obj
+         Debug\wxArrayDoubleSpinnerCtrl.obj
+         Debug\wxArrayFloatSpinnerCtrl.obj
+         Debug\wxArrayIntSpinnerCtrl.obj
+         Debug\wxArrayIVector2SpinnerCtrl.obj
+         Debug\wxArrayIVector3SpinnerCtrl.obj
+         Debug\wxArrayIVector4SpinnerCtrl.obj
+         Debug\wxArrayLengthCtrl.obj
+         Debug\wxArrayResourcePathCtrl.obj
+         Debug\wxArraySRTTRansformCtrl.obj
+         Debug\wxArrayStringCtrl.obj
+         Debug\wxArrayUIntSpinnerCtrl.obj
+         Debug\wxArrayVector2SpinnerCtrl.obj
+         Debug\wxArrayVector3SpinnerCtrl.obj
+         Debug\wxArrayVector4SpinnerCtrl.obj
+         Debug\wxBoolCtrl.obj
+         Debug\wxCollapsePanelCtrl.obj
+         Debug\wxColorDlg.obj
+         Debug\wxColorRGBACtrl.obj
+         Debug\wxDoubleSpinnerCtrl.obj
+         Debug\wxFloatSpinnerCtrl.obj
+         Debug\wxIntSpinnerCtrl.obj
+         Debug\wxIVector2SpinnerCtrl.obj
+         Debug\wxIVector3SpinnerCtrl.obj
+         Debug\wxIVector4SpinnerCtrl.obj
+         Debug\wxLabelCtrl.obj
+         Debug\wxProjectDlg.obj
+         Debug\wxResourcePathCtrl.obj
+         Debug\wxStringCtrl.obj
+         Debug\wxSRTTransformCtrl.obj
+         Debug\wxUIntSpinnerCtrl.obj
+         Debug\wxVector2SpinnerCtrl.obj
+         Debug\wxVector3SpinnerCtrl.obj
+         Debug\wxVector4SpinnerCtrl.obj
+         WxEpicForceEditor.vcxproj -> C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\Debug\WxEpicForceEditor.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\WxEpicForceEditor.unsuccessfulbuild".
+         Touching "Debug\WxEpicForceEditor.lastbuildstate".
+     1>Done Building Project "C:\EpicForceBackup\EpicForceEngine\EpicForceEngine\WxEpicForceEditor\WxEpicForceEditor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.28

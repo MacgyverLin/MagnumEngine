@@ -1,0 +1,211 @@
+\hypertarget{class_magnum_1_1_resource_path}{}\section{Magnum\+:\+:Resource\+Path 類別 參考文件}
+\label{class_magnum_1_1_resource_path}\index{Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}}
+
+
+\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}.  
+
+
+
+
+{\ttfamily \#include $<$Resource\+Path.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_resource_path_afe366e99a3174e71001030b184d1cdb9}{Resource\+Path} (const char $\ast$extension\+\_\+=\char`\"{}default\char`\"{})
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_resource_path_a23b8bc053eb524173a418d3e99aae6c8}{Resource\+Path} (const char $\ast$filename\+\_\+, const char $\ast$extension\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_resource_path_a20d3c0ee3b90dd65ee89bec71783128f}{Resource\+Path} (const \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} \&resource\+Path\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} Copy Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} \& \hyperlink{class_magnum_1_1_resource_path_a6293f188262d023721ea37badc4f8b97}{operator=} (const \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} \&resource\+Path\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} assign operator. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_resource_path_a5f846f67f5dfbd8941227e084418afcd}{$\sim$\+Resource\+Path} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} Destructor. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_string}{String} \& \hyperlink{class_magnum_1_1_resource_path_a007f883763459950a0793219b353341f}{get\+Path} () const 
+\begin{DoxyCompactList}\small\item\em Get the filename of the \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_resource_path_a31612405cfd5ca0301b6572d4adab86f}{set\+Path} (const \hyperlink{class_magnum_1_1_string}{String} \&path\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the filename of the \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_string}{String} \& \hyperlink{class_magnum_1_1_resource_path_a2521eb6a8f2bc62a07dbd7f91ec45a3c}{get\+Extension} () const 
+\begin{DoxyCompactList}\small\item\em Get the extension of the \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}. \end{DoxyCompactList}\item 
+bool {\bfseries operator==} (const \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} \&rgba) const \hypertarget{class_magnum_1_1_resource_path_a6216e63199c0062eebf0e8033a49451b}{}\label{class_magnum_1_1_resource_path_a6216e63199c0062eebf0e8033a49451b}
+
+\item 
+bool {\bfseries operator$<$} (const \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} \&rgba) const \hypertarget{class_magnum_1_1_resource_path_ab3bb9c17841a78cb4e499626dd7d0023}{}\label{class_magnum_1_1_resource_path_ab3bb9c17841a78cb4e499626dd7d0023}
+
+\item 
+void \hyperlink{class_magnum_1_1_resource_path_a9ccea00cdc64cefd2c7825f8acdac994}{read} (\hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} \&is)
+\begin{DoxyCompactList}\small\item\em read method for Serialization \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_resource_path_a6585ec8e0e7e9fc0ae36ce0bfa02a67a}{write} (\hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} \&os) const 
+\begin{DoxyCompactList}\small\item\em write method for Serialization \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}. 
+
+The basic data type for Resource Path 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}!Resource\+Path@{Resource\+Path}}
+\index{Resource\+Path@{Resource\+Path}!Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}}
+\subsubsection[{\texorpdfstring{Resource\+Path(const char $\ast$extension\+\_\+=""default"")}{ResourcePath(const char *extension_="default")}}]{\setlength{\rightskip}{0pt plus 5cm}Resource\+Path\+::\+Resource\+Path (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{extension\+\_\+ = {\ttfamily \char`\"{}default\char`\"{}}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_resource_path_afe366e99a3174e71001030b184d1cdb9}{}\label{class_magnum_1_1_resource_path_afe366e99a3174e71001030b184d1cdb9}
+
+
+\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}. 
+\begin{DoxyParams}{參數}
+{\em extension\+\_\+} & the extension of the Path \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}!Resource\+Path@{Resource\+Path}}
+\index{Resource\+Path@{Resource\+Path}!Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}}
+\subsubsection[{\texorpdfstring{Resource\+Path(const char $\ast$filename\+\_\+, const char $\ast$extension\+\_\+)}{ResourcePath(const char *filename_, const char *extension_)}}]{\setlength{\rightskip}{0pt plus 5cm}Resource\+Path\+::\+Resource\+Path (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename\+\_\+, }
+\item[{const char $\ast$}]{extension\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_resource_path_a23b8bc053eb524173a418d3e99aae6c8}{}\label{class_magnum_1_1_resource_path_a23b8bc053eb524173a418d3e99aae6c8}
+
+
+\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}. 
+\begin{DoxyParams}{參數}
+{\em filename\+\_\+} & the name of the Path \\
+\hline
+{\em extension\+\_\+} & the extension of the Path \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}!Resource\+Path@{Resource\+Path}}
+\index{Resource\+Path@{Resource\+Path}!Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}}
+\subsubsection[{\texorpdfstring{Resource\+Path(const Resource\+Path \&resource\+Path\+\_\+)}{ResourcePath(const ResourcePath &resourcePath_)}}]{\setlength{\rightskip}{0pt plus 5cm}Resource\+Path\+::\+Resource\+Path (
+\begin{DoxyParamCaption}
+\item[{const {\bf Resource\+Path} \&}]{resource\+Path\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_resource_path_a20d3c0ee3b90dd65ee89bec71783128f}{}\label{class_magnum_1_1_resource_path_a20d3c0ee3b90dd65ee89bec71783128f}
+
+
+\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} Copy Constructor. 
+
+
+\begin{DoxyParams}{參數}
+{\em resource\+Path\+\_\+} & the \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}!````~Resource\+Path@{$\sim$\+Resource\+Path}}
+\index{````~Resource\+Path@{$\sim$\+Resource\+Path}!Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}}
+\subsubsection[{\texorpdfstring{$\sim$\+Resource\+Path()}{~ResourcePath()}}]{\setlength{\rightskip}{0pt plus 5cm}Resource\+Path\+::$\sim$\+Resource\+Path (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_resource_path_a5f846f67f5dfbd8941227e084418afcd}{}\label{class_magnum_1_1_resource_path_a5f846f67f5dfbd8941227e084418afcd}
+
+
+\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}!get\+Extension@{get\+Extension}}
+\index{get\+Extension@{get\+Extension}!Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}}
+\subsubsection[{\texorpdfstring{get\+Extension() const }{getExtension() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf String} \& Resource\+Path\+::get\+Extension (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_resource_path_a2521eb6a8f2bc62a07dbd7f91ec45a3c}{}\label{class_magnum_1_1_resource_path_a2521eb6a8f2bc62a07dbd7f91ec45a3c}
+
+
+Get the extension of the \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_string}{String}, the filename of the Path 
+\end{DoxyReturn}
+\index{Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}!get\+Path@{get\+Path}}
+\index{get\+Path@{get\+Path}!Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}}
+\subsubsection[{\texorpdfstring{get\+Path() const }{getPath() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf String} \& Resource\+Path\+::get\+Path (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_resource_path_a007f883763459950a0793219b353341f}{}\label{class_magnum_1_1_resource_path_a007f883763459950a0793219b353341f}
+
+
+Get the filename of the \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_string}{String}, the filename of the Path 
+\end{DoxyReturn}
+\index{Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}!operator=@{operator=}}
+\index{operator=@{operator=}!Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}}
+\subsubsection[{\texorpdfstring{operator=(const Resource\+Path \&resource\+Path\+\_\+)}{operator=(const ResourcePath &resourcePath_)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Resource\+Path} \& Resource\+Path\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Resource\+Path} \&}]{resource\+Path\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_resource_path_a6293f188262d023721ea37badc4f8b97}{}\label{class_magnum_1_1_resource_path_a6293f188262d023721ea37badc4f8b97}
+
+
+\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} assign operator. 
+
+
+\begin{DoxyParams}{參數}
+{\em resource\+Path\+\_\+} & the \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path} \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}!read@{read}}
+\index{read@{read}!Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}}
+\subsubsection[{\texorpdfstring{read(\+Input\+Stream \&is)}{read(InputStream &is)}}]{\setlength{\rightskip}{0pt plus 5cm}void Resource\+Path\+::read (
+\begin{DoxyParamCaption}
+\item[{{\bf Input\+Stream} \&}]{is}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_resource_path_a9ccea00cdc64cefd2c7825f8acdac994}{}\label{class_magnum_1_1_resource_path_a9ccea00cdc64cefd2c7825f8acdac994}
+
+
+read method for Serialization 
+
+
+\begin{DoxyParams}{參數}
+{\em is,the} & \hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} for Serialization \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}!set\+Path@{set\+Path}}
+\index{set\+Path@{set\+Path}!Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}}
+\subsubsection[{\texorpdfstring{set\+Path(const String \&path\+\_\+)}{setPath(const String &path_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Resource\+Path\+::set\+Path (
+\begin{DoxyParamCaption}
+\item[{const {\bf String} \&}]{path\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_resource_path_a31612405cfd5ca0301b6572d4adab86f}{}\label{class_magnum_1_1_resource_path_a31612405cfd5ca0301b6572d4adab86f}
+
+
+Set the filename of the \hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}. 
+
+
+\begin{DoxyParams}{參數}
+{\em path\+\_\+,\hyperlink{class_magnum_1_1_string}{String},the} & filename of the Path \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}!write@{write}}
+\index{write@{write}!Magnum\+::\+Resource\+Path@{Magnum\+::\+Resource\+Path}}
+\subsubsection[{\texorpdfstring{write(\+Output\+Stream \&os) const }{write(OutputStream &os) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Resource\+Path\+::write (
+\begin{DoxyParamCaption}
+\item[{{\bf Output\+Stream} \&}]{os}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_resource_path_a6585ec8e0e7e9fc0ae36ce0bfa02a67a}{}\label{class_magnum_1_1_resource_path_a6585ec8e0e7e9fc0ae36ce0bfa02a67a}
+
+
+write method for Serialization 
+
+
+\begin{DoxyParams}{參數}
+{\em os,the} & \hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} for Serialization \\
+\hline
+\end{DoxyParams}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Resource\+Path.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Resource\+Path.\+cpp\end{DoxyCompactItemize}

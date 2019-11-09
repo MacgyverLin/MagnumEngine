@@ -1,0 +1,133 @@
+\hypertarget{classagm_1_1reflection_1_1_static_field_desc}{}\section{agm\+:\+:reflection\+:\+:Static\+Field\+Desc 類別 參考文件}
+\label{classagm_1_1reflection_1_1_static_field_desc}\index{agm\+::reflection\+::\+Static\+Field\+Desc@{agm\+::reflection\+::\+Static\+Field\+Desc}}
+
+
+The \hyperlink{classagm_1_1reflection_1_1_static_field_desc}{Static\+Field\+Desc} class represents an object\textquotesingle{}s static field.  
+
+
+
+
+{\ttfamily \#include $<$reflection.\+h$>$}
+
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries get\+Class\+Index} () const \hypertarget{classagm_1_1reflection_1_1_static_field_desc_a593a8689e1559e2449ca306c9e716a1d}{}\label{classagm_1_1reflection_1_1_static_field_desc_a593a8689e1559e2449ca306c9e716a1d}
+
+\item 
+const \hyperlink{classagm_1_1reflection_1_1_class_desc}{Class\+Desc} \& \hyperlink{classagm_1_1reflection_1_1_static_field_desc_a76f7ce9711fd0a964d3803376e612963}{get\+Class} () const 
+\begin{DoxyCompactList}\small\item\em returns the class that the member is declared into. \end{DoxyCompactList}\item 
+const A\+C\+C\+E\+S\+S\+\_\+\+T\+Y\+PE \hyperlink{classagm_1_1reflection_1_1_static_field_desc_a17debe9467d8b733f2f40f072befa928}{get\+Access} () const 
+\begin{DoxyCompactList}\small\item\em returns the field\textquotesingle{}s access. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classagm_1_1reflection_1_1_static_field_desc_adf43ab9884bbceed1bb3482dadc57a63}{get\+Name} () const 
+\begin{DoxyCompactList}\small\item\em returns the field\textquotesingle{}s name. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class Value $>$ }\\void \hyperlink{classagm_1_1reflection_1_1_static_field_desc_a112ff2d61e27d9d8af0a7e3ea221ccd4}{get} (Value \&value) const 
+\begin{DoxyCompactList}\small\item\em retrieves the static field\textquotesingle{}s value. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class Value $>$ }\\void \hyperlink{classagm_1_1reflection_1_1_static_field_desc_a2a94af846f64986bd3283612b03faa7b}{set} (const Value \&value) const 
+\begin{DoxyCompactList}\small\item\em sets the static field\textquotesingle{}s value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Class\+Desc}\hypertarget{classagm_1_1reflection_1_1_static_field_desc_a0b395f500ac0508158cc81e407724cbe}{}\label{classagm_1_1reflection_1_1_static_field_desc_a0b395f500ac0508158cc81e407724cbe}
+
+\item 
+struct {\bfseries \+\_\+\+\_\+register\+\_\+static\+\_\+field\+\_\+\+\_\+}\hypertarget{classagm_1_1reflection_1_1_static_field_desc_a7923aaf0cc5eabb2b11c2c85be040b21}{}\label{classagm_1_1reflection_1_1_static_field_desc_a7923aaf0cc5eabb2b11c2c85be040b21}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+The \hyperlink{classagm_1_1reflection_1_1_static_field_desc}{Static\+Field\+Desc} class represents an object\textquotesingle{}s static field. 
+
+\subsection{函式成員說明文件}
+\index{agm\+::reflection\+::\+Static\+Field\+Desc@{agm\+::reflection\+::\+Static\+Field\+Desc}!get@{get}}
+\index{get@{get}!agm\+::reflection\+::\+Static\+Field\+Desc@{agm\+::reflection\+::\+Static\+Field\+Desc}}
+\subsubsection[{\texorpdfstring{get(\+Value \&value) const }{get(Value &value) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ void agm\+::reflection\+::\+Static\+Field\+Desc\+::get (
+\begin{DoxyParamCaption}
+\item[{Value \&}]{value}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_static_field_desc_a112ff2d61e27d9d8af0a7e3ea221ccd4}{}\label{classagm_1_1reflection_1_1_static_field_desc_a112ff2d61e27d9d8af0a7e3ea221ccd4}
+
+
+retrieves the static field\textquotesingle{}s value. 
+
+
+\begin{DoxyParams}{參數}
+{\em value} & variable to store the value of the field \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_type_mismatch_error}{Type\+Mismatch\+Error}} & thrown if the object is of invalid class or the value is of the wrong type. \\
+\hline
+\end{DoxyExceptions}
+\index{agm\+::reflection\+::\+Static\+Field\+Desc@{agm\+::reflection\+::\+Static\+Field\+Desc}!get\+Access@{get\+Access}}
+\index{get\+Access@{get\+Access}!agm\+::reflection\+::\+Static\+Field\+Desc@{agm\+::reflection\+::\+Static\+Field\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Access() const }{getAccess() const }}]{\setlength{\rightskip}{0pt plus 5cm}const A\+C\+C\+E\+S\+S\+\_\+\+T\+Y\+PE agm\+::reflection\+::\+Static\+Field\+Desc\+::get\+Access (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_static_field_desc_a17debe9467d8b733f2f40f072befa928}{}\label{classagm_1_1reflection_1_1_static_field_desc_a17debe9467d8b733f2f40f072befa928}
+
+
+returns the field\textquotesingle{}s access. 
+
+\begin{DoxyReturn}{傳回值}
+the field\textquotesingle{}s access. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Static\+Field\+Desc@{agm\+::reflection\+::\+Static\+Field\+Desc}!get\+Class@{get\+Class}}
+\index{get\+Class@{get\+Class}!agm\+::reflection\+::\+Static\+Field\+Desc@{agm\+::reflection\+::\+Static\+Field\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Class() const }{getClass() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Class\+Desc}\& agm\+::reflection\+::\+Static\+Field\+Desc\+::get\+Class (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_static_field_desc_a76f7ce9711fd0a964d3803376e612963}{}\label{classagm_1_1reflection_1_1_static_field_desc_a76f7ce9711fd0a964d3803376e612963}
+
+
+returns the class that the member is declared into. 
+
+\begin{DoxyReturn}{傳回值}
+the class that the member is declared into. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Static\+Field\+Desc@{agm\+::reflection\+::\+Static\+Field\+Desc}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!agm\+::reflection\+::\+Static\+Field\+Desc@{agm\+::reflection\+::\+Static\+Field\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Name() const }{getName() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ agm\+::reflection\+::\+Static\+Field\+Desc\+::get\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_static_field_desc_adf43ab9884bbceed1bb3482dadc57a63}{}\label{classagm_1_1reflection_1_1_static_field_desc_adf43ab9884bbceed1bb3482dadc57a63}
+
+
+returns the field\textquotesingle{}s name. 
+
+\begin{DoxyReturn}{傳回值}
+the field\textquotesingle{}s name. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Static\+Field\+Desc@{agm\+::reflection\+::\+Static\+Field\+Desc}!set@{set}}
+\index{set@{set}!agm\+::reflection\+::\+Static\+Field\+Desc@{agm\+::reflection\+::\+Static\+Field\+Desc}}
+\subsubsection[{\texorpdfstring{set(const Value \&value) const }{set(const Value &value) const }}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ void agm\+::reflection\+::\+Static\+Field\+Desc\+::set (
+\begin{DoxyParamCaption}
+\item[{const Value \&}]{value}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_static_field_desc_a2a94af846f64986bd3283612b03faa7b}{}\label{classagm_1_1reflection_1_1_static_field_desc_a2a94af846f64986bd3283612b03faa7b}
+
+
+sets the static field\textquotesingle{}s value. 
+
+
+\begin{DoxyParams}{參數}
+{\em value} & new value of the field \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_type_mismatch_error}{Type\+Mismatch\+Error}} & thrown if the object is of invalid class or the value is of the wrong type. \\
+\hline
+{\em \hyperlink{classagm_1_1reflection_1_1_illegal_access_error}{Illegal\+Access\+Error}} & thrown if the field\textquotesingle{}s access is not public. \\
+\hline
+\end{DoxyExceptions}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/reflection.\+h\end{DoxyCompactItemize}

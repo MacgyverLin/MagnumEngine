@@ -1,0 +1,5 @@
+<map id="Magnum::Input::AcceleratorMethod&lt; U &gt;" name="Magnum::Input::AcceleratorMethod&lt; U &gt;">
+<area shape="rect" id="node2" href="$class_magnum_1_1_input_1_1_input_delegate1.html" title="Magnum::Input::InputDelegate1\l\&lt; U, AcceleratorEvent \&gt;" alt="" coords="9,184,211,225"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_functor1.html" title="Magnum::Functor1\&lt; Accelerator\lEvent \&gt;" alt="" coords="5,95,215,136"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_link.html" title="Magnum::Link\&lt; Functor1\l\&lt; AcceleratorEvent \&gt; \&gt;" alt="" coords="27,5,193,47"/>
+</map>

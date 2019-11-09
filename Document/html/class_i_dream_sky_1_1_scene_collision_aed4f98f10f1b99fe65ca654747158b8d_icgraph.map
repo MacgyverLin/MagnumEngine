@@ -1,0 +1,4 @@
+<map id="IDreamSky::SceneCollision::testSphere" name="IDreamSky::SceneCollision::testSphere">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_sphere3_collision.html#a412a102d642fd2e0d55cbeb882ff83a3" title="This function test for collision with Scene. " alt="" coords="233,5,424,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_sphere3_collision.html#a401bddbc02cbbe9aeb8ab9b536aba7fb" title="This function test for collision in general, if other_ is sphere it will call testWithSphere3. " alt="" coords="472,5,663,47"/>
+</map>

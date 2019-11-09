@@ -1,0 +1,5 @@
+<map id="Magnum::Input::GamepadMethod&lt; U &gt;" name="Magnum::Input::GamepadMethod&lt; U &gt;">
+<area shape="rect" id="node2" href="$class_magnum_1_1_input_1_1_input_delegate1.html" title="Magnum::Input::InputDelegate1\l\&lt; U, GamepadEvent \&gt;" alt="" coords="28,184,231,225"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_functor1.html" title="Magnum::Functor1\&lt; Gamepad\lEvent \&gt;" alt="" coords="30,95,229,136"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_link.html" title="Magnum::Link\&lt; Functor1\l\&lt; GamepadEvent \&gt; \&gt;" alt="" coords="46,5,213,47"/>
+</map>

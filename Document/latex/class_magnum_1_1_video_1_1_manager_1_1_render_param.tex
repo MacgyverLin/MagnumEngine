@@ -1,0 +1,59 @@
+\hypertarget{class_magnum_1_1_video_1_1_manager_1_1_render_param}{}\section{Magnum\+:\+:Video\+:\+:Manager\+:\+:Render\+Param 類別 參考文件}
+\label{class_magnum_1_1_video_1_1_manager_1_1_render_param}\index{Magnum\+::\+Video\+::\+Manager\+::\+Render\+Param@{Magnum\+::\+Video\+::\+Manager\+::\+Render\+Param}}
+
+
+\hyperlink{class_magnum_1_1_video_1_1_manager_1_1_render_param}{Video\+::\+Manager\+::\+Render\+Param} provide neccessary data for rendering each camera pass Mp = Projection transform Mv = View transform Mm = Model transform.  
+
+
+
+
+{\ttfamily \#include $<$Video.\+h$>$}
+
+
+
+Magnum\+:\+:Video\+:\+:Manager\+:\+:Render\+Param的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_video_1_1_manager_1_1_render_param__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Render\+Param} (\hyperlink{class_magnum_1_1_camera_component}{Camera\+Component} \&camera\+\_\+)\hypertarget{class_magnum_1_1_video_1_1_manager_1_1_render_param_a1f521ca736e476b4c560f6d834e38a35}{}\label{class_magnum_1_1_video_1_1_manager_1_1_render_param_a1f521ca736e476b4c560f6d834e38a35}
+
+\end{DoxyCompactItemize}
+\subsection*{公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_camera_component}{Camera\+Component} \& \hyperlink{class_magnum_1_1_video_1_1_manager_1_1_render_param_a13972f132bd1e679db0d7ef1854fe58f}{camera\+Component}\hypertarget{class_magnum_1_1_video_1_1_manager_1_1_render_param_a13972f132bd1e679db0d7ef1854fe58f}{}\label{class_magnum_1_1_video_1_1_manager_1_1_render_param_a13972f132bd1e679db0d7ef1854fe58f}
+
+\begin{DoxyCompactList}\small\item\em the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \hyperlink{class_magnum_1_1_video_1_1_manager_1_1_render_param_aff868e6483fe4a7b40e8a6cd22f370e5}{view\+Transform}\hypertarget{class_magnum_1_1_video_1_1_manager_1_1_render_param_aff868e6483fe4a7b40e8a6cd22f370e5}{}\label{class_magnum_1_1_video_1_1_manager_1_1_render_param_aff868e6483fe4a7b40e8a6cd22f370e5}
+
+\begin{DoxyCompactList}\small\item\em the Mv of the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \hyperlink{class_magnum_1_1_video_1_1_manager_1_1_render_param_a64b5e76500697820b9c740ca18f34cba}{proj\+Transform}\hypertarget{class_magnum_1_1_video_1_1_manager_1_1_render_param_a64b5e76500697820b9c740ca18f34cba}{}\label{class_magnum_1_1_video_1_1_manager_1_1_render_param_a64b5e76500697820b9c740ca18f34cba}
+
+\begin{DoxyCompactList}\small\item\em the Mp of the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \hyperlink{class_magnum_1_1_video_1_1_manager_1_1_render_param_a893c04e77096b34f46b3c7e84780727f}{proj\+View\+Transform}\hypertarget{class_magnum_1_1_video_1_1_manager_1_1_render_param_a893c04e77096b34f46b3c7e84780727f}{}\label{class_magnum_1_1_video_1_1_manager_1_1_render_param_a893c04e77096b34f46b3c7e84780727f}
+
+\begin{DoxyCompactList}\small\item\em the Mp $\ast$ Mv of the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \hyperlink{class_magnum_1_1_video_1_1_manager_1_1_render_param_a5f4fd470378d0e5c5dab531022a3ae61}{view\+Transform\+Inverse}\hypertarget{class_magnum_1_1_video_1_1_manager_1_1_render_param_a5f4fd470378d0e5c5dab531022a3ae61}{}\label{class_magnum_1_1_video_1_1_manager_1_1_render_param_a5f4fd470378d0e5c5dab531022a3ae61}
+
+\begin{DoxyCompactList}\small\item\em the Inverse of Mv of the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \hyperlink{class_magnum_1_1_video_1_1_manager_1_1_render_param_aa969a2d0e1e3a7576d639d6f975c0ab8}{proj\+Transform\+Inverse}\hypertarget{class_magnum_1_1_video_1_1_manager_1_1_render_param_aa969a2d0e1e3a7576d639d6f975c0ab8}{}\label{class_magnum_1_1_video_1_1_manager_1_1_render_param_aa969a2d0e1e3a7576d639d6f975c0ab8}
+
+\begin{DoxyCompactList}\small\item\em the Inverse of Mp of the current Rendering Camera \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \hyperlink{class_magnum_1_1_video_1_1_manager_1_1_render_param_abcabe40e72a8fc4c5e18f62e38a8a2e0}{proj\+View\+Transform\+Inverse}\hypertarget{class_magnum_1_1_video_1_1_manager_1_1_render_param_abcabe40e72a8fc4c5e18f62e38a8a2e0}{}\label{class_magnum_1_1_video_1_1_manager_1_1_render_param_abcabe40e72a8fc4c5e18f62e38a8a2e0}
+
+\begin{DoxyCompactList}\small\item\em the Inverse of Mp $\ast$ Mv of the current Rendering Camera \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_video_1_1_manager_1_1_render_param}{Video\+::\+Manager\+::\+Render\+Param} provide neccessary data for rendering each camera pass Mp = Projection transform Mv = View transform Mm = Model transform. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Video.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Video.\+cpp\end{DoxyCompactItemize}

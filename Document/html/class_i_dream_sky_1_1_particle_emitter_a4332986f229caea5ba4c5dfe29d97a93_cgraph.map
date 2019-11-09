@@ -1,0 +1,5 @@
+<map id="IDreamSky::ParticleEmitter::onConstruct" name="IDreamSky::ParticleEmitter::onConstruct">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_texture2_d_file.html#a8799d191824e368b8bf6a1eeec3ea578" title="construct the texture from a path and allocate texture resource " alt="" coords="233,5,408,47"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_vector.html#afc6fb1459f439462705a4da35903ff46" title="append an element at the end of the Vector " alt="" coords="237,71,405,98"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_resource_access.html#a93e9d2b61b19334c64ec762cb04a3220" title="Increase Reference Count of the resource by 1 This function increase reference count to the resource ..." alt="" coords="456,5,649,47"/>
+</map>

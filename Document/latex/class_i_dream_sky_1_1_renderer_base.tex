@@ -1,0 +1,100 @@
+\hypertarget{class_i_dream_sky_1_1_renderer_base}{}\section{I\+Dream\+Sky\+:\+:Renderer\+Base 類別 參考文件}
+\label{class_i_dream_sky_1_1_renderer_base}\index{I\+Dream\+Sky\+::\+Renderer\+Base@{I\+Dream\+Sky\+::\+Renderer\+Base}}
+
+
+\hyperlink{class_i_dream_sky_1_1_renderer_base}{Renderer\+Base}.  
+
+
+
+
+{\ttfamily \#include $<$Renderer\+Base.\+h$>$}
+
+類別\+I\+Dream\+Sky\+:\+:Renderer\+Base的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=9.003216cm]{class_i_dream_sky_1_1_renderer_base}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_renderer_base_aa3b9e785717f998801d7ca13cc9d23be}{Renderer\+Base} (\hyperlink{class_i_dream_sky_1_1_component_1_1_owner}{Component\+::\+Owner} \&owner\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_renderer_base}{Renderer\+Base} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_renderer_base_a5225d642bfea54badfaa3f7a503a2de1}{$\sim$\+Renderer\+Base} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_renderer_base}{Renderer\+Base} Destructor. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_i_dream_sky_1_1_renderer_base_a1d42485cc8784051956f25df6c78b6d5}{get\+Order} () const  =0
+\begin{DoxyCompactList}\small\item\em Get the Order of this renderer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態保護方法(Static Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static int {\bfseries compare} (const void $\ast$left, const void $\ast$right)\hypertarget{class_i_dream_sky_1_1_renderer_base_ac3c20e039f761bf43637d6474bde3e87}{}\label{class_i_dream_sky_1_1_renderer_base_ac3c20e039f761bf43637d6474bde3e87}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Video}\hypertarget{class_i_dream_sky_1_1_renderer_base_a525039adce643855a9564c856c2cf3d1}{}\label{class_i_dream_sky_1_1_renderer_base_a525039adce643855a9564c856c2cf3d1}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_renderer_base}{Renderer\+Base}. 
+
+\hyperlink{class_i_dream_sky_1_1_renderer_base}{Renderer\+Base} is the base class of all Renderer components. The Render \hyperlink{class_i_dream_sky_1_1_system}{System} will Render each Renderer that matches the Target \hyperlink{class_i_dream_sky_1_1_layer}{Layer} of the currently rendering camera \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_i_dream_sky_1_1_component}{Component} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Renderer\+Base@{I\+Dream\+Sky\+::\+Renderer\+Base}!Renderer\+Base@{Renderer\+Base}}
+\index{Renderer\+Base@{Renderer\+Base}!I\+Dream\+Sky\+::\+Renderer\+Base@{I\+Dream\+Sky\+::\+Renderer\+Base}}
+\subsubsection[{\texorpdfstring{Renderer\+Base(\+Component\+::\+Owner \&owner\+\_\+)}{RendererBase(Component::Owner &owner_)}}]{\setlength{\rightskip}{0pt plus 5cm}Renderer\+Base\+::\+Renderer\+Base (
+\begin{DoxyParamCaption}
+\item[{{\bf Component\+::\+Owner} \&}]{owner\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_renderer_base_aa3b9e785717f998801d7ca13cc9d23be}{}\label{class_i_dream_sky_1_1_renderer_base_aa3b9e785717f998801d7ca13cc9d23be}
+
+
+\hyperlink{class_i_dream_sky_1_1_renderer_base}{Renderer\+Base} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_renderer_base}{Renderer\+Base} for the owner. 
+\begin{DoxyParams}{參數}
+{\em owner\+\_\+,the} & \hyperlink{class_i_dream_sky_1_1_component_1_1_owner}{Component\+::\+Owner} which owns this component. \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Renderer\+Base@{I\+Dream\+Sky\+::\+Renderer\+Base}!````~Renderer\+Base@{$\sim$\+Renderer\+Base}}
+\index{````~Renderer\+Base@{$\sim$\+Renderer\+Base}!I\+Dream\+Sky\+::\+Renderer\+Base@{I\+Dream\+Sky\+::\+Renderer\+Base}}
+\subsubsection[{\texorpdfstring{$\sim$\+Renderer\+Base()}{~RendererBase()}}]{\setlength{\rightskip}{0pt plus 5cm}Renderer\+Base\+::$\sim$\+Renderer\+Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_renderer_base_a5225d642bfea54badfaa3f7a503a2de1}{}\label{class_i_dream_sky_1_1_renderer_base_a5225d642bfea54badfaa3f7a503a2de1}
+
+
+\hyperlink{class_i_dream_sky_1_1_renderer_base}{Renderer\+Base} Destructor. 
+
+To Destruct \hyperlink{class_i_dream_sky_1_1_renderer_base}{Renderer\+Base} and remove from its owner. 
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Renderer\+Base@{I\+Dream\+Sky\+::\+Renderer\+Base}!get\+Order@{get\+Order}}
+\index{get\+Order@{get\+Order}!I\+Dream\+Sky\+::\+Renderer\+Base@{I\+Dream\+Sky\+::\+Renderer\+Base}}
+\subsubsection[{\texorpdfstring{get\+Order() const  =0}{getOrder() const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual int I\+Dream\+Sky\+::\+Renderer\+Base\+::get\+Order (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_renderer_base_a1d42485cc8784051956f25df6c78b6d5}{}\label{class_i_dream_sky_1_1_renderer_base_a1d42485cc8784051956f25df6c78b6d5}
+
+
+Get the Order of this renderer. 
+
+This is a pure virtual function all sub classes must implmented this function The Renderer will sort all the renderer in acending order. The order is returned by this function. 
+
+實作於 \hyperlink{class_i_dream_sky_1_1_skeletal_animation_model_renderer_a8427de8eabbb08c41f31d61497da604b}{I\+Dream\+Sky\+::\+Skeletal\+Animation\+Model\+Renderer}, \hyperlink{class_i_dream_sky_1_1_sky_sphere_renderer_a7f002e11ce48fad92fae9e3815ef77d9}{I\+Dream\+Sky\+::\+Sky\+Sphere\+Renderer}, \hyperlink{class_i_dream_sky_1_1_bill_board_renderer_a5ce38348110a2f7861f4ec2427518100}{I\+Dream\+Sky\+::\+Bill\+Board\+Renderer}, \hyperlink{class_i_dream_sky_1_1_editor_gizmo_renderer_ab6927ae29535aaf089d11b3e2b7f164f}{I\+Dream\+Sky\+::\+Editor\+Gizmo\+Renderer}, \hyperlink{class_i_dream_sky_1_1_particle_emitter_renderer_a71deeeed3c70b5f468c57ae370858721}{I\+Dream\+Sky\+::\+Particle\+Emitter\+Renderer}, \hyperlink{class_i_dream_sky_1_1_cube_renderer_a6635459b90a33f12eec2d58f4d930984}{I\+Dream\+Sky\+::\+Cube\+Renderer}, \hyperlink{class_i_dream_sky_1_1_diffuse_map_cube_renderer_ada517b09adf24db2a094f17021dfe2a2}{I\+Dream\+Sky\+::\+Diffuse\+Map\+Cube\+Renderer}, 及 \hyperlink{class_i_dream_sky_1_1_diffuse_map_specular_map_cube_renderer_acd78d0b836cf88110dc2b2260d96a7d9}{I\+Dream\+Sky\+::\+Diffuse\+Map\+Specular\+Map\+Cube\+Renderer}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Renderer\+Base.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Renderer\+Base.\+cpp\end{DoxyCompactItemize}

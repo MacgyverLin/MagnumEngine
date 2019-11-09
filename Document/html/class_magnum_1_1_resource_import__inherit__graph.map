@@ -1,0 +1,15 @@
+<map id="Magnum::ResourceImport" name="Magnum::ResourceImport">
+<area shape="rect" id="node2" href="$class_magnum_1_1_audio_clip_1_1_resource_importer.html" title="AudioClip::ResourceImporter AudioClip::ResourceImporter is the class resposible for audio clip resour..." alt="" coords="267,5,409,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_audio_stream_1_1_resource_importer.html" title="Magnum::AudioStream\l::ResourceImporter" alt="" coords="261,71,415,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_b_v_h_triangle_mesh_shape3_1_1_resource_importer.html" title="Magnum::BVHTriangleMeshShape3\l::ResourceImporter" alt="" coords="224,136,452,177"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1endif_1_1_resource_importer.html" title="Magnum::endif::ResourceImporter" alt="" coords="229,202,447,229"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_font_1_1_resource_importer.html" title="Magnum::Font::ResourceImporter" alt="" coords="230,253,446,279"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_height_field_shape3_1_1_resource_importer.html" title="Magnum::HeightFieldShape3\l::ResourceImporter" alt="" coords="243,304,433,345"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_magnum_prefab_1_1_resource_importer.html" title="Magnum::MagnumPrefab\l::ResourceImporter" alt="" coords="255,369,421,411"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_magnum_scene_1_1_resource_importer.html" title="Magnum::MagnumScene\l::ResourceImporter" alt="" coords="255,435,421,476"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_scene_collision_1_1_resource_importer.html" title="Magnum::SceneCollision\l::ResourceImporter" alt="" coords="255,500,421,541"/>
+<area shape="rect" id="node11" href="$class_magnum_1_1_sprite_sheet_1_1_resource_importer.html" title="Magnum::SpriteSheet\l::ResourceImporter" alt="" coords="264,565,412,607"/>
+<area shape="rect" id="node12" href="$class_magnum_1_1_texture2_d_file_1_1_resource_importer.html" title="Magnum::Texture2DFile\l::ResourceImporter" alt="" coords="258,631,418,672"/>
+<area shape="rect" id="node13" href="$class_magnum_1_1_texture_cube_file_1_1_resource_importer.html" title="Magnum::TextureCubeFile\l::ResourceImporter" alt="" coords="251,696,425,737"/>
+<area shape="rect" id="node14" href="$class_magnum_1_1_visual_effect_1_1_resource_importer.html" title="Magnum::VisualEffect\l::ResourceImporter" alt="" coords="263,761,413,803"/>
+</map>

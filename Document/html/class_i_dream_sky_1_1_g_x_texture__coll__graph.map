@@ -1,0 +1,8 @@
+<map id="IDreamSky::GXTexture" name="IDreamSky::GXTexture">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_g_x_pixel_buffer.html" title="GXPixelBuffer is the base class of all Buffer of Graphics Devices. " alt="" coords="302,71,475,98"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_g_x_pixel_buffer_option.html" title="IDreamSky::GXPixelBuffer\lOption" alt="" coords="19,5,193,47"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_g_x_pixel_buffer_type.html" title="GXPixelBufferType encapsulate the Type of Pixel Buffer. " alt="" coords="5,71,207,98"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_g_x_pixel_format.html" title="IDreamSky::GXPixelFormat" alt="" coords="15,122,197,149"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_g_x_texture_wrap_state.html" title="GXTextureWrapState encapsulate a Wrapping State of a Texture. " alt="" coords="296,123,481,164"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_g_x_texture_filter_state.html" title="GXTextureFilterState encapsulate a Texture Magnification Filter, Minification Filter State of a Textu..." alt="" coords="297,188,480,229"/>
+</map>

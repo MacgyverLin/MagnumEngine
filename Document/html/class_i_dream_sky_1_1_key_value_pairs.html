@@ -1,0 +1,1293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: IDreamSky::KeyValuePairs  類別 參考文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li class="current"><a href="annotated.html"><span>類別</span></a></li>
+      <li><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>複合列表</span></a></li>
+      <li><a href="classes.html"><span>複合索引</span></a></li>
+      <li><a href="hierarchy.html"><span>類別階層</span></a></li>
+      <li><a href="functions.html"><span>複合成員</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>IDreamSky</b></li><li class="navelem"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">複合項目</a> &#124;
+<a href="#pub-types">公開型態</a> &#124;
+<a href="#pub-methods">公開方法(Public Methods)</a> &#124;
+<a href="#pub-static-methods">靜態公開方法(Static Public Methods)</a> &#124;
+<a href="#friends">類別朋友(Friends)</a> &#124;
+<a href="class_i_dream_sky_1_1_key_value_pairs-members.html">全部成員列表</a>  </div>
+  <div class="headertitle">
+<div class="title">IDreamSky::KeyValuePairs 類別 參考文件</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+公開型態</h2></td></tr>
+<tr class="memitem:a58bfd40015fc806fd3835c50b75ed179"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58bfd40015fc806fd3835c50b75ed179"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a58bfd40015fc806fd3835c50b75ed179">Type</a> { <br />
+&#160;&#160;<b>NONE</b>, 
+<b>STRING</b>, 
+<b>NUMBER</b>, 
+<b>VECTOR2</b>, 
+<br />
+&#160;&#160;<b>VECTOR3</b>, 
+<b>VECTOR4</b>, 
+<b>MATRIX3</b>, 
+<b>MATRIX4</b>
+<br />
+ }<tr class="memdesc:a58bfd40015fc806fd3835c50b75ed179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data types supported by the properties class. <br /></td></tr>
+</td></tr>
+<tr class="separator:a58bfd40015fc806fd3835c50b75ed179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開方法(Public Methods)</h2></td></tr>
+<tr class="memitem:ac93689fe5daef2cb4bb6483773afcda5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac93689fe5daef2cb4bb6483773afcda5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#ac93689fe5daef2cb4bb6483773afcda5">~KeyValuePairs</a> ()</td></tr>
+<tr class="memdesc:ac93689fe5daef2cb4bb6483773afcda5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:ac93689fe5daef2cb4bb6483773afcda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27b208b167c0c7c45f22b8f38b34a116"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a27b208b167c0c7c45f22b8f38b34a116">getNextProperty</a> ()</td></tr>
+<tr class="memdesc:a27b208b167c0c7c45f22b8f38b34a116"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the next property.  <a href="#a27b208b167c0c7c45f22b8f38b34a116">更多...</a><br /></td></tr>
+<tr class="separator:a27b208b167c0c7c45f22b8f38b34a116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb1c165f165bf9ff0fee62d252b38f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abfb1c165f165bf9ff0fee62d252b38f1"></a>
+<a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#abfb1c165f165bf9ff0fee62d252b38f1">getNextNamespace</a> ()</td></tr>
+<tr class="memdesc:abfb1c165f165bf9ff0fee62d252b38f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next namespace. <br /></td></tr>
+<tr class="separator:abfb1c165f165bf9ff0fee62d252b38f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fcddec93fdeb506d5eafc96a01e10fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9fcddec93fdeb506d5eafc96a01e10fc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a9fcddec93fdeb506d5eafc96a01e10fc">rewind</a> ()</td></tr>
+<tr class="memdesc:a9fcddec93fdeb506d5eafc96a01e10fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewind the <a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a27b208b167c0c7c45f22b8f38b34a116" title="Get the name of the next property. ">getNextProperty()</a> and <a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#abfb1c165f165bf9ff0fee62d252b38f1" title="Get the next namespace. ">getNextNamespace()</a> iterators to the beginning of the file. <br /></td></tr>
+<tr class="separator:a9fcddec93fdeb506d5eafc96a01e10fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8999585186aefb8bd86516c94ceb6bf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a8999585186aefb8bd86516c94ceb6bf7">getNamespace</a> (const char *id, bool searchNames=false, bool recurse=true) const </td></tr>
+<tr class="memdesc:a8999585186aefb8bd86516c94ceb6bf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a specific namespace by ID or name.  <a href="#a8999585186aefb8bd86516c94ceb6bf7">更多...</a><br /></td></tr>
+<tr class="separator:a8999585186aefb8bd86516c94ceb6bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52cdab2e216fc3b1450c629c325193df"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a52cdab2e216fc3b1450c629c325193df">getNamespace</a> () const </td></tr>
+<tr class="memdesc:a52cdab2e216fc3b1450c629c325193df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of this Property's namespace.  <a href="#a52cdab2e216fc3b1450c629c325193df">更多...</a><br /></td></tr>
+<tr class="separator:a52cdab2e216fc3b1450c629c325193df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d64d0e8159d647d2590db2e313cbac9"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a9d64d0e8159d647d2590db2e313cbac9">getId</a> () const </td></tr>
+<tr class="memdesc:a9d64d0e8159d647d2590db2e313cbac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the ID of this Property's namespace.  <a href="#a9d64d0e8159d647d2590db2e313cbac9">更多...</a><br /></td></tr>
+<tr class="separator:a9d64d0e8159d647d2590db2e313cbac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1d8a4e41ad5c5e9290caf3fb684e1ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#ae1d8a4e41ad5c5e9290caf3fb684e1ac">exists</a> (const char *name) const </td></tr>
+<tr class="memdesc:ae1d8a4e41ad5c5e9290caf3fb684e1ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a property with the given name is specified in this <a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> object.  <a href="#ae1d8a4e41ad5c5e9290caf3fb684e1ac">更多...</a><br /></td></tr>
+<tr class="separator:ae1d8a4e41ad5c5e9290caf3fb684e1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7b2f095c6c60629b4fd288e4d91fbbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a58bfd40015fc806fd3835c50b75ed179">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#ac7b2f095c6c60629b4fd288e4d91fbbe">getType</a> (const char *name=NULL) const </td></tr>
+<tr class="memdesc:ac7b2f095c6c60629b4fd288e4d91fbbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of a property.  <a href="#ac7b2f095c6c60629b4fd288e4d91fbbe">更多...</a><br /></td></tr>
+<tr class="separator:ac7b2f095c6c60629b4fd288e4d91fbbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93d003ece662c4f4cb231d855f64e20d"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a93d003ece662c4f4cb231d855f64e20d">getString</a> (const char *name=NULL, const char *defaultValue=NULL) const </td></tr>
+<tr class="memdesc:a93d003ece662c4f4cb231d855f64e20d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value of the given property as a string.  <a href="#a93d003ece662c4f4cb231d855f64e20d">更多...</a><br /></td></tr>
+<tr class="separator:a93d003ece662c4f4cb231d855f64e20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa28812b5b1ec5199b4bb856a8c2cb903"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#aa28812b5b1ec5199b4bb856a8c2cb903">setString</a> (const char *name, const char *value)</td></tr>
+<tr class="memdesc:aa28812b5b1ec5199b4bb856a8c2cb903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of the property with the specified name.  <a href="#aa28812b5b1ec5199b4bb856a8c2cb903">更多...</a><br /></td></tr>
+<tr class="separator:aa28812b5b1ec5199b4bb856a8c2cb903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a28ad2cea38770b2dcd326ff104594"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a37a28ad2cea38770b2dcd326ff104594">getBool</a> (const char *name=NULL, bool defaultValue=false) const </td></tr>
+<tr class="memdesc:a37a28ad2cea38770b2dcd326ff104594"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as a boolean.  <a href="#a37a28ad2cea38770b2dcd326ff104594">更多...</a><br /></td></tr>
+<tr class="separator:a37a28ad2cea38770b2dcd326ff104594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbd43ef0a19fbbbea5346ad21d110a75"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#adbd43ef0a19fbbbea5346ad21d110a75">getInt</a> (const char *name=NULL) const </td></tr>
+<tr class="memdesc:adbd43ef0a19fbbbea5346ad21d110a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as an integer.  <a href="#adbd43ef0a19fbbbea5346ad21d110a75">更多...</a><br /></td></tr>
+<tr class="separator:adbd43ef0a19fbbbea5346ad21d110a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9afd08c687b02afd7d745d126528bd1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#ac9afd08c687b02afd7d745d126528bd1">getFloat</a> (const char *name=NULL) const </td></tr>
+<tr class="memdesc:ac9afd08c687b02afd7d745d126528bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as a floating-point number.  <a href="#ac9afd08c687b02afd7d745d126528bd1">更多...</a><br /></td></tr>
+<tr class="separator:ac9afd08c687b02afd7d745d126528bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a998c2a98a559dbfe44d60970f5107e30"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a998c2a98a559dbfe44d60970f5107e30">getLong</a> (const char *name=NULL) const </td></tr>
+<tr class="memdesc:a998c2a98a559dbfe44d60970f5107e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as a long integer.  <a href="#a998c2a98a559dbfe44d60970f5107e30">更多...</a><br /></td></tr>
+<tr class="separator:a998c2a98a559dbfe44d60970f5107e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1875267e815563e0b174ac64b1f7af4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a1875267e815563e0b174ac64b1f7af4c">getMatrix3</a> (const char *name, <a class="el" href="class_i_dream_sky_1_1_matrix3.html">Matrix3</a> *out) const </td></tr>
+<tr class="memdesc:a1875267e815563e0b174ac64b1f7af4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as a Matrix.  <a href="#a1875267e815563e0b174ac64b1f7af4c">更多...</a><br /></td></tr>
+<tr class="separator:a1875267e815563e0b174ac64b1f7af4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b098803c46bfeb1c350d83bd0ecc64f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a9b098803c46bfeb1c350d83bd0ecc64f">getMatrix4</a> (const char *name, <a class="el" href="class_i_dream_sky_1_1_matrix4.html">Matrix4</a> *out) const </td></tr>
+<tr class="memdesc:a9b098803c46bfeb1c350d83bd0ecc64f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as a Matrix.  <a href="#a9b098803c46bfeb1c350d83bd0ecc64f">更多...</a><br /></td></tr>
+<tr class="separator:a9b098803c46bfeb1c350d83bd0ecc64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2546be8e374f1776394ba79b9a75965e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a2546be8e374f1776394ba79b9a75965e">getVector2</a> (const char *name, <a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a> *out) const </td></tr>
+<tr class="memdesc:a2546be8e374f1776394ba79b9a75965e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as a <a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a>.  <a href="#a2546be8e374f1776394ba79b9a75965e">更多...</a><br /></td></tr>
+<tr class="separator:a2546be8e374f1776394ba79b9a75965e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82975cd03f56b99980347c02266889a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a82975cd03f56b99980347c02266889a9">getVector3</a> (const char *name, <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> *out) const </td></tr>
+<tr class="memdesc:a82975cd03f56b99980347c02266889a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as a <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>.  <a href="#a82975cd03f56b99980347c02266889a9">更多...</a><br /></td></tr>
+<tr class="separator:a82975cd03f56b99980347c02266889a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa47ea3ccd89e858fef1e0775bad25d40"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#aa47ea3ccd89e858fef1e0775bad25d40">getVector4</a> (const char *name, <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a> *out) const </td></tr>
+<tr class="memdesc:aa47ea3ccd89e858fef1e0775bad25d40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as a <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a>.  <a href="#aa47ea3ccd89e858fef1e0775bad25d40">更多...</a><br /></td></tr>
+<tr class="separator:aa47ea3ccd89e858fef1e0775bad25d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04430ffbbe4489521d042e2a34cd6077"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a04430ffbbe4489521d042e2a34cd6077">getQuaternionFromAxisAngle</a> (const char *name, <a class="el" href="class_i_dream_sky_1_1_quaternion.html">Quaternion</a> *out) const </td></tr>
+<tr class="memdesc:a04430ffbbe4489521d042e2a34cd6077"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as a <a class="el" href="class_i_dream_sky_1_1_quaternion.html">Quaternion</a> specified as an axis angle.  <a href="#a04430ffbbe4489521d042e2a34cd6077">更多...</a><br /></td></tr>
+<tr class="separator:a04430ffbbe4489521d042e2a34cd6077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad54e68bed44956b71f165aea3b1bd9d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#ad54e68bed44956b71f165aea3b1bd9d0">getColor</a> (const char *name, <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> *out) const </td></tr>
+<tr class="memdesc:ad54e68bed44956b71f165aea3b1bd9d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as an RGB color in hex and write this color to a <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>.  <a href="#ad54e68bed44956b71f165aea3b1bd9d0">更多...</a><br /></td></tr>
+<tr class="separator:ad54e68bed44956b71f165aea3b1bd9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3952197b070d4d96f043e5d652525c06"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a3952197b070d4d96f043e5d652525c06">getColor</a> (const char *name, <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a> *out) const </td></tr>
+<tr class="memdesc:a3952197b070d4d96f043e5d652525c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpret the value of the given property as an RGBA color in hex and write this color to a <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a>.  <a href="#a3952197b070d4d96f043e5d652525c06">更多...</a><br /></td></tr>
+<tr class="separator:a3952197b070d4d96f043e5d652525c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a048353f33da9f6d2b78c63bc3a20ce51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a048353f33da9f6d2b78c63bc3a20ce51">getPath</a> (const char *name, std::string *path) const </td></tr>
+<tr class="memdesc:a048353f33da9f6d2b78c63bc3a20ce51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the file path for the given property if the file exists.  <a href="#a048353f33da9f6d2b78c63bc3a20ce51">更多...</a><br /></td></tr>
+<tr class="separator:a048353f33da9f6d2b78c63bc3a20ce51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a214e9b3cd15a4a9d0b81819c64c5636e"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a214e9b3cd15a4a9d0b81819c64c5636e">getVariable</a> (const char *name, const char *defaultValue=NULL) const </td></tr>
+<tr class="memdesc:a214e9b3cd15a4a9d0b81819c64c5636e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a variable that is set in this <a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> object.  <a href="#a214e9b3cd15a4a9d0b81819c64c5636e">更多...</a><br /></td></tr>
+<tr class="separator:a214e9b3cd15a4a9d0b81819c64c5636e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82da83815362b6432b19af8b61e4bc26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a82da83815362b6432b19af8b61e4bc26">setVariable</a> (const char *name, const char *value)</td></tr>
+<tr class="memdesc:a82da83815362b6432b19af8b61e4bc26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of the specified variable.  <a href="#a82da83815362b6432b19af8b61e4bc26">更多...</a><br /></td></tr>
+<tr class="separator:a82da83815362b6432b19af8b61e4bc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+靜態公開方法(Static Public Methods)</h2></td></tr>
+<tr class="memitem:a6ac99641f6d730b5a80934abe6077ad0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a6ac99641f6d730b5a80934abe6077ad0">create</a> (const std::string &amp;url)</td></tr>
+<tr class="memdesc:a6ac99641f6d730b5a80934abe6077ad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> runtime settings from the specified URL, where the URL is of the format "&lt;file-path&gt;.&lt;extension&gt;#&lt;namespace-id&gt;/&lt;namespace-id&gt;/.../&lt;namespace-id&gt;" (and "#&lt;namespace-id&gt;/&lt;namespace-id&gt;/.../&lt;namespace-id&gt;" is optional).  <a href="#a6ac99641f6d730b5a80934abe6077ad0">更多...</a><br /></td></tr>
+<tr class="separator:a6ac99641f6d730b5a80934abe6077ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f1bca8fca83de948d2fc663084b4b3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a45f1bca8fca83de948d2fc663084b4b3">parseVector2</a> (const char *str, <a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a> *out)</td></tr>
+<tr class="memdesc:a45f1bca8fca83de948d2fc663084b4b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to parse the specified string as a <a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a> value.  <a href="#a45f1bca8fca83de948d2fc663084b4b3">更多...</a><br /></td></tr>
+<tr class="separator:a45f1bca8fca83de948d2fc663084b4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d290c8ffbc8e7d4ab585eecc4b5b850"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a0d290c8ffbc8e7d4ab585eecc4b5b850">parseVector3</a> (const char *str, <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> *out)</td></tr>
+<tr class="memdesc:a0d290c8ffbc8e7d4ab585eecc4b5b850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to parse the specified string as a <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> value.  <a href="#a0d290c8ffbc8e7d4ab585eecc4b5b850">更多...</a><br /></td></tr>
+<tr class="separator:a0d290c8ffbc8e7d4ab585eecc4b5b850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d02aaafbb0e74914fbb6ff8b8777397"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a4d02aaafbb0e74914fbb6ff8b8777397">parseVector4</a> (const char *str, <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a> *out)</td></tr>
+<tr class="memdesc:a4d02aaafbb0e74914fbb6ff8b8777397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to parse the specified string as a <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a> value.  <a href="#a4d02aaafbb0e74914fbb6ff8b8777397">更多...</a><br /></td></tr>
+<tr class="separator:a4d02aaafbb0e74914fbb6ff8b8777397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0ec02d5d4f5457f44091e6639ec5fb9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#ab0ec02d5d4f5457f44091e6639ec5fb9">parseAxisAngle</a> (const char *str, <a class="el" href="class_i_dream_sky_1_1_quaternion.html">Quaternion</a> *out)</td></tr>
+<tr class="memdesc:ab0ec02d5d4f5457f44091e6639ec5fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to parse the specified string as an axis-angle value.  <a href="#ab0ec02d5d4f5457f44091e6639ec5fb9">更多...</a><br /></td></tr>
+<tr class="separator:ab0ec02d5d4f5457f44091e6639ec5fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0257c22fccc3ea28f85f51319256c37b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a0257c22fccc3ea28f85f51319256c37b">parseColor</a> (const char *str, <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> *out)</td></tr>
+<tr class="memdesc:a0257c22fccc3ea28f85f51319256c37b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to parse the specified string as an RGB color value.  <a href="#a0257c22fccc3ea28f85f51319256c37b">更多...</a><br /></td></tr>
+<tr class="separator:a0257c22fccc3ea28f85f51319256c37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ae944254fb5563005dbd6fcf393cfe9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a7ae944254fb5563005dbd6fcf393cfe9">parseColor</a> (const char *str, <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a> *out)</td></tr>
+<tr class="memdesc:a7ae944254fb5563005dbd6fcf393cfe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to parse the specified string as an RGBA color value.  <a href="#a7ae944254fb5563005dbd6fcf393cfe9">更多...</a><br /></td></tr>
+<tr class="separator:a7ae944254fb5563005dbd6fcf393cfe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+類別朋友(Friends)</h2></td></tr>
+<tr class="memitem:aa2fab026580d6f14280c2ffb8063a314"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa2fab026580d6f14280c2ffb8063a314"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>Game</b></td></tr>
+<tr class="separator:aa2fab026580d6f14280c2ffb8063a314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">函式成員說明文件</h2>
+<a class="anchor" id="a6ac99641f6d730b5a80934abe6077ad0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> * IDreamSky::KeyValuePairs::create </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a <a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> runtime settings from the specified URL, where the URL is of the format "&lt;file-path&gt;.&lt;extension&gt;#&lt;namespace-id&gt;/&lt;namespace-id&gt;/.../&lt;namespace-id&gt;" (and "#&lt;namespace-id&gt;/&lt;namespace-id&gt;/.../&lt;namespace-id&gt;" is optional). </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>The URL to create the properties from.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>The created <a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> or NULL if there was an error. {create} </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae1d8a4e41ad5c5e9290caf3fb684e1ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::exists </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if a property with the given name is specified in this <a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> object. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to query.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True if the property exists, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a37a28ad2cea38770b2dcd326ff104594"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::getBool </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>defaultValue</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as a boolean. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value. </td></tr>
+    <tr><td class="paramname">defaultValue</td><td>the default value to return if the specified property does not exist within the properties file.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>true if the property exists and its value is "true", otherwise false. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad54e68bed44956b71f165aea3b1bd9d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::getColor </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as an RGB color in hex and write this color to a <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>. </p>
+<p>E.g. 0xff0000 represents red and sets the vector to (1, 0, 0). If the property does not exist, out will be set to <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>(0.0f, 0.0f, 0.0f). If the property exists but could not be scanned, an error will be logged and out will be set to <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>(0.0f, 0.0f, 0.0f).</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value. </td></tr>
+    <tr><td class="paramname">out</td><td>The vector to set to this property's interpreted value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True on success, false if the property does not exist or could not be scanned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3952197b070d4d96f043e5d652525c06"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::getColor </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as an RGBA color in hex and write this color to a <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a>. </p>
+<p>E.g. 0xff0000ff represents opaque red and sets the vector to (1, 0, 0, 1). If the property does not exist, out will be set to <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a>(0.0f, 0.0f, 0.0f, 0.0f). If the property exists but could not be scanned, an error will be logged and out will be set to <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a>(0.0f, 0.0f, 0.0f, 0.0f).</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value. </td></tr>
+    <tr><td class="paramname">out</td><td>The vector to set to this property's interpreted value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True on success, false if the property does not exist or could not be scanned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac9afd08c687b02afd7d745d126528bd1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float IDreamSky::KeyValuePairs::getFloat </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em> = <code>NULL</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as a floating-point number. </p>
+<p>If the property does not exist, zero will be returned. If the property exists but could not be scanned, an error will be logged and zero will be returned.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>The value of the given property interpreted as a float. Zero if the property does not exist or could not be scanned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9d64d0e8159d647d2590db2e313cbac9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * IDreamSky::KeyValuePairs::getId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the ID of this Property's namespace. </p>
+<p>The ID should be a unique identifier, but its uniqueness is not enforced.</p>
+<dl class="section return"><dt>傳回值</dt><dd>The ID of this Property's namespace. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="adbd43ef0a19fbbbea5346ad21d110a75"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int IDreamSky::KeyValuePairs::getInt </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em> = <code>NULL</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as an integer. </p>
+<p>If the property does not exist, zero will be returned. If the property exists but could not be scanned, an error will be logged and zero will be returned.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>The value of the given property interpreted as an integer. Zero if the property does not exist or could not be scanned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a998c2a98a559dbfe44d60970f5107e30"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long IDreamSky::KeyValuePairs::getLong </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em> = <code>NULL</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as a long integer. </p>
+<p>If the property does not exist, zero will be returned. If the property exists but could not be scanned, an error will be logged and zero will be returned.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>The value of the given property interpreted as a long. Zero if the property does not exist or could not be scanned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1875267e815563e0b174ac64b1f7af4c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::getMatrix3 </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_matrix3.html">Matrix3</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as a Matrix. </p>
+<p>If the property does not exist, out will be set to the identity matrix. If the property exists but could not be scanned, an error will be logged and out will be set to the identity matrix.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value. </td></tr>
+    <tr><td class="paramname">out</td><td>The matrix to set to this property's interpreted value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True on success, false if the property does not exist or could not be scanned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9b098803c46bfeb1c350d83bd0ecc64f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::getMatrix4 </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_matrix4.html">Matrix4</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as a Matrix. </p>
+<p>If the property does not exist, out will be set to the identity matrix. If the property exists but could not be scanned, an error will be logged and out will be set to the identity matrix.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value. </td></tr>
+    <tr><td class="paramname">out</td><td>The matrix to set to this property's interpreted value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True on success, false if the property does not exist or could not be scanned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8999585186aefb8bd86516c94ceb6bf7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> * IDreamSky::KeyValuePairs::getNamespace </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>searchNames</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>recurse</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a specific namespace by ID or name. </p>
+<p>This method will optionally perform a depth-first search on all namespaces and inner namespaces within this Property.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>The ID or name of the namespace to find. </td></tr>
+    <tr><td class="paramname">searchNames</td><td>If true, namespace names are used in the search, instead of namespace IDs. By default this parameter is false and namespace IDs are searched. </td></tr>
+    <tr><td class="paramname">recurse</td><td>If true, perform a depth-first search, otherwise search only the immediate child namespaces.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>A properties object with the given ID or name. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a52cdab2e216fc3b1450c629c325193df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * IDreamSky::KeyValuePairs::getNamespace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the name of this Property's namespace. </p>
+<dl class="section return"><dt>傳回值</dt><dd>The name of this Property's namespace. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a27b208b167c0c7c45f22b8f38b34a116"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * IDreamSky::KeyValuePairs::getNextProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the name of the next property. </p>
+<p>If a valid next property is returned, the value of the property can be retrieved using any of the get methods in this class, passing NULL for the property name. </p><pre class="fragment">   @return The name of the next property, or NULL if there are no properties remaining.</pre> 
+</div>
+</div>
+<a class="anchor" id="a048353f33da9f6d2b78c63bc3a20ce51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::getPath </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the file path for the given property if the file exists. </p>
+<p>This method will first search for the file relative to the working directory. If the file is not found then it will search relative to the directory the bundle file is in.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property. </td></tr>
+    <tr><td class="paramname">path</td><td>The string to copy the path to if the file exists.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True if the property exists and the file exists, false otherwise.</dd></dl>
+<p>{ignore} </p>
+
+</div>
+</div>
+<a class="anchor" id="a04430ffbbe4489521d042e2a34cd6077"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::getQuaternionFromAxisAngle </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_quaternion.html">Quaternion</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as a <a class="el" href="class_i_dream_sky_1_1_quaternion.html">Quaternion</a> specified as an axis angle. </p>
+<p>If the property does not exist, out will be set to Quaternion(). If the property exists but could not be scanned, an error will be logged and out will be set to Quaternion().</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value. </td></tr>
+    <tr><td class="paramname">out</td><td>The quaternion to set to this property's interpreted value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True on success, false if the property does not exist or could not be scanned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a93d003ece662c4f4cb231d855f64e20d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * IDreamSky::KeyValuePairs::getString </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>defaultValue</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the value of the given property as a string. </p>
+<p>This can always be retrieved, whatever the intended type of the property.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value. </td></tr>
+    <tr><td class="paramname">defaultValue</td><td>The default value to return if the specified property does not exist.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>The value of the given property as a string, or the empty string if no property with that name exists. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac7b2f095c6c60629b4fd288e4d91fbbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html#a58bfd40015fc806fd3835c50b75ed179">KeyValuePairs::Type</a> IDreamSky::KeyValuePairs::getType </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em> = <code>NULL</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the type of a property. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>The type of the property. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a214e9b3cd15a4a9d0b81819c64c5636e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * IDreamSky::KeyValuePairs::getVariable </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>defaultValue</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the value of a variable that is set in this <a class="el" href="class_i_dream_sky_1_1_key_value_pairs.html">KeyValuePairs</a> object. </p>
+<p>Variables take on the format ${name} and are inherited from parent Property objects.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name of the variable to get. </td></tr>
+    <tr><td class="paramname">defaultValue</td><td>Value to return if the variable is not found.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>The value of the specified variable, or defaultValue if not found. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2546be8e374f1776394ba79b9a75965e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::getVector2 </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as a <a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a>. </p>
+<p>If the property does not exist, out will be set to <a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a>(0.0f, 0.0f). If the property exists but could not be scanned, an error will be logged and out will be set to <a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a>(0.0f, 0.0f).</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value. </td></tr>
+    <tr><td class="paramname">out</td><td>The vector to set to this property's interpreted value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True on success, false if the property does not exist or could not be scanned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a82975cd03f56b99980347c02266889a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::getVector3 </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as a <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>. </p>
+<p>If the property does not exist, out will be set to <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>(0.0f, 0.0f, 0.0f). If the property exists but could not be scanned, an error will be logged and out will be set to <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a>(0.0f, 0.0f, 0.0f).</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value. </td></tr>
+    <tr><td class="paramname">out</td><td>The vector to set to this property's interpreted value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True on success, false if the property does not exist or could not be scanned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa47ea3ccd89e858fef1e0775bad25d40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::getVector4 </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpret the value of the given property as a <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a>. </p>
+<p>If the property does not exist, out will be set to <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a>(0.0f, 0.0f, 0.0f, 0.0f). If the property exists but could not be scanned, an error will be logged and out will be set to <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a>(0.0f, 0.0f, 0.0f, 0.0f).</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to interpret, or NULL to return the current property's value. </td></tr>
+    <tr><td class="paramname">out</td><td>The vector to set to this property's interpreted value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True on success, false if the property does not exist or could not be scanned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab0ec02d5d4f5457f44091e6639ec5fb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::parseAxisAngle </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_quaternion.html">Quaternion</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to parse the specified string as an axis-angle value. </p>
+<p>The specified string is expected to contain four comma-separated values, where the first three values represents the axis and the fourth value represents the angle, in degrees.</p>
+<p>On error, false is returned and the output is set to all zero values.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The string to parse. </td></tr>
+    <tr><td class="paramname">out</td><td>A <a class="el" href="class_i_dream_sky_1_1_quaternion.html">Quaternion</a> populated with the orientation of the axis-angle, if successful.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True if a valid axis-angle was parsed, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0257c22fccc3ea28f85f51319256c37b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::parseColor </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to parse the specified string as an RGB color value. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The string to parse. </td></tr>
+    <tr><td class="paramname">out</td><td>The value to populate if successful.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True if a valid RGB color was parsed, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7ae944254fb5563005dbd6fcf393cfe9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::parseColor </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to parse the specified string as an RGBA color value. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The string to parse. </td></tr>
+    <tr><td class="paramname">out</td><td>The value to populate if successful.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True if a valid RGBA color was parsed, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a45f1bca8fca83de948d2fc663084b4b3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::parseVector2 </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to parse the specified string as a <a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a> value. </p>
+<p>On error, false is returned and the output is set to all zero values.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The string to parse. </td></tr>
+    <tr><td class="paramname">out</td><td>The value to populate if successful.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True if a valid <a class="el" href="class_i_dream_sky_1_1_vector2.html">Vector2</a> was parsed, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0d290c8ffbc8e7d4ab585eecc4b5b850"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::parseVector3 </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to parse the specified string as a <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> value. </p>
+<p>On error, false is returned and the output is set to all zero values.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The string to parse. </td></tr>
+    <tr><td class="paramname">out</td><td>The value to populate if successful.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True if a valid <a class="el" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> was parsed, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4d02aaafbb0e74914fbb6ff8b8777397"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::parseVector4 </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a> *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to parse the specified string as a <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a> value. </p>
+<p>On error, false is returned and the output is set to all zero values.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The string to parse. </td></tr>
+    <tr><td class="paramname">out</td><td>The value to populate if successful.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True if a valid <a class="el" href="class_i_dream_sky_1_1_vector4.html">Vector4</a> was parsed, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa28812b5b1ec5199b4bb856a8c2cb903"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDreamSky::KeyValuePairs::setString </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the value of the property with the specified name. </p>
+<p>If there is no property in this namespace with the current name, one is added. Otherwise, the value of the first property with the specified name is updated.</p>
+<p>If name is NULL, the value current property (see getNextProperty) is set, unless there is no current property, in which case false is returned.</p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the property to set. </td></tr>
+    <tr><td class="paramname">value</td><td>The property value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>傳回值</dt><dd>True if the property was set, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a82da83815362b6432b19af8b61e4bc26"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IDreamSky::KeyValuePairs::setVariable </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the value of the specified variable. </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name of the variable to set. </td></tr>
+    <tr><td class="paramname">value</td><td>The value to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>此類別(class) 文件是由下列檔案中產生:<ul>
+<li>C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/<a class="el" href="_key_value_pairs_8h_source.html">KeyValuePairs.h</a></li>
+<li>C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/KeyValuePairs.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

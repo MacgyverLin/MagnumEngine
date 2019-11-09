@@ -1,0 +1,4 @@
+<map id="Magnum::SkeletalAnimBlender::setBlendWeights" name="Magnum::SkeletalAnimBlender::setBlendWeights">
+<area shape="rect" id="node2" href="$class_magnum_1_1_vector.html#a0350766ba61f29a27692e9a7f3e2e61d" title="Get the length of the Vector. " alt="" coords="277,5,438,32"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_weights.html#a8d8093ac23fb9eca419351af2886b186" title="Set the blend weight of the i&#45;th bone of animation. " alt="" coords="255,57,460,98"/>
+</map>

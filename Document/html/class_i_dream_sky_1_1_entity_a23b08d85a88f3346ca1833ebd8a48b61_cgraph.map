@@ -1,0 +1,7 @@
+<map id="IDreamSky::Entity::create" name="IDreamSky::Entity::create">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_component_1_1_owner.html#a6878b12a1f8e8119da43305d175bf522" title="Construct the Component, it do construct for itself by calling onConstruct method and also call the c..." alt="" coords="189,5,349,47"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_component_1_1_owner.html#a40b2d7b5072754e7517251d52d09c8f2" title="Start the Component, it do start it for itself by calling onStart method and also call the start meth..." alt="" coords="189,71,349,112"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_component_1_1_owner.html#ad41887bbff0c68926b6e079c9c88fb48" title="Handle Construct Event of the Component. " alt="" coords="411,5,571,47"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_component_1_1_owner.html#abf13c26d4fc4c07fad6893aac99bad3d" title="Check if currently in Editor Mode. " alt="" coords="397,71,584,112"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_component_1_1_owner.html#ae7236357beeb16cbb937d98e4f311d5c" title="Handle Start Event of the Component. " alt="" coords="411,136,571,177"/>
+</map>

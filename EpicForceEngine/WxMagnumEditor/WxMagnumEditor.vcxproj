@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Final|Win32">
+      <Configuration>Final</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2603B59-9A43-4367-885A-69D886D65E04}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>WxEpicForceEditor</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS; WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../MagnumEngineLib/SDK/Bullet; ../MagnumEngineLib/MagnumCore; ../MagnumEngineLib/SDK/OpenGLES/GL2/Include; ../MagnumEngineLib/SDK/GLEW/Include/GL;  ../MagnumEngineLib/SDK/unzip; ..\wx\lib\vc_lib\mswud; ..\wx\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir); ../wx/lib/vc_lib; ../MagnumEngineLib/SDK/GLEW/Lib; ../MagnumEngineLib/SDK/OpenGLES/GL2/Lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>MagnumEngineLib.lib; wxmsw29ud_aui.lib;wxmsw29ud_html.lib;wxmsw29ud_adv.lib;wxmsw29ud_core.lib;wxbase29ud_xml.lib;wxbase29ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS; WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../MagnumEngineLib/MagnumCore; ../MagnumEngineLib/SDK/OpenGLES/GL2/Include; ../MagnumEngineLib/SDK/GLEW/Include/GL;  ../MagnumEngineLib/SDK/unzip; ..\wx\lib\vc_lib\mswu; ..\wx\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>MagnumEngineLib.lib; wxmsw30u_aui.lib;wxmsw30u_html.lib;wxmsw30u_adv.lib;wxmsw30u_core.lib;wxbase30u_xml.lib;wxbase30u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir); ../wx/lib/vc_lib; ../MagnumEngineLib/SDK/GLEW/Lib; ../MagnumEngineLib/SDK/OpenGLES/GL2/Lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../MagnumEngineLib/MagnumCore; ../MagnumEngineLib/SDK/OpenGLES/GL2/Include; ../MagnumEngineLib/SDK/GLEW/Include/GL;  ../MagnumEngineLib/SDK/unzip; ..\wx\lib\vc_lib\mswu; ..\wx\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>MagnumEngineLib.lib; wxmsw29u_aui.lib;wxmsw29u_html.lib;wxmsw29u_adv.lib;wxmsw29u_core.lib;wxbase29u_xml.lib;wxbase29u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir); ../wx/lib/vc_lib; ../MagnumEngineLib/SDK/GLEW/Lib; ../MagnumEngineLib/SDK/OpenGLES/GL2/Lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BitmapCreater.cpp" />
+    <ClCompile Include="BuildModeToolBarView.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="EditToolBarView.cpp" />
+    <ClCompile Include="FileToolBarView.cpp" />
+    <ClCompile Include="MiscBToolBarView.cpp" />
+    <ClCompile Include="MiscAToolBarView.cpp" />
+    <ClCompile Include="OperationModeToolBarView.cpp" />
+    <ClCompile Include="PlayModeToolBarView.cpp" />
+    <ClCompile Include="ReflectedClassPropertyPanel.cpp" />
+    <ClCompile Include="DebugView.cpp" />
+    <ClCompile Include="EGLDriver20.cpp" />
+    <ClCompile Include="EntityCreatorsView.cpp" />
+    <ClCompile Include="EntityDragDrop.cpp" />
+    <ClCompile Include="EntityPanel.cpp" />
+    <ClCompile Include="HierarchyView.cpp" />
+    <ClCompile Include="InputData.cpp" />
+    <ClCompile Include="InspectorView.cpp" />
+    <ClCompile Include="Localization.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PointerTreeItemMap.cpp" />
+    <ClCompile Include="ProjectView.cpp" />
+    <ClCompile Include="ResourceImportDragDrop.cpp" />
+    <ClCompile Include="ResourceImporterView.cpp" />
+    <ClCompile Include="SceneView.cpp" />
+    <ClCompile Include="wxArrayBoolCtrl.cpp" />
+    <ClCompile Include="wxArrayColorRGBACtrl.cpp" />
+    <ClCompile Include="wxArrayDoubleSpinnerCtrl.cpp" />
+    <ClCompile Include="wxArrayFloatSpinnerCtrl.cpp" />
+    <ClCompile Include="wxArrayIntSpinnerCtrl.cpp" />
+    <ClCompile Include="wxArrayIVector2SpinnerCtrl.cpp" />
+    <ClCompile Include="wxArrayIVector3SpinnerCtrl.cpp" />
+    <ClCompile Include="wxArrayIVector4SpinnerCtrl.cpp" />
+    <ClCompile Include="wxArrayLengthCtrl.cpp" />
+    <ClCompile Include="wxArrayResourcePathCtrl.cpp" />
+    <ClCompile Include="wxArraySRTTRansformCtrl.cpp" />
+    <ClCompile Include="wxArrayStringCtrl.cpp" />
+    <ClCompile Include="wxArrayUIntSpinnerCtrl.cpp" />
+    <ClCompile Include="wxArrayVector2SpinnerCtrl.cpp" />
+    <ClCompile Include="wxArrayVector3SpinnerCtrl.cpp" />
+    <ClCompile Include="wxArrayVector4SpinnerCtrl.cpp" />
+    <ClCompile Include="wxBoolCtrl.cpp" />
+    <ClCompile Include="wxCollapsePanelCtrl.cpp" />
+    <ClCompile Include="wxColorDlg.cpp" />
+    <ClCompile Include="wxColorRGBACtrl.cpp" />
+    <ClCompile Include="wxDoubleSpinnerCtrl.cpp" />
+    <ClCompile Include="wxFloatSpinnerCtrl.cpp" />
+    <ClCompile Include="wxIntSpinnerCtrl.cpp" />
+    <ClCompile Include="wxIVector2SpinnerCtrl.cpp" />
+    <ClCompile Include="wxIVector3SpinnerCtrl.cpp" />
+    <ClCompile Include="wxIVector4SpinnerCtrl.cpp" />
+    <ClCompile Include="wxLabelCtrl.cpp" />
+    <ClCompile Include="wxProjectDlg.cpp" />
+    <ClCompile Include="wxResourcePathCtrl.cpp" />
+    <ClCompile Include="wxStringCtrl.cpp" />
+    <ClCompile Include="wxSRTTransformCtrl.cpp" />
+    <ClCompile Include="wxUIntSpinnerCtrl.cpp" />
+    <ClCompile Include="wxVector2SpinnerCtrl.cpp" />
+    <ClCompile Include="wxVector3SpinnerCtrl.cpp" />
+    <ClCompile Include="wxVector4SpinnerCtrl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BitmapCreater.h" />
+    <ClInclude Include="BuildModeToolBarView.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="EditToolBarView.h" />
+    <ClInclude Include="FileToolBarView.h" />
+    <ClInclude Include="MiscBToolBarView.h" />
+    <ClInclude Include="MiscAToolBarView.h" />
+    <ClInclude Include="OperationModeToolBarView.h" />
+    <ClInclude Include="playbutton_png.h" />
+    <ClInclude Include="PlayModeToolBarView.h" />
+    <ClInclude Include="ReflectedClassPropertyPanel.h" />
+    <ClInclude Include="DebugView.h" />
+    <ClInclude Include="downarrow_png.h" />
+    <ClInclude Include="EGLDriver20.h" />
+    <ClInclude Include="EntityCreatorsView.h" />
+    <ClInclude Include="EntityDragDrop.h" />
+    <ClInclude Include="EntityPanel.h" />
+    <ClInclude Include="fov_png.h" />
+    <ClInclude Include="HierarchyView.h" />
+    <ClInclude Include="imagpng.h" />
+    <ClInclude Include="InputData.h" />
+    <ClInclude Include="InspectorView.h" />
+    <ClInclude Include="leftarrow_png.h" />
+    <ClInclude Include="Localization.h" />
+    <ClInclude Include="moveselected_png.h" />
+    <ClInclude Include="orbitselected_png.h" />
+    <ClInclude Include="orbit_png.h" />
+    <ClInclude Include="pan_png.h" />
+    <ClInclude Include="pnghand.h" />
+    <ClInclude Include="pngread.h" />
+    <ClInclude Include="PointerTreeItemMap.h" />
+    <ClInclude Include="ResourceImportDragDrop.h" />
+    <ClInclude Include="ResourceImporterView.h" />
+    <ClInclude Include="rightarrow_png.h" />
+    <ClInclude Include="rotateselected_png.h" />
+    <ClInclude Include="scaleselected_png.h" />
+    <ClInclude Include="SceneView.h" />
+    <ClInclude Include="selection_png.h" />
+    <ClInclude Include="stepbutton_png.h" />
+    <ClInclude Include="stopbutton_png.h" />
+    <ClInclude Include="uparrow_png.h" />
+    <ClInclude Include="wxArrayBoolCtrl.h" />
+    <ClInclude Include="wxArrayColorRGBACtrl.h" />
+    <ClInclude Include="wxArrayDoubleSpinnerCtrl.h" />
+    <ClInclude Include="wxArrayFloatSpinnerCtrl.h" />
+    <ClInclude Include="wxArrayIntSpinnerCtrl.h" />
+    <ClInclude Include="wxArrayIVector2SpinnerCtrl.h" />
+    <ClInclude Include="wxArrayIVector3SpinnerCtrl.h" />
+    <ClInclude Include="wxArrayIVector4SpinnerCtrl.h" />
+    <ClInclude Include="wxArrayLengthCtrl.h" />
+    <ClInclude Include="wxArrayResourcePathCtrl.h" />
+    <ClInclude Include="wxArraySRTTransformCtrl.h" />
+    <ClInclude Include="wxArrayStringCtrl.h" />
+    <ClInclude Include="wxArrayUIntSpinnerCtrl.h" />
+    <ClInclude Include="wxArrayVector2SpinnerCtrl.h" />
+    <ClInclude Include="wxArrayVector3SpinnerCtrl.h" />
+    <ClInclude Include="wxArrayVector4SpinnerCtrl.h" />
+    <ClInclude Include="wxBoolCtrl.h" />
+    <ClInclude Include="wxCollapsePanelCtrl.h" />
+    <ClInclude Include="wxColorDlg.h" />
+    <ClInclude Include="wxColorRGBACtrl.h" />
+    <ClInclude Include="wxdef.h" />
+    <ClInclude Include="ProjectView.h" />
+    <ClInclude Include="wxDoubleSpinnerCtrl.h" />
+    <ClInclude Include="wxFloatSpinnerCtrl.h" />
+    <ClInclude Include="wxIntSpinnerCtrl.h" />
+    <ClInclude Include="wxIVector2SpinnerCtrl.h" />
+    <ClInclude Include="wxIVector3SpinnerCtrl.h" />
+    <ClInclude Include="wxIVector4SpinnerCtrl.h" />
+    <ClInclude Include="wxLabelCtrl.h" />
+    <ClInclude Include="wxProjectDlg.h" />
+    <ClInclude Include="wxResourcePathCtrl.h" />
+    <ClInclude Include="wxStringCtrl.h" />
+    <ClInclude Include="wxSRTTransformCtrl.h" />
+    <ClInclude Include="wxUIntSpinnerCtrl.h" />
+    <ClInclude Include="wxVector2SpinnerCtrl.h" />
+    <ClInclude Include="wxVector3SpinnerCtrl.h" />
+    <ClInclude Include="wxVector4SpinnerCtrl.h" />
+    <ClInclude Include="zoomExtentSelected_png.h" />
+    <ClInclude Include="zoomExtents_png.h" />
+    <ClInclude Include="zoomregion_png.h" />
+    <ClInclude Include="zoom_png.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

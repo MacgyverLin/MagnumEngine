@@ -1,0 +1,8 @@
+<map id="Magnum::SkeletalAnimModelComponent::getVisualEffect" name="Magnum::SkeletalAnimModelComponent::getVisualEffect">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_model.html#a4627fe01045a07025d89ed1f063b5ce4" title="Get the number of Texture Infomations in the Skeletal Anim Model. " alt="" coords="245,5,437,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_model.html#a58eb7b1c0989d7a85c8615c29207cf35" title="Get the i&#45;th Texture Infomation in the Skeletal Anim Model. " alt="" coords="245,71,437,112"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_skeletal_anim_model.html#ae04c287408e52c5ce8636ab032c1de58" title="Get the number of VisualEffectInfos in the Skeletal Anim Model. " alt="" coords="245,136,437,177"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_skeletal_anim_model.html#a347a76d9c59646ea702ecac3e1914deb" title="Get the i&#45;th VisualEffect Infomation in the Skeletal Anim Model. " alt="" coords="245,201,437,243"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_anim_model_1_1_resource.html#abe338e5eda7a29af91739b404dc02da8" title="Get the number of Texture Infomations in the Skeletal Anim Model. " alt="" coords="499,71,707,112"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_skeletal_anim_model_1_1_resource.html#a8d76b34f2fc4c590f7d6b600473d3e2d" title="Get the number of VisualEffectInfos in the Skeletal Anim Model. " alt="" coords="485,201,720,243"/>
+</map>

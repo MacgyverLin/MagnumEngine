@@ -1,0 +1,23 @@
+////////////////////////////////////////////////////////////////
+// Exporter Feature
+  i) Support DirectX Material and Multi/SubObj Material (only)
+     e.g Diffuse Map, Diffuse Map Out Mask, Diffuse Map Transparent 
+         Diffuse Specular Map, Diffuse Specular Map Out Mask, Diffuse Specular Map Transparent 
+         Splatting
+
+////////////////////////////////////////////////////////////////
+// Exporter Limitation
+  i) Support only a maximun of 20 bones per Editable-Mesh, 
+     (If over 20 bones, Consider to split the mesh, or use multi-sub Material).
+
+ ii) For Speed consideration, try limit the number of bones per character
+     e.g. keep it under 26 bones
+
+////////////////////////////////////////////////////////////////
+// Exporting
+  i) run BeginExport.bat (There is a bug in maxsdk, has to do this step first before using 3dsmax)
+ ii) start 3dsmax 2012
+iii) edit model/texture as usual
+ iv) File>>>>Export>>>
+     select format as *.skelanimmodel
+     press ok

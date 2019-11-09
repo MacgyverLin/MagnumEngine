@@ -1,0 +1,14 @@
+<map id="IDreamSky::Component::Owner::write" name="IDreamSky::Component::Owner::write">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_frame3.html#ab0ae20eaa0b37da4370279231c3479bf" title="write method for Serialization " alt="" coords="233,5,380,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_component_1_1_owner.html#ad41887bbff0c68926b6e079c9c88fb48" title="Handle Construct Event of the Component. " alt="" coords="227,71,387,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_component_1_1_owner.html#abf13c26d4fc4c07fad6893aac99bad3d" title="Check if currently in Editor Mode. " alt="" coords="213,136,400,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_component_1_1_owner.html#ae7236357beeb16cbb937d98e4f311d5c" title="Handle Start Event of the Component. " alt="" coords="227,201,387,243"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_component_1_1_owner.html#a493e3083c5600e177a2b641c723234aa" title="Handle onPreUpdate Event of the Component. " alt="" coords="227,267,387,308"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_component_1_1_owner.html#a0d01fb3bf56e46f99f51a0547b30a382" title="Handle Update Event of the Component. " alt="" coords="227,332,387,373"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_component_1_1_owner.html#af246be2df896c45b7596957d5073a986" title="Handle onPostUpdate Event of the Component. " alt="" coords="227,397,387,439"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_component_1_1_owner.html#a0364bd50241b29e6698f959ba0b21ff2" title="Handle Pause Event of the Component. " alt="" coords="227,463,387,504"/>
+<area shape="rect" id="node10" href="$class_i_dream_sky_1_1_component_1_1_owner.html#a39c9e675f1d601b7870d488ce252648d" title="Handle Resume Event of the Component. " alt="" coords="227,528,387,569"/>
+<area shape="rect" id="node11" href="$class_i_dream_sky_1_1_component_1_1_owner.html#aa8c589d7b7fb8f60e7fb446ca11c2197" title="Handle Stop Event of the Component. " alt="" coords="227,593,387,635"/>
+<area shape="rect" id="node12" href="$class_i_dream_sky_1_1_component_1_1_owner.html#a69a0f99352424f71532a8955d518da62" title="Handle Destruct Event of the Component. " alt="" coords="227,659,387,700"/>
+<area shape="rect" id="node13" href="$class_i_dream_sky_1_1_component_1_1_owner.html#a804bdbbd90faa6014838050fb8594b5e" title="Handle the Debug Rendering Event. " alt="" coords="223,724,390,765"/>
+</map>

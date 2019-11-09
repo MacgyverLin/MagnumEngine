@@ -1,0 +1,5 @@
+<map id="Magnum::SkeletalAnimBase::getVector10" name="Magnum::SkeletalAnimBase::getVector10">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_base.html#a3071b818530589de7f3b28c1300e6135" title="This function get the local Transform of of the i&#45;th bone. " alt="" coords="243,5,429,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_anim_model_renderer.html#a138ac08d14815bdc63a73b2d0722f52f" title="Get the Order of this renderer. " alt="" coords="240,71,432,112"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_base.html#abfba256c345b07790b774d0f0b9cc54f" title="This function get the global Transform of of the i&#45;th bone. " alt="" coords="480,5,667,47"/>
+</map>

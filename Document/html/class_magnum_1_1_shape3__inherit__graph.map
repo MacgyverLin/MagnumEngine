@@ -1,0 +1,11 @@
+<map id="Magnum::Shape3" name="Magnum::Shape3">
+<area shape="rect" id="node2" href="$class_magnum_1_1_concave_shape3.html" title="ConcaveShape3. " alt="" coords="185,5,359,32"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_convex_hull_shape3.html" title="Magnum::ConvexHullShape3" alt="" coords="178,56,366,83"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_convex_shape3.html" title="ConvexShape3. " alt="" coords="189,107,355,133"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_height_field_shape3.html" title="HeightFieldShape3. " alt="" coords="177,157,367,184"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_box_shape3.html" title="BoxShape3. " alt="" coords="427,5,573,32"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_capsule_shape3.html" title="CapsuleShape3. " alt="" coords="415,56,585,83"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_cone_shape3.html" title="ConeShape3. " alt="" coords="423,107,577,133"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_cylinder_shape3.html" title="CylinderShape3. " alt="" coords="415,157,585,184"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_sphere_shape3.html" title="SphereShape3. " alt="" coords="417,208,583,235"/>
+</map>

@@ -1,0 +1,306 @@
+\hypertarget{class_perspective_camera_component}{}\section{Perspective\+Camera\+Component Class Reference}
+\label{class_perspective_camera_component}\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+
+
+\hyperlink{class_perspective_camera_component}{Perspective\+Camera\+Component}.  
+
+
+
+
+{\ttfamily \#include $<$Perspective\+Camera\+Component.\+h$>$}
+
+Inheritance diagram for Perspective\+Camera\+Component\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_perspective_camera_component}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_perspective_camera_component_a63c001a1398786823ee01bdf7bf38cb9}{Perspective\+Camera\+Component} (\hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} \&owner\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_perspective_camera_component}{Perspective\+Camera\+Component} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_perspective_camera_component_a7fb684b3fb2c9e3e19ee017acac84327}{$\sim$\+Perspective\+Camera\+Component} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_perspective_camera_component}{Perspective\+Camera\+Component} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_perspective_camera_component_ac44ed3d640447f577336a14ead7f112e}{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC} (float, Fovy,\{float fovy;float aspect;float near\+Plane;float far\+Plane;\hyperlink{class_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);return fovy $\ast$Math\+::\+R\+A\+D\+\_\+2\+\_\+\+D\+EG;\},\{float fovy;float aspect;float near\+Plane;float far\+Plane;\hyperlink{class_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);\hyperlink{class_perspective_camera_component_a6b49a13999f7fb6593ca845c10579795}{set\+Projection}(value $\ast$Math\+::\+D\+E\+G\+\_\+2\+\_\+\+R\+AD, aspect, near\+Plane, far\+Plane);\})
+\begin{DoxyCompactList}\small\item\em Set the Field of View in Y Direction of the camera. \end{DoxyCompactList}\item 
+\hyperlink{class_perspective_camera_component_a40144cd6095c0fb79f11325eaed5311b}{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC} (float, Aspect,\{float fovy;float aspect;float near\+Plane;float far\+Plane;\hyperlink{class_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);return aspect;\},\{float fovy;float aspect;float near\+Plane;float far\+Plane;\hyperlink{class_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);\hyperlink{class_perspective_camera_component_a6b49a13999f7fb6593ca845c10579795}{set\+Projection}(fovy, value, near\+Plane, far\+Plane);\})
+\begin{DoxyCompactList}\small\item\em Set the Aspect Ratio of the camera. \end{DoxyCompactList}\item 
+\hyperlink{class_perspective_camera_component_a04097ec06a9e418dbcb4ba936e2a4e93}{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC} (float, Near\+Plane,\{float fovy;float aspect;float near\+Plane;float far\+Plane;\hyperlink{class_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);return near\+Plane;\},\{float fovy;float aspect;float near\+Plane;float far\+Plane;\hyperlink{class_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);\hyperlink{class_perspective_camera_component_a6b49a13999f7fb6593ca845c10579795}{set\+Projection}(fovy, aspect, value, far\+Plane);\})
+\begin{DoxyCompactList}\small\item\em Set the Near Plane of the camera. \end{DoxyCompactList}\item 
+\hyperlink{class_perspective_camera_component_ac6a21361eb17ad4ef49fd6aaad8c498e}{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC} (float, Far\+Plane,\{float fovy;float aspect;float near\+Plane;float far\+Plane;\hyperlink{class_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);return far\+Plane;\},\{float fovy;float aspect;float near\+Plane;float far\+Plane;\hyperlink{class_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);\hyperlink{class_perspective_camera_component_a6b49a13999f7fb6593ca845c10579795}{set\+Projection}(fovy, aspect, near\+Plane, value);\})
+\begin{DoxyCompactList}\small\item\em Set the Far Plane of the camera. \end{DoxyCompactList}\item 
+void \hyperlink{class_perspective_camera_component_a6b49a13999f7fb6593ca845c10579795}{set\+Projection} (float left\+\_\+, float right\+\_\+, float bottom\+\_\+, float top\+\_\+, float near\+Plane\+\_\+, float far\+Plane\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the coordinate of project plane of at the near plane of camera. \end{DoxyCompactList}\item 
+void \hyperlink{class_perspective_camera_component_a4a3cc80a282ec870cb1343952b391940}{set\+Projection} (float fovy\+\_\+, float aspect\+\_\+, float near\+Plane\+\_\+, float far\+Plane\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the coordinate of project plane of at the near plane of camera. \end{DoxyCompactList}\item 
+void \hyperlink{class_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{get\+Projection} (float \&left\+\_\+, float \&right\+\_\+, float \&bottom\+\_\+, float \&top\+\_\+, float \&near\+Plane\+\_\+, float \&far\+Plane\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the coordinate of project plane of at the near plane of camera. \end{DoxyCompactList}\item 
+void \hyperlink{class_perspective_camera_component_a29352b75b672da73782d19fcc2e7b382}{get\+Projection} (float \&fovy\+\_\+, float \&aspect\+\_\+, float \&near\+Plane\+\_\+, float \&far\+Plane\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the coordinate of project plane of at the near plane of camera. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_perspective_camera_component_a83b864b187b8b5244eb9d23eeef02b5c}{on\+Debug\+Render} (\hyperlink{class_magnum_1_1_i_component_debug_renderer}{I\+Component\+Debug\+Renderer} \&debug\+Renderer)\hypertarget{class_perspective_camera_component_a83b864b187b8b5244eb9d23eeef02b5c}{}\label{class_perspective_camera_component_a83b864b187b8b5244eb9d23eeef02b5c}
+
+\begin{DoxyCompactList}\small\item\em Handle Debuger Rendering Event of the Component. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_perspective_camera_component}{Perspective\+Camera\+Component}. 
+
+\hyperlink{class_perspective_camera_component}{Perspective\+Camera\+Component} is a base class for all Orthographic Camera \begin{DoxySeeAlso}{See also}
+\hyperlink{class_magnum_1_1_camera_component_ab6a56dfe932d9ddad1df9c0ffe0a329f}{Camera\+Component} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{Perspective\+Camera\+Component(\+Component\+::\+Owner \&owner\+\_\+)}{PerspectiveCameraComponent(Component::Owner &owner_)}}]{\setlength{\rightskip}{0pt plus 5cm}Perspective\+Camera\+Component\+::\+Perspective\+Camera\+Component (
+\begin{DoxyParamCaption}
+\item[{{\bf Component\+::\+Owner} \&}]{owner\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_perspective_camera_component_a63c001a1398786823ee01bdf7bf38cb9}{}\label{class_perspective_camera_component_a63c001a1398786823ee01bdf7bf38cb9}
+
+
+\hyperlink{class_perspective_camera_component}{Perspective\+Camera\+Component} Constructor. 
+
+To Construct the \hyperlink{class_perspective_camera_component}{Perspective\+Camera\+Component} for the owner. 
+\begin{DoxyParams}{Parameters}
+{\em owner\+\_\+,the} & Component\+::\+Owner which owns this component. \\
+\hline
+\end{DoxyParams}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!````~Perspective\+Camera\+Component@{$\sim$\+Perspective\+Camera\+Component}}
+\index{````~Perspective\+Camera\+Component@{$\sim$\+Perspective\+Camera\+Component}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{$\sim$\+Perspective\+Camera\+Component()}{~PerspectiveCameraComponent()}}]{\setlength{\rightskip}{0pt plus 5cm}Perspective\+Camera\+Component\+::$\sim$\+Perspective\+Camera\+Component (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_perspective_camera_component_a7fb684b3fb2c9e3e19ee017acac84327}{}\label{class_perspective_camera_component_a7fb684b3fb2c9e3e19ee017acac84327}
+
+
+\hyperlink{class_perspective_camera_component}{Perspective\+Camera\+Component} Destructor. 
+
+To Destruct \hyperlink{class_perspective_camera_component}{Perspective\+Camera\+Component} and remove from its owner. 
+
+\subsection{Member Function Documentation}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!get\+Projection@{get\+Projection}}
+\index{get\+Projection@{get\+Projection}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{get\+Projection(float \&left\+\_\+, float \&right\+\_\+, float \&bottom\+\_\+, float \&top\+\_\+, float \&near\+Plane\+\_\+, float \&far\+Plane\+\_\+) const }{getProjection(float &left_, float &right_, float &bottom_, float &top_, float &nearPlane_, float &farPlane_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Perspective\+Camera\+Component\+::get\+Projection (
+\begin{DoxyParamCaption}
+\item[{float \&}]{left\+\_\+, }
+\item[{float \&}]{right\+\_\+, }
+\item[{float \&}]{bottom\+\_\+, }
+\item[{float \&}]{top\+\_\+, }
+\item[{float \&}]{near\+Plane\+\_\+, }
+\item[{float \&}]{far\+Plane\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}{}\label{class_perspective_camera_component_ae3ce00b7bbf1c9e9e073f28793dd1645}
+
+
+Get the coordinate of project plane of at the near plane of camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left\+\_\+,float,return} & the left side frustum x coordinate in this camera space \\
+\hline
+{\em right\+\_\+,float,return} & the right side frustum x coordinate in this camera space \\
+\hline
+{\em bottom\+\_\+,float,return} & the bottom side frustum y coordinate in this camera space \\
+\hline
+{\em top\+\_\+,float,return} & the top side frustum y coordinate in this camera space \\
+\hline
+{\em near\+Plane\+\_\+,float,return} & the near side frustum z coordinate in this camera space \\
+\hline
+{\em far\+Plane\+\_\+,float,return} & the far side frustum z coordinate in this camera space \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Redbook of Open\+GL Bible for detail of definition of Projection Transform 
+\end{DoxySeeAlso}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!get\+Projection@{get\+Projection}}
+\index{get\+Projection@{get\+Projection}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{get\+Projection(float \&fovy\+\_\+, float \&aspect\+\_\+, float \&near\+Plane\+\_\+, float \&far\+Plane\+\_\+) const }{getProjection(float &fovy_, float &aspect_, float &nearPlane_, float &farPlane_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Perspective\+Camera\+Component\+::get\+Projection (
+\begin{DoxyParamCaption}
+\item[{float \&}]{fovy\+\_\+, }
+\item[{float \&}]{aspect\+\_\+, }
+\item[{float \&}]{near\+Plane\+\_\+, }
+\item[{float \&}]{far\+Plane\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_perspective_camera_component_a29352b75b672da73782d19fcc2e7b382}{}\label{class_perspective_camera_component_a29352b75b672da73782d19fcc2e7b382}
+
+
+Get the coordinate of project plane of at the near plane of camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fovy\+\_\+,float,return} & the field of view in y direction of the camera \\
+\hline
+{\em aspect\+\_\+,float,return} & the aspect ratio of the camera \\
+\hline
+{\em near\+Plane\+\_\+,float,return} & the near side frustum z coordinate in this camera space \\
+\hline
+{\em far\+Plane\+\_\+,float,return} & the far side frustum z coordinate in this camera space \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Redbook of Open\+GL Bible for detail of definition of Projection Transform 
+\end{DoxySeeAlso}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}}
+\index{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+N\+C(float, Fovy,\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return fovy $\ast$\+Math\+::\+R\+A\+D\+\_\+2\+\_\+\+D\+E\+G;\rcurly{},\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(value $\ast$\+Math\+::\+D\+E\+G\+\_\+2\+\_\+\+R\+A\+D, aspect, near\+Plane, far\+Plane);\rcurly{})}{PROPERTY_CUSTOM_FUNC(float, Fovy,\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);return fovy *Math::RAD_2_DEG;\},\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);setProjection(value *Math::DEG_2_RAD, aspect, nearPlane, farPlane);\})}}]{\setlength{\rightskip}{0pt plus 5cm}Perspective\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC (
+\begin{DoxyParamCaption}
+\item[{float}]{, }
+\item[{Fovy}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;{\bf get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);return fovy $\ast$Math\+::\+R\+A\+D\+\_\+2\+\_\+\+D\+EG;\}}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;{\bf get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);{\bf set\+Projection}(value $\ast$Math\+::\+D\+E\+G\+\_\+2\+\_\+\+R\+AD, aspect, near\+Plane, far\+Plane);\}}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_perspective_camera_component_ac44ed3d640447f577336a14ead7f112e}{}\label{class_perspective_camera_component_ac44ed3d640447f577336a14ead7f112e}
+
+
+Set the Field of View in Y Direction of the camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value\+\_\+,float,the} & Field of View in Y Direction of the camera Get the Field of View in Y Direction of the camera \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float, the Field of View in Y Direction of the camera 
+\end{DoxyReturn}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}}
+\index{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+N\+C(float, Aspect,\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return aspect;\rcurly{},\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, value, near\+Plane, far\+Plane);\rcurly{})}{PROPERTY_CUSTOM_FUNC(float, Aspect,\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);return aspect;\},\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);setProjection(fovy, value, nearPlane, farPlane);\})}}]{\setlength{\rightskip}{0pt plus 5cm}Perspective\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC (
+\begin{DoxyParamCaption}
+\item[{float}]{, }
+\item[{Aspect}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;{\bf get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);return aspect;\}}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;{\bf get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);{\bf set\+Projection}(fovy, value, near\+Plane, far\+Plane);\}}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_perspective_camera_component_a40144cd6095c0fb79f11325eaed5311b}{}\label{class_perspective_camera_component_a40144cd6095c0fb79f11325eaed5311b}
+
+
+Set the Aspect Ratio of the camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value\+\_\+,float,the} & Aspect Ratio of the camera Get the Aspect Ratio of the camera \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float, the Aspect Ratio of the camera 
+\end{DoxyReturn}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}}
+\index{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+N\+C(float, Near\+Plane,\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return near\+Plane;\rcurly{},\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, aspect, value, far\+Plane);\rcurly{})}{PROPERTY_CUSTOM_FUNC(float, NearPlane,\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);return nearPlane;\},\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);setProjection(fovy, aspect, value, farPlane);\})}}]{\setlength{\rightskip}{0pt plus 5cm}Perspective\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC (
+\begin{DoxyParamCaption}
+\item[{float}]{, }
+\item[{Near\+Plane}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;{\bf get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);return near\+Plane;\}}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;{\bf get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);{\bf set\+Projection}(fovy, aspect, value, far\+Plane);\}}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_perspective_camera_component_a04097ec06a9e418dbcb4ba936e2a4e93}{}\label{class_perspective_camera_component_a04097ec06a9e418dbcb4ba936e2a4e93}
+
+
+Set the Near Plane of the camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value\+\_\+,float,the} & Near Plane of the camera Get the Near Plane of the camera \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float, the Near Plane of the camera 
+\end{DoxyReturn}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}}
+\index{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC@{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+N\+C(float, Far\+Plane,\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);return far\+Plane;\rcurly{},\lcurly{}float fovy;float aspect;float near\+Plane;float far\+Plane;get\+Projection(fovy, aspect, near\+Plane, far\+Plane);set\+Projection(fovy, aspect, near\+Plane, value);\rcurly{})}{PROPERTY_CUSTOM_FUNC(float, FarPlane,\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);return farPlane;\},\{float fovy;float aspect;float nearPlane;float farPlane;getProjection(fovy, aspect, nearPlane, farPlane);setProjection(fovy, aspect, nearPlane, value);\})}}]{\setlength{\rightskip}{0pt plus 5cm}Perspective\+Camera\+Component\+::\+P\+R\+O\+P\+E\+R\+T\+Y\+\_\+\+C\+U\+S\+T\+O\+M\+\_\+\+F\+U\+NC (
+\begin{DoxyParamCaption}
+\item[{float}]{, }
+\item[{Far\+Plane}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;{\bf get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);return far\+Plane;\}}]{, }
+\item[{\{float fovy;float aspect;float near\+Plane;float far\+Plane;{\bf get\+Projection}(fovy, aspect, near\+Plane, far\+Plane);{\bf set\+Projection}(fovy, aspect, near\+Plane, value);\}}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_perspective_camera_component_ac6a21361eb17ad4ef49fd6aaad8c498e}{}\label{class_perspective_camera_component_ac6a21361eb17ad4ef49fd6aaad8c498e}
+
+
+Set the Far Plane of the camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value\+\_\+,float,the} & Far Plane of the camera Get the Far Plane of the camera \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float, the Far Plane of the camera 
+\end{DoxyReturn}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!set\+Projection@{set\+Projection}}
+\index{set\+Projection@{set\+Projection}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{set\+Projection(float left\+\_\+, float right\+\_\+, float bottom\+\_\+, float top\+\_\+, float near\+Plane\+\_\+, float far\+Plane\+\_\+)}{setProjection(float left_, float right_, float bottom_, float top_, float nearPlane_, float farPlane_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Perspective\+Camera\+Component\+::set\+Projection (
+\begin{DoxyParamCaption}
+\item[{float}]{left\+\_\+, }
+\item[{float}]{right\+\_\+, }
+\item[{float}]{bottom\+\_\+, }
+\item[{float}]{top\+\_\+, }
+\item[{float}]{near\+Plane\+\_\+, }
+\item[{float}]{far\+Plane\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_perspective_camera_component_a6b49a13999f7fb6593ca845c10579795}{}\label{class_perspective_camera_component_a6b49a13999f7fb6593ca845c10579795}
+
+
+Set the coordinate of project plane of at the near plane of camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left\+\_\+,float,the} & left side frustum x coordinate in this camera space \\
+\hline
+{\em right\+\_\+,float,the} & right side frustum x coordinate in this camera space \\
+\hline
+{\em bottom\+\_\+,float,the} & bottom side frustum y coordinate in this camera space \\
+\hline
+{\em top\+\_\+,float,the} & top side frustum y coordinate in this camera space \\
+\hline
+{\em near\+Plane\+\_\+,float,the} & near side frustum z coordinate in this camera space \\
+\hline
+{\em far\+Plane\+\_\+,float,the} & far side frustum z coordinate in this camera space \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Redbook of Open\+GL Bible for detail of definition of Projection Transform 
+\end{DoxySeeAlso}
+\index{Perspective\+Camera\+Component@{Perspective\+Camera\+Component}!set\+Projection@{set\+Projection}}
+\index{set\+Projection@{set\+Projection}!Perspective\+Camera\+Component@{Perspective\+Camera\+Component}}
+\subsubsection[{\texorpdfstring{set\+Projection(float fovy\+\_\+, float aspect\+\_\+, float near\+Plane\+\_\+, float far\+Plane\+\_\+)}{setProjection(float fovy_, float aspect_, float nearPlane_, float farPlane_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Perspective\+Camera\+Component\+::set\+Projection (
+\begin{DoxyParamCaption}
+\item[{float}]{fovy\+\_\+, }
+\item[{float}]{aspect\+\_\+, }
+\item[{float}]{near\+Plane\+\_\+, }
+\item[{float}]{far\+Plane\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_perspective_camera_component_a4a3cc80a282ec870cb1343952b391940}{}\label{class_perspective_camera_component_a4a3cc80a282ec870cb1343952b391940}
+
+
+Set the coordinate of project plane of at the near plane of camera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fovy\+\_\+,float,the} & field of view in y direction of the camera \\
+\hline
+{\em aspect\+\_\+,float,the} & aspect ratio of the camera \\
+\hline
+{\em near\+Plane\+\_\+,float,the} & near side frustum z coordinate in this camera space \\
+\hline
+{\em far\+Plane\+\_\+,float,the} & far side frustum z coordinate in this camera space \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Redbook of Open\+GL Bible for detail of definition of Projection Transform 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Perspective\+Camera\+Component.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Perspective\+Camera\+Component.\+cpp\end{DoxyCompactItemize}

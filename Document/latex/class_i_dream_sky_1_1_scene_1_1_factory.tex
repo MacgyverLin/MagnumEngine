@@ -1,0 +1,84 @@
+\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory}{}\section{I\+Dream\+Sky\+:\+:Scene\+:\+:Factory 類別 參考文件}
+\label{class_i_dream_sky_1_1_scene_1_1_factory}\index{I\+Dream\+Sky\+::\+Scene\+::\+Factory@{I\+Dream\+Sky\+::\+Scene\+::\+Factory}}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+typedef \hyperlink{class_i_dream_sky_1_1_array}{Array}$<$ \hyperlink{class_i_dream_sky_1_1_scene_1_1_i_creator}{I\+Creator} $\ast$ $>$ {\bfseries Scenes}\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_a2c742957ff3d45be8c0b078f76785697}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_a2c742957ff3d45be8c0b078f76785697}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_scene_1_1_i_creator}{I\+Creator} $\ast$ {\bfseries current} ()\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_a77812fc55d43711595afb6b68db377d0}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_a77812fc55d43711595afb6b68db377d0}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_scene_1_1_i_creator}{I\+Creator} $\ast$ {\bfseries next} ()\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_abcc47afe0672ecd28534bf31fecd952f}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_abcc47afe0672ecd28534bf31fecd952f}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_scene}{Scene} $\ast$ {\bfseries scene} ()\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_a0b23fc4dedb4601b89343fdbee838a2b}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_a0b23fc4dedb4601b89343fdbee838a2b}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_scene_1_1_i_creator}{I\+Creator} $\ast$ {\bfseries find} (const char $\ast$name)\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_a4f44fc4cb4e03b930d2b2959cc6bb557}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_a4f44fc4cb4e03b930d2b2959cc6bb557}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_scene_1_1_i_creator}{I\+Creator} $\ast$ {\bfseries replace\+Scene} (const char $\ast$name)\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_ad6e70804ddb877a2f10ddce709cb0eec}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_ad6e70804ddb877a2f10ddce709cb0eec}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_scene_1_1_i_creator}{I\+Creator} $\ast$ {\bfseries push\+Scene} (const char $\ast$name)\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_ae4992212672c1fd147a73db13524f656}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_ae4992212672c1fd147a73db13524f656}
+
+\item 
+\hyperlink{class_i_dream_sky_1_1_scene_1_1_i_creator}{I\+Creator} $\ast$ {\bfseries pop\+Scene} ()\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_aa5182c38bd1659a9b20bd34353e887b4}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_aa5182c38bd1659a9b20bd34353e887b4}
+
+\item 
+void \hyperlink{class_i_dream_sky_1_1_scene_1_1_factory_ac6a15b3af44e3f3bd58a497c5123378d}{process} ()\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_ac6a15b3af44e3f3bd58a497c5123378d}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_ac6a15b3af44e3f3bd58a497c5123378d}
+
+\begin{DoxyCompactList}\small\item\em Update the Services. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_scene_1_1_factory_ae0fa7f6a0b0ec4cb91a0ae4ad3a6beb0}{pause} ()\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_ae0fa7f6a0b0ec4cb91a0ae4ad3a6beb0}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_ae0fa7f6a0b0ec4cb91a0ae4ad3a6beb0}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is pause(e.\+g system bring the app to background, let the service to release resources) \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_scene_1_1_factory_a989d01f9c75f8667a160ca9900820ad9}{resume} ()\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_a989d01f9c75f8667a160ca9900820ad9}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_a989d01f9c75f8667a160ca9900820ad9}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is resume(e.\+g system bring back the app from background, let the service to reload resources) \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_scene_1_1_factory_a9290a74d918072b2756a396ef237ee4a}{terminate} ()\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_a9290a74d918072b2756a396ef237ee4a}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_a9290a74d918072b2756a396ef237ee4a}
+
+\begin{DoxyCompactList}\small\item\em Terminate the Services, called when the app is terminate. \end{DoxyCompactList}\item 
+void \hyperlink{class_i_dream_sky_1_1_scene_1_1_factory_ac5d57a49fc5c883c175e00f35b1517ea}{clear} ()
+\begin{DoxyCompactList}\small\item\em Call when the services needed to be clean up, e.\+g. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_i_dream_sky_1_1_scene_1_1_factory}{Factory} \& {\bfseries instance} ()\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_a683c6a539b74748229ee55d2af8293c5}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_a683c6a539b74748229ee55d2af8293c5}
+
+\end{DoxyCompactItemize}
+\subsection*{公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_array}{Scenes} {\bfseries scenes}\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_a4e7fa39ba81f0940e04090149ffd532b}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_a4e7fa39ba81f0940e04090149ffd532b}
+
+\end{DoxyCompactItemize}
+\subsection*{靜態公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+static bool {\bfseries overlay} = true\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_a5c151f7797a40705861fe621b6715681}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_a5c151f7797a40705861fe621b6715681}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Scene\+::\+Factory@{I\+Dream\+Sky\+::\+Scene\+::\+Factory}!clear@{clear}}
+\index{clear@{clear}!I\+Dream\+Sky\+::\+Scene\+::\+Factory@{I\+Dream\+Sky\+::\+Scene\+::\+Factory}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}void I\+Dream\+Sky\+::\+Scene\+::\+Factory\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_i_dream_sky_1_1_scene_1_1_factory_ac5d57a49fc5c883c175e00f35b1517ea}{}\label{class_i_dream_sky_1_1_scene_1_1_factory_ac5d57a49fc5c883c175e00f35b1517ea}
+
+
+Call when the services needed to be clean up, e.\+g. 
+
+during scene transition. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Scene.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Scene.\+cpp\end{DoxyCompactItemize}

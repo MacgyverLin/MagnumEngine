@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB2.h" />
+    <ClInclude Include="AABB3.h" />
+    <ClInclude Include="Arc2.h" />
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="BezierCurve2.h" />
+    <ClInclude Include="BezierCurve3.h" />
+    <ClInclude Include="BSplineBasis.h" />
+    <ClInclude Include="BSplineCurve2.h" />
+    <ClInclude Include="BSplineCurve3.h" />
+    <ClInclude Include="BVector2.h" />
+    <ClInclude Include="BVector3.h" />
+    <ClInclude Include="BVector4.h" />
+    <ClInclude Include="BVHTriangleMeshShape3.h" />
+    <ClInclude Include="Capsule3.h" />
+    <ClInclude Include="Circle2.h" />
+    <ClInclude Include="Circle3.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="ColorRGB.h" />
+    <ClInclude Include="ColorRGBA.h" />
+    <ClInclude Include="Cone3.h" />
+    <ClInclude Include="Curve2.h" />
+    <ClInclude Include="Curve3.h" />
+    <ClInclude Include="Cylinder3.h" />
+    <ClInclude Include="EMath.h" />
+    <ClInclude Include="EString.h" />
+    <ClInclude Include="ESystem.h" />
+    <ClInclude Include="FileIO.h" />
+    <ClInclude Include="gl2.h" />
+    <ClInclude Include="gl2ext.h" />
+    <ClInclude Include="gl2platform.h" />
+    <ClInclude Include="GXDef.h" />
+    <ClInclude Include="HeightFieldShape3.h" />
+    <ClInclude Include="InputStream.h" />
+    <ClInclude Include="IO.h" />
+    <ClInclude Include="IVector2.h" />
+    <ClInclude Include="IVector3.h" />
+    <ClInclude Include="IVector4.h" />
+    <ClInclude Include="Line2.h" />
+    <ClInclude Include="Line3.h" />
+    <ClInclude Include="Lozenge3.h" />
+    <ClInclude Include="Matrix2.h" />
+    <ClInclude Include="Matrix3.h" />
+    <ClInclude Include="Matrix4.h" />
+    <ClInclude Include="MultipleCurve2.h" />
+    <ClInclude Include="MultipleCurve3.h" />
+    <ClInclude Include="OutputStream.h" />
+    <ClInclude Include="Plane3.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="Polyhedron3.h" />
+    <ClInclude Include="Polynomial1.h" />
+    <ClInclude Include="Quadratic2.h" />
+    <ClInclude Include="Quadratic3.h" />
+    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="Ray2.h" />
+    <ClInclude Include="Ray3.h" />
+    <ClInclude Include="Rectangle3.h" />
+    <ClInclude Include="Segment2.h" />
+    <ClInclude Include="Segment3.h" />
+    <ClInclude Include="SingleCurve2.h" />
+    <ClInclude Include="SingleCurve3.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="TCBSpline2.h" />
+    <ClInclude Include="TCBSpline3.h" />
+    <ClInclude Include="Tetrahedron3.h" />
+    <ClInclude Include="TGAFile.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="Triangle2.h" />
+    <ClInclude Include="Triangle3.h" />
+    <ClInclude Include="Vector10.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="Vector4.h" />
+    <ClInclude Include="VertexDesc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AABB2.inl" />
+    <None Include="AABB3.inl" />
+    <None Include="Arc2.inl" />
+    <None Include="BVector2.inl" />
+    <None Include="BVector3.inl" />
+    <None Include="BVector4.inl" />
+    <None Include="Capsule3.inl" />
+    <None Include="Circle2.inl" />
+    <None Include="Circle3.inl" />
+    <None Include="Cone3.inl" />
+    <None Include="Cylinder3.inl" />
+    <None Include="EMath.inl" />
+    <None Include="IVector2.inl" />
+    <None Include="IVector3.inl" />
+    <None Include="IVector4.inl" />
+    <None Include="Line2.inl" />
+    <None Include="Line3.inl" />
+    <None Include="Lozenge3.inl" />
+    <None Include="Matrix2.inl" />
+    <None Include="Matrix3.inl" />
+    <None Include="Matrix4.inl" />
+    <None Include="Plane3.inl" />
+    <None Include="Polyhedron3.inl" />
+    <None Include="Polynomial1.inl" />
+    <None Include="Quadratic2.inl" />
+    <None Include="Quadratic3.inl" />
+    <None Include="Quaternion.inl" />
+    <None Include="Ray2.inl" />
+    <None Include="Ray3.inl" />
+    <None Include="Rectangle3.inl" />
+    <None Include="Segment2.inl" />
+    <None Include="Segment3.inl" />
+    <None Include="Tetrahedron3.inl" />
+    <None Include="Triangle2.inl" />
+    <None Include="Triangle3.inl" />
+    <None Include="Vector2.inl" />
+    <None Include="Vector3.inl" />
+    <None Include="Vector4.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB2.cpp" />
+    <ClCompile Include="AABB3.cpp" />
+    <ClCompile Include="Arc2.cpp" />
+    <ClCompile Include="Array.cpp" />
+    <ClCompile Include="BezierCurve2.cpp" />
+    <ClCompile Include="BezierCurve3.cpp" />
+    <ClCompile Include="BSplineBasis.cpp" />
+    <ClCompile Include="BSplineCurve2.cpp" />
+    <ClCompile Include="BSplineCurve3.cpp" />
+    <ClCompile Include="BVector2.cpp" />
+    <ClCompile Include="BVector3.cpp" />
+    <ClCompile Include="BVector4.cpp" />
+    <ClCompile Include="BVHTriangleMeshShape3.cpp" />
+    <ClCompile Include="Capsule3.cpp" />
+    <ClCompile Include="Circle2.cpp" />
+    <ClCompile Include="Circle3.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="ColorRGB.cpp" />
+    <ClCompile Include="ColorRGBA.cpp" />
+    <ClCompile Include="Cone3.cpp" />
+    <ClCompile Include="Curve2.cpp" />
+    <ClCompile Include="Curve3.cpp" />
+    <ClCompile Include="Cylinder3.cpp" />
+    <ClCompile Include="EMath.cpp" />
+    <ClCompile Include="EString.cpp" />
+    <ClCompile Include="ESystem.cpp" />
+    <ClCompile Include="FileIO.cpp" />
+    <ClCompile Include="GXDef.cpp" />
+    <ClCompile Include="HeightFieldShape3.cpp" />
+    <ClCompile Include="InputStream.cpp" />
+    <ClCompile Include="IO.cpp" />
+    <ClCompile Include="IVector2.cpp" />
+    <ClCompile Include="IVector3.cpp" />
+    <ClCompile Include="IVector4.cpp" />
+    <ClCompile Include="Line2.cpp" />
+    <ClCompile Include="Line3.cpp" />
+    <ClCompile Include="Lozenge3.cpp" />
+    <ClCompile Include="Matrix2.cpp" />
+    <ClCompile Include="Matrix3.cpp" />
+    <ClCompile Include="Matrix4.cpp" />
+    <ClCompile Include="MultipleCurve2.cpp" />
+    <ClCompile Include="MultipleCurve3.cpp" />
+    <ClCompile Include="OutputStream.cpp" />
+    <ClCompile Include="Plane3.cpp" />
+    <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="Polyhedron3.cpp" />
+    <ClCompile Include="Polynomial1.cpp" />
+    <ClCompile Include="Quadratic2.cpp" />
+    <ClCompile Include="Quadratic3.cpp" />
+    <ClCompile Include="Quaternion.cpp" />
+    <ClCompile Include="Ray2.cpp" />
+    <ClCompile Include="Ray3.cpp" />
+    <ClCompile Include="Rectangle3.cpp" />
+    <ClCompile Include="Segment2.cpp" />
+    <ClCompile Include="Segment3.cpp" />
+    <ClCompile Include="SingleCurve2.cpp" />
+    <ClCompile Include="SingleCurve3.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="TCBSpline2.cpp" />
+    <ClCompile Include="TCBSpline3.cpp" />
+    <ClCompile Include="Tetrahedron3.cpp" />
+    <ClCompile Include="TGAFile.cpp" />
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+    <ClCompile Include="Triangle2.cpp" />
+    <ClCompile Include="Triangle3.cpp" />
+    <ClCompile Include="Vector10.cpp" />
+    <ClCompile Include="Vector2.cpp" />
+    <ClCompile Include="Vector3.cpp" />
+    <ClCompile Include="Vector4.cpp" />
+    <ClCompile Include="VertexDesc.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7B4E8B37-BB16-432A-A834-2CA9F279764D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>commonlib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>EXPORTER; WIN32;_DEBUG;_LIB;WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

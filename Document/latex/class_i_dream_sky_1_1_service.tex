@@ -1,0 +1,72 @@
+\hypertarget{class_i_dream_sky_1_1_service}{}\section{I\+Dream\+Sky\+:\+:Service$<$ T $>$ 類別 樣版 參考文件}
+\label{class_i_dream_sky_1_1_service}\index{I\+Dream\+Sky\+::\+Service$<$ T $>$@{I\+Dream\+Sky\+::\+Service$<$ T $>$}}
+類別\+I\+Dream\+Sky\+:\+:Service$<$ T $>$的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_i_dream_sky_1_1_service}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Service} (const char $\ast$name)\hypertarget{class_i_dream_sky_1_1_service_a6049dd07923748f6e5510a56f8714670}{}\label{class_i_dream_sky_1_1_service_a6049dd07923748f6e5510a56f8714670}
+
+\item 
+virtual bool \hyperlink{class_i_dream_sky_1_1_service_a3ffe9e01d8c44005d883869ad50d2074}{initiate} ()
+\begin{DoxyCompactList}\small\item\em Initiate the Services. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_service_a89e3abc57a8623f517556d8282baa5ed}{process} ()\hypertarget{class_i_dream_sky_1_1_service_a89e3abc57a8623f517556d8282baa5ed}{}\label{class_i_dream_sky_1_1_service_a89e3abc57a8623f517556d8282baa5ed}
+
+\begin{DoxyCompactList}\small\item\em Update the Services. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_service_ae51b6bd7643c67d3038313b2ef9358ab}{pause} ()\hypertarget{class_i_dream_sky_1_1_service_ae51b6bd7643c67d3038313b2ef9358ab}{}\label{class_i_dream_sky_1_1_service_ae51b6bd7643c67d3038313b2ef9358ab}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is pause(e.\+g system bring the app to background, let the service to release resources) \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_service_a5b113f4ca289ec9add2d8c4497afe391}{resume} ()\hypertarget{class_i_dream_sky_1_1_service_a5b113f4ca289ec9add2d8c4497afe391}{}\label{class_i_dream_sky_1_1_service_a5b113f4ca289ec9add2d8c4497afe391}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is resume(e.\+g system bring back the app from background, let the service to reload resources) \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_service_af5ed9802f1590460aa4e4083b3fa89d0}{terminate} ()\hypertarget{class_i_dream_sky_1_1_service_af5ed9802f1590460aa4e4083b3fa89d0}{}\label{class_i_dream_sky_1_1_service_af5ed9802f1590460aa4e4083b3fa89d0}
+
+\begin{DoxyCompactList}\small\item\em Terminate the Services, called when the app is terminate. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_service_a1b3cbd94217136d847523347e7c65d63}{clear} ()
+\begin{DoxyCompactList}\small\item\em Call when the services needed to be clean up, e.\+g. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Service@{I\+Dream\+Sky\+::\+Service}!clear@{clear}}
+\index{clear@{clear}!I\+Dream\+Sky\+::\+Service@{I\+Dream\+Sky\+::\+Service}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ virtual void {\bf I\+Dream\+Sky\+::\+Service}$<$ T $>$\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_service_a1b3cbd94217136d847523347e7c65d63}{}\label{class_i_dream_sky_1_1_service_a1b3cbd94217136d847523347e7c65d63}
+
+
+Call when the services needed to be clean up, e.\+g. 
+
+during scene transition. 
+
+實作 \hyperlink{class_i_dream_sky_1_1_i_service_a7fff17de63ba695cdfaf2e942f85dd51}{I\+Dream\+Sky\+::\+I\+Service}.
+
+\index{I\+Dream\+Sky\+::\+Service@{I\+Dream\+Sky\+::\+Service}!initiate@{initiate}}
+\index{initiate@{initiate}!I\+Dream\+Sky\+::\+Service@{I\+Dream\+Sky\+::\+Service}}
+\subsubsection[{\texorpdfstring{initiate()}{initiate()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ virtual bool {\bf I\+Dream\+Sky\+::\+Service}$<$ T $>$\+::initiate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_service_a3ffe9e01d8c44005d883869ad50d2074}{}\label{class_i_dream_sky_1_1_service_a3ffe9e01d8c44005d883869ad50d2074}
+
+
+Initiate the Services. 
+
+\begin{DoxyReturn}{傳回值}
+true if success, false if failed 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_i_dream_sky_1_1_i_service_ac409218db5b5c15a585dbff362cfe628}{I\+Dream\+Sky\+::\+I\+Service}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Service.\+h\end{DoxyCompactItemize}

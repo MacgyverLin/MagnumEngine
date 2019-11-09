@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CustomWidgetTest">
+      <UniqueIdentifier>{77c5076a-ea2f-4a24-a330-e9e51d327cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CustomWidgetTest\NewFilter1">
+      <UniqueIdentifier>{7cf25ab1-04e1-41ac-bff8-f6bc882785c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Absolute.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Align.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapButton.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Border.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxSizer.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Burning.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBox.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomDialog.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="DragNDrop.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDialog.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="FlexGridSizer.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="FontDialog.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="GotoClass.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Gradient.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="GridSizer.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageDialog.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Pen.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Points.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Regions.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMenu.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticLine.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticText.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="SubMenu.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleButton.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBar.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBars.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Communicate.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Panels.cpp">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPickerDialog.cpp">
+      <Filter>Source Files\CustomWidgetTest\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorSelector2DWnd.cpp">
+      <Filter>Source Files\CustomWidgetTest\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorSelector2DWndFiller.cpp">
+      <Filter>Source Files\CustomWidgetTest\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorSelector1DWndFiller.cpp">
+      <Filter>Source Files\CustomWidgetTest\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorSelector1DWnd.cpp">
+      <Filter>Source Files\CustomWidgetTest\NewFilter1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Absolute.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Align.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapButton.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Border.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxSizer.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Burning.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomDialog.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="downarrow_png.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="DragNDrop.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDialog.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="FlexGridSizer.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="FontDialog.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="GotoClass.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Gradient.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="GridSizer.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="leftarrow_png.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDialog.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Pen.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Points.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Regions.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="rightarrow_png.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Simple.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMenu.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticLine.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticText.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMenu.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleButton.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBar.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBars.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="uparrow_png.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="wxdef.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Communicate.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Panels.h">
+      <Filter>Source Files\CustomWidgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorPickerDialog.h">
+      <Filter>Source Files\CustomWidgetTest\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSelector2DWnd.h">
+      <Filter>Source Files\CustomWidgetTest\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSelector2DWndFiller.h">
+      <Filter>Source Files\CustomWidgetTest\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSelector1DWndFiller.h">
+      <Filter>Source Files\CustomWidgetTest\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>Source Files\CustomWidgetTest\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSelector1DWnd.h">
+      <Filter>Source Files\CustomWidgetTest\NewFilter1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

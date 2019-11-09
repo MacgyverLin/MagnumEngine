@@ -1,0 +1,7 @@
+<map id="IDreamSky::CameraComponent::getProjectionPlanes" name="IDreamSky::CameraComponent::getProjectionPlanes">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_orthographic_camera_component.html#a0b65352cd50f14c0b801bb5ac427c1fd" title="Get the coordinate of project plane of at the near plane of camera. " alt="" coords="259,5,472,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_orthographic_camera_component.html#a09cb1a792cd8e06b3ace4c99f0e89882" title="Handle Debuger Rendering Event of the Component. " alt="" coords="259,71,472,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_perspective_camera_component.html#ae3ce00b7bbf1c9e9e073f28793dd1645" title="Get the coordinate of project plane of at the near plane of camera. " alt="" coords="262,136,469,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_perspective_camera_component.html#a83b864b187b8b5244eb9d23eeef02b5c" title="Handle Debuger Rendering Event of the Component. " alt="" coords="262,201,469,243"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_sky_sphere_renderer.html#a2b7bd339a31bebd9c1770d591ad5f28f" title="remove SkySphere from the Renderer. " alt="" coords="260,267,471,308"/>
+</map>

@@ -1,0 +1,836 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: IDreamSky::InputStream  類別 參考文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li class="current"><a href="annotated.html"><span>類別</span></a></li>
+      <li><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>複合列表</span></a></li>
+      <li><a href="classes.html"><span>複合索引</span></a></li>
+      <li><a href="hierarchy.html"><span>類別階層</span></a></li>
+      <li><a href="functions.html"><span>複合成員</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>IDreamSky</b></li><li class="navelem"><a class="el" href="class_i_dream_sky_1_1_input_stream.html">InputStream</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開方法(Public Methods)</a> &#124;
+<a href="#pub-static-attribs">靜態公開屬性</a> &#124;
+<a href="class_i_dream_sky_1_1_input_stream-members.html">全部成員列表</a>  </div>
+  <div class="headertitle">
+<div class="title">IDreamSky::InputStream 類別 參考文件<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><a class="el" href="class_i_dream_sky_1_1_input_stream.html" title="InputStream. ">InputStream</a>.  
+ <a href="class_i_dream_sky_1_1_input_stream.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_input_stream_8h_source.html">InputStream.h</a>&gt;</code></p>
+<div class="dynheader">
+類別IDreamSky::InputStream的繼承圖:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_i_dream_sky_1_1_input_stream.png" usemap="#IDreamSky::InputStream_map" alt=""/>
+  <map id="IDreamSky::InputStream_map" name="IDreamSky::InputStream_map">
+<area href="class_i_dream_sky_1_1_file_input_stream.html" title="FileInputStream. " alt="IDreamSky::FileInputStream" shape="rect" coords="0,56,172,80"/>
+<area href="class_i_dream_sky_1_1_mem_input_stream.html" title="InputStream. " alt="IDreamSky::MemInputStream" shape="rect" coords="182,56,354,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開方法(Public Methods)</h2></td></tr>
+<tr class="memitem:ae3e586d2e72f53b3f7cc1b84001b3631"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#ae3e586d2e72f53b3f7cc1b84001b3631">InputStream</a> ()</td></tr>
+<tr class="memdesc:ae3e586d2e72f53b3f7cc1b84001b3631"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_i_dream_sky_1_1_input_stream.html" title="InputStream. ">InputStream</a> Constructor.  <a href="#ae3e586d2e72f53b3f7cc1b84001b3631">更多...</a><br /></td></tr>
+<tr class="separator:ae3e586d2e72f53b3f7cc1b84001b3631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae71831adce618d60783c287a2ac7075a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#ae71831adce618d60783c287a2ac7075a">~InputStream</a> ()</td></tr>
+<tr class="memdesc:ae71831adce618d60783c287a2ac7075a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_i_dream_sky_1_1_input_stream.html" title="InputStream. ">InputStream</a> Destructor.  <a href="#ae71831adce618d60783c287a2ac7075a">更多...</a><br /></td></tr>
+<tr class="separator:ae71831adce618d60783c287a2ac7075a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf81563a45454f198366e06a8cf4b27b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#abf81563a45454f198366e06a8cf4b27b">read</a> (bool &amp;data)</td></tr>
+<tr class="memdesc:abf81563a45454f198366e06a8cf4b27b"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for bool data  <a href="#abf81563a45454f198366e06a8cf4b27b">更多...</a><br /></td></tr>
+<tr class="separator:abf81563a45454f198366e06a8cf4b27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a174a51441a2630a8afeb08fac726f3ab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a174a51441a2630a8afeb08fac726f3ab">read</a> (char &amp;data)</td></tr>
+<tr class="memdesc:a174a51441a2630a8afeb08fac726f3ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for char data  <a href="#a174a51441a2630a8afeb08fac726f3ab">更多...</a><br /></td></tr>
+<tr class="separator:a174a51441a2630a8afeb08fac726f3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ff54d938219e4588ba5a7e4c1238de1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a1ff54d938219e4588ba5a7e4c1238de1">read</a> (unsigned char &amp;data)</td></tr>
+<tr class="memdesc:a1ff54d938219e4588ba5a7e4c1238de1"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for unsigned char data  <a href="#a1ff54d938219e4588ba5a7e4c1238de1">更多...</a><br /></td></tr>
+<tr class="separator:a1ff54d938219e4588ba5a7e4c1238de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2b967dc82ccc626db741ae16974e615"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#ac2b967dc82ccc626db741ae16974e615">read</a> (short &amp;data)</td></tr>
+<tr class="memdesc:ac2b967dc82ccc626db741ae16974e615"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for short char data  <a href="#ac2b967dc82ccc626db741ae16974e615">更多...</a><br /></td></tr>
+<tr class="separator:ac2b967dc82ccc626db741ae16974e615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52b36dfa371d294d3909e6e95f0f5f2e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a52b36dfa371d294d3909e6e95f0f5f2e">read</a> (unsigned short &amp;data)</td></tr>
+<tr class="memdesc:a52b36dfa371d294d3909e6e95f0f5f2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for unsigned short char data  <a href="#a52b36dfa371d294d3909e6e95f0f5f2e">更多...</a><br /></td></tr>
+<tr class="separator:a52b36dfa371d294d3909e6e95f0f5f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16a7d16c2f51b3faf13f86f32cd3e270"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a16a7d16c2f51b3faf13f86f32cd3e270">read</a> (int &amp;data)</td></tr>
+<tr class="memdesc:a16a7d16c2f51b3faf13f86f32cd3e270"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for int char data  <a href="#a16a7d16c2f51b3faf13f86f32cd3e270">更多...</a><br /></td></tr>
+<tr class="separator:a16a7d16c2f51b3faf13f86f32cd3e270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a152c62d9b82bcf884890cca238abadbb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a152c62d9b82bcf884890cca238abadbb">read</a> (unsigned int &amp;data)</td></tr>
+<tr class="memdesc:a152c62d9b82bcf884890cca238abadbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for unsigned int char data  <a href="#a152c62d9b82bcf884890cca238abadbb">更多...</a><br /></td></tr>
+<tr class="separator:a152c62d9b82bcf884890cca238abadbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84479e2001dff1fc51995160016e8be3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a84479e2001dff1fc51995160016e8be3">read</a> (long &amp;data)</td></tr>
+<tr class="memdesc:a84479e2001dff1fc51995160016e8be3"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for long char data  <a href="#a84479e2001dff1fc51995160016e8be3">更多...</a><br /></td></tr>
+<tr class="separator:a84479e2001dff1fc51995160016e8be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b1584f2a210b0840438261b0bd3d62c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a6b1584f2a210b0840438261b0bd3d62c">read</a> (unsigned long &amp;data)</td></tr>
+<tr class="memdesc:a6b1584f2a210b0840438261b0bd3d62c"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for unsigned long char data  <a href="#a6b1584f2a210b0840438261b0bd3d62c">更多...</a><br /></td></tr>
+<tr class="separator:a6b1584f2a210b0840438261b0bd3d62c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38fbf71a866a48705f5eaa189307c5d3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a38fbf71a866a48705f5eaa189307c5d3">read</a> (float &amp;data)</td></tr>
+<tr class="memdesc:a38fbf71a866a48705f5eaa189307c5d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for float char data  <a href="#a38fbf71a866a48705f5eaa189307c5d3">更多...</a><br /></td></tr>
+<tr class="separator:a38fbf71a866a48705f5eaa189307c5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa040912555e5c5216569a5bbe95523f1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#aa040912555e5c5216569a5bbe95523f1">read</a> (double &amp;data)</td></tr>
+<tr class="memdesc:aa040912555e5c5216569a5bbe95523f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for double char data  <a href="#aa040912555e5c5216569a5bbe95523f1">更多...</a><br /></td></tr>
+<tr class="separator:aa040912555e5c5216569a5bbe95523f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a953c23b6d7d9731d23c4bcdcccb2061b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a953c23b6d7d9731d23c4bcdcccb2061b">read</a> (<a class="el" href="class_i_dream_sky_1_1_string.html">String</a> &amp;str)</td></tr>
+<tr class="memdesc:a953c23b6d7d9731d23c4bcdcccb2061b"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function for <a class="el" href="class_i_dream_sky_1_1_string.html">String</a> char data  <a href="#a953c23b6d7d9731d23c4bcdcccb2061b">更多...</a><br /></td></tr>
+<tr class="separator:a953c23b6d7d9731d23c4bcdcccb2061b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf84dc5067f961cbeb37b161c3a893b2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#abf84dc5067f961cbeb37b161c3a893b2">readX</a> (void *buffer, int size, bool reverseOrder=false)=0</td></tr>
+<tr class="memdesc:abf84dc5067f961cbeb37b161c3a893b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">read function buffer data  <a href="#abf84dc5067f961cbeb37b161c3a893b2">更多...</a><br /></td></tr>
+<tr class="separator:abf84dc5067f961cbeb37b161c3a893b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fcef9f3c1151ade30c65176ce63aa67"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a6fcef9f3c1151ade30c65176ce63aa67">skip</a> (int size)=0</td></tr>
+<tr class="memdesc:a6fcef9f3c1151ade30c65176ce63aa67"><td class="mdescLeft">&#160;</td><td class="mdescRight">skip data from buffer  <a href="#a6fcef9f3c1151ade30c65176ce63aa67">更多...</a><br /></td></tr>
+<tr class="separator:a6fcef9f3c1151ade30c65176ce63aa67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d91c05358c6bba4df7e5e8f4743527b"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a1d91c05358c6bba4df7e5e8f4743527b">length</a> ()=0</td></tr>
+<tr class="memdesc:a1d91c05358c6bba4df7e5e8f4743527b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the length of buffer data.  <a href="#a1d91c05358c6bba4df7e5e8f4743527b">更多...</a><br /></td></tr>
+<tr class="separator:a1d91c05358c6bba4df7e5e8f4743527b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74fc176bbbae124cc2a0a60c40d7efc1"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a74fc176bbbae124cc2a0a60c40d7efc1">tell</a> ()=0</td></tr>
+<tr class="memdesc:a74fc176bbbae124cc2a0a60c40d7efc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell the current read position.  <a href="#a74fc176bbbae124cc2a0a60c40d7efc1">更多...</a><br /></td></tr>
+<tr class="separator:a74fc176bbbae124cc2a0a60c40d7efc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80c55fc4a4470e0cead401c362c4edf"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#aa80c55fc4a4470e0cead401c362c4edf">opened</a> ()=0</td></tr>
+<tr class="memdesc:aa80c55fc4a4470e0cead401c362c4edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the stream is opened.  <a href="#aa80c55fc4a4470e0cead401c362c4edf">更多...</a><br /></td></tr>
+<tr class="separator:aa80c55fc4a4470e0cead401c362c4edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74956c76a2534d26dfd9c115d3910b77"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_dream_sky_1_1_input_stream.html#a74956c76a2534d26dfd9c115d3910b77">rewind</a> ()=0</td></tr>
+<tr class="memdesc:a74956c76a2534d26dfd9c115d3910b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewind the stream, the stream current read position will be reset to 0 by this function.  <a href="#a74956c76a2534d26dfd9c115d3910b77">更多...</a><br /></td></tr>
+<tr class="separator:a74956c76a2534d26dfd9c115d3910b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+靜態公開屬性</h2></td></tr>
+<tr class="memitem:a20a663b7d0521263583ceace853ddd60"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20a663b7d0521263583ceace853ddd60"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>reverseOrder</b> = false</td></tr>
+<tr class="separator:a20a663b7d0521263583ceace853ddd60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳細描述</h2>
+<div class="textblock"><p><a class="el" href="class_i_dream_sky_1_1_input_stream.html" title="InputStream. ">InputStream</a>. </p>
+<p>The base class of All <a class="el" href="class_i_dream_sky_1_1_input_stream.html" title="InputStream. ">InputStream</a>. </p>
+</div><h2 class="groupheader">建構子與解構子說明文件</h2>
+<a class="anchor" id="ae3e586d2e72f53b3f7cc1b84001b3631"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IDreamSky::InputStream::InputStream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_i_dream_sky_1_1_input_stream.html" title="InputStream. ">InputStream</a> Constructor. </p>
+<p>To Construct the <a class="el" href="class_i_dream_sky_1_1_input_stream.html" title="InputStream. ">InputStream</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae71831adce618d60783c287a2ac7075a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputStream::~InputStream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_i_dream_sky_1_1_input_stream.html" title="InputStream. ">InputStream</a> Destructor. </p>
+<p>To Destruct the <a class="el" href="class_i_dream_sky_1_1_input_stream.html" title="InputStream. ">InputStream</a>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">函式成員說明文件</h2>
+<a class="anchor" id="a1d91c05358c6bba4df7e5e8f4743527b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual unsigned int IDreamSky::InputStream::length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the length of buffer data. </p>
+<dl class="section return"><dt>傳回值</dt><dd>unsigned int, the length of <a class="el" href="class_i_dream_sky_1_1_input_stream.html" title="InputStream. ">InputStream</a> </dd></dl>
+
+<p>實作於 <a class="el" href="class_i_dream_sky_1_1_file_input_stream.html#ae99ba0a3810c71ff84a16db9c73dd3ec">IDreamSky::FileInputStream</a>, 及 <a class="el" href="class_i_dream_sky_1_1_mem_input_stream.html#afe3986e5078df73b8ad7fd058964fa0c">IDreamSky::MemInputStream</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa80c55fc4a4470e0cead401c362c4edf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool IDreamSky::InputStream::opened </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the stream is opened. </p>
+<dl class="section return"><dt>傳回值</dt><dd>true, stream is opened, else stream is closed </dd></dl>
+
+<p>實作於 <a class="el" href="class_i_dream_sky_1_1_file_input_stream.html#aea79616a783d74553e6adb2a524f1a3f">IDreamSky::FileInputStream</a>, 及 <a class="el" href="class_i_dream_sky_1_1_mem_input_stream.html#ae36f0e641a3c194ddc47538e8767dd4b">IDreamSky::MemInputStream</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abf81563a45454f198366e06a8cf4b27b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for bool data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,bool,the</td><td>data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a174a51441a2630a8afeb08fac726f3ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype">char &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for char data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,char,the</td><td>data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1ff54d938219e4588ba5a7e4c1238de1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for unsigned char data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,unsigned</td><td>char, the data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac2b967dc82ccc626db741ae16974e615"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype">short &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for short char data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,short,the</td><td>data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a52b36dfa371d294d3909e6e95f0f5f2e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype">unsigned short &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for unsigned short char data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,unsigned</td><td>short, the data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a16a7d16c2f51b3faf13f86f32cd3e270"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for int char data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,int,the</td><td>data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a152c62d9b82bcf884890cca238abadbb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for unsigned int char data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,unsigned</td><td>int, the data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a84479e2001dff1fc51995160016e8be3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype">long &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for long char data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,long,the</td><td>data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6b1584f2a210b0840438261b0bd3d62c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for unsigned long char data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,unsigned</td><td>long, the data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a38fbf71a866a48705f5eaa189307c5d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for float char data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,float,the</td><td>data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa040912555e5c5216569a5bbe95523f1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for double char data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,double,the</td><td>data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a953c23b6d7d9731d23c4bcdcccb2061b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputStream::read </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_i_dream_sky_1_1_string.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function for <a class="el" href="class_i_dream_sky_1_1_string.html">String</a> char data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data,<a class="el" href="class_i_dream_sky_1_1_string.html">String</a>,the</td><td>data is read from the inputstream and return in this data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="abf84dc5067f961cbeb37b161c3a893b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void IDreamSky::InputStream::readX </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reverseOrder</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>read function buffer data </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer,void</td><td>*, the data is read from the inputstream and fill in this buffer </td></tr>
+    <tr><td class="paramname">size,int,the</td><td>number of byte to be read from the input steam </td></tr>
+    <tr><td class="paramname">reverseOrder,true,for</td><td>big endian system false, for little endian system </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>實作於 <a class="el" href="class_i_dream_sky_1_1_file_input_stream.html#a5ca686c3e5ec27ce9c5cec39bae10cdb">IDreamSky::FileInputStream</a>, 及 <a class="el" href="class_i_dream_sky_1_1_mem_input_stream.html#a46a5d350cad7a038b4e12d5698b5a4ba">IDreamSky::MemInputStream</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a74956c76a2534d26dfd9c115d3910b77"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void IDreamSky::InputStream::rewind </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rewind the stream, the stream current read position will be reset to 0 by this function. </p>
+<dl class="section return"><dt>傳回值</dt><dd>true, stream is opened, else stream is closed </dd></dl>
+
+<p>實作於 <a class="el" href="class_i_dream_sky_1_1_file_input_stream.html#aa8d8f4bf455dad57929c0ea00a7ae11a">IDreamSky::FileInputStream</a>, 及 <a class="el" href="class_i_dream_sky_1_1_mem_input_stream.html#a55b22a672f3f86795bff96cb9d6dc2f5">IDreamSky::MemInputStream</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6fcef9f3c1151ade30c65176ce63aa67"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void IDreamSky::InputStream::skip </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>skip data from buffer </p>
+<dl class="params"><dt>參數</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size,int,the</td><td>number of byte to be skipped </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>實作於 <a class="el" href="class_i_dream_sky_1_1_file_input_stream.html#a20d195e941f8dd8d65d7cb3e49828dae">IDreamSky::FileInputStream</a>, 及 <a class="el" href="class_i_dream_sky_1_1_mem_input_stream.html#a9333680c5aa2ec6bcabfd15220c82e58">IDreamSky::MemInputStream</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a74fc176bbbae124cc2a0a60c40d7efc1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual unsigned int IDreamSky::InputStream::tell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tell the current read position. </p>
+<dl class="section return"><dt>傳回值</dt><dd>unsigned int, the current read position </dd></dl>
+
+<p>實作於 <a class="el" href="class_i_dream_sky_1_1_file_input_stream.html#a0d2d5c30a1bbaa3a9f4209fae1c953d8">IDreamSky::FileInputStream</a>, 及 <a class="el" href="class_i_dream_sky_1_1_mem_input_stream.html#a533bcf2b8e5b63c080656824fae97aa9">IDreamSky::MemInputStream</a>.</p>
+
+</div>
+</div>
+<hr/>此類別(class) 文件是由下列檔案中產生:<ul>
+<li>C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/<a class="el" href="_input_stream_8h_source.html">InputStream.h</a></li>
+<li>C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/InputStream.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

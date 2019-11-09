@@ -1,0 +1,4 @@
+<map id="IDreamSky::SkeletalAnimBlender::getLoopBehavior" name="IDreamSky::SkeletalAnimBlender::getLoopBehavior">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_skeletal_anim_weights.html#a0205e45e096f3adef5d921e94fff88b0" title="Get the Animation to blend. " alt="" coords="268,5,487,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_skeletal_anim_base.html#a035006f39ebbfd043fdaf281a8353d93" title="This function get the loop behaviour of animation. " alt="" coords="277,71,478,112"/>
+</map>

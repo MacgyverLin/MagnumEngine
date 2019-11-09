@@ -1,0 +1,1200 @@
+\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body}{}\section{Magnum\+:\+:Physics3\+:\+:Rigid\+Body 類別 參考文件}
+\label{class_magnum_1_1_physics3_1_1_rigid_body}\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+
+
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} \hyperlink{class_magnum_1_1_component}{Component}.  
+
+
+
+
+{\ttfamily \#include $<$Physics3.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Physics3\+:\+:Rigid\+Body的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_physics3_1_1_rigid_body__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Physics3\+:\+:Rigid\+Body的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_magnum_1_1_physics3_1_1_rigid_body__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31}{Type} \{ \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31a8b0d2ff0ab0094fd4cc8b4e899e8cc07}{S\+T\+A\+T\+IC} = 0, 
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31ab0f62334d5430331ae231a2d4e753666}{K\+I\+N\+E\+M\+A\+T\+IC}, 
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31a7abb28dc1c796dbdb1db778f9b097183}{D\+Y\+N\+A\+M\+IC}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a2327744d90c049296ea0d63b3e64d335}{Rigid\+Body} (\hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} \&owner\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_ac335c0a007b0afc2a2d346330906fe20}{$\sim$\+Rigid\+Body} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Destructor. \end{DoxyCompactList}\item 
+D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT(\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}, \hyperlink{class_magnum_1_1_component}{Component}, false) public void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_af2e7f7ab84a226d14baa80afe0b7bec2}{get\+Transform} (\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&transform\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_transform}{Transform} of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_af66b61c406dbf2a42d8481806bed5e9c}{set\+Position} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&position\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Position of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} \& \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a39de26b1ca7c1666c0b8070708d16a50}{get\+Position} () const 
+\begin{DoxyCompactList}\small\item\em Get the Position of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_aa35681c3537cd02e1145f51bff78319c}{set\+Angular\+Position} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&axis\+\_\+, float angle\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Angular Position of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_ada6e1badf71059ca01b1c20f6a679e5d}{set\+Angular\+Position} (const \hyperlink{class_magnum_1_1_quaternion}{Quaternion} \&angular\+Position\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Angular Position of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_quaternion}{Quaternion} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_ae246ed60a6f5118f8f1fbe791a419a11}{get\+Angular\+Position} () const 
+\begin{DoxyCompactList}\small\item\em Get the Angular Position of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a2bdd8f784c9c3b65213478e58f7248e1}{set\+Linear\+Velocity} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&velocity\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Velocity of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} \& \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a24324dba4ea0c6b8c5fc82a1383db1fb}{get\+Linear\+Velocity} () const 
+\begin{DoxyCompactList}\small\item\em Get the Velocity of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a1dd87fc98e3abb8f0f51a459b47e32e8}{set\+Angular\+Velocity} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&angular\+Vel\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Angular Velocity of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} \& \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a18fb8fe77d47702ba76e3bc53d886ab9}{get\+Angular\+Velocity} () const 
+\begin{DoxyCompactList}\small\item\em Get the Angular Velocity of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_ab10f62f9a8043afbc52eb3250b8a9ea9}{set\+Linear\+Factor} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&factor\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Linear Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} \& \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a6bbf3d47156ec0e4891ed66df91b78c5}{get\+Linear\+Factor} () const 
+\begin{DoxyCompactList}\small\item\em Get the Linear Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a1a46b0f42049edca3a2b1ac4ba31e89b}{set\+Angular\+Factor} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&factor\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Angular Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_vector3}{Vector3} \& \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a0d4484ceee782e1d56a2b9f6c96ff6d8}{get\+Angular\+Factor} () const 
+\begin{DoxyCompactList}\small\item\em Get the Angular Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a4044caf96a955b23e29e7c33cd6e837c}{apply\+Force} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&force\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&point\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Force of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at specific point around its center of mass. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a1cf514dc13d4a90274716905e82af84d}{apply\+Force\+To\+Center} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&force\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Force of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at center of its center of mass. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_aab9670ad031cfcda566a63403a684ec3}{apply\+Torque} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&torque\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Torque(\+Rotational Force) of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at center of mass. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a116b77a6eac5b19e76fb48601166c5a3}{apply\+Linear\+Impulse} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&impulse\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&point\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Linear\+Impulse (Delta Velocity) of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at specific point around its center of mass. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_afe20000f997c567883501683fd52e3d2}{apply\+Linear\+Impulse\+To\+Center} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&impulse\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Linear\+Impulse (Delta Velocity) of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at its center of mass. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_ad85c102de6c0fb6bd409ad6ac936d036}{apply\+Angular\+Impulse} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&angular\+Impulse\+\_\+)
+\begin{DoxyCompactList}\small\item\em Apply a Angular\+Impulse (Delta Angular Velocity) of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at its center of mass. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_ae0852121bbefb153c39da26de02fbef9}{get\+Mass} () const 
+\begin{DoxyCompactList}\small\item\em Get the Mass of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a842e3172bdbbea66d79b756d7b46192c}{get\+Inertia} () const 
+\begin{DoxyCompactList}\small\item\em Get the Moment of Inertia of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a30b1d075890c5178d8a9a7c7e44ab030}{get\+World\+Point} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&local\+Point\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Convert a Position in Local Space of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Position in the \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a2f3c4dbc90b8f3b52644953c73f16360}{get\+World\+Vector} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&local\+Vector\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Convert a Directional \hyperlink{class_magnum_1_1_vector}{Vector} in Local Space of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Direction in the \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a5a73730a7f49b264b80b46e53f235fd3}{get\+Local\+Point} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&world\+Point\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Convert a Position in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Position in the Local Space. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a3ade32d6c6b96e3353fcb445edec5993}{get\+Local\+Vector} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&world\+Vector\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Convert a Directional \hyperlink{class_magnum_1_1_vector}{Vector} in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Direction in the Local Space. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a419aac849d6f92c6d92c2f0c3ffd6723}{get\+Linear\+Velocity\+From\+World\+Point} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&world\+Point\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the Linear Velocity of specific point in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space on the Rigidbody. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a7a4dbcf05af73238c38fc7af5d0c770d}{get\+Linear\+Velocity\+From\+Local\+Point} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&local\+Point\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get the Linear Velocity of specific point in Local Space on the Rigidbody. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a18b11ba71a9fe6f3c7dd373236b8ac0a}{set\+Linear\+Damping} (float linear\+Damping\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Linear Damping Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a3225fd99befcded45b3e7fe076ecdea0}{get\+Linear\+Damping} () const 
+\begin{DoxyCompactList}\small\item\em Get the Linear Damping Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a9229ab433d81d4b46aeaa237aac185c2}{set\+Angular\+Damping} (float angular\+Damping\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Angular Damping Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a5cae6065069c5a69990dfb0684bd8220}{get\+Angular\+Damping} () const 
+\begin{DoxyCompactList}\small\item\em Get the Angular Damping Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a0eb0367c94b2157e9b0dad40e9d58f1e}{set\+Type} (\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31}{Physics3\+::\+Rigid\+Body\+::\+Type} type\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Type. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31}{Physics3\+::\+Rigid\+Body\+::\+Type} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_afe815b07c2008f7a00931292de4f70d7}{get\+Type} () const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Type. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_af0647dd8feed5299adb2b478e60981b8}{set\+Material} (const \hyperlink{class_magnum_1_1_physics3_1_1_material}{Physics3\+::\+Material} \&material\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_physics3_1_1_material}{Material} of \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_physics3_1_1_material}{Physics3\+::\+Material} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a4d8892f1482f7443b6a0bf3cd2312e29}{get\+Material} () const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_physics3_1_1_material}{Material} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_ac66ee7cb2b361a7100add5b262b1faa2}{set\+Collision\+Filter} (const \hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \&collision\+Filter\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Collision\+Filter} of \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a4432f9fb63b08c88832d57a70f9e2be8}{get\+Collision\+Filter} () const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a5dca7e1659d07507231c1bdd4a2c4493}{set\+Bullet} (bool flag)
+\begin{DoxyCompactList}\small\item\em Set whether or not the Rigidbody use continuous collision detection(bullet). \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_ac293002d6ddaef528eb85585fb9a20f2}{is\+Bullet} () const 
+\begin{DoxyCompactList}\small\item\em Check whether or not the Rigidbody use continuous collision detection(bullet). \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a452af87be5e21e2fb9032ab730e9d37b}{set\+Sleeping\+Allowed} (bool flag)
+\begin{DoxyCompactList}\small\item\em Set whether or not the Rigidbody is allowed to enter to sleep mode while isolated. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_aea6ef6ac7f71c54aa1743cde888d1085}{is\+Sleeping\+Allowed} () const 
+\begin{DoxyCompactList}\small\item\em Check whether or not the Rigidbody is allowed to enter to sleep mode while isolated. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_af7f8e42c2678cc8a50fbf2e03353d711}{set\+Awake} (bool flag)
+\begin{DoxyCompactList}\small\item\em Set Rigidbody to awake state. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a8681f121f02afc0d80a58b57b4e7cac8}{is\+Awake} () const 
+\begin{DoxyCompactList}\small\item\em Check if Rigidbody is in awake state. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_aac67aa35da21da620d00bcf72cbfafdb}{set\+Active} (bool flag)
+\begin{DoxyCompactList}\small\item\em Set Rigidbody to active state. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a97ee4ffe184bf5f24613f9e3d557dcf3}{is\+Active} () const 
+\begin{DoxyCompactList}\small\item\em Check if Rigidbody to active state. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_ad8ec622663b4e808aa63146ba4275fa3}{set\+Collision\+Call\+Back} (\hyperlink{class_magnum_1_1_functor}{Functor} $\ast$collision\+C\+B\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Call\+Back Function for collision event between rigidbodies. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_functor}{Functor} $\ast$ \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_af9ee6fb6c05a4229d6ea22fbf44c8d53}{get\+Collision\+Call\+Back} () const 
+\begin{DoxyCompactList}\small\item\em Get the Call\+Back Function for collision event between rigidbodies. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a1fed2f75129db6ae27a6a9c4e25d54b8}{set\+Destuction\+Call\+Back} (\hyperlink{class_magnum_1_1_functor}{Functor} $\ast$destruction\+C\+B\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Call\+Back Function for destruction event of the joint connected on the rigidbody. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_functor}{Functor} $\ast$ \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a0ff48b66c0dc89d2b337d68bc29db029}{get\+Destuction\+Call\+Back} () const 
+\begin{DoxyCompactList}\small\item\em Get the Call\+Back Function for destruction event of the joint connected on the rigidbody. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a1b6e80ead7db9a177d461b5866e9f5a1}{set\+User\+Data} (void $\ast$user\+Data\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the pointer for custom user data. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a58a60bc4aa2ed9dd209a03371f303d0d}{get\+User\+Data} () const 
+\begin{DoxyCompactList}\small\item\em Get the pointer for custom user data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a8e1f6c5d8575dbac5b444ce04041ff27}{construct\+Rigid\+Body} (\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31}{Physics3\+::\+Rigid\+Body\+::\+Type} type\+\_\+, const \hyperlink{class_magnum_1_1_shape3}{Shape3} $\ast$shape\+\_\+, const \hyperlink{class_magnum_1_1_physics3_1_1_material}{Physics3\+::\+Material} \&material\+\_\+, const \hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \&collision\+Filter\+\_\+)
+\begin{DoxyCompactList}\small\item\em Construct the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_ae5b00d6e2ba30c69459263846b84ea59}{update\+Rigid\+Body} (float dt)
+\begin{DoxyCompactList}\small\item\em Update the rigidbody and the owner. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_aa20303aecff93264de0d7ee53524eebd}{destruct\+Rigid\+Body} ()\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_aa20303aecff93264de0d7ee53524eebd}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_aa20303aecff93264de0d7ee53524eebd}
+
+\begin{DoxyCompactList}\small\item\em Destruct the rigidbody. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries World}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a7b4bcdf992c21ae83363f25df05b1d25}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a7b4bcdf992c21ae83363f25df05b1d25}
+
+\item 
+class {\bfseries Manager}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_adddd5c43ff870a047aa66db4edf82a7e}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_adddd5c43ff870a047aa66db4edf82a7e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} \hyperlink{class_magnum_1_1_component}{Component}. 
+
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} \hyperlink{class_magnum_1_1_component}{Component} is a base component for handling Physics simulation. Developer can specified Mass, Shape, Position, Velocity, Force, Angular\+Position, Angular\+Velocity, Torque for Rigidbody Static, Kinematic, Dynamic Rigidbody is supported. 
+
+\subsection{列舉型態成員說明文件}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!Type@{Type}}
+\index{Type@{Type}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{Type}{Type}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Magnum\+::\+Physics3\+::\+Rigid\+Body\+::\+Type}}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{S\+T\+A\+T\+IC@{S\+T\+A\+T\+IC}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!S\+T\+A\+T\+IC@{S\+T\+A\+T\+IC}}\item[{\em 
+S\+T\+A\+T\+IC\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31a8b0d2ff0ab0094fd4cc8b4e899e8cc07}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31a8b0d2ff0ab0094fd4cc8b4e899e8cc07}
+}]Static \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \index{K\+I\+N\+E\+M\+A\+T\+IC@{K\+I\+N\+E\+M\+A\+T\+IC}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!K\+I\+N\+E\+M\+A\+T\+IC@{K\+I\+N\+E\+M\+A\+T\+IC}}\item[{\em 
+K\+I\+N\+E\+M\+A\+T\+IC\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31ab0f62334d5430331ae231a2d4e753666}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31ab0f62334d5430331ae231a2d4e753666}
+}]Kinematic \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \index{D\+Y\+N\+A\+M\+IC@{D\+Y\+N\+A\+M\+IC}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!D\+Y\+N\+A\+M\+IC@{D\+Y\+N\+A\+M\+IC}}\item[{\em 
+D\+Y\+N\+A\+M\+IC\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31a7abb28dc1c796dbdb1db778f9b097183}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31a7abb28dc1c796dbdb1db778f9b097183}
+}]Dynamic \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \end{description}
+\end{Desc}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!Rigid\+Body@{Rigid\+Body}}
+\index{Rigid\+Body@{Rigid\+Body}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{Rigid\+Body(\+Component\+::\+Owner \&owner\+\_\+)}{RigidBody(Component::Owner &owner_)}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Physics3\+::\+Rigid\+Body\+::\+Rigid\+Body (
+\begin{DoxyParamCaption}
+\item[{{\bf Component\+::\+Owner} \&}]{owner\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a2327744d90c049296ea0d63b3e64d335}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a2327744d90c049296ea0d63b3e64d335}
+
+
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Constructor. 
+
+To Construct the Rigidbody for the owner. \index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!````~Rigid\+Body@{$\sim$\+Rigid\+Body}}
+\index{````~Rigid\+Body@{$\sim$\+Rigid\+Body}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{$\sim$\+Rigid\+Body()}{~RigidBody()}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Physics3\+::\+Rigid\+Body\+::$\sim$\+Rigid\+Body (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_ac335c0a007b0afc2a2d346330906fe20}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_ac335c0a007b0afc2a2d346330906fe20}
+
+
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} and remove from its owner. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!apply\+Angular\+Impulse@{apply\+Angular\+Impulse}}
+\index{apply\+Angular\+Impulse@{apply\+Angular\+Impulse}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Angular\+Impulse(const Vector3 \&angular\+Impulse\+\_\+)}{applyAngularImpulse(const Vector3 &angularImpulse_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::apply\+Angular\+Impulse (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{angular\+Impulse\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_ad85c102de6c0fb6bd409ad6ac936d036}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_ad85c102de6c0fb6bd409ad6ac936d036}
+
+
+Apply a Angular\+Impulse (Delta Angular Velocity) of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at its center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em angular\+Impulse\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the impulse direction and magnitude. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!apply\+Force@{apply\+Force}}
+\index{apply\+Force@{apply\+Force}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Force(const Vector3 \&force\+\_\+, const Vector3 \&point\+\_\+)}{applyForce(const Vector3 &force_, const Vector3 &point_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::apply\+Force (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{force\+\_\+, }
+\item[{const {\bf Vector3} \&}]{point\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a4044caf96a955b23e29e7c33cd6e837c}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a4044caf96a955b23e29e7c33cd6e837c}
+
+
+Apply a Force of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at specific point around its center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em force\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the force direction and magnitude. \\
+\hline
+{\em point\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the point the force act on the Rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!apply\+Force\+To\+Center@{apply\+Force\+To\+Center}}
+\index{apply\+Force\+To\+Center@{apply\+Force\+To\+Center}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Force\+To\+Center(const Vector3 \&force\+\_\+)}{applyForceToCenter(const Vector3 &force_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::apply\+Force\+To\+Center (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{force\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a1cf514dc13d4a90274716905e82af84d}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a1cf514dc13d4a90274716905e82af84d}
+
+
+Apply a Force of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at center of its center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em force\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the force direction and magnitude. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!apply\+Linear\+Impulse@{apply\+Linear\+Impulse}}
+\index{apply\+Linear\+Impulse@{apply\+Linear\+Impulse}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Linear\+Impulse(const Vector3 \&impulse\+\_\+, const Vector3 \&point\+\_\+)}{applyLinearImpulse(const Vector3 &impulse_, const Vector3 &point_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::apply\+Linear\+Impulse (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{impulse\+\_\+, }
+\item[{const {\bf Vector3} \&}]{point\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a116b77a6eac5b19e76fb48601166c5a3}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a116b77a6eac5b19e76fb48601166c5a3}
+
+
+Apply a Linear\+Impulse (Delta Velocity) of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at specific point around its center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em impulse\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the impulse direction and magnitude. \\
+\hline
+{\em point\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the point the impulse act on the Rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!apply\+Linear\+Impulse\+To\+Center@{apply\+Linear\+Impulse\+To\+Center}}
+\index{apply\+Linear\+Impulse\+To\+Center@{apply\+Linear\+Impulse\+To\+Center}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Linear\+Impulse\+To\+Center(const Vector3 \&impulse\+\_\+)}{applyLinearImpulseToCenter(const Vector3 &impulse_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::apply\+Linear\+Impulse\+To\+Center (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{impulse\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_afe20000f997c567883501683fd52e3d2}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_afe20000f997c567883501683fd52e3d2}
+
+
+Apply a Linear\+Impulse (Delta Velocity) of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at its center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em impulse\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the impulse direction and magnitude. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!apply\+Torque@{apply\+Torque}}
+\index{apply\+Torque@{apply\+Torque}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{apply\+Torque(const Vector3 \&torque\+\_\+)}{applyTorque(const Vector3 &torque_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::apply\+Torque (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{torque\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_aab9670ad031cfcda566a63403a684ec3}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_aab9670ad031cfcda566a63403a684ec3}
+
+
+Apply a Torque(\+Rotational Force) of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} at center of mass. 
+
+
+\begin{DoxyParams}{參數}
+{\em torque\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the torque direction and magnitude. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!construct\+Rigid\+Body@{construct\+Rigid\+Body}}
+\index{construct\+Rigid\+Body@{construct\+Rigid\+Body}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{construct\+Rigid\+Body(\+Physics3\+::\+Rigid\+Body\+::\+Type type\+\_\+, const Shape3 $\ast$shape\+\_\+, const Physics3\+::\+Material \&material\+\_\+, const Physics3\+::\+Collision\+Filter \&collision\+Filter\+\_\+)}{constructRigidBody(Physics3::RigidBody::Type type_, const Shape3 *shape_, const Physics3::Material &material_, const Physics3::CollisionFilter &collisionFilter_)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Magnum\+::\+Physics3\+::\+Rigid\+Body\+::construct\+Rigid\+Body (
+\begin{DoxyParamCaption}
+\item[{{\bf Physics3\+::\+Rigid\+Body\+::\+Type}}]{type\+\_\+, }
+\item[{const {\bf Shape3} $\ast$}]{shape\+\_\+, }
+\item[{const {\bf Physics3\+::\+Material} \&}]{material\+\_\+, }
+\item[{const {\bf Physics3\+::\+Collision\+Filter} \&}]{collision\+Filter\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a8e1f6c5d8575dbac5b444ce04041ff27}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a8e1f6c5d8575dbac5b444ce04041ff27}
+
+
+Construct the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em type\+\_\+} & the Type of \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} \\
+\hline
+{\em shape\+\_\+} & the \hyperlink{class_magnum_1_1_shape3}{Shape3} of rigidbody \\
+\hline
+{\em material\+\_\+} & the \hyperlink{class_magnum_1_1_physics3_1_1_material}{Material} of \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} \\
+\hline
+{\em collision\+Filter\+\_\+} & the \hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31}{Physics3\+::\+Rigid\+Body\+::\+Type} 
+
+\hyperlink{class_magnum_1_1_shape3}{Shape3} 
+
+\hyperlink{class_magnum_1_1_physics3_1_1_material}{Physics3\+::\+Material} 
+
+\hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} 
+\end{DoxySeeAlso}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_physics3_1_1_rigid_body_a8e1f6c5d8575dbac5b444ce04041ff27_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Angular\+Damping@{get\+Angular\+Damping}}
+\index{get\+Angular\+Damping@{get\+Angular\+Damping}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Angular\+Damping() const }{getAngularDamping() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Angular\+Damping (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a5cae6065069c5a69990dfb0684bd8220}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a5cae6065069c5a69990dfb0684bd8220}
+
+
+Get the Angular Damping Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+The Angular Damping is a reduction of lienar velocity due to the loss of kinetic energy for some reason(e.\+g. friction, sound) \begin{DoxyReturn}{傳回值}
+float, the angular damping factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_physics3_1_1_rigid_body_a5cae6065069c5a69990dfb0684bd8220_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Angular\+Factor@{get\+Angular\+Factor}}
+\index{get\+Angular\+Factor@{get\+Angular\+Factor}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Angular\+Factor() const }{getAngularFactor() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Angular\+Factor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a0d4484ceee782e1d56a2b9f6c96ff6d8}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a0d4484ceee782e1d56a2b9f6c96ff6d8}
+
+
+Get the Angular Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the angular factor of rigidbody. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a1a46b0f42049edca3a2b1ac4ba31e89b}{set\+Angular\+Factor()} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Angular\+Position@{get\+Angular\+Position}}
+\index{get\+Angular\+Position@{get\+Angular\+Position}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Angular\+Position() const }{getAngularPosition() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Quaternion} Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Angular\+Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_ae246ed60a6f5118f8f1fbe791a419a11}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_ae246ed60a6f5118f8f1fbe791a419a11}
+
+
+Get the Angular Position of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_quaternion}{Quaternion}, the angular position of rigidbody. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Angular\+Velocity@{get\+Angular\+Velocity}}
+\index{get\+Angular\+Velocity@{get\+Angular\+Velocity}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Angular\+Velocity() const }{getAngularVelocity() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Angular\+Velocity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a18fb8fe77d47702ba76e3bc53d886ab9}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a18fb8fe77d47702ba76e3bc53d886ab9}
+
+
+Get the Angular Velocity of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the angular velocity of rigidbody. which represent axis of rotation and its length represent the angle of rotation (in radian). 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Collision\+Call\+Back@{get\+Collision\+Call\+Back}}
+\index{get\+Collision\+Call\+Back@{get\+Collision\+Call\+Back}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Collision\+Call\+Back() const }{getCollisionCallBack() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Functor} $\ast$ Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Collision\+Call\+Back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_af9ee6fb6c05a4229d6ea22fbf44c8d53}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_af9ee6fb6c05a4229d6ea22fbf44c8d53}
+
+
+Get the Call\+Back Function for collision event between rigidbodies. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_functor}{Functor} \+: the Call\+Back Function 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Collision\+Filter@{get\+Collision\+Filter}}
+\index{get\+Collision\+Filter@{get\+Collision\+Filter}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Collision\+Filter() const }{getCollisionFilter() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Physics3\+::\+Collision\+Filter} Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Collision\+Filter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a4432f9fb63b08c88832d57a70f9e2be8}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a4432f9fb63b08c88832d57a70f9e2be8}
+
+
+Get the \hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter}, the collision Filter of rigidbody. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Destuction\+Call\+Back@{get\+Destuction\+Call\+Back}}
+\index{get\+Destuction\+Call\+Back@{get\+Destuction\+Call\+Back}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Destuction\+Call\+Back() const }{getDestuctionCallBack() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Functor} $\ast$ Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Destuction\+Call\+Back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a0ff48b66c0dc89d2b337d68bc29db029}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a0ff48b66c0dc89d2b337d68bc29db029}
+
+
+Get the Call\+Back Function for destruction event of the joint connected on the rigidbody. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_functor}{Functor} \+: the Call\+Back Function 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Inertia@{get\+Inertia}}
+\index{get\+Inertia@{get\+Inertia}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Inertia() const }{getInertia() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Inertia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a842e3172bdbbea66d79b756d7b46192c}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a842e3172bdbbea66d79b756d7b46192c}
+
+
+Get the Moment of Inertia of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the Moment of Inertia of rigidbody. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Linear\+Damping@{get\+Linear\+Damping}}
+\index{get\+Linear\+Damping@{get\+Linear\+Damping}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Linear\+Damping() const }{getLinearDamping() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Linear\+Damping (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a3225fd99befcded45b3e7fe076ecdea0}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a3225fd99befcded45b3e7fe076ecdea0}
+
+
+Get the Linear Damping Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+The Linear Damping is a reduction of linear velocity due to the loss of kinetic energy for some reason(e.\+g. friction, sound) \begin{DoxyReturn}{傳回值}
+float, the linear damping factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_physics3_1_1_rigid_body_a3225fd99befcded45b3e7fe076ecdea0_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Linear\+Factor@{get\+Linear\+Factor}}
+\index{get\+Linear\+Factor@{get\+Linear\+Factor}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Linear\+Factor() const }{getLinearFactor() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Linear\+Factor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a6bbf3d47156ec0e4891ed66df91b78c5}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a6bbf3d47156ec0e4891ed66df91b78c5}
+
+
+Get the Linear Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the linear factor of rigidbody. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_ab10f62f9a8043afbc52eb3250b8a9ea9}{set\+Linear\+Factor()} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Linear\+Velocity@{get\+Linear\+Velocity}}
+\index{get\+Linear\+Velocity@{get\+Linear\+Velocity}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Linear\+Velocity() const }{getLinearVelocity() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Linear\+Velocity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a24324dba4ea0c6b8c5fc82a1383db1fb}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a24324dba4ea0c6b8c5fc82a1383db1fb}
+
+
+Get the Velocity of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the velocity of rigidbody. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Linear\+Velocity\+From\+Local\+Point@{get\+Linear\+Velocity\+From\+Local\+Point}}
+\index{get\+Linear\+Velocity\+From\+Local\+Point@{get\+Linear\+Velocity\+From\+Local\+Point}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Linear\+Velocity\+From\+Local\+Point(const Vector3 \&local\+Point\+\_\+) const }{getLinearVelocityFromLocalPoint(const Vector3 &localPoint_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Linear\+Velocity\+From\+Local\+Point (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{local\+Point\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a7a4dbcf05af73238c38fc7af5d0c770d}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a7a4dbcf05af73238c38fc7af5d0c770d}
+
+
+Get the Linear Velocity of specific point in Local Space on the Rigidbody. 
+
+
+\begin{DoxyParams}{參數}
+{\em local\+Point\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the point in Local Space. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the Velocity of specific point in Local Space on the Rigidbody. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Linear\+Velocity\+From\+World\+Point@{get\+Linear\+Velocity\+From\+World\+Point}}
+\index{get\+Linear\+Velocity\+From\+World\+Point@{get\+Linear\+Velocity\+From\+World\+Point}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Linear\+Velocity\+From\+World\+Point(const Vector3 \&world\+Point\+\_\+) const }{getLinearVelocityFromWorldPoint(const Vector3 &worldPoint_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Linear\+Velocity\+From\+World\+Point (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{world\+Point\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a419aac849d6f92c6d92c2f0c3ffd6723}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a419aac849d6f92c6d92c2f0c3ffd6723}
+
+
+Get the Linear Velocity of specific point in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space on the Rigidbody. 
+
+
+\begin{DoxyParams}{參數}
+{\em world\+Point\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the point in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the Velocity of specific point in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space on the Rigidbody. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Local\+Point@{get\+Local\+Point}}
+\index{get\+Local\+Point@{get\+Local\+Point}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Local\+Point(const Vector3 \&world\+Point\+\_\+) const }{getLocalPoint(const Vector3 &worldPoint_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Local\+Point (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{world\+Point\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a5a73730a7f49b264b80b46e53f235fd3}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a5a73730a7f49b264b80b46e53f235fd3}
+
+
+Convert a Position in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Position in the Local Space. 
+
+
+\begin{DoxyParams}{參數}
+{\em world\+Point\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which input the position in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space to be converted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the corresponding position in Local Space. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Local\+Vector@{get\+Local\+Vector}}
+\index{get\+Local\+Vector@{get\+Local\+Vector}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Local\+Vector(const Vector3 \&world\+Vector\+\_\+) const }{getLocalVector(const Vector3 &worldVector_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Local\+Vector (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{world\+Vector\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a3ade32d6c6b96e3353fcb445edec5993}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a3ade32d6c6b96e3353fcb445edec5993}
+
+
+Convert a Directional \hyperlink{class_magnum_1_1_vector}{Vector} in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Direction in the Local Space. 
+
+
+\begin{DoxyParams}{參數}
+{\em world\+Vector\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which input the direction in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space to be converted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the corresponding direction in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Mass@{get\+Mass}}
+\index{get\+Mass@{get\+Mass}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Mass() const }{getMass() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Mass (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_ae0852121bbefb153c39da26de02fbef9}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_ae0852121bbefb153c39da26de02fbef9}
+
+
+Get the Mass of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+float, the mass of rigidbody. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Material@{get\+Material}}
+\index{get\+Material@{get\+Material}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Material() const }{getMaterial() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Physics3\+::\+Material} Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Material (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a4d8892f1482f7443b6a0bf3cd2312e29}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a4d8892f1482f7443b6a0bf3cd2312e29}
+
+
+Get the \hyperlink{class_magnum_1_1_physics3_1_1_material}{Material} \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_physics3_1_1_material}{Physics3\+::\+Material}, the material of rigidbody. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_physics3_1_1_material}{Physics3\+::\+Material} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Position() const }{getPosition() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a39de26b1ca7c1666c0b8070708d16a50}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a39de26b1ca7c1666c0b8070708d16a50}
+
+
+Get the Position of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the position of rigidbody. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Transform@{get\+Transform}}
+\index{get\+Transform@{get\+Transform}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Transform(\+Matrix4 \&transform\+\_\+) const }{getTransform(Matrix4 &transform_) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Transform (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix4} \&}]{transform\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_af2e7f7ab84a226d14baa80afe0b7bec2}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_af2e7f7ab84a226d14baa80afe0b7bec2}
+
+
+Set the \hyperlink{class_magnum_1_1_transform}{Transform} of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em transform\+\_\+,\hyperlink{class_magnum_1_1_matrix4}{Matrix4}} & which specify the position, rotation, scale of rigidbody. Get the \hyperlink{class_magnum_1_1_transform}{Transform} of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \\
+\hline
+{\em transform\+\_\+,\hyperlink{class_magnum_1_1_matrix4}{Matrix4}} & which receive the position, rotation, scale of rigidbody. \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_physics3_1_1_rigid_body_af2e7f7ab84a226d14baa80afe0b7bec2_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+Type() const }{getType() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Physics3\+::\+Rigid\+Body\+::\+Type} Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_afe815b07c2008f7a00931292de4f70d7}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_afe815b07c2008f7a00931292de4f70d7}
+
+
+Get the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Type. 
+
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} can be S\+T\+A\+T\+IC, D\+Y\+N\+A\+M\+IC, K\+I\+N\+E\+M\+A\+T\+IC \begin{DoxyReturn}{傳回值}
+type\+\_\+, \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31}{Physics3\+::\+Rigid\+Body\+::\+Type}, the type of rigidbody. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+User\+Data@{get\+User\+Data}}
+\index{get\+User\+Data@{get\+User\+Data}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+User\+Data() const }{getUserData() const }}]{\setlength{\rightskip}{0pt plus 5cm}void $\ast$ Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+User\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a58a60bc4aa2ed9dd209a03371f303d0d}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a58a60bc4aa2ed9dd209a03371f303d0d}
+
+
+Get the pointer for custom user data. 
+
+\begin{DoxyReturn}{傳回值}
+the User Pointer 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+World\+Point@{get\+World\+Point}}
+\index{get\+World\+Point@{get\+World\+Point}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+World\+Point(const Vector3 \&local\+Point\+\_\+) const }{getWorldPoint(const Vector3 &localPoint_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+World\+Point (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{local\+Point\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a30b1d075890c5178d8a9a7c7e44ab030}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a30b1d075890c5178d8a9a7c7e44ab030}
+
+
+Convert a Position in Local Space of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Position in the \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space. 
+
+
+\begin{DoxyParams}{參數}
+{\em local\+Point\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which input the position in Local Space to be converted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the corresponding position in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!get\+World\+Vector@{get\+World\+Vector}}
+\index{get\+World\+Vector@{get\+World\+Vector}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{get\+World\+Vector(const Vector3 \&local\+Vector\+\_\+) const }{getWorldVector(const Vector3 &localVector_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Magnum\+::\+Physics3\+::\+Rigid\+Body\+::get\+World\+Vector (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{local\+Vector\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a2f3c4dbc90b8f3b52644953c73f16360}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a2f3c4dbc90b8f3b52644953c73f16360}
+
+
+Convert a Directional \hyperlink{class_magnum_1_1_vector}{Vector} in Local Space of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} to a corresponding Direction in the \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space. 
+
+
+\begin{DoxyParams}{參數}
+{\em local\+Vector\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which input the direction in Local Space to be converted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the corresponding direction in \hyperlink{class_magnum_1_1_physics3_1_1_world}{World} Space. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!is\+Active@{is\+Active}}
+\index{is\+Active@{is\+Active}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{is\+Active() const }{isActive() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Magnum\+::\+Physics3\+::\+Rigid\+Body\+::is\+Active (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a97ee4ffe184bf5f24613f9e3d557dcf3}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a97ee4ffe184bf5f24613f9e3d557dcf3}
+
+
+Check if Rigidbody to active state. 
+
+Rigid Body in Active \hyperlink{class_magnum_1_1_state}{State} will participate into physics calculation. \begin{DoxyReturn}{傳回值}
+true \+: in active state false\+: not in active state 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!is\+Awake@{is\+Awake}}
+\index{is\+Awake@{is\+Awake}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{is\+Awake() const }{isAwake() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Magnum\+::\+Physics3\+::\+Rigid\+Body\+::is\+Awake (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a8681f121f02afc0d80a58b57b4e7cac8}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a8681f121f02afc0d80a58b57b4e7cac8}
+
+
+Check if Rigidbody is in awake state. 
+
+Rigid Body in Awake will participate into physics calculation and will enter Sleep \hyperlink{class_magnum_1_1_state}{State} if it become Steady. \begin{DoxyReturn}{傳回值}
+flag, true \+: in awake state false\+: not in awake state 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!is\+Bullet@{is\+Bullet}}
+\index{is\+Bullet@{is\+Bullet}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{is\+Bullet() const }{isBullet() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Magnum\+::\+Physics3\+::\+Rigid\+Body\+::is\+Bullet (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_ac293002d6ddaef528eb85585fb9a20f2}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_ac293002d6ddaef528eb85585fb9a20f2}
+
+
+Check whether or not the Rigidbody use continuous collision detection(bullet). 
+
+Continuous \hyperlink{class_magnum_1_1_collision}{Collision} Detection need more calculation, Only use on fast or small rigidbody only. \begin{DoxyReturn}{傳回值}
+true \+: is bullet. false \+: not a bullet. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!is\+Sleeping\+Allowed@{is\+Sleeping\+Allowed}}
+\index{is\+Sleeping\+Allowed@{is\+Sleeping\+Allowed}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{is\+Sleeping\+Allowed() const }{isSleepingAllowed() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Magnum\+::\+Physics3\+::\+Rigid\+Body\+::is\+Sleeping\+Allowed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_aea6ef6ac7f71c54aa1743cde888d1085}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_aea6ef6ac7f71c54aa1743cde888d1085}
+
+
+Check whether or not the Rigidbody is allowed to enter to sleep mode while isolated. 
+
+Isolated and Steady rigid body will go to sleep and will not participate in physics calculation. save C\+PU \begin{DoxyReturn}{傳回值}
+true \+: allow to enter sleep mode. false\+: not allow to enter sleep mode. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Active@{set\+Active}}
+\index{set\+Active@{set\+Active}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Active(bool flag)}{setActive(bool flag)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Active (
+\begin{DoxyParamCaption}
+\item[{bool}]{flag}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_aac67aa35da21da620d00bcf72cbfafdb}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_aac67aa35da21da620d00bcf72cbfafdb}
+
+
+Set Rigidbody to active state. 
+
+Rigid Body in Active \hyperlink{class_magnum_1_1_state}{State} will participate into physics calculation. 
+\begin{DoxyParams}{參數}
+{\em flag,true} & \+: in active state false\+: not in active state \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Angular\+Damping@{set\+Angular\+Damping}}
+\index{set\+Angular\+Damping@{set\+Angular\+Damping}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Angular\+Damping(float angular\+Damping\+\_\+)}{setAngularDamping(float angularDamping_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Angular\+Damping (
+\begin{DoxyParamCaption}
+\item[{float}]{angular\+Damping\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a9229ab433d81d4b46aeaa237aac185c2}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a9229ab433d81d4b46aeaa237aac185c2}
+
+
+Set the Angular Damping Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+The Angular Damping is a reduction of angular velocity due to the loss of kinetic energy for some reason(e.\+g. friction, sound) 
+\begin{DoxyParams}{參數}
+{\em angular\+Damping\+\_\+,float} & which specify the angular Damping factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_physics3_1_1_rigid_body_a9229ab433d81d4b46aeaa237aac185c2_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Angular\+Factor@{set\+Angular\+Factor}}
+\index{set\+Angular\+Factor@{set\+Angular\+Factor}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Angular\+Factor(const Vector3 \&factor\+\_\+)}{setAngularFactor(const Vector3 &factor_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Angular\+Factor (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{factor\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a1a46b0f42049edca3a2b1ac4ba31e89b}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a1a46b0f42049edca3a2b1ac4ba31e89b}
+
+
+Set the Angular Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em factor\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the angular factor of rigidbody. Angular Factor scales the amount of rotation motion along each axis. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Angular\+Position@{set\+Angular\+Position}}
+\index{set\+Angular\+Position@{set\+Angular\+Position}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Angular\+Position(const Vector3 \&axis\+\_\+, float angle\+\_\+)}{setAngularPosition(const Vector3 &axis_, float angle_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Angular\+Position (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{axis\+\_\+, }
+\item[{float}]{angle\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_aa35681c3537cd02e1145f51bff78319c}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_aa35681c3537cd02e1145f51bff78319c}
+
+
+Set the Angular Position of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em axis\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the axis of angular position. \\
+\hline
+{\em angle\+\_\+,float} & which specify the degree (in radian) rotate around the axis. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Angular\+Position@{set\+Angular\+Position}}
+\index{set\+Angular\+Position@{set\+Angular\+Position}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Angular\+Position(const Quaternion \&angular\+Position\+\_\+)}{setAngularPosition(const Quaternion &angularPosition_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Angular\+Position (
+\begin{DoxyParamCaption}
+\item[{const {\bf Quaternion} \&}]{angular\+Position\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_ada6e1badf71059ca01b1c20f6a679e5d}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_ada6e1badf71059ca01b1c20f6a679e5d}
+
+
+Set the Angular Position of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em angular\+Position\+\_\+,\hyperlink{class_magnum_1_1_quaternion}{Quaternion}} & which specify the rotation and axis of rotation. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Angular\+Velocity@{set\+Angular\+Velocity}}
+\index{set\+Angular\+Velocity@{set\+Angular\+Velocity}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Angular\+Velocity(const Vector3 \&angular\+Vel\+\_\+)}{setAngularVelocity(const Vector3 &angularVel_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Angular\+Velocity (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{angular\+Vel\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a1dd87fc98e3abb8f0f51a459b47e32e8}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a1dd87fc98e3abb8f0f51a459b47e32e8}
+
+
+Set the Angular Velocity of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em angular\+Vel\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the axis of rotation with its length represent the angle (in radian). \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Awake@{set\+Awake}}
+\index{set\+Awake@{set\+Awake}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Awake(bool flag)}{setAwake(bool flag)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Awake (
+\begin{DoxyParamCaption}
+\item[{bool}]{flag}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_af7f8e42c2678cc8a50fbf2e03353d711}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_af7f8e42c2678cc8a50fbf2e03353d711}
+
+
+Set Rigidbody to awake state. 
+
+Rigid Body in Awake \hyperlink{class_magnum_1_1_state}{State} will participate into physics calculation and will enter Sleep \hyperlink{class_magnum_1_1_state}{State} if it become Steady. 
+\begin{DoxyParams}{參數}
+{\em flag,true} & allow to enter sleep mode. false not allow to enter sleep mode. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Bullet@{set\+Bullet}}
+\index{set\+Bullet@{set\+Bullet}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Bullet(bool flag)}{setBullet(bool flag)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Bullet (
+\begin{DoxyParamCaption}
+\item[{bool}]{flag}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a5dca7e1659d07507231c1bdd4a2c4493}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a5dca7e1659d07507231c1bdd4a2c4493}
+
+
+Set whether or not the Rigidbody use continuous collision detection(bullet). 
+
+Continuous \hyperlink{class_magnum_1_1_collision}{Collision} Detection need more calculation, Only use on fast or small rigidbody only. 
+\begin{DoxyParams}{參數}
+{\em flag,true} & rigid is bullet. false rigid is not a bullet. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Collision\+Call\+Back@{set\+Collision\+Call\+Back}}
+\index{set\+Collision\+Call\+Back@{set\+Collision\+Call\+Back}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Collision\+Call\+Back(\+Functor $\ast$collision\+C\+B\+\_\+)}{setCollisionCallBack(Functor *collisionCB_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Collision\+Call\+Back (
+\begin{DoxyParamCaption}
+\item[{{\bf Functor} $\ast$}]{collision\+C\+B\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_ad8ec622663b4e808aa63146ba4275fa3}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_ad8ec622663b4e808aa63146ba4275fa3}
+
+
+Set the Call\+Back Function for collision event between rigidbodies. 
+
+
+\begin{DoxyParams}{參數}
+{\em collision\+C\+B\+\_\+,\hyperlink{class_magnum_1_1_functor}{Functor}} & \+: the \hyperlink{class_magnum_1_1_collision}{Collision} Call\+Back Function \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Collision\+Filter@{set\+Collision\+Filter}}
+\index{set\+Collision\+Filter@{set\+Collision\+Filter}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Collision\+Filter(const Physics3\+::\+Collision\+Filter \&collision\+Filter\+\_\+)}{setCollisionFilter(const Physics3::CollisionFilter &collisionFilter_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Collision\+Filter (
+\begin{DoxyParamCaption}
+\item[{const {\bf Physics3\+::\+Collision\+Filter} \&}]{collision\+Filter\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_ac66ee7cb2b361a7100add5b262b1faa2}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_ac66ee7cb2b361a7100add5b262b1faa2}
+
+
+Set the \hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Collision\+Filter} of \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em collision\+Filter\+\_\+,the} & collision Filter of rigidbody. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_physics3_1_1_collision_filter}{Physics3\+::\+Collision\+Filter} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Destuction\+Call\+Back@{set\+Destuction\+Call\+Back}}
+\index{set\+Destuction\+Call\+Back@{set\+Destuction\+Call\+Back}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Destuction\+Call\+Back(\+Functor $\ast$destruction\+C\+B\+\_\+)}{setDestuctionCallBack(Functor *destructionCB_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Destuction\+Call\+Back (
+\begin{DoxyParamCaption}
+\item[{{\bf Functor} $\ast$}]{destruction\+C\+B\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a1fed2f75129db6ae27a6a9c4e25d54b8}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a1fed2f75129db6ae27a6a9c4e25d54b8}
+
+
+Set the Call\+Back Function for destruction event of the joint connected on the rigidbody. 
+
+
+\begin{DoxyParams}{參數}
+{\em destruction\+C\+B\+\_\+,\hyperlink{class_magnum_1_1_functor}{Functor}} & \+: the Destruction Call\+Back Function \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Linear\+Damping@{set\+Linear\+Damping}}
+\index{set\+Linear\+Damping@{set\+Linear\+Damping}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Linear\+Damping(float linear\+Damping\+\_\+)}{setLinearDamping(float linearDamping_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Linear\+Damping (
+\begin{DoxyParamCaption}
+\item[{float}]{linear\+Damping\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a18b11ba71a9fe6f3c7dd373236b8ac0a}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a18b11ba71a9fe6f3c7dd373236b8ac0a}
+
+
+Set the Linear Damping Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+The Linear Damping is a reduction of linear velocity due to the loss of kinetic energy for some reason(e.\+g. friction, sound) 
+\begin{DoxyParams}{參數}
+{\em linear\+Damping\+\_\+,float} & which specify the linear Damping factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_physics3_1_1_rigid_body_a18b11ba71a9fe6f3c7dd373236b8ac0a_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Linear\+Factor@{set\+Linear\+Factor}}
+\index{set\+Linear\+Factor@{set\+Linear\+Factor}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Linear\+Factor(const Vector3 \&factor\+\_\+)}{setLinearFactor(const Vector3 &factor_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Linear\+Factor (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{factor\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_ab10f62f9a8043afbc52eb3250b8a9ea9}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_ab10f62f9a8043afbc52eb3250b8a9ea9}
+
+
+Set the Linear Factor of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em factor\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the linear factor of rigidbody. Linear Factor scales the amount of linear motion along each axis. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Linear\+Velocity@{set\+Linear\+Velocity}}
+\index{set\+Linear\+Velocity@{set\+Linear\+Velocity}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Linear\+Velocity(const Vector3 \&velocity\+\_\+)}{setLinearVelocity(const Vector3 &velocity_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Linear\+Velocity (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{velocity\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a2bdd8f784c9c3b65213478e58f7248e1}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a2bdd8f784c9c3b65213478e58f7248e1}
+
+
+Set the Velocity of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em velocity\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the velocity of rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Material@{set\+Material}}
+\index{set\+Material@{set\+Material}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Material(const Physics3\+::\+Material \&material\+\_\+)}{setMaterial(const Physics3::Material &material_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Material (
+\begin{DoxyParamCaption}
+\item[{const {\bf Physics3\+::\+Material} \&}]{material\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_af0647dd8feed5299adb2b478e60981b8}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_af0647dd8feed5299adb2b478e60981b8}
+
+
+Set the \hyperlink{class_magnum_1_1_physics3_1_1_material}{Material} of \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em material\+\_\+,the} & material of rigidbody. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_physics3_1_1_material}{Physics3\+::\+Material} 
+\end{DoxySeeAlso}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Position@{set\+Position}}
+\index{set\+Position@{set\+Position}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Position(const Vector3 \&position\+\_\+)}{setPosition(const Vector3 &position_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Position (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{position\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_af66b61c406dbf2a42d8481806bed5e9c}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_af66b61c406dbf2a42d8481806bed5e9c}
+
+
+Set the Position of the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body}. 
+
+
+\begin{DoxyParams}{參數}
+{\em position\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3}} & which specify the position of rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Sleeping\+Allowed@{set\+Sleeping\+Allowed}}
+\index{set\+Sleeping\+Allowed@{set\+Sleeping\+Allowed}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Sleeping\+Allowed(bool flag)}{setSleepingAllowed(bool flag)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Sleeping\+Allowed (
+\begin{DoxyParamCaption}
+\item[{bool}]{flag}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a452af87be5e21e2fb9032ab730e9d37b}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a452af87be5e21e2fb9032ab730e9d37b}
+
+
+Set whether or not the Rigidbody is allowed to enter to sleep mode while isolated. 
+
+Isolated and Steady rigid body will go to sleep and will not participate in physics calculation. save C\+PU 
+\begin{DoxyParams}{參數}
+{\em flag,true} & allow to enter sleep mode. false not allow to enter sleep mode. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+Type@{set\+Type}}
+\index{set\+Type@{set\+Type}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+Type(\+Physics3\+::\+Rigid\+Body\+::\+Type type\+\_\+)}{setType(Physics3::RigidBody::Type type_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+Type (
+\begin{DoxyParamCaption}
+\item[{{\bf Physics3\+::\+Rigid\+Body\+::\+Type}}]{type\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a0eb0367c94b2157e9b0dad40e9d58f1e}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a0eb0367c94b2157e9b0dad40e9d58f1e}
+
+
+Set the \hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} Type. 
+
+\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body}{Rigid\+Body} can be S\+T\+A\+T\+IC, D\+Y\+N\+A\+M\+IC, K\+I\+N\+E\+M\+A\+T\+IC 
+\begin{DoxyParams}{參數}
+{\em type\+\_\+,\hyperlink{class_magnum_1_1_physics3_1_1_rigid_body_a429aa4fb7256b083334c86cdcd0d6b31}{Physics3\+::\+Rigid\+Body\+::\+Type},the} & type of rigidbody. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!set\+User\+Data@{set\+User\+Data}}
+\index{set\+User\+Data@{set\+User\+Data}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{set\+User\+Data(void $\ast$user\+Data\+\_\+)}{setUserData(void *userData_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::set\+User\+Data (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{user\+Data\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_a1b6e80ead7db9a177d461b5866e9f5a1}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_a1b6e80ead7db9a177d461b5866e9f5a1}
+
+
+Set the pointer for custom user data. 
+
+
+\begin{DoxyParams}{參數}
+{\em user\+Data\+\_\+} & the User Pointer \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}!update\+Rigid\+Body@{update\+Rigid\+Body}}
+\index{update\+Rigid\+Body@{update\+Rigid\+Body}!Magnum\+::\+Physics3\+::\+Rigid\+Body@{Magnum\+::\+Physics3\+::\+Rigid\+Body}}
+\subsubsection[{\texorpdfstring{update\+Rigid\+Body(float dt)}{updateRigidBody(float dt)}}]{\setlength{\rightskip}{0pt plus 5cm}void Magnum\+::\+Physics3\+::\+Rigid\+Body\+::update\+Rigid\+Body (
+\begin{DoxyParamCaption}
+\item[{float}]{dt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_magnum_1_1_physics3_1_1_rigid_body_ae5b00d6e2ba30c69459263846b84ea59}{}\label{class_magnum_1_1_physics3_1_1_rigid_body_ae5b00d6e2ba30c69459263846b84ea59}
+
+
+Update the rigidbody and the owner. 
+
+
+\begin{DoxyParams}{參數}
+{\em dt,the} & delta of the game cycle \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_physics3_1_1_rigid_body_ae5b00d6e2ba30c69459263846b84ea59_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_physics3_1_1_rigid_body_ae5b00d6e2ba30c69459263846b84ea59_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Physics3.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Physics3.\+cpp\end{DoxyCompactItemize}

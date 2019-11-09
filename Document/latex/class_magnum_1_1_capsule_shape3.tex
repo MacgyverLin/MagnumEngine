@@ -1,0 +1,173 @@
+\hypertarget{class_magnum_1_1_capsule_shape3}{}\section{Magnum\+:\+:Capsule\+Shape3 類別 參考文件}
+\label{class_magnum_1_1_capsule_shape3}\index{Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}}
+
+
+\hyperlink{class_magnum_1_1_capsule_shape3}{Capsule\+Shape3}.  
+
+
+
+
+{\ttfamily \#include $<$Capsule\+Shape3.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Capsule\+Shape3的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{class_magnum_1_1_capsule_shape3__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Capsule\+Shape3的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=243pt]{class_magnum_1_1_capsule_shape3__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fca}{Axis\+Direction} \{ \hyperlink{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fcaa20a067dba6b2b7e38dfa04d7dc0fe5c5}{X\+\_\+\+A\+X\+IS}, 
+\hyperlink{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fcaa1d767bc9a2876cb283e1f0fc2829bbbd}{Y\+\_\+\+A\+X\+IS}, 
+\hyperlink{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fcaa55f5f6acfbcb42f0cf283fbc4d1c236e}{Z\+\_\+\+A\+X\+IS}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_capsule_shape3_a460283ca8b9d21b33e2288b4aa0cb7e7}{Capsule\+Shape3} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_capsule_shape3}{Capsule\+Shape3} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_capsule_shape3_a6eda81a62f423445f8f57d7daf3278b7}{$\sim$\+Capsule\+Shape3} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_capsule_shape3}{Capsule\+Shape3} Destructor. \end{DoxyCompactList}\item 
+bool \hyperlink{class_magnum_1_1_capsule_shape3_aaa4eed50b454b4d54b2405b534ec0fca}{construct} (\hyperlink{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fca}{Capsule\+Shape3\+::\+Axis\+Direction} axis\+Dir\+\_\+, float radius\+\_\+, float height\+\_\+)
+\begin{DoxyCompactList}\small\item\em construct the \hyperlink{class_magnum_1_1_capsule_shape3}{Capsule\+Shape3}. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_capsule_shape3_a38ec7d7403489738e55ddf21125f6bbc}{destruct} ()\hypertarget{class_magnum_1_1_capsule_shape3_a38ec7d7403489738e55ddf21125f6bbc}{}\label{class_magnum_1_1_capsule_shape3_a38ec7d7403489738e55ddf21125f6bbc}
+
+\begin{DoxyCompactList}\small\item\em destruct \hyperlink{class_magnum_1_1_capsule_shape3}{Capsule\+Shape3} and release memory its used \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_capsule_shape3_a95ce60deb958461f0d7216819c56f798}{get\+Mass\+Prop} (float density, float \&mass, \hyperlink{class_magnum_1_1_vector3}{Vector3} \&local\+Inertia) const 
+\begin{DoxyCompactList}\small\item\em calculate the mass and moment of inertia according to the shape and density \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_capsule_shape3}{Capsule\+Shape3}. 
+
+This class define a Capsule Shape. \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_convex_shape3}{Convex\+Shape3} 
+\end{DoxySeeAlso}
+
+
+\subsection{列舉型態成員說明文件}
+\index{Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}!Axis\+Direction@{Axis\+Direction}}
+\index{Axis\+Direction@{Axis\+Direction}!Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}}
+\subsubsection[{\texorpdfstring{Axis\+Direction}{AxisDirection}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Magnum\+::\+Capsule\+Shape3\+::\+Axis\+Direction}}\hypertarget{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fca}{}\label{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fca}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{X\+\_\+\+A\+X\+IS@{X\+\_\+\+A\+X\+IS}!Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}}\index{Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}!X\+\_\+\+A\+X\+IS@{X\+\_\+\+A\+X\+IS}}\item[{\em 
+X\+\_\+\+A\+X\+IS\hypertarget{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fcaa20a067dba6b2b7e38dfa04d7dc0fe5c5}{}\label{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fcaa20a067dba6b2b7e38dfa04d7dc0fe5c5}
+}]Height Align to X\+Axis. \index{Y\+\_\+\+A\+X\+IS@{Y\+\_\+\+A\+X\+IS}!Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}}\index{Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}!Y\+\_\+\+A\+X\+IS@{Y\+\_\+\+A\+X\+IS}}\item[{\em 
+Y\+\_\+\+A\+X\+IS\hypertarget{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fcaa1d767bc9a2876cb283e1f0fc2829bbbd}{}\label{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fcaa1d767bc9a2876cb283e1f0fc2829bbbd}
+}]Height Align to Y\+Axis. \index{Z\+\_\+\+A\+X\+IS@{Z\+\_\+\+A\+X\+IS}!Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}}\index{Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}!Z\+\_\+\+A\+X\+IS@{Z\+\_\+\+A\+X\+IS}}\item[{\em 
+Z\+\_\+\+A\+X\+IS\hypertarget{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fcaa55f5f6acfbcb42f0cf283fbc4d1c236e}{}\label{class_magnum_1_1_capsule_shape3_a3dec6b2f3ea7c02e2c3db53d94652fcaa55f5f6acfbcb42f0cf283fbc4d1c236e}
+}]Height Align to Z\+Axis. \end{description}
+\end{Desc}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}!Capsule\+Shape3@{Capsule\+Shape3}}
+\index{Capsule\+Shape3@{Capsule\+Shape3}!Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}}
+\subsubsection[{\texorpdfstring{Capsule\+Shape3()}{CapsuleShape3()}}]{\setlength{\rightskip}{0pt plus 5cm}Capsule\+Shape3\+::\+Capsule\+Shape3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_capsule_shape3_a460283ca8b9d21b33e2288b4aa0cb7e7}{}\label{class_magnum_1_1_capsule_shape3_a460283ca8b9d21b33e2288b4aa0cb7e7}
+
+
+\hyperlink{class_magnum_1_1_capsule_shape3}{Capsule\+Shape3} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_capsule_shape3}{Capsule\+Shape3} \index{Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}!````~Capsule\+Shape3@{$\sim$\+Capsule\+Shape3}}
+\index{````~Capsule\+Shape3@{$\sim$\+Capsule\+Shape3}!Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}}
+\subsubsection[{\texorpdfstring{$\sim$\+Capsule\+Shape3()}{~CapsuleShape3()}}]{\setlength{\rightskip}{0pt plus 5cm}Capsule\+Shape3\+::$\sim$\+Capsule\+Shape3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_capsule_shape3_a6eda81a62f423445f8f57d7daf3278b7}{}\label{class_magnum_1_1_capsule_shape3_a6eda81a62f423445f8f57d7daf3278b7}
+
+
+\hyperlink{class_magnum_1_1_capsule_shape3}{Capsule\+Shape3} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_capsule_shape3}{Capsule\+Shape3} 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}!construct@{construct}}
+\index{construct@{construct}!Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}}
+\subsubsection[{\texorpdfstring{construct(\+Capsule\+Shape3\+::\+Axis\+Direction axis\+Dir\+\_\+, float radius\+\_\+, float height\+\_\+)}{construct(CapsuleShape3::AxisDirection axisDir_, float radius_, float height_)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Capsule\+Shape3\+::construct (
+\begin{DoxyParamCaption}
+\item[{{\bf Capsule\+Shape3\+::\+Axis\+Direction}}]{axis\+Dir\+\_\+, }
+\item[{float}]{radius\+\_\+, }
+\item[{float}]{height\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_capsule_shape3_aaa4eed50b454b4d54b2405b534ec0fca}{}\label{class_magnum_1_1_capsule_shape3_aaa4eed50b454b4d54b2405b534ec0fca}
+
+
+construct the \hyperlink{class_magnum_1_1_capsule_shape3}{Capsule\+Shape3}. 
+
+
+\begin{DoxyParams}{參數}
+{\em axis\+Dir\+\_\+,the} & major axis of the capsule \\
+\hline
+{\em radius\+\_\+,the} & radius of the capsule \\
+\hline
+{\em height\+\_\+,the} & height of the capsule \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if success, false if fail. 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_capsule_shape3_aaa4eed50b454b4d54b2405b534ec0fca_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}!get\+Mass\+Prop@{get\+Mass\+Prop}}
+\index{get\+Mass\+Prop@{get\+Mass\+Prop}!Magnum\+::\+Capsule\+Shape3@{Magnum\+::\+Capsule\+Shape3}}
+\subsubsection[{\texorpdfstring{get\+Mass\+Prop(float density, float \&mass, Vector3 \&local\+Inertia) const }{getMassProp(float density, float &mass, Vector3 &localInertia) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Capsule\+Shape3\+::get\+Mass\+Prop (
+\begin{DoxyParamCaption}
+\item[{float}]{density, }
+\item[{float \&}]{mass, }
+\item[{{\bf Vector3} \&}]{local\+Inertia}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_capsule_shape3_a95ce60deb958461f0d7216819c56f798}{}\label{class_magnum_1_1_capsule_shape3_a95ce60deb958461f0d7216819c56f798}
+
+
+calculate the mass and moment of inertia according to the shape and density 
+
+
+\begin{DoxyParams}{參數}
+{\em density,the} & density of the shape \\
+\hline
+{\em mass,the} & result of the mass of the shape is returned here \\
+\hline
+{\em local\+Inertia,the} & result of the moment of inertia of the shape is returned here \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_shape3_a5d586c69e4a4b59b8386c3fbb8568984}{Magnum\+::\+Shape3}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Capsule\+Shape3.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Capsule\+Shape3.\+cpp\end{DoxyCompactItemize}

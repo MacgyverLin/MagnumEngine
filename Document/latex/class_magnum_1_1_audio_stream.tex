@@ -1,0 +1,127 @@
+\hypertarget{class_magnum_1_1_audio_stream}{}\section{Magnum\+:\+:Audio\+Stream 類別 參考文件}
+\label{class_magnum_1_1_audio_stream}\index{Magnum\+::\+Audio\+Stream@{Magnum\+::\+Audio\+Stream}}
+
+
+\hyperlink{class_magnum_1_1_audio_stream}{Audio\+Stream}.  
+
+
+
+
+{\ttfamily \#include $<$Audio\+Stream.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Audio\+Stream的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_magnum_1_1_audio_stream__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Audio\+Stream的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_magnum_1_1_audio_stream__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_audio_stream_1_1_resource_importer}{Resource\+Importer}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_audio_stream_a864a5222a35e09b87c4dbe5047fefc50}{Audio\+Stream} (\hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} \&owner)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_audio_stream}{Audio\+Stream} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_audio_stream_a480e5d3468bfe9357dd6c40649b1e449}{$\sim$\+Audio\+Stream} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_audio_stream}{Audio\+Stream} Destructor. \end{DoxyCompactList}\item 
+{\bfseries D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT} (\hyperlink{class_magnum_1_1_audio_stream}{Audio\+Stream}, \hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base}, false) \hyperlink{class_magnum_1_1_component_a30a9f5cf6e5c94519c752f30ac3c6013}{P\+R\+O\+P\+E\+R\+TY}(\hyperlink{class_magnum_1_1_resource_path}{Resource\+Path}\hypertarget{class_magnum_1_1_audio_stream_a898db07ef6583db564f68d4b9992d240}{}\label{class_magnum_1_1_audio_stream_a898db07ef6583db564f68d4b9992d240}
+
+\item 
+virtual bool \hyperlink{class_magnum_1_1_audio_stream_afe27165ca951ac7e01914065ffecf741}{play} (bool loop)
+\begin{DoxyCompactList}\small\item\em Start playing the audio. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Audio\+Stream\+Path}\hypertarget{class_magnum_1_1_audio_stream_a797ab4b28957868270b67b536c078107}{}\label{class_magnum_1_1_audio_stream_a797ab4b28957868270b67b536c078107}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_audio_stream}{Audio\+Stream}. 
+
+\hyperlink{class_magnum_1_1_audio_stream}{Audio\+Stream} is the class resposible for audio received \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_audio_source_base}{Audio\+Source\+Base} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Audio\+Stream@{Magnum\+::\+Audio\+Stream}!Audio\+Stream@{Audio\+Stream}}
+\index{Audio\+Stream@{Audio\+Stream}!Magnum\+::\+Audio\+Stream@{Magnum\+::\+Audio\+Stream}}
+\subsubsection[{\texorpdfstring{Audio\+Stream(\+Component\+::\+Owner \&owner)}{AudioStream(Component::Owner &owner)}}]{\setlength{\rightskip}{0pt plus 5cm}Audio\+Stream\+::\+Audio\+Stream (
+\begin{DoxyParamCaption}
+\item[{{\bf Component\+::\+Owner} \&}]{owner}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_audio_stream_a864a5222a35e09b87c4dbe5047fefc50}{}\label{class_magnum_1_1_audio_stream_a864a5222a35e09b87c4dbe5047fefc50}
+
+
+\hyperlink{class_magnum_1_1_audio_stream}{Audio\+Stream} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_audio_stream}{Audio\+Stream} for the owner. 
+\begin{DoxyParams}{參數}
+{\em owner\+\_\+,the} & \hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} which owns this component. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Audio\+Stream@{Magnum\+::\+Audio\+Stream}!````~Audio\+Stream@{$\sim$\+Audio\+Stream}}
+\index{````~Audio\+Stream@{$\sim$\+Audio\+Stream}!Magnum\+::\+Audio\+Stream@{Magnum\+::\+Audio\+Stream}}
+\subsubsection[{\texorpdfstring{$\sim$\+Audio\+Stream()}{~AudioStream()}}]{\setlength{\rightskip}{0pt plus 5cm}Audio\+Stream\+::$\sim$\+Audio\+Stream (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_audio_stream_a480e5d3468bfe9357dd6c40649b1e449}{}\label{class_magnum_1_1_audio_stream_a480e5d3468bfe9357dd6c40649b1e449}
+
+
+\hyperlink{class_magnum_1_1_audio_stream}{Audio\+Stream} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_audio_stream}{Audio\+Stream} and remove from its owner. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Audio\+Stream@{Magnum\+::\+Audio\+Stream}!play@{play}}
+\index{play@{play}!Magnum\+::\+Audio\+Stream@{Magnum\+::\+Audio\+Stream}}
+\subsubsection[{\texorpdfstring{play(bool loop)}{play(bool loop)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Audio\+Stream\+::play (
+\begin{DoxyParamCaption}
+\item[{bool}]{loop}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_audio_stream_afe27165ca951ac7e01914065ffecf741}{}\label{class_magnum_1_1_audio_stream_afe27165ca951ac7e01914065ffecf741}
+
+
+Start playing the audio. 
+
+
+\begin{DoxyParams}{參數}
+{\em loop,if} & true the audio will rewind to beginning. \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_magnum_1_1_audio_stream_afe27165ca951ac7e01914065ffecf741_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Audio\+Stream.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Audio\+Stream.\+cpp\end{DoxyCompactItemize}

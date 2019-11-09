@@ -1,0 +1,6 @@
+<map id="Magnum::VehicleCollider::~VehicleCollider" name="Magnum::VehicleCollider::~VehicleCollider">
+<area shape="rect" id="node2" href="$class_magnum_1_1_physics3_1_1_vehicle.html#a37648c149c5ad2c78868172fa1a6e5ff" title="Construct the RigidBody. " alt="" coords="220,5,405,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_physics3_1_1_vehicle.html#ab0bd5f0ffdaaba972447dddfd83c853f" title="Set the Transform of the RigidBody. " alt="" coords="220,71,405,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_physics3_1_1_vehicle.html#a4532094d2d5972827a6cc8a89677cfd5" title="Update the rigidbody and the owner. " alt="" coords="220,136,405,177"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_physics3_1_1_vehicle.html#aa7b1de22c398bb2711ed6c7ec384f45b" title="Destruct the rigidbody. " alt="" coords="220,201,405,243"/>
+</map>

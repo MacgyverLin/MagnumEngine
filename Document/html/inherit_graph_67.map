@@ -1,0 +1,48 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node1" href="$class_i_dream_sky_1_1_component.html" title="Component. " alt="" coords="5,483,165,509"/>
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_audio_component.html" title="AudioComponent. " alt="" coords="226,56,419,83"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_camera_component.html" title="CameraComponent. " alt="" coords="220,180,425,207"/>
+<area shape="rect" id="node12" href="$class_i_dream_sky_1_1_graphics2.html" title="IDreamSky::Graphics2" alt="" coords="246,381,399,408"/>
+<area shape="rect" id="node13" href="$class_i_dream_sky_1_1_graphics2_component.html" title="Graphics2Component. " alt="" coords="213,432,432,459"/>
+<area shape="rect" id="node14" href="$class_i_dream_sky_1_1_graphics3_component.html" title="Graphics3Component. " alt="" coords="213,483,432,509"/>
+<area shape="rect" id="node24" href="$class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. " alt="" coords="249,837,397,878"/>
+<area shape="rect" id="node33" href="$class_i_dream_sky_1_1_physics3_1_1_vehicle.html" title="IDreamSky::Physics3\l::Vehicle" alt="" coords="249,995,397,1037"/>
+<area shape="rect" id="node35" href="$class_i_dream_sky_1_1_renderer_base.html" title="RendererBase. " alt="" coords="235,1323,411,1349"/>
+<area shape="rect" id="node44" href="$class_i_dream_sky_1_1_selection3_1_1_bound.html" title="IDreamSky::Selection3\l::Bound" alt="" coords="245,1607,400,1649"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_audio_listener_base.html" title="AudioListenerBase. " alt="" coords="488,5,691,32"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_audio_source_base.html" title="AudioSourceBase. " alt="" coords="490,56,689,83"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_audio_listener.html" title="AudioListener. " alt="" coords="779,5,953,32"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_audio_clip.html" title="AudioClip. " alt="" coords="791,56,941,83"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_audio_stream.html" title="AudioStream. " alt="" coords="781,107,951,133"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_orthographic_camera_component.html" title="OrthographicCameraComponent. " alt="" coords="483,107,696,149"/>
+<area shape="rect" id="node10" href="$class_i_dream_sky_1_1_perspective_camera_component.html" title="PerspectiveCameraComponent. " alt="" coords="486,173,693,214"/>
+<area shape="rect" id="node11" href="$class_i_dream_sky_1_1_editor_camera_component.html" title="EditorCameraComponent. " alt="" coords="747,180,985,207"/>
+<area shape="rect" id="node15" href="$class_i_dream_sky_1_1_bill_board.html" title="BillBoard. " alt="" coords="516,239,663,265"/>
+<area shape="rect" id="node16" href="$class_i_dream_sky_1_1_cube.html" title="Cube Rendering Test Graphics Component. " alt="" coords="527,289,651,316"/>
+<area shape="rect" id="node17" href="$class_i_dream_sky_1_1_diffuse_map_cube.html" title="DiffuseMapCube Rendering Test Graphics Component. " alt="" coords="495,340,683,367"/>
+<area shape="rect" id="node18" href="$class_i_dream_sky_1_1_diffuse_map_specular_map_cube.html" title="DiffuseMapSpecularMapCube Rendering Test Graphics Component. " alt="" coords="485,391,694,433"/>
+<area shape="rect" id="node19" href="$class_i_dream_sky_1_1_editor_gizmo.html" title="EditorGizmo. " alt="" coords="506,457,673,484"/>
+<area shape="rect" id="node20" href="$class_i_dream_sky_1_1_particle_emitter.html" title="ParticleEmitter. " alt="" coords="499,508,679,535"/>
+<area shape="rect" id="node21" href="$class_i_dream_sky_1_1_skeletal_animation_model_base.html" title="IDreamSky::SkeletalAnimation\lModelBase" alt="" coords="490,559,689,601"/>
+<area shape="rect" id="node23" href="$class_i_dream_sky_1_1_sky_sphere.html" title="SkySphere Rendering Test Graphics Component. " alt="" coords="510,625,669,652"/>
+<area shape="rect" id="node22" href="$class_i_dream_sky_1_1_skeletal_animation_model.html" title="SkeletalAnimationModel. " alt="" coords="767,559,965,601"/>
+<area shape="rect" id="node25" href="$class_i_dream_sky_1_1_box3_collider.html" title="Box3Collider Component. " alt="" coords="506,676,673,703"/>
+<area shape="rect" id="node26" href="$class_i_dream_sky_1_1_b_v_h_triangle_mesh_collider.html" title="BVHTriangleMeshCollider Component. " alt="" coords="490,727,689,769"/>
+<area shape="rect" id="node27" href="$class_i_dream_sky_1_1_capsule3_collider.html" title="Capsule3Collider Component. " alt="" coords="494,793,685,820"/>
+<area shape="rect" id="node28" href="$class_i_dream_sky_1_1_cone3_collider.html" title="Cone3Collider Component. " alt="" coords="502,844,677,871"/>
+<area shape="rect" id="node29" href="$class_i_dream_sky_1_1_convex_hull3_collider.html" title="IDreamSky::ConvexHull3Collider" alt="" coords="485,895,693,921"/>
+<area shape="rect" id="node30" href="$class_i_dream_sky_1_1_cylinder3_collider.html" title="Cylinder3Collider Component. " alt="" coords="494,945,685,972"/>
+<area shape="rect" id="node31" href="$class_i_dream_sky_1_1_height_field_collider.html" title="HeightFieldCollider Component. " alt="" coords="488,996,691,1023"/>
+<area shape="rect" id="node32" href="$class_i_dream_sky_1_1_sphere3_collider.html" title="Sphere3Collider Component. " alt="" coords="497,1047,682,1073"/>
+<area shape="rect" id="node34" href="$class_i_dream_sky_1_1_vehicle_collider.html" title="VehicleCollider Component. " alt="" coords="499,1097,679,1124"/>
+<area shape="rect" id="node36" href="$class_i_dream_sky_1_1_bill_board_renderer.html" title="BillBoardRenderer. " alt="" coords="490,1148,689,1175"/>
+<area shape="rect" id="node37" href="$class_i_dream_sky_1_1_cube_renderer.html" title="CubeRenderer. " alt="" coords="501,1199,677,1225"/>
+<area shape="rect" id="node38" href="$class_i_dream_sky_1_1_diffuse_map_cube_renderer.html" title="DiffuseMapCubeRenderer. " alt="" coords="495,1250,683,1291"/>
+<area shape="rect" id="node39" href="$class_i_dream_sky_1_1_diffuse_map_specular_map_cube_renderer.html" title="DiffuseMapSpecularMapCubeRenderer. " alt="" coords="485,1315,694,1357"/>
+<area shape="rect" id="node40" href="$class_i_dream_sky_1_1_editor_gizmo_renderer.html" title="EditorGizmoRenderer. " alt="" coords="480,1381,699,1408"/>
+<area shape="rect" id="node41" href="$class_i_dream_sky_1_1_particle_emitter_renderer.html" title="ParticleEmitterRenderer. " alt="" coords="499,1433,679,1474"/>
+<area shape="rect" id="node42" href="$class_i_dream_sky_1_1_skeletal_animation_model_renderer.html" title="SkeletalAnimationModelRenderer. " alt="" coords="490,1498,689,1539"/>
+<area shape="rect" id="node43" href="$class_i_dream_sky_1_1_sky_sphere_renderer.html" title="SkySphereRenderer. " alt="" coords="484,1564,695,1591"/>
+<area shape="rect" id="node45" href="$class_i_dream_sky_1_1_capsule_bound.html" title="CapsuleBound Component. " alt="" coords="500,1615,679,1641"/>
+<area shape="rect" id="node46" href="$class_i_dream_sky_1_1_sphere_bound.html" title="SphereBound Component. " alt="" coords="503,1665,675,1692"/>
+</map>

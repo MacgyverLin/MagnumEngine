@@ -1,0 +1,14 @@
+<map id="Magnum::Component::Owner::isEditorModeActive" name="Magnum::Component::Owner::isEditorModeActive">
+<area shape="rect" id="node2" href="$class_magnum_1_1_component_1_1_owner.html#a40b2d7b5072754e7517251d52d09c8f2" title="Start the Component, it do start it for itself by calling onStart method and also call the start meth..." alt="" coords="232,5,387,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_component_1_1_owner.html#aae6b25b4cfa051ad7a76ad5ac59f08c7" title="PreUpdate the Component, it do preUpdate for itself by calling onPreUpdate method and also call the p..." alt="" coords="232,71,387,112"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_component_1_1_owner.html#a2a5903c026526f83cfd5d0d808a3eecc" title="Update the Component, it do update for itself by calling onUpdate method and also call the update met..." alt="" coords="232,136,387,177"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_component_1_1_owner.html#a8f796ed8887766aa49673abcffcba82f" title="PostUpdate the Component, it do postUpdate for itself by calling onPostUpdate method and also call th..." alt="" coords="232,201,387,243"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_component_1_1_owner.html#a75d6556ec96115c162786b106e487f0a" title="pause the Component, it do pause for itself by calling onPause method and also call the onPause metho..." alt="" coords="232,267,387,308"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_component_1_1_owner.html#ac2287e82a71a7d62586b09b1ec9d1280" title="resume the Component, it do resume for itself by calling onResume method and also call the onResume m..." alt="" coords="232,332,387,373"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_component_1_1_owner.html#a15f03464f950e9dd594e9f044827e38f" title="stop the Component, it do stop for itself by calling onStop method and also call the onStop method of..." alt="" coords="232,397,387,439"/>
+<area shape="rect" id="node12" href="$class_magnum_1_1_component_1_1_owner.html#aa0aa90562a79de82adecd5b0451d3bd5" title="write method for Serialization " alt="" coords="232,463,387,504"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_entity.html#a23b08d85a88f3346ca1833ebd8a48b61" title="Create the Entity by specifying a class path and provide a name as identifier. " alt="" coords="439,13,597,39"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_entity_1_1_i_creator.html#ae3f55786e3ea5e8594dc9710af13d9f7" title="Get the Entity* indexed at i. " alt="" coords="435,71,601,112"/>
+<area shape="rect" id="node11" href="$class_magnum_1_1_entity.html#a055ac09f7e01765eaa8894723c3024c5" title="Release the Entity and. " alt="" coords="436,405,600,431"/>
+<area shape="rect" id="node13" href="$class_magnum_1_1_entity.html#a10741436b8c23a174df4918577ad593c" title="write method for Serialization " alt="" coords="443,470,593,497"/>
+</map>

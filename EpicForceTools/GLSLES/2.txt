@@ -1,0 +1,47 @@
+Attributes
+{
+	attribute vec3 position		: POSITION0;
+	attribute vec4 color		: COLOR0;
+	attribute vec2 texCoord0	: TEXCOORD0;
+	attribute vec2 texCoord1	: TEXCOORD1;
+}
+
+Uniforms
+{
+	uniform lowp vec4 colorConstant;
+	uniform vec4 colorConstant;
+	uniform mat4 projViewModelTransform;
+	uniform vec2 posOffset;
+	uniform vec2 posScale;
+	uniform mat2 texture0Transform;
+	uniform vec2 texCoord0Offset;
+	uniform vec2 texCoord0Scale;
+	uniform sampler2D texture0;
+	uniform sampler2D texture1;
+}
+
+Technique Test
+{
+	Pass P0
+	{
+		cullfacedirection	= cw			// cw, ccw
+		cullfaceenable		= true;			// 
+		blendEnable		 	= true;			// true, false
+		add, subtract, reversesubtract
+		blendop 			= add;
+		srcblend 			= srcalpha;
+		destblend 			= oneminussrcalpha;
+		zenable 			= true;
+		cullmode			= ccw;
+		
+		vertexshader
+		{
+			"attribute vec3 position;attribute vec4 color;attribute vec2 texCoord0;attribute vec2 texCoord1;uniform mat4 projViewModelTransform;uniform vec2 posOffset;uniform vec2 posScale;uniform mat2 texture0Transform;uniform vec2 texCoord0Offset;uniform vec2 texCoord0Scale;varying lowp vec4 colorVarying;varying lowp vec2 texCoord0Varying;varying lowp vec2 texCoord1Varying;void main(){ gl_Position      = vec4(position.x, position.y, position.z, 1.0) * projViewModelTransform;	texCoord0Varying = texCoord0 * texture0Transform;	texCoord1Varying = texCoord1 * texCoord0Scale + texCoord0Offset;	colorVarying     = color; }";
+		}
+
+		pixelshader
+		{
+			"uniform sampler2D texture0;uniform sampler2D texture1;uniform lowp vec4 colorConstant;varying lowp vec4 colorVarying;varying lowp vec2 texCoord0Varying;varying lowp vec2 texCoord1Varying; void main(){	lowp vec4 texcol0 = texture2D(texture0, texCoord0Varying);	lowp vec4 texcol1 = texture2D(texture1, texCoord1Varying);	gl_FragColor = colorConstant*colorVarying*((texcol0+texcol1)*0.5); }";
+		}
+	}
+}

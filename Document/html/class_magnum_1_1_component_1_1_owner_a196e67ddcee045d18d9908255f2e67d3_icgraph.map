@@ -1,0 +1,5 @@
+<map id="Magnum::Component::Owner::onPostUpdate" name="Magnum::Component::Owner::onPostUpdate">
+<area shape="rect" id="node2" href="$class_magnum_1_1_component_1_1_owner.html#a8f796ed8887766aa49673abcffcba82f" title="PostUpdate the Component, it do postUpdate for itself by calling onPostUpdate method and also call th..." alt="" coords="208,5,363,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_component_1_1_owner.html#aa0aa90562a79de82adecd5b0451d3bd5" title="write method for Serialization " alt="" coords="208,71,363,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_entity.html#a10741436b8c23a174df4918577ad593c" title="write method for Serialization " alt="" coords="411,78,560,105"/>
+</map>

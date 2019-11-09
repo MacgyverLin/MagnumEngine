@@ -1,0 +1,8 @@
+<map id="IDreamSky::AudioComponent" name="IDreamSky::AudioComponent">
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_audio_listener_base.html" title="AudioListenerBase. " alt="" coords="5,155,208,181"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_audio_source_base.html" title="AudioSourceBase. " alt="" coords="233,155,431,181"/>
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_component.html" title="Component. " alt="" coords="139,5,299,32"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_audio_listener.html" title="AudioListener. " alt="" coords="20,229,193,256"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_audio_clip.html" title="AudioClip. " alt="" coords="237,229,387,256"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_audio_stream.html" title="AudioStream. " alt="" coords="411,229,581,256"/>
+</map>

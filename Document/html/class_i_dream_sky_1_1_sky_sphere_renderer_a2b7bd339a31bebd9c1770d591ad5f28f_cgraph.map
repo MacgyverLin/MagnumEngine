@@ -1,0 +1,4 @@
+<map id="IDreamSky::SkySphereRenderer::remove" name="IDreamSky::SkySphereRenderer::remove">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_camera_component.html#a38e7ee545e4981d3285df17f89561c24" title="Check if the parameter layer matches TargetLayer to this camera. " alt="" coords="264,5,469,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_camera_component.html#af5d94dcadd4011e3a0dad972c8eadd9b" title="Get the coordinate of project plane of at the near plane of camera. " alt="" coords="264,71,469,112"/>
+</map>

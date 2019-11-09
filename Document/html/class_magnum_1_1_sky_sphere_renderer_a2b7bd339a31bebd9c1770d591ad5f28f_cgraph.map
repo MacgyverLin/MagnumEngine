@@ -1,0 +1,5 @@
+<map id="Magnum::SkySphereRenderer::remove" name="Magnum::SkySphereRenderer::remove">
+<area shape="rect" id="node2" href="$class_magnum_1_1_camera_component.html#a38e7ee545e4981d3285df17f89561c24" title="Check if the parameter layer matches TargetLayer to this camera. " alt="" coords="249,5,440,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_camera_component.html#af5d94dcadd4011e3a0dad972c8eadd9b" title="Get the coordinate of project plane of at the near plane of camera. " alt="" coords="249,71,440,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_frame3.html#a57a2f755811f485d9602103609c78d68" title="Get the Frame3&#39;s global transform. " alt="" coords="251,136,438,177"/>
+</map>

@@ -1,0 +1,304 @@
+\hypertarget{class_magnum_1_1_shape3}{}\section{Magnum\+:\+:Shape3 類別 參考文件}
+\label{class_magnum_1_1_shape3}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}
+
+
+\hyperlink{class_magnum_1_1_shape3}{Shape3}.  
+
+
+
+
+{\ttfamily \#include $<$Shape3.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Shape3的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_shape3__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Shape3的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{class_magnum_1_1_shape3__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffb}{Type} \{ \\*
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba6f7566c8092b4d126b3e25c852673f4e}{B\+OX} = 0, 
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba41980a7dc08bfd79ebf15a78d32eb1d0}{S\+P\+H\+E\+RE} = 1, 
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba4d28be42fa8ebb455d891b2a9ff05e73}{C\+A\+P\+S\+U\+LE} = 2, 
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba58c78b38b9c159f11808f0c8ae31b46a}{C\+Y\+L\+I\+N\+D\+ER} = 3, 
+\\*
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbab284a2550541ae69232aff6eb02c94ad}{C\+O\+NE} = 4, 
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbad34e131a98de7db99617ba306522d4a2}{C\+O\+N\+V\+E\+X\+H\+U\+LL} = 5, 
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba85d4e7d61e584b6b56365b9b37bd34bc}{C\+O\+M\+P\+O\+S\+I\+TE} = 6, 
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba8129bee03d3957357114cc8c026bb147}{C\+O\+N\+C\+A\+V\+E\+T\+R\+I\+A\+N\+G\+L\+E\+M\+E\+SH} = 7, 
+\\*
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbae07212f8a5b71e3580daead2a536b9ec}{H\+E\+I\+G\+H\+T\+\_\+\+F\+I\+E\+LD} = 8, 
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbae785d49214bf25042a0c6e4a375c3e55}{B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+S\+H\+\_\+\+I\+N\+S\+T\+A\+N\+CE} = 9, 
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbadec1bfcff893f6f2c33ea0b75302e518}{B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+SH} = 10, 
+{\bfseries N\+U\+M\+\_\+\+T\+Y\+P\+ES}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_shape3_aef288a7fbf23901161ddbd81f6d70191}{Shape3} (\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffb}{Shape3\+::\+Type} type\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_shape3}{Shape3} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_shape3_a71ac6166c20d81d6f2c0e64c8ea4a524}{$\sim$\+Shape3} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_shape3}{Shape3} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffb}{Shape3\+::\+Type} \hyperlink{class_magnum_1_1_shape3_a5968a4ef166e399f5f0b7894666a94f2}{get\+Type} () const 
+\begin{DoxyCompactList}\small\item\em Get the type of the Shape. \end{DoxyCompactList}\item 
+virtual const \hyperlink{class_magnum_1_1_shape3}{Shape3} $\ast$ \hyperlink{class_magnum_1_1_shape3_ab751e951847254e02861cf8a3572e7bc}{get\+Child} (int i) const 
+\begin{DoxyCompactList}\small\item\em Get a constant pointer to a child shape of this shape. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_shape3}{Shape3} $\ast$ \hyperlink{class_magnum_1_1_shape3_ae0b8c8c043c558486ecb24b4420cc71e}{get\+Child} (int i)
+\begin{DoxyCompactList}\small\item\em Get a pointer to a child shape of this shape. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_shape3_a9564c4fe471f1aca17f7419c4ef10ab6}{get\+Num\+Children} () const 
+\begin{DoxyCompactList}\small\item\em Get the Number of Child Shapes of this Shape;. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_a_a_b_b3}{A\+A\+B\+B3} \& \hyperlink{class_magnum_1_1_shape3_a5704ab3fe88257e1f842720fe87cd201}{get\+Bounding\+Box} () const 
+\begin{DoxyCompactList}\small\item\em Get the Bounding Box of this Shape;. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_shape3_a9b746b36c7cac8ee9d0a14af666d4800}{get\+Volume} () const 
+\begin{DoxyCompactList}\small\item\em Get the Volume of this Shape;. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_shape3_a5d586c69e4a4b59b8386c3fbb8568984}{get\+Mass\+Prop} (float density, float \&mass, \hyperlink{class_magnum_1_1_vector3}{Vector3} \&local\+Inertia) const  =0
+\begin{DoxyCompactList}\small\item\em To calculate the mass and moment of inertia according to the shape and density. \end{DoxyCompactList}\item 
+void $\ast$ {\bfseries get\+Handle} () const \hypertarget{class_magnum_1_1_shape3_a9832dc3490b5a022d49f2011373ba2af}{}\label{class_magnum_1_1_shape3_a9832dc3490b5a022d49f2011373ba2af}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_a_a_b_b3}{A\+A\+B\+B3} {\bfseries bounding\+Box}\hypertarget{class_magnum_1_1_shape3_a66cacb9581eb84c3743fb9f6dcf37068}{}\label{class_magnum_1_1_shape3_a66cacb9581eb84c3743fb9f6dcf37068}
+
+\item 
+float {\bfseries volume}\hypertarget{class_magnum_1_1_shape3_a654d0ce378a068968b555ce54a6b4a91}{}\label{class_magnum_1_1_shape3_a654d0ce378a068968b555ce54a6b4a91}
+
+\item 
+void $\ast$ {\bfseries handle}\hypertarget{class_magnum_1_1_shape3_ab0b494d02e050f5d8a55bf3aafd52e94}{}\label{class_magnum_1_1_shape3_ab0b494d02e050f5d8a55bf3aafd52e94}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_shape3}{Shape3}. 
+
+This is the base class for all Shapes. 
+
+\subsection{列舉型態成員說明文件}
+\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!Type@{Type}}
+\index{Type@{Type}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}
+\subsubsection[{\texorpdfstring{Type}{Type}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Magnum\+::\+Shape3\+::\+Type}}\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffb}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffb}
+\begin{Desc}
+\item[列舉值]\par
+\begin{description}
+\index{B\+OX@{B\+OX}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!B\+OX@{B\+OX}}\item[{\em 
+B\+OX\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba6f7566c8092b4d126b3e25c852673f4e}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba6f7566c8092b4d126b3e25c852673f4e}
+}]a B\+OX Shape \index{S\+P\+H\+E\+RE@{S\+P\+H\+E\+RE}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!S\+P\+H\+E\+RE@{S\+P\+H\+E\+RE}}\item[{\em 
+S\+P\+H\+E\+RE\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba41980a7dc08bfd79ebf15a78d32eb1d0}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba41980a7dc08bfd79ebf15a78d32eb1d0}
+}]a S\+P\+H\+E\+RE Shape \index{C\+A\+P\+S\+U\+LE@{C\+A\+P\+S\+U\+LE}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!C\+A\+P\+S\+U\+LE@{C\+A\+P\+S\+U\+LE}}\item[{\em 
+C\+A\+P\+S\+U\+LE\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba4d28be42fa8ebb455d891b2a9ff05e73}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba4d28be42fa8ebb455d891b2a9ff05e73}
+}]a C\+A\+P\+S\+U\+LE Shape \index{C\+Y\+L\+I\+N\+D\+ER@{C\+Y\+L\+I\+N\+D\+ER}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!C\+Y\+L\+I\+N\+D\+ER@{C\+Y\+L\+I\+N\+D\+ER}}\item[{\em 
+C\+Y\+L\+I\+N\+D\+ER\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba58c78b38b9c159f11808f0c8ae31b46a}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba58c78b38b9c159f11808f0c8ae31b46a}
+}]a C\+Y\+L\+I\+N\+D\+ER Shape \index{C\+O\+NE@{C\+O\+NE}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!C\+O\+NE@{C\+O\+NE}}\item[{\em 
+C\+O\+NE\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbab284a2550541ae69232aff6eb02c94ad}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbab284a2550541ae69232aff6eb02c94ad}
+}]a C\+O\+NE Shape \index{C\+O\+N\+V\+E\+X\+H\+U\+LL@{C\+O\+N\+V\+E\+X\+H\+U\+LL}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!C\+O\+N\+V\+E\+X\+H\+U\+LL@{C\+O\+N\+V\+E\+X\+H\+U\+LL}}\item[{\em 
+C\+O\+N\+V\+E\+X\+H\+U\+LL\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbad34e131a98de7db99617ba306522d4a2}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbad34e131a98de7db99617ba306522d4a2}
+}]a C\+O\+N\+V\+E\+X\+H\+U\+LL Shape \index{C\+O\+M\+P\+O\+S\+I\+TE@{C\+O\+M\+P\+O\+S\+I\+TE}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!C\+O\+M\+P\+O\+S\+I\+TE@{C\+O\+M\+P\+O\+S\+I\+TE}}\item[{\em 
+C\+O\+M\+P\+O\+S\+I\+TE\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba85d4e7d61e584b6b56365b9b37bd34bc}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba85d4e7d61e584b6b56365b9b37bd34bc}
+}]a C\+O\+M\+P\+O\+S\+I\+TE Shape \index{C\+O\+N\+C\+A\+V\+E\+T\+R\+I\+A\+N\+G\+L\+E\+M\+E\+SH@{C\+O\+N\+C\+A\+V\+E\+T\+R\+I\+A\+N\+G\+L\+E\+M\+E\+SH}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!C\+O\+N\+C\+A\+V\+E\+T\+R\+I\+A\+N\+G\+L\+E\+M\+E\+SH@{C\+O\+N\+C\+A\+V\+E\+T\+R\+I\+A\+N\+G\+L\+E\+M\+E\+SH}}\item[{\em 
+C\+O\+N\+C\+A\+V\+E\+T\+R\+I\+A\+N\+G\+L\+E\+M\+E\+SH\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba8129bee03d3957357114cc8c026bb147}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffba8129bee03d3957357114cc8c026bb147}
+}]a C\+O\+N\+C\+A\+V\+E\+T\+R\+I\+A\+N\+G\+L\+E\+M\+E\+SH Shape \index{H\+E\+I\+G\+H\+T\+\_\+\+F\+I\+E\+LD@{H\+E\+I\+G\+H\+T\+\_\+\+F\+I\+E\+LD}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!H\+E\+I\+G\+H\+T\+\_\+\+F\+I\+E\+LD@{H\+E\+I\+G\+H\+T\+\_\+\+F\+I\+E\+LD}}\item[{\em 
+H\+E\+I\+G\+H\+T\+\_\+\+F\+I\+E\+LD\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbae07212f8a5b71e3580daead2a536b9ec}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbae07212f8a5b71e3580daead2a536b9ec}
+}]a H\+E\+I\+G\+H\+T\+\_\+\+F\+I\+E\+LD Shape \index{B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+S\+H\+\_\+\+I\+N\+S\+T\+A\+N\+CE@{B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+S\+H\+\_\+\+I\+N\+S\+T\+A\+N\+CE}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+S\+H\+\_\+\+I\+N\+S\+T\+A\+N\+CE@{B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+S\+H\+\_\+\+I\+N\+S\+T\+A\+N\+CE}}\item[{\em 
+B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+S\+H\+\_\+\+I\+N\+S\+T\+A\+N\+CE\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbae785d49214bf25042a0c6e4a375c3e55}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbae785d49214bf25042a0c6e4a375c3e55}
+}]a B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+S\+H\+\_\+\+I\+N\+S\+T\+A\+N\+CE Shape \index{B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+SH@{B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+SH}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+SH@{B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+SH}}\item[{\em 
+B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+SH\hypertarget{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbadec1bfcff893f6f2c33ea0b75302e518}{}\label{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffbadec1bfcff893f6f2c33ea0b75302e518}
+}]a B\+V\+H\+\_\+\+T\+R\+I\+A\+N\+G\+L\+E\+\_\+\+M\+E\+SH Shape \end{description}
+\end{Desc}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!Shape3@{Shape3}}
+\index{Shape3@{Shape3}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}
+\subsubsection[{\texorpdfstring{Shape3(\+Shape3\+::\+Type type\+\_\+)}{Shape3(Shape3::Type type_)}}]{\setlength{\rightskip}{0pt plus 5cm}Shape3\+::\+Shape3 (
+\begin{DoxyParamCaption}
+\item[{{\bf Shape3\+::\+Type}}]{type\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_shape3_aef288a7fbf23901161ddbd81f6d70191}{}\label{class_magnum_1_1_shape3_aef288a7fbf23901161ddbd81f6d70191}
+
+
+\hyperlink{class_magnum_1_1_shape3}{Shape3} Constructor. 
+
+
+\begin{DoxyParams}{參數}
+{\em type\+\_\+,specify} & the type of the shape To Construct the \hyperlink{class_magnum_1_1_shape3}{Shape3} \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!````~Shape3@{$\sim$\+Shape3}}
+\index{````~Shape3@{$\sim$\+Shape3}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}
+\subsubsection[{\texorpdfstring{$\sim$\+Shape3()}{~Shape3()}}]{\setlength{\rightskip}{0pt plus 5cm}Shape3\+::$\sim$\+Shape3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_shape3_a71ac6166c20d81d6f2c0e64c8ea4a524}{}\label{class_magnum_1_1_shape3_a71ac6166c20d81d6f2c0e64c8ea4a524}
+
+
+\hyperlink{class_magnum_1_1_shape3}{Shape3} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_shape3}{Shape3} 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!get\+Bounding\+Box@{get\+Bounding\+Box}}
+\index{get\+Bounding\+Box@{get\+Bounding\+Box}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}
+\subsubsection[{\texorpdfstring{get\+Bounding\+Box() const }{getBoundingBox() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf A\+A\+B\+B3} \& Shape3\+::get\+Bounding\+Box (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_shape3_a5704ab3fe88257e1f842720fe87cd201}{}\label{class_magnum_1_1_shape3_a5704ab3fe88257e1f842720fe87cd201}
+
+
+Get the Bounding Box of this Shape;. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_a_a_b_b3}{A\+A\+B\+B3}, the Bounding Box of this Shape; 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_shape3_a5704ab3fe88257e1f842720fe87cd201_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!get\+Child@{get\+Child}}
+\index{get\+Child@{get\+Child}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}
+\subsubsection[{\texorpdfstring{get\+Child(int i) const }{getChild(int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Shape3} $\ast$ Shape3\+::get\+Child (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_shape3_ab751e951847254e02861cf8a3572e7bc}{}\label{class_magnum_1_1_shape3_ab751e951847254e02861cf8a3572e7bc}
+
+
+Get a constant pointer to a child shape of this shape. 
+
+
+\begin{DoxyParams}{參數}
+{\em i,the} & index to the child shape \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+Shape3$\ast$, child shape at this index 
+\end{DoxyReturn}
+\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!get\+Child@{get\+Child}}
+\index{get\+Child@{get\+Child}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}
+\subsubsection[{\texorpdfstring{get\+Child(int i)}{getChild(int i)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Shape3} $\ast$ Shape3\+::get\+Child (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_shape3_ae0b8c8c043c558486ecb24b4420cc71e}{}\label{class_magnum_1_1_shape3_ae0b8c8c043c558486ecb24b4420cc71e}
+
+
+Get a pointer to a child shape of this shape. 
+
+
+\begin{DoxyParams}{參數}
+{\em i,the} & index to the child shape \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+Shape3$\ast$, child shape at this index 
+\end{DoxyReturn}
+\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!get\+Mass\+Prop@{get\+Mass\+Prop}}
+\index{get\+Mass\+Prop@{get\+Mass\+Prop}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}
+\subsubsection[{\texorpdfstring{get\+Mass\+Prop(float density, float \&mass, Vector3 \&local\+Inertia) const  =0}{getMassProp(float density, float &mass, Vector3 &localInertia) const  =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Magnum\+::\+Shape3\+::get\+Mass\+Prop (
+\begin{DoxyParamCaption}
+\item[{float}]{density, }
+\item[{float \&}]{mass, }
+\item[{{\bf Vector3} \&}]{local\+Inertia}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_magnum_1_1_shape3_a5d586c69e4a4b59b8386c3fbb8568984}{}\label{class_magnum_1_1_shape3_a5d586c69e4a4b59b8386c3fbb8568984}
+
+
+To calculate the mass and moment of inertia according to the shape and density. 
+
+Being a pure virtual member, all subclass should implement this function. 
+\begin{DoxyParams}{參數}
+{\em density,the} & density of the shape \\
+\hline
+{\em mass,the} & result of the mass of the shape is returned here \\
+\hline
+{\em local\+Inertia,the} & result of the moment of inertia of the shape is returned here \\
+\hline
+\end{DoxyParams}
+
+
+實作於 \hyperlink{class_magnum_1_1_height_field_shape3_acc884a1757a1873353c679403939361b}{Magnum\+::\+Height\+Field\+Shape3}, \hyperlink{class_magnum_1_1_capsule_shape3_a95ce60deb958461f0d7216819c56f798}{Magnum\+::\+Capsule\+Shape3}, \hyperlink{class_magnum_1_1_cone_shape3_a8082855a635e33d5d9f209a953b0f15d}{Magnum\+::\+Cone\+Shape3}, \hyperlink{class_magnum_1_1_cylinder_shape3_ac34f1b50e44652be4bb1752c0fe8bff9}{Magnum\+::\+Cylinder\+Shape3}, \hyperlink{class_magnum_1_1_box_shape3_aeb4314532f69b7e03d98dacd2f374095}{Magnum\+::\+Box\+Shape3}, 及 \hyperlink{class_magnum_1_1_sphere_shape3_a6588ac697b663d9318883c8783e76fa6}{Magnum\+::\+Sphere\+Shape3}.
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_shape3_a5d586c69e4a4b59b8386c3fbb8568984_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!get\+Num\+Children@{get\+Num\+Children}}
+\index{get\+Num\+Children@{get\+Num\+Children}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}
+\subsubsection[{\texorpdfstring{get\+Num\+Children() const }{getNumChildren() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Shape3\+::get\+Num\+Children (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_shape3_a9564c4fe471f1aca17f7419c4ef10ab6}{}\label{class_magnum_1_1_shape3_a9564c4fe471f1aca17f7419c4ef10ab6}
+
+
+Get the Number of Child Shapes of this Shape;. 
+
+\begin{DoxyReturn}{傳回值}
+int, Number of Child Shapes of this Shape 
+\end{DoxyReturn}
+\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}
+\subsubsection[{\texorpdfstring{get\+Type() const }{getType() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Shape3\+::\+Type} Shape3\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_shape3_a5968a4ef166e399f5f0b7894666a94f2}{}\label{class_magnum_1_1_shape3_a5968a4ef166e399f5f0b7894666a94f2}
+
+
+Get the type of the Shape. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_shape3_ae6ddcdad31136c099bc210b3f6399ffb}{Shape3\+::\+Type}, the type of the Shape. 
+\end{DoxyReturn}
+\index{Magnum\+::\+Shape3@{Magnum\+::\+Shape3}!get\+Volume@{get\+Volume}}
+\index{get\+Volume@{get\+Volume}!Magnum\+::\+Shape3@{Magnum\+::\+Shape3}}
+\subsubsection[{\texorpdfstring{get\+Volume() const }{getVolume() const }}]{\setlength{\rightskip}{0pt plus 5cm}float Shape3\+::get\+Volume (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_shape3_a9b746b36c7cac8ee9d0a14af666d4800}{}\label{class_magnum_1_1_shape3_a9b746b36c7cac8ee9d0a14af666d4800}
+
+
+Get the Volume of this Shape;. 
+
+\begin{DoxyReturn}{傳回值}
+float, the Volume of this Shape; 
+\end{DoxyReturn}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Shape3.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Shape3.\+cpp\end{DoxyCompactItemize}

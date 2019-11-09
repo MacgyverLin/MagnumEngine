@@ -1,0 +1,83 @@
+\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation}{}\section{I\+Dream\+Sky\+:\+:Skeletal\+Animation\+Model\+:\+:Bone\+Animation 類別 參考文件}
+\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation}\index{I\+Dream\+Sky\+::\+Skeletal\+Animation\+Model\+::\+Bone\+Animation@{I\+Dream\+Sky\+::\+Skeletal\+Animation\+Model\+::\+Bone\+Animation}}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries get\+Num\+Frames\+Per\+Translation\+Key} () const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_af4f225a15408443e4f4ac84b15756c33}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_af4f225a15408443e4f4ac84b15756c33}
+
+\item 
+int {\bfseries get\+Num\+Translation\+Key} () const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_afd8150f33c41ab968b4d7c00fc8bd9e8}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_afd8150f33c41ab968b4d7c00fc8bd9e8}
+
+\item 
+const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \& {\bfseries get\+Translation\+Key} (int i) const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ad30f1ecf64168cb9ee602c90186947f1}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ad30f1ecf64168cb9ee602c90186947f1}
+
+\item 
+int {\bfseries get\+Num\+Frames\+Per\+Rotation\+Key} () const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a8d55c1118c22255caf5f3a26520edbc2}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a8d55c1118c22255caf5f3a26520edbc2}
+
+\item 
+int {\bfseries get\+Num\+Rotation\+Key} () const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a82020adc7f4512238922e751e105e560}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a82020adc7f4512238922e751e105e560}
+
+\item 
+const \hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion} \& {\bfseries get\+Rotation\+Key} (int i) const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a6a270b53ffd6851ae876549fb42c7516}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a6a270b53ffd6851ae876549fb42c7516}
+
+\item 
+int {\bfseries get\+Num\+Frames\+Per\+Scale\+Key} () const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ab6c061446d615bda15062a0f20d36d18}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ab6c061446d615bda15062a0f20d36d18}
+
+\item 
+int {\bfseries get\+Num\+Scale\+Key} () const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a4b478cd9309e0e0983c594c8fd72dbf6}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a4b478cd9309e0e0983c594c8fd72dbf6}
+
+\item 
+const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \& {\bfseries get\+Scale\+Key} (int i) const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_add53fe74af3bb2df1b431cca7819b883}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_add53fe74af3bb2df1b431cca7819b883}
+
+\item 
+void {\bfseries read} (\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} \&is)\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ae0b939418a7dd77d9548875727c8fdd1}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ae0b939418a7dd77d9548875727c8fdd1}
+
+\item 
+void {\bfseries write} (\hyperlink{class_i_dream_sky_1_1_output_stream}{Output\+Stream} \&os) const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ae169f07eb3270439350619665587c16f}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ae169f07eb3270439350619665587c16f}
+
+\item 
+void {\bfseries debug\+Print} (int tab\+Count) const \hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ac8ca3ae6097da50f9c075040ed639df0}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ac8ca3ae6097da50f9c075040ed639df0}
+
+\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bfseries lerp\+Translation} (\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&result, const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&t0, const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&t1, float t)\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a92fcefe922176cff39b8e2011eedc336}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a92fcefe922176cff39b8e2011eedc336}
+
+\item 
+static void {\bfseries lerp\+Rotation} (\hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion} \&result, const \hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion} \&q0, const \hyperlink{class_i_dream_sky_1_1_quaternion}{Quaternion} \&q1, float t)\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a5456b09c64fe05a42a448d3d9dbc1d77}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a5456b09c64fe05a42a448d3d9dbc1d77}
+
+\item 
+static void {\bfseries lerp\+Scale} (\hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&result, const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&s0, const \hyperlink{class_i_dream_sky_1_1_vector3}{Vector3} \&s1, float t)\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_afd669d9f2f81237cd312d5277e5277bd}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_afd669d9f2f81237cd312d5277e5277bd}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Skeleton\+Parser}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a14bd27cfabbcaeaa0eccce0e2968a6a1}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a14bd27cfabbcaeaa0eccce0e2968a6a1}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Mesh\+Parser}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a85398ce1e5e5023cd13165515f7cfbfa}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a85398ce1e5e5023cd13165515f7cfbfa}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Animation\+Parser}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ade6e25226df119aaa0de3f45d908a551}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_ade6e25226df119aaa0de3f45d908a551}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Parser\+Base}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a11930f7450c30641e8526b073100f760}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a11930f7450c30641e8526b073100f760}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Parser}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a472cd974e223ab8bf1063fc39c8a7d43}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a472cd974e223ab8bf1063fc39c8a7d43}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a40c4f607e5b71602c57777a29d5b4d31}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a40c4f607e5b71602c57777a29d5b4d31}
+
+\item 
+class {\bfseries Skeletal\+Animation\+Model\+Renderer}\hypertarget{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a9a80d2b83f1f7bd922df78f21ee526db}{}\label{class_i_dream_sky_1_1_skeletal_animation_model_1_1_bone_animation_a9a80d2b83f1f7bd922df78f21ee526db}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Skeletal\+Animation\+Model.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Skeletal\+Animation\+Model.\+cpp\end{DoxyCompactItemize}

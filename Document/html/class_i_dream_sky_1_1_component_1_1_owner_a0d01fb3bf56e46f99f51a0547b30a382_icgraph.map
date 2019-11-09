@@ -1,0 +1,5 @@
+<map id="IDreamSky::Component::Owner::onUpdate" name="IDreamSky::Component::Owner::onUpdate">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_component_1_1_owner.html#a2a5903c026526f83cfd5d0d808a3eecc" title="Update the Component, it do update for itself by calling onUpdate method and also call the update met..." alt="" coords="213,5,373,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_component_1_1_owner.html#aa0aa90562a79de82adecd5b0451d3bd5" title="write method for Serialization " alt="" coords="213,71,373,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_entity.html#a10741436b8c23a174df4918577ad593c" title="write method for Serialization " alt="" coords="421,71,557,112"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Magnum::ResourceAccess::name" name="Magnum::ResourceAccess::name">
+<area shape="rect" id="node2" href="$class_magnum_1_1_audio_clip_1_1_resource.html#aa637ed65b9e1774ea970608b77bea0ad" title="Get the Handle of Audio CLip. " alt="" coords="257,5,399,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_anim_model_1_1_resource.html#a19030df08b1b4e27e738f43c44eb11c5" title="Get the position, rotation, scale of the i&#45;th bone at time. " alt="" coords="232,71,424,112"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="481,13,648,39"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_skeletal_animation.html#a7c4a6ec45a2dbcc9b68612b26e897e18" title="This function get the Vector10 (scale, rotation and translation) of the i&#45;th bone. " alt="" coords="472,71,657,112"/>
+</map>

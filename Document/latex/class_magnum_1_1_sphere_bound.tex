@@ -1,0 +1,165 @@
+\hypertarget{class_magnum_1_1_sphere_bound}{}\section{Magnum\+:\+:Sphere\+Bound 類別 參考文件}
+\label{class_magnum_1_1_sphere_bound}\index{Magnum\+::\+Sphere\+Bound@{Magnum\+::\+Sphere\+Bound}}
+
+
+\hyperlink{class_magnum_1_1_sphere_bound}{Sphere\+Bound} \hyperlink{class_magnum_1_1_component}{Component}.  
+
+
+
+
+{\ttfamily \#include $<$Sphere\+Bound.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Sphere\+Bound的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{class_magnum_1_1_sphere_bound__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Sphere\+Bound的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{class_magnum_1_1_sphere_bound__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_sphere_bound_ad0985e38af18aef4548764c8ac834d97}{Sphere\+Bound} (\hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} \&owner\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_sphere_bound}{Sphere\+Bound} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_sphere_bound_a6945c94afcf7753b176a3633fb73d58f}{$\sim$\+Sphere\+Bound} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_sphere_bound}{Sphere\+Bound} Destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_sphere_bound_ad7d7f34a4f8fcb1b3943fd392c6401e4}{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT} (\hyperlink{class_magnum_1_1_sphere_bound}{Sphere\+Bound}, \hyperlink{class_magnum_1_1_selection3_1_1_bound}{Selection3\+::\+Bound}, false)   \hyperlink{class_magnum_1_1_component_a30a9f5cf6e5c94519c752f30ac3c6013}{P\+R\+O\+P\+E\+R\+TY}(float
+\begin{DoxyCompactList}\small\item\em Set the Radius of the Capsule. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_sphere_bound_a0678ac647bb7374a3759000a1619bf45}{ray\+Cast} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&from, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&dir)
+\begin{DoxyCompactList}\small\item\em Do Ray Casting for a ray by specifying starting point and direction. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_sphere_bound_a3f4ad2ea0a478b6ec6aaf7f79f21899a}{sphere\+Cast} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&from, float radius, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&dir)
+\begin{DoxyCompactList}\small\item\em Do Sphere Casting for a sphere by specifying starting point and direction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Radius}\hypertarget{class_magnum_1_1_sphere_bound_a885e147b14616fdc2c99f9ceb3ec3c44}{}\label{class_magnum_1_1_sphere_bound_a885e147b14616fdc2c99f9ceb3ec3c44}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_sphere_bound}{Sphere\+Bound} \hyperlink{class_magnum_1_1_component}{Component}. 
+
+\hyperlink{class_magnum_1_1_sphere_bound}{Sphere\+Bound} \hyperlink{class_magnum_1_1_component}{Component} is a Sphere \hyperlink{class_magnum_1_1_selection3_1_1_bound}{Selection3\+::\+Bound} \hyperlink{class_magnum_1_1_component}{Component}. \begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_selection3_1_1_bound}{Selection3\+::\+Bound} 
+\end{DoxySeeAlso}
+
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Sphere\+Bound@{Magnum\+::\+Sphere\+Bound}!Sphere\+Bound@{Sphere\+Bound}}
+\index{Sphere\+Bound@{Sphere\+Bound}!Magnum\+::\+Sphere\+Bound@{Magnum\+::\+Sphere\+Bound}}
+\subsubsection[{\texorpdfstring{Sphere\+Bound(\+Component\+::\+Owner \&owner\+\_\+)}{SphereBound(Component::Owner &owner_)}}]{\setlength{\rightskip}{0pt plus 5cm}Sphere\+Bound\+::\+Sphere\+Bound (
+\begin{DoxyParamCaption}
+\item[{{\bf Component\+::\+Owner} \&}]{owner\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_sphere_bound_ad0985e38af18aef4548764c8ac834d97}{}\label{class_magnum_1_1_sphere_bound_ad0985e38af18aef4548764c8ac834d97}
+
+
+\hyperlink{class_magnum_1_1_sphere_bound}{Sphere\+Bound} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_sphere_bound}{Sphere\+Bound} for the owner. 
+\begin{DoxyParams}{參數}
+{\em owner\+\_\+,the} & \hyperlink{class_magnum_1_1_component_1_1_owner}{Component\+::\+Owner} which owns this component. \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Sphere\+Bound@{Magnum\+::\+Sphere\+Bound}!````~Sphere\+Bound@{$\sim$\+Sphere\+Bound}}
+\index{````~Sphere\+Bound@{$\sim$\+Sphere\+Bound}!Magnum\+::\+Sphere\+Bound@{Magnum\+::\+Sphere\+Bound}}
+\subsubsection[{\texorpdfstring{$\sim$\+Sphere\+Bound()}{~SphereBound()}}]{\setlength{\rightskip}{0pt plus 5cm}Sphere\+Bound\+::$\sim$\+Sphere\+Bound (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_sphere_bound_a6945c94afcf7753b176a3633fb73d58f}{}\label{class_magnum_1_1_sphere_bound_a6945c94afcf7753b176a3633fb73d58f}
+
+
+\hyperlink{class_magnum_1_1_sphere_bound}{Sphere\+Bound} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_sphere_bound}{Sphere\+Bound} and remove from its owner. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Sphere\+Bound@{Magnum\+::\+Sphere\+Bound}!D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT@{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT}}
+\index{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT@{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT}!Magnum\+::\+Sphere\+Bound@{Magnum\+::\+Sphere\+Bound}}
+\subsubsection[{\texorpdfstring{D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+N\+T(\+Sphere\+Bound, Selection3\+::\+Bound, false)   P\+R\+O\+P\+E\+R\+T\+Y(float}{DECLARE_COMPONENT(SphereBound, Selection3::Bound, false)   PROPERTY(float}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Sphere\+Bound\+::\+D\+E\+C\+L\+A\+R\+E\+\_\+\+C\+O\+M\+P\+O\+N\+E\+NT (
+\begin{DoxyParamCaption}
+\item[{{\bf Sphere\+Bound}}]{, }
+\item[{{\bf Selection3\+::\+Bound}}]{, }
+\item[{false}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_sphere_bound_ad7d7f34a4f8fcb1b3943fd392c6401e4}{}\label{class_magnum_1_1_sphere_bound_ad7d7f34a4f8fcb1b3943fd392c6401e4}
+
+
+Set the Radius of the Capsule. 
+
+
+\begin{DoxyParams}{參數}
+{\em value\+\_\+,float,the} & Radius of the Capsule Get the Radius of the Capsule \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+the Radius of the Capsule 
+\end{DoxyReturn}
+\index{Magnum\+::\+Sphere\+Bound@{Magnum\+::\+Sphere\+Bound}!ray\+Cast@{ray\+Cast}}
+\index{ray\+Cast@{ray\+Cast}!Magnum\+::\+Sphere\+Bound@{Magnum\+::\+Sphere\+Bound}}
+\subsubsection[{\texorpdfstring{ray\+Cast(const Vector3 \&from, const Vector3 \&dir)}{rayCast(const Vector3 &from, const Vector3 &dir)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Sphere\+Bound\+::ray\+Cast (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{from, }
+\item[{const {\bf Vector3} \&}]{dir}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_sphere_bound_a0678ac647bb7374a3759000a1619bf45}{}\label{class_magnum_1_1_sphere_bound_a0678ac647bb7374a3759000a1619bf45}
+
+
+Do Ray Casting for a ray by specifying starting point and direction. 
+
+
+\begin{DoxyParams}{參數}
+{\em from,\hyperlink{class_magnum_1_1_vector3}{Vector3},the} & starting point of the ray \\
+\hline
+{\em dir,\hyperlink{class_magnum_1_1_vector3}{Vector3},the} & direction of the ray \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_selection3_1_1_bound}{Magnum\+::\+Selection3\+::\+Bound}.
+
+\index{Magnum\+::\+Sphere\+Bound@{Magnum\+::\+Sphere\+Bound}!sphere\+Cast@{sphere\+Cast}}
+\index{sphere\+Cast@{sphere\+Cast}!Magnum\+::\+Sphere\+Bound@{Magnum\+::\+Sphere\+Bound}}
+\subsubsection[{\texorpdfstring{sphere\+Cast(const Vector3 \&from, float radius, const Vector3 \&dir)}{sphereCast(const Vector3 &from, float radius, const Vector3 &dir)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Sphere\+Bound\+::sphere\+Cast (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{from, }
+\item[{float}]{radius, }
+\item[{const {\bf Vector3} \&}]{dir}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_sphere_bound_a3f4ad2ea0a478b6ec6aaf7f79f21899a}{}\label{class_magnum_1_1_sphere_bound_a3f4ad2ea0a478b6ec6aaf7f79f21899a}
+
+
+Do Sphere Casting for a sphere by specifying starting point and direction. 
+
+
+\begin{DoxyParams}{參數}
+{\em from,\hyperlink{class_magnum_1_1_vector3}{Vector3},the} & starting point of the sphere \\
+\hline
+{\em radius,float,the} & radius of the sphere \\
+\hline
+{\em dir,\hyperlink{class_magnum_1_1_vector3}{Vector3},the} & direction of the sphere \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_selection3_1_1_bound}{Magnum\+::\+Selection3\+::\+Bound}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Sphere\+Bound.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Sphere\+Bound.\+cpp\end{DoxyCompactItemize}

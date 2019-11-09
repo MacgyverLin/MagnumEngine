@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: C:/innovation/GovernmentEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/Sphere3Collision.h 原始程式檔</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li><a href="annotated.html"><span>類別</span></a></li>
+      <li class="current"><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>檔案列表</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_3b299f3d84239cc10925a78cf20e9b48.html">innovation</a></li><li class="navelem"><a class="el" href="dir_4d4d197ad34ec1dfe298c9d993c7bc0e.html">GovernmentEngine</a></li><li class="navelem"><a class="el" href="dir_1e0d49b1eb313e118d98e24098e2f6a7.html">EpicForceEngine</a></li><li class="navelem"><a class="el" href="dir_a7d5f72d102c9e84652ad636ce8313e7.html">MagnumEngineLib</a></li><li class="navelem"><a class="el" href="dir_66b0301f98c392f3cfc1bcb6a7aee577.html">MagnumCore</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Sphere3Collision.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright(c) 2016, Lin Koon Wing Macgyver, macgyvercct@yahoo.com.hk           //</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//                                                                               //</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Author : Mac Lin                                                              //</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Module : DreamEngine v1.0.0                                               //</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Date   : 14/Jun/2016                                                          //</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//                                                                               //</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"></span><span class="preprocessor">#ifndef _Sphere3Collision_h_</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define _Sphere3Collision_h_</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;Collision.h&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">            sphere capsule octtree</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> sphere       o       o     todo</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> capsule      o       x      x</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> octtree     todo     x     n/a</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">*/</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_i_dream_sky.html">IDreamSky</a></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_i_dream_sky_1_1_sphere3_collision.html">   32</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_i_dream_sky_1_1_sphere3_collision.html">Sphere3Collision</a> : <span class="keyword">public</span> <a class="code" href="class_i_dream_sky_1_1_collision.html">Collision</a></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_i_dream_sky_1_1_collision.html">Collision</a>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="class_i_dream_sky_1_1_sphere3_collision.html#a9da6a13091c103cb520e9c10c0fc1360">Sphere3Collision</a>(<span class="keyword">const</span> <span class="keywordtype">float</span> &amp;radius_ = 1);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_i_dream_sky_1_1_sphere3_collision.html#a274417dc6054f6c9509fb8efeba88cdc">~Sphere3Collision</a>();</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// setter</span></div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_i_dream_sky_1_1_sphere3_collision.html#abd9f5a829661c4d4aac40da32bb95cf2">setRadius</a>(<span class="keyword">const</span> <span class="keywordtype">float</span> &amp;radius_);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// getter</span></div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_i_dream_sky_1_1_sphere3_collision.html#a92f0a4804bb7cd7d0d7a343e69c6d11d">getRadius</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_i_dream_sky_1_1_sphere3_collision.html#a54686b42bb5841ad0ad882f748b7dfad">isInside</a>(<span class="keyword">const</span> <a class="code" href="class_i_dream_sky_1_1_vector3.html">Vector3</a> &amp;world_point);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_i_dream_sky_1_1_sphere3_collision.html#a401bddbc02cbbe9aeb8ab9b536aba7fb">test</a>(<span class="keywordtype">float</span> dt, <a class="code" href="class_i_dream_sky_1_1_collision.html">Collision</a> *other_, <a class="code" href="class_i_dream_sky_1_1_collision_1_1_contact_info.html">ContactInfo</a> &amp;info_);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_i_dream_sky_1_1_sphere3_collision.html#a7d3bd58c5d443ca38cfc060057298be6">testWithSphere3</a>(<span class="keywordtype">float</span> dt, <a class="code" href="class_i_dream_sky_1_1_collision.html">Collision</a> *other_, <a class="code" href="class_i_dream_sky_1_1_collision_1_1_contact_info.html">ContactInfo</a> &amp;info_);</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_i_dream_sky_1_1_sphere3_collision.html#a412a102d642fd2e0d55cbeb882ff83a3">testWithScene</a>(<span class="keywordtype">float</span> dt, <a class="code" href="class_i_dream_sky_1_1_collision.html">Collision</a> *other_, <a class="code" href="class_i_dream_sky_1_1_collision_1_1_contact_info.html">ContactInfo</a> &amp;info_);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">float</span> radius; </div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;};</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;};</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="class_i_dream_sky_1_1_sphere3_collision_html"><div class="ttname"><a href="class_i_dream_sky_1_1_sphere3_collision.html">IDreamSky::Sphere3Collision</a></div><div class="ttdoc">This is the sub class for spherical Collision Object. </div><div class="ttdef"><b>Definition:</b> Sphere3Collision.h:32</div></div>
+<div class="ttc" id="namespace_i_dream_sky_html"><div class="ttname"><a href="namespace_i_dream_sky.html">IDreamSky</a></div><div class="ttdef"><b>Definition:</b> AABB2.h:18</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_sphere3_collision_html_a401bddbc02cbbe9aeb8ab9b536aba7fb"><div class="ttname"><a href="class_i_dream_sky_1_1_sphere3_collision.html#a401bddbc02cbbe9aeb8ab9b536aba7fb">IDreamSky::Sphere3Collision::test</a></div><div class="ttdeci">virtual bool test(float dt, Collision *other_, ContactInfo &amp;info_)</div><div class="ttdoc">This function test for collision in general, if other_ is sphere it will call testWithSphere3. </div><div class="ttdef"><b>Definition:</b> Sphere3Collision.cpp:82</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_collision_html"><div class="ttname"><a href="class_i_dream_sky_1_1_collision.html">IDreamSky::Collision</a></div><div class="ttdoc">Base class For all type of Collision Object. </div><div class="ttdef"><b>Definition:</b> Collision.h:29</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_vector3_html"><div class="ttname"><a href="class_i_dream_sky_1_1_vector3.html">IDreamSky::Vector3</a></div><div class="ttdef"><b>Definition:</b> Vector3.h:20</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_sphere3_collision_html_a7d3bd58c5d443ca38cfc060057298be6"><div class="ttname"><a href="class_i_dream_sky_1_1_sphere3_collision.html#a7d3bd58c5d443ca38cfc060057298be6">IDreamSky::Sphere3Collision::testWithSphere3</a></div><div class="ttdeci">bool testWithSphere3(float dt, Collision *other_, ContactInfo &amp;info_)</div><div class="ttdoc">This function test for collision with Sphere3. </div><div class="ttdef"><b>Definition:</b> Sphere3Collision.cpp:112</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_collision_1_1_contact_info_html"><div class="ttname"><a href="class_i_dream_sky_1_1_collision_1_1_contact_info.html">IDreamSky::Collision::ContactInfo</a></div><div class="ttdoc">Contains information about the collision. </div><div class="ttdef"><b>Definition:</b> Collision.h:37</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_sphere3_collision_html_a274417dc6054f6c9509fb8efeba88cdc"><div class="ttname"><a href="class_i_dream_sky_1_1_sphere3_collision.html#a274417dc6054f6c9509fb8efeba88cdc">IDreamSky::Sphere3Collision::~Sphere3Collision</a></div><div class="ttdeci">virtual ~Sphere3Collision()</div><div class="ttdoc">Sphere3Collision Destructor. </div><div class="ttdef"><b>Definition:</b> Sphere3Collision.cpp:28</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_sphere3_collision_html_a54686b42bb5841ad0ad882f748b7dfad"><div class="ttname"><a href="class_i_dream_sky_1_1_sphere3_collision.html#a54686b42bb5841ad0ad882f748b7dfad">IDreamSky::Sphere3Collision::isInside</a></div><div class="ttdeci">virtual bool isInside(const Vector3 &amp;world_point)</div><div class="ttdoc">This is a virtual function. </div><div class="ttdef"><b>Definition:</b> Sphere3Collision.cpp:62</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_sphere3_collision_html_a92f0a4804bb7cd7d0d7a343e69c6d11d"><div class="ttname"><a href="class_i_dream_sky_1_1_sphere3_collision.html#a92f0a4804bb7cd7d0d7a343e69c6d11d">IDreamSky::Sphere3Collision::getRadius</a></div><div class="ttdeci">float getRadius() const </div><div class="ttdoc">This function return the radius of the sphere. </div><div class="ttdef"><b>Definition:</b> Sphere3Collision.cpp:49</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_sphere3_collision_html_a9da6a13091c103cb520e9c10c0fc1360"><div class="ttname"><a href="class_i_dream_sky_1_1_sphere3_collision.html#a9da6a13091c103cb520e9c10c0fc1360">IDreamSky::Sphere3Collision::Sphere3Collision</a></div><div class="ttdeci">Sphere3Collision(const float &amp;radius_=1)</div><div class="ttdoc">Sphere3Collision Constructor. </div><div class="ttdef"><b>Definition:</b> Sphere3Collision.cpp:18</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_sphere3_collision_html_a412a102d642fd2e0d55cbeb882ff83a3"><div class="ttname"><a href="class_i_dream_sky_1_1_sphere3_collision.html#a412a102d642fd2e0d55cbeb882ff83a3">IDreamSky::Sphere3Collision::testWithScene</a></div><div class="ttdeci">bool testWithScene(float dt, Collision *other_, ContactInfo &amp;info_)</div><div class="ttdoc">This function test for collision with Scene. </div><div class="ttdef"><b>Definition:</b> Sphere3Collision.cpp:151</div></div>
+<div class="ttc" id="class_i_dream_sky_1_1_sphere3_collision_html_abd9f5a829661c4d4aac40da32bb95cf2"><div class="ttname"><a href="class_i_dream_sky_1_1_sphere3_collision.html#abd9f5a829661c4d4aac40da32bb95cf2">IDreamSky::Sphere3Collision::setRadius</a></div><div class="ttdeci">void setRadius(const float &amp;radius_)</div><div class="ttdoc">This function set the radius of the sphere. </div><div class="ttdef"><b>Definition:</b> Sphere3Collision.cpp:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

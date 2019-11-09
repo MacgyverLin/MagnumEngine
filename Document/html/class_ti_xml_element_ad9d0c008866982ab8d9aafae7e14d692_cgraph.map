@@ -1,0 +1,18 @@
+<map id="TiXmlElement::Print" name="TiXmlElement::Print">
+<area shape="rect" id="node2" href="$class_ti_xml_attribute.html#a776478980776a024f7c2846eec640f65" title="Get the next sibling attribute in the DOM. Returns null at end. " alt="" coords="210,5,347,32"/>
+<area shape="rect" id="node3" href="$class_ti_xml_node.html#a95a46a52c525992d6b4ee08beb14cd69" title="Cast to a more defined type. Will return null if not of the requested type. " alt="" coords="213,56,344,83"/>
+<area shape="rect" id="node4" href="$class_ti_xml_base.html#aaea3e75b489fc3c937f3a7ef096069e7" title="All TinyXml classes can print themselves to a filestream or the string class (TiXmlString in non&#45;STL ..." alt="" coords="219,107,338,133"/>
+<area shape="rect" id="node5" href="$class_ti_xml_node.html#af854baeba384f5fe9859f5aee03b548e" title="Navigate to a sibling node. " alt="" coords="200,157,357,184"/>
+<area shape="rect" id="node9" href="$class_ti_xml_element.html#abf0b3bd7f0e4c746a89ec6e7f101fc32" title="Sets an attribute of name to a given value. " alt="" coords="189,208,368,235"/>
+<area shape="rect" id="node11" href="$class_ti_xml_attribute.html#a298a57287d305904ba6bd96ae6f78d3d" title="Return the name of this attribute. " alt="" coords="207,259,351,285"/>
+<area shape="rect" id="node12" href="$class_ti_xml_attribute.html#a0f874490eac8ca00ee0070765d0e97e3" title="Return the value of this attribute. " alt="" coords="207,309,350,336"/>
+<area shape="rect" id="node13" href="$class_ti_xml_node.html#a1a881212554b759865f6cac79a851d38" title="Add a new node related to this. " alt="" coords="195,360,362,387"/>
+<area shape="rect" id="node17" href="$class_ti_xml_node.html#abdbb27ef509ba1c5172cbc39fdcb263b" title="Create an exact duplicate of this node and return it. " alt="" coords="217,411,341,437"/>
+<area shape="rect" id="node6" href="$class_ti_xml_node.html#a7667217e269e0da01d1f82aee94d1a3d" title="Convenience function to get through elements. " alt="" coords="416,107,621,133"/>
+<area shape="rect" id="node8" href="$class_ti_xml_node.html#ab1f8d8e70d88aea4c5efedfe00862d55" title="Convenience function to get through elements. " alt="" coords="421,157,616,184"/>
+<area shape="rect" id="node7" href="$class_ti_xml_node.html#a72abed96dc9667ab9e0a2a275301bb1c" title="Cast to a more defined type. Will return null if not of the requested type. " alt="" coords="678,132,831,159"/>
+<area shape="rect" id="node10" href="$class_ti_xml_attribute.html#a2dae44178f668b3cb48101be4f2236a0" title="Set the value. " alt="" coords="437,208,600,235"/>
+<area shape="rect" id="node14" href="$class_ti_xml_node.html#aa66f4ebcd175204a168ed7c2d7b43071" title="Return a pointer to the Document this node lives in. " alt="" coords="669,360,840,387"/>
+<area shape="rect" id="node16" href="$class_ti_xml_node.html#a57b99d5c97d67a42b9752f5210a1ba5e" title="Query the type (as an enumerated value, above) of this node. " alt="" coords="459,385,578,412"/>
+<area shape="rect" id="node15" href="$class_ti_xml_node.html#a8a4cda4b15c29f64cff419309aebed08" title="Cast to a more defined type. Will return null if not of the requested type. " alt="" coords="888,360,1052,387"/>
+</map>

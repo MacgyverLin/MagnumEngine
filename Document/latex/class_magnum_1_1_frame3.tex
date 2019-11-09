@@ -1,0 +1,1149 @@
+\hypertarget{class_magnum_1_1_frame3}{}\section{Magnum\+:\+:Frame3 類別 參考文件}
+\label{class_magnum_1_1_frame3}\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+
+
+\hyperlink{class_magnum_1_1_frame3}{Frame3} is a base class for describing tree structure of the scene graph.  
+
+
+
+
+{\ttfamily \#include $<$Frame3.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Frame3的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{class_magnum_1_1_frame3__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_frame3_ae7f38781fa19c34297fbf6ef5f7cb2c7}{Frame3} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_frame3}{Frame3} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_frame3_a26fdcbf96d3cf66c6a0724399225e10c}{$\sim$\+Frame3} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_frame3}{Frame3} Destructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_aa04db3ec07bc5ee51f3a09bfd32b7d5a}{init\+Zero} ()\hypertarget{class_magnum_1_1_frame3_aa04db3ec07bc5ee51f3a09bfd32b7d5a}{}\label{class_magnum_1_1_frame3_aa04db3ec07bc5ee51f3a09bfd32b7d5a}
+
+\begin{DoxyCompactList}\small\item\em Set all element of of the local transform as 0. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a8a7801ff40fd85a8126ff034a4f369df}{init\+Identity} ()\hypertarget{class_magnum_1_1_frame3_a8a7801ff40fd85a8126ff034a4f369df}{}\label{class_magnum_1_1_frame3_a8a7801ff40fd85a8126ff034a4f369df}
+
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform as identity. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_ad4a2ee8f4ba31539809e9b1c78c179a0}{init\+Translate} (float x, float y, float z)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform translation. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a7ab1794685e58d63039f209b75e81911}{init\+RotateX} (float x)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation around X Axis. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a2f2ca26808ee2a9e1adb225fefc4c6f5}{init\+RotateY} (float y)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation around Y Axis. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a383554882baf298d04a135357f37a8e3}{init\+RotateZ} (float z)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation around Z Axis. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a387d816bf2388f018f2f482845c9da3c}{init\+Rotate\+Z\+XY} (float z, float x, float y)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation around Y Axis, X Axis, Z Axis consecutively. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a53c21c0b5e6d17a5ee15315ccb27c658}{init\+Rotate\+Z\+YX} (float z, float y, float x)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation around Z Axis, Y Axis, X Axis consecutively. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_af752b16366cbad81f44b9120f4cfb2dc}{init\+Rotate\+Axis\+Angle} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&axis, float radian)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation about an axis and an angle in radian. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_af52afff1c5244fe1304cfd2ce858dcde}{init\+Scale} (float scale)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform for uniform scale. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a35c7e0ad809c4e13e799f317459bb8c1}{init\+Scale} (float x, float y, float z)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform for non-\/uniform scale. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a14b19e545aa169917b00187448a10573}{init\+Translate\+Rot\+Z\+X\+Y\+Scale} (float tx, float ty, float tz, float rz, float rx, float ry, float scale)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a92f9d0ce60fc7cadc2d4b7e7179af622}{init\+Translate\+Rot\+Z\+Y\+X\+Scale} (float tx, float ty, float tz, float rz, float ry, float rx, float scale)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a7ba0768f41a6ade313be98aae276d271}{init\+Translate\+Rot\+Axis\+Angle\+Scale} (float tx, float ty, float tz, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&axis, const float angle, float scale)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a86f0c879ee98d644332b67cf91d066ed}{init\+Translate\+Scale} (float tx, float ty, float tz, float scale)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_ab053a9525153c0d772d95fd309ae99b6}{init\+Look\+At} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&position, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&target, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&up)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a78d62bc06554dc2fa8b0405bdcbb03c9}{init\+Look\+At\+Scale} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&position, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&target, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&up, float scale)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a17b6bc5c746e4563e92f505755c5acd1}{init\+Stand\+On} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&position, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&target, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&up)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a0a6885f2b665329b4f6e5cc1b9abe28e}{init\+Stand\+On\+Scale} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&position, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&objective, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&up, float scale)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a83afcd522b770d9f91539a5edd120b71}{set\+Local\+Transform} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&localtransform\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform by directly setting the Local \hyperlink{class_magnum_1_1_transform}{Transform} Matrix. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a4d7f2932c763df5cbb901264021113d1}{set\+Local\+Position} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&localposition\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform by directly setting the Local Position. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a7e8615aa5b044ecc068c0ac2ecf1d764}{set\+Global\+Transform} (const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&globaltransform\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform by directly setting the a Global \hyperlink{class_magnum_1_1_transform}{Transform} Matrix. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a6b3168f32b01c1cc8b12eebaf5c24c68}{set\+Global\+Position} (const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&globalposition\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform by directly setting the a Global Position. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& \hyperlink{class_magnum_1_1_frame3_a024b5f957cbb324a48e16b264d960410}{get\+Local\+Transform} () const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_frame3_ad24c8641061003aa681a85e22ba80f3b}{get\+Local\+Position} () const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local position. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_frame3_a66b3a75ce99c82cc6568598e4586e474}{get\+Local\+X\+Axis} () const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local x axis. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_frame3_ad8865148b70218e99bc164e096386911}{get\+Local\+Y\+Axis} () const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local y axis. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_frame3_ac8ec84b150a39cf6969902fcfdcd764e}{get\+Local\+Z\+Axis} () const 
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local z axis. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \& \hyperlink{class_magnum_1_1_frame3_a57a2f755811f485d9602103609c78d68}{get\+Global\+Transform} ()
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s global transform. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_frame3_a02ef2b5e486c10f94fdf13885c37ebc6}{get\+Global\+Position} ()
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s global position. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_frame3_aa8919e85a3ebe1869aa8b1ba439bc92f}{get\+Global\+X\+Axis} ()
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local x axis. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_frame3_a0692e3724e53edf06e828470e74833cd}{get\+Global\+Y\+Axis} ()
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local y axis. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_frame3_a34cb4c58d842bc9dc2622bdb7690446f}{get\+Global\+Z\+Axis} ()
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local z axis. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4} \hyperlink{class_magnum_1_1_frame3_a2d7bf4c7bedfcdecfe8e4bc4210dd55a}{get\+Inverse\+Global\+Transform} ()
+\begin{DoxyCompactList}\small\item\em Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s inverse transform. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_ae27f7e1f937aa8e7c753a5fbb29edb6a}{add\+Child} (\hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$child\+\_\+)
+\begin{DoxyCompactList}\small\item\em add a child to this \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s children list \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a64ca03a7b807989e1cbd50f66060df4d}{set\+Child} (\hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$child\+\_\+, int index\+\_\+)
+\begin{DoxyCompactList}\small\item\em set i-\/th child for this \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_abd28ece5e1c768a39c5786b233577a51}{insert\+Child} (\hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$child\+\_\+, int index\+\_\+)
+\begin{DoxyCompactList}\small\item\em insert a child to this \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s at index\+\_\+ \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_ac0b78ba19552fe28163db05161795a37}{remove\+All\+Children} ()\hypertarget{class_magnum_1_1_frame3_ac0b78ba19552fe28163db05161795a37}{}\label{class_magnum_1_1_frame3_ac0b78ba19552fe28163db05161795a37}
+
+\begin{DoxyCompactList}\small\item\em remove all children from this \hyperlink{class_magnum_1_1_frame3}{Frame3} \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a9bba1efc2cdadd1d11c1fdd3ac6e43bd}{remove\+Child} (int index\+\_\+)\hypertarget{class_magnum_1_1_frame3_a9bba1efc2cdadd1d11c1fdd3ac6e43bd}{}\label{class_magnum_1_1_frame3_a9bba1efc2cdadd1d11c1fdd3ac6e43bd}
+
+\begin{DoxyCompactList}\small\item\em remove child at index\+\_\+ \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a7f5e45ec9722716b94932e3b9ba1b019}{remove\+Child} (\hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$child\+\_\+)\hypertarget{class_magnum_1_1_frame3_a7f5e45ec9722716b94932e3b9ba1b019}{}\label{class_magnum_1_1_frame3_a7f5e45ec9722716b94932e3b9ba1b019}
+
+\begin{DoxyCompactList}\small\item\em remove child\+\_\+ \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_frame3_a337b8663b91864fc671a2ffadb6ffad1}{get\+All\+Children} (\hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$ $>$ \&children\+\_\+)\hypertarget{class_magnum_1_1_frame3_a337b8663b91864fc671a2ffadb6ffad1}{}\label{class_magnum_1_1_frame3_a337b8663b91864fc671a2ffadb6ffad1}
+
+\begin{DoxyCompactList}\small\item\em get all children from this \hyperlink{class_magnum_1_1_frame3}{Frame3} \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$ \hyperlink{class_magnum_1_1_frame3_a2bf739f149f6dd645358f2c74aa95aee}{get\+Child} (int index\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get a child of this frame at index\+\_\+. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_frame3_aa72ca808937dd7f99e96dfd6076c6ec3}{index\+Of\+Child} (\hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$child\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Get an index of child. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_frame3_a0223522857c808e4a416a1ff07e1380f}{get\+Num\+Children} () const 
+\begin{DoxyCompactList}\small\item\em Get the number of children. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$ \hyperlink{class_magnum_1_1_frame3_a08c5e5cb5e2127e9c8a166005abda231}{get\+Parent} ()
+\begin{DoxyCompactList}\small\item\em Get a the parent of this frame. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$ \hyperlink{class_magnum_1_1_frame3_af88c07c4e894af72f64252b2c71d9483}{get\+Parent} () const 
+\begin{DoxyCompactList}\small\item\em Get a the parent of this frame. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_a5b55d9b9364953e903f6863efe16541a}{read} (\hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} \&is)
+\begin{DoxyCompactList}\small\item\em read method for Serialization \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_frame3_ab0ae20eaa0b37da4370279231c3479bf}{write} (\hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} \&os) const 
+\begin{DoxyCompactList}\small\item\em write method for Serialization \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries validate\+Global} ()\hypertarget{class_magnum_1_1_frame3_a2f139c2613158b8c3010ea7d181b62e0}{}\label{class_magnum_1_1_frame3_a2f139c2613158b8c3010ea7d181b62e0}
+
+\item 
+void {\bfseries in\+Validate\+Global} ()\hypertarget{class_magnum_1_1_frame3_a5500537ed5f813c27730120d0e34f321}{}\label{class_magnum_1_1_frame3_a5500537ed5f813c27730120d0e34f321}
+
+\item 
+bool {\bfseries is\+Valid\+Global} ()\hypertarget{class_magnum_1_1_frame3_ab4fcebc1760d6c27be78d9135e59322e}{}\label{class_magnum_1_1_frame3_ab4fcebc1760d6c27be78d9135e59322e}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Entity\+Reader}\hypertarget{class_magnum_1_1_frame3_a56e67fba8094d0ad6c4e9a70157aeea0}{}\label{class_magnum_1_1_frame3_a56e67fba8094d0ad6c4e9a70157aeea0}
+
+\item 
+class {\bfseries Entity\+Writer}\hypertarget{class_magnum_1_1_frame3_a2530bdf39e07c94e0f4b49472a0ac288}{}\label{class_magnum_1_1_frame3_a2530bdf39e07c94e0f4b49472a0ac288}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_frame3}{Frame3} is a base class for describing tree structure of the scene graph. 
+
+It provides tree function such as add, remove, query, child global and local transform. convient function for initialing the transforms 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!Frame3@{Frame3}}
+\index{Frame3@{Frame3}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{Frame3()}{Frame3()}}]{\setlength{\rightskip}{0pt plus 5cm}Frame3\+::\+Frame3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_ae7f38781fa19c34297fbf6ef5f7cb2c7}{}\label{class_magnum_1_1_frame3_ae7f38781fa19c34297fbf6ef5f7cb2c7}
+
+
+\hyperlink{class_magnum_1_1_frame3}{Frame3} Constructor. 
+
+To Construct the \hyperlink{class_magnum_1_1_frame3}{Frame3} for the owner. \index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!````~Frame3@{$\sim$\+Frame3}}
+\index{````~Frame3@{$\sim$\+Frame3}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{$\sim$\+Frame3()}{~Frame3()}}]{\setlength{\rightskip}{0pt plus 5cm}Frame3\+::$\sim$\+Frame3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_frame3_a26fdcbf96d3cf66c6a0724399225e10c}{}\label{class_magnum_1_1_frame3_a26fdcbf96d3cf66c6a0724399225e10c}
+
+
+\hyperlink{class_magnum_1_1_frame3}{Frame3} Destructor. 
+
+To Destruct \hyperlink{class_magnum_1_1_frame3}{Frame3} and remove from its owner. 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!add\+Child@{add\+Child}}
+\index{add\+Child@{add\+Child}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{add\+Child(\+Frame3 $\ast$child\+\_\+)}{addChild(Frame3 *child_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::add\+Child (
+\begin{DoxyParamCaption}
+\item[{{\bf Frame3} $\ast$}]{child\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_ae27f7e1f937aa8e7c753a5fbb29edb6a}{}\label{class_magnum_1_1_frame3_ae27f7e1f937aa8e7c753a5fbb29edb6a}
+
+
+add a child to this \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s children list 
+
+
+\begin{DoxyParams}{參數}
+{\em child\+\_\+,the} & child to be added \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_ae27f7e1f937aa8e7c753a5fbb29edb6a_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Child@{get\+Child}}
+\index{get\+Child@{get\+Child}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Child(int index\+\_\+) const }{getChild(int index_) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Frame3} $\ast$ Frame3\+::get\+Child (
+\begin{DoxyParamCaption}
+\item[{int}]{index\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_frame3_a2bf739f149f6dd645358f2c74aa95aee}{}\label{class_magnum_1_1_frame3_a2bf739f149f6dd645358f2c74aa95aee}
+
+
+Get a child of this frame at index\+\_\+. 
+
+
+\begin{DoxyParams}{參數}
+{\em index\+\_\+,the} & index\+\_\+ position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$, the i-\/th child 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a2bf739f149f6dd645358f2c74aa95aee_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Global\+Position@{get\+Global\+Position}}
+\index{get\+Global\+Position@{get\+Global\+Position}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Global\+Position()}{getGlobalPosition()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Frame3\+::get\+Global\+Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a02ef2b5e486c10f94fdf13885c37ebc6}{}\label{class_magnum_1_1_frame3_a02ef2b5e486c10f94fdf13885c37ebc6}
+
+
+Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s global position. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the global position 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a02ef2b5e486c10f94fdf13885c37ebc6_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Global\+Transform@{get\+Global\+Transform}}
+\index{get\+Global\+Transform@{get\+Global\+Transform}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Global\+Transform()}{getGlobalTransform()}}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Matrix4} \& Frame3\+::get\+Global\+Transform (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a57a2f755811f485d9602103609c78d68}{}\label{class_magnum_1_1_frame3_a57a2f755811f485d9602103609c78d68}
+
+
+Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s global transform. 
+
+\begin{DoxyReturn}{傳回值}
+const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&, the global transform 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a57a2f755811f485d9602103609c78d68_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Global\+X\+Axis@{get\+Global\+X\+Axis}}
+\index{get\+Global\+X\+Axis@{get\+Global\+X\+Axis}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Global\+X\+Axis()}{getGlobalXAxis()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Frame3\+::get\+Global\+X\+Axis (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_aa8919e85a3ebe1869aa8b1ba439bc92f}{}\label{class_magnum_1_1_frame3_aa8919e85a3ebe1869aa8b1ba439bc92f}
+
+
+Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local x axis. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the local x axis 
+\end{DoxyReturn}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Global\+Y\+Axis@{get\+Global\+Y\+Axis}}
+\index{get\+Global\+Y\+Axis@{get\+Global\+Y\+Axis}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Global\+Y\+Axis()}{getGlobalYAxis()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Frame3\+::get\+Global\+Y\+Axis (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a0692e3724e53edf06e828470e74833cd}{}\label{class_magnum_1_1_frame3_a0692e3724e53edf06e828470e74833cd}
+
+
+Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local y axis. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the local y axis 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a0692e3724e53edf06e828470e74833cd_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Global\+Z\+Axis@{get\+Global\+Z\+Axis}}
+\index{get\+Global\+Z\+Axis@{get\+Global\+Z\+Axis}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Global\+Z\+Axis()}{getGlobalZAxis()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Frame3\+::get\+Global\+Z\+Axis (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a34cb4c58d842bc9dc2622bdb7690446f}{}\label{class_magnum_1_1_frame3_a34cb4c58d842bc9dc2622bdb7690446f}
+
+
+Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local z axis. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the local z axis 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a34cb4c58d842bc9dc2622bdb7690446f_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Inverse\+Global\+Transform@{get\+Inverse\+Global\+Transform}}
+\index{get\+Inverse\+Global\+Transform@{get\+Inverse\+Global\+Transform}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Inverse\+Global\+Transform()}{getInverseGlobalTransform()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix4} Frame3\+::get\+Inverse\+Global\+Transform (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a2d7bf4c7bedfcdecfe8e4bc4210dd55a}{}\label{class_magnum_1_1_frame3_a2d7bf4c7bedfcdecfe8e4bc4210dd55a}
+
+
+Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s inverse transform. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_matrix4}{Matrix4}, the inverse transform 
+\end{DoxyReturn}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a2d7bf4c7bedfcdecfe8e4bc4210dd55a_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Local\+Position@{get\+Local\+Position}}
+\index{get\+Local\+Position@{get\+Local\+Position}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Local\+Position() const }{getLocalPosition() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Frame3\+::get\+Local\+Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_frame3_ad24c8641061003aa681a85e22ba80f3b}{}\label{class_magnum_1_1_frame3_ad24c8641061003aa681a85e22ba80f3b}
+
+
+Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local position. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the local position 
+\end{DoxyReturn}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Local\+Transform@{get\+Local\+Transform}}
+\index{get\+Local\+Transform@{get\+Local\+Transform}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Local\+Transform() const }{getLocalTransform() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Matrix4} \& Frame3\+::get\+Local\+Transform (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_frame3_a024b5f957cbb324a48e16b264d960410}{}\label{class_magnum_1_1_frame3_a024b5f957cbb324a48e16b264d960410}
+
+
+Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. 
+
+\begin{DoxyReturn}{傳回值}
+const \hyperlink{class_magnum_1_1_matrix4}{Matrix4} \&, the global transform 
+\end{DoxyReturn}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Local\+X\+Axis@{get\+Local\+X\+Axis}}
+\index{get\+Local\+X\+Axis@{get\+Local\+X\+Axis}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Local\+X\+Axis() const }{getLocalXAxis() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Frame3\+::get\+Local\+X\+Axis (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_frame3_a66b3a75ce99c82cc6568598e4586e474}{}\label{class_magnum_1_1_frame3_a66b3a75ce99c82cc6568598e4586e474}
+
+
+Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local x axis. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the local x axis 
+\end{DoxyReturn}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Local\+Y\+Axis@{get\+Local\+Y\+Axis}}
+\index{get\+Local\+Y\+Axis@{get\+Local\+Y\+Axis}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Local\+Y\+Axis() const }{getLocalYAxis() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Frame3\+::get\+Local\+Y\+Axis (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_frame3_ad8865148b70218e99bc164e096386911}{}\label{class_magnum_1_1_frame3_ad8865148b70218e99bc164e096386911}
+
+
+Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local y axis. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the local y axis 
+\end{DoxyReturn}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Local\+Z\+Axis@{get\+Local\+Z\+Axis}}
+\index{get\+Local\+Z\+Axis@{get\+Local\+Z\+Axis}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Local\+Z\+Axis() const }{getLocalZAxis() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Frame3\+::get\+Local\+Z\+Axis (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_frame3_ac8ec84b150a39cf6969902fcfdcd764e}{}\label{class_magnum_1_1_frame3_ac8ec84b150a39cf6969902fcfdcd764e}
+
+
+Get the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local z axis. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_vector3}{Vector3}, the local z axis 
+\end{DoxyReturn}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Num\+Children@{get\+Num\+Children}}
+\index{get\+Num\+Children@{get\+Num\+Children}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Num\+Children() const }{getNumChildren() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Frame3\+::get\+Num\+Children (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_frame3_a0223522857c808e4a416a1ff07e1380f}{}\label{class_magnum_1_1_frame3_a0223522857c808e4a416a1ff07e1380f}
+
+
+Get the number of children. 
+
+\begin{DoxyReturn}{傳回值}
+int, the number of children 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a0223522857c808e4a416a1ff07e1380f_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Parent@{get\+Parent}}
+\index{get\+Parent@{get\+Parent}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Parent()}{getParent()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Frame3} $\ast$ Frame3\+::get\+Parent (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a08c5e5cb5e2127e9c8a166005abda231}{}\label{class_magnum_1_1_frame3_a08c5e5cb5e2127e9c8a166005abda231}
+
+
+Get a the parent of this frame. 
+
+\begin{DoxyReturn}{傳回值}
+\hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$, this frame\textquotesingle{}s parent. if this frame has no parent, return 0 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a08c5e5cb5e2127e9c8a166005abda231_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!get\+Parent@{get\+Parent}}
+\index{get\+Parent@{get\+Parent}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{get\+Parent() const }{getParent() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Frame3} $\ast$ Frame3\+::get\+Parent (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_frame3_af88c07c4e894af72f64252b2c71d9483}{}\label{class_magnum_1_1_frame3_af88c07c4e894af72f64252b2c71d9483}
+
+
+Get a the parent of this frame. 
+
+\begin{DoxyReturn}{傳回值}
+const \hyperlink{class_magnum_1_1_frame3}{Frame3} $\ast$, this frame\textquotesingle{}s parent. if this frame has no parent, return 0 
+\end{DoxyReturn}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!index\+Of\+Child@{index\+Of\+Child}}
+\index{index\+Of\+Child@{index\+Of\+Child}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{index\+Of\+Child(\+Frame3 $\ast$child\+\_\+) const }{indexOfChild(Frame3 *child_) const }}]{\setlength{\rightskip}{0pt plus 5cm}int Frame3\+::index\+Of\+Child (
+\begin{DoxyParamCaption}
+\item[{{\bf Frame3} $\ast$}]{child\+\_\+}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_frame3_aa72ca808937dd7f99e96dfd6076c6ec3}{}\label{class_magnum_1_1_frame3_aa72ca808937dd7f99e96dfd6076c6ec3}
+
+
+Get an index of child. 
+
+
+\begin{DoxyParams}{參數}
+{\em child\+\_\+,\hyperlink{class_magnum_1_1_frame3}{Frame3}} & $\ast$ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+int, the index of child. if child is not in children list, return -\/1 
+\end{DoxyReturn}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Look\+At@{init\+Look\+At}}
+\index{init\+Look\+At@{init\+Look\+At}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Look\+At(const Vector3 \&position, const Vector3 \&target, const Vector3 \&up)}{initLookAt(const Vector3 &position, const Vector3 &target, const Vector3 &up)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Look\+At (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{position, }
+\item[{const {\bf Vector3} \&}]{target, }
+\item[{const {\bf Vector3} \&}]{up}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_ab053a9525153c0d772d95fd309ae99b6}{}\label{class_magnum_1_1_frame3_ab053a9525153c0d772d95fd309ae99b6}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. 
+
+Look At objective from position, head point up 
+\begin{DoxyParams}{參數}
+{\em position,\hyperlink{class_magnum_1_1_vector3}{Vector3},Observer\textquotesingle{}s} & position \\
+\hline
+{\em target,\hyperlink{class_magnum_1_1_vector3}{Vector3},Observer\textquotesingle{}s} & target \\
+\hline
+{\em up,\hyperlink{class_magnum_1_1_vector3}{Vector3},upward} & direction \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Look\+At\+Scale@{init\+Look\+At\+Scale}}
+\index{init\+Look\+At\+Scale@{init\+Look\+At\+Scale}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Look\+At\+Scale(const Vector3 \&position, const Vector3 \&target, const Vector3 \&up, float scale)}{initLookAtScale(const Vector3 &position, const Vector3 &target, const Vector3 &up, float scale)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Look\+At\+Scale (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{position, }
+\item[{const {\bf Vector3} \&}]{target, }
+\item[{const {\bf Vector3} \&}]{up, }
+\item[{float}]{scale}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a78d62bc06554dc2fa8b0405bdcbb03c9}{}\label{class_magnum_1_1_frame3_a78d62bc06554dc2fa8b0405bdcbb03c9}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. 
+
+Look At objective from position, head point up, then uniformly scale 
+\begin{DoxyParams}{參數}
+{\em position,\hyperlink{class_magnum_1_1_vector3}{Vector3},Observer\textquotesingle{}s} & position \\
+\hline
+{\em target,\hyperlink{class_magnum_1_1_vector3}{Vector3},Observer\textquotesingle{}s} & target \\
+\hline
+{\em up,\hyperlink{class_magnum_1_1_vector3}{Vector3},upward} & direction \\
+\hline
+{\em scale,float,the} & uniform scale \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Rotate\+Axis\+Angle@{init\+Rotate\+Axis\+Angle}}
+\index{init\+Rotate\+Axis\+Angle@{init\+Rotate\+Axis\+Angle}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Rotate\+Axis\+Angle(const Vector3 \&axis, float radian)}{initRotateAxisAngle(const Vector3 &axis, float radian)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Rotate\+Axis\+Angle (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{axis, }
+\item[{float}]{radian}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_af752b16366cbad81f44b9120f4cfb2dc}{}\label{class_magnum_1_1_frame3_af752b16366cbad81f44b9120f4cfb2dc}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation about an axis and an angle in radian. 
+
+
+\begin{DoxyParams}{參數}
+{\em axis,\hyperlink{class_magnum_1_1_vector3}{Vector3},a} & unit vector for axis of rotation \\
+\hline
+{\em angle,float,rotation} & around the axis in radian \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+RotateX@{init\+RotateX}}
+\index{init\+RotateX@{init\+RotateX}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Rotate\+X(float x)}{initRotateX(float x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+RotateX (
+\begin{DoxyParamCaption}
+\item[{float}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a7ab1794685e58d63039f209b75e81911}{}\label{class_magnum_1_1_frame3_a7ab1794685e58d63039f209b75e81911}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation around X Axis. 
+
+
+\begin{DoxyParams}{參數}
+{\em x,float,rotation} & in radian \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+RotateY@{init\+RotateY}}
+\index{init\+RotateY@{init\+RotateY}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Rotate\+Y(float y)}{initRotateY(float y)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+RotateY (
+\begin{DoxyParamCaption}
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a2f2ca26808ee2a9e1adb225fefc4c6f5}{}\label{class_magnum_1_1_frame3_a2f2ca26808ee2a9e1adb225fefc4c6f5}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation around Y Axis. 
+
+
+\begin{DoxyParams}{參數}
+{\em y,float,rotation} & in radian \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+RotateZ@{init\+RotateZ}}
+\index{init\+RotateZ@{init\+RotateZ}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Rotate\+Z(float z)}{initRotateZ(float z)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+RotateZ (
+\begin{DoxyParamCaption}
+\item[{float}]{z}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a383554882baf298d04a135357f37a8e3}{}\label{class_magnum_1_1_frame3_a383554882baf298d04a135357f37a8e3}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation around Z Axis. 
+
+
+\begin{DoxyParams}{參數}
+{\em z,float,rotation} & in radian \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Rotate\+Z\+XY@{init\+Rotate\+Z\+XY}}
+\index{init\+Rotate\+Z\+XY@{init\+Rotate\+Z\+XY}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Rotate\+Z\+X\+Y(float z, float x, float y)}{initRotateZXY(float z, float x, float y)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Rotate\+Z\+XY (
+\begin{DoxyParamCaption}
+\item[{float}]{z, }
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a387d816bf2388f018f2f482845c9da3c}{}\label{class_magnum_1_1_frame3_a387d816bf2388f018f2f482845c9da3c}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation around Y Axis, X Axis, Z Axis consecutively. 
+
+
+\begin{DoxyParams}{參數}
+{\em z,float,rotation} & around Z Axis in radian \\
+\hline
+{\em x,float,rotation} & around X Axis in radian \\
+\hline
+{\em y,float,rotation} & around Y Axis in radian \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Rotate\+Z\+YX@{init\+Rotate\+Z\+YX}}
+\index{init\+Rotate\+Z\+YX@{init\+Rotate\+Z\+YX}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Rotate\+Z\+Y\+X(float z, float y, float x)}{initRotateZYX(float z, float y, float x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Rotate\+Z\+YX (
+\begin{DoxyParamCaption}
+\item[{float}]{z, }
+\item[{float}]{y, }
+\item[{float}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a53c21c0b5e6d17a5ee15315ccb27c658}{}\label{class_magnum_1_1_frame3_a53c21c0b5e6d17a5ee15315ccb27c658}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform rotation around Z Axis, Y Axis, X Axis consecutively. 
+
+
+\begin{DoxyParams}{參數}
+{\em z,float,rotation} & around Z Axis in radian \\
+\hline
+{\em y,float,rotation} & around Y Axis in radian \\
+\hline
+{\em x,float,rotation} & around X Axis in radian \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Scale@{init\+Scale}}
+\index{init\+Scale@{init\+Scale}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Scale(float scale)}{initScale(float scale)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Scale (
+\begin{DoxyParamCaption}
+\item[{float}]{scale}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_af52afff1c5244fe1304cfd2ce858dcde}{}\label{class_magnum_1_1_frame3_af52afff1c5244fe1304cfd2ce858dcde}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform for uniform scale. 
+
+
+\begin{DoxyParams}{參數}
+{\em scale,float,the} & scale \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Scale@{init\+Scale}}
+\index{init\+Scale@{init\+Scale}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Scale(float x, float y, float z)}{initScale(float x, float y, float z)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Scale (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{z}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a35c7e0ad809c4e13e799f317459bb8c1}{}\label{class_magnum_1_1_frame3_a35c7e0ad809c4e13e799f317459bb8c1}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform for non-\/uniform scale. 
+
+
+\begin{DoxyParams}{參數}
+{\em x,float,the} & scale of x direction \\
+\hline
+{\em y,float,the} & scale of y direction \\
+\hline
+{\em z,float,the} & scale of z direction \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Stand\+On@{init\+Stand\+On}}
+\index{init\+Stand\+On@{init\+Stand\+On}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Stand\+On(const Vector3 \&position, const Vector3 \&target, const Vector3 \&up)}{initStandOn(const Vector3 &position, const Vector3 &target, const Vector3 &up)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Stand\+On (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{position, }
+\item[{const {\bf Vector3} \&}]{target, }
+\item[{const {\bf Vector3} \&}]{up}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a17b6bc5c746e4563e92f505755c5acd1}{}\label{class_magnum_1_1_frame3_a17b6bc5c746e4563e92f505755c5acd1}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. 
+
+Stand on a surface with normal vector up. Look At objective from position 
+\begin{DoxyParams}{參數}
+{\em position,\hyperlink{class_magnum_1_1_vector3}{Vector3},Observer\textquotesingle{}s} & position \\
+\hline
+{\em target,\hyperlink{class_magnum_1_1_vector3}{Vector3},Observer\textquotesingle{}s} & target \\
+\hline
+{\em up,\hyperlink{class_magnum_1_1_vector3}{Vector3},upward} & direction the Observer stand on \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Stand\+On\+Scale@{init\+Stand\+On\+Scale}}
+\index{init\+Stand\+On\+Scale@{init\+Stand\+On\+Scale}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Stand\+On\+Scale(const Vector3 \&position, const Vector3 \&objective, const Vector3 \&up, float scale)}{initStandOnScale(const Vector3 &position, const Vector3 &objective, const Vector3 &up, float scale)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Stand\+On\+Scale (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{position, }
+\item[{const {\bf Vector3} \&}]{objective, }
+\item[{const {\bf Vector3} \&}]{up, }
+\item[{float}]{scale}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a0a6885f2b665329b4f6e5cc1b9abe28e}{}\label{class_magnum_1_1_frame3_a0a6885f2b665329b4f6e5cc1b9abe28e}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. 
+
+Stand on a surface with normal vector up. Look At objective from position, then uniformly scale 
+\begin{DoxyParams}{參數}
+{\em position,\hyperlink{class_magnum_1_1_vector3}{Vector3},Observer\textquotesingle{}s} & position \\
+\hline
+{\em target,\hyperlink{class_magnum_1_1_vector3}{Vector3},Observer\textquotesingle{}s} & target \\
+\hline
+{\em up,\hyperlink{class_magnum_1_1_vector3}{Vector3},upward} & direction the Observer stand on \\
+\hline
+{\em scale,float,the} & uniform scale \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Translate@{init\+Translate}}
+\index{init\+Translate@{init\+Translate}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Translate(float x, float y, float z)}{initTranslate(float x, float y, float z)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Translate (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{z}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_ad4a2ee8f4ba31539809e9b1c78c179a0}{}\label{class_magnum_1_1_frame3_ad4a2ee8f4ba31539809e9b1c78c179a0}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform translation. 
+
+
+\begin{DoxyParams}{參數}
+{\em x,float,x} & translation \\
+\hline
+{\em y,float,y} & translation \\
+\hline
+{\em z,float,z} & translation \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Translate\+Rot\+Axis\+Angle\+Scale@{init\+Translate\+Rot\+Axis\+Angle\+Scale}}
+\index{init\+Translate\+Rot\+Axis\+Angle\+Scale@{init\+Translate\+Rot\+Axis\+Angle\+Scale}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Translate\+Rot\+Axis\+Angle\+Scale(float tx, float ty, float tz, const Vector3 \&axis, const float angle, float scale)}{initTranslateRotAxisAngleScale(float tx, float ty, float tz, const Vector3 &axis, const float angle, float scale)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Translate\+Rot\+Axis\+Angle\+Scale (
+\begin{DoxyParamCaption}
+\item[{float}]{tx, }
+\item[{float}]{ty, }
+\item[{float}]{tz, }
+\item[{const {\bf Vector3} \&}]{axis, }
+\item[{const float}]{angle, }
+\item[{float}]{scale}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a7ba0768f41a6ade313be98aae276d271}{}\label{class_magnum_1_1_frame3_a7ba0768f41a6ade313be98aae276d271}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. 
+
+First by scale, then rotate about an axis and an angle in radian, then translate 
+\begin{DoxyParams}{參數}
+{\em tx,float,translation} & in X direction \\
+\hline
+{\em ty,float,translation} & in Y direction \\
+\hline
+{\em tz,float,translation} & in Z direction \\
+\hline
+{\em axis,\hyperlink{class_magnum_1_1_vector3}{Vector3},a} & unit vector for axis of rotation \\
+\hline
+{\em angle,float,rotation} & around the axis in radian \\
+\hline
+{\em scale,float,the} & uniform scale in all direction \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Translate\+Rot\+Z\+X\+Y\+Scale@{init\+Translate\+Rot\+Z\+X\+Y\+Scale}}
+\index{init\+Translate\+Rot\+Z\+X\+Y\+Scale@{init\+Translate\+Rot\+Z\+X\+Y\+Scale}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Translate\+Rot\+Z\+X\+Y\+Scale(float tx, float ty, float tz, float rz, float rx, float ry, float scale)}{initTranslateRotZXYScale(float tx, float ty, float tz, float rz, float rx, float ry, float scale)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Translate\+Rot\+Z\+X\+Y\+Scale (
+\begin{DoxyParamCaption}
+\item[{float}]{tx, }
+\item[{float}]{ty, }
+\item[{float}]{tz, }
+\item[{float}]{rz, }
+\item[{float}]{rx, }
+\item[{float}]{ry, }
+\item[{float}]{scale}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a14b19e545aa169917b00187448a10573}{}\label{class_magnum_1_1_frame3_a14b19e545aa169917b00187448a10573}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. 
+
+First by scale, then rotation around Z Axis, X Axis, Y Axis consecutively, then translate 
+\begin{DoxyParams}{參數}
+{\em tx,float,translation} & in X direction \\
+\hline
+{\em ty,float,translation} & in Y direction \\
+\hline
+{\em tz,float,translation} & in Z direction \\
+\hline
+{\em rz,float,rotation} & around Z Axis in radian \\
+\hline
+{\em rx,float,rotation} & around X Axis in radian \\
+\hline
+{\em ry,float,rotation} & around Y Axis in radian \\
+\hline
+{\em scale,float,the} & uniform scale in all direction \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Translate\+Rot\+Z\+Y\+X\+Scale@{init\+Translate\+Rot\+Z\+Y\+X\+Scale}}
+\index{init\+Translate\+Rot\+Z\+Y\+X\+Scale@{init\+Translate\+Rot\+Z\+Y\+X\+Scale}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Translate\+Rot\+Z\+Y\+X\+Scale(float tx, float ty, float tz, float rz, float ry, float rx, float scale)}{initTranslateRotZYXScale(float tx, float ty, float tz, float rz, float ry, float rx, float scale)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Translate\+Rot\+Z\+Y\+X\+Scale (
+\begin{DoxyParamCaption}
+\item[{float}]{tx, }
+\item[{float}]{ty, }
+\item[{float}]{tz, }
+\item[{float}]{rz, }
+\item[{float}]{ry, }
+\item[{float}]{rx, }
+\item[{float}]{scale}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a92f9d0ce60fc7cadc2d4b7e7179af622}{}\label{class_magnum_1_1_frame3_a92f9d0ce60fc7cadc2d4b7e7179af622}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. 
+
+First by scale, then rotation around Z Axis, Y Axis, X Axis consecutively, then translate 
+\begin{DoxyParams}{參數}
+{\em tx,float,translation} & in X direction \\
+\hline
+{\em ty,float,translation} & in Y direction \\
+\hline
+{\em tz,float,translation} & in Z direction \\
+\hline
+{\em rz,float,rotation} & around Z Axis in radian \\
+\hline
+{\em ry,float,rotation} & around Y Axis in radian \\
+\hline
+{\em rx,float,rotation} & around X Axis in radian \\
+\hline
+{\em scale,float,the} & uniform scale in all direction \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!init\+Translate\+Scale@{init\+Translate\+Scale}}
+\index{init\+Translate\+Scale@{init\+Translate\+Scale}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{init\+Translate\+Scale(float tx, float ty, float tz, float scale)}{initTranslateScale(float tx, float ty, float tz, float scale)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::init\+Translate\+Scale (
+\begin{DoxyParamCaption}
+\item[{float}]{tx, }
+\item[{float}]{ty, }
+\item[{float}]{tz, }
+\item[{float}]{scale}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a86f0c879ee98d644332b67cf91d066ed}{}\label{class_magnum_1_1_frame3_a86f0c879ee98d644332b67cf91d066ed}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform. 
+
+First by scale, then translate 
+\begin{DoxyParams}{參數}
+{\em tx,float,translation} & in X direction \\
+\hline
+{\em ty,float,translation} & in Y direction \\
+\hline
+{\em tz,float,translation} & in Z direction \\
+\hline
+{\em scale,float,the} & uniform scale in all direction \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!insert\+Child@{insert\+Child}}
+\index{insert\+Child@{insert\+Child}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{insert\+Child(\+Frame3 $\ast$child\+\_\+, int index\+\_\+)}{insertChild(Frame3 *child_, int index_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::insert\+Child (
+\begin{DoxyParamCaption}
+\item[{{\bf Frame3} $\ast$}]{child\+\_\+, }
+\item[{int}]{index\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_abd28ece5e1c768a39c5786b233577a51}{}\label{class_magnum_1_1_frame3_abd28ece5e1c768a39c5786b233577a51}
+
+
+insert a child to this \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s at index\+\_\+ 
+
+
+\begin{DoxyParams}{參數}
+{\em child\+\_\+,the} & child to be set to \\
+\hline
+{\em index\+\_\+,the} & index\+\_\+ position \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_abd28ece5e1c768a39c5786b233577a51_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_abd28ece5e1c768a39c5786b233577a51_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!read@{read}}
+\index{read@{read}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{read(\+Input\+Stream \&is)}{read(InputStream &is)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::read (
+\begin{DoxyParamCaption}
+\item[{{\bf Input\+Stream} \&}]{is}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a5b55d9b9364953e903f6863efe16541a}{}\label{class_magnum_1_1_frame3_a5b55d9b9364953e903f6863efe16541a}
+
+
+read method for Serialization 
+
+
+\begin{DoxyParams}{參數}
+{\em is,the} & \hyperlink{class_magnum_1_1_input_stream}{Input\+Stream} for Serialization \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a5b55d9b9364953e903f6863efe16541a_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!set\+Child@{set\+Child}}
+\index{set\+Child@{set\+Child}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{set\+Child(\+Frame3 $\ast$child\+\_\+, int index\+\_\+)}{setChild(Frame3 *child_, int index_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::set\+Child (
+\begin{DoxyParamCaption}
+\item[{{\bf Frame3} $\ast$}]{child\+\_\+, }
+\item[{int}]{index\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a64ca03a7b807989e1cbd50f66060df4d}{}\label{class_magnum_1_1_frame3_a64ca03a7b807989e1cbd50f66060df4d}
+
+
+set i-\/th child for this \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s 
+
+
+\begin{DoxyParams}{參數}
+{\em child\+\_\+,the} & child to be set to \\
+\hline
+{\em index\+\_\+,the} & index\+\_\+ position \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a64ca03a7b807989e1cbd50f66060df4d_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!set\+Global\+Position@{set\+Global\+Position}}
+\index{set\+Global\+Position@{set\+Global\+Position}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{set\+Global\+Position(const Vector3 \&globalposition\+\_\+)}{setGlobalPosition(const Vector3 &globalposition_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::set\+Global\+Position (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{globalposition\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a6b3168f32b01c1cc8b12eebaf5c24c68}{}\label{class_magnum_1_1_frame3_a6b3168f32b01c1cc8b12eebaf5c24c68}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform by directly setting the a Global Position. 
+
+
+\begin{DoxyParams}{參數}
+{\em globalposition\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3},the} & global position \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a6b3168f32b01c1cc8b12eebaf5c24c68_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!set\+Global\+Transform@{set\+Global\+Transform}}
+\index{set\+Global\+Transform@{set\+Global\+Transform}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{set\+Global\+Transform(const Matrix4 \&globaltransform\+\_\+)}{setGlobalTransform(const Matrix4 &globaltransform_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::set\+Global\+Transform (
+\begin{DoxyParamCaption}
+\item[{const {\bf Matrix4} \&}]{globaltransform\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a7e8615aa5b044ecc068c0ac2ecf1d764}{}\label{class_magnum_1_1_frame3_a7e8615aa5b044ecc068c0ac2ecf1d764}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform by directly setting the a Global \hyperlink{class_magnum_1_1_transform}{Transform} Matrix. 
+
+
+\begin{DoxyParams}{參數}
+{\em globaltransform\+\_\+,\hyperlink{class_magnum_1_1_matrix4}{Matrix4},the} & global transform \\
+\hline
+\end{DoxyParams}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a7e8615aa5b044ecc068c0ac2ecf1d764_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_a7e8615aa5b044ecc068c0ac2ecf1d764_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!set\+Local\+Position@{set\+Local\+Position}}
+\index{set\+Local\+Position@{set\+Local\+Position}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{set\+Local\+Position(const Vector3 \&localposition\+\_\+)}{setLocalPosition(const Vector3 &localposition_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::set\+Local\+Position (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{localposition\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a4d7f2932c763df5cbb901264021113d1}{}\label{class_magnum_1_1_frame3_a4d7f2932c763df5cbb901264021113d1}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform by directly setting the Local Position. 
+
+
+\begin{DoxyParams}{參數}
+{\em localposition\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3},the} & local position \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!set\+Local\+Transform@{set\+Local\+Transform}}
+\index{set\+Local\+Transform@{set\+Local\+Transform}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{set\+Local\+Transform(const Matrix4 \&localtransform\+\_\+)}{setLocalTransform(const Matrix4 &localtransform_)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::set\+Local\+Transform (
+\begin{DoxyParamCaption}
+\item[{const {\bf Matrix4} \&}]{localtransform\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_frame3_a83afcd522b770d9f91539a5edd120b71}{}\label{class_magnum_1_1_frame3_a83afcd522b770d9f91539a5edd120b71}
+
+
+Set the \hyperlink{class_magnum_1_1_frame3}{Frame3}\textquotesingle{}s local transform by directly setting the Local \hyperlink{class_magnum_1_1_transform}{Transform} Matrix. 
+
+
+\begin{DoxyParams}{參數}
+{\em localtransform\+\_\+,\hyperlink{class_magnum_1_1_matrix4}{Matrix4},the} & local transform \\
+\hline
+\end{DoxyParams}
+\index{Magnum\+::\+Frame3@{Magnum\+::\+Frame3}!write@{write}}
+\index{write@{write}!Magnum\+::\+Frame3@{Magnum\+::\+Frame3}}
+\subsubsection[{\texorpdfstring{write(\+Output\+Stream \&os) const }{write(OutputStream &os) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Frame3\+::write (
+\begin{DoxyParamCaption}
+\item[{{\bf Output\+Stream} \&}]{os}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_frame3_ab0ae20eaa0b37da4370279231c3479bf}{}\label{class_magnum_1_1_frame3_ab0ae20eaa0b37da4370279231c3479bf}
+
+
+write method for Serialization 
+
+
+\begin{DoxyParams}{參數}
+{\em os,the} & \hyperlink{class_magnum_1_1_output_stream}{Output\+Stream} for Serialization \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_frame3_ab0ae20eaa0b37da4370279231c3479bf_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Frame3.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Frame3.\+cpp\end{DoxyCompactItemize}

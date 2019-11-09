@@ -1,0 +1,11 @@
+<map id="IDreamSky::Physics3::RigidBody" name="IDreamSky::Physics3::RigidBody">
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_box3_collider.html" title="Box3Collider Component. " alt="" coords="430,5,597,32"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_b_v_h_triangle_mesh_collider.html" title="BVHTriangleMeshCollider Component. " alt="" coords="414,57,613,98"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_capsule3_collider.html" title="Capsule3Collider Component. " alt="" coords="418,123,609,149"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_cone3_collider.html" title="Cone3Collider Component. " alt="" coords="426,173,601,200"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_convex_hull3_collider.html" title="IDreamSky::ConvexHull3Collider" alt="" coords="409,224,617,251"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_cylinder3_collider.html" title="Cylinder3Collider Component. " alt="" coords="418,275,609,301"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_height_field_collider.html" title="HeightFieldCollider Component. " alt="" coords="412,325,615,352"/>
+<area shape="rect" id="node10" href="$class_i_dream_sky_1_1_sphere3_collider.html" title="Sphere3Collider Component. " alt="" coords="421,376,606,403"/>
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_component.html" title="Component. " alt="" coords="5,199,165,225"/>
+</map>

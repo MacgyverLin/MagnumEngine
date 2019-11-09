@@ -1,0 +1,84 @@
+\hypertarget{class_magnum_1_1_service}{}\section{Magnum\+:\+:Service$<$ T $>$ 類別 樣版 參考文件}
+\label{class_magnum_1_1_service}\index{Magnum\+::\+Service$<$ T $>$@{Magnum\+::\+Service$<$ T $>$}}
+
+
+類別\+Magnum\+:\+:Service$<$ T $>$的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_magnum_1_1_service__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Service$<$ T $>$的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_magnum_1_1_service__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Service} (const char $\ast$name)\hypertarget{class_magnum_1_1_service_a6ea01563c51ddee3d08351ad4f68e1ad}{}\label{class_magnum_1_1_service_a6ea01563c51ddee3d08351ad4f68e1ad}
+
+\item 
+virtual bool \hyperlink{class_magnum_1_1_service_a33d6803c347e20f044b0dc63f62ae6fa}{initiate} ()
+\begin{DoxyCompactList}\small\item\em Initiate the Services. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_service_a0ff3d8b17dee06f7b4d9ea8b42c407b8}{process} ()\hypertarget{class_magnum_1_1_service_a0ff3d8b17dee06f7b4d9ea8b42c407b8}{}\label{class_magnum_1_1_service_a0ff3d8b17dee06f7b4d9ea8b42c407b8}
+
+\begin{DoxyCompactList}\small\item\em Update the Services. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_service_aa32bc1741c7871c60d8f0b696da93f57}{pause} ()\hypertarget{class_magnum_1_1_service_aa32bc1741c7871c60d8f0b696da93f57}{}\label{class_magnum_1_1_service_aa32bc1741c7871c60d8f0b696da93f57}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is pause(e.\+g system bring the app to background, let the service to release resources) \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_service_ad4127e32177955d33f4558e691b4c7b4}{resume} ()\hypertarget{class_magnum_1_1_service_ad4127e32177955d33f4558e691b4c7b4}{}\label{class_magnum_1_1_service_ad4127e32177955d33f4558e691b4c7b4}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is resume(e.\+g system bring back the app from background, let the service to reload resources) \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_service_a49190db22bbb551465eb2331bcbe34b8}{terminate} ()\hypertarget{class_magnum_1_1_service_a49190db22bbb551465eb2331bcbe34b8}{}\label{class_magnum_1_1_service_a49190db22bbb551465eb2331bcbe34b8}
+
+\begin{DoxyCompactList}\small\item\em Terminate the Services, called when the app is terminate. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_service_a6e8684e4beb790c761a8747d73b8e6f4}{clear} ()
+\begin{DoxyCompactList}\small\item\em Call when the services needed to be clean up, e.\+g. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Service@{Magnum\+::\+Service}!clear@{clear}}
+\index{clear@{clear}!Magnum\+::\+Service@{Magnum\+::\+Service}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ virtual void {\bf Magnum\+::\+Service}$<$ T $>$\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_service_a6e8684e4beb790c761a8747d73b8e6f4}{}\label{class_magnum_1_1_service_a6e8684e4beb790c761a8747d73b8e6f4}
+
+
+Call when the services needed to be clean up, e.\+g. 
+
+during scene transition. 
+
+實作 \hyperlink{class_magnum_1_1_i_service_a976e83ea967f9e3fb2c89a75d6f2787b}{Magnum\+::\+I\+Service}.
+
+\index{Magnum\+::\+Service@{Magnum\+::\+Service}!initiate@{initiate}}
+\index{initiate@{initiate}!Magnum\+::\+Service@{Magnum\+::\+Service}}
+\subsubsection[{\texorpdfstring{initiate()}{initiate()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ virtual bool {\bf Magnum\+::\+Service}$<$ T $>$\+::initiate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_service_a33d6803c347e20f044b0dc63f62ae6fa}{}\label{class_magnum_1_1_service_a33d6803c347e20f044b0dc63f62ae6fa}
+
+
+Initiate the Services. 
+
+\begin{DoxyReturn}{傳回值}
+true if success, false if failed 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_i_service_a176411207a279a2d22aaec10a74861fe}{Magnum\+::\+I\+Service}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Service.\+h\end{DoxyCompactItemize}

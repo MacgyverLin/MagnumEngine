@@ -1,0 +1,53 @@
+<VisualEffect order="0">
+	<Attributes>
+		<Attribute type="vec3" format="float3" name="inputPosition"		semantic="POSITION0" />
+		<Attribute type="vec2" format="float2" name="inputTexCoord0"	semantic="TEXCOORD0" />
+	</Attributes>
+	<Uniforms>
+		<Uniform precision="" format="sampler2D" name="diffuseMapSampler" arraysize="1" semantic="DIFFUSEMAP" initializer=""/>
+		<Uniform precision="" format="mat4" name="worldMat" arraysize="1" semantic="WORLD" initializer=""/>
+		<Uniform precision="" format="mat4" name="viewProjMat" arraysize="1" semantic="VIEWPROJ" initializer=""/>
+		<Uniform precision="" format="mat4" name="viewIMat" arraysize="1" semantic="VIEWINVERSE" initializer=""/>
+		<Uniform precision="" format="float" name="size" arraysize="1" initializer="1.0"/>
+	</Uniforms>
+	<Technique name="Default">
+		<Pass name="P0">
+			<RenderStates>
+				<RenderState type="cullenable" value="false"/>
+				<RenderState type="depthtestenable" value="false"/>
+			</RenderStates>
+			<VertexShader>
+				attribute vec3 inputPosition;
+				attribute vec2 inputTexCoord0;
+
+				varying vec2 varyingTexCoord0;
+
+				uniform mat4 worldMat;
+				uniform mat4 viewProjMat;
+				uniform mat4 viewIMat;
+				uniform float size;
+
+				void main()
+				{
+					vec3 position		= inputPosition * size;
+					position			+= vec3(viewIMat[0][3], viewIMat[1][3], viewIMat[2][3]);
+
+					gl_Position			= vec4(position, 1.00000) * viewProjMat;
+					varyingTexCoord0	= inputTexCoord0;
+				}
+			</VertexShader>
+			<PixelShader>
+				varying vec2 varyingTexCoord0;
+				
+				uniform sampler2D diffuseMapSampler; 
+				
+				void main()
+				{	
+					vec4 diffuseColor	= texture2D(diffuseMapSampler, varyingTexCoord0);
+					gl_FragData[0]		= vec4(diffuseColor.rgb, 1.00000); 
+				}
+			</PixelShader>
+		</Pass>
+	</Technique>
+
+</VisualEffect>

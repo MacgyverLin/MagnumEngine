@@ -1,0 +1,14 @@
+<map id="Magnum::Component::Owner::write" name="Magnum::Component::Owner::write">
+<area shape="rect" id="node2" href="$class_magnum_1_1_frame3.html#ab0ae20eaa0b37da4370279231c3479bf" title="write method for Serialization " alt="" coords="218,5,377,32"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_component_1_1_owner.html#ada62d0f70f59917efb49e4bcbebf3a56" title="Handle Construct Event of the Component. " alt="" coords="220,57,375,98"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_component_1_1_owner.html#abf13c26d4fc4c07fad6893aac99bad3d" title="Check if currently in Editor Mode. " alt="" coords="208,122,387,163"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_component_1_1_owner.html#a19f60122b850afe5b03c80f49feef56e" title="Handle Start Event of the Component. " alt="" coords="220,187,375,229"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_component_1_1_owner.html#afb16090797801a819858cf93f53e2113" title="Handle onPreUpdate Event of the Component. " alt="" coords="220,253,375,294"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_component_1_1_owner.html#a5ab10cdba327e2cff3fd53eddbb094b8" title="Handle Update Event of the Component. " alt="" coords="220,318,375,359"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_component_1_1_owner.html#a196e67ddcee045d18d9908255f2e67d3" title="Handle onPostUpdate Event of the Component. " alt="" coords="220,383,375,425"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_component_1_1_owner.html#acaea23801155ebf1acbab0d265d8b3d0" title="Handle Pause Event of the Component. " alt="" coords="220,449,375,490"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_component_1_1_owner.html#ad8287d45f72835b21a28710904d1d791" title="Handle Resume Event of the Component. " alt="" coords="220,514,375,555"/>
+<area shape="rect" id="node11" href="$class_magnum_1_1_component_1_1_owner.html#ae883328e19cdc0bc293dbb17ba870eb5" title="Handle Stop Event of the Component. " alt="" coords="220,579,375,621"/>
+<area shape="rect" id="node12" href="$class_magnum_1_1_component_1_1_owner.html#a143672a60295c38510e29f0f0b53b7f0" title="Handle Destruct Event of the Component. " alt="" coords="220,645,375,686"/>
+<area shape="rect" id="node13" href="$class_magnum_1_1_component_1_1_owner.html#aae44f2e891f2cb1a1fd4e4fa59e37289" title="Handle the Debug Rendering Event. " alt="" coords="218,710,377,751"/>
+</map>

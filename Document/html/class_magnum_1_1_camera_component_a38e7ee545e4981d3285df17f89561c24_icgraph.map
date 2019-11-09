@@ -1,0 +1,9 @@
+<map id="Magnum::CameraComponent::isLayerMatched" name="Magnum::CameraComponent::isLayerMatched">
+<area shape="rect" id="node2" href="$class_magnum_1_1_bill_board_renderer.html#a551846a61bfad0c3104bd75136e37a7e" title="Get the Order of this renderer. " alt="" coords="265,5,449,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_cube_renderer.html#a0ee1e417798a21ad7276c90d327226ed" title="Get the Order of this renderer. " alt="" coords="276,71,439,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_diffuse_map_cube_renderer.html#ac02b3206600e1825d321e213d96bcf81" title="Get the Order of this renderer. " alt="" coords="244,136,471,177"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_diffuse_map_specular_map_cube_renderer.html#a1f74a1a086edaa7c142682c2b8648678" title="Get the Order of this renderer. " alt="" coords="260,201,455,243"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_particle_emitter_renderer.html#a1c48314c5386716962d6859e4c546ef1" title="Get the Order of this renderer. " alt="" coords="248,267,467,308"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_skeletal_anim_model_renderer.html#a138ac08d14815bdc63a73b2d0722f52f" title="Get the Order of this renderer. " alt="" coords="261,332,453,373"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_sky_sphere_renderer.html#a2b7bd339a31bebd9c1770d591ad5f28f" title="Get the Order of this renderer. " alt="" coords="259,397,455,439"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="TiXmlAttribute::QueryIntValue" name="TiXmlAttribute::QueryIntValue">
+<area shape="rect" id="node2" href="$class_ti_xml_element.html#aa9192e80567b5042dbded80b78c44339" title="Given an attribute name, Attribute() returns the value for the attribute of that name, or null if none exists. " alt="" coords="236,5,395,32"/>
+<area shape="rect" id="node3" href="$class_ti_xml_element.html#aea0bfe471380f281c5945770ddbf52b9" title="QueryIntAttribute examines the attribute &#45; it is an alternative to the Attribute() method with richer..." alt="" coords="212,56,419,83"/>
+<area shape="rect" id="node4" href="$class_ti_xml_element.html#af4a1d3f88c28eb0f3115dc39ebd83fff" title="QueryBoolAttribute examines the attribute &#45; see QueryIntAttribute(). " alt="" coords="467,81,685,108"/>
+<area shape="rect" id="node5" href="$class_ti_xml_element.html#ae48df644f890ab86fa19839ac401f00d" title="QueryUnsignedAttribute examines the attribute &#45; see QueryIntAttribute(). " alt="" coords="216,158,415,199"/>
+</map>

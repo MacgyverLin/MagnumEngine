@@ -1,0 +1,4 @@
+<map id="IDreamSky::Input::GUIEvent" name="IDreamSky::Input::GUIEvent">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_string.html" title="IDreamSky::String" alt="" coords="5,13,133,39"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_vector.html" title="IDreamSky::Vector\&lt;\l unsigned char \&gt;" alt="" coords="158,5,298,47"/>
+</map>

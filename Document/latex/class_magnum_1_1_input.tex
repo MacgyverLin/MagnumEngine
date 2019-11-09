@@ -1,0 +1,179 @@
+\hypertarget{class_magnum_1_1_input}{}\section{Magnum\+:\+:Input 類別 參考文件}
+\label{class_magnum_1_1_input}\index{Magnum\+::\+Input@{Magnum\+::\+Input}}
+
+
+\hyperlink{class_magnum_1_1_input}{Input} Services.  
+
+
+
+
+{\ttfamily \#include $<$Input.\+h$>$}
+
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_input_1_1_accelerator_event}{Accelerator\+Event}
+\item 
+class \hyperlink{class_magnum_1_1_input_1_1_accelerator_method}{Accelerator\+Method}
+\item 
+class \hyperlink{class_magnum_1_1_input_1_1_gamepad_event}{Gamepad\+Event}
+\item 
+class \hyperlink{class_magnum_1_1_input_1_1_gamepad_method}{Gamepad\+Method}
+\item 
+class \hyperlink{class_magnum_1_1_input_1_1_g_u_i_event}{G\+U\+I\+Event}
+\item 
+class \hyperlink{class_magnum_1_1_input_1_1_g_u_i_method}{G\+U\+I\+Method}
+\item 
+class \hyperlink{class_magnum_1_1_input_1_1_input_delegate1}{Input\+Delegate1}
+\item 
+struct \hyperlink{struct_magnum_1_1_input_1_1_service}{Service}
+\item 
+class \hyperlink{class_magnum_1_1_input_1_1_touchpad_event}{Touchpad\+Event}
+\item 
+class \hyperlink{class_magnum_1_1_input_1_1_touchpad_method}{Touchpad\+Method}
+\end{DoxyCompactItemize}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Event} \{ \\*
+{\bfseries E\+V\+E\+N\+T\+\_\+\+M\+O\+U\+S\+E\+\_\+\+UP} = 0, 
+{\bfseries E\+V\+E\+N\+T\+\_\+\+M\+O\+U\+S\+E\+\_\+\+D\+O\+WN}, 
+{\bfseries E\+V\+E\+N\+T\+\_\+\+M\+O\+U\+S\+E\+\_\+\+M\+O\+VE}, 
+{\bfseries E\+V\+E\+N\+T\+\_\+\+M\+O\+U\+S\+E\+\_\+\+W\+H\+E\+EL}, 
+\\*
+{\bfseries E\+V\+E\+N\+T\+\_\+\+G\+A\+M\+E\+P\+A\+D\+\_\+\+K\+E\+Y\+\_\+\+UP}, 
+{\bfseries E\+V\+E\+N\+T\+\_\+\+G\+A\+M\+E\+P\+A\+D\+\_\+\+K\+E\+Y\+\_\+\+D\+O\+WN}, 
+{\bfseries E\+V\+E\+N\+T\+\_\+\+A\+C\+C\+E\+L\+E\+R\+A\+T\+O\+R\+\_\+\+U\+P\+D\+A\+TE}, 
+{\bfseries E\+V\+E\+N\+T\+\_\+\+G\+UI}, 
+\\*
+{\bfseries E\+V\+E\+N\+T\+\_\+\+N\+U\+M\+\_\+\+E\+V\+E\+NT}
+ \}\hypertarget{class_magnum_1_1_input_a18d89185afbcdf49e062b4eaae8fe9b1}{}\label{class_magnum_1_1_input_a18d89185afbcdf49e062b4eaae8fe9b1}
+
+\item 
+enum {\bfseries Key\+Code} \{ \\*
+{\bfseries K\+E\+Y\+\_\+\+H\+O\+ME} = 0, 
+{\bfseries K\+E\+Y\+\_\+\+B\+A\+CK}, 
+{\bfseries K\+E\+Y\+\_\+\+M\+E\+NU}, 
+{\bfseries K\+E\+Y\+\_\+\+S\+E\+A\+R\+CH}, 
+\\*
+{\bfseries K\+E\+Y\+\_\+\+S\+P\+E\+C\+I\+A\+L0}, 
+{\bfseries K\+E\+Y\+\_\+\+S\+P\+E\+C\+I\+A\+L1}, 
+{\bfseries K\+E\+Y\+\_\+\+S\+P\+E\+C\+I\+A\+L2}, 
+{\bfseries K\+E\+Y\+\_\+\+S\+P\+E\+C\+I\+A\+L3}, 
+\\*
+{\bfseries K\+E\+Y\+\_\+\+S\+P\+E\+C\+I\+A\+L4}, 
+{\bfseries K\+E\+Y\+\_\+\+S\+P\+E\+C\+I\+A\+L5}, 
+{\bfseries K\+E\+Y\+\_\+\+S\+P\+E\+C\+I\+A\+L6}, 
+{\bfseries K\+E\+Y\+\_\+\+S\+P\+E\+C\+I\+A\+L7}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+UP}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+D\+O\+WN}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+L\+E\+FT}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+R\+I\+G\+HT}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+S\+E\+L\+E\+CT}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+S\+T\+A\+RT}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+B\+U\+T\+T\+O\+N0}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+B\+U\+T\+T\+O\+N1}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+B\+U\+T\+T\+O\+N2}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+B\+U\+T\+T\+O\+N3}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+L1}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+L2}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+L3}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+R1}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+R2}, 
+{\bfseries K\+E\+Y\+P\+A\+D0\+\_\+\+R3}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+UP}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+D\+O\+WN}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+L\+E\+FT}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+R\+I\+G\+HT}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+S\+E\+L\+E\+CT}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+S\+T\+A\+RT}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+B\+U\+T\+T\+O\+N0}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+B\+U\+T\+T\+O\+N1}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+B\+U\+T\+T\+O\+N2}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+B\+U\+T\+T\+O\+N3}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+L1}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+L2}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+L3}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+R1}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+R2}, 
+{\bfseries K\+E\+Y\+P\+A\+D1\+\_\+\+R3}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+UP}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+D\+O\+WN}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+L\+E\+FT}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+R\+I\+G\+HT}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+S\+E\+L\+E\+CT}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+S\+T\+A\+RT}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+B\+U\+T\+T\+O\+N0}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+B\+U\+T\+T\+O\+N1}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+B\+U\+T\+T\+O\+N2}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+B\+U\+T\+T\+O\+N3}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+L1}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+L2}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+L3}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+R1}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+R2}, 
+{\bfseries K\+E\+Y\+P\+A\+D2\+\_\+\+R3}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+UP}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+D\+O\+WN}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+L\+E\+FT}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+R\+I\+G\+HT}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+S\+E\+L\+E\+CT}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+S\+T\+A\+RT}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+B\+U\+T\+T\+O\+N0}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+B\+U\+T\+T\+O\+N1}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+B\+U\+T\+T\+O\+N2}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+B\+U\+T\+T\+O\+N3}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+L1}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+L2}, 
+\\*
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+L3}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+R1}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+R2}, 
+{\bfseries K\+E\+Y\+P\+A\+D3\+\_\+\+R3}, 
+\\*
+{\bfseries N\+U\+M\+\_\+\+K\+E\+YS}
+ \}\hypertarget{class_magnum_1_1_input_a234489c0b3354fcf811da5a637abdd00}{}\label{class_magnum_1_1_input_a234489c0b3354fcf811da5a637abdd00}
+
+\end{DoxyCompactItemize}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bfseries on\+Mouse\+Event} (Touchpad\+Event\+::\+Modifier modifier, Input\+::\+Event evt, int finger\+ID, float x, float y)\hypertarget{class_magnum_1_1_input_a9e4984faa8e4443e49d73155830deb25}{}\label{class_magnum_1_1_input_a9e4984faa8e4443e49d73155830deb25}
+
+\item 
+static void {\bfseries on\+Mouse\+Event} (Touchpad\+Event\+::\+Modifier modifier, Input\+::\+Event evt, float x, float y, int axis, int rotation)\hypertarget{class_magnum_1_1_input_a640a6e0f9b0bf1df5f82d277516369ab}{}\label{class_magnum_1_1_input_a640a6e0f9b0bf1df5f82d277516369ab}
+
+\item 
+static void {\bfseries on\+Key\+Event} (Input\+::\+Event evt, int key\+Code)\hypertarget{class_magnum_1_1_input_a76cc21a9ef286a6d45852b76198b48d5}{}\label{class_magnum_1_1_input_a76cc21a9ef286a6d45852b76198b48d5}
+
+\item 
+static void {\bfseries on\+Accelerator\+Event} (Input\+::\+Event evt, float x, float y, float z)\hypertarget{class_magnum_1_1_input_a505f1f7de69f9f060bc32dec5f311951}{}\label{class_magnum_1_1_input_a505f1f7de69f9f060bc32dec5f311951}
+
+\item 
+static void {\bfseries on\+G\+U\+I\+Event} (Input\+::\+Event evt, const unsigned char $\ast$buffer, int len)\hypertarget{class_magnum_1_1_input_adf76ad18fb523c5527ef9cf4fba4a89b}{}\label{class_magnum_1_1_input_adf76ad18fb523c5527ef9cf4fba4a89b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_input}{Input} Services. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Input.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Input.\+cpp\end{DoxyCompactItemize}

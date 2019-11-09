@@ -1,0 +1,4 @@
+<map id="Magnum::SkeletalAnimBlender::getSpeed" name="Magnum::SkeletalAnimBlender::getSpeed">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_weights.html#a0ae3c60c195a0a28d32bec4e0c4b1b4d" title="Get the Animation to blend. " alt="" coords="255,5,460,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_base.html#aa720c38bdce83e6e838693a603030a06" title="This function get the animation play back speed. " alt="" coords="264,71,451,112"/>
+</map>

@@ -1,0 +1,89 @@
+\hypertarget{struct_closest_convex_cast_c_b}{}\section{Closest\+Convex\+Cast\+CB Struct Reference}
+\label{struct_closest_convex_cast_c_b}\index{Closest\+Convex\+Cast\+CB@{Closest\+Convex\+Cast\+CB}}
+
+
+\hyperlink{struct_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB}.  
+
+
+
+
+{\ttfamily \#include $<$Ray\+Sphere\+Cast.\+h$>$}
+
+Inheritance diagram for Closest\+Convex\+Cast\+CB\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{struct_closest_convex_cast_c_b}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_closest_convex_cast_c_b_a764c109009483b9383b2ddf5d7f9667d}{Closest\+Convex\+Cast\+CB} (\hyperlink{class_magnum_1_1_physics3_1_1_convex_cast_result}{Physics3\+::\+Convex\+Cast\+Result} \&result\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&convex\+From\+World\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&convex\+To\+World\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{struct_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB} Constructor. \end{DoxyCompactList}\item 
+virtual bt\+Scalar \hyperlink{struct_closest_convex_cast_c_b_ae3c14b42e4d889db0f2ca80b44a14924}{add\+Single\+Result} (bt\+Collision\+World\+::\+Local\+Convex\+Result \&convex\+Result, bool normal\+In\+World\+Space)
+\begin{DoxyCompactList}\small\item\em The callback function for Convex\+Caster. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_physics3_1_1_convex_cast_result}{Physics3\+::\+Convex\+Cast\+Result} \& {\bfseries result}\hypertarget{struct_closest_convex_cast_c_b_aa04b520ecda7676257bdf7dcda2188bd}{}\label{struct_closest_convex_cast_c_b_aa04b520ecda7676257bdf7dcda2188bd}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{struct_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB}. 
+
+\hyperlink{struct_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB} defines the call back structure used for \hyperlink{struct_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB}. \hyperlink{struct_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB} returns the closest intersection point of the casting a convex shape in thw physics world 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Closest\+Convex\+Cast\+CB@{Closest\+Convex\+Cast\+CB}!Closest\+Convex\+Cast\+CB@{Closest\+Convex\+Cast\+CB}}
+\index{Closest\+Convex\+Cast\+CB@{Closest\+Convex\+Cast\+CB}!Closest\+Convex\+Cast\+CB@{Closest\+Convex\+Cast\+CB}}
+\subsubsection[{\texorpdfstring{Closest\+Convex\+Cast\+C\+B(\+Physics3\+::\+Convex\+Cast\+Result \&result\+\_\+, const Vector3 \&convex\+From\+World\+\_\+, const Vector3 \&convex\+To\+World\+\_\+)}{ClosestConvexCastCB(Physics3::ConvexCastResult &result_, const Vector3 &convexFromWorld_, const Vector3 &convexToWorld_)}}]{\setlength{\rightskip}{0pt plus 5cm}Closest\+Convex\+Cast\+C\+B\+::\+Closest\+Convex\+Cast\+CB (
+\begin{DoxyParamCaption}
+\item[{{\bf Physics3\+::\+Convex\+Cast\+Result} \&}]{result\+\_\+, }
+\item[{const {\bf Vector3} \&}]{convex\+From\+World\+\_\+, }
+\item[{const {\bf Vector3} \&}]{convex\+To\+World\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{struct_closest_convex_cast_c_b_a764c109009483b9383b2ddf5d7f9667d}{}\label{struct_closest_convex_cast_c_b_a764c109009483b9383b2ddf5d7f9667d}
+
+
+\hyperlink{struct_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB} Constructor. 
+
+To Construct the \hyperlink{struct_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB} 
+\begin{DoxyParams}{Parameters}
+{\em result\+\_\+,Physics3\+::\+Ray\+Cast\+Result,the} & result of convex shape casting is return in this parameter \\
+\hline
+{\em convex\+From\+World\+\_\+,Vector3,the} & Convex\+Cast starting point \\
+\hline
+{\em convex\+To\+World\+\_\+,Vector3,the} & Convex\+Cast starting point \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Closest\+Convex\+Cast\+CB@{Closest\+Convex\+Cast\+CB}!add\+Single\+Result@{add\+Single\+Result}}
+\index{add\+Single\+Result@{add\+Single\+Result}!Closest\+Convex\+Cast\+CB@{Closest\+Convex\+Cast\+CB}}
+\subsubsection[{\texorpdfstring{add\+Single\+Result(bt\+Collision\+World\+::\+Local\+Convex\+Result \&convex\+Result, bool normal\+In\+World\+Space)}{addSingleResult(btCollisionWorld::LocalConvexResult &convexResult, bool normalInWorldSpace)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bt\+Scalar Closest\+Convex\+Cast\+C\+B\+::add\+Single\+Result (
+\begin{DoxyParamCaption}
+\item[{bt\+Collision\+World\+::\+Local\+Convex\+Result \&}]{convex\+Result, }
+\item[{bool}]{normal\+In\+World\+Space}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{struct_closest_convex_cast_c_b_ae3c14b42e4d889db0f2ca80b44a14924}{}\label{struct_closest_convex_cast_c_b_ae3c14b42e4d889db0f2ca80b44a14924}
+
+
+The callback function for Convex\+Caster. 
+
+This function is called by the Physics3 Service when it detect an intesection between convex casting and certain Shape in the physics world 
+\begin{DoxyParams}{Parameters}
+{\em convex\+Result,Physics3\+::\+Local\+Convex\+Result,the} & result of convex casting is return in this parameter \\
+\hline
+{\em normal\+In\+World\+Space,if} & true the normal is return in world space, otherwise return in object local space \\
+\hline
+{\em float,the} & fraction of the ray closest intersection. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Ray\+Sphere\+Cast.\+h\end{DoxyCompactItemize}

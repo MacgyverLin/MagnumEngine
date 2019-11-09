@@ -1,0 +1,101 @@
+\hypertarget{struct_magnum_1_1_closest_convex_cast_c_b}{}\section{Magnum\+:\+:Closest\+Convex\+Cast\+CB 結構 參考文件}
+\label{struct_magnum_1_1_closest_convex_cast_c_b}\index{Magnum\+::\+Closest\+Convex\+Cast\+CB@{Magnum\+::\+Closest\+Convex\+Cast\+CB}}
+
+
+\hyperlink{struct_magnum_1_1_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB}.  
+
+
+
+
+{\ttfamily \#include $<$Ray\+Sphere\+Cast.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Closest\+Convex\+Cast\+C\+B的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{struct_magnum_1_1_closest_convex_cast_c_b__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Closest\+Convex\+Cast\+C\+B的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{struct_magnum_1_1_closest_convex_cast_c_b__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_magnum_1_1_closest_convex_cast_c_b_a93172551ae713d9051df90098e2a9cc5}{Closest\+Convex\+Cast\+CB} (\hyperlink{class_magnum_1_1_physics3_1_1_convex_cast_result}{Physics3\+::\+Convex\+Cast\+Result} \&result\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&convex\+From\+World\+\_\+, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&convex\+To\+World\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{struct_magnum_1_1_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB} Constructor. \end{DoxyCompactList}\item 
+virtual bt\+Scalar \hyperlink{struct_magnum_1_1_closest_convex_cast_c_b_af6d80d8ad8284143a693474953a2635d}{add\+Single\+Result} (bt\+Collision\+World\+::\+Local\+Convex\+Result \&convex\+Result, bool normal\+In\+World\+Space)
+\begin{DoxyCompactList}\small\item\em The callback function for Convex\+Caster. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_physics3_1_1_convex_cast_result}{Physics3\+::\+Convex\+Cast\+Result} \& {\bfseries result}\hypertarget{struct_magnum_1_1_closest_convex_cast_c_b_a7c8fe3689e3eed643f60673d363e7c84}{}\label{struct_magnum_1_1_closest_convex_cast_c_b_a7c8fe3689e3eed643f60673d363e7c84}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{struct_magnum_1_1_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB}. 
+
+\hyperlink{struct_magnum_1_1_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB} defines the call back structure used for \hyperlink{struct_magnum_1_1_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB}. \hyperlink{struct_magnum_1_1_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB} returns the closest intersection point of the casting a convex shape in thw physics world 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Closest\+Convex\+Cast\+CB@{Magnum\+::\+Closest\+Convex\+Cast\+CB}!Closest\+Convex\+Cast\+CB@{Closest\+Convex\+Cast\+CB}}
+\index{Closest\+Convex\+Cast\+CB@{Closest\+Convex\+Cast\+CB}!Magnum\+::\+Closest\+Convex\+Cast\+CB@{Magnum\+::\+Closest\+Convex\+Cast\+CB}}
+\subsubsection[{\texorpdfstring{Closest\+Convex\+Cast\+C\+B(\+Physics3\+::\+Convex\+Cast\+Result \&result\+\_\+, const Vector3 \&convex\+From\+World\+\_\+, const Vector3 \&convex\+To\+World\+\_\+)}{ClosestConvexCastCB(Physics3::ConvexCastResult &result_, const Vector3 &convexFromWorld_, const Vector3 &convexToWorld_)}}]{\setlength{\rightskip}{0pt plus 5cm}Magnum\+::\+Closest\+Convex\+Cast\+C\+B\+::\+Closest\+Convex\+Cast\+CB (
+\begin{DoxyParamCaption}
+\item[{{\bf Physics3\+::\+Convex\+Cast\+Result} \&}]{result\+\_\+, }
+\item[{const {\bf Vector3} \&}]{convex\+From\+World\+\_\+, }
+\item[{const {\bf Vector3} \&}]{convex\+To\+World\+\_\+}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{struct_magnum_1_1_closest_convex_cast_c_b_a93172551ae713d9051df90098e2a9cc5}{}\label{struct_magnum_1_1_closest_convex_cast_c_b_a93172551ae713d9051df90098e2a9cc5}
+
+
+\hyperlink{struct_magnum_1_1_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB} Constructor. 
+
+To Construct the \hyperlink{struct_magnum_1_1_closest_convex_cast_c_b}{Closest\+Convex\+Cast\+CB} 
+\begin{DoxyParams}{參數}
+{\em result\+\_\+,\hyperlink{class_magnum_1_1_physics3_1_1_ray_cast_result}{Physics3\+::\+Ray\+Cast\+Result},the} & result of convex shape casting is return in this parameter \\
+\hline
+{\em convex\+From\+World\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3},the} & Convex\+Cast starting point \\
+\hline
+{\em convex\+To\+World\+\_\+,\hyperlink{class_magnum_1_1_vector3}{Vector3},the} & Convex\+Cast starting point \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Closest\+Convex\+Cast\+CB@{Magnum\+::\+Closest\+Convex\+Cast\+CB}!add\+Single\+Result@{add\+Single\+Result}}
+\index{add\+Single\+Result@{add\+Single\+Result}!Magnum\+::\+Closest\+Convex\+Cast\+CB@{Magnum\+::\+Closest\+Convex\+Cast\+CB}}
+\subsubsection[{\texorpdfstring{add\+Single\+Result(bt\+Collision\+World\+::\+Local\+Convex\+Result \&convex\+Result, bool normal\+In\+World\+Space)}{addSingleResult(btCollisionWorld::LocalConvexResult &convexResult, bool normalInWorldSpace)}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bt\+Scalar Magnum\+::\+Closest\+Convex\+Cast\+C\+B\+::add\+Single\+Result (
+\begin{DoxyParamCaption}
+\item[{bt\+Collision\+World\+::\+Local\+Convex\+Result \&}]{convex\+Result, }
+\item[{bool}]{normal\+In\+World\+Space}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{struct_magnum_1_1_closest_convex_cast_c_b_af6d80d8ad8284143a693474953a2635d}{}\label{struct_magnum_1_1_closest_convex_cast_c_b_af6d80d8ad8284143a693474953a2635d}
+
+
+The callback function for Convex\+Caster. 
+
+This function is called by the \hyperlink{class_magnum_1_1_physics3}{Physics3} \hyperlink{class_magnum_1_1_service}{Service} when it detect an intesection between convex casting and certain Shape in the physics world 
+\begin{DoxyParams}{參數}
+{\em convex\+Result,Physics3\+::\+Local\+Convex\+Result,the} & result of convex casting is return in this parameter \\
+\hline
+{\em normal\+In\+World\+Space,if} & true the normal is return in world space, otherwise return in object local space \\
+\hline
+{\em float,the} & fraction of the ray closest intersection. \\
+\hline
+\end{DoxyParams}
+
+
+此結構(structure) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Ray\+Sphere\+Cast.\+h\end{DoxyCompactItemize}

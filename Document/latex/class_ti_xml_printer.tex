@@ -1,0 +1,126 @@
+\hypertarget{class_ti_xml_printer}{}\section{Ti\+Xml\+Printer 類別 參考文件}
+\label{class_ti_xml_printer}\index{Ti\+Xml\+Printer@{Ti\+Xml\+Printer}}
+
+
+Print to memory functionality.  
+
+
+
+
+{\ttfamily \#include $<$tinyxml.\+h$>$}
+
+類別\+Ti\+Xml\+Printer的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_ti_xml_printer}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \hyperlink{class_ti_xml_printer_a2ec73087db26ff4d2c4316c56f861db7}{Visit\+Enter} (const \hyperlink{class_ti_xml_document}{Ti\+Xml\+Document} \&doc)\hypertarget{class_ti_xml_printer_a2ec73087db26ff4d2c4316c56f861db7}{}\label{class_ti_xml_printer_a2ec73087db26ff4d2c4316c56f861db7}
+
+\begin{DoxyCompactList}\small\item\em Visit a document. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_printer_a0a636046fa589b6d7f3e5bd025b3f33e}{Visit\+Exit} (const \hyperlink{class_ti_xml_document}{Ti\+Xml\+Document} \&doc)\hypertarget{class_ti_xml_printer_a0a636046fa589b6d7f3e5bd025b3f33e}{}\label{class_ti_xml_printer_a0a636046fa589b6d7f3e5bd025b3f33e}
+
+\begin{DoxyCompactList}\small\item\em Visit a document. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_printer_a6dccaf5ee4979f13877690afe28721e8}{Visit\+Enter} (const \hyperlink{class_ti_xml_element}{Ti\+Xml\+Element} \&element, const \hyperlink{class_ti_xml_attribute}{Ti\+Xml\+Attribute} $\ast$first\+Attribute)\hypertarget{class_ti_xml_printer_a6dccaf5ee4979f13877690afe28721e8}{}\label{class_ti_xml_printer_a6dccaf5ee4979f13877690afe28721e8}
+
+\begin{DoxyCompactList}\small\item\em Visit an element. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_printer_ae6a1df8271df4bf62d7873c38e34aa69}{Visit\+Exit} (const \hyperlink{class_ti_xml_element}{Ti\+Xml\+Element} \&element)\hypertarget{class_ti_xml_printer_ae6a1df8271df4bf62d7873c38e34aa69}{}\label{class_ti_xml_printer_ae6a1df8271df4bf62d7873c38e34aa69}
+
+\begin{DoxyCompactList}\small\item\em Visit an element. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_printer_adaf7eec4dc43ad071ff52b60361574f5}{Visit} (const \hyperlink{class_ti_xml_declaration}{Ti\+Xml\+Declaration} \&declaration)\hypertarget{class_ti_xml_printer_adaf7eec4dc43ad071ff52b60361574f5}{}\label{class_ti_xml_printer_adaf7eec4dc43ad071ff52b60361574f5}
+
+\begin{DoxyCompactList}\small\item\em Visit a declaration. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_printer_a0857c5d32c59b9a257f9a49cb9411df5}{Visit} (const \hyperlink{class_ti_xml_text}{Ti\+Xml\+Text} \&text)\hypertarget{class_ti_xml_printer_a0857c5d32c59b9a257f9a49cb9411df5}{}\label{class_ti_xml_printer_a0857c5d32c59b9a257f9a49cb9411df5}
+
+\begin{DoxyCompactList}\small\item\em Visit a text node. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_printer_a9870423f5603630e6142f6bdb66dfb57}{Visit} (const \hyperlink{class_ti_xml_comment}{Ti\+Xml\+Comment} \&comment)\hypertarget{class_ti_xml_printer_a9870423f5603630e6142f6bdb66dfb57}{}\label{class_ti_xml_printer_a9870423f5603630e6142f6bdb66dfb57}
+
+\begin{DoxyCompactList}\small\item\em Visit a comment node. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ti_xml_printer_a08591a15c9a07afa83c24e08b03d6358}{Visit} (const \hyperlink{class_ti_xml_unknown}{Ti\+Xml\+Unknown} \&unknown)\hypertarget{class_ti_xml_printer_a08591a15c9a07afa83c24e08b03d6358}{}\label{class_ti_xml_printer_a08591a15c9a07afa83c24e08b03d6358}
+
+\begin{DoxyCompactList}\small\item\em Visit an unknown node. \end{DoxyCompactList}\item 
+void \hyperlink{class_ti_xml_printer_a213377a4070c7e625bae59716b089e5e}{Set\+Indent} (const char $\ast$\+\_\+indent)
+\begin{DoxyCompactList}\small\item\em Set the indent characters for printing. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_ti_xml_printer_abb33ec7d4bad6aaeb57f4304394b133d}{Indent} ()\hypertarget{class_ti_xml_printer_abb33ec7d4bad6aaeb57f4304394b133d}{}\label{class_ti_xml_printer_abb33ec7d4bad6aaeb57f4304394b133d}
+
+\begin{DoxyCompactList}\small\item\em Query the indention string. \end{DoxyCompactList}\item 
+void \hyperlink{class_ti_xml_printer_a4be1e37e69e3858c59635aa947174fe6}{Set\+Line\+Break} (const char $\ast$\+\_\+line\+Break)
+\begin{DoxyCompactList}\small\item\em Set the line breaking string. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_ti_xml_printer_a11f1b4804a460b175ec244eb5724d96d}{Line\+Break} ()\hypertarget{class_ti_xml_printer_a11f1b4804a460b175ec244eb5724d96d}{}\label{class_ti_xml_printer_a11f1b4804a460b175ec244eb5724d96d}
+
+\begin{DoxyCompactList}\small\item\em Query the current line breaking string. \end{DoxyCompactList}\item 
+void \hyperlink{class_ti_xml_printer_ab23a90629e374cb1cadca090468bbd19}{Set\+Stream\+Printing} ()
+\begin{DoxyCompactList}\small\item\em Switch over to \char`\"{}stream printing\char`\"{} which is the most dense formatting without linebreaks. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_ti_xml_printer_a859eede9597d3e0355b77757be48735e}{C\+Str} ()\hypertarget{class_ti_xml_printer_a859eede9597d3e0355b77757be48735e}{}\label{class_ti_xml_printer_a859eede9597d3e0355b77757be48735e}
+
+\begin{DoxyCompactList}\small\item\em Return the result. \end{DoxyCompactList}\item 
+size\+\_\+t \hyperlink{class_ti_xml_printer_ad01375ae9199bd2f48252eaddce3039d}{Size} ()\hypertarget{class_ti_xml_printer_ad01375ae9199bd2f48252eaddce3039d}{}\label{class_ti_xml_printer_ad01375ae9199bd2f48252eaddce3039d}
+
+\begin{DoxyCompactList}\small\item\em Return the length of the result string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+Print to memory functionality. 
+
+The \hyperlink{class_ti_xml_printer}{Ti\+Xml\+Printer} is useful when you need to\+:
+
+
+\begin{DoxyEnumerate}
+\item Print to memory (especially in non-\/\+S\+TL mode)
+\item Control formatting (line endings, etc.)
+\end{DoxyEnumerate}
+
+When constructed, the \hyperlink{class_ti_xml_printer}{Ti\+Xml\+Printer} is in its default \char`\"{}pretty printing\char`\"{} mode. Before calling Accept() you can call methods to control the printing of the X\+ML document. After \hyperlink{class_ti_xml_node_adb1f7da895f8c9e945e6bd406fe34c78}{Ti\+Xml\+Node\+::\+Accept()} is called, the printed document can be accessed via the \hyperlink{class_ti_xml_printer_a859eede9597d3e0355b77757be48735e}{C\+Str()}, Str(), and \hyperlink{class_ti_xml_printer_ad01375ae9199bd2f48252eaddce3039d}{Size()} methods.
+
+\hyperlink{class_ti_xml_printer}{Ti\+Xml\+Printer} uses the Visitor A\+PI. \begin{DoxyVerb}TiXmlPrinter printer;
+printer.SetIndent( "\t" );
+
+doc.Accept( &printer );
+fprintf( stdout, "%s", printer.CStr() );
+\end{DoxyVerb}
+ 
+
+\subsection{函式成員說明文件}
+\index{Ti\+Xml\+Printer@{Ti\+Xml\+Printer}!Set\+Indent@{Set\+Indent}}
+\index{Set\+Indent@{Set\+Indent}!Ti\+Xml\+Printer@{Ti\+Xml\+Printer}}
+\subsubsection[{\texorpdfstring{Set\+Indent(const char $\ast$\+\_\+indent)}{SetIndent(const char *_indent)}}]{\setlength{\rightskip}{0pt plus 5cm}void Ti\+Xml\+Printer\+::\+Set\+Indent (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{\+\_\+indent}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_ti_xml_printer_a213377a4070c7e625bae59716b089e5e}{}\label{class_ti_xml_printer_a213377a4070c7e625bae59716b089e5e}
+
+
+Set the indent characters for printing. 
+
+By default 4 spaces but tab () is also useful, or null/empty string for no indentation. \index{Ti\+Xml\+Printer@{Ti\+Xml\+Printer}!Set\+Line\+Break@{Set\+Line\+Break}}
+\index{Set\+Line\+Break@{Set\+Line\+Break}!Ti\+Xml\+Printer@{Ti\+Xml\+Printer}}
+\subsubsection[{\texorpdfstring{Set\+Line\+Break(const char $\ast$\+\_\+line\+Break)}{SetLineBreak(const char *_lineBreak)}}]{\setlength{\rightskip}{0pt plus 5cm}void Ti\+Xml\+Printer\+::\+Set\+Line\+Break (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{\+\_\+line\+Break}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_ti_xml_printer_a4be1e37e69e3858c59635aa947174fe6}{}\label{class_ti_xml_printer_a4be1e37e69e3858c59635aa947174fe6}
+
+
+Set the line breaking string. 
+
+By default set to newline (~\newline
+). Some operating systems prefer other characters, or can be set to the null/empty string for no indenation. \index{Ti\+Xml\+Printer@{Ti\+Xml\+Printer}!Set\+Stream\+Printing@{Set\+Stream\+Printing}}
+\index{Set\+Stream\+Printing@{Set\+Stream\+Printing}!Ti\+Xml\+Printer@{Ti\+Xml\+Printer}}
+\subsubsection[{\texorpdfstring{Set\+Stream\+Printing()}{SetStreamPrinting()}}]{\setlength{\rightskip}{0pt plus 5cm}void Ti\+Xml\+Printer\+::\+Set\+Stream\+Printing (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_ti_xml_printer_ab23a90629e374cb1cadca090468bbd19}{}\label{class_ti_xml_printer_ab23a90629e374cb1cadca090468bbd19}
+
+
+Switch over to \char`\"{}stream printing\char`\"{} which is the most dense formatting without linebreaks. 
+
+Common when the X\+ML is needed for network transmission. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/tinyxml.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/tinyxml.\+cpp\end{DoxyCompactItemize}

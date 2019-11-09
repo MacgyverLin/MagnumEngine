@@ -1,0 +1,6 @@
+<map id="IDreamSky::SkeletalAnimBase" name="IDreamSky::SkeletalAnimBase">
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_skeletal_key_frame_animation.html" title="Base class For all type of Skeletal KeyFrame Animation. " alt="" coords="5,155,207,196"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_skeletal_procedural_animation.html" title="Base class For all type of Skeletal Procedural Animation. " alt="" coords="231,155,434,196"/>
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_anim_base.html" title="Base class For all type of Skeletal Animation. " alt="" coords="142,5,297,32"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_skeletal_anim_blender.html" title="Animation blender. " alt="" coords="225,244,440,271"/>
+</map>

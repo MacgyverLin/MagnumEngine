@@ -1,0 +1,91 @@
+\hypertarget{class_magnum_1_1_collision_1_1_contact_info}{}\section{Magnum\+:\+:Collision\+:\+:Contact\+Info 類別 參考文件}
+\label{class_magnum_1_1_collision_1_1_contact_info}\index{Magnum\+::\+Collision\+::\+Contact\+Info@{Magnum\+::\+Collision\+::\+Contact\+Info}}
+
+
+Contains information about the collision.  
+
+
+
+
+{\ttfamily \#include $<$Collision.\+h$>$}
+
+
+
+Magnum\+:\+:Collision\+:\+:Contact\+Info的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_magnum_1_1_collision_1_1_contact_info__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_collision_1_1_contact_info_ab8342f210574b6abf7ffeb7be87f4d1b}{Contact\+Info} ()\hypertarget{class_magnum_1_1_collision_1_1_contact_info_ab8342f210574b6abf7ffeb7be87f4d1b}{}\label{class_magnum_1_1_collision_1_1_contact_info_ab8342f210574b6abf7ffeb7be87f4d1b}
+
+\begin{DoxyCompactList}\small\item\em The constructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_magnum_1_1_collision_1_1_contact_info_a87a3e37fd31e63563ffba3b2e6f88296}{reverse} ()
+\begin{DoxyCompactList}\small\item\em Reverse the information contained in \hyperlink{class_magnum_1_1_collision_1_1_contact_info}{Contact\+Info}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_magnum_1_1_collision_1_1_contact_info_ad82e8acb76c7b4c53edeb3df0b486ef6}{collided}\hypertarget{class_magnum_1_1_collision_1_1_contact_info_ad82e8acb76c7b4c53edeb3df0b486ef6}{}\label{class_magnum_1_1_collision_1_1_contact_info_ad82e8acb76c7b4c53edeb3df0b486ef6}
+
+\begin{DoxyCompactList}\small\item\em indicate this\+\_\+obj and other\+\_\+obj are collided. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_collision}{Collision} $\ast$ \hyperlink{class_magnum_1_1_collision_1_1_contact_info_a35abe0be201e829ab2d46a2f035dfa41}{object0}\hypertarget{class_magnum_1_1_collision_1_1_contact_info_a35abe0be201e829ab2d46a2f035dfa41}{}\label{class_magnum_1_1_collision_1_1_contact_info_a35abe0be201e829ab2d46a2f035dfa41}
+
+\begin{DoxyCompactList}\small\item\em this\+\_\+obj is the (subject) in the Collision\+::\+Handler\+::on\+Collision \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_collision_1_1_contact_info_a5f116b8799ac71a4a7a190f4318bc8aa}{resolve\+Position0}\hypertarget{class_magnum_1_1_collision_1_1_contact_info_a5f116b8799ac71a4a7a190f4318bc8aa}{}\label{class_magnum_1_1_collision_1_1_contact_info_a5f116b8799ac71a4a7a190f4318bc8aa}
+
+\begin{DoxyCompactList}\small\item\em Contact Point of this\+\_\+obj and other\+\_\+obj in World Coordinate \hyperlink{class_magnum_1_1_system}{System}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_collision}{Collision} $\ast$ \hyperlink{class_magnum_1_1_collision_1_1_contact_info_a35705dc324b7a95c362c09e1e330ea4f}{object1}\hypertarget{class_magnum_1_1_collision_1_1_contact_info_a35705dc324b7a95c362c09e1e330ea4f}{}\label{class_magnum_1_1_collision_1_1_contact_info_a35705dc324b7a95c362c09e1e330ea4f}
+
+\begin{DoxyCompactList}\small\item\em other\+\_\+obj is the (object ) in the Collision\+::\+Handler\+::on\+Collision \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_collision_1_1_contact_info_a227adba36f12aa53d2a24cd59bc17d5e}{resolve\+Position1}\hypertarget{class_magnum_1_1_collision_1_1_contact_info_a227adba36f12aa53d2a24cd59bc17d5e}{}\label{class_magnum_1_1_collision_1_1_contact_info_a227adba36f12aa53d2a24cd59bc17d5e}
+
+\begin{DoxyCompactList}\small\item\em Contact Point of this\+\_\+obj and other\+\_\+obj in World Coordinate \hyperlink{class_magnum_1_1_system}{System}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_collision_1_1_contact_info_aecd1c589c354415ae8cbce03b2351edd}{contact\+Point}\hypertarget{class_magnum_1_1_collision_1_1_contact_info_aecd1c589c354415ae8cbce03b2351edd}{}\label{class_magnum_1_1_collision_1_1_contact_info_aecd1c589c354415ae8cbce03b2351edd}
+
+\begin{DoxyCompactList}\small\item\em Contact Point of this\+\_\+obj and other\+\_\+obj in World Coordinate \hyperlink{class_magnum_1_1_system}{System}. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} \hyperlink{class_magnum_1_1_collision_1_1_contact_info_a48b3de0450d19f8085d3c46f389a5853}{contact\+Normal}\hypertarget{class_magnum_1_1_collision_1_1_contact_info_a48b3de0450d19f8085d3c46f389a5853}{}\label{class_magnum_1_1_collision_1_1_contact_info_a48b3de0450d19f8085d3c46f389a5853}
+
+\begin{DoxyCompactList}\small\item\em Contact Normal of this\+\_\+obj and other\+\_\+obj in World Coordinate \hyperlink{class_magnum_1_1_system}{System}. \end{DoxyCompactList}\item 
+float \hyperlink{class_magnum_1_1_collision_1_1_contact_info_a3f1a8e7183e06ccd70f1f8173d9e20cd}{penetration\+Depth}\hypertarget{class_magnum_1_1_collision_1_1_contact_info_a3f1a8e7183e06ccd70f1f8173d9e20cd}{}\label{class_magnum_1_1_collision_1_1_contact_info_a3f1a8e7183e06ccd70f1f8173d9e20cd}
+
+\begin{DoxyCompactList}\small\item\em How much this\+\_\+obj and other\+\_\+obj penetrate each other in World Coordinate \hyperlink{class_magnum_1_1_system}{System}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+Contains information about the collision. 
+
+This information is to be passed to Collsion\+::\+Handler 
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Collision\+::\+Contact\+Info@{Magnum\+::\+Collision\+::\+Contact\+Info}!reverse@{reverse}}
+\index{reverse@{reverse}!Magnum\+::\+Collision\+::\+Contact\+Info@{Magnum\+::\+Collision\+::\+Contact\+Info}}
+\subsubsection[{\texorpdfstring{reverse()}{reverse()}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::\+Contact\+Info\+::reverse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_collision_1_1_contact_info_a87a3e37fd31e63563ffba3b2e6f88296}{}\label{class_magnum_1_1_collision_1_1_contact_info_a87a3e37fd31e63563ffba3b2e6f88296}
+
+
+Reverse the information contained in \hyperlink{class_magnum_1_1_collision_1_1_contact_info}{Contact\+Info}. 
+
+After reverse, the data of \hyperlink{class_magnum_1_1_collision}{Collision} event is described from the point of view of other\+\_\+obj. 
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_collision_1_1_contact_info_a87a3e37fd31e63563ffba3b2e6f88296_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Collision.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Collision.\+cpp\end{DoxyCompactItemize}

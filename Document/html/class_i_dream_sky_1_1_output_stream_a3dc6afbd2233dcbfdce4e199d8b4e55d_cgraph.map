@@ -1,0 +1,9 @@
+<map id="IDreamSky::OutputStream::OutputStream" name="IDreamSky::OutputStream::OutputStream">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_output_stream.html#a0e63481676582adb93cae5970d16d37a" title="OutputStream Destructor. " alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_output_stream.html#a6df894c65be4c31bc8b22d7156c8e2ea" title="read function for bool data " alt="" coords="228,71,403,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_output_stream.html#ae79fd5ab1935901e021f64ab0da4dbf0" title="write function buffer data " alt="" coords="228,136,403,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_output_stream.html#ad2e8b521f90af7c57620040b47961a50" title="skip data from buffer " alt="" coords="228,201,403,243"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_output_stream.html#ac64e26bd7c453af494839b19c145e322" title="Tell the current read position. " alt="" coords="228,267,403,308"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_output_stream.html#acaf486766730cc13bd9caa1122cee4b8" title="Check if the stream is opened. " alt="" coords="228,332,403,373"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_output_stream.html#aecbf1cf82e7fbc35e0b231231daf9959" title="Rewind the stream, the stream current read position will be reset to 0 by this function. " alt="" coords="228,397,403,439"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="IDreamSky::Cylinder3Collider" name="IDreamSky::Cylinder3Collider">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_physics3_1_1_rigid_body.html" title="RigidBody Component. " alt="" coords="27,80,175,121"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_component.html" title="Component. " alt="" coords="21,5,181,32"/>
+</map>

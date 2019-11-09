@@ -1,0 +1,5 @@
+<map id="IDreamSky::SingleCurve2" name="IDreamSky::SingleCurve2">
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_bezier_curve2.html" title="IDreamSky::BezierCurve2" alt="" coords="5,155,176,181"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_b_spline_curve2.html" title="IDreamSky::BSplineCurve2" alt="" coords="200,155,379,181"/>
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_curve2.html" title="IDreamSky::Curve2" alt="" coords="123,5,256,32"/>
+</map>

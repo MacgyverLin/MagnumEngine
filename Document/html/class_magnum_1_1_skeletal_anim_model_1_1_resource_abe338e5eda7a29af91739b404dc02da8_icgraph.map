@@ -1,0 +1,5 @@
+<map id="Magnum::SkeletalAnimModel::Resource::getNumTextureInfos" name="Magnum::SkeletalAnimModel::Resource::getNumTextureInfos">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_model.html#a58eb7b1c0989d7a85c8615c29207cf35" title="Get the i&#45;th Texture Infomation in the Skeletal Anim Model. " alt="" coords="261,5,453,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_model_component.html#a9ef9c3a84c2b8487326eb0976c7a7795" title="Get the i&#45;th Visual Effect(Material) of the Animation Model. " alt="" coords="501,5,693,47"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_anim_model_renderer.html#a138ac08d14815bdc63a73b2d0722f52f" title="remove SkeletalAnimModelComponent from the Renderer. " alt="" coords="741,5,933,47"/>
+</map>

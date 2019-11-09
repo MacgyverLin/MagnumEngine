@@ -1,0 +1,4 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node1" href="$class_ti_xml_visitor.html" title="Implements the interface to the &quot;Visitor pattern&quot; (see the Accept() method.) If you call the Accept()..." alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node2" href="$class_ti_xml_printer.html" title="Print to memory functionality. " alt="" coords="144,5,235,32"/>
+</map>

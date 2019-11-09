@@ -1,0 +1,7 @@
+<map id="IDreamSky::Curve3" name="IDreamSky::Curve3">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_multiple_curve3.html" title="IDreamSky::MultipleCurve3" alt="" coords="5,80,184,107"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_single_curve3.html" title="IDreamSky::SingleCurve3" alt="" coords="209,80,378,107"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_t_c_b_spline3.html" title="IDreamSky::TCBSpline3" alt="" coords="13,155,176,181"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_bezier_curve3.html" title="IDreamSky::BezierCurve3" alt="" coords="204,155,375,181"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_b_spline_curve3.html" title="IDreamSky::BSplineCurve3" alt="" coords="399,155,577,181"/>
+</map>

@@ -1,0 +1,106 @@
+\hypertarget{class_magnum_1_1_curve3}{}\section{Magnum\+:\+:Curve3 類別 參考文件}
+\label{class_magnum_1_1_curve3}\index{Magnum\+::\+Curve3@{Magnum\+::\+Curve3}}
+
+
+類別\+Magnum\+:\+:Curve3的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_curve3__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_curve3_1_1_point_list}{Point\+List}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Curve3} (float f\+T\+Min, float f\+T\+Max)\hypertarget{class_magnum_1_1_curve3_aef894789eb597c659acb2384031010bc}{}\label{class_magnum_1_1_curve3_aef894789eb597c659acb2384031010bc}
+
+\item 
+float {\bfseries Get\+Min\+Time} () const \hypertarget{class_magnum_1_1_curve3_ae543f31b40392973cc0c1b69d6a1e310}{}\label{class_magnum_1_1_curve3_ae543f31b40392973cc0c1b69d6a1e310}
+
+\item 
+float {\bfseries Get\+Max\+Time} () const \hypertarget{class_magnum_1_1_curve3_a730c5abb2f994c2524fb3b9653dcc824}{}\label{class_magnum_1_1_curve3_a730c5abb2f994c2524fb3b9653dcc824}
+
+\item 
+void {\bfseries Set\+Time\+Interval} (float f\+T\+Min, float f\+T\+Max)\hypertarget{class_magnum_1_1_curve3_ae27b9497486a26aeecbe88247820d4a7}{}\label{class_magnum_1_1_curve3_ae27b9497486a26aeecbe88247820d4a7}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Get\+Position} (float f\+Time) const  =0\hypertarget{class_magnum_1_1_curve3_a86145b7b1514d3694f6cfe93f6436a87}{}\label{class_magnum_1_1_curve3_a86145b7b1514d3694f6cfe93f6436a87}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Get\+First\+Derivative} (float f\+Time) const  =0\hypertarget{class_magnum_1_1_curve3_a5b8bf72a31c76da2ece6e30435cc824c}{}\label{class_magnum_1_1_curve3_a5b8bf72a31c76da2ece6e30435cc824c}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Get\+Second\+Derivative} (float f\+Time) const  =0\hypertarget{class_magnum_1_1_curve3_a4a460b42b6597b2948167cd090bdaa39}{}\label{class_magnum_1_1_curve3_a4a460b42b6597b2948167cd090bdaa39}
+
+\item 
+virtual \hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Get\+Third\+Derivative} (float f\+Time) const  =0\hypertarget{class_magnum_1_1_curve3_a840d2dc1c26b0d8a8693b796acbc1095}{}\label{class_magnum_1_1_curve3_a840d2dc1c26b0d8a8693b796acbc1095}
+
+\item 
+float {\bfseries Get\+Speed} (float f\+Time) const \hypertarget{class_magnum_1_1_curve3_af4ba0fae1e8c996dc435f2b416fe9c7a}{}\label{class_magnum_1_1_curve3_af4ba0fae1e8c996dc435f2b416fe9c7a}
+
+\item 
+virtual float {\bfseries Get\+Length} (float f\+T0, float f\+T1) const  =0\hypertarget{class_magnum_1_1_curve3_afe03ce348cdfc71e86739bb19c6f7e57}{}\label{class_magnum_1_1_curve3_afe03ce348cdfc71e86739bb19c6f7e57}
+
+\item 
+float {\bfseries Get\+Total\+Length} () const \hypertarget{class_magnum_1_1_curve3_ac59357d48edc8fee6e96362cb49e2346}{}\label{class_magnum_1_1_curve3_ac59357d48edc8fee6e96362cb49e2346}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Get\+Tangent} (float f\+Time) const \hypertarget{class_magnum_1_1_curve3_ada57700698b9ce31b161416e5b954ca4}{}\label{class_magnum_1_1_curve3_ada57700698b9ce31b161416e5b954ca4}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Get\+Normal} (float f\+Time) const \hypertarget{class_magnum_1_1_curve3_aa3bcf0990ac54a48fd08c09dedcff489}{}\label{class_magnum_1_1_curve3_aa3bcf0990ac54a48fd08c09dedcff489}
+
+\item 
+\hyperlink{class_magnum_1_1_vector3}{Vector3} {\bfseries Get\+Binormal} (float f\+Time) const \hypertarget{class_magnum_1_1_curve3_a8f4ede1777a8e4f059873b6a7147a53f}{}\label{class_magnum_1_1_curve3_a8f4ede1777a8e4f059873b6a7147a53f}
+
+\item 
+void {\bfseries Get\+Frame} (float f\+Time, \hyperlink{class_magnum_1_1_vector3}{Vector3} \&rk\+Position, \hyperlink{class_magnum_1_1_vector3}{Vector3} \&rk\+Tangent, \hyperlink{class_magnum_1_1_vector3}{Vector3} \&rk\+Normal, \hyperlink{class_magnum_1_1_vector3}{Vector3} \&rk\+Binormal) const \hypertarget{class_magnum_1_1_curve3_a8e9cfdc7c42989a7423b66a9e416340d}{}\label{class_magnum_1_1_curve3_a8e9cfdc7c42989a7423b66a9e416340d}
+
+\item 
+float {\bfseries Get\+Curvature} (float f\+Time) const \hypertarget{class_magnum_1_1_curve3_abd559dbdb10b22981fdb3520a9e5dbc1}{}\label{class_magnum_1_1_curve3_abd559dbdb10b22981fdb3520a9e5dbc1}
+
+\item 
+float {\bfseries Get\+Torsion} (float f\+Time) const \hypertarget{class_magnum_1_1_curve3_a5b2e48e27a0547d9b3d1f6826cb57f1e}{}\label{class_magnum_1_1_curve3_a5b2e48e27a0547d9b3d1f6826cb57f1e}
+
+\item 
+virtual float {\bfseries Get\+Time} (float f\+Length, int i\+Iterations=32, float f\+Tolerance=(float) 1e-\/06) const  =0\hypertarget{class_magnum_1_1_curve3_a2e66ccb3a1b30dc6e0a2282865868ab3}{}\label{class_magnum_1_1_curve3_a2e66ccb3a1b30dc6e0a2282865868ab3}
+
+\item 
+void {\bfseries Subdivide\+By\+Time} (int i\+Num\+Points, \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$\&rak\+Point) const \hypertarget{class_magnum_1_1_curve3_a0c59b1adbc68ec4fb0cfb8053e1859fe}{}\label{class_magnum_1_1_curve3_a0c59b1adbc68ec4fb0cfb8053e1859fe}
+
+\item 
+void {\bfseries Subdivide\+By\+Length} (int i\+Num\+Points, \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$\&rak\+Point) const \hypertarget{class_magnum_1_1_curve3_adda30cfb054b33173517e2692382de0e}{}\label{class_magnum_1_1_curve3_adda30cfb054b33173517e2692382de0e}
+
+\item 
+virtual float {\bfseries Get\+Variation} (float f\+T0, float f\+T1, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$pk\+P0=0, const \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$pk\+P1=0) const  =0\hypertarget{class_magnum_1_1_curve3_a5ca419e625d43f9cec9324183adaffb2}{}\label{class_magnum_1_1_curve3_a5ca419e625d43f9cec9324183adaffb2}
+
+\item 
+void {\bfseries Subdivide\+By\+Variation} (float f\+Min\+Variation, int i\+Max\+Level, int \&ri\+Num\+Points, \hyperlink{class_magnum_1_1_vector3}{Vector3} $\ast$\&rak\+Point) const \hypertarget{class_magnum_1_1_curve3_a901236ae071e5a0a2a3b8e656c47cb31}{}\label{class_magnum_1_1_curve3_a901236ae071e5a0a2a3b8e656c47cb31}
+
+\end{DoxyCompactItemize}
+\subsection*{保護方法(Protected Methods)}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Subdivide\+By\+Variation} (float f\+T0, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&rk\+P0, float f\+T1, const \hyperlink{class_magnum_1_1_vector3}{Vector3} \&rk\+P1, float k\+Min\+Variation, int i\+Level, int \&ri\+Num\+Points, \hyperlink{class_magnum_1_1_curve3_1_1_point_list}{Point\+List} $\ast$\&rpk\+List) const \hypertarget{class_magnum_1_1_curve3_a2a8894e5805603453ae137947a9ccc6f}{}\label{class_magnum_1_1_curve3_a2a8894e5805603453ae137947a9ccc6f}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+float {\bfseries m\+\_\+f\+T\+Min}\hypertarget{class_magnum_1_1_curve3_a3f803f6838b8237d42351f9f4d5d3302}{}\label{class_magnum_1_1_curve3_a3f803f6838b8237d42351f9f4d5d3302}
+
+\item 
+float {\bfseries m\+\_\+f\+T\+Max}\hypertarget{class_magnum_1_1_curve3_a7e475e6007e8738eb1c7a4262ee54701}{}\label{class_magnum_1_1_curve3_a7e475e6007e8738eb1c7a4262ee54701}
+
+\end{DoxyCompactItemize}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Curve3.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Curve3.\+cpp\end{DoxyCompactItemize}

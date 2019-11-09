@@ -1,0 +1,10 @@
+<map id="Magnum::InputStream::InputStream" name="Magnum::InputStream::InputStream">
+<area shape="rect" id="node2" href="$class_magnum_1_1_input_stream.html#ae71831adce618d60783c287a2ac7075a" title="InputStream Destructor. " alt="" coords="204,5,355,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_input_stream.html#abf81563a45454f198366e06a8cf4b27b" title="read function for bool data " alt="" coords="204,71,355,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_input_stream.html#ab514aac8cc4042273ce97e919836703b" title="read function buffer data " alt="" coords="204,136,355,177"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_input_stream.html#aafc4188de8ca8d84cfab1c109e0a4113" title="skip data from buffer " alt="" coords="204,201,355,243"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_input_stream.html#ab6d6c6089277296d49459011fc3bffb5" title="Get the length of buffer data. " alt="" coords="204,267,355,308"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_input_stream.html#a244ca3d979b3e9fdef2721780db89adc" title="Tell the current read position. " alt="" coords="204,332,355,373"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_input_stream.html#adf0fafef2b18906f4be2145d64f9acc7" title="Check if the stream is opened. " alt="" coords="204,397,355,439"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_input_stream.html#af6156ecb8c82e061a158730bd497e5ed" title="Rewind the stream, the stream current read position will be reset to 0 by this function. " alt="" coords="204,463,355,504"/>
+</map>

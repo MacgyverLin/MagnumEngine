@@ -1,0 +1,6 @@
+<map id="IDreamSky::GXFrameBuffer" name="IDreamSky::GXFrameBuffer">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_g_x_render_target.html" title="IDreamSky::GXRenderTarget" alt="" coords="19,8,207,35"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_g_x_pixel_format.html" title="IDreamSky::GXPixelFormat" alt="" coords="22,65,203,92"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_g_x_multi_sample_mode.html" title="GXMultiSampleMode encapsulate MultiSample AntiAliasing. " alt="" coords="5,116,220,143"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_g_x_image_rect.html" title="IDreamSky::GXImageRect" alt="" coords="26,167,199,193"/>
+</map>

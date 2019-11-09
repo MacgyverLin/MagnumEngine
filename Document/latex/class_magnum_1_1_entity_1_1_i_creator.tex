@@ -1,0 +1,267 @@
+\hypertarget{class_magnum_1_1_entity_1_1_i_creator}{}\section{Magnum\+:\+:Entity\+:\+:I\+Creator 類別 參考文件}
+\label{class_magnum_1_1_entity_1_1_i_creator}\index{Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}}
+
+
+\hyperlink{class_magnum_1_1_entity_1_1_i_creator}{I\+Creator}.  
+
+
+
+
+{\ttfamily \#include $<$Entity.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Entity\+:\+:I\+Creator的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{class_magnum_1_1_entity_1_1_i_creator__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Entity\+:\+:I\+Creator的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_magnum_1_1_entity_1_1_i_creator__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_entity_1_1_i_creator_a99e69c3d049b03f808bab699f0dc8e00}{I\+Creator} (const char $\ast$class\+Path\+\_\+)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_magnum_1_1_entity_1_1_i_creator}{I\+Creator} Constructor To Construct the \hyperlink{class_magnum_1_1_entity_1_1_i_creator}{I\+Creator} of certain Class. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_1_1_i_creator_addcb07d3da7cb704c89b0ce44db2d70e}{find\+By\+Name} (const char $\ast$name\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Find all Entities with specifying a its name. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_1_1_i_creator_a1dcb68d43e234a9bd61eeea43fd60787}{find\+By\+Tag} (const char $\ast$tag\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying its tag. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_1_1_i_creator_ae454803a24c9fd3376a907709ef87a6d}{find\+By\+Unique\+ID} (unsigned int unique\+I\+D\+\_\+) const 
+\begin{DoxyCompactList}\small\item\em Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying its unique ID. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ {\bfseries create} (const char $\ast$name\+\_\+)=0\hypertarget{class_magnum_1_1_entity_1_1_i_creator_aacf756f6fe3cea544f29874c430b3ff1}{}\label{class_magnum_1_1_entity_1_1_i_creator_aacf756f6fe3cea544f29874c430b3ff1}
+
+\item 
+virtual void {\bfseries release} (\hyperlink{class_magnum_1_1_entity}{Entity} $\ast$entity\+\_\+)=0\hypertarget{class_magnum_1_1_entity_1_1_i_creator_a72261b418d549109146d70bd5fa750fa}{}\label{class_magnum_1_1_entity_1_1_i_creator_a72261b418d549109146d70bd5fa750fa}
+
+\item 
+const char $\ast$ \hyperlink{class_magnum_1_1_entity_1_1_i_creator_ad9a8b6d71f7c3ff236db456d8cfb7c7e}{get\+Class\+Path} () const 
+\begin{DoxyCompactList}\small\item\em Get the Class Path of this creator. \end{DoxyCompactList}\item 
+int \hyperlink{class_magnum_1_1_entity_1_1_i_creator_a57d32707da8ab3832d3b092b6e6fc85a}{get\+Num\+Entities} () const 
+\begin{DoxyCompactList}\small\item\em Get the Number of Entities of this \hyperlink{class_magnum_1_1_entity}{Entity} \hyperlink{class_magnum_1_1_entity_1_1_creator}{Creator}. \end{DoxyCompactList}\item 
+const \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_1_1_i_creator_a845f6633bcce0df7961820300315cc91}{get\+Entity} (int i) const 
+\begin{DoxyCompactList}\small\item\em Get the const Entity$\ast$ indexed at i. \end{DoxyCompactList}\item 
+\hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ \hyperlink{class_magnum_1_1_entity_1_1_i_creator_ae3f55786e3ea5e8594dc9710af13d9f7}{get\+Entity} (int i)
+\begin{DoxyCompactList}\small\item\em Get the Entity$\ast$ indexed at i. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ $>$ {\bfseries active\+Entities}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_aab3ba57b637934b03eb850e0f465351d}{}\label{class_magnum_1_1_entity_1_1_i_creator_aab3ba57b637934b03eb850e0f465351d}
+
+\item 
+\hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$ $>$ {\bfseries in\+Active\+Entities}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_a0e49dcda1f8f1251b116e36897a51ce7}{}\label{class_magnum_1_1_entity_1_1_i_creator_a0e49dcda1f8f1251b116e36897a51ce7}
+
+\item 
+char {\bfseries class\+Path} \mbox{[}M\+A\+X\+\_\+\+C\+L\+A\+S\+S\+P\+A\+TH+1\mbox{]}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_af03addfe4807529ae6a98db02f2f0885}{}\label{class_magnum_1_1_entity_1_1_i_creator_af03addfe4807529ae6a98db02f2f0885}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Factory}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_a328c093d609680cca505905c6d49901a}{}\label{class_magnum_1_1_entity_1_1_i_creator_a328c093d609680cca505905c6d49901a}
+
+\item 
+class {\bfseries Entity}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_a614439ccac0344926adc4c0165d64060}{}\label{class_magnum_1_1_entity_1_1_i_creator_a614439ccac0344926adc4c0165d64060}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_entity_1_1_i_creator}{I\+Creator}. 
+
+\hyperlink{class_magnum_1_1_entity_1_1_i_creator}{I\+Creator} is the entity creator interface. Provide basic function e.\+g. finding \hyperlink{class_magnum_1_1_entity}{Entity} and also manage the life cycle of the entities of its class 
+
+\subsection{建構子與解構子說明文件}
+\index{Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}!I\+Creator@{I\+Creator}}
+\index{I\+Creator@{I\+Creator}!Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}}
+\subsubsection[{\texorpdfstring{I\+Creator(const char $\ast$class\+Path\+\_\+)}{ICreator(const char *classPath_)}}]{\setlength{\rightskip}{0pt plus 5cm}Entity\+::\+I\+Creator\+::\+I\+Creator (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{class\+Path\+\_\+}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_a99e69c3d049b03f808bab699f0dc8e00}{}\label{class_magnum_1_1_entity_1_1_i_creator_a99e69c3d049b03f808bab699f0dc8e00}
+
+
+\hyperlink{class_magnum_1_1_entity_1_1_i_creator}{I\+Creator} Constructor To Construct the \hyperlink{class_magnum_1_1_entity_1_1_i_creator}{I\+Creator} of certain Class. 
+
+
+\begin{DoxyParams}{參數}
+{\em class\+Path\+\_\+,the} & class path of the creator \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}!find\+By\+Name@{find\+By\+Name}}
+\index{find\+By\+Name@{find\+By\+Name}!Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}}
+\subsubsection[{\texorpdfstring{find\+By\+Name(const char $\ast$name\+\_\+) const }{findByName(const char *name_) const }}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Entity}$\ast$ Magnum\+::\+Entity\+::\+I\+Creator\+::find\+By\+Name (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_addcb07d3da7cb704c89b0ce44db2d70e}{}\label{class_magnum_1_1_entity_1_1_i_creator_addcb07d3da7cb704c89b0ce44db2d70e}
+
+
+Find all Entities with specifying a its name. 
+
+
+\begin{DoxyParams}{參數}
+{\em name\+\_\+,const} & char $\ast$, the name \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_1_1_i_creator_addcb07d3da7cb704c89b0ce44db2d70e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}!find\+By\+Tag@{find\+By\+Tag}}
+\index{find\+By\+Tag@{find\+By\+Tag}!Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}}
+\subsubsection[{\texorpdfstring{find\+By\+Tag(const char $\ast$tag\+\_\+) const }{findByTag(const char *tag_) const }}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Entity}$\ast$ Magnum\+::\+Entity\+::\+I\+Creator\+::find\+By\+Tag (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{tag\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_a1dcb68d43e234a9bd61eeea43fd60787}{}\label{class_magnum_1_1_entity_1_1_i_creator_a1dcb68d43e234a9bd61eeea43fd60787}
+
+
+Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying its tag. 
+
+
+\begin{DoxyParams}{參數}
+{\em name\+\_\+,const} & char $\ast$, the name \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_1_1_i_creator_a1dcb68d43e234a9bd61eeea43fd60787_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}!find\+By\+Unique\+ID@{find\+By\+Unique\+ID}}
+\index{find\+By\+Unique\+ID@{find\+By\+Unique\+ID}!Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}}
+\subsubsection[{\texorpdfstring{find\+By\+Unique\+I\+D(unsigned int unique\+I\+D\+\_\+) const }{findByUniqueID(unsigned int uniqueID_) const }}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Entity}$\ast$ Magnum\+::\+Entity\+::\+I\+Creator\+::find\+By\+Unique\+ID (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{unique\+I\+D\+\_\+}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_ae454803a24c9fd3376a907709ef87a6d}{}\label{class_magnum_1_1_entity_1_1_i_creator_ae454803a24c9fd3376a907709ef87a6d}
+
+
+Find the \hyperlink{class_magnum_1_1_entity}{Entity} by specifying its unique ID. 
+
+
+\begin{DoxyParams}{參數}
+{\em unique\+I\+D\+\_\+,unsigned} & int, the unique ID \\
+\hline
+\end{DoxyParams}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_1_1_i_creator_ae454803a24c9fd3376a907709ef87a6d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}!get\+Class\+Path@{get\+Class\+Path}}
+\index{get\+Class\+Path@{get\+Class\+Path}!Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}}
+\subsubsection[{\texorpdfstring{get\+Class\+Path() const }{getClassPath() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Entity\+::\+I\+Creator\+::get\+Class\+Path (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_ad9a8b6d71f7c3ff236db456d8cfb7c7e}{}\label{class_magnum_1_1_entity_1_1_i_creator_ad9a8b6d71f7c3ff236db456d8cfb7c7e}
+
+
+Get the Class Path of this creator. 
+
+\begin{DoxyReturn}{傳回值}
+, const char $\ast$, the Class\+Path 
+\end{DoxyReturn}
+
+
+呼叫此函數的函數列表\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_1_1_i_creator_ad9a8b6d71f7c3ff236db456d8cfb7c7e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}!get\+Entity@{get\+Entity}}
+\index{get\+Entity@{get\+Entity}!Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}}
+\subsubsection[{\texorpdfstring{get\+Entity(int i) const }{getEntity(int i) const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Entity} $\ast$ Entity\+::\+I\+Creator\+::get\+Entity (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_a845f6633bcce0df7961820300315cc91}{}\label{class_magnum_1_1_entity_1_1_i_creator_a845f6633bcce0df7961820300315cc91}
+
+
+Get the const Entity$\ast$ indexed at i. 
+
+\begin{DoxyReturn}{傳回值}
+, const \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$, the Entity$\ast$ indexed at i 
+\end{DoxyReturn}
+\index{Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}!get\+Entity@{get\+Entity}}
+\index{get\+Entity@{get\+Entity}!Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}}
+\subsubsection[{\texorpdfstring{get\+Entity(int i)}{getEntity(int i)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Entity} $\ast$ Entity\+::\+I\+Creator\+::get\+Entity (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_ae3f55786e3ea5e8594dc9710af13d9f7}{}\label{class_magnum_1_1_entity_1_1_i_creator_ae3f55786e3ea5e8594dc9710af13d9f7}
+
+
+Get the Entity$\ast$ indexed at i. 
+
+\begin{DoxyReturn}{傳回值}
+, \hyperlink{class_magnum_1_1_entity}{Entity} $\ast$, the Entity$\ast$ indexed at i 
+\end{DoxyReturn}
+
+
+這是此函數的引用函數圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_entity_1_1_i_creator_ae3f55786e3ea5e8594dc9710af13d9f7_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}!get\+Num\+Entities@{get\+Num\+Entities}}
+\index{get\+Num\+Entities@{get\+Num\+Entities}!Magnum\+::\+Entity\+::\+I\+Creator@{Magnum\+::\+Entity\+::\+I\+Creator}}
+\subsubsection[{\texorpdfstring{get\+Num\+Entities() const }{getNumEntities() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Entity\+::\+I\+Creator\+::get\+Num\+Entities (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_magnum_1_1_entity_1_1_i_creator_a57d32707da8ab3832d3b092b6e6fc85a}{}\label{class_magnum_1_1_entity_1_1_i_creator_a57d32707da8ab3832d3b092b6e6fc85a}
+
+
+Get the Number of Entities of this \hyperlink{class_magnum_1_1_entity}{Entity} \hyperlink{class_magnum_1_1_entity_1_1_creator}{Creator}. 
+
+\begin{DoxyReturn}{傳回值}
+, int, the Number of Entities of this \hyperlink{class_magnum_1_1_entity}{Entity} \hyperlink{class_magnum_1_1_entity_1_1_creator}{Creator} 
+\end{DoxyReturn}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Entity.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Entity.\+cpp\end{DoxyCompactItemize}

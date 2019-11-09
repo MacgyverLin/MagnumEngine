@@ -1,0 +1,201 @@
+\hypertarget{class_magnum_1_1_font}{}\section{Magnum\+:\+:Font 類別 參考文件}
+\label{class_magnum_1_1_font}\index{Magnum\+::\+Font@{Magnum\+::\+Font}}
+
+
+\hyperlink{class_magnum_1_1_font}{Font} Graphics Object.  
+
+
+
+
+{\ttfamily \#include $<$Font.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:Font的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{class_magnum_1_1_font__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:Font的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{class_magnum_1_1_font__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{複合項目}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_magnum_1_1_font_1_1_data}{Data}
+\item 
+class \hyperlink{class_magnum_1_1_font_1_1_quad}{Quad}
+\item 
+class \hyperlink{class_magnum_1_1_font_1_1_resource}{Resource}
+\item 
+class \hyperlink{class_magnum_1_1_font_1_1_resource_importer}{Resource\+Importer}
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries construct} (const char $\ast$path\+\_\+)\hypertarget{class_magnum_1_1_font_aa2a03876af821be9d3cb7fa6f5018aff}{}\label{class_magnum_1_1_font_aa2a03876af821be9d3cb7fa6f5018aff}
+
+\item 
+void {\bfseries destruct} ()\hypertarget{class_magnum_1_1_font_a617d7ce6f55319769b70bfae047762b5}{}\label{class_magnum_1_1_font_a617d7ce6f55319769b70bfae047762b5}
+
+\item 
+virtual void $\ast$ \hyperlink{class_magnum_1_1_font_ae39eee8daf71d9379bb7d7fccb502442}{get\+Handle} () const 
+\begin{DoxyCompactList}\small\item\em Get the Handle of the Texture. \end{DoxyCompactList}\item 
+virtual int {\bfseries get\+Font\+Max\+Height} () const \hypertarget{class_magnum_1_1_font_a87d0a3c75b86a504de5d07c24cdf068d}{}\label{class_magnum_1_1_font_a87d0a3c75b86a504de5d07c24cdf068d}
+
+\item 
+virtual int {\bfseries get\+Font\+Width} (char c) const \hypertarget{class_magnum_1_1_font_a13295e1ba54f3af7869639bbb81d6441}{}\label{class_magnum_1_1_font_a13295e1ba54f3af7869639bbb81d6441}
+
+\item 
+virtual int {\bfseries get\+Font\+Height} (char c) const \hypertarget{class_magnum_1_1_font_add65acda319db553876a61e7958571c0}{}\label{class_magnum_1_1_font_add65acda319db553876a61e7958571c0}
+
+\item 
+virtual int \hyperlink{class_magnum_1_1_font_a29554be6eae3bf01854205b373b87d4c}{get\+Width} () const 
+\begin{DoxyCompactList}\small\item\em Get the Width of the Texture. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_font_a95544f5096b7b11ed4bd82e5888bf32b}{get\+Height} () const 
+\begin{DoxyCompactList}\small\item\em Get the Height of the Texture. \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_magnum_1_1_font_ab31bc3961d87559fb2bec990eb2ea74e}{get\+Level\+Count} () const 
+\begin{DoxyCompactList}\small\item\em Get the Mipmap Level Count of the Texture. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_font_a2925b8c1b04096d45cc37bcce6980599}{is\+Renderable} () const 
+\begin{DoxyCompactList}\small\item\em Check if texture is renderable. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_font_af3cd04a5fad1746998deb5c8f2cb1553}{is\+Power\+Of\+Two} () const 
+\begin{DoxyCompactList}\small\item\em Check if texture is power of 2 in both width and height. \end{DoxyCompactList}\item 
+int {\bfseries get\+Num\+Quads} () const \hypertarget{class_magnum_1_1_font_a823b7635f9df8b86502524a00d160ec9}{}\label{class_magnum_1_1_font_a823b7635f9df8b86502524a00d160ec9}
+
+\item 
+const \hyperlink{class_magnum_1_1_font_1_1_quad}{Font\+::\+Quad} \& {\bfseries get\+Quad} (int i) const \hypertarget{class_magnum_1_1_font_aa1e6b0913b666bec5d39f791d943ad20}{}\label{class_magnum_1_1_font_aa1e6b0913b666bec5d39f791d943ad20}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_font}{Font} Graphics Object. 
+
+\begin{DoxySeeAlso}{參閱}
+\hyperlink{class_magnum_1_1_texture2_d_base}{Texture2\+D\+Base} 
+\end{DoxySeeAlso}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Font@{Magnum\+::\+Font}!get\+Handle@{get\+Handle}}
+\index{get\+Handle@{get\+Handle}!Magnum\+::\+Font@{Magnum\+::\+Font}}
+\subsubsection[{\texorpdfstring{get\+Handle() const }{getHandle() const }}]{\setlength{\rightskip}{0pt plus 5cm}void $\ast$ Font\+::get\+Handle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_font_ae39eee8daf71d9379bb7d7fccb502442}{}\label{class_magnum_1_1_font_ae39eee8daf71d9379bb7d7fccb502442}
+
+
+Get the Handle of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+void $\ast$, handle of the texture 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a47ee419784cb12ca283f62deb2499b1e}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Font@{Magnum\+::\+Font}!get\+Height@{get\+Height}}
+\index{get\+Height@{get\+Height}!Magnum\+::\+Font@{Magnum\+::\+Font}}
+\subsubsection[{\texorpdfstring{get\+Height() const }{getHeight() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Font\+::get\+Height (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_font_a95544f5096b7b11ed4bd82e5888bf32b}{}\label{class_magnum_1_1_font_a95544f5096b7b11ed4bd82e5888bf32b}
+
+
+Get the Height of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+int, the Height of the Texture. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a1a75ad18ee40238b2d6fb2105c5ce786}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Font@{Magnum\+::\+Font}!get\+Level\+Count@{get\+Level\+Count}}
+\index{get\+Level\+Count@{get\+Level\+Count}!Magnum\+::\+Font@{Magnum\+::\+Font}}
+\subsubsection[{\texorpdfstring{get\+Level\+Count() const }{getLevelCount() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Font\+::get\+Level\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_font_ab31bc3961d87559fb2bec990eb2ea74e}{}\label{class_magnum_1_1_font_ab31bc3961d87559fb2bec990eb2ea74e}
+
+
+Get the Mipmap Level Count of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+int, the Mipmap Level Count of the Texture. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_af21b138bcc2a202a45551edbc9581022}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Font@{Magnum\+::\+Font}!get\+Width@{get\+Width}}
+\index{get\+Width@{get\+Width}!Magnum\+::\+Font@{Magnum\+::\+Font}}
+\subsubsection[{\texorpdfstring{get\+Width() const }{getWidth() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Font\+::get\+Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_font_a29554be6eae3bf01854205b373b87d4c}{}\label{class_magnum_1_1_font_a29554be6eae3bf01854205b373b87d4c}
+
+
+Get the Width of the Texture. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+int, the Width of the Texture. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a51ea88554cb238b08ff6f79c5605a53b}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Font@{Magnum\+::\+Font}!is\+Power\+Of\+Two@{is\+Power\+Of\+Two}}
+\index{is\+Power\+Of\+Two@{is\+Power\+Of\+Two}!Magnum\+::\+Font@{Magnum\+::\+Font}}
+\subsubsection[{\texorpdfstring{is\+Power\+Of\+Two() const }{isPowerOfTwo() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Font\+::is\+Power\+Of\+Two (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_font_af3cd04a5fad1746998deb5c8f2cb1553}{}\label{class_magnum_1_1_font_af3cd04a5fad1746998deb5c8f2cb1553}
+
+
+Check if texture is power of 2 in both width and height. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+true if the Texture is power of 2. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_ac9975783371f732b546ce5b2680f23e3}{Magnum\+::\+Texture\+Base}.
+
+\index{Magnum\+::\+Font@{Magnum\+::\+Font}!is\+Renderable@{is\+Renderable}}
+\index{is\+Renderable@{is\+Renderable}!Magnum\+::\+Font@{Magnum\+::\+Font}}
+\subsubsection[{\texorpdfstring{is\+Renderable() const }{isRenderable() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Font\+::is\+Renderable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_font_a2925b8c1b04096d45cc37bcce6980599}{}\label{class_magnum_1_1_font_a2925b8c1b04096d45cc37bcce6980599}
+
+
+Check if texture is renderable. 
+
+This is a pure virtual function all sub classes should implemented this function \begin{DoxyReturn}{傳回值}
+true if the Texture is Renderable. 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_texture_base_a7e4d11ffd40d1a83e8838b5fc60cc4c2}{Magnum\+::\+Texture\+Base}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Font.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Font.\+cpp\end{DoxyCompactItemize}

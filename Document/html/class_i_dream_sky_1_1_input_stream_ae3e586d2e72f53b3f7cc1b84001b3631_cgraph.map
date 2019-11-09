@@ -1,0 +1,10 @@
+<map id="IDreamSky::InputStream::InputStream" name="IDreamSky::InputStream::InputStream">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_input_stream.html#ae71831adce618d60783c287a2ac7075a" title="InputStream Destructor. " alt="" coords="217,5,381,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_input_stream.html#abf81563a45454f198366e06a8cf4b27b" title="read function for bool data " alt="" coords="217,71,381,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_input_stream.html#abf84dc5067f961cbeb37b161c3a893b2" title="read function buffer data " alt="" coords="217,136,381,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_input_stream.html#a6fcef9f3c1151ade30c65176ce63aa67" title="skip data from buffer " alt="" coords="217,201,381,243"/>
+<area shape="rect" id="node6" href="$class_i_dream_sky_1_1_input_stream.html#a1d91c05358c6bba4df7e5e8f4743527b" title="Get the length of buffer data. " alt="" coords="217,267,381,308"/>
+<area shape="rect" id="node7" href="$class_i_dream_sky_1_1_input_stream.html#a74fc176bbbae124cc2a0a60c40d7efc1" title="Tell the current read position. " alt="" coords="217,332,381,373"/>
+<area shape="rect" id="node8" href="$class_i_dream_sky_1_1_input_stream.html#aa80c55fc4a4470e0cead401c362c4edf" title="Check if the stream is opened. " alt="" coords="217,397,381,439"/>
+<area shape="rect" id="node9" href="$class_i_dream_sky_1_1_input_stream.html#a74956c76a2534d26dfd9c115d3910b77" title="Rewind the stream, the stream current read position will be reset to 0 by this function. " alt="" coords="217,463,381,504"/>
+</map>

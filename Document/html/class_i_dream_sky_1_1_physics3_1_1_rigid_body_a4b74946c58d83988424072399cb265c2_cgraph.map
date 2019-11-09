@@ -1,0 +1,4 @@
+<map id="IDreamSky::Physics3::RigidBody::updateRigidBody" name="IDreamSky::Physics3::RigidBody::updateRigidBody">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_physics3_1_1_rigid_body.html#aa4aadcf4a7c9d546b99168890e808aba" title="Get the Transform of the RigidBody. " alt="" coords="248,5,420,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_frame3.html#a83afcd522b770d9f91539a5edd120b71" title="Set the Frame3&#39;s local transform by directly setting the Local Transform Matrix. " alt="" coords="261,71,407,112"/>
+</map>

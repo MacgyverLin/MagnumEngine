@@ -1,0 +1,6 @@
+<map id="IDreamSky::Frame3::getInverseGlobalTransform" name="IDreamSky::Frame3::getInverseGlobalTransform">
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_frame3.html#a08c5e5cb5e2127e9c8a166005abda231" title="Get a the parent of this frame. " alt="" coords="228,5,375,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_frame3.html#a57a2f755811f485d9602103609c78d68" title="Get the Frame3&#39;s global transform. " alt="" coords="228,71,375,112"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_frame3.html#a0223522857c808e4a416a1ff07e1380f" title="Get the number of children. " alt="" coords="228,136,375,177"/>
+<area shape="rect" id="node5" href="$class_i_dream_sky_1_1_frame3.html#a2bf739f149f6dd645358f2c74aa95aee" title="Get a child of this frame at index_. " alt="" coords="228,201,375,243"/>
+</map>

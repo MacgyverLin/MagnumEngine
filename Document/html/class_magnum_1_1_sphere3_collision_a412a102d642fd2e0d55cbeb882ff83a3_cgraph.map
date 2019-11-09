@@ -1,0 +1,6 @@
+<map id="Magnum::Sphere3Collision::testWithScene" name="Magnum::Sphere3Collision::testWithScene">
+<area shape="rect" id="node2" href="$class_magnum_1_1_collision.html#a759c9902ad30a31dca7e3ba0ad9e4f01" title="get the Position of this Instance of Collision. " alt="" coords="251,5,388,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_collision.html#ab1987f6bf0de0317b0ba6eff42360105" title="get the Velocity of this Instance of Collision. " alt="" coords="251,71,388,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_sphere3_collision.html#a92f0a4804bb7cd7d0d7a343e69c6d11d" title="This function return the radius of the sphere. " alt="" coords="231,136,408,177"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_scene_collision.html#aed4f98f10f1b99fe65ca654747158b8d" title="This function test if a point intersect with any brush or height field in this scene. " alt="" coords="236,201,403,243"/>
+</map>

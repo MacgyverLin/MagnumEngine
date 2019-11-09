@@ -1,0 +1,5 @@
+<map id="Magnum::SkeletalAnimBase::getSystemTransform" name="Magnum::SkeletalAnimBase::getSystemTransform">
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_base.html#a3f4a937de3dff61073c7730421465479" title="This function get the Vector10 (scale, rotation and translation) of the i&#45;th bone. " alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_anim_base.html#a3071b818530589de7f3b28c1300e6135" title="This function get the local Transform of of the i&#45;th bone. " alt="" coords="240,71,427,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_anim_base.html#a4349fe8f84e7c7ac3324ac163e0fe727" title="This function get the Vector10 (scale, rotation and translation) of the i&#45;th bone. " alt="" coords="475,71,661,112"/>
+</map>

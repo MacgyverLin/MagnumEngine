@@ -1,0 +1,5 @@
+<map id="Magnum::Frame3::getInverseGlobalTransform" name="Magnum::Frame3::getInverseGlobalTransform">
+<area shape="rect" id="node2" href="$class_magnum_1_1_frame3.html#a57a2f755811f485d9602103609c78d68" title="Get the Frame3&#39;s global transform. " alt="" coords="263,5,449,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_frame3.html#a0223522857c808e4a416a1ff07e1380f" title="Get the number of children. " alt="" coords="244,71,468,98"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_frame3.html#a2bf739f149f6dd645358f2c74aa95aee" title="Get a child of this frame at index_. " alt="" coords="267,122,445,149"/>
+</map>

@@ -1,0 +1,415 @@
+\hypertarget{class_i_dream_sky_1_1_input_stream}{}\section{I\+Dream\+Sky\+:\+:Input\+Stream 類別 參考文件}
+\label{class_i_dream_sky_1_1_input_stream}\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+
+
+\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream}.  
+
+
+
+
+{\ttfamily \#include $<$Input\+Stream.\+h$>$}
+
+類別\+I\+Dream\+Sky\+:\+:Input\+Stream的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_i_dream_sky_1_1_input_stream}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_dream_sky_1_1_input_stream_ae3e586d2e72f53b3f7cc1b84001b3631}{Input\+Stream} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} Constructor. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_i_dream_sky_1_1_input_stream_ae71831adce618d60783c287a2ac7075a}{$\sim$\+Input\+Stream} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} Destructor. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_abf81563a45454f198366e06a8cf4b27b}{read} (bool \&data)
+\begin{DoxyCompactList}\small\item\em read function for bool data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_a174a51441a2630a8afeb08fac726f3ab}{read} (char \&data)
+\begin{DoxyCompactList}\small\item\em read function for char data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_a1ff54d938219e4588ba5a7e4c1238de1}{read} (unsigned char \&data)
+\begin{DoxyCompactList}\small\item\em read function for unsigned char data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_ac2b967dc82ccc626db741ae16974e615}{read} (short \&data)
+\begin{DoxyCompactList}\small\item\em read function for short char data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_a52b36dfa371d294d3909e6e95f0f5f2e}{read} (unsigned short \&data)
+\begin{DoxyCompactList}\small\item\em read function for unsigned short char data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_a16a7d16c2f51b3faf13f86f32cd3e270}{read} (int \&data)
+\begin{DoxyCompactList}\small\item\em read function for int char data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_a152c62d9b82bcf884890cca238abadbb}{read} (unsigned int \&data)
+\begin{DoxyCompactList}\small\item\em read function for unsigned int char data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_a84479e2001dff1fc51995160016e8be3}{read} (long \&data)
+\begin{DoxyCompactList}\small\item\em read function for long char data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_a6b1584f2a210b0840438261b0bd3d62c}{read} (unsigned long \&data)
+\begin{DoxyCompactList}\small\item\em read function for unsigned long char data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_a38fbf71a866a48705f5eaa189307c5d3}{read} (float \&data)
+\begin{DoxyCompactList}\small\item\em read function for float char data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_aa040912555e5c5216569a5bbe95523f1}{read} (double \&data)
+\begin{DoxyCompactList}\small\item\em read function for double char data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_a953c23b6d7d9731d23c4bcdcccb2061b}{read} (\hyperlink{class_i_dream_sky_1_1_string}{String} \&str)
+\begin{DoxyCompactList}\small\item\em read function for \hyperlink{class_i_dream_sky_1_1_string}{String} char data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_abf84dc5067f961cbeb37b161c3a893b2}{readX} (void $\ast$buffer, int size, bool reverse\+Order=false)=0
+\begin{DoxyCompactList}\small\item\em read function buffer data \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_a6fcef9f3c1151ade30c65176ce63aa67}{skip} (int size)=0
+\begin{DoxyCompactList}\small\item\em skip data from buffer \end{DoxyCompactList}\item 
+virtual unsigned int \hyperlink{class_i_dream_sky_1_1_input_stream_a1d91c05358c6bba4df7e5e8f4743527b}{length} ()=0
+\begin{DoxyCompactList}\small\item\em Get the length of buffer data. \end{DoxyCompactList}\item 
+virtual unsigned int \hyperlink{class_i_dream_sky_1_1_input_stream_a74fc176bbbae124cc2a0a60c40d7efc1}{tell} ()=0
+\begin{DoxyCompactList}\small\item\em Tell the current read position. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_i_dream_sky_1_1_input_stream_aa80c55fc4a4470e0cead401c362c4edf}{opened} ()=0
+\begin{DoxyCompactList}\small\item\em Check if the stream is opened. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_i_dream_sky_1_1_input_stream_a74956c76a2534d26dfd9c115d3910b77}{rewind} ()=0
+\begin{DoxyCompactList}\small\item\em Rewind the stream, the stream current read position will be reset to 0 by this function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{靜態公開屬性}
+\begin{DoxyCompactItemize}
+\item 
+static bool {\bfseries reverse\+Order} = false\hypertarget{class_i_dream_sky_1_1_input_stream_a20a663b7d0521263583ceace853ddd60}{}\label{class_i_dream_sky_1_1_input_stream_a20a663b7d0521263583ceace853ddd60}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream}. 
+
+The base class of All \hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream}. 
+
+\subsection{建構子與解構子說明文件}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!Input\+Stream@{Input\+Stream}}
+\index{Input\+Stream@{Input\+Stream}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{Input\+Stream()}{InputStream()}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Dream\+Sky\+::\+Input\+Stream\+::\+Input\+Stream (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_i_dream_sky_1_1_input_stream_ae3e586d2e72f53b3f7cc1b84001b3631}{}\label{class_i_dream_sky_1_1_input_stream_ae3e586d2e72f53b3f7cc1b84001b3631}
+
+
+\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} Constructor. 
+
+To Construct the \hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream}. \index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!````~Input\+Stream@{$\sim$\+Input\+Stream}}
+\index{````~Input\+Stream@{$\sim$\+Input\+Stream}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{$\sim$\+Input\+Stream()}{~InputStream()}}]{\setlength{\rightskip}{0pt plus 5cm}Input\+Stream\+::$\sim$\+Input\+Stream (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_ae71831adce618d60783c287a2ac7075a}{}\label{class_i_dream_sky_1_1_input_stream_ae71831adce618d60783c287a2ac7075a}
+
+
+\hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} Destructor. 
+
+To Destruct the \hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream}. 
+
+\subsection{函式成員說明文件}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!length@{length}}
+\index{length@{length}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{length()=0}{length()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual unsigned int I\+Dream\+Sky\+::\+Input\+Stream\+::length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a1d91c05358c6bba4df7e5e8f4743527b}{}\label{class_i_dream_sky_1_1_input_stream_a1d91c05358c6bba4df7e5e8f4743527b}
+
+
+Get the length of buffer data. 
+
+\begin{DoxyReturn}{傳回值}
+unsigned int, the length of \hyperlink{class_i_dream_sky_1_1_input_stream}{Input\+Stream} 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_file_input_stream_ae99ba0a3810c71ff84a16db9c73dd3ec}{I\+Dream\+Sky\+::\+File\+Input\+Stream}, 及 \hyperlink{class_i_dream_sky_1_1_mem_input_stream_afe3986e5078df73b8ad7fd058964fa0c}{I\+Dream\+Sky\+::\+Mem\+Input\+Stream}.
+
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!opened@{opened}}
+\index{opened@{opened}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{opened()=0}{opened()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool I\+Dream\+Sky\+::\+Input\+Stream\+::opened (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_aa80c55fc4a4470e0cead401c362c4edf}{}\label{class_i_dream_sky_1_1_input_stream_aa80c55fc4a4470e0cead401c362c4edf}
+
+
+Check if the stream is opened. 
+
+\begin{DoxyReturn}{傳回值}
+true, stream is opened, else stream is closed 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_file_input_stream_aea79616a783d74553e6adb2a524f1a3f}{I\+Dream\+Sky\+::\+File\+Input\+Stream}, 及 \hyperlink{class_i_dream_sky_1_1_mem_input_stream_ae36f0e641a3c194ddc47538e8767dd4b}{I\+Dream\+Sky\+::\+Mem\+Input\+Stream}.
+
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(bool \&data)}{read(bool &data)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{bool \&}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_abf81563a45454f198366e06a8cf4b27b}{}\label{class_i_dream_sky_1_1_input_stream_abf81563a45454f198366e06a8cf4b27b}
+
+
+read function for bool data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,bool,the} & data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(char \&data)}{read(char &data)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{char \&}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a174a51441a2630a8afeb08fac726f3ab}{}\label{class_i_dream_sky_1_1_input_stream_a174a51441a2630a8afeb08fac726f3ab}
+
+
+read function for char data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,char,the} & data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(unsigned char \&data)}{read(unsigned char &data)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{unsigned char \&}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a1ff54d938219e4588ba5a7e4c1238de1}{}\label{class_i_dream_sky_1_1_input_stream_a1ff54d938219e4588ba5a7e4c1238de1}
+
+
+read function for unsigned char data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,unsigned} & char, the data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(short \&data)}{read(short &data)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{short \&}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_ac2b967dc82ccc626db741ae16974e615}{}\label{class_i_dream_sky_1_1_input_stream_ac2b967dc82ccc626db741ae16974e615}
+
+
+read function for short char data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,short,the} & data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(unsigned short \&data)}{read(unsigned short &data)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{unsigned short \&}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a52b36dfa371d294d3909e6e95f0f5f2e}{}\label{class_i_dream_sky_1_1_input_stream_a52b36dfa371d294d3909e6e95f0f5f2e}
+
+
+read function for unsigned short char data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,unsigned} & short, the data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(int \&data)}{read(int &data)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{int \&}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a16a7d16c2f51b3faf13f86f32cd3e270}{}\label{class_i_dream_sky_1_1_input_stream_a16a7d16c2f51b3faf13f86f32cd3e270}
+
+
+read function for int char data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,int,the} & data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(unsigned int \&data)}{read(unsigned int &data)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{unsigned int \&}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a152c62d9b82bcf884890cca238abadbb}{}\label{class_i_dream_sky_1_1_input_stream_a152c62d9b82bcf884890cca238abadbb}
+
+
+read function for unsigned int char data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,unsigned} & int, the data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(long \&data)}{read(long &data)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{long \&}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a84479e2001dff1fc51995160016e8be3}{}\label{class_i_dream_sky_1_1_input_stream_a84479e2001dff1fc51995160016e8be3}
+
+
+read function for long char data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,long,the} & data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(unsigned long \&data)}{read(unsigned long &data)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{unsigned long \&}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a6b1584f2a210b0840438261b0bd3d62c}{}\label{class_i_dream_sky_1_1_input_stream_a6b1584f2a210b0840438261b0bd3d62c}
+
+
+read function for unsigned long char data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,unsigned} & long, the data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(float \&data)}{read(float &data)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{float \&}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a38fbf71a866a48705f5eaa189307c5d3}{}\label{class_i_dream_sky_1_1_input_stream_a38fbf71a866a48705f5eaa189307c5d3}
+
+
+read function for float char data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,float,the} & data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(double \&data)}{read(double &data)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{double \&}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_aa040912555e5c5216569a5bbe95523f1}{}\label{class_i_dream_sky_1_1_input_stream_aa040912555e5c5216569a5bbe95523f1}
+
+
+read function for double char data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,double,the} & data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!read@{read}}
+\index{read@{read}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read(\+String \&str)}{read(String &str)}}]{\setlength{\rightskip}{0pt plus 5cm}void Input\+Stream\+::read (
+\begin{DoxyParamCaption}
+\item[{{\bf String} \&}]{str}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a953c23b6d7d9731d23c4bcdcccb2061b}{}\label{class_i_dream_sky_1_1_input_stream_a953c23b6d7d9731d23c4bcdcccb2061b}
+
+
+read function for \hyperlink{class_i_dream_sky_1_1_string}{String} char data 
+
+
+\begin{DoxyParams}{參數}
+{\em data,\hyperlink{class_i_dream_sky_1_1_string}{String},the} & data is read from the inputstream and return in this data \\
+\hline
+\end{DoxyParams}
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!readX@{readX}}
+\index{readX@{readX}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{read\+X(void $\ast$buffer, int size, bool reverse\+Order=false)=0}{readX(void *buffer, int size, bool reverseOrder=false)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Input\+Stream\+::readX (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{buffer, }
+\item[{int}]{size, }
+\item[{bool}]{reverse\+Order = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_abf84dc5067f961cbeb37b161c3a893b2}{}\label{class_i_dream_sky_1_1_input_stream_abf84dc5067f961cbeb37b161c3a893b2}
+
+
+read function buffer data 
+
+
+\begin{DoxyParams}{參數}
+{\em buffer,void} & $\ast$, the data is read from the inputstream and fill in this buffer \\
+\hline
+{\em size,int,the} & number of byte to be read from the input steam \\
+\hline
+{\em reverse\+Order,true,for} & big endian system false, for little endian system \\
+\hline
+\end{DoxyParams}
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_file_input_stream_a5ca686c3e5ec27ce9c5cec39bae10cdb}{I\+Dream\+Sky\+::\+File\+Input\+Stream}, 及 \hyperlink{class_i_dream_sky_1_1_mem_input_stream_a46a5d350cad7a038b4e12d5698b5a4ba}{I\+Dream\+Sky\+::\+Mem\+Input\+Stream}.
+
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!rewind@{rewind}}
+\index{rewind@{rewind}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{rewind()=0}{rewind()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Input\+Stream\+::rewind (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a74956c76a2534d26dfd9c115d3910b77}{}\label{class_i_dream_sky_1_1_input_stream_a74956c76a2534d26dfd9c115d3910b77}
+
+
+Rewind the stream, the stream current read position will be reset to 0 by this function. 
+
+\begin{DoxyReturn}{傳回值}
+true, stream is opened, else stream is closed 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_file_input_stream_aa8d8f4bf455dad57929c0ea00a7ae11a}{I\+Dream\+Sky\+::\+File\+Input\+Stream}, 及 \hyperlink{class_i_dream_sky_1_1_mem_input_stream_a55b22a672f3f86795bff96cb9d6dc2f5}{I\+Dream\+Sky\+::\+Mem\+Input\+Stream}.
+
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!skip@{skip}}
+\index{skip@{skip}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{skip(int size)=0}{skip(int size)=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void I\+Dream\+Sky\+::\+Input\+Stream\+::skip (
+\begin{DoxyParamCaption}
+\item[{int}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a6fcef9f3c1151ade30c65176ce63aa67}{}\label{class_i_dream_sky_1_1_input_stream_a6fcef9f3c1151ade30c65176ce63aa67}
+
+
+skip data from buffer 
+
+
+\begin{DoxyParams}{參數}
+{\em size,int,the} & number of byte to be skipped \\
+\hline
+\end{DoxyParams}
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_file_input_stream_a20d195e941f8dd8d65d7cb3e49828dae}{I\+Dream\+Sky\+::\+File\+Input\+Stream}, 及 \hyperlink{class_i_dream_sky_1_1_mem_input_stream_a9333680c5aa2ec6bcabfd15220c82e58}{I\+Dream\+Sky\+::\+Mem\+Input\+Stream}.
+
+\index{I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}!tell@{tell}}
+\index{tell@{tell}!I\+Dream\+Sky\+::\+Input\+Stream@{I\+Dream\+Sky\+::\+Input\+Stream}}
+\subsubsection[{\texorpdfstring{tell()=0}{tell()=0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual unsigned int I\+Dream\+Sky\+::\+Input\+Stream\+::tell (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_i_dream_sky_1_1_input_stream_a74fc176bbbae124cc2a0a60c40d7efc1}{}\label{class_i_dream_sky_1_1_input_stream_a74fc176bbbae124cc2a0a60c40d7efc1}
+
+
+Tell the current read position. 
+
+\begin{DoxyReturn}{傳回值}
+unsigned int, the current read position 
+\end{DoxyReturn}
+
+
+實作於 \hyperlink{class_i_dream_sky_1_1_file_input_stream_a0d2d5c30a1bbaa3a9f4209fae1c953d8}{I\+Dream\+Sky\+::\+File\+Input\+Stream}, 及 \hyperlink{class_i_dream_sky_1_1_mem_input_stream_a533bcf2b8e5b63c080656824fae97aa9}{I\+Dream\+Sky\+::\+Mem\+Input\+Stream}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Input\+Stream.\+h\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Input\+Stream.\+cpp\end{DoxyCompactItemize}

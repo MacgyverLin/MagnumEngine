@@ -1,0 +1,64 @@
+\hypertarget{struct_magnum_1_1_resource_access_1_1_service}{}\section{Magnum\+:\+:Resource\+Access\+:\+:Service 結構 參考文件}
+\label{struct_magnum_1_1_resource_access_1_1_service}\index{Magnum\+::\+Resource\+Access\+::\+Service@{Magnum\+::\+Resource\+Access\+::\+Service}}
+\subsection*{靜態公開方法(Static Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+static bool {\bfseries is\+Loading} ()\hypertarget{struct_magnum_1_1_resource_access_1_1_service_aa893341be664102caa787bc7d4ca9abe}{}\label{struct_magnum_1_1_resource_access_1_1_service_aa893341be664102caa787bc7d4ca9abe}
+
+\item 
+static void {\bfseries get\+Count} (int \&pending\+Count, int \&loading\+Count, int \&failed\+Count, int \&ready\+Count, int \&orphan\+Count)\hypertarget{struct_magnum_1_1_resource_access_1_1_service_ab1a8c5048ce37c67dd88bdf0fc5001b2}{}\label{struct_magnum_1_1_resource_access_1_1_service_ab1a8c5048ce37c67dd88bdf0fc5001b2}
+
+\item 
+static void {\bfseries get\+Size} (int \&pending\+Size, int \&loading\+Size, int \&failed\+Size, int \&ready\+Size, int \&orphan\+Size)\hypertarget{struct_magnum_1_1_resource_access_1_1_service_a060b0eeff2fa293bdbd48b673e6e5edb}{}\label{struct_magnum_1_1_resource_access_1_1_service_a060b0eeff2fa293bdbd48b673e6e5edb}
+
+\item 
+static bool \hyperlink{struct_magnum_1_1_resource_access_1_1_service_a9362ec91113c48e4d533109aaf3d62cc}{initiate} ()
+\begin{DoxyCompactList}\small\item\em Initiate the Services. \end{DoxyCompactList}\item 
+static void \hyperlink{struct_magnum_1_1_resource_access_1_1_service_a19f4264ebeadf64afe20dd059d719cd3}{process} ()\hypertarget{struct_magnum_1_1_resource_access_1_1_service_a19f4264ebeadf64afe20dd059d719cd3}{}\label{struct_magnum_1_1_resource_access_1_1_service_a19f4264ebeadf64afe20dd059d719cd3}
+
+\begin{DoxyCompactList}\small\item\em Update the Services. \end{DoxyCompactList}\item 
+static void \hyperlink{struct_magnum_1_1_resource_access_1_1_service_a039af370ffb5a269043ea3fe913e5ceb}{pause} ()\hypertarget{struct_magnum_1_1_resource_access_1_1_service_a039af370ffb5a269043ea3fe913e5ceb}{}\label{struct_magnum_1_1_resource_access_1_1_service_a039af370ffb5a269043ea3fe913e5ceb}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is pause(e.\+g system bring the app to background, let the service to release resources) \end{DoxyCompactList}\item 
+static void \hyperlink{struct_magnum_1_1_resource_access_1_1_service_ab56493e9374b0ccd48f4220e50c47ca8}{resume} ()\hypertarget{struct_magnum_1_1_resource_access_1_1_service_ab56493e9374b0ccd48f4220e50c47ca8}{}\label{struct_magnum_1_1_resource_access_1_1_service_ab56493e9374b0ccd48f4220e50c47ca8}
+
+\begin{DoxyCompactList}\small\item\em Called when the application is resume(e.\+g system bring back the app from background, let the service to reload resources) \end{DoxyCompactList}\item 
+static void \hyperlink{struct_magnum_1_1_resource_access_1_1_service_a88fa4d26819bb718e9147ab19a5e26d2}{terminate} ()\hypertarget{struct_magnum_1_1_resource_access_1_1_service_a88fa4d26819bb718e9147ab19a5e26d2}{}\label{struct_magnum_1_1_resource_access_1_1_service_a88fa4d26819bb718e9147ab19a5e26d2}
+
+\begin{DoxyCompactList}\small\item\em Terminate the Services, called when the app is terminate. \end{DoxyCompactList}\item 
+static void \hyperlink{struct_magnum_1_1_resource_access_1_1_service_a7862735921d483c1fa385b5568e1b778}{clear} ()
+\begin{DoxyCompactList}\small\item\em Call when the services needed to be clean up, e.\+g. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+Resource\+Access\+::\+Service@{Magnum\+::\+Resource\+Access\+::\+Service}!clear@{clear}}
+\index{clear@{clear}!Magnum\+::\+Resource\+Access\+::\+Service@{Magnum\+::\+Resource\+Access\+::\+Service}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}void Resource\+Access\+::\+Service\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_magnum_1_1_resource_access_1_1_service_a7862735921d483c1fa385b5568e1b778}{}\label{struct_magnum_1_1_resource_access_1_1_service_a7862735921d483c1fa385b5568e1b778}
+
+
+Call when the services needed to be clean up, e.\+g. 
+
+during scene transition. \index{Magnum\+::\+Resource\+Access\+::\+Service@{Magnum\+::\+Resource\+Access\+::\+Service}!initiate@{initiate}}
+\index{initiate@{initiate}!Magnum\+::\+Resource\+Access\+::\+Service@{Magnum\+::\+Resource\+Access\+::\+Service}}
+\subsubsection[{\texorpdfstring{initiate()}{initiate()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Resource\+Access\+::\+Service\+::initiate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_magnum_1_1_resource_access_1_1_service_a9362ec91113c48e4d533109aaf3d62cc}{}\label{struct_magnum_1_1_resource_access_1_1_service_a9362ec91113c48e4d533109aaf3d62cc}
+
+
+Initiate the Services. 
+
+\begin{DoxyReturn}{傳回值}
+true if success, false if failed 
+\end{DoxyReturn}
+
+
+此結構(structure) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Resource\+Access.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Resource\+Access.\+cpp\end{DoxyCompactItemize}

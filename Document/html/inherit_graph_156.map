@@ -1,0 +1,6 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node1" href="$class_i_dream_sky_1_1_link.html" title="IDreamSky::Link\&lt; Functor1\l\&lt; ContactInfo \&gt; \&gt;" alt="" coords="5,5,187,47"/>
+<area shape="rect" id="node2" href="$class_i_dream_sky_1_1_functor1.html" title="IDreamSky::Functor1\l\&lt; ContactInfo \&gt;" alt="" coords="235,5,380,47"/>
+<area shape="rect" id="node3" href="$class_i_dream_sky_1_1_delegate1.html" title="IDreamSky::Delegate1\l\&lt; U, ContactInfo \&gt;" alt="" coords="428,5,580,47"/>
+<area shape="rect" id="node4" href="$class_i_dream_sky_1_1_collision_1_1_call_back.html" title="IDreamSky::Collision\l::CallBack\&lt; U \&gt;" alt="" coords="628,5,771,47"/>
+</map>

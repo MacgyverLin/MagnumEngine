@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>iDreamSky Game Engine: C:/EpicForceBackup/EpicForceEngine/EpicForceEngine/MagnumEngineLib/MagnumCore/SkeletalAnimModelRenderer.h 原始程式檔</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">iDreamSky Game Engine
+   &#160;<span id="projectnumber">v1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 產生者: Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜尋');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>主頁面</span></a></li>
+      <li><a href="pages.html"><span>相關頁面</span></a></li>
+      <li><a href="annotated.html"><span>類別</span></a></li>
+      <li class="current"><a href="files.html"><span>檔案</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜尋" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>檔案列表</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a65f294d1cd85709557c823917a5207d.html">EpicForceBackup</a></li><li class="navelem"><a class="el" href="dir_3c2efaad50c8859e6d8ec4ccb72f4d63.html">EpicForceEngine</a></li><li class="navelem"><a class="el" href="dir_2a39cb8f2a60fd3f9a467a048de4f8b3.html">EpicForceEngine</a></li><li class="navelem"><a class="el" href="dir_1fea2c733ef4faba94be26613c5936d3.html">MagnumEngineLib</a></li><li class="navelem"><a class="el" href="dir_cf49362338ece7c2103ae4f74ea1abc8.html">MagnumCore</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">SkeletalAnimModelRenderer.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright(c) 2016, Lin Koon Wing Macgyver, macgyvercct@yahoo.com.hk           //</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//                                                                               //</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Author : Mac Lin                                                              //</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Module : Magnum Engine v1.0.0                                                 //</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Date   : 14/Jun/2016                                                          //</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//                                                                               //</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"></span><span class="preprocessor">#ifndef _SkeletalAnimModelRenderer_h_</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define _SkeletalAnimModelRenderer_h_</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;Stage.h&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;RendererBase.h&quot;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;GXContext.h&quot;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;SkeletalAnimModelComponent.h&quot;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespace_magnum.html">Magnum</a>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_magnum.html">Magnum</a></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_magnum_1_1_skeletal_anim_model_renderer.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_magnum_1_1_skeletal_anim_model_renderer.html">SkeletalAnimModelRenderer</a> : <span class="keyword">public</span> <a class="code" href="class_magnum_1_1_renderer_base.html">RendererBase</a></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_magnum_1_1_skeletal_anim_model_component.html">SkeletalAnimModelComponent</a>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="class_magnum_1_1_skeletal_anim_model_renderer.html#aa19360f6fe46f14d0f8d7c4a760b619d">SkeletalAnimModelRenderer</a>(<a class="code" href="class_magnum_1_1_component_1_1_owner.html">Component::Owner</a> &amp;owner_);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_magnum_1_1_skeletal_anim_model_renderer.html#a2c6087f0d38273702c1e7f22359a9a52">~SkeletalAnimModelRenderer</a>();</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    DECLARE_COMPONENT(<a class="code" href="class_magnum_1_1_skeletal_anim_model_renderer.html">SkeletalAnimModelRenderer</a>, <a class="code" href="class_magnum_1_1_renderer_base.html">RendererBase</a>, <span class="keyword">false</span>)</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">int</span> getOrder()<span class="keyword"> const</span></div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">    </span>{</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> 0x00000002;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> add(<a class="code" href="class_magnum_1_1_skeletal_anim_model_component.html">SkeletalAnimModelComponent</a> &amp;skeletalAnimModelComponent);</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> <span class="keyword">remove</span>(<a class="code" href="class_magnum_1_1_skeletal_anim_model_component.html">SkeletalAnimModelComponent</a> &amp;skeletalAnimModelComponent);</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> render(<span class="keyword">const</span> <a class="code" href="class_magnum_1_1_video_1_1_manager_1_1_render_param.html">Video::Manager::RenderParam</a> &amp;param);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">void</span> updateBonesGlobalTransform(<a class="code" href="class_magnum_1_1_skeletal_anim_model_component.html">SkeletalAnimModelComponent</a> &amp;skeletalAnimModelComponent, <span class="keyword">const</span> <a class="code" href="class_magnum_1_1_video_1_1_manager_1_1_render_param.html">Video::Manager::RenderParam</a> &amp;param);</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">void</span> updateBoneGlobalTransform(<a class="code" href="class_magnum_1_1_skeletal_anim_model_component.html">SkeletalAnimModelComponent</a> &amp;skeletalAnimModelComponent, <span class="keywordtype">int</span> currentBoneIdx, <span class="keyword">const</span> <a class="code" href="class_magnum_1_1_video_1_1_manager_1_1_render_param.html">Video::Manager::RenderParam</a> &amp;param);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> setSemanticUniformVariables(<a class="code" href="class_magnum_1_1_skeletal_anim_model_component.html">SkeletalAnimModelComponent</a> &amp;skeletalAnimModelComponent , <span class="keyword">const</span> SkeletalAnimModel::Mesh &amp;mesh, <span class="keyword">const</span> SkeletalAnimModel::Mesh::Patch &amp;patch, <span class="keyword">const</span> <a class="code" href="class_magnum_1_1_video_1_1_manager_1_1_render_param.html">Video::Manager::RenderParam</a> &amp;param);</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">void</span> renderModel(<a class="code" href="class_magnum_1_1_skeletal_anim_model_component.html">SkeletalAnimModelComponent</a> &amp;skeletalAnimModelComponent, <span class="keyword">const</span> <a class="code" href="class_magnum_1_1_video_1_1_manager_1_1_render_param.html">Video::Manager::RenderParam</a> &amp;param);</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">void</span> renderMesh(<a class="code" href="class_magnum_1_1_skeletal_anim_model_component.html">SkeletalAnimModelComponent</a> &amp;skeletalAnimModelComponent, <span class="keyword">const</span> SkeletalAnimModel::Mesh &amp;mesh, <span class="keyword">const</span> <a class="code" href="class_magnum_1_1_video_1_1_manager_1_1_render_param.html">Video::Manager::RenderParam</a> &amp;param);</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordtype">void</span> renderPatch(<a class="code" href="class_magnum_1_1_skeletal_anim_model_component.html">SkeletalAnimModelComponent</a> &amp;skeletalAnimModelComponent, <span class="keyword">const</span> SkeletalAnimModel::Mesh &amp;mesh, <span class="keyword">const</span> SkeletalAnimModel::Mesh::Patch &amp;patch, <span class="keyword">const</span> <a class="code" href="class_magnum_1_1_video_1_1_manager_1_1_render_param.html">Video::Manager::RenderParam</a> &amp;param);</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="class_magnum_1_1_vector.html">Vector&lt;SkeletalAnimModelComponent *&gt;</a>        skeletalAnimModelComponents;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="class_magnum_1_1_vector.html">Vector&lt;Matrix4&gt;</a>                             meshBoneMatrices;</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="class_magnum_1_1_vector.html">Vector&lt;Matrix4&gt;</a>                             skeletalModelBoneMatrices;</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="class_magnum_1_1_vector.html">Vector&lt;bool&gt;</a>                                skeletalModelBoneMatrixValids;</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="class_magnum_1_1_vector.html">Vector&lt;Matrix4&gt;</a>                             skeletalModelSkinMatrices;</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="code" href="class_magnum_1_1_array.html">Array&lt;Vector3&gt;</a>                              lightDirections;</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <a class="code" href="class_magnum_1_1_array.html">Array&lt;ColorRGBA&gt;</a>                            lightColors;</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="class_magnum_1_1_array.html">Array&lt;float&gt;</a>                                angles;</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;};</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;};</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="class_magnum_1_1_component_1_1_owner_html"><div class="ttname"><a href="class_magnum_1_1_component_1_1_owner.html">Magnum::Component::Owner</a></div><div class="ttdoc">Owner. </div><div class="ttdef"><b>Definition:</b> Component.h:48</div></div>
+<div class="ttc" id="class_magnum_1_1_skeletal_anim_model_renderer_html"><div class="ttname"><a href="class_magnum_1_1_skeletal_anim_model_renderer.html">Magnum::SkeletalAnimModelRenderer</a></div><div class="ttdoc">SkeletalAnimModelRenderer. </div><div class="ttdef"><b>Definition:</b> SkeletalAnimModelRenderer.h:26</div></div>
+<div class="ttc" id="class_magnum_1_1_video_1_1_manager_1_1_render_param_html"><div class="ttname"><a href="class_magnum_1_1_video_1_1_manager_1_1_render_param.html">Magnum::Video::Manager::RenderParam</a></div><div class="ttdoc">Video::Manager::RenderParam provide neccessary data for rendering each camera pass Mp = Projection tr...</div><div class="ttdef"><b>Definition:</b> Video.h:52</div></div>
+<div class="ttc" id="class_magnum_1_1_skeletal_anim_model_component_html"><div class="ttname"><a href="class_magnum_1_1_skeletal_anim_model_component.html">Magnum::SkeletalAnimModelComponent</a></div><div class="ttdoc">SkeletalAnimModelComponent Rendering Graphics Component. </div><div class="ttdef"><b>Definition:</b> SkeletalAnimModelComponent.h:30</div></div>
+<div class="ttc" id="class_magnum_1_1_array_html"><div class="ttname"><a href="class_magnum_1_1_array.html">Magnum::Array</a></div><div class="ttdoc">Array class for a bound protected array class. </div><div class="ttdef"><b>Definition:</b> Array.h:20</div></div>
+<div class="ttc" id="class_magnum_1_1_skeletal_anim_model_renderer_html_a2c6087f0d38273702c1e7f22359a9a52"><div class="ttname"><a href="class_magnum_1_1_skeletal_anim_model_renderer.html#a2c6087f0d38273702c1e7f22359a9a52">Magnum::SkeletalAnimModelRenderer::~SkeletalAnimModelRenderer</a></div><div class="ttdeci">virtual ~SkeletalAnimModelRenderer()</div><div class="ttdoc">SkeletalAnimModelRenderer Destructor. </div><div class="ttdef"><b>Definition:</b> SkeletalAnimModelRenderer.cpp:38</div></div>
+<div class="ttc" id="class_magnum_1_1_renderer_base_html"><div class="ttname"><a href="class_magnum_1_1_renderer_base.html">Magnum::RendererBase</a></div><div class="ttdoc">RendererBase. </div><div class="ttdef"><b>Definition:</b> RendererBase.h:29</div></div>
+<div class="ttc" id="namespace_magnum_html"><div class="ttname"><a href="namespace_magnum.html">Magnum</a></div><div class="ttdef"><b>Definition:</b> AABB2.h:18</div></div>
+<div class="ttc" id="class_magnum_1_1_vector_html"><div class="ttname"><a href="class_magnum_1_1_vector.html">Magnum::Vector</a></div><div class="ttdoc">Vector class for a bound protected array class with variable size. </div><div class="ttdef"><b>Definition:</b> Array.h:391</div></div>
+<div class="ttc" id="class_magnum_1_1_skeletal_anim_model_renderer_html_aa19360f6fe46f14d0f8d7c4a760b619d"><div class="ttname"><a href="class_magnum_1_1_skeletal_anim_model_renderer.html#aa19360f6fe46f14d0f8d7c4a760b619d">Magnum::SkeletalAnimModelRenderer::SkeletalAnimModelRenderer</a></div><div class="ttdeci">SkeletalAnimModelRenderer(Component::Owner &amp;owner_)</div><div class="ttdoc">SkeletalAnimModelRenderer Constructor. </div><div class="ttdef"><b>Definition:</b> SkeletalAnimModelRenderer.cpp:16</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+產生者: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

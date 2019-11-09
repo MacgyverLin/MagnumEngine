@@ -1,0 +1,550 @@
+\hypertarget{classagm_1_1reflection_1_1_class_desc}{}\section{agm\+:\+:reflection\+:\+:Class\+Desc 類別 參考文件}
+\label{classagm_1_1reflection_1_1_class_desc}\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+
+
+The Class class is used as a placeholder for run-\/time information of an an object\textquotesingle{}s class.  
+
+
+
+
+{\ttfamily \#include $<$reflection.\+h$>$}
+
+類別agm\+:\+:reflection\+:\+:Class\+Desc的繼承圖\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classagm_1_1reflection_1_1_class_desc}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_field_desc}{Field\+Desc} $>$ \hyperlink{classagm_1_1reflection_1_1_class_desc_a63d811e9dca6028408a4e57b3c7649c4}{Field\+Desc\+List}\hypertarget{classagm_1_1reflection_1_1_class_desc_a63d811e9dca6028408a4e57b3c7649c4}{}\label{classagm_1_1reflection_1_1_class_desc_a63d811e9dca6028408a4e57b3c7649c4}
+
+\begin{DoxyCompactList}\small\item\em type of list of fields \end{DoxyCompactList}\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_field_desc}{Field\+Desc} $>$\+::iterator {\bfseries Field\+Desc\+List\+Itr}\hypertarget{classagm_1_1reflection_1_1_class_desc_a63fa19c7eff76d2df48e37a949908992}{}\label{classagm_1_1reflection_1_1_class_desc_a63fa19c7eff76d2df48e37a949908992}
+
+\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_field_desc}{Field\+Desc} $>$\+::const\+\_\+iterator {\bfseries Field\+Desc\+List\+C\+Itr}\hypertarget{classagm_1_1reflection_1_1_class_desc_a9b423f2396efd73a720ae4afdca18600}{}\label{classagm_1_1reflection_1_1_class_desc_a9b423f2396efd73a720ae4afdca18600}
+
+\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_static_field_desc}{Static\+Field\+Desc} $>$ \hyperlink{classagm_1_1reflection_1_1_class_desc_a46ac1af257e4491e7bbdf38657696d71}{Static\+Field\+Desc\+List}\hypertarget{classagm_1_1reflection_1_1_class_desc_a46ac1af257e4491e7bbdf38657696d71}{}\label{classagm_1_1reflection_1_1_class_desc_a46ac1af257e4491e7bbdf38657696d71}
+
+\begin{DoxyCompactList}\small\item\em type of list of static fields \end{DoxyCompactList}\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_static_field_desc}{Static\+Field\+Desc} $>$\+::iterator {\bfseries Static\+Field\+Desc\+List\+Itr}\hypertarget{classagm_1_1reflection_1_1_class_desc_aced634c64f9e6f47decaa48821272feb}{}\label{classagm_1_1reflection_1_1_class_desc_aced634c64f9e6f47decaa48821272feb}
+
+\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_static_field_desc}{Static\+Field\+Desc} $>$\+::const\+\_\+iterator {\bfseries Static\+Field\+Desc\+List\+C\+Itr}\hypertarget{classagm_1_1reflection_1_1_class_desc_a91db11a1e5b4b0273875e5ff063e7122}{}\label{classagm_1_1reflection_1_1_class_desc_a91db11a1e5b4b0273875e5ff063e7122}
+
+\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_method_desc}{Method\+Desc} $>$ \hyperlink{classagm_1_1reflection_1_1_class_desc_aa107068fb197533acdf45241e6935abf}{Method\+Desc\+List}\hypertarget{classagm_1_1reflection_1_1_class_desc_aa107068fb197533acdf45241e6935abf}{}\label{classagm_1_1reflection_1_1_class_desc_aa107068fb197533acdf45241e6935abf}
+
+\begin{DoxyCompactList}\small\item\em type of list of methods \end{DoxyCompactList}\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_method_desc}{Method\+Desc} $>$\+::iterator {\bfseries Method\+Desc\+List\+Itr}\hypertarget{classagm_1_1reflection_1_1_class_desc_aa27c44e4f56166fb1f82147246056261}{}\label{classagm_1_1reflection_1_1_class_desc_aa27c44e4f56166fb1f82147246056261}
+
+\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_method_desc}{Method\+Desc} $>$\+::const\+\_\+iterator {\bfseries Method\+Desc\+List\+C\+Itr}\hypertarget{classagm_1_1reflection_1_1_class_desc_a425dd0aa46653728866df0fef1a48721}{}\label{classagm_1_1reflection_1_1_class_desc_a425dd0aa46653728866df0fef1a48721}
+
+\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_static_method_desc}{Static\+Method\+Desc} $>$ \hyperlink{classagm_1_1reflection_1_1_class_desc_ae73db259edf46f31948cada96b9067bb}{Static\+Method\+Desc\+List}\hypertarget{classagm_1_1reflection_1_1_class_desc_ae73db259edf46f31948cada96b9067bb}{}\label{classagm_1_1reflection_1_1_class_desc_ae73db259edf46f31948cada96b9067bb}
+
+\begin{DoxyCompactList}\small\item\em type of list of static methods \end{DoxyCompactList}\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_static_method_desc}{Static\+Method\+Desc} $>$\+::iterator {\bfseries Static\+Method\+Desc\+List\+Itr}\hypertarget{classagm_1_1reflection_1_1_class_desc_a3886e31737a9c77248e491f9ecbe478f}{}\label{classagm_1_1reflection_1_1_class_desc_a3886e31737a9c77248e491f9ecbe478f}
+
+\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_static_method_desc}{Static\+Method\+Desc} $>$\+::const\+\_\+iterator {\bfseries Static\+Method\+Desc\+List\+C\+Itr}\hypertarget{classagm_1_1reflection_1_1_class_desc_a2c77761df8e5df609754eb6733a8008b}{}\label{classagm_1_1reflection_1_1_class_desc_a2c77761df8e5df609754eb6733a8008b}
+
+\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_property_desc}{Property\+Desc} $>$ \hyperlink{classagm_1_1reflection_1_1_class_desc_aed6874712c84179435e26d7180a0c120}{Property\+Desc\+List}\hypertarget{classagm_1_1reflection_1_1_class_desc_aed6874712c84179435e26d7180a0c120}{}\label{classagm_1_1reflection_1_1_class_desc_aed6874712c84179435e26d7180a0c120}
+
+\begin{DoxyCompactList}\small\item\em type of list of properties \end{DoxyCompactList}\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_property_desc}{Property\+Desc} $>$\+::iterator {\bfseries Property\+Desc\+List\+Itr}\hypertarget{classagm_1_1reflection_1_1_class_desc_a240272839de7d626ead6beeaecc722b5}{}\label{classagm_1_1reflection_1_1_class_desc_a240272839de7d626ead6beeaecc722b5}
+
+\item 
+typedef std\+::list$<$ \hyperlink{classagm_1_1reflection_1_1_property_desc}{Property\+Desc} $>$\+::const\+\_\+iterator {\bfseries Property\+Desc\+List\+C\+Itr}\hypertarget{classagm_1_1reflection_1_1_class_desc_acc0a2d37ca48e32f3dc4e7aa7b9c4509}{}\label{classagm_1_1reflection_1_1_class_desc_acc0a2d37ca48e32f3dc4e7aa7b9c4509}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Class\+Desc} (const char $\ast$name, const \hyperlink{classagm_1_1reflection_1_1_class_desc}{Class\+Desc} $\ast$super)\hypertarget{classagm_1_1reflection_1_1_class_desc_a4fada6700ca543a37dece5694e59719b}{}\label{classagm_1_1reflection_1_1_class_desc_a4fada6700ca543a37dece5694e59719b}
+
+\item 
+const char $\ast$ \hyperlink{classagm_1_1reflection_1_1_class_desc_a275b548b7496b6714488464d694bac6e}{get\+Name} () const 
+\begin{DoxyCompactList}\small\item\em returns the class name \end{DoxyCompactList}\item 
+const bool \hyperlink{classagm_1_1reflection_1_1_class_desc_adf996f2053e6146d57e33985a73384d6}{has\+Super} () const 
+\begin{DoxyCompactList}\small\item\em checks if the class has a superclass \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_class_desc}{Class\+Desc} \& \hyperlink{classagm_1_1reflection_1_1_class_desc_af28133215fb5c3c4f2a4230367a6a079}{get\+Super} () const 
+\begin{DoxyCompactList}\small\item\em returns the superclass of the class \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_class_desc_a63d811e9dca6028408a4e57b3c7649c4}{Field\+Desc\+List} \& \hyperlink{classagm_1_1reflection_1_1_class_desc_af5041df2108695c66dac1916da038170}{get\+Fields} () const 
+\begin{DoxyCompactList}\small\item\em returns the collection of fields \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_class_desc_a46ac1af257e4491e7bbdf38657696d71}{Static\+Field\+Desc\+List} \& \hyperlink{classagm_1_1reflection_1_1_class_desc_a22ed5c17f1f883ddc3ce792604fb8295}{get\+Static\+Fields} () const 
+\begin{DoxyCompactList}\small\item\em returns the collection of static fields \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_class_desc_aa107068fb197533acdf45241e6935abf}{Method\+Desc\+List} \& \hyperlink{classagm_1_1reflection_1_1_class_desc_ae9761b77c3e9bee540573de06b13ad61}{get\+Methods} () const 
+\begin{DoxyCompactList}\small\item\em returns the list of methods \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_class_desc_ae73db259edf46f31948cada96b9067bb}{Static\+Method\+Desc\+List} \& \hyperlink{classagm_1_1reflection_1_1_class_desc_aabed2c87f6a249fbdd31208c0b82afb7}{get\+Static\+Methods} () const 
+\begin{DoxyCompactList}\small\item\em returns the collection of static methods \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_class_desc_aed6874712c84179435e26d7180a0c120}{Property\+Desc\+List} \& \hyperlink{classagm_1_1reflection_1_1_class_desc_a65a2f3d5a6422d4b7fc876e182bd83d0}{get\+Properties} () const 
+\begin{DoxyCompactList}\small\item\em returns the collection of properties \end{DoxyCompactList}\item 
+void \hyperlink{classagm_1_1reflection_1_1_class_desc_acfa333a961e83f82cb21b10d1c105888}{get\+Fields} (std\+::vector$<$ const \hyperlink{classagm_1_1reflection_1_1_field_desc}{Field\+Desc} $\ast$ $>$ \&fields, bool search\+Super=true) const 
+\begin{DoxyCompactList}\small\item\em returns the collection of fields \end{DoxyCompactList}\item 
+void \hyperlink{classagm_1_1reflection_1_1_class_desc_ab9a47579bd02c6dfe0e367382ce5ea7a}{get\+Static\+Fields} (std\+::vector$<$ const \hyperlink{classagm_1_1reflection_1_1_static_field_desc}{Static\+Field\+Desc} $\ast$ $>$ \&static\+Fields, bool search\+Super=true) const 
+\begin{DoxyCompactList}\small\item\em returns the collection of static fields \end{DoxyCompactList}\item 
+void \hyperlink{classagm_1_1reflection_1_1_class_desc_a8ef400d0269cb30a83234fdf1d93da66}{get\+Methods} (std\+::vector$<$ const \hyperlink{classagm_1_1reflection_1_1_method_desc}{Method\+Desc} $\ast$ $>$ \&methods, bool search\+Super=true) const 
+\begin{DoxyCompactList}\small\item\em returns the list of methods \end{DoxyCompactList}\item 
+void \hyperlink{classagm_1_1reflection_1_1_class_desc_aaade1571e93398946b0c73861692bfb8}{get\+Static\+Methods} (std\+::vector$<$ const \hyperlink{classagm_1_1reflection_1_1_static_method_desc}{Static\+Method\+Desc} $\ast$ $>$ \&static\+Methods, bool search\+Super=true) const 
+\begin{DoxyCompactList}\small\item\em returns the collection of static methods \end{DoxyCompactList}\item 
+void \hyperlink{classagm_1_1reflection_1_1_class_desc_a47f0213bce8ded61eb98d65bee1162e1}{get\+Properties} (std\+::vector$<$ const \hyperlink{classagm_1_1reflection_1_1_property_desc}{Property\+Desc} $\ast$ $>$ \&properties, bool search\+Super=true) const 
+\begin{DoxyCompactList}\small\item\em returns the collection of properties \end{DoxyCompactList}\item 
+bool \hyperlink{classagm_1_1reflection_1_1_class_desc_a2d3a8db9a6838de15dc83a256f9a92a7}{is\+Base} (const \hyperlink{classagm_1_1reflection_1_1_class_desc}{Class\+Desc} \&cl) const 
+\begin{DoxyCompactList}\small\item\em checks if this class is a base class of the given class. \end{DoxyCompactList}\item 
+bool \hyperlink{classagm_1_1reflection_1_1_class_desc_a0620358297c4bd94e5c78f5b14b75d89}{is\+Super} (const \hyperlink{classagm_1_1reflection_1_1_class_desc}{Class\+Desc} \&cl) const 
+\begin{DoxyCompactList}\small\item\em checks if this class is the super class of the given class. \end{DoxyCompactList}\item 
+bool \hyperlink{classagm_1_1reflection_1_1_class_desc_ad563b5f93e7eac41b5d8ca3e97d01be4}{is\+Same} (const \hyperlink{classagm_1_1reflection_1_1_class_desc}{Class\+Desc} \&cl) const 
+\begin{DoxyCompactList}\small\item\em checks if this class is the same as given class \end{DoxyCompactList}\item 
+bool \hyperlink{classagm_1_1reflection_1_1_class_desc_a12ecf46b1bc729f34e8d43f6e20db191}{is\+Relative} (const \hyperlink{classagm_1_1reflection_1_1_class_desc}{Class\+Desc} \&cl) const 
+\begin{DoxyCompactList}\small\item\em checks if the given class is relative to this class. \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_field_desc}{Field\+Desc} \& \hyperlink{classagm_1_1reflection_1_1_class_desc_a2e58760e87e738943acdf815e42a4fb1}{get\+Field} (const char $\ast$name, bool search\+Super=true) const 
+\begin{DoxyCompactList}\small\item\em returns field from name \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_static_field_desc}{Static\+Field\+Desc} \& \hyperlink{classagm_1_1reflection_1_1_class_desc_a8c2429617d0839f4c76d0e7c65398736}{get\+Static\+Field} (const char $\ast$name, bool search\+Super=true) const 
+\begin{DoxyCompactList}\small\item\em returns static field from name \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_method_desc}{Method\+Desc} \& \hyperlink{classagm_1_1reflection_1_1_class_desc_afb8700570c2b8052483023e3e89728c2}{get\+Method} (const char $\ast$name, bool search\+Super=true) const 
+\begin{DoxyCompactList}\small\item\em returns method from name \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_static_method_desc}{Static\+Method\+Desc} \& \hyperlink{classagm_1_1reflection_1_1_class_desc_ae58cfca99a11e6daf77eec6d634a0788}{get\+Static\+Method} (const char $\ast$name, bool search\+Super=true) const 
+\begin{DoxyCompactList}\small\item\em returns static method from name \end{DoxyCompactList}\item 
+const \hyperlink{classagm_1_1reflection_1_1_property_desc}{Property\+Desc} \& \hyperlink{classagm_1_1reflection_1_1_class_desc_a9fdc8339fdc1824e9bc3652136bab0a5}{get\+Property} (const char $\ast$name, bool search\+Super=true) const 
+\begin{DoxyCompactList}\small\item\em returns property from name \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bfseries \+\_\+\+\_\+register\+\_\+field\+\_\+\+\_\+}\hypertarget{classagm_1_1reflection_1_1_class_desc_a0c9c18280637c9c16861ff295e51cb2b}{}\label{classagm_1_1reflection_1_1_class_desc_a0c9c18280637c9c16861ff295e51cb2b}
+
+\item 
+struct {\bfseries \+\_\+\+\_\+register\+\_\+static\+\_\+field\+\_\+\+\_\+}\hypertarget{classagm_1_1reflection_1_1_class_desc_a7923aaf0cc5eabb2b11c2c85be040b21}{}\label{classagm_1_1reflection_1_1_class_desc_a7923aaf0cc5eabb2b11c2c85be040b21}
+
+\item 
+struct {\bfseries \+\_\+\+\_\+register\+\_\+method\+\_\+\+\_\+}\hypertarget{classagm_1_1reflection_1_1_class_desc_af8dbf4a67282001e87c7d10b3c644715}{}\label{classagm_1_1reflection_1_1_class_desc_af8dbf4a67282001e87c7d10b3c644715}
+
+\item 
+struct {\bfseries \+\_\+\+\_\+register\+\_\+static\+\_\+method\+\_\+\+\_\+}\hypertarget{classagm_1_1reflection_1_1_class_desc_a5ace0444458aca5c40ddf992ea8f41f0}{}\label{classagm_1_1reflection_1_1_class_desc_a5ace0444458aca5c40ddf992ea8f41f0}
+
+\item 
+struct {\bfseries \+\_\+\+\_\+register\+\_\+property\+\_\+\+\_\+}\hypertarget{classagm_1_1reflection_1_1_class_desc_a7bcea237c71f0fdf9bfa42b3450575dd}{}\label{classagm_1_1reflection_1_1_class_desc_a7bcea237c71f0fdf9bfa42b3450575dd}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+The Class class is used as a placeholder for run-\/time information of an an object\textquotesingle{}s class. 
+
+A class can be used to query an object\textquotesingle{}s fields, methods, properties, events and super class. 
+
+\subsection{函式成員說明文件}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Field@{get\+Field}}
+\index{get\+Field@{get\+Field}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Field(const char $\ast$name, bool search\+Super=true) const }{getField(const char *name, bool searchSuper=true) const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Field\+Desc}\& agm\+::reflection\+::\+Class\+Desc\+::get\+Field (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{bool}]{search\+Super = {\ttfamily true}}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_a2e58760e87e738943acdf815e42a4fb1}{}\label{classagm_1_1reflection_1_1_class_desc_a2e58760e87e738943acdf815e42a4fb1}
+
+
+returns field from name 
+
+
+\begin{DoxyParams}{參數}
+{\em name} & name of the field to search for \\
+\hline
+{\em search\+Super} & if true, super classes are searched if this class does not have the requested member \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+the field of given name 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_unknown_field_error}{Unknown\+Field\+Error}} & \\
+\hline
+\end{DoxyExceptions}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Fields@{get\+Fields}}
+\index{get\+Fields@{get\+Fields}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Fields() const }{getFields() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Field\+Desc\+List}\& agm\+::reflection\+::\+Class\+Desc\+::get\+Fields (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_af5041df2108695c66dac1916da038170}{}\label{classagm_1_1reflection_1_1_class_desc_af5041df2108695c66dac1916da038170}
+
+
+returns the collection of fields 
+
+\begin{DoxyReturn}{傳回值}
+the collection of fields 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Fields@{get\+Fields}}
+\index{get\+Fields@{get\+Fields}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Fields(std\+::vector$<$ const Field\+Desc $\ast$ $>$ \&fields, bool search\+Super=true) const }{getFields(std::vector< const FieldDesc * > &fields, bool searchSuper=true) const }}]{\setlength{\rightskip}{0pt plus 5cm}void agm\+::reflection\+::\+Class\+Desc\+::get\+Fields (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ const {\bf Field\+Desc} $\ast$ $>$ \&}]{fields, }
+\item[{bool}]{search\+Super = {\ttfamily true}}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_acfa333a961e83f82cb21b10d1c105888}{}\label{classagm_1_1reflection_1_1_class_desc_acfa333a961e83f82cb21b10d1c105888}
+
+
+returns the collection of fields 
+
+\begin{DoxyReturn}{傳回值}
+the collection of fields 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Method@{get\+Method}}
+\index{get\+Method@{get\+Method}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Method(const char $\ast$name, bool search\+Super=true) const }{getMethod(const char *name, bool searchSuper=true) const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Method\+Desc}\& agm\+::reflection\+::\+Class\+Desc\+::get\+Method (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{bool}]{search\+Super = {\ttfamily true}}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_afb8700570c2b8052483023e3e89728c2}{}\label{classagm_1_1reflection_1_1_class_desc_afb8700570c2b8052483023e3e89728c2}
+
+
+returns method from name 
+
+
+\begin{DoxyParams}{參數}
+{\em name} & name of the method to search for \\
+\hline
+{\em search\+Super} & if true, super classes are searched if this class does not have the requested member \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+the method of given id 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_unknown_method_error}{Unknown\+Method\+Error}} & \\
+\hline
+\end{DoxyExceptions}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Methods@{get\+Methods}}
+\index{get\+Methods@{get\+Methods}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Methods() const }{getMethods() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Method\+Desc\+List}\& agm\+::reflection\+::\+Class\+Desc\+::get\+Methods (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_ae9761b77c3e9bee540573de06b13ad61}{}\label{classagm_1_1reflection_1_1_class_desc_ae9761b77c3e9bee540573de06b13ad61}
+
+
+returns the list of methods 
+
+\begin{DoxyReturn}{傳回值}
+the list of methods 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Methods@{get\+Methods}}
+\index{get\+Methods@{get\+Methods}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Methods(std\+::vector$<$ const Method\+Desc $\ast$ $>$ \&methods, bool search\+Super=true) const }{getMethods(std::vector< const MethodDesc * > &methods, bool searchSuper=true) const }}]{\setlength{\rightskip}{0pt plus 5cm}void agm\+::reflection\+::\+Class\+Desc\+::get\+Methods (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ const {\bf Method\+Desc} $\ast$ $>$ \&}]{methods, }
+\item[{bool}]{search\+Super = {\ttfamily true}}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_a8ef400d0269cb30a83234fdf1d93da66}{}\label{classagm_1_1reflection_1_1_class_desc_a8ef400d0269cb30a83234fdf1d93da66}
+
+
+returns the list of methods 
+
+\begin{DoxyReturn}{傳回值}
+the list of methods 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Name() const }{getName() const }}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ agm\+::reflection\+::\+Class\+Desc\+::get\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_a275b548b7496b6714488464d694bac6e}{}\label{classagm_1_1reflection_1_1_class_desc_a275b548b7496b6714488464d694bac6e}
+
+
+returns the class name 
+
+\begin{DoxyReturn}{傳回值}
+the class name 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Properties@{get\+Properties}}
+\index{get\+Properties@{get\+Properties}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Properties() const }{getProperties() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Property\+Desc\+List}\& agm\+::reflection\+::\+Class\+Desc\+::get\+Properties (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_a65a2f3d5a6422d4b7fc876e182bd83d0}{}\label{classagm_1_1reflection_1_1_class_desc_a65a2f3d5a6422d4b7fc876e182bd83d0}
+
+
+returns the collection of properties 
+
+\begin{DoxyReturn}{傳回值}
+the collection of properties 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Properties@{get\+Properties}}
+\index{get\+Properties@{get\+Properties}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Properties(std\+::vector$<$ const Property\+Desc $\ast$ $>$ \&properties, bool search\+Super=true) const }{getProperties(std::vector< const PropertyDesc * > &properties, bool searchSuper=true) const }}]{\setlength{\rightskip}{0pt plus 5cm}void agm\+::reflection\+::\+Class\+Desc\+::get\+Properties (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ const {\bf Property\+Desc} $\ast$ $>$ \&}]{properties, }
+\item[{bool}]{search\+Super = {\ttfamily true}}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_a47f0213bce8ded61eb98d65bee1162e1}{}\label{classagm_1_1reflection_1_1_class_desc_a47f0213bce8ded61eb98d65bee1162e1}
+
+
+returns the collection of properties 
+
+\begin{DoxyReturn}{傳回值}
+the collection of properties 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Property@{get\+Property}}
+\index{get\+Property@{get\+Property}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Property(const char $\ast$name, bool search\+Super=true) const }{getProperty(const char *name, bool searchSuper=true) const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Property\+Desc}\& agm\+::reflection\+::\+Class\+Desc\+::get\+Property (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{bool}]{search\+Super = {\ttfamily true}}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_a9fdc8339fdc1824e9bc3652136bab0a5}{}\label{classagm_1_1reflection_1_1_class_desc_a9fdc8339fdc1824e9bc3652136bab0a5}
+
+
+returns property from name 
+
+
+\begin{DoxyParams}{參數}
+{\em name} & name of the property to search for \\
+\hline
+{\em search\+Super} & if true, super classes are searched if this class does not have the requested member \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+the property of given name 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_unknown_property_error}{Unknown\+Property\+Error}} & \\
+\hline
+\end{DoxyExceptions}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Static\+Field@{get\+Static\+Field}}
+\index{get\+Static\+Field@{get\+Static\+Field}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Static\+Field(const char $\ast$name, bool search\+Super=true) const }{getStaticField(const char *name, bool searchSuper=true) const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Static\+Field\+Desc}\& agm\+::reflection\+::\+Class\+Desc\+::get\+Static\+Field (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{bool}]{search\+Super = {\ttfamily true}}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_a8c2429617d0839f4c76d0e7c65398736}{}\label{classagm_1_1reflection_1_1_class_desc_a8c2429617d0839f4c76d0e7c65398736}
+
+
+returns static field from name 
+
+
+\begin{DoxyParams}{參數}
+{\em name} & name of the field to search for \\
+\hline
+{\em search\+Super} & if true, super classes are searched if this class does not have the requested member \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+the field of given name 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_unknown_field_error}{Unknown\+Field\+Error}} & \\
+\hline
+\end{DoxyExceptions}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Static\+Fields@{get\+Static\+Fields}}
+\index{get\+Static\+Fields@{get\+Static\+Fields}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Static\+Fields() const }{getStaticFields() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Static\+Field\+Desc\+List}\& agm\+::reflection\+::\+Class\+Desc\+::get\+Static\+Fields (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_a22ed5c17f1f883ddc3ce792604fb8295}{}\label{classagm_1_1reflection_1_1_class_desc_a22ed5c17f1f883ddc3ce792604fb8295}
+
+
+returns the collection of static fields 
+
+\begin{DoxyReturn}{傳回值}
+the collection of static fields 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Static\+Fields@{get\+Static\+Fields}}
+\index{get\+Static\+Fields@{get\+Static\+Fields}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Static\+Fields(std\+::vector$<$ const Static\+Field\+Desc $\ast$ $>$ \&static\+Fields, bool search\+Super=true) const }{getStaticFields(std::vector< const StaticFieldDesc * > &staticFields, bool searchSuper=true) const }}]{\setlength{\rightskip}{0pt plus 5cm}void agm\+::reflection\+::\+Class\+Desc\+::get\+Static\+Fields (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ const {\bf Static\+Field\+Desc} $\ast$ $>$ \&}]{static\+Fields, }
+\item[{bool}]{search\+Super = {\ttfamily true}}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_ab9a47579bd02c6dfe0e367382ce5ea7a}{}\label{classagm_1_1reflection_1_1_class_desc_ab9a47579bd02c6dfe0e367382ce5ea7a}
+
+
+returns the collection of static fields 
+
+\begin{DoxyReturn}{傳回值}
+the collection of static fields 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Static\+Method@{get\+Static\+Method}}
+\index{get\+Static\+Method@{get\+Static\+Method}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Static\+Method(const char $\ast$name, bool search\+Super=true) const }{getStaticMethod(const char *name, bool searchSuper=true) const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Static\+Method\+Desc}\& agm\+::reflection\+::\+Class\+Desc\+::get\+Static\+Method (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{bool}]{search\+Super = {\ttfamily true}}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_ae58cfca99a11e6daf77eec6d634a0788}{}\label{classagm_1_1reflection_1_1_class_desc_ae58cfca99a11e6daf77eec6d634a0788}
+
+
+returns static method from name 
+
+
+\begin{DoxyParams}{參數}
+{\em name} & name of the method to search for \\
+\hline
+{\em search\+Super} & if true, super classes are searched if this class does not have the requested member \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+the method of given name 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_unknown_method_error}{Unknown\+Method\+Error}} & \\
+\hline
+\end{DoxyExceptions}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Static\+Methods@{get\+Static\+Methods}}
+\index{get\+Static\+Methods@{get\+Static\+Methods}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Static\+Methods() const }{getStaticMethods() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Static\+Method\+Desc\+List}\& agm\+::reflection\+::\+Class\+Desc\+::get\+Static\+Methods (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_aabed2c87f6a249fbdd31208c0b82afb7}{}\label{classagm_1_1reflection_1_1_class_desc_aabed2c87f6a249fbdd31208c0b82afb7}
+
+
+returns the collection of static methods 
+
+\begin{DoxyReturn}{傳回值}
+the collection of static methods 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Static\+Methods@{get\+Static\+Methods}}
+\index{get\+Static\+Methods@{get\+Static\+Methods}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Static\+Methods(std\+::vector$<$ const Static\+Method\+Desc $\ast$ $>$ \&static\+Methods, bool search\+Super=true) const }{getStaticMethods(std::vector< const StaticMethodDesc * > &staticMethods, bool searchSuper=true) const }}]{\setlength{\rightskip}{0pt plus 5cm}void agm\+::reflection\+::\+Class\+Desc\+::get\+Static\+Methods (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ const {\bf Static\+Method\+Desc} $\ast$ $>$ \&}]{static\+Methods, }
+\item[{bool}]{search\+Super = {\ttfamily true}}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_aaade1571e93398946b0c73861692bfb8}{}\label{classagm_1_1reflection_1_1_class_desc_aaade1571e93398946b0c73861692bfb8}
+
+
+returns the collection of static methods 
+
+\begin{DoxyReturn}{傳回值}
+the collection of static methods 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!get\+Super@{get\+Super}}
+\index{get\+Super@{get\+Super}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{get\+Super() const }{getSuper() const }}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Class\+Desc}\& agm\+::reflection\+::\+Class\+Desc\+::get\+Super (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_af28133215fb5c3c4f2a4230367a6a079}{}\label{classagm_1_1reflection_1_1_class_desc_af28133215fb5c3c4f2a4230367a6a079}
+
+
+returns the superclass of the class 
+
+\begin{DoxyReturn}{傳回值}
+the superclass of the class; the superclass must not be null 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{例外}
+{\em \hyperlink{classagm_1_1reflection_1_1_super_class_error}{Super\+Class\+Error}} & thrown if there is no super class \\
+\hline
+\end{DoxyExceptions}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!has\+Super@{has\+Super}}
+\index{has\+Super@{has\+Super}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{has\+Super() const }{hasSuper() const }}]{\setlength{\rightskip}{0pt plus 5cm}const bool agm\+::reflection\+::\+Class\+Desc\+::has\+Super (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_adf996f2053e6146d57e33985a73384d6}{}\label{classagm_1_1reflection_1_1_class_desc_adf996f2053e6146d57e33985a73384d6}
+
+
+checks if the class has a superclass 
+
+\begin{DoxyReturn}{傳回值}
+true if the class has a superclass 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!is\+Base@{is\+Base}}
+\index{is\+Base@{is\+Base}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{is\+Base(const Class\+Desc \&cl) const }{isBase(const ClassDesc &cl) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool agm\+::reflection\+::\+Class\+Desc\+::is\+Base (
+\begin{DoxyParamCaption}
+\item[{const {\bf Class\+Desc} \&}]{cl}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_a2d3a8db9a6838de15dc83a256f9a92a7}{}\label{classagm_1_1reflection_1_1_class_desc_a2d3a8db9a6838de15dc83a256f9a92a7}
+
+
+checks if this class is a base class of the given class. 
+
+
+\begin{DoxyParams}{參數}
+{\em cl} & class to check against \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if this class is a base class of the given class. 
+\end{DoxyReturn}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!is\+Relative@{is\+Relative}}
+\index{is\+Relative@{is\+Relative}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{is\+Relative(const Class\+Desc \&cl) const }{isRelative(const ClassDesc &cl) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool agm\+::reflection\+::\+Class\+Desc\+::is\+Relative (
+\begin{DoxyParamCaption}
+\item[{const {\bf Class\+Desc} \&}]{cl}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_a12ecf46b1bc729f34e8d43f6e20db191}{}\label{classagm_1_1reflection_1_1_class_desc_a12ecf46b1bc729f34e8d43f6e20db191}
+
+
+checks if the given class is relative to this class. 
+
+In other words, it checks if this class is a base class of the given class, or if they are the same class or the given class is a base class of this class. 
+\begin{DoxyParams}{參數}
+{\em cl} & class to check against \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if this class is a base class of the given class or the same class. 
+\end{DoxyReturn}
+
+
+依據\hyperlink{classagm_1_1reflection_1_1_class_base}{agm\+::reflection\+::\+Class\+Base}重新實作.
+
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!is\+Same@{is\+Same}}
+\index{is\+Same@{is\+Same}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{is\+Same(const Class\+Desc \&cl) const }{isSame(const ClassDesc &cl) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool agm\+::reflection\+::\+Class\+Desc\+::is\+Same (
+\begin{DoxyParamCaption}
+\item[{const {\bf Class\+Desc} \&}]{cl}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_ad563b5f93e7eac41b5d8ca3e97d01be4}{}\label{classagm_1_1reflection_1_1_class_desc_ad563b5f93e7eac41b5d8ca3e97d01be4}
+
+
+checks if this class is the same as given class 
+
+
+\begin{DoxyParams}{參數}
+{\em cl} & class to check against \\
+\hline
+\end{DoxyParams}
+\index{agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}!is\+Super@{is\+Super}}
+\index{is\+Super@{is\+Super}!agm\+::reflection\+::\+Class\+Desc@{agm\+::reflection\+::\+Class\+Desc}}
+\subsubsection[{\texorpdfstring{is\+Super(const Class\+Desc \&cl) const }{isSuper(const ClassDesc &cl) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool agm\+::reflection\+::\+Class\+Desc\+::is\+Super (
+\begin{DoxyParamCaption}
+\item[{const {\bf Class\+Desc} \&}]{cl}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classagm_1_1reflection_1_1_class_desc_a0620358297c4bd94e5c78f5b14b75d89}{}\label{classagm_1_1reflection_1_1_class_desc_a0620358297c4bd94e5c78f5b14b75d89}
+
+
+checks if this class is the super class of the given class. 
+
+
+\begin{DoxyParams}{參數}
+{\em cl} & class to check against \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{傳回值}
+true if this class is the super class of the given class. 
+\end{DoxyReturn}
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/innovation/\+Government\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/reflection.\+h\end{DoxyCompactItemize}

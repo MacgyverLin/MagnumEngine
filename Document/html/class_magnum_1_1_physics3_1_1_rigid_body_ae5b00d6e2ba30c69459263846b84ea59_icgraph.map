@@ -1,0 +1,8 @@
+<map id="Magnum::Physics3::RigidBody::updateRigidBody" name="Magnum::Physics3::RigidBody::updateRigidBody">
+<area shape="rect" id="node2" href="$class_magnum_1_1_box3_collider.html#ad9a35676b5bd29f476064cadef3f648c" title="Box3Collider Destructor. " alt="" coords="272,5,425,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_capsule3_collider.html#ae058105f27b8c2d3c3d0bf71fa583982" title="Capsule3Collider Destructor. " alt="" coords="260,71,437,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_cone3_collider.html#a5907a81bd67777d53b2c9c7fb75a7619" title="Cone3Collider Destructor. " alt="" coords="269,136,429,177"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_cylinder3_collider.html#ab4873181f3b2a607df54ea51303143bc" title="Cylinder3Collider Destructor. " alt="" coords="260,201,437,243"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_height_field_collider.html#acd0e4168c3ac63f938ab24bc0f93aa3e" title="HeightFieldCollider Destructor. " alt="" coords="255,267,443,308"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_sphere3_collider.html#aa1ccc4438ea09b9bae39712f7e967452" title="Sphere3Collider Destructor. " alt="" coords="263,332,434,373"/>
+</map>

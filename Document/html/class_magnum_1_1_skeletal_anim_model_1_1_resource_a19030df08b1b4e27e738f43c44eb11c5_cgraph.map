@@ -1,0 +1,5 @@
+<map id="Magnum::SkeletalAnimModel::Resource::getVector10" name="Magnum::SkeletalAnimModel::Resource::getVector10">
+<area shape="rect" id="node2" href="$class_magnum_1_1_vector.html#a05c838dd9a909c2cc729dfbaa3e22fdb" title="resize the Vector to length_ " alt="" coords="254,5,415,32"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_vector.html#a0350766ba61f29a27692e9a7f3e2e61d" title="Get the length of the Vector. " alt="" coords="254,56,415,83"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_resource_access.html#aacebfe47ff62d9a3b23db0ad4c9c2767" title="Get the Name. " alt="" coords="245,107,424,149"/>
+</map>

@@ -1,0 +1,77 @@
+\hypertarget{class_magnum_1_1_g_x_texture2_d}{}\section{Magnum\+:\+:G\+X\+Texture2D 類別 參考文件}
+\label{class_magnum_1_1_g_x_texture2_d}\index{Magnum\+::\+G\+X\+Texture2D@{Magnum\+::\+G\+X\+Texture2D}}
+
+
+\hyperlink{class_magnum_1_1_g_x_texture2_d}{G\+X\+Texture2D} encapsulate a 2D Texture of Graphics Device.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Texture2\+D.\+h$>$}
+
+
+
+類別\+Magnum\+:\+:G\+X\+Texture2\+D的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{class_magnum_1_1_g_x_texture2_d__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:G\+X\+Texture2\+D的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_g_x_texture2_d__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+X\+Texture2D} (int width\+\_\+, int height\+\_\+, const \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \&format\+\_\+, const \hyperlink{class_magnum_1_1_g_x_pixel_buffer_option}{G\+X\+Pixel\+Buffer\+Option} \&option\+\_\+=G\+X\+Pixel\+Buffer\+Option\+::\+None)\hypertarget{class_magnum_1_1_g_x_texture2_d_a2ca824fcc53e6ae0e173f766498a903c}{}\label{class_magnum_1_1_g_x_texture2_d_a2ca824fcc53e6ae0e173f766498a903c}
+
+\item 
+{\bfseries G\+X\+Texture2D} (const char $\ast$file\+Name\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture2_d_a9025f664d2fa0cc7e0f4b911809fde10}{}\label{class_magnum_1_1_g_x_texture2_d_a9025f664d2fa0cc7e0f4b911809fde10}
+
+\item 
+{\bfseries G\+X\+Texture2D} (const char $\ast$file\+Image\+\_\+, unsigned int length\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture2_d_ac49b237e5e8dc37812b043bada830181}{}\label{class_magnum_1_1_g_x_texture2_d_ac49b237e5e8dc37812b043bada830181}
+
+\item 
+void {\bfseries set\+Pixels} (int level\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&pixels\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture2_d_a99b1fd15acda4d83f0834939e2f5a1ed}{}\label{class_magnum_1_1_g_x_texture2_d_a99b1fd15acda4d83f0834939e2f5a1ed}
+
+\item 
+void {\bfseries set\+Pixels} (int level\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&pixels\+\_\+, int dx\+\_\+, int dy\+\_\+, int dw\+\_\+, int dh\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture2_d_a61f6f8b275a8ef7cdbec91286ee4bcc9}{}\label{class_magnum_1_1_g_x_texture2_d_a61f6f8b275a8ef7cdbec91286ee4bcc9}
+
+\item 
+void {\bfseries set\+Pixels} (int level\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&pixels\+\_\+, int offset\+\_\+, int pitch\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture2_d_a7cbed9618f7b462c4af2860b262509f0}{}\label{class_magnum_1_1_g_x_texture2_d_a7cbed9618f7b462c4af2860b262509f0}
+
+\item 
+void {\bfseries set\+Pixels} (int level\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&pixels\+\_\+, const \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \&format\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture2_d_ad68cc89191504fd871cb42ff62e8f742}{}\label{class_magnum_1_1_g_x_texture2_d_ad68cc89191504fd871cb42ff62e8f742}
+
+\item 
+void {\bfseries set\+Pixels} (int level\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ unsigned char $>$ \&pixels, const \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \&format\+\_\+, int offset\+\_\+, int pitch\+\_\+, int dx\+\_\+, int dy\+\_\+, int dw\+\_\+, int dh\+\_\+)\hypertarget{class_magnum_1_1_g_x_texture2_d_a82188075c62cc82f781a7a79239cabca}{}\label{class_magnum_1_1_g_x_texture2_d_a82188075c62cc82f781a7a79239cabca}
+
+\item 
+void {\bfseries generate\+Mipmap} ()\hypertarget{class_magnum_1_1_g_x_texture2_d_a8cebc2f0b6d211cafc9e3c66895138d0}{}\label{class_magnum_1_1_g_x_texture2_d_a8cebc2f0b6d211cafc9e3c66895138d0}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries G\+X\+Context}\hypertarget{class_magnum_1_1_g_x_texture2_d_a2c36d7f8865080802bbad88cd73d871c}{}\label{class_magnum_1_1_g_x_texture2_d_a2c36d7f8865080802bbad88cd73d871c}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_g_x_texture2_d}{G\+X\+Texture2D} encapsulate a 2D Texture of Graphics Device. 
+
+This is a Base Class of all other 2D Texture 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Texture2\+D.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Texture2\+D.\+cpp\end{DoxyCompactItemize}

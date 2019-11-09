@@ -1,0 +1,152 @@
+\hypertarget{class_magnum_1_1_g_z_file_output_stream}{}\section{Magnum\+:\+:G\+Z\+File\+Output\+Stream 類別 參考文件}
+\label{class_magnum_1_1_g_z_file_output_stream}\index{Magnum\+::\+G\+Z\+File\+Output\+Stream@{Magnum\+::\+G\+Z\+File\+Output\+Stream}}
+
+
+類別\+Magnum\+:\+:G\+Z\+File\+Output\+Stream的繼承圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{class_magnum_1_1_g_z_file_output_stream__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Magnum\+:\+:G\+Z\+File\+Output\+Stream的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{class_magnum_1_1_g_z_file_output_stream__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+Z\+File\+Output\+Stream} (const char $\ast$path\+\_\+)\hypertarget{class_magnum_1_1_g_z_file_output_stream_a9f09c47d5a982f78c67bac815c64b523}{}\label{class_magnum_1_1_g_z_file_output_stream_a9f09c47d5a982f78c67bac815c64b523}
+
+\item 
+virtual void \hyperlink{class_magnum_1_1_g_z_file_output_stream_a02a08c50826c8889cbe6a04f0fedaacd}{writeX} (const void $\ast$src\+\_\+, int size, bool reverse\+Order=false)
+\begin{DoxyCompactList}\small\item\em write function buffer data \end{DoxyCompactList}\item 
+virtual unsigned int \hyperlink{class_magnum_1_1_g_z_file_output_stream_a1b8131bc41f93dec6859de299d42d483}{tell} () const 
+\begin{DoxyCompactList}\small\item\em Tell the current read position. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_g_z_file_output_stream_a57acaa796c10ebafcd274de4f2702c82}{skip} (int size)
+\begin{DoxyCompactList}\small\item\em skip data from buffer \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_magnum_1_1_g_z_file_output_stream_ae8fcdc72044b8de627ceabdfca02bd0b}{opened} () const 
+\begin{DoxyCompactList}\small\item\em Check if the stream is opened. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_magnum_1_1_g_z_file_output_stream_a4a507512d72f18380b23d9328778770a}{rewind} ()
+\begin{DoxyCompactList}\small\item\em Rewind the stream, the stream current read position will be reset to 0 by this function. \end{DoxyCompactList}\item 
+void {\bfseries set\+Compression\+Level} (int level=-\/1)\hypertarget{class_magnum_1_1_g_z_file_output_stream_a52d2209171596ca200ba920e67a65bef}{}\label{class_magnum_1_1_g_z_file_output_stream_a52d2209171596ca200ba920e67a65bef}
+
+\item 
+int {\bfseries get\+Compression\+Level} () const \hypertarget{class_magnum_1_1_g_z_file_output_stream_a4024caaa33cd99d824f57bcc36b8ee68}{}\label{class_magnum_1_1_g_z_file_output_stream_a4024caaa33cd99d824f57bcc36b8ee68}
+
+\end{DoxyCompactItemize}
+\subsection*{額外的繼承成員}
+
+
+\subsection{函式成員說明文件}
+\index{Magnum\+::\+G\+Z\+File\+Output\+Stream@{Magnum\+::\+G\+Z\+File\+Output\+Stream}!opened@{opened}}
+\index{opened@{opened}!Magnum\+::\+G\+Z\+File\+Output\+Stream@{Magnum\+::\+G\+Z\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{opened() const }{opened() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool G\+Z\+File\+Output\+Stream\+::opened (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_file_output_stream_ae8fcdc72044b8de627ceabdfca02bd0b}{}\label{class_magnum_1_1_g_z_file_output_stream_ae8fcdc72044b8de627ceabdfca02bd0b}
+
+
+Check if the stream is opened. 
+
+\begin{DoxyReturn}{傳回值}
+true, stream is opened, else stream is closed 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_output_stream_aeb681f1259802b4bb7ce9bc95ac4ffbe}{Magnum\+::\+Output\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+File\+Output\+Stream@{Magnum\+::\+G\+Z\+File\+Output\+Stream}!rewind@{rewind}}
+\index{rewind@{rewind}!Magnum\+::\+G\+Z\+File\+Output\+Stream@{Magnum\+::\+G\+Z\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{rewind()}{rewind()}}]{\setlength{\rightskip}{0pt plus 5cm}void G\+Z\+File\+Output\+Stream\+::rewind (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_file_output_stream_a4a507512d72f18380b23d9328778770a}{}\label{class_magnum_1_1_g_z_file_output_stream_a4a507512d72f18380b23d9328778770a}
+
+
+Rewind the stream, the stream current read position will be reset to 0 by this function. 
+
+\begin{DoxyReturn}{傳回值}
+true, stream is opened, else stream is closed 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_output_stream_a4d8021ad1c9c3b7d3e2f643ec12ba7bb}{Magnum\+::\+Output\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+File\+Output\+Stream@{Magnum\+::\+G\+Z\+File\+Output\+Stream}!skip@{skip}}
+\index{skip@{skip}!Magnum\+::\+G\+Z\+File\+Output\+Stream@{Magnum\+::\+G\+Z\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{skip(int size)}{skip(int size)}}]{\setlength{\rightskip}{0pt plus 5cm}void G\+Z\+File\+Output\+Stream\+::skip (
+\begin{DoxyParamCaption}
+\item[{int}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_file_output_stream_a57acaa796c10ebafcd274de4f2702c82}{}\label{class_magnum_1_1_g_z_file_output_stream_a57acaa796c10ebafcd274de4f2702c82}
+
+
+skip data from buffer 
+
+
+\begin{DoxyParams}{參數}
+{\em size,int,the} & number of byte to be skipped \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_output_stream_ac7f8dbf68335a3dc58d8f66ed26f864d}{Magnum\+::\+Output\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+File\+Output\+Stream@{Magnum\+::\+G\+Z\+File\+Output\+Stream}!tell@{tell}}
+\index{tell@{tell}!Magnum\+::\+G\+Z\+File\+Output\+Stream@{Magnum\+::\+G\+Z\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{tell() const }{tell() const }}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int G\+Z\+File\+Output\+Stream\+::tell (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_file_output_stream_a1b8131bc41f93dec6859de299d42d483}{}\label{class_magnum_1_1_g_z_file_output_stream_a1b8131bc41f93dec6859de299d42d483}
+
+
+Tell the current read position. 
+
+\begin{DoxyReturn}{傳回值}
+unsigned int, the current read position 
+\end{DoxyReturn}
+
+
+實作 \hyperlink{class_magnum_1_1_output_stream_aa987bce83e1a721a48981a75270c9e55}{Magnum\+::\+Output\+Stream}.
+
+\index{Magnum\+::\+G\+Z\+File\+Output\+Stream@{Magnum\+::\+G\+Z\+File\+Output\+Stream}!writeX@{writeX}}
+\index{writeX@{writeX}!Magnum\+::\+G\+Z\+File\+Output\+Stream@{Magnum\+::\+G\+Z\+File\+Output\+Stream}}
+\subsubsection[{\texorpdfstring{write\+X(const void $\ast$src\+\_\+, int size, bool reverse\+Order=false)}{writeX(const void *src_, int size, bool reverseOrder=false)}}]{\setlength{\rightskip}{0pt plus 5cm}void G\+Z\+File\+Output\+Stream\+::writeX (
+\begin{DoxyParamCaption}
+\item[{const void $\ast$}]{src\+\_\+, }
+\item[{int}]{size, }
+\item[{bool}]{reverse\+Order = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_magnum_1_1_g_z_file_output_stream_a02a08c50826c8889cbe6a04f0fedaacd}{}\label{class_magnum_1_1_g_z_file_output_stream_a02a08c50826c8889cbe6a04f0fedaacd}
+
+
+write function buffer data 
+
+
+\begin{DoxyParams}{參數}
+{\em buffer,void} & $\ast$, the data will be written to the stream. \\
+\hline
+{\em size,int,the} & number of byte to be write to the stream \\
+\hline
+{\em reverse\+Order,true,for} & big endian system false, for little endian system \\
+\hline
+\end{DoxyParams}
+
+
+實作 \hyperlink{class_magnum_1_1_output_stream_a6fee68b5bf33dab5c2674b2ff8e850be}{Magnum\+::\+Output\+Stream}.
+
+
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Output\+Stream.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/Output\+Stream.\+cpp\end{DoxyCompactItemize}

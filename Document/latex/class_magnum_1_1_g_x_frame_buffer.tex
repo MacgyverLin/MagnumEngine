@@ -1,0 +1,104 @@
+\hypertarget{class_magnum_1_1_g_x_frame_buffer}{}\section{Magnum\+:\+:G\+X\+Frame\+Buffer 類別 參考文件}
+\label{class_magnum_1_1_g_x_frame_buffer}\index{Magnum\+::\+G\+X\+Frame\+Buffer@{Magnum\+::\+G\+X\+Frame\+Buffer}}
+
+
+\hyperlink{class_magnum_1_1_g_x_color_buffer}{G\+X\+Color\+Buffer} encapsulate a the Frame Buffer of Graphics Device.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Frame\+Buffer.\+h$>$}
+
+
+
+Magnum\+:\+:G\+X\+Frame\+Buffer的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_g_x_frame_buffer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+X\+Frame\+Buffer} (int width\+\_\+, int height\+\_\+, const \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \&color\+Format\+\_\+, const \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \&depth\+Format\+\_\+, const \hyperlink{class_magnum_1_1_g_x_multi_sample_mode}{G\+X\+Multi\+Sample\+Mode} \&multi\+Sample\+Mode\+\_\+)\hypertarget{class_magnum_1_1_g_x_frame_buffer_acb61f41cbf2d42b472297855c5e27864}{}\label{class_magnum_1_1_g_x_frame_buffer_acb61f41cbf2d42b472297855c5e27864}
+
+\item 
+bool {\bfseries get\+Status} () const \hypertarget{class_magnum_1_1_g_x_frame_buffer_ac0d60c1b4fb49ffe0f7c4f39e12761de}{}\label{class_magnum_1_1_g_x_frame_buffer_ac0d60c1b4fb49ffe0f7c4f39e12761de}
+
+\item 
+int {\bfseries get\+Width} () const \hypertarget{class_magnum_1_1_g_x_frame_buffer_a21840149b3c41272575c9bfbd2a26729}{}\label{class_magnum_1_1_g_x_frame_buffer_a21840149b3c41272575c9bfbd2a26729}
+
+\item 
+int {\bfseries get\+Height} () const \hypertarget{class_magnum_1_1_g_x_frame_buffer_a2bfffe90157333e6f22957ab31fb2ec7}{}\label{class_magnum_1_1_g_x_frame_buffer_a2bfffe90157333e6f22957ab31fb2ec7}
+
+\item 
+float {\bfseries get\+Aspect\+Ratio} () const \hypertarget{class_magnum_1_1_g_x_frame_buffer_acb651206223853b9e7f1fc8ec822026a}{}\label{class_magnum_1_1_g_x_frame_buffer_acb651206223853b9e7f1fc8ec822026a}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_image_rect}{G\+X\+Image\+Rect} \& {\bfseries get\+Rectangle} () const \hypertarget{class_magnum_1_1_g_x_frame_buffer_ad6ad7530d98480a09f5bea5cde11f24e}{}\label{class_magnum_1_1_g_x_frame_buffer_ad6ad7530d98480a09f5bea5cde11f24e}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \& {\bfseries get\+Color\+Format} () const \hypertarget{class_magnum_1_1_g_x_frame_buffer_a4e40d145996cb4f6d30fe7b9bdc5495a}{}\label{class_magnum_1_1_g_x_frame_buffer_a4e40d145996cb4f6d30fe7b9bdc5495a}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} \& {\bfseries get\+Depth\+Format} () const \hypertarget{class_magnum_1_1_g_x_frame_buffer_ad226446103d54e60a01d45512622ce65}{}\label{class_magnum_1_1_g_x_frame_buffer_ad226446103d54e60a01d45512622ce65}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_multi_sample_mode}{G\+X\+Multi\+Sample\+Mode} \& {\bfseries get\+Multi\+Sample\+Mode} () const \hypertarget{class_magnum_1_1_g_x_frame_buffer_a5b6de05b18feef23c6e265459b1da9bb}{}\label{class_magnum_1_1_g_x_frame_buffer_a5b6de05b18feef23c6e265459b1da9bb}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_render_target}{G\+X\+Render\+Target} $\ast$ {\bfseries get\+Color\+Target} () const \hypertarget{class_magnum_1_1_g_x_frame_buffer_a332ad9cb98704dff8b82fc52bae038ea}{}\label{class_magnum_1_1_g_x_frame_buffer_a332ad9cb98704dff8b82fc52bae038ea}
+
+\item 
+void {\bfseries set\+Color\+Target} (\hyperlink{class_magnum_1_1_g_x_render_target}{G\+X\+Render\+Target} $\ast$color\+Target\+\_\+)\hypertarget{class_magnum_1_1_g_x_frame_buffer_a2cb02e829390c7ced61017135cd9cc71}{}\label{class_magnum_1_1_g_x_frame_buffer_a2cb02e829390c7ced61017135cd9cc71}
+
+\item 
+const \hyperlink{class_magnum_1_1_g_x_render_target}{G\+X\+Render\+Target} $\ast$ {\bfseries get\+Depth\+Target} () const \hypertarget{class_magnum_1_1_g_x_frame_buffer_af68797b22e14a4e36ff999c93b24ef2d}{}\label{class_magnum_1_1_g_x_frame_buffer_af68797b22e14a4e36ff999c93b24ef2d}
+
+\item 
+void {\bfseries set\+Depth\+Target} (\hyperlink{class_magnum_1_1_g_x_render_target}{G\+X\+Render\+Target} $\ast$depth\+Target\+\_\+)\hypertarget{class_magnum_1_1_g_x_frame_buffer_a73c7d3295aa60ca5b084ed612971c9de}{}\label{class_magnum_1_1_g_x_frame_buffer_a73c7d3295aa60ca5b084ed612971c9de}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries handle}\hypertarget{class_magnum_1_1_g_x_frame_buffer_a05685a19b20f6de24ddfb13d72c30494}{}\label{class_magnum_1_1_g_x_frame_buffer_a05685a19b20f6de24ddfb13d72c30494}
+
+\item 
+bool {\bfseries status}\hypertarget{class_magnum_1_1_g_x_frame_buffer_ade67e41948184357f9a7b2642bb3cedb}{}\label{class_magnum_1_1_g_x_frame_buffer_ade67e41948184357f9a7b2642bb3cedb}
+
+\item 
+\hyperlink{class_magnum_1_1_g_x_image_rect}{G\+X\+Image\+Rect} {\bfseries rect}\hypertarget{class_magnum_1_1_g_x_frame_buffer_aff459afcfb02974f437db380f284f1df}{}\label{class_magnum_1_1_g_x_frame_buffer_aff459afcfb02974f437db380f284f1df}
+
+\item 
+\hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} {\bfseries color\+Format}\hypertarget{class_magnum_1_1_g_x_frame_buffer_a5134bd306ad14d8ae626bb738fc48690}{}\label{class_magnum_1_1_g_x_frame_buffer_a5134bd306ad14d8ae626bb738fc48690}
+
+\item 
+\hyperlink{class_magnum_1_1_g_x_pixel_format}{G\+X\+Pixel\+Format} {\bfseries depth\+Format}\hypertarget{class_magnum_1_1_g_x_frame_buffer_a2850f0a3e7973f8ac25ea7aff978fa31}{}\label{class_magnum_1_1_g_x_frame_buffer_a2850f0a3e7973f8ac25ea7aff978fa31}
+
+\item 
+\hyperlink{class_magnum_1_1_g_x_multi_sample_mode}{G\+X\+Multi\+Sample\+Mode} {\bfseries multi\+Sample\+Mode}\hypertarget{class_magnum_1_1_g_x_frame_buffer_a66fb57fada10c2b6ce5cc50da0abb316}{}\label{class_magnum_1_1_g_x_frame_buffer_a66fb57fada10c2b6ce5cc50da0abb316}
+
+\item 
+\hyperlink{class_magnum_1_1_g_x_render_target}{G\+X\+Render\+Target} $\ast$ {\bfseries color\+Target}\hypertarget{class_magnum_1_1_g_x_frame_buffer_a955b22a8df9ab125711ed5d84b62a6c2}{}\label{class_magnum_1_1_g_x_frame_buffer_a955b22a8df9ab125711ed5d84b62a6c2}
+
+\item 
+\hyperlink{class_magnum_1_1_g_x_render_target}{G\+X\+Render\+Target} $\ast$ {\bfseries depth\+Target}\hypertarget{class_magnum_1_1_g_x_frame_buffer_ad0b092364a8af97b231dba2e4d27eff7}{}\label{class_magnum_1_1_g_x_frame_buffer_ad0b092364a8af97b231dba2e4d27eff7}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries G\+X\+Context}\hypertarget{class_magnum_1_1_g_x_frame_buffer_a2c36d7f8865080802bbad88cd73d871c}{}\label{class_magnum_1_1_g_x_frame_buffer_a2c36d7f8865080802bbad88cd73d871c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_g_x_color_buffer}{G\+X\+Color\+Buffer} encapsulate a the Frame Buffer of Graphics Device. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Frame\+Buffer.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Frame\+Buffer.\+cpp\end{DoxyCompactItemize}

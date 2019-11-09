@@ -1,0 +1,5 @@
+<map id="Magnum::Collision::CallBack&lt; U &gt;" name="Magnum::Collision::CallBack&lt; U &gt;">
+<area shape="rect" id="node2" href="$class_magnum_1_1_delegate1.html" title="Magnum::Delegate1\&lt;\l U, ContactInfo \&gt;" alt="" coords="26,184,173,225"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_functor1.html" title="Magnum::Functor1\&lt; Contact\lInfo \&gt;" alt="" coords="5,95,193,136"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_link.html" title="Magnum::Link\&lt; Functor1\l\&lt; ContactInfo \&gt; \&gt;" alt="" coords="16,5,183,47"/>
+</map>

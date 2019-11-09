@@ -1,0 +1,19 @@
+<map id="Magnum::AudioComponent::getSystemHandle" name="Magnum::AudioComponent::getSystemHandle">
+<area shape="rect" id="node2" href="$class_magnum_1_1_audio_clip.html#a321057b7eee920588da25754380af705" title="Start playing the audio. " alt="" coords="464,388,631,415"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_audio_source_base.html#a67549138116b6c4d7824fa38c8a856e2" title="Stop playing the audio. " alt="" coords="232,890,416,932"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_audio_source_base.html#ade617910f4a1eb964516aa68c705f471" title="Pause the audio. " alt="" coords="232,642,416,684"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_audio_stream.html#afe27165ca951ac7e01914065ffecf741" title="Start playing the audio. " alt="" coords="470,446,625,488"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_audio_source_base.html#aee8840f1895eb802d25cc6b494ce9891" title="Resume the audio. " alt="" coords="232,708,416,749"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_audio_source_base.html#a5fbb95d5277c3a5e4eb73fb0d7a0edf5" title="Mute/Unmute the audio Source. " alt="" coords="232,773,416,814"/>
+<area shape="rect" id="node8" href="$class_magnum_1_1_audio_source_base.html#a27f6acecda8f7960b3c79b99e8473ce8" title="Enable/Disable Effect. " alt="" coords="232,956,416,997"/>
+<area shape="rect" id="node9" href="$class_magnum_1_1_audio_source_base.html#a223d20c8d7d0147479775e38f08872a6" title="Enable/Disable the looping. " alt="" coords="232,54,416,96"/>
+<area shape="rect" id="node10" href="$class_magnum_1_1_audio_source_base.html#a5030b2f2e0d0000d9a640f17801514c7" title="Set the priority of the audio. " alt="" coords="232,120,416,161"/>
+<area shape="rect" id="node11" href="$class_magnum_1_1_audio_source_base.html#a0115bbd05b13cc7b53a4561adf532782" title="Set the volume of the audio source, from 0 to 1. " alt="" coords="232,185,416,226"/>
+<area shape="rect" id="node12" href="$class_magnum_1_1_audio_source_base.html#ad958e4a0a91d537faca4a9c9f79fe4f4" title="Set the pitch of the audio source. " alt="" coords="232,250,416,292"/>
+<area shape="rect" id="node13" href="$class_magnum_1_1_audio_source_base.html#a20381f23a8f187123e8815a9deafb4b9" title="Set the doppler Level. " alt="" coords="232,316,416,357"/>
+<area shape="rect" id="node14" href="$class_magnum_1_1_audio_source_base.html#a437afc1a3cb83b3c8780f895cf9673bf" title="Set the volume Decay Mode. " alt="" coords="232,1021,416,1062"/>
+<area shape="rect" id="node15" href="$class_magnum_1_1_audio_source_base.html#a43cbb2cf46f47a800924a8017e910f88" title="Set the min Distance. " alt="" coords="232,381,416,422"/>
+<area shape="rect" id="node16" href="$class_magnum_1_1_audio_source_base.html#a696c65f2d5d7c0924e74689859d95082" title="Set the pan Level. " alt="" coords="232,446,416,488"/>
+<area shape="rect" id="node17" href="$class_magnum_1_1_audio_source_base.html#a34d62e931fbeeda21cc96d4a75107012" title="Set the spread. " alt="" coords="232,512,416,553"/>
+<area shape="rect" id="node18" href="$class_magnum_1_1_audio_source_base.html#a46615a70206de19f97f07c6d56542c09" title="Set the max Distance. " alt="" coords="232,577,416,618"/>
+</map>

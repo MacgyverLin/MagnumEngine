@@ -1,0 +1,101 @@
+\hypertarget{class_magnum_1_1_g_x_vertex_buffer}{}\section{Magnum\+:\+:G\+X\+Vertex\+Buffer 類別 參考文件}
+\label{class_magnum_1_1_g_x_vertex_buffer}\index{Magnum\+::\+G\+X\+Vertex\+Buffer@{Magnum\+::\+G\+X\+Vertex\+Buffer}}
+
+
+\hyperlink{class_magnum_1_1_g_x_vertex_buffer}{G\+X\+Vertex\+Buffer} encapsulate a the Index Buffer of Graphics Device.  
+
+
+
+
+{\ttfamily \#include $<$G\+X\+Vertex\+Buffer.\+h$>$}
+
+
+
+Magnum\+:\+:G\+X\+Vertex\+Buffer的合作圖\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_magnum_1_1_g_x_vertex_buffer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{公開型態}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Usage} \{ {\bfseries S\+T\+A\+T\+IC}, 
+{\bfseries D\+Y\+N\+A\+M\+IC}, 
+{\bfseries S\+T\+R\+E\+AM}
+ \}\hypertarget{class_magnum_1_1_g_x_vertex_buffer_a39169f473b0642ec90d9a7b5a60e92ee}{}\label{class_magnum_1_1_g_x_vertex_buffer_a39169f473b0642ec90d9a7b5a60e92ee}
+
+\end{DoxyCompactItemize}
+\subsection*{公開方法(Public Methods)}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries G\+X\+Vertex\+Buffer} (int vertex\+Count\+\_\+, const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_g_x_vertex_format}{G\+X\+Vertex\+Format} $>$ \&formats\+\_\+, Usage usage\+\_\+=S\+T\+A\+T\+IC)\hypertarget{class_magnum_1_1_g_x_vertex_buffer_ab989653e317232fc1103cec196c3cde5}{}\label{class_magnum_1_1_g_x_vertex_buffer_ab989653e317232fc1103cec196c3cde5}
+
+\item 
+const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_g_x_vertex_format}{G\+X\+Vertex\+Format} $>$ \& {\bfseries get\+Formats} () const \hypertarget{class_magnum_1_1_g_x_vertex_buffer_a53e959a875f07c690d17850f635170d6}{}\label{class_magnum_1_1_g_x_vertex_buffer_a53e959a875f07c690d17850f635170d6}
+
+\item 
+const \hyperlink{class_magnum_1_1_vector}{Vector}$<$ int $>$ \& {\bfseries get\+Offsets} () const \hypertarget{class_magnum_1_1_g_x_vertex_buffer_a9643c1d5bf2bde53e517edc9055660d3}{}\label{class_magnum_1_1_g_x_vertex_buffer_a9643c1d5bf2bde53e517edc9055660d3}
+
+\item 
+int {\bfseries get\+Vertex\+Count} () const \hypertarget{class_magnum_1_1_g_x_vertex_buffer_a2ed34e2b8a569343938243fb45b8a49a}{}\label{class_magnum_1_1_g_x_vertex_buffer_a2ed34e2b8a569343938243fb45b8a49a}
+
+\item 
+int {\bfseries get\+Stream\+Count} () const \hypertarget{class_magnum_1_1_g_x_vertex_buffer_a931bdbe2b3f76d1c9f44843ca506eec0}{}\label{class_magnum_1_1_g_x_vertex_buffer_a931bdbe2b3f76d1c9f44843ca506eec0}
+
+\item 
+unsigned int {\bfseries get\+Vertex\+Handle} () const \hypertarget{class_magnum_1_1_g_x_vertex_buffer_a30b98fc9bb15f0ccaf340f9c2279a2ab}{}\label{class_magnum_1_1_g_x_vertex_buffer_a30b98fc9bb15f0ccaf340f9c2279a2ab}
+
+\item 
+Usage {\bfseries get\+Usage} () const \hypertarget{class_magnum_1_1_g_x_vertex_buffer_a0b1219d8176655b2e41cfb13b03af72a}{}\label{class_magnum_1_1_g_x_vertex_buffer_a0b1219d8176655b2e41cfb13b03af72a}
+
+\item 
+void {\bfseries set\+Vertices} (const char $\ast$buffer\+\_\+, int to\+\_\+, int count\+\_\+)\hypertarget{class_magnum_1_1_g_x_vertex_buffer_ae24fd2edb9b65e435d6f57fc36de9f4d}{}\label{class_magnum_1_1_g_x_vertex_buffer_ae24fd2edb9b65e435d6f57fc36de9f4d}
+
+\item 
+{\footnotesize template$<$class T $>$ }\\void {\bfseries set\+Vertices} (const T $\ast$vertices\+\_\+, int count\+\_\+)\hypertarget{class_magnum_1_1_g_x_vertex_buffer_ad939e078a35f95320dfcce77dacc4823}{}\label{class_magnum_1_1_g_x_vertex_buffer_ad939e078a35f95320dfcce77dacc4823}
+
+\item 
+{\footnotesize template$<$class T $>$ }\\void {\bfseries set\+Vertices} (const T $\ast$vertices\+\_\+, int to\+\_\+, int from\+\_\+, int count\+\_\+)\hypertarget{class_magnum_1_1_g_x_vertex_buffer_ab7a2bdd689a38a1504b6c7b9c0943198}{}\label{class_magnum_1_1_g_x_vertex_buffer_ab7a2bdd689a38a1504b6c7b9c0943198}
+
+\end{DoxyCompactItemize}
+\subsection*{保護屬性}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int {\bfseries vertex\+Buffer\+Handle}\hypertarget{class_magnum_1_1_g_x_vertex_buffer_a10a0060080e621236efd9d2963b33626}{}\label{class_magnum_1_1_g_x_vertex_buffer_a10a0060080e621236efd9d2963b33626}
+
+\item 
+int {\bfseries vertex\+Count}\hypertarget{class_magnum_1_1_g_x_vertex_buffer_a82018f762d07790a31d321907da5153f}{}\label{class_magnum_1_1_g_x_vertex_buffer_a82018f762d07790a31d321907da5153f}
+
+\item 
+int {\bfseries G\+X\+Primitive\+Count}\hypertarget{class_magnum_1_1_g_x_vertex_buffer_a2baf08936954b7b82dab77f8335a90ce}{}\label{class_magnum_1_1_g_x_vertex_buffer_a2baf08936954b7b82dab77f8335a90ce}
+
+\item 
+\hyperlink{class_magnum_1_1_vector}{Vector}$<$ \hyperlink{class_magnum_1_1_g_x_vertex_format}{G\+X\+Vertex\+Format} $>$ {\bfseries formats}\hypertarget{class_magnum_1_1_g_x_vertex_buffer_a9c40750568c4c8840887b7c64f5a04cd}{}\label{class_magnum_1_1_g_x_vertex_buffer_a9c40750568c4c8840887b7c64f5a04cd}
+
+\item 
+\hyperlink{class_magnum_1_1_vector}{Vector}$<$ int $>$ {\bfseries offsets}\hypertarget{class_magnum_1_1_g_x_vertex_buffer_a7cc66464e9a33ade285492b29d11f60c}{}\label{class_magnum_1_1_g_x_vertex_buffer_a7cc66464e9a33ade285492b29d11f60c}
+
+\item 
+int {\bfseries stride}\hypertarget{class_magnum_1_1_g_x_vertex_buffer_a785a4db8d78a4275d2d4d985e9daa7e1}{}\label{class_magnum_1_1_g_x_vertex_buffer_a785a4db8d78a4275d2d4d985e9daa7e1}
+
+\item 
+Usage {\bfseries usage}\hypertarget{class_magnum_1_1_g_x_vertex_buffer_a86b4f3eaf2af97fa7c79dadf4e588c7b}{}\label{class_magnum_1_1_g_x_vertex_buffer_a86b4f3eaf2af97fa7c79dadf4e588c7b}
+
+\end{DoxyCompactItemize}
+\subsection*{類別朋友(Friends)}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries G\+X\+Context}\hypertarget{class_magnum_1_1_g_x_vertex_buffer_a2c36d7f8865080802bbad88cd73d871c}{}\label{class_magnum_1_1_g_x_vertex_buffer_a2c36d7f8865080802bbad88cd73d871c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳細描述}
+\hyperlink{class_magnum_1_1_g_x_vertex_buffer}{G\+X\+Vertex\+Buffer} encapsulate a the Index Buffer of Graphics Device. 
+
+此類別(class) 文件是由下列檔案中產生\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Vertex\+Buffer.\+h\item 
+C\+:/\+Epic\+Force\+Backup/\+Epic\+Force\+Engine/\+Epic\+Force\+Engine/\+Magnum\+Engine\+Lib/\+Magnum\+Core/G\+X\+Vertex\+Buffer.\+cpp\end{DoxyCompactItemize}

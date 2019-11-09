@@ -1,0 +1,7 @@
+<map id="TiXmlElement::SetAttribute" name="TiXmlElement::SetAttribute">
+<area shape="rect" id="node2" href="$class_ti_xml_attribute.html#a7e065df640116a62ea4f4b7da5449cc8" title="Set the value from an integer. " alt="" coords="233,5,410,32"/>
+<area shape="rect" id="node5" href="$class_ti_xml_element.html#abf0b3bd7f0e4c746a89ec6e7f101fc32" title="Sets an attribute of name to a given value. " alt="" coords="232,56,411,83"/>
+<area shape="rect" id="node3" href="$class_ti_xml_node.html#a2a38329ca5d3f28f98ce932b8299ae90" title="Changes the value of the node. " alt="" coords="468,5,612,32"/>
+<area shape="rect" id="node4" href="$class_ti_xml_node.html#a708e7f953df61d4d2d12f73171550a4b" title="Delete all the children of this node. Does not affect &#39;this&#39;. " alt="" coords="669,5,791,32"/>
+<area shape="rect" id="node6" href="$class_ti_xml_attribute.html#a2dae44178f668b3cb48101be4f2236a0" title="Set the value. " alt="" coords="459,56,621,83"/>
+</map>
